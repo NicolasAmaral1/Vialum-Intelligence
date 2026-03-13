@@ -30,17 +30,28 @@ const navItems = [
   { href: '/settings/account', icon: Settings, label: 'Configurações' },
 ];
 
+function getInitials(name: string): string {
+  return name
+    .split(' ')
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0])
+    .join('')
+    .toUpperCase();
+}
+
 export function NavSidebar() {
   const pathname = usePathname();
+  const user = useAuthStore((s) => s.user);
   const logout = useAuthStore((s) => s.logout);
   const pendingTotal = useSuggestionsStore((s) => s.pendingTotal);
 
   return (
     <TooltipProvider delayDuration={0}>
-      <nav className="flex flex-col items-center w-[72px] h-full bg-sidebar border-r border-border/50 py-5 gap-1">
+      <nav className="flex flex-col items-center w-[72px] h-full bg-nav border-r border-border-subtle py-5 gap-1">
         {/* Logo */}
         <div className="mb-6">
-          <div className="h-10 w-10 rounded-xl bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg shadow-[0_0_20px_rgba(159,236,20,0.15)]">
+          <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-[hsl(84,87%,38%)] flex items-center justify-center text-primary-foreground font-bold text-lg shadow-[0_0_24px_rgba(159,236,20,0.2)]">
             V
           </div>
         </div>
@@ -57,8 +68,8 @@ export function NavSidebar() {
                     className={cn(
                       'relative flex items-center justify-center h-10 w-10 rounded-xl transition-all duration-200',
                       isActive
-                        ? 'bg-primary/15 text-primary shadow-[0_0_12px_rgba(159,236,20,0.1)]'
-                        : 'text-muted-foreground hover:bg-white/5 hover:text-foreground'
+                        ? 'bg-primary/[0.14] text-primary shadow-[0_0_16px_rgba(159,236,20,0.08)]'
+                        : 'text-text-3 hover:bg-white/[0.05]'
                     )}
                   >
                     <item.icon className="h-[18px] w-[18px]" strokeWidth={isActive ? 2.2 : 1.8} />
@@ -71,7 +82,9 @@ export function NavSidebar() {
                     )}
                   </Link>
                 </TooltipTrigger>
-                <TooltipContent side="right" className="text-xs">{item.label}</TooltipContent>
+                <TooltipContent side="right" className="bg-overlay text-text-2 text-xs">
+                  {item.label}
+                </TooltipContent>
               </Tooltip>
             );
           })}
@@ -82,13 +95,32 @@ export function NavSidebar() {
           <TooltipTrigger asChild>
             <button
               onClick={() => logout()}
-              className="flex items-center justify-center h-10 w-10 rounded-xl text-muted-foreground hover:bg-white/5 hover:text-foreground transition-all duration-200"
+              className="flex items-center justify-center h-10 w-10 rounded-xl text-text-3 hover:bg-white/[0.05] transition-all duration-200"
             >
               <LogOut className="h-[18px] w-[18px]" strokeWidth={1.8} />
             </button>
           </TooltipTrigger>
-          <TooltipContent side="right" className="text-xs">Sair</TooltipContent>
+          <TooltipContent side="right" className="bg-overlay text-text-2 text-xs">
+            Sair
+          </TooltipContent>
         </Tooltip>
+
+        {/* User avatar */}
+        {user && (
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <div className="relative mt-2">
+                <div className="h-8 w-8 rounded-full bg-primary/20 text-primary flex items-center justify-center text-[11px] font-semibold">
+                  {getInitials(user.name)}
+                </div>
+                <div className="w-3 h-3 rounded-full bg-success border-2 border-nav absolute -bottom-0.5 -right-0.5" />
+              </div>
+            </TooltipTrigger>
+            <TooltipContent side="right" className="bg-overlay text-text-2 text-xs">
+              {user.name}
+            </TooltipContent>
+          </Tooltip>
+        )}
       </nav>
     </TooltipProvider>
   );

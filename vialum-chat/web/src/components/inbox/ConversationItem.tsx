@@ -28,56 +28,87 @@ export function ConversationItem({ conversation, isActive }: ConversationItemPro
     ? senderPrefix + lastMsg.content.slice(0, 80) + (lastMsg.content.length > 80 ? '...' : '')
     : 'Sem mensagens';
 
+  const hasUnread = conversation.unreadCount > 0;
+  const labels = conversation.conversationLabels ?? [];
+
   return (
     <Link
       href={`/inbox/${conversation.id}`}
       className={cn(
-        'flex items-start gap-3 px-4 py-3 border-b border-border/30 transition-all duration-150',
+        'w-full flex items-start gap-3 px-4 py-3 transition-all duration-150 border-l-2',
         isActive
-          ? 'bg-primary/[0.08] border-l-2 border-l-primary'
-          : 'hover:bg-white/[0.03] border-l-2 border-l-transparent'
+          ? 'bg-primary/[0.08] border-l-primary'
+          : 'border-l-transparent hover:bg-white/[0.03]'
       )}
     >
-      <ContactAvatar
-        name={displayName}
-        avatarUrl={avatarUrl}
-      />
-      <div className="flex-1 min-w-0">
-        <div className="flex items-center justify-between gap-2">
+      {/* Avatar area */}
+      <div className="relative shrink-0">
+        <ContactAvatar
+          name={displayName}
+          avatarUrl={avatarUrl}
+          size={40}
+        />
+        <span className="absolute -bottom-1 -right-1 w-4 h-4 rounded-full flex items-center justify-center text-[8px] text-white border border-raised bg-[#25D366]">
+          W
+        </span>
+      </div>
+
+      {/* Content area */}
+      <div className="flex-1 min-w-0 text-left">
+        {/* Name row */}
+        <div className="flex justify-between gap-2">
           <span className={cn(
-            'text-sm truncate flex items-center gap-1.5',
-            conversation.unreadCount > 0 ? 'font-semibold text-foreground' : 'font-medium text-foreground/80'
+            'text-[13px] truncate flex items-center gap-1.5',
+            hasUnread ? 'font-semibold text-text-1' : 'font-medium text-text-2'
           )}>
-            {isGroup && <span className="text-muted-foreground text-xs">👥</span>}
+            {isGroup && <span className="text-[11px]">👥</span>}
             {displayName}
           </span>
           <RelativeTime
             date={conversation.lastActivityAt}
             className={cn(
               'text-[10px] shrink-0',
-              conversation.unreadCount > 0 ? 'text-primary font-medium' : 'text-muted-foreground'
+              hasUnread ? 'text-primary' : 'text-text-4'
             )}
           />
         </div>
+
+        {/* Preview */}
         <p className={cn(
-          'text-xs truncate mt-0.5',
-          conversation.unreadCount > 0 ? 'text-foreground/60' : 'text-muted-foreground'
+          'text-[12px] truncate mt-0.5',
+          hasUnread ? 'text-text-2' : 'text-text-3'
         )}>
           {preview}
         </p>
+
+        {/* Labels row */}
         <div className="flex items-center gap-1.5 mt-1.5">
+          {labels.map((cl) => (
+            cl.label && (
+              <span
+                key={cl.labelId}
+                className="text-[9.5px] font-medium px-1.5 py-0.5 rounded-full"
+                style={{
+                  backgroundColor: cl.label.color ? `${cl.label.color}18` : undefined,
+                  color: cl.label.color || undefined,
+                }}
+              >
+                {cl.label.name}
+              </span>
+            )
+          ))}
           {conversation.inbox && (
-            <span className="text-[10px] text-muted-foreground bg-white/[0.05] px-1.5 py-0.5 rounded-md">
+            <span className="text-[9.5px] px-1.5 py-0.5 rounded-full text-text-4 bg-surface-custom">
               {conversation.inbox.name}
             </span>
           )}
           {isGroup && (
-            <span className="text-[10px] text-muted-foreground bg-white/[0.05] px-1.5 py-0.5 rounded-md">
+            <span className="text-[9.5px] px-1.5 py-0.5 rounded-full text-text-4 bg-surface-custom">
               {conversation.group?.groupType === 'agency' ? 'Agência' : 'Cliente'}
             </span>
           )}
-          {conversation.unreadCount > 0 && (
-            <span className="h-[18px] min-w-[18px] flex items-center justify-center px-1 text-[10px] font-semibold rounded-full bg-primary text-primary-foreground">
+          {hasUnread && (
+            <span className="ml-auto h-[18px] min-w-[18px] flex items-center justify-center px-1 text-[10px] font-bold rounded-full bg-primary text-primary-foreground">
               {conversation.unreadCount}
             </span>
           )}

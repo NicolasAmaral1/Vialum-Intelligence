@@ -1,9 +1,7 @@
 'use client';
 
-import { Input } from '@/components/ui/input';
-import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Search } from 'lucide-react';
-import { useRef, useCallback } from 'react';
+import { useRef, useCallback, useState } from 'react';
 import type { ConversationStatus, ConversationFilters } from '@/types/api';
 
 interface InboxFiltersProps {
@@ -11,15 +9,15 @@ interface InboxFiltersProps {
   onFilterChange: (partial: Partial<ConversationFilters>) => void;
 }
 
-const statusTabs: { value: ConversationStatus | 'all'; label: string }[] = [
-  { value: 'all', label: 'Todas' },
-  { value: 'open', label: 'Abertas' },
-  { value: 'pending', label: 'Pendentes' },
-  { value: 'resolved', label: 'Resolvidas' },
+const tabs: { value: 'all' | 'mine' | 'unassigned'; label: string; status: ConversationStatus | null }[] = [
+  { value: 'all', label: 'Todas', status: null },
+  { value: 'mine', label: 'Minhas', status: 'open' as ConversationStatus },
+  { value: 'unassigned', label: 'Não atribuídas', status: 'pending' as ConversationStatus },
 ];
 
-export function InboxFilters({ filters, onFilterChange }: InboxFiltersProps) {
+export function InboxFilters({ onFilterChange }: InboxFiltersProps) {
   const debounceRef = useRef<NodeJS.Timeout | null>(null);
+  const [activeTab, setActiveTab] = useState<'all' | 'mine' | 'unassigned'>('all');
 
   const handleSearch = useCallback(
     (value: string) => {
@@ -31,30 +29,52 @@ export function InboxFilters({ filters, onFilterChange }: InboxFiltersProps) {
     [onFilterChange]
   );
 
+  const handleTabChange = (tab: typeof tabs[number]) => {
+    setActiveTab(tab.value);
+    onFilterChange({ status: tab.status });
+  };
+
   return (
-    <div className="p-3 space-y-3 border-b border-border/50">
+    <div className="px-4 pt-4 pb-2">
+      {/* Title row */}
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="text-[16px] font-semibold text-text-1">Conversas</h2>
+        <button
+          type="button"
+          className="p-1.5 rounded-lg hover:bg-white/[0.05] text-text-3"
+        >
+          <Search className="w-4 h-4" />
+        </button>
+      </div>
+
+      {/* Pill tabs */}
+      <div className="flex gap-1 mb-3">
+        {tabs.map((tab) => (
+          <button
+            key={tab.value}
+            type="button"
+            onClick={() => handleTabChange(tab)}
+            className={`px-3 py-1.5 rounded-full text-[11px] font-medium transition-all duration-150 ${
+              activeTab === tab.value
+                ? 'bg-primary/[0.14] text-primary'
+                : 'text-text-3'
+            }`}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Search input */}
       <div className="relative">
-        <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
-        <Input
-          placeholder="Buscar conversas..."
-          className="pl-9 h-9"
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-text-4" />
+        <input
+          type="text"
+          placeholder="Buscar conversa..."
+          className="w-full pl-9 pr-3 py-2 rounded-xl text-[12px] bg-surface-custom border border-border text-text-1 focus:outline-none focus:border-primary/50 placeholder:text-text-4"
           onChange={(e) => handleSearch(e.target.value)}
         />
       </div>
-      <Tabs
-        value={filters.status || 'all'}
-        onValueChange={(v) =>
-          onFilterChange({ status: v === 'all' ? null : (v as ConversationStatus) })
-        }
-      >
-        <TabsList className="w-full">
-          {statusTabs.map((tab) => (
-            <TabsTrigger key={tab.value} value={tab.value} className="flex-1 text-xs">
-              {tab.label}
-            </TabsTrigger>
-          ))}
-        </TabsList>
-      </Tabs>
     </div>
   );
 }

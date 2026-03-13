@@ -5,6 +5,7 @@ interface ContactAvatarProps {
   name: string;
   avatarUrl?: string | null;
   className?: string;
+  size?: number;
 }
 
 function getInitials(name: string): string {
@@ -26,11 +27,13 @@ function getColorFromName(name: string): string {
   return colors[Math.abs(hash) % colors.length];
 }
 
-export function ContactAvatar({ name, avatarUrl, className }: ContactAvatarProps) {
+export function ContactAvatar({ name, avatarUrl, className, size }: ContactAvatarProps) {
+  const sizeStyle = size ? { width: size, height: size } : undefined;
+  const fontSize = size && size < 32 ? 'text-[10px]' : 'text-xs';
   return (
-    <Avatar className={cn('h-9 w-9', className)}>
+    <Avatar className={cn('h-9 w-9', className)} style={sizeStyle}>
       {avatarUrl && <AvatarImage src={avatarUrl} alt={name} />}
-      <AvatarFB className={cn('text-white text-xs', getColorFromName(name))}>
+      <AvatarFB className={cn('text-white', fontSize, getColorFromName(name))}>
         {getInitials(name)}
       </AvatarFB>
     </Avatar>

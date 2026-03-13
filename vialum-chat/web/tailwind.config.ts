@@ -58,7 +58,37 @@ const config: Config = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+  			/* Vialum v2 custom tokens */
+  			nav: 'hsl(var(--nav))',
+  			raised: 'hsl(var(--raised))',
+  			'surface-custom': 'hsl(var(--surface-custom))',
+  			overlay: 'hsl(var(--overlay))',
+  			'text-1': 'hsl(var(--text-1))',
+  			'text-2': 'hsl(var(--text-2))',
+  			'text-3': 'hsl(var(--text-3))',
+  			'text-4': 'hsl(var(--text-4))',
+  			'bubble-out': {
+  				DEFAULT: 'hsl(var(--bubble-out))',
+  				border: 'hsl(var(--bubble-out-border))'
+  			},
+  			'bubble-in': {
+  				DEFAULT: 'hsl(var(--bubble-in))',
+  				border: 'hsl(var(--bubble-in-border))'
+  			},
+  			ai: {
+  				DEFAULT: 'hsl(var(--ai))',
+  				surface: 'hsl(var(--ai-surface))'
+  			},
+  			note: {
+  				DEFAULT: 'hsl(var(--note-bg))',
+  				border: 'hsl(var(--note-border))',
+  				text: 'hsl(var(--note-text))'
+  			},
+  			success: 'hsl(var(--success))',
+  			warning: 'hsl(var(--warning))',
+  			danger: 'hsl(var(--danger))',
+  			'border-subtle': 'hsl(var(--border-subtle))',
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

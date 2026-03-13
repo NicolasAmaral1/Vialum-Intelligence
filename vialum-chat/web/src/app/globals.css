@@ -39,42 +39,90 @@
   }
 
   .dark {
-    /* Background: #070707 */
-    --background: 0 0% 2.7%;
-    /* Foreground: #F9F9F9 */
-    --foreground: 0 0% 97.6%;
-    /* Card: slightly lifted from bg */
-    --card: 0 0% 5%;
-    --card-foreground: 0 0% 97.6%;
-    --popover: 0 0% 5%;
-    --popover-foreground: 0 0% 97.6%;
+    /* ═══ Vialum Chat v2 — HSL 220° blue-undertone palette ═══ */
+
+    /* Base surface: #191C24 */
+    --background: 220 14% 12%;
+    /* Primary text: #EBEEF5 */
+    --foreground: 220 15% 93%;
+
+    /* Card = raised: #1F2330 */
+    --card: 220 13% 15%;
+    --card-foreground: 220 15% 93%;
+
+    /* Popover = overlay: #2F3440 */
+    --popover: 220 11% 22%;
+    --popover-foreground: 220 15% 93%;
+
     /* Primary: #9FEC14 (Genesis lime) */
     --primary: 84 87% 50%;
-    --primary-foreground: 0 0% 2.7%;
+    --primary-foreground: 220 16% 10%;
+
     /* Secondary: dark green tint */
     --secondary: 84 30% 10%;
-    --secondary-foreground: 0 0% 97.6%;
-    /* Muted: soft dark */
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 55%;
+    --secondary-foreground: 220 15% 93%;
+
+    /* Muted = surface: #262A36 */
+    --muted: 220 12% 18%;
+    --muted-foreground: 220 10% 60%;
+
     /* Accent: subtle green glow */
     --accent: 84 40% 12%;
     --accent-foreground: 84 87% 50%;
+
     /* Destructive */
     --destructive: 0 63% 31%;
     --destructive-foreground: 0 0% 98%;
-    /* Borders */
-    --border: 0 0% 14%;
-    --input: 0 0% 14%;
+
+    /* Borders: #2A2E3A */
+    --border: 220 12% 19%;
+    --input: 220 12% 19%;
     --ring: 84 87% 50%;
+
     /* Charts */
     --chart-1: 84 87% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
-    /* Sidebar: even darker */
-    --sidebar: 0 0% 3.5%;
+
+    /* Sidebar / Nav: #15171E */
+    --sidebar: 220 16% 10%;
+
+    /* ═══ Custom surface hierarchy ═══ */
+    --nav: 220 16% 10%;
+    --raised: 220 13% 15%;
+    --surface-custom: 220 12% 18%;
+    --overlay: 220 11% 22%;
+
+    /* ═══ Text hierarchy ═══ */
+    --text-1: 220 15% 93%;
+    --text-2: 220 10% 60%;
+    --text-3: 220 8% 40%;
+    --text-4: 220 6% 28%;
+
+    /* ═══ Bubble colors ═══ */
+    --bubble-out: 110 25% 14%;
+    --bubble-out-border: 110 22% 18%;
+    --bubble-in: 220 12% 17%;
+    --bubble-in-border: 220 11% 22%;
+
+    /* ═══ AI accent (indigo) ═══ */
+    --ai: 234 93% 74%;
+    --ai-surface: 240 26% 15%;
+
+    /* ═══ Private note ═══ */
+    --note-bg: 40 30% 13%;
+    --note-border: 40 40% 21%;
+    --note-text: 46 70% 62%;
+
+    /* ═══ Semantic ═══ */
+    --success: 160 67% 52%;
+    --warning: 38 92% 56%;
+    --danger: 0 94% 71%;
+
+    /* Border subtle variant */
+    --border-subtle: 220 13% 17%;
   }
 
   * {

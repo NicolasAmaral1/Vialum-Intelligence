@@ -1,7 +1,8 @@
 'use client';
 
+import { Sparkles } from 'lucide-react';
 import { useSuggestionsStore } from '@/stores/suggestions.store';
-import { SuggestionCard } from './SuggestionCard';
+import { MessageBlockCard } from './MessageBlockCard';
 
 interface HITLBarProps {
   conversationId: string;
@@ -16,17 +17,25 @@ export function HITLBar({ conversationId }: HITLBarProps) {
   if (pending.length === 0) return null;
 
   return (
-    <div className="border-t bg-muted/30 px-4 py-2 space-y-2">
-      <p className="text-xs font-medium text-muted-foreground">
-        Sugestões da IA ({pending.length})
-      </p>
-      {pending.map((suggestion) => (
-        <SuggestionCard
-          key={suggestion.id}
-          suggestion={suggestion}
-          conversationId={conversationId}
-        />
-      ))}
+    <div className="bg-ai-surface border-t-2 border-[hsl(var(--ai)_/_0.4)] px-4 py-3">
+      <div className="max-w-3xl mx-auto space-y-2">
+        <div className="flex items-center gap-2">
+          <Sparkles className="w-4 h-4 text-[hsl(var(--ai))]" />
+          <span className="text-[12px] font-semibold text-[hsl(var(--ai))]">
+            Sugestão da IA
+          </span>
+          <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-[hsl(var(--ai)_/_0.08)] text-[hsl(var(--ai))]">
+            {pending.length}
+          </span>
+        </div>
+        {pending.map((suggestion) => (
+          <MessageBlockCard
+            key={suggestion.id}
+            suggestion={suggestion}
+            conversationId={conversationId}
+          />
+        ))}
+      </div>
     </div>
   );
 }

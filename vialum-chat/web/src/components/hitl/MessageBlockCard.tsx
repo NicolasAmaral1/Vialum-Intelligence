@@ -6,7 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { useAuthStore } from '@/stores/auth.store';
 import { useSuggestionsStore } from '@/stores/suggestions.store';
 import { aiSuggestionsApi } from '@/lib/api/ai-suggestions';
-import { Bot, Check, X, Pencil, Send, Loader2, ChevronDown, ChevronUp } from 'lucide-react';
+import { Sparkles, Check, X, Pencil, Send, Loader2, ChevronDown, ChevronUp } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import type { AISuggestion } from '@/types/api';
 
@@ -28,6 +28,8 @@ export function MessageBlockCard({ suggestion, conversationId }: MessageBlockCar
   const contentRef = useRef<HTMLDivElement>(null);
 
   const senderLabel = (suggestion.context as Record<string, unknown>)?.senderLabel as string ?? 'IA';
+  const flowName = (suggestion.context as Record<string, unknown>)?.flowName as string | undefined;
+  const stepName = (suggestion.context as Record<string, unknown>)?.stepName as string | undefined;
 
   useEffect(() => {
     if (contentRef.current) {
@@ -91,17 +93,19 @@ export function MessageBlockCard({ suggestion, conversationId }: MessageBlockCar
   const parts = suggestion.content.split(/\n\n+/).filter(s => s.trim().length > 0);
   const partCount = parts.length;
 
+  const confidence = (suggestion as unknown as Record<string, unknown>).confidence as number | undefined;
+
   return (
-    <div className="bg-card/80 backdrop-blur-sm rounded-xl border border-primary/20 shadow-[0_0_12px_rgba(159,236,20,0.06)] overflow-hidden">
+    <div className="bg-[hsl(var(--ai)_/_0.05)] rounded-xl border border-[hsl(var(--ai)_/_0.15)] overflow-hidden">
       {/* Header */}
-      <div className="flex items-center justify-between px-3 py-2 bg-primary/[0.06] border-b border-primary/10">
+      <div className="flex items-center justify-between px-3 py-2 bg-[hsl(var(--ai)_/_0.06)] border-b border-[hsl(var(--ai)_/_0.1)]">
         <div className="flex items-center gap-2">
-          <div className="h-5 w-5 rounded-full bg-primary/20 flex items-center justify-center">
-            <Bot className="h-3 w-3 text-primary" />
+          <div className="h-5 w-5 rounded-full bg-[hsl(var(--ai)_/_0.2)] flex items-center justify-center">
+            <Sparkles className="h-3 w-3 text-[hsl(var(--ai))]" />
           </div>
-          <span className="text-xs font-medium text-primary">{senderLabel}</span>
+          <span className="text-xs font-medium text-[hsl(var(--ai))]">{senderLabel}</span>
           {partCount > 1 && (
-            <span className="text-[10px] text-muted-foreground bg-muted/50 px-1.5 py-0.5 rounded-full">
+            <span className="text-[10px] text-text-3 bg-surface-custom px-1.5 py-0.5 rounded-full">
               {partCount} msgs
             </span>
           )}
@@ -112,7 +116,7 @@ export function MessageBlockCard({ suggestion, conversationId }: MessageBlockCar
       <div className="px-3 py-2.5">
         {editing ? (
           <div className="space-y-2">
-            <p className="text-[10px] text-muted-foreground mb-1">
+            <p className="text-[10px] text-text-3 mb-1">
               Separe mensagens com linha em branco (Enter 2x)
             </p>
             <Textarea
@@ -147,7 +151,7 @@ export function MessageBlockCard({ suggestion, conversationId }: MessageBlockCar
             <div
               ref={contentRef}
               className={
-                'text-sm leading-relaxed whitespace-pre-wrap text-foreground/90 ' +
+                'text-[13px] leading-relaxed whitespace-pre-wrap text-text-2 ' +
                 (!expanded ? 'line-clamp-3' : '')
               }
             >
@@ -157,7 +161,7 @@ export function MessageBlockCard({ suggestion, conversationId }: MessageBlockCar
             {(isOverflowing || expanded) && (
               <button
                 onClick={() => setExpanded(!expanded)}
-                className="flex items-center gap-1 text-xs text-primary/80 hover:text-primary mt-1 transition-colors"
+                className="flex items-center gap-1 text-xs text-[hsl(var(--ai)_/_0.8)] hover:text-[hsl(var(--ai))] mt-1 transition-colors"
               >
                 {expanded ? (
                   <>Ver Menos <ChevronUp className="h-3 w-3" /></>
@@ -167,6 +171,39 @@ export function MessageBlockCard({ suggestion, conversationId }: MessageBlockCar
               </button>
             )}
 
+            {/* Confidence bar */}
+            {confidence != null && (
+              <div className="flex items-center gap-2 mt-2">
+                <span className="text-[10px] text-text-4">Confiança:</span>
+                <div className="w-20 h-1.5 rounded-full overflow-hidden bg-surface-custom">
+                  <div
+                    className="h-full rounded-full"
+                    style={{
+                      width: `${confidence}%`,
+                      background: 'linear-gradient(90deg, hsl(var(--ai)), hsl(var(--primary)))',
+                    }}
+                  />
+                </div>
+                <span className="text-[10px] font-medium text-[hsl(var(--ai))]">{confidence}%</span>
+              </div>
+            )}
+
+            {/* Talk context */}
+            {(flowName || stepName) && (
+              <div className="flex items-center gap-1.5 mt-2">
+                {flowName && (
+                  <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-surface-custom text-text-3">
+                    {flowName}
+                  </span>
+                )}
+                {stepName && (
+                  <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-surface-custom text-text-3">
+                    {stepName}
+                  </span>
+                )}
+              </div>
+            )}
+
             {/* Actions */}
             <div className="flex justify-end gap-1.5 mt-2 pt-2 border-t border-border/30">
               <Button
@@ -174,7 +211,7 @@ export function MessageBlockCard({ suggestion, conversationId }: MessageBlockCar
                 variant="ghost"
                 onClick={handleReject}
                 disabled={acting}
-                className="h-7 text-xs text-muted-foreground hover:text-destructive"
+                className="h-7 text-xs text-text-3 hover:text-danger"
               >
                 <X className="h-3 w-3 mr-1" />
                 Descartar
@@ -184,7 +221,7 @@ export function MessageBlockCard({ suggestion, conversationId }: MessageBlockCar
                 variant="outline"
                 onClick={() => setEditing(true)}
                 disabled={acting}
-                className="h-7 text-xs border-border/50"
+                className="h-7 text-xs border border-[hsl(var(--ai)_/_0.3)] text-[hsl(var(--ai))]"
               >
                 <Pencil className="h-3 w-3 mr-1" />
                 Editar

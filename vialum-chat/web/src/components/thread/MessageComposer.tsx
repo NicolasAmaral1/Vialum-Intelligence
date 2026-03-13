@@ -1,12 +1,10 @@
 'use client';
 
 import { useState, useRef, useCallback } from 'react';
-import { Button } from '@/components/ui/button';
-import { Textarea } from '@/components/ui/textarea';
-import { Toggle } from '@/components/ui/toggle';
-import { Send, Lock } from 'lucide-react';
+import { Smile, Paperclip, Mic, Send, Lock } from 'lucide-react';
 import { useMessages } from '@/hooks/useMessages';
 import { useTypingIndicator } from '@/hooks/useTypingIndicator';
+import { cn } from '@/lib/utils';
 
 interface MessageComposerProps {
   conversationId: string;
@@ -40,33 +38,97 @@ export function MessageComposer({ conversationId }: MessageComposerProps) {
     startTyping();
   };
 
+  const hasText = content.trim().length > 0;
+
   return (
-    <div className="border-t p-3">
-      <div className="flex items-end gap-2">
-        <div className="flex-1 relative">
-          <Textarea
-            ref={textareaRef}
-            value={content}
-            onChange={handleChange}
-            onKeyDown={handleKeyDown}
-            placeholder={isPrivate ? 'Escreva uma nota privada...' : 'Digite sua mensagem...'}
-            className="min-h-[44px] max-h-[160px] resize-none pr-10"
-            rows={1}
-          />
-        </div>
-        <div className="flex items-center gap-1">
-          <Toggle
-            pressed={isPrivate}
-            onPressedChange={setIsPrivate}
-            size="sm"
-            aria-label="Nota privada"
-            className="data-[state=on]:bg-yellow-500/20 data-[state=on]:text-yellow-600"
+    <div className="bg-raised border-t border-border px-4 py-3">
+      <div className="max-w-3xl mx-auto">
+        {/* Tabs */}
+        <div className="flex gap-1 mb-2">
+          <button
+            onClick={() => setIsPrivate(false)}
+            className={cn(
+              'px-3 py-1 rounded-md text-xs font-medium transition-colors',
+              !isPrivate
+                ? 'bg-surface-custom text-text-2'
+                : 'text-text-4 hover:text-text-3'
+            )}
           >
-            <Lock className="h-4 w-4" />
-          </Toggle>
-          <Button size="icon" onClick={handleSend} disabled={!content.trim()}>
-            <Send className="h-4 w-4" />
-          </Button>
+            Responder
+          </button>
+          <button
+            onClick={() => setIsPrivate(true)}
+            className={cn(
+              'px-3 py-1 rounded-md text-xs font-medium transition-colors flex items-center gap-1.5',
+              isPrivate
+                ? 'bg-surface-custom text-text-2'
+                : 'text-text-4 hover:text-text-3'
+            )}
+          >
+            <Lock className="h-3 w-3" />
+            Nota Privada
+          </button>
+        </div>
+
+        {/* Input row */}
+        <div className="flex items-end gap-2">
+          {/* Left icon buttons */}
+          <div className="flex items-center gap-0.5 pb-1.5">
+            <button className="text-text-3 hover:bg-white/[0.05] rounded-lg p-2 transition-colors">
+              <Smile className="h-[18px] w-[18px]" />
+            </button>
+            <button className="text-text-3 hover:bg-white/[0.05] rounded-lg p-2 transition-colors">
+              <Paperclip className="h-[18px] w-[18px]" />
+            </button>
+          </div>
+
+          {/* Textarea */}
+          <div className="flex-1">
+            <textarea
+              ref={textareaRef}
+              value={content}
+              onChange={handleChange}
+              onKeyDown={handleKeyDown}
+              placeholder={isPrivate ? 'Escreva uma nota privada...' : 'Digite sua mensagem...'}
+              rows={1}
+              className={cn(
+                'w-full bg-surface-custom border rounded-xl px-4 py-2.5 text-[13.5px] text-text-1 focus:outline-none focus:border-primary/50 min-h-[42px] max-h-[160px] resize-none placeholder:text-text-4',
+                isPrivate
+                  ? 'bg-note border-warning'
+                  : 'border-border'
+              )}
+            />
+          </div>
+
+          {/* Send / Mic button */}
+          <div className="pb-1.5">
+            {hasText ? (
+              <button
+                onClick={handleSend}
+                className="bg-primary text-primary-foreground rounded-xl p-2.5 transition-colors"
+              >
+                <Send className="h-[18px] w-[18px]" />
+              </button>
+            ) : (
+              <button className="text-text-3 hover:bg-white/[0.05] rounded-xl p-2.5 transition-colors">
+                <Mic className="h-[18px] w-[18px]" />
+              </button>
+            )}
+          </div>
+        </div>
+
+        {/* Keyboard hints */}
+        <div className="flex items-center justify-between mt-1.5 px-1">
+          <span className="text-[10px] text-text-4">
+            <kbd className="bg-surface-custom text-text-3 px-1 py-0.5 rounded text-[9px]">/</kbd>{' '}
+            respostas rápidas
+          </span>
+          <span className="text-[10px] text-text-4">
+            <kbd className="bg-surface-custom text-text-3 px-1 py-0.5 rounded text-[9px]">Enter</kbd>{' '}
+            enviar{' · '}
+            <kbd className="bg-surface-custom text-text-3 px-1 py-0.5 rounded text-[9px]">Shift+Enter</kbd>{' '}
+            nova linha
+          </span>
         </div>
       </div>
     </div>

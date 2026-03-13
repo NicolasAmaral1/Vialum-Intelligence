@@ -3,11 +3,10 @@
 import { useParams } from 'next/navigation';
 import { ConversationItem } from './ConversationItem';
 import { InboxFilters } from './InboxFilters';
+import { SkeletonConversation } from './SkeletonConversation';
 import { EmptyState } from '@/components/shared/EmptyState';
-import { LoadingSpinner } from '@/components/shared/LoadingSpinner';
 import { useConversations } from '@/hooks/useConversations';
 import { MessageSquare } from 'lucide-react';
-import { ScrollArea } from '@/components/ui/scroll-area';
 
 export function ConversationList() {
   const params = useParams();
@@ -15,15 +14,15 @@ export function ConversationList() {
   const { conversations, loading, filters, updateFilters } = useConversations();
 
   return (
-    <div className="flex flex-col h-full w-[320px] border-r border-border/50 bg-background">
-      <div className="px-4 py-3.5 border-b border-border/50">
-        <h2 className="text-base font-semibold tracking-tight">Conversas</h2>
-      </div>
+    <div className="flex flex-col h-full w-[340px] border-r border-border bg-raised shrink-0">
       <InboxFilters filters={filters} onFilterChange={updateFilters} />
-      <ScrollArea className="flex-1">
+
+      <div className="flex-1 overflow-y-auto">
         {loading && conversations.length === 0 ? (
-          <div className="flex justify-center py-8">
-            <LoadingSpinner />
+          <div>
+            {Array.from({ length: 5 }).map((_, i) => (
+              <SkeletonConversation key={i} />
+            ))}
           </div>
         ) : conversations.length === 0 ? (
           <EmptyState
@@ -40,7 +39,7 @@ export function ConversationList() {
             />
           ))
         )}
-      </ScrollArea>
+      </div>
     </div>
   );
 }
