@@ -1,0 +1,204 @@
+# Classe NCL 31
+
+Especificações pré-especificadas (Português):
+
+- 310002 | Frutas cítricas frescas
+- 310003 | Algas para consumo humano ou animal, não processadas
+- 310003 | Unprocessed seaweed for human or animal consumption
+- 310004 | Frutos oleaginosos não processados
+- 310005 | Animais de cativeiro para exibição
+- 310006 | Animais vivos
+- 310007 | Alimentos para animais
+- 310008 | Árvores
+- 310009 | Árvores de natal*
+- 310010 | Troncos de árvores
+- 310011 | Arbustos
+- 310011 | Moitas
+- 310012 | Oats* Aveia*
+- 310013 | Frutas silvestres/frutas vermelhas frescas
+- 310014 | Sal para gado
+- 310015 | Beterraba fresca
+- 310016 | Farelo
+- 310017 | Madeira bruta não serrada
+- 310018 | Aparas de madeira para fabricação de pasta de madeira
+- 310019 | Madeira bruta descascada
+- 310019 | Madeira bruta sem casca
+- 310020 | Grão de cacau, cru
+- 310021 | Cana-de-açúcar
+- 310022 | Alfarroba crua
+- 310023 | Sementes de cereais não processadas
+- 310024 | Cogumelos frescos
+- 310025 | Micélio de cogumelos para propagação
+- 310026 | Torta para gado
+- 310026 | Cattle cake
+- 310027 | Castanhas frescas
+- 310028 | Cal para forragem animal
+- 310029 | Raízes de chicória
+- 310030 | Chicória fresca
+- 310031 | Biscoitos para cães
+- 310032 | Limões frescos
+- 310033 | Cascas de coco
+- 310034 | Cocos
+- 310035 | Alimentos para pássaros
+- 310036 | Torta de colza para gado
+- 310037 | Pepinos frescos
+- 310038 | Cones de lúpulo não processados
+- 310039 | Massa de farelos para consumo animal
+- 310040 | Copra
+- 310041 | Mariscos vivos
+- 310042 | Legumes e verduras frescos
+- 310043 | Abóboras frescas
+- 310044 | Guirlandas de flores naturais
+- 310045 | Ovos fertilizados para chocar
+- 310045 | Fertilised eggs for hatching
+- 310046 | Camada de palha em plantações
+- 310048 | Resíduos de destilaria para consumo animal
+- 310049 | Resíduo de cevada
+- 310050 | Animais de criação
+- 310052 | Preparações para engorda de animais
+- 310052 | Preparações para engorda de animais de criação
+- 310053 | Farinha de arroz para forragem
+- 310054 | Favas frescas
+- 310055 | Flores naturais
+- 310056 | Flores secas para decoração
+- 310057 | Pólen [matéria-prima]
+- 310058 | Feno
+- 310059 | Forragens fortificantes para animais
+- 310060 | Alimento para gado
+- 310060 | Forragem
+- 310060 | Cattle food
+- 310061 | Trigo
+- 310062 | Frutas frescas
+- 310063 | Grama natural
+- 310063 | Sod
+- 310064 | Bagas de zimbro
+- 310065 | Gérmen para uso botânico
+- 310066 | Grãos [cereais]
+- 310067 | Grãos para consumo animal
+- 310068 | Grãos [sementes]
+- 310068 | Sementes para plantio
+- 310069 | Sêmola para aves de criação
+- 310070 | Ervas comestíveis frescas [temperos]
+- 310070 | Hortaliças frescas
+- 310071 | Plantas
+- 310072 | Mudas [plântulas]
+- 310073 | Lúpulo não processado
+- 310074 | Noz de cola
+- 310074 | Cola nuts
+- 310075 | Alface fresca
+- 310076 | Lentilhas frescas
+- 310077 | Leveduras para consumo animal
+- 310078 | Cortiça bruta
+- 310079 | Farinha de linhaça [forragem]
+- 310080 | Forração para espaços de animais
+- 310081 | Turfa de forração para espaços de animais
+- 310082 | Maize* Milho*
+- 310083 | Torta de milho para gado
+- 310084 | Malte para cervejaria e destilaria
+- 310086 | Bagaços
+- 310086 | Resíduos de frutas
+- 310087 | Avelãs frescas
+- 310088 | Farinha para animais
+- 310089 | Ovas de peixes
+- 310090 | Ovos de bicho-da-seda
+- 310091 | Bulbos de flores
+- 310091 | Bulbos de plantas
+- 310092 | Cebolas frescas
+- 310093 | Azeitonas frescas
+- 310094 | Laranjas frescas
+- 310095 | Cevada *
+- 310096 | Urtigas
+- 310097 | Ovos de siba [sépia] para aves
+- 310098 | Palha [caules de cereais]
+- 310099 | Palha [forragem]
+- 310100 | Palmas [folhas de palmeira]
+- 310101 | Palmeiras
+- 310102 | Papas para engorda de animais de criação
+- 310103 | Peixes vivos
+- 310104 | Videira [pés de vinha]
+- 310105 | Pinhas de pinheiro
+- 310106 | Pimentões [planta]
+- 310107 | Plantas secas para decoração
+- 310108 | Alho-poró fresco
+- 310109 | Ervilhas frescas
+- 310110 | Batatas frescas
+- 310111 | Preparações para postura de aves de criação
+- 310112 | Alimento para animais confinados
+- 310114 | Raízes para consumo animal
+- 310115 | Uvas frescas
+- 310116 | Ruibarbo fresco
+- 310117 | Roseiras
+- 310118 | Centeio
+- 310119 | Bichos-da-seda
+- 310120 | Gergelim comestível não processado
+- 310121 | Trufas frescas
+- 310122 | Resíduo de destilação
+- 310123 | Aves de criação vivas
+- 310124 | Algarobilho para consumo animal
+- 310125 | Amêndoas [frutas]
+- 310126 | Amendoins frescos
+- 310127 | Farinha de amendoim para animais
+- 310128 | Torta de amendoim para animais
+- 310129 | By-products of the processing of cereals, for animal consumptionSubprodutos do processamento de cereais, para consumo animal
+- 310129 | Residual products of cereals for animal consumption
+- 310131 | Bagaços de cana-de-açúcar [matéria-prima]
+- 310132 | Iscas para pesca, vivas
+- 310133 | Lagostins de água doce, vivos
+- 310134 | Crustáceos vivos
+- 310135 | Lagostas vivas
+- 310136 | Mexilhões vivos
+- 310137 | Ostras vivas
+- 310138 | Alimentos para animais de estimação
+- 310139 | Cascas de árvore em bruto
+- 310140 | Lagostas espinhosas vivas
+- 310141 | Objetos comestíveis para mascar para animais
+- 310142 | Bebidas para animais de estimação
+- 310143 | Farinha de peixe para consumo animal
+- 310144 | Arroz não processado
+- 310145 | Pepinos-do-mar vivos
+- 310146 | Papel granulado [forração] para animais de estimação
+- 310147 | Areia higiênica aromática para animais de estimação
+- 310148 | Aloe vera [planta]
+- 310148 | Babosa [planta]
+- 310149 | Espinafre fresco
+- 310150 | Linhaça para consumo animal
+- 310150 | Flaxseed for animal consumption
+- 310151 | Farinha de linhaça para consumo animal
+- 310151 | Flaxseed meal for animal consumption
+- 310152 | Gérmen de trigo para consumo animal
+- 310153 | Alcachofras frescas
+- 310154 | Arenques vivos
+- 310155 | Salmão vivo
+- 310156 | Sardinhas vivas
+- 310157 | Atum vivo
+- 310158 | Alho fresco
+- 310159 | Abobrinhas frescas
+- 310160 | Linhaça comestível não processada
+- 310160 | Unprocessed edible flaxseed
+- 310161 | Arranjos de frutas frescas
+- 310162 | Anchovas vivas
+- 310163 | Insetos comestíveis, vivos
+- 310164 | Espigas de milho não processadas [abertas ou fechadas]
+- 310165 | Quinoa não processada
+- 310166 | Trigo sarraceno não processado
+- 310167 | Carpas koi vivas
+- 310168 | Moluscos vivos
+- 310168 | Live mollusks
+- 310169 | Iscas de pesca liofilizadas
+- 310170 | Flores comestíveis, frescas
+- 310171 | Gengibre fresco
+- 310172 | Grãos de soja frescos
+- 310173 | Plantas de cannabis
+- 310174 | Cannabis não processada
+- 310175 | Feixes de ramos de bétula para sauna
+- 310176 | Sementes de abóbora não processadas
+- 310177 | Sementes de cânhamo não processadas
+- 310178 | Espelta não processada
+- 310179 | Gatária
+- 310179 | Erva-dos-gatos
+- 310180 | Espelta pequena não processada
+- 310181 | Areia para banheiros de animais de estimação
+- 310182 | Fruto do café, não processado
+- 310183 | Aparas de madeira para cama para animais
+- 310184 | Tâmaras frescas
+- 310185 | Abacates frescos

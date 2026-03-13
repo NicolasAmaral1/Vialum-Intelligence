@@ -1,0 +1,186 @@
+# Classe NCL 37
+
+Especificações pré-especificadas (Português):
+
+- 370001 | Manutenção de mobiliário
+- 370002 | Manutenção de aparelhos fotográficos
+- 370003 | Instalação e reparo de aparelhos elétricos
+- 370004 | Instalação e reparo de elevadores
+- 370004 | Passenger elevator installation and repair
+- 370005 | Asfaltamento
+- 370006 | Manutenção e reparo de automóveis
+- 370008 | Manutenção e reparo de aeronaves
+- 370009 | Limpeza de interiores de edifícios
+- 370010 | Lavanderia
+- 370011 | Limpeza e reparo de caldeira
+- 370012 | Manutenção e reparo de queimadores
+- 370013 | Aluguel de buldôzeres
+- 370014 | Office machines and equipment installation, maintenance and repairInstalação, manutenção e reparo de máquinas e equipamentos de escritório
+- 370015 | Instalação e reparo de alarmes de incêndio
+- 370016 | Instalação e reparo de alarme antifurto
+- 370017 | Conserto de estofamento
+- 370018 | Manutenção e reparo de caixas-fortes
+- 370020 | Aluguel de equipamento de construção
+- 370021 | Construção naval
+- 370022 | Recondicionamento de roupas
+- 370024 | Instalação e reparo de equipamentos de aquecimento
+- 370025 | Conservação e conserto de sapatos
+- 370026 | Limpeza de chaminé
+- 370027 | Manutenção e reparo de cofre
+- 370028 | Installation and repair of air-conditioning apparatusInstalação e reparo de aparelhos de ar condicionado
+- 370029 | Construção
+- 370030 | Construção subaquática
+- 370031 | Supervisão de trabalhos de construção civil
+- 370032 | Reparo [restauração] de roupas
+- 370034 | Tratamento, limpeza e conserto de couro
+- 370035 | Instalação de equipamentos de cozinha
+- 370036 | Demolição de edificações
+- 370037 | Tratamento antiferrugem
+- 370038 | Desinfecção
+- 370040 | Pintura ou reparo de letreiros
+- 370041 | Construção e reparos de armazém
+- 370042 | Impermeabilização de edificações
+- 370042 | Damp-proofing [building]
+- 370044 | Aluguel de escavadeiras
+- 370045 | Limpeza de janelas
+- 370046 | Reparo e manutenção de projetor de filmes
+- 370047 | Instalação e reparo de fornos
+- 370048 | Conservação, limpeza e conserto de peles [de animais]
+- 370049 | Lubrificação de veículos
+- 370049 | Vehicle lubrication
+- 370050 | Limpeza de roupas
+- 370051 | Reparos de relógios
+- 370052 | Construção de fábricas
+- 370053 | Instalação e reparo de dispositivos de irrigação
+- 370054 | Serviços de isolamento para edificações
+- 370055 | Lavagem de veículos
+- 370056 | Lavagem de roupa
+- 370057 | Lavagem
+- 370058 | Instalação, manutenção e reparo de máquinas
+- 370059 | Serviços de alvenaria
+- 370060 | Restauração de mobiliário
+- 370061 | Construção de quebra-mar
+- 370062 | Prensagem para passar roupa
+- 370063 | Construção e manutenção de oleoduto
+- 370064 | Colocação de papel de parede
+- 370064 | Wallpapering
+- 370065 | Reparo de guarda-chuvas
+- 370066 | Reparo de guarda-sol de mão
+- 370067 | Estofamento de móveis
+- 370068 | Pintura, de interior e de exterior
+- 370069 | Abrasão com pedra pomes
+- 370070 | Serviços de reboco
+- 370071 | Serviços de encanamento
+- 370072 | Polimento de veículo
+- 370073 | Conserto de bomba
+- 370074 | Construção de portos
+- 370077 | Recauchutagem de pneus
+- 370077 | Retreading of tires
+- 370078 | Instalação e reparo de equipamentos de refrigeração
+- 370079 | Passar roupa a ferro
+- 370080 | Reestanhagem
+- 370081 | Rebitagem
+- 370082 | Tratamento antioxidante para veículos
+- 370083 | Serviços de postos de gasolina [reabastecimento e manutenção de veículos]
+- 370084 | Instalação e reparo telefones
+- 370085 | Manutenção de veículos
+- 370086 | Envernizamento
+- 370087 | Limpeza de veículo
+- 370089 | Serviço de reparo de panes em veículos
+- 370090 | Aluguel de equipamentos de limpeza
+- 370091 | Montagem de andaimes
+- 370101 | Assentamento de tijolos
+- 370102 | Lavagem de fraldas
+- 370103 | Lavagem a seco
+- 370104 | Provimento  de informações sobre construção
+- 370105 | Provimento  de informações sobre reparos
+- 370106 | Afiação de faca
+- 370107 | Extração mineral
+- 370107 | Mineração
+- 370108 | Extração de pedras [pedreira]
+- 370109 | Pavimentação de rua
+- 370110 | Lixamento [areamento]
+- 370111 | Reparos subaquáticos
+- 370112 | Limpeza de fachada de edificações
+- 370113 | Vulcanização de pneus [reparo]
+- 370113 | Vulcanization of tires [repair]
+- 370114 | Perfuração de poços
+- 370115 | Montagem de estandes de feira de exposições e lojas
+- 370116 | Installation, maintenance and repair of computer hardwareInstalação, manutenção e reparo de computadores
+- 370117 | Supressão de interferência em aparelhos elétricos
+- 370118 | Rebuilding engines that have been worn or partially destroyedRecondicionamento de motores desgastados ou parcialmente destruídos
+- 370119 | Rebuilding machines that have been worn or partially destroyedRecondicionamento de máquinas desgastadas ou parcialmente destruídas
+- 370120 | Aluguel de guindaste
+- 370121 | Aluguel de máquinas para varrer ruas
+- 370122 | Serviços de cobertura de telhado
+- 370123 | Serviços de fabricação de neve artificial
+- 370124 | Limpeza de rua
+- 370125 | Reparo de fechaduras de segurança
+- 370126 | Restauração de obras de arte
+- 370127 | Restauração de instrumentos musicais
+- 370128 | Instalação de portas e janelas
+- 370129 | Manutenção de piscinas
+- 370130 | Recarga de cartuchos de toner
+- 370131 | Consultoria na área de construção civil
+- 370132 | Serviços de carpintaria
+- 370133 | Perfuração de poços profundos de petróleo ou de gás.
+- 370134 | Aluguel de bombas de drenagem
+- 370135 | Aluguel de máquinas de lavar roupas
+- 370136 | Reparo de linhas de transmissão de energia
+- 370137 | Carregamento de baterias de veículos
+- 370138 | Balanceamento de pneus
+- 370138 | Tire balancing
+- 370139 | Afinação de instrumentos musicais
+- 370140 | Instalação de cabos
+- 370141 | Esterilização de instrumentos médicos
+- 370141 | Sterilisation of medical instruments
+- 370142 | Serviços de fraturamento hidráulico [fracking]
+- 370142 | Fracking services
+- 370143 | Aluguel de máquinas de lavar louças
+- 370144 | Aluguel de lava-louças
+- 370145 | Aluguel de máquinas de secar louças
+- 370146 | Instalação de serviços básicos de infraestrutura em locais de construção
+- 370147 | Serviços de eletricistas
+- 370148 | Installation and repair of flood protection equipmentInstalação e reparo de equipamentos de proteção contra inundações
+- 370149 | Remoção de neve
+- 370150 | Serviços de recarga de cartuchos a jato de tinta
+- 370151 | Recarga de veículos elétricos
+- 370152 | Serviços domésticos [serviços de limpeza]
+- 370153 | Serviços de recarga de bateria para telefones celulares
+- 370153 | Mobile telephone battery charging services
+- 370154 | Adaptação de carrocerias para automóveis
+- 370155 | Escavação de ruínas, exceto para fins arqueológicos
+- 370157 | Maintenance of passenger lifts via remote monitoring systemsManutenção de elevadores através de sistemas de monitoramento remoto
+- 370157 | Maintenance of passenger elevators via remote monitoring systems
+- 370158 | Colocação de grama artificial
+- 370159 | Intervenção paisagística por meio da instalação de elementos rígidos ou inanimados [hardscaping]
+- 370160 | Aluguel de carregadores portáteis
+- 370161 | Assembly services relating to the installation of furnitureServiços de montagem relacionados à instalação de móveis
+- 370162 | Serviços de marcenaria [reparo de trabalhos em madeira]
+- 370163 | Desodorização de estofamento
+- 370163 | Deodorising of upholstery
+- 370164 | Irradiação de instrumentos médicos
+- 370165 | Aluguel de carregadores de bateria
+- 370166 | Higienização de estofamento
+- 370166 | Sanitising of upholstery
+- 370167 | Desinfecção de instrumentos cirúrgicos
+- 370168 | Aluguel de esterilizadores para instrumentos médicos
+- 370169 | Rental of sterilisers for medical instruments
+- 370170 | Refilling of gas cylinders used for making carbonated beveragesReabastecimento de cilindros de gás usados para fazer bebidas gaseificadas
+- 370171 | Serviços de reparo de joias e bijuterias
+- 370171 | Jewelry repair services
+- 370172 | Restauração de fotografias impressas
+- 370173 | Montagem de casas pré-fabricadas
+- 370174 | Serviços de reabastecimento de gás natural para veículos motorizados
+- 370175 | Limpeza de joias e bijuterias
+- 370175 | Jewelry cleaning
+- 370176 | Reservation of charging stations for electric vehiclesReserva de estações de carga para veículos elétricos
+- 370177 | Fumigation for pest control, other than for agriculture, horticulture and forestryFumigação para controle de pragas, exceto para agricultura, horticultura e silvicultura
+- 370178 | Reparo de aparelhos ortodônticos
+- 370179 | Serviços de troca de baterias de veículos elétricos
+- 370180 | Reparo e manutenção de óculos
+- 370180 | Eyeglass repair and maintenance
+- 370181 | Limpeza de superfícies para remediação de mofo
+- 370181 | Cleaning of surfaces for mold remediation
+- 370182 | Aluguel de máquinas de distribuição de combustível
+- 370183 | Reparo de ombrelone / guarda-sol de pátio

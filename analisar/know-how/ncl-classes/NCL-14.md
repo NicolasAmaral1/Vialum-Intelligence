@@ -1,0 +1,156 @@
+# Classe NCL 14
+
+Especificações pré-especificadas (Português):
+
+- 140001 | Ágatas
+- 140002 | Ponteiros
+- 140003 | Lingotes de metais preciosos
+- 140004 | Joias e bijuterias de âmbar amarelo
+- 140004 | Jewelry of yellow amber
+- 140005 | Pérolas de ambroide [âmbar prensado]
+- 140006 | Amuletos [joias e bijuterias]
+- 140006 | Amulets [jewelry]
+- 140008 | Prata fiada
+- 140009 | Fios de prata [joias e bijuterias]
+- 140009 | Silver thread [jewelry]
+- 140011 | Relógios [de parede ou de sala]
+- 140013 | Pêndulos [relojoaria]
+- 140014 | Tambores [relojoaria]
+- 140015 | Pulseiras [joias e bijuterias]
+- 140015 | Bracelets [jewelry]
+- 140016 | Relógios de pulso
+- 140017 | Pulseiras de relógios
+- 140017 | Watch straps
+- 140017 | Straps for wristwatches
+- 140018 | Berloques para joias e bijuterias
+- 140018 | Pingentes para joias e bijuterias
+- 140018 | Charms for jewellery
+- 140018 | Jewelry charms
+- 140019 | Broches [joias e bijuterias]
+- 140019 | Brooches [jewelry]
+- 140021 | Mostradores de relógios
+- 140022 | Relógios de sol
+- 140023 | Mecanismos de relógios
+- 140024 | Correntes [joias e bijuterias]
+- 140024 | Chains [jewelry]
+- 140025 | Correntes de relógios
+- 140027 | Cronógrafos [relógios]
+- 140028 | Cronômetros [relógios de precisão]
+- 140029 | Cronoscópios
+- 140030 | Instrumentos cronométricos
+- 140031 | Colares [joias e bijuterias]
+- 140031 | Necklaces [jewelry]
+- 140032 | Relógios elétricos
+- 140033 | Prendedores de gravatas
+- 140034 | Moedas
+- 140035 | Diamonds* Diamantes*
+- 140040 | Fios de metal precioso [joias e bijuterias]
+- 140040 | Threads of precious metal [jewelry]
+- 140040 | Wire of precious metal [jewelry]
+- 140040 | Wire of precious metal [jewellery]
+- 140042 | Relógios atômicos
+- 140043 | Relógios de controle
+- 140043 | Master clocks
+- 140044 | Caixas de relógios [de parede ou de sala]
+- 140045 | Irídio
+- 140046 | Adereços de marfim [joias e bijuterias]
+- 140046 | Joias e bijuterias de marfim
+- 140047 | Ornamentos de azeviche
+- 140048 | Azeviche bruto ou semitrabalhado
+- 140049 | Fichas de cobre
+- 140050 | Artigos de joalheria / bijuteria
+- 140050 | Jewelry
+- 140051 | Medalhões [joias e bijuterias]
+- 140051 | Lockets [jewelry]
+- 140052 | Medalhas
+- 140055 | Metais preciosos não trabalhados ou semitrabalhados
+- 140057 | Watches* Relógios de uso pessoal
+- 140058 | Molas de relógios
+- 140059 | Vidros de relógios
+- 140059 | Watch crystals
+- 140060 | Movimentos de relojoaria
+- 140062 | Olivina [gemas]
+- 140062 | Peridoto
+- 140063 | Ouro, não trabalhado ou batido
+- 140064 | Fios de ouro [joalheria]
+- 140064 | Gold thread [jewelry]
+- 140066 | Ósmio
+- 140067 | Paládio
+- 140069 | Alfinetes de adereço
+- 140070 | Pérolas [joias e bijuterias]
+- 140070 | Pearls [jewelry]
+- 140073 | Pedras semipreciosas
+- 140074 | Pedras preciosas
+- 140075 | Platina [metal]
+- 140082 | Relógios despertadores
+- 140083 | Ródio
+- 140085 | Rutênio
+- 140095 | Espinélio [pedras preciosas]
+- 140096 | Estátuas de metal precioso
+- 140097 | Imitações de pedras preciosas
+- 140097 | Paste jewelry [costume jewelry]
+- 140104 | Ligas de metal precioso
+- 140106 | Âncoras [relojoaria]
+- 140107 | Anéis [joias e bijuterias]
+- 140107 | Rings [jewelry]
+- 140109 | Objetos de arte de metal precioso
+- 140113 | Caixas de metal precioso
+- 140117 | Joias e bijuterias para chapéus
+- 140117 | Ornamentos de chapéus [de metal precioso]
+- 140118 | Brincos
+- 140119 | Joias e bijuterias para calçados
+- 140119 | Ornamentos de metal precioso para calçados
+- 140122 | Abotoaduras
+- 140123 | Bustos de metal precioso
+- 140144 | Caixas de relógios de pulso [partes de relógios]
+- 140145 | Estojos para apresentação de relógios de pulso
+- 140146 | Estatuetas de metal precioso
+- 140146 | Statuettes of precious metal
+- 140150 | Alfinetes de metal precioso
+- 140150 | Pins [jewelry]
+- 140151 | Alfinetes de gravatas
+- 140152 | Emblemas de metal precioso
+- 140162 | Chaveiros de bijuteria
+- 140162 | Key chains [split rings with trinket or decorative fob]
+- 140163 | Prata semitrabalhada ou batida
+- 140164 | Cronômetros [cronógrafo]
+- 140165 | Joias esmaltadas [cloisonné]
+- 140165 | Cloisonné jewelry
+- 140166 | Porta-joias
+- 140166 | Jewelry boxes
+- 140167 | Contas para a fabricação de joias e bijuterias
+- 140167 | Beads for making jewelry
+- 140168 | Fechos para joias e bijuterias
+- 140168 | Clasps for jewelry
+- 140169 | Peças para montagem de joias e bijuterias
+- 140169 | Jewelry findings
+- 140170 | Pastas [estojos] dobráveis para joias e bijuterias
+- 140170 | Jewelry rolls
+- 140171 | Cabochão
+- 140172 | Argolas de metal precioso para chaveiros
+- 140173 | Caixas para apresentação de joias
+- 140173 | Presentation boxes for jewelry
+- 140174 | Ponteiros de relógio de pulso
+- 140175 | Misbaha [espécie de rosário]
+- 140176 | Pulseiras feitas de matéria têxtil bordada [joalheria]
+- 140176 | Bracelets made of embroidered textile [jewelry]
+- 140177 | Berloques para chaveiros
+- 140177 | Enfeites [pingentes] para chaveiros
+- 140178 | Rosários e terços
+- 140178 | Chaplets
+- 140179 | Crucifixos de metal precioso, exceto joias
+- 140179 | Crucifixes of precious metal, other than jewelry
+- 140180 | Crucifixos enquanto joias
+- 140180 | Crucifixes as jewelry
+- 140181 | Chaveiros retráteis
+- 140181 | Retractable key chains
+- 140182 | Alfinetes de chapéu [joias e bijuterias]
+- 140182 | Jewelry hatpins
+- 140183 | Taças estatuárias comemorativas de metal precioso
+- 140184 | Taças para premiação de metal precioso
+- 140185 | Etiquetas de metal precioso costuradas para vestuário
+- 140186 | Cordões de pescoço para chaves
+- 140187 | Joias e bijuterias para animais de estimação
+- 140187 | Jewelry for pets
+- 140188 | Relógios de xadrez
+- 140189 | Pêndulos de clarividência

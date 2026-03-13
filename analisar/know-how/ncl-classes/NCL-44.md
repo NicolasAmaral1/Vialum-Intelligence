@@ -1,0 +1,145 @@
+# Classe NCL 44
+
+Especificações pré-especificadas (Português):
+
+- 440009 | Criação de animais
+- 440012 | Jardinagem paisagística
+- 440018 | Serviços de banhos públicos para fins higiênicos
+- 440019 | Serviços de banhos turcos
+- 440020 | Serviços de salões de beleza
+- 440021 | Serviços de clínica médica
+- 440032 | Quiroprática
+- 440034 | Serviços de cabeleireiro
+- 440037 | Confecção de coroas de flores
+- 440043 | Serviços de clínica de convalescença
+- 440059 | Serviços hospitalares
+- 440060 | Serviços de saúde
+- 440072 | Horticultura
+- 440077 | Jardinagem
+- 440084 | Aluguel de equipamentos agrícolas
+- 440086 | Massagem
+- 440087 | Assistência médica
+- 440094 | Serviços de viveiros de plantas
+- 440097 | Fisioterapia
+- 440097 | Physical therapy
+- 440106 | Serviços de sanatórios
+- 440111 | Assistência veterinária
+- 440113 | Serviços de odontologia
+- 440114 | Serviços de clínica de repouso
+- 440115 | Aspersão, aérea ou de superfície, de fertilizantes e outras substâncias químicas agrícolas440115 44 Aerial and surface spreading of fertilisers and other agricultural chemicals
+- 440131 | Toalete de animais
+- 440133 | Serviços de bancos de sangue
+- 440143 | Serviços de arranjo de flores
+- 440147 | Serviços de abrigos para doentes e desamparados
+- 440148 | Manutenção de gramados
+- 440151 | Manicure
+- 440152 | Serviços de parteira
+- 440153 | Enfermagem [médica]
+- 440154 | Consultoria em farmacêutica
+- 440156 | Cirurgia plástica
+- 440166 | Cirurgia de árvores
+- 440168 | Vermin exterminating for agriculture, aquaculture, horticulture and forestryExtermínio de animais nocivos para agricultura, aquacultura, horticultura e silvicultura
+- 440171 | Destruição de ervas daninhas
+- 440173 | Toalete de animais de estimação
+- 440180 | Implante de cabelos
+- 440185 | Serviços de psicólogos
+- 440188 | Aluguel de instalações sanitárias
+- 440193 | Aromaterapia
+- 440194 | Inseminação artificial
+- 440195 | Reabilitação de toxicomaníacos
+- 440196 | Fertilização in vitro
+- 440196 | In vitro fertilisation services
+- 440197 | Serviço de tatuagem
+- 440198 | Serviços de telemedicina
+- 440199 | Concepção de projeto paisagístico
+- 440200 | Serviços de sauna
+- 440201 | Serviços de solário
+- 440202 | Serviços de saúde em spa
+- 440203 | Serviços de esteticista
+- 440204 | Preparação de receitas por farmacêuticos
+- 440205 | Serviços de terapia
+- 440206 | Plantação de árvores com a finalidade de compensação de carbono
+- 440207 | Serviços de aquacultura
+- 440208 | Locação de equipamentos médicos
+- 440209 | Serviços de centros médicos
+- 440209 | Health center services
+- 440210 | Serviços de medicina alternativa
+- 440211 | Ortofonia [articulação correta das palavras]
+- 440212 | Aconselhamento em questões de saúde
+- 440212 | Health counseling
+- 440213 | Depilação com cera
+- 440214 | Serviços ortodônticos
+- 440215 | Aconselhamento médico para pessoas com deficiências
+- 440216 | Piercing
+- 440217 | Serviços de reflorestamento
+- 440218 | Cuidados paliativos
+- 440219 | Serviços de casas de repouso
+- 440220 | Pest control services for agriculture, aquaculture, horticulture and forestryServiços de controle de pragas para agricultura, aquicultura, horticultura e silvicultura
+- 440221 | Serviços de bancos de tecido humano
+- 440222 | Aluguel de animais para serviços de jardinagem
+- 440223 | Aluguel de colmeias
+- 440224 | Terapia assistida por animais [zooterapia]
+- 440225 | Exames médicos de rastreamento
+- 440227 | Serviços de viticultura
+- 440228 | Consultoria em viticultura
+- 440229 | Serviços de enfermagem domiciliar
+- 440230 | Aluguel de aparelhos para estilização de cabelos
+- 440231 | Cultivo de plantas
+- 440232 | Aconselhamento em dieta e nutrição
+- 440233 | Aluguel de robôs cirúrgicos
+- 440234 | Gestão de vida selvagem [manejo da fauna silvestre]
+- 440235 | Acupuntura
+- 440236 | Terapia com ventosas
+- 440237 | Serviços de cuidados pós-natal
+- 440238 | Rental of bottles and containers containing gas for medical purposesAluguel de garrafas e recipientes contendo gás para fins medicinais
+- 440239 | Aluguel de geradores de água hidrogenada para banhos
+- 440240 | Serviços de medicina regenerativa
+- 440241 | Serviços de estética
+- 440242 | Serviços de tingimento de cabelos
+- 440242 | Serviços de coloração de cabelos
+- 440242 | Serviços de pintura de cabelos
+- 440243 | Serviços de poda de árvores
+- 440244 | Transplante de árvores
+- 440245 | Arquitetura paisagística
+- 440246 | Terapia ocupacional
+- 440247 | Serviços de avaliação de saúde
+- 440248 | Provimento de instalações de jardinagem comunitária
+- 440249 | Serviços de barbearia
+- 440250 | Providing service animals to persons with disabilitiesProvimento de animais de serviço para pessoas com deficiências
+- 440251 | Terapia com dança [dançaterapia]
+- 440252 | Terapia com artes [arteterapia]
+- 440253 | Terapia com música [musicoterapia]
+- 440254 | Remote monitoring of medical data for medical diagnosis and treatmentMonitoramento remoto de dados médicos para diagnóstico e tratamento médico
+- 440255 | Tratamento médico utilizando células cultivadas
+- 440256 | Cultured cell bank services for medical transplantationServiços de banco de células cultivadas para transplante médico
+- 440257 | Serviços de rastreamento de dificuldade de aprendizagem
+- 440258 | Serviços de rastreamento de transtorno de déficit de atenção
+- 440258 | Serviços de rastreamento de tda
+- 440259 | Attention deficit hyperactivity disorder screening servicesServiços de rastreamento de transtorno de déficit de atenção com hiperatividade
+- 440259 | Serviços de rastreamento de tdah
+- 440260 | Diagnóstico de distúrbios de processamento visual
+- 440261 | Aluguel de equipamentos de jardinagem
+- 440262 | Serviços de vacinação
+- 440263 | Rental of respiratory masks for artificial respirationAluguel de máscaras para respiração artificial
+- 440264 | Medical examination for quarantine clearance purposesExame médico para fins de liberação de quarentena
+- 440265 | Exames médicos
+- 440266 | Serviços de optometria
+- 440267 | Serviços de saúde mental
+- 440268 | Consultoria em saúde ocupacional
+- 440269 | Aluguel de microscópios cirúrgicos
+- 440270 | Provimento de instalações para reabilitação em saúde mental
+- 440271 | Provimento de instalações para reabilitação física
+- 440272 | Aluguel de óculos
+- 440272 | Rental of eyeglasses
+- 440273 | Drug screening for medical diagnosis and treatmentTriagem de medicamentos para diagnóstico e tratamento médico
+- 440274 | Pathological examination for medical diagnosis and treatmentExame patológico para diagnóstico e tratamento médico
+- 440275 | Aluguel de óculos de sol
+- 440276 | Fumigation for pest control for agriculture, horticulture and forestryFumigação para controle de pragas na agricultura, horticultura e silvicultura
+- 440277 | Pathological testing for diagnostic and treatment purposesTestes patológicos para fins de diagnóstico e tratamento
+- 440278 | Semeadura aérea
+- 440280 | Terapia de raspagem
+- 440281 | Serviços de hidroterapia
+- 440282 | Medical testing for diagnostic and treatment purposesTestes médicos para fins de diagnóstico e tratamento
+- 440283 | Serviços de tratamento facial
+- 440284 | Serviços de pesca comercial
+- 440285 | Guarda-costas pessoal

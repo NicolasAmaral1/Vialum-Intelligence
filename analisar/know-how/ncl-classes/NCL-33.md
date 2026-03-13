@@ -1,0 +1,47 @@
+# Classe NCL 33
+
+Especificações pré-especificadas (Português):
+
+- 330001 | Licores de menta
+- 330002 | Extratos de fruta alcoólicos
+- 330003 | Bebidas amargas [licor]
+- 330003 | Bitter
+- 330004 | Anis [licor]
+- 330005 | Anisete [licor de anis]
+- 330006 | Aperitivos *
+- 330007 | Araca [áraque]
+- 330007 | Áraque [araca]
+- 330008 | Bebidas destiladas
+- 330009 | Sidra
+- 330010 | Cocktails* Coquetéis*
+- 330011 | Curaçau
+- 330012 | Digestivos [licores e destilados]
+- 330013 | Vinho
+- 330014 | Gim
+- 330015 | Licores
+- 330016 | Hidromel [mulso]
+- 330016 | Mulso [hidromel]
+- 330017 | Quirche [kirsch]
+- 330018 | Destiladas [bebidas alcoólicas] [espirituosas]
+- 330019 | Brandy
+- 330020 | Aguapé
+- 330021 | Mosto de pêra [vinho de pêra]
+- 330022 | Saquê
+- 330023 | Uísque
+- 330024 | Essências alcoólicas
+- 330025 | Extratos alcoólicos
+- 330026 | Bebidas alcoólicas, exceto cerveja
+- 330031 | Bebidas alcoólicas contendo frutas
+- 330032 | Aguardente de arroz
+- 330033 | Rum
+- 330034 | Vodca
+- 330035 | Pre-mixed alcoholic beverages, other than beer-basedBebidas alcóolicas prontas
+- 330036 | Bebidas alcoólicas à base de cana-de-açúcar
+- 330037 | Bebidas alcoólicas destiladas à base de grãos
+- 330038 | Bebidas à base de vinho
+- 330039 | Soju [bebida destilada coreana]
+- 330040 | Makkoli [vinho de arroz coreano]
+- 330041 | Água de seltz alcoólica
+- 330042 | Flavoured brewed alcoholic malt beverages, except beersBebidas alcoólicas de malte fermentadas, aromatizadas, exceto cervejas
+- 330042 | Flavored brewed alcoholic malt beverages, except beers
+- 330043 | Vinho de arroz

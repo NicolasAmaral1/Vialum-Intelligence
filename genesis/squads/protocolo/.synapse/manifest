@@ -1,0 +1,39 @@
+# Squad Protocolo — Synapse Manifest
+# Formato: DOMAIN_ATTRIBUTE=value (CARL-compatible)
+# Este arquivo é lido pelo L5 Squad Processor do SynapseEngine.
+# Os domain files estão neste mesmo diretório (.synapse/).
+
+# ──────────────────────────────────────────────────────────────────
+# AGENTE: regras sempre injetadas quando @protocolo está ativo
+# Domain file: agent-protocolo
+# ──────────────────────────────────────────────────────────────────
+AGENT_PROTOCOLO_STATE=active
+AGENT_PROTOCOLO_ALWAYS_ON=true
+AGENT_PROTOCOLO_AGENT_TRIGGER=protocolo
+
+# ──────────────────────────────────────────────────────────────────
+# WORKFLOW: regras do fluxo contrato+procuração
+# Domain file: workflow-contrato
+# ──────────────────────────────────────────────────────────────────
+WORKFLOW_CONTRATO_STATE=active
+WORKFLOW_CONTRATO_WORKFLOW_TRIGGER=contrato-procuracao
+WORKFLOW_CONTRATO_RECALL=contrato,procuracao,fluxo,workflow,etapa
+
+# ──────────────────────────────────────────────────────────────────
+# ONBOARDING: regras ativadas por palavras-chave no prompt
+# Domain file: onboarding
+# ──────────────────────────────────────────────────────────────────
+ONBOARDING_STATE=active
+ONBOARDING_RECALL=cliente,onboarding,protocolo,novo cliente,marca,inpi,registro,drive,upload,contrato,procuracao,pdf,pf,pj,cpf,cnpj,pagamento
+
+# ──────────────────────────────────────────────────────────────────
+# QUALIFICACAO: regras específicas de qualificação jurídica PF/PJ
+# Domain file: qualificacao
+# ──────────────────────────────────────────────────────────────────
+QUALIFICACAO_STATE=active
+QUALIFICACAO_RECALL=pessoa fisica,pessoa juridica,pf,pj,qualificacao,cpf,cnpj,representante legal,razao social
+
+# ──────────────────────────────────────────────────────────────────
+# Merge mode: extend (adiciona às regras do core, não substitui)
+# ──────────────────────────────────────────────────────────────────
+PROTOCOLO_EXTENDS=extend

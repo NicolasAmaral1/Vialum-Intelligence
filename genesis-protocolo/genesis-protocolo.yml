@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  protocolo:
+    build: ./app
+    container_name: genesis-protocolo
+    restart: always
+    environment:
+      - CLICKUP_API_KEY=${CLICKUP_API_KEY}
+      - CLICKUP_LIST_ID=901322069698
+      - CLICKUP_WEBHOOK_SECRET=${CLICKUP_WEBHOOK_SECRET}
+      - PORT=3000
+    volumes:
+      - ./outputs:/outputs
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.protocolo.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/protocolo`)"
+      - "traefik.http.routers.protocolo.entrypoints=websecure"
+      - "traefik.http.routers.protocolo.tls.certresolver=le"
+      - "traefik.http.routers.protocolo-http.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/protocolo`)"
+      - "traefik.http.routers.protocolo-http.entrypoints=web"
+      - "traefik.http.services.protocolo.loadbalancer.server.port=3000"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

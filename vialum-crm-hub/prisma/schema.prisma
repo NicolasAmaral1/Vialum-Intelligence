@@ -1,0 +1,144 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ════════════════════════════════════════════════════════════
+// CRM CONTACTS — Links to Vialum Chat contacts
+// ════════════════════════════════════════════════════════════
+
+model CrmContact {
+  id              String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  vialumContactId String   @map("vialum_contact_id") @db.Uuid
+  accountId       String   @map("account_id") @db.Uuid
+  phone           String?  @db.VarChar(50)
+  email           String?  @db.VarChar(255)
+  name            String?  @db.VarChar(255)
+  tags            String[] @default([])
+  metadata        Json     @default("{}")
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  aliases       ContactAlias[]
+  integrations  CrmIntegration[]
+  groupMappings WhatsAppGroupMapping[]
+
+  @@unique([accountId, vialumContactId])
+  @@index([phone])
+  @@index([email])
+  @@map("crm_contacts")
+}
+
+// ════════════════════════════════════════════════════════════
+// CONTACT ALIASES — Multi-identifier lookup (N phones, emails, CPFs)
+// ════════════════════════════════════════════════════════════
+
+model ContactAlias {
+  id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  crmContactId String   @map("crm_contact_id") @db.Uuid
+  accountId    String   @map("account_id") @db.Uuid
+  type         String   @db.VarChar(30)   // phone | email | cpf | cnpj
+  value        String   @db.VarChar(255)  // normalized (phone: E.164, email: lowercase)
+  isPrimary    Boolean  @default(false) @map("is_primary")
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  contact CrmContact @relation(fields: [crmContactId], references: [id], onDelete: Cascade)
+
+  @@unique([accountId, type, value])
+  @@index([accountId, value])
+  @@index([crmContactId])
+  @@map("contact_aliases")
+}
+
+// ════════════════════════════════════════════════════════════
+// CRM INTEGRATIONS — Links to external systems
+// ════════════════════════════════════════════════════════════
+
+model CrmIntegration {
+  id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  crmContactId  String   @map("crm_contact_id") @db.Uuid
+  provider      String   @db.VarChar(50) // pipedrive | clickup | gdrive
+  externalId    String   @map("external_id") @db.VarChar(255)
+  externalUrl   String?  @map("external_url")
+  resourceType  String   @map("resource_type") @db.VarChar(50) // deal | person | task | folder
+  resourceName  String?  @map("resource_name") @db.VarChar(255)
+  status        String?  @db.VarChar(100)
+  stage         String?  @db.VarChar(100)
+  value         Decimal? @db.Decimal(12, 2)
+  syncedAt      DateTime @default(now()) @map("synced_at") @db.Timestamptz
+  rawData       Json     @default("{}") @map("raw_data")
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt     DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  contact CrmContact @relation(fields: [crmContactId], references: [id], onDelete: Cascade)
+
+  @@unique([crmContactId, provider, externalId])
+  @@index([provider])
+  @@index([externalId])
+  @@map("crm_integrations")
+}
+
+// ════════════════════════════════════════════════════════════
+// PROVIDER CONFIGS — API keys and tokens
+// ════════════════════════════════════════════════════════════
+
+model ProviderConfig {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId  String   @map("account_id") @db.Uuid
+  provider   String   @db.VarChar(50) // pipedrive | hubspot | clickup | gdrive | ...
+  category   String   @default("crm") @db.VarChar(30) // crm | tasks | documents
+  config     Json     // { apiKey, apiToken, domain, ... }
+  active     Boolean  @default(true)
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt  DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@unique([accountId, provider])
+  @@index([accountId, category, active])
+  @@map("provider_configs")
+}
+
+// ════════════════════════════════════════════════════════════
+// OAUTH TOKENS — Generic token storage with auto-refresh
+// ════════════════════════════════════════════════════════════
+
+model OAuthToken {
+  id           String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId    String    @map("account_id") @db.Uuid
+  provider     String    @db.VarChar(50)
+  accessToken  String    @map("access_token") @db.Text
+  refreshToken String?   @map("refresh_token") @db.Text
+  expiresAt    DateTime? @map("expires_at") @db.Timestamptz
+  tokenType    String    @default("Bearer") @map("token_type") @db.VarChar(30)
+  scope        String?   @db.Text
+  rawResponse  Json      @default("{}") @map("raw_response")
+  createdAt    DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt    DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@unique([accountId, provider])
+  @@map("oauth_tokens")
+}
+
+// ════════════════════════════════════════════════════════════
+// WHATSAPP GROUP MAPPINGS — Links groups to CRM contacts
+// ════════════════════════════════════════════════════════════
+
+model WhatsAppGroupMapping {
+  id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId    String   @map("account_id") @db.Uuid
+  crmContactId String   @map("crm_contact_id") @db.Uuid
+  groupJid     String   @map("group_jid") @db.VarChar(100) // 120363XXXXX@g.us
+  groupName    String?  @map("group_name") @db.VarChar(255)
+  groupType    String   @default("client") @map("group_type") @db.VarChar(30) // client | agency
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt    DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  contact CrmContact @relation(fields: [crmContactId], references: [id], onDelete: Cascade)
+
+  @@unique([accountId, groupJid])
+  @@index([crmContactId])
+  @@map("whatsapp_group_mappings")
+}

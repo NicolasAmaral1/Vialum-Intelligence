@@ -1,0 +1,169 @@
+# Classe NCL 42
+
+Especificações pré-especificadas (Português):
+
+- 420007 | Análises químicas
+- 420008 | Análise para exploração de campos petrolíferos
+- 420011 | Serviços de arquitetura*
+- 420017 | Pesquisa bacteriológica
+- 420030 | Serviços de química
+- 420031 | Pesquisas químicas
+- 420036 | Consultoria em arquitetura
+- 420038 | Desenho de plantas para construção
+- 420040 | Pesquisas tecnológicas
+- 420042 | Testes em poços de petróleo
+- 420045 | Pesquisas em cosmética
+- 420048 | Decoração de interiores
+- 420049 | Desenho industrial
+- 420050 | Serviços de desenho de embalagens
+- 420058 | Teste de materiais
+- 420061 | Realização de estudos para projetos técnicos
+- 420062 | Levantamentos geológicos
+- 420063 | Levantamentos em campos petrolíferos
+- 420064 | Engineering* Engenharia*
+- 420076 | Provimento de informações meteorológicas
+- 420079 | Levantamentos topográficos
+- 420083 | Aluguel de computadores
+- 420090 | Programação de computador [informática]
+- 420095 | Prospecção de petróleo
+- 420096 | Pesquisas no campo da física
+- 420101 | Pesquisas em mecânica
+- 420109 | Teste de têxteis
+- 420118 | Prospecções geológicas
+- 420119 | Pesquisas geológicas
+- 420132 | Autenticação de obras de arte
+- 420136 | Calibragem [medição]
+- 420139 | Elaboração [concepção] de software de computador
+- 420140 | Atualização de software de computador
+- 420141 | Consultancy in the design and development of computer hardwareConsultoria em concepção e desenvolvimento de hardware de computador
+- 420142 | Desenhista de moda
+- 420142 | Estilista
+- 420144 | Serviços de criação em artes gráficas
+- 420157 | Controle de qualidade
+- 420159 | Aluguel de software de computador
+- 420161 | Research and development of new products for othersPesquisa e desenvolvimento, para terceiros, de novos produtos
+- 420165 | Estilismo [desenho industrial]
+- 420167 | Explorações subaquáticas
+- 420175 | Recuperação de dados [informática]
+- 420176 | Manutenção de software de computador
+- 420177 | Análise de sistemas [informática]
+- 420190 | Pesquisa biológica
+- 420192 | Planejamento urbano
+- 420193 | Perícia [engenharia]
+- 420194 | Projeto de sistema de computadores
+- 420195 | Vistoria de veículos automotores
+- 420197 | Duplicação de programas de computador
+- 420198 | Conversion of data or documents from physical to electronic mediaConversão de dados e documentos de suporte físico para suporte eletrônico
+- 420199 | Criação e manutenção de websites para terceiros
+- 420200 | Hospedagem de websites
+- 420201 | Instalação de software de computador
+- 420202 | Semeadura de nuvens
+- 420203 | Conversion of computer programs and data, other than physical conversionConversão de programas de computadores e dados, exceto conversão física.
+- 420204 | Consultoria em software de computador
+- 420205 | Aluguel de servidores web
+- 420206 | Serviços de proteção contra vírus de computador
+- 420207 | Consultoria na área de economia de energia
+- 420208 | Scientific research in the field of environmental protectionPesquisa científica no campo de proteção ambiental
+- 420209 | Fornecimento de mecanismos de busca para a internet
+- 420210 | Digitalização de documentos [scanning]
+- 420211 | Análise da escrita [grafologia]
+- 420212 | Avaliação de qualidade de madeira em pé
+- 420214 | Avaliação da qualidade da lã
+- 420215 | Monitoring of computer system operation by remote accessMonitoramento do funcionamento de sistemas de computadores por acesso remoto
+- 420216 | Análise da água
+- 420217 | Serviços científicos de laboratório
+- 420218 | Auditoria de energia
+- 420219 | Consultoria em design de websites
+- 420220 | Software como serviço [saas]
+- 420221 | Pesquisa científica
+- 420223 | Hospedagem de servidores
+- 420224 | Experimentos clínicos
+- 420225 | Backup de dados off site
+- 420226 | Armazenamento eletrônico de dados
+- 420227 | Serviços de cartografia
+- 420229 | Providing virtual computer systems through cloud computingProvimento de sistemas virtuais de computador por meio de computação em nuvem
+- 420231 | Consultoria tecnológica
+- 420232 | Consultoria em tecnologia da computação
+- 420233 | Consultoria em tecnologia das telecomunicações
+- 420234 | Previsão do tempo
+- 420235 | Consultoria em segurança de computadores
+- 420236 | Escrita técnica
+- 420237 | Design de interiores
+- 420238 | Desbloqueio de telefones celulares
+- 420238 | Unlocking of cell phones
+- 420239 | Monitoring of computer systems to detect breakdownsMonitoramento de sistemas de computador para detecção de panes
+- 420240 | Consultoria em segurança de internet
+- 420242 | Consultoria em segurança de dados
+- 420243 | Serviços de encriptação de dados
+- 420244 | Monitoring of computer systems for detecting unauthorized access or data breachMonitoramento de sistemas de computador para detecção de acesso não autorizado ou vazamento de dados
+- 420245 | Monitoramento eletrônico de informações de identificação pessoal para detecção de furto de identidade através da internet
+- 420246 | Desenvolvimento de software no âmbito de publicação de software
+- 420248 | Plataforma computacional como serviço [paas]
+- 420249 | Desenvolvimento de plataformas de computador
+- 420250 | Concepção de cartões de visitas
+- 420251 | Scientific and technological research in the field of natural disastersPesquisas científicas e tecnológicas no campo de desastres naturais
+- 420252 | Exploration services in the field of the oil, gas and mining industriesServiços de exploração no domínio das indústrias de petróleo, gás e mineração
+- 420253 | Scientific and technological research relating to patent mappingPesquisas científicas e tecnológicas relativas ao mapeamento de patentes
+- 420254 | Pesquisas no campo de construções de edificações
+- 420255 | Research in the field of telecommunications technologyPesquisas no campo de tecnologias de telecomunicação
+- 420256 | Pesquisas no campo de soldagem
+- 420257 | Pesquisas médicas
+- 420258 | Design gráfico de material promocional
+- 420259 | Rental of meters for the recording of energy consumptionAluguel de medidores para registro do consumo de energia
+- 420260 | User authentication services using technology for e-commerce transactionsServiços de autenticação de usuário usando tecnologia para transações de comércio eletrônico
+- 420261 | Escrita de código de computador
+- 420263 | Consultoria em segurança de rede de telecomunicação
+- 420264 | Desenho de fantasias
+- 420265 | Projeto de cenários
+- 420266 | Desenho de protótipos
+- 420267 | Desenho de modelos simulados por computador
+- 420268 | Cartographic or thermographic measurement services by droneServiços de medição cartográfica ou termográfica por drone
+- 420269 | Mineração de criptomoedas
+- 420269 | Cryptomining
+- 420270 | Pesquisa na área de escavação
+- 420271 | Computer graphic design for video projection mappingDesign gráfico de computador para mapeamento de projeção de vídeos
+- 420272 | Digital forensic investigations in the field of computer crimesInvestigações forenses digitais na área de crimes de informática
+- 420273 | Technological consultancy services for digital transformationServiços de consultoria tecnológica para transformação digital
+- 420274 | Aluguel de instalações de centro de processamento de dados (CPD)
+- 420274 | Aluguel de instalações de data center
+- 420275 | Provimento de informações geográficas
+- 420276 | Providing online geographic maps, not downloadableProvimento de mapas geográficos on-line, não baixáveis
+- 420277 | Consultoria em inteligência artificial
+- 420278 | Research in the field of artificial intelligence technologyPesquisa na área de tecnologia de inteligência artificial
+- 420279 | User authentication services using blockchain technologyServiços de autenticação de usuários utilizando tecnologia blockchain
+- 420280 | Investigações geotécnica
+- 420281 | Perfuração para testes geológicos
+- 420282 | Desenvolvimento de videogames e jogos de computador
+- 420283 | Computação quântica
+- 420284 | Cultura de células para fins de pesquisa científica
+- 420285 | Computer programming services for data processingServiços de programação de computador [informática] para processamento de dados
+- 420286 | Software engineering services for data processingServiços de engenharia de software para processamento de dados
+- 420287 | Serviços de desenhos [design] de logomarcas
+- 420287 | Serviços de desenhos [design] de assinaturas visuais
+- 420288 | Desenho de campo de golfe
+- 420289 | Pesquisa científica na área de genética
+- 420291 | Inspection services for new and used vehicles before saleServiços de inspeção para veículos novos e usados antes da venda
+- 420292 | Escavação arqueológica
+- 420293 | Aluguel de telescópios
+- 420295 | Blockchain como serviço [Baas]
+- 420296 | Hospedagem de ambientes virtuais
+- 420297 | Aluguel de microscópios científicos
+- 420298 | Engenharia neuromórfica
+- 420299 | Rental of user-programmable humanoid robots, not configuredAluguel de robôs humanoides programáveis pelo usuário, não configurados
+- 420300 | Providing online non-downloadable computer softwareProvimento de software de computador on-line não baixável
+- 420301 | Provimento de software de computador on-line não baixável para cunhar tokens não fungíveis [NFTs]
+- 420302 | Computer programming of smart contracts on a blockchainProgramação de computador [informática] de contratos inteligentes em uma tecnologia blockchain
+- 420303 | Digitalização de fotografias [escaneamento]
+- 420305 | Aluguel de óculos inteligentes
+- 420306 | Exame toxicológico para fins forenses
+- 420307 | Serviços de exame patológico forense
+- 420308 | Exame patológico para fins forenses
+- 420309 | Concepção [projeto] de chips [circuitos integrados]
+- 420310 | Teste de desempenho energético de edifícios
+- 420311 | Armazenamento eletrônico de criptomoedas
+- 420312 | Serviços de medição acústica
+- 420313 | Serviços laboratoriais para biofabricação
+- 420313 | Serviços laboratoriais para biomanufatura
+- 420314 | Teste de paternidade
+- 420315 | Inteligência artificial como serviço [AIaaS]
+- 420316 | Pesquisa veterinária

@@ -1,0 +1,10 @@
+# Domain: onboarding
+# Injetado pelo L6 Keyword Processor quando o prompt contém palavras-chave de onboarding.
+
+Para onboarding de novo cliente Genesis, use o agente @protocolo.
+Para gerar contrato ou procuração, ative @protocolo e use *iniciar.
+Para upload de documentos ao Google Drive, use *finalizar após *gerar.
+Os templates de contrato e procuração ficam em squads/protocolo/resources/termos/.
+A biblioteca de cláusulas define 4 formas de pagamento: cartao, pix_manual, pix_auto, boleto_manual.
+O script assemble_contract.py detecta PF/PJ pelo campo tipo_pessoa no JSON.
+PDFs gerados ficam em genesis/outputs/protocolo/ antes do upload.

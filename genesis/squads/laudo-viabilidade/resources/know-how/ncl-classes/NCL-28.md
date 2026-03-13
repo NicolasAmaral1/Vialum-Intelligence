@@ -1,0 +1,309 @@
+# Classe NCL 28
+
+Especificações pré-especificadas (Português):
+
+- 280001 | Câmaras de ar de bolas para jogos
+- 280002 | Iscas artificiais para pesca
+- 280003 | Espoletas para pistolas [brinquedos]
+- 280004 | Brinquedos para animais de estimação
+- 280005 | Jogos de argolas
+- 280006 | Árvores de natal de material sintético
+- 280007 | Arcos [arco e flecha]
+- 280008 | Material para arco e flecha
+- 280009 | Arestas de esquis
+- 280010 | Balanços
+- 280011 | Bolas para brincadeiras e jogos
+- 280011 | Pelas
+- 280012 | Balões de festa
+- 280012 | Bolas de festa
+- 280012 | Bexigas de festa
+- 280013 | Tabelas de bilhar
+- 280014 | Cavalo de balanço
+- 280015 | Luvas para batedores [acessórios para jogos]
+- 280016 | Mamadeiras de bonecas
+- 280017 | Bicicletas fixas para exercício
+- 280019 | Bolas de bilhar
+- 280020 | Giz para tacos de bilhar
+- 280021 | Marcadores de bilhar
+- 280022 | Pinos de jogo de chinquilho [skittle]
+- 280022 | Pinos de jogo de malha [skittle]
+- 280023 | Bolas de gude para jogos
+- 280023 | Bolas pequenas para jogos
+- 280024 | Brinquedos*
+- 280025 | Blocos de armar [brinquedos]
+- 280026 | Trenó duplo
+- 280027 | Tubos de papel com conteúdo surpresa [artigos de festa]
+- 280029 | Suportes para velas para árvores de natal
+- 280030 | Bolas para jogar bocha
+- 280031 | Maquinaria e aparelhos para boliche
+- 280032 | Luvas de boxe
+- 280033 | Cordas de tripa para raquetes
+- 280034 | Tacos de golfe
+- 280035 | Varas de pescar
+- 280036 | Pipas [papagaios]
+- 280037 | Carretéis para pipas [papagaios]
+- 280038 | Alvos
+- 280039 | Sinos para árvores de natal
+- 280040 | Fichas para jogos
+- 280041 | Jogos de construção
+- 280042 | Cordas para raquetes
+- 280043 | Aparelhos para exercícios físicos
+- 280044 | Aparelhos para musculação
+- 280044 | Aparelhos para treino de força
+- 280045 | Brinquedinhos para festas
+- 280046 | Caneleiras para esportes
+- 280047 | Sacos de críquete
+- 280048 | Tacos de hóquei
+- 280049 | Jogo de damas
+- 280049 | Checkers [games]
+- 280050 | Dados
+- 280051 | Extensores para exercícios
+- 280051 | Extensores peitorais para exercícios
+- 280052 | Discos para esportes
+- 280054 | Dominós
+- 280055 | Xadrez
+- 280056 | Tabuleiros de xadrez
+- 280057 | Tabuleiros de damas
+- 280057 | Checkerboards
+- 280058 | Pistolas de brinquedos
+- 280059 | Cilindros de bicicletas fixas para exercícios
+- 280060 | Passaguás [xalavar]
+- 280060 | Sarrico [puçá]
+- 280061 | Sacos de golfe, com ou sem rodinhas
+- 280062 | Brinquedos para pregar peças
+- 280064 | Redes para esportes
+- 280065 | Redes para tênis
+- 280066 | Fixadores de esquis [calços de segurança]
+- 280067 | Dardos
+- 280069 | Boias para pesca
+- 280070 | Mesas para futebol de salão
+- 280072 | Luvas para jogos
+- 280074 | Copos para jogos de dados
+- 280075 | Halteres
+- 280076 | Anzóis para peixe
+- 280077 | Chocalhos [brinquedos]
+- 280078 | Jogos de tabuleiro
+- 280079 | Jogos*
+- 280080 | Lançador de pombo de barro
+- 280081 | Raquetes
+- 280081 | Bastões para jogos [tacos]
+- 280081 | Tacos para jogos
+- 280082 | Chamarizes para caça ou pesca
+- 280082 | Lures for hunting or fishing
+- 280083 | Apetrechos de pesca
+- 280084 | Linhas de pescar
+- 280085 | Camas de bonecas
+- 280086 | Casas de bonecas
+- 280087 | Fantoches
+- 280087 | Marionetes
+- 280088 | Bonecas
+- 280089 | Máscaras de teatro
+- 280090 | Máscaras de carnaval
+- 280091 | Miniaturas de veículos
+- 280091 | Modelos de veículos [miniaturas]
+- 280092 | Carretéis para pesca
+- 280093 | Nadadeiras para natação
+- 280093 | Pés de pato [nadadeiras para natação]
+- 280094 | Nassas [equipamento de pesca]
+- 280095 | Piscinas [brinquedos]
+- 280096 | Neve artificial para decoração
+- 280097 | Malhas [peça do jogo]
+- 280098 | Patins com rodas
+- 280099 | Patins para gelo
+- 280100 | Peles de foca [revestimentos de esquis]
+- 280101 | Pombos de barro [alvos]
+- 280102 | Pranchas de surfe
+- 280103 | Roupas de bonecas
+- 280104 | Quartos de bonecas
+- 280105 | Equipamentos de prestidigitadores
+- 280106 | Jogos de chinquilho [skittle]
+- 280106 | Jogos de malha [skittle]
+- 280109 | Revestimentos de esquis
+- 280110 | Esquis
+- 280111 | Mesas para tênis de mesa
+- 280112 | Piões [brinquedos]
+- 280113 | Trenós [artigos desportivos]
+- 280114 | Gamão
+- 280115 | Patinetes
+- 280116 | Petecas
+- 280117 | Pistolas de ar de brinquedo
+- 280118 | Espoletas [brinquedos]
+- 280118 | Detonating caps [toys]
+- 280119 | Ornaments for christmas trees, except lights, candles and confectioneryDecorações para árvores de natal, exceto luzes, velas e confeitos
+- 280120 | Suportes para árvores de natal
+- 280121 | Tacos de bilhar
+- 280122 | Pontas de taco de bilhar
+- 280123 | Mesas de bilhar
+- 280124 | Mesas de bilhar operadas por moedas
+- 280126 | Pranchas à vela
+- 280127 | Asas-delta
+- 280128 | Aparatos para jogos
+- 280129 | Aparelhos de ginástica
+- 280130 | Armas para esgrima
+- 280131 | Máscaras para esgrima
+- 280132 | Luvas para esgrima
+- 280132 | Fencing gloves
+- 280141 | Luvas de beisebol
+- 280142 | Cintos de segurança para alpinistas
+- 280142 | Cintos de segurança para escalada
+- 280143 | Cotoveleiras para esportes
+- 280144 | Joelheiras para esportes
+- 280145 | Móbiles [brinquedos]
+- 280146 | Parapentes
+- 280147 | Almofadas de proteção [partes de vestimentas desportivas]
+- 280148 | Skateboards* Skates*
+- 280149 | Escorregas [equipamentos de playground]
+- 280150 | Trampolins [artigos desportivos]
+- 280151 | Ursos de pelúcia
+- 280152 | Esquis aquáticos
+- 280153 | Luvas de golfe
+- 280154 | Indicadores de mordida [material de pesca]
+- 280155 | Sensores de mordida [material de pesca]
+- 280156 | Jogos de mesa
+- 280157 | Carrossel de parque de diversões
+- 280158 | Discos volantes [brinquedos]
+- 280159 | Ferraduras com jogos
+- 280160 | Mah-jong
+- 280161 | Brinquedos de pelúcia
+- 280162 | Bolinhas de sabão [brinquedo]
+- 280163 | Veículos de brinquedos
+- 280164 | Bastões de balizas
+- 280165 | Redes para borboletas
+- 280166 | Bolsas especialmente concebidas para esquis
+- 280167 | Arreios para windsurfe
+- 280168 | Quebra-cabeça de armar
+- 280169 | Mastro para windsurfe
+- 280170 | Armas de paintball [artigos desportivos]
+- 280171 | Munição para armas de paintball [artigos desportivos]
+- 280172 | Trela [correia] para pranchas de surfe
+- 280173 | Lançador de bolas de tênis
+- 280174 | Blocos de partida para esportes
+- 280175 | Globos de neve
+- 280176 | Cintos de halterofilia [artigos desportivos]
+- 280177 | Prancha de body-board
+- 280178 | Cartões para bingo
+- 280179 | Instrumentos para recolocar tufos de grama [golfe]
+- 280179 | Pitch mark repair tools [golf accessories]
+- 280180 | Apito chamariz
+- 280181 | Rodas de roleta
+- 280182 | Patins em linha
+- 280183 | Piñatas
+- 280184 | Sacos de pancada
+- 280185 | Veículos de brinquedo de controle remoto
+- 280186 | Resina utilizada por atletas
+- 280187 | Raquete para neve [calçado]
+- 280188 | Estilingue [atiradeira]
+- 280189 | Amusement machines, automatic and coin-operatedMáquinas de entretenimento automáticas, operadas por moedas
+- 280190 | Caleidoscópio
+- 280191 | Cartas de baralho
+- 280192 | Confete
+- 280193 | Alvos eletrônicos
+- 280194 | Iscas odoríferas para caça e pesca
+- 280195 | Telas de camuflagem [artigos esportivos]
+- 280196 | Suportes atléticos [artigos esportivos]
+- 280197 | Snowboards [pranchas para surfar na neve]
+- 280198 | Kits de miniaturas para montar [brinquedos]
+- 280199 | Pachinko [jogo]
+- 280201 | Ascensores [equipamentos de montanhismo]
+- 280202 | Máquinas de jogo de azar
+- 280203 | Caça-níqueis [máquinas de jogo]
+- 280204 | Chapéus de festa em papel
+- 280205 | Pranchas de natação
+- 280206 | Fichas para jogos de azar
+- 280207 | Cartões de raspar de loteria instantânea
+- 280208 | Brinquedos com enchimento
+- 280209 | Cama elástica
+- 280210 | Varas para salto com vara
+- 280211 | Boias de braço
+- 280212 | Cintos de natação
+- 280213 | Coletes de natação
+- 280214 | Videogames
+- 280215 | Jogos portáteis com tela de cristal líquido
+- 280216 | Máquinas de videogame [fliperamas]
+- 280217 | Controles para consoles de jogos
+- 280218 | Miniaturas de brinquedos
+- 280219 | Bonecos
+- 280220 | Máquinas lançadoras de bolas
+- 280221 | Pesos [halteres]
+- 280222 | Máscaras [brinquedos]
+- 280223 | Matrioskas
+- 280224 | Controles para brinquedos
+- 280225 | Carrinhos para sacos de golfe
+- 280225 | Golf bag carts
+- 280226 | Pranchas para stand up paddle
+- 280227 | Gyroscopes and flight stabilizers for model aircraftGiroscópios e estabilizadores de voo para aeromodelos
+- 280228 | Controles [joystick] para videogames
+- 280229 | Protective films adapted for screens for portable gamesFilmes protetores adaptados para telas de jogos portáteis
+- 280230 | Drones [brinquedos]
+- 280231 | Robôs de brinquedo
+- 280232 | Agulhas de bombas de ar para encher bolas de jogos
+- 280233 | Pumps specially adapted for use with balls for gamesBombas adaptadas especialmente para uso em bolas de jogo
+- 280234 | Baby gyms [tapetes de atividades para bebês]
+- 280235 | Naninhas para bebês
+- 280236 | Triciclos para crianças [brinquedo]
+- 280237 | Cosméticos de brinquedo
+- 280238 | Objetos infláveis para piscinas
+- 280239 | Fitas para ginástica rítmica
+- 280240 | Lança-confetes para festas
+- 280241 | Massa gelatinosa de brinquedo
+- 280242 | Massa para modelar de brinquedo [massinha]
+- 280243 | Portable games and toys incorporating telecommunication functionsJogos e brinquedos portáteis com funções de telecomunicação integradas
+- 280244 | Bumerangues
+- 280245 | Cartas colecionáveis para jogos
+- 280246 | Cintas modeladoras abdominais para exercícios
+- 280247 | Pés de pato para mergulho
+- 280248 | Luvas com membranas para natação
+- 280248 | Membranas para natação
+- 280249 | Jogos infláveis para piscinas
+- 280250 | Rollerskis
+- 280251 | Bastões para esqui
+- 280251 | Ski poles
+- 280252 | Bastões para rollerski
+- 280252 | Ski poles for roller skis
+- 280253 | Ioga swing [balanço para ioga]
+- 280254 | Tendas de brinquedo
+- 280254 | Toldos de brinquedo
+- 280255 | Consoles de videogames
+- 280256 | Consoles portáteis de videogames
+- 280257 | Casinhas de criança para brincar
+- 280258 | Coquilhas de proteção para esportes
+- 280258 | Protetores genitais para esportes
+- 280259 | Etiquetas para sacos de golfe
+- 280260 | Trenós para a prática de skeleton
+- 280261 | Bolsas especialmente concebidas para pranchas de surfe
+- 280262 | Brinquedos antiestresse
+- 280262 | Brinquedos antiansiedade
+- 280263 | Bolas de boliche
+- 280264 | Pesos para exercícios
+- 280265 | Pulseiras de brinquedo com bastão de brilho para festas
+- 280266 | Marcadores de cone para esportes
+- 280267 | Bate-palmas [brinquedo para fazer barulho]
+- 280267 | Badalos de mãos [brinquedo para fazer barulho]
+- 280268 | Bonecos de personagens
+- 280269 | Jogos de cartas colecionáveis
+- 280270 | Jogos de cartas
+- 280271 | Caixas de areia para parquinhos [playground]
+- 280272 | Hoops for exercise incorporating measuring sensorsAros para exercícios com sensores de medição
+- 280273 | Adhesive abdominal exercise belts, electric, for muscle stimulationCintos de exercícios abdominais adesivos, elétricos, para estimulação de músculos
+- 280274 | Ventoinhas externas para consoles de jogos
+- 280275 | Bonecas com articulações esféricas [bjd]
+- 280276 | Trajes de estimulação elétrica muscular para esportes
+- 280277 | Fitas de aderência para raquetes
+- 280278 | Instrumentos musicais de brinquedo
+- 280279 | Fisgas de pesca
+- 280280 | Bicicletas de equilíbrio [brinquedos]
+- 280281 | Coletes de peso para fins de treinamento físico
+- 280282 | Teclados para jogos
+- 280283 | Mouses para jogos
+- 280284 | Protetores de abdômen para a prática de esportes
+- 280285 | Bilhetes de loteria impressos
+- 280286 | Almofadas de chute para artes marciais
+- 280287 | Jogos educativos*
+- 280288 | Brinquedos inteligentes
+- 280289 | Óculos divertidos [brinquedo]
+- 280290 | Bolas antiestresse
+- 280291 | Blocos de ioga
+- 280292 | Alças de ioga
+- 280293 | Rodas de ioga
+- 280294 | Mouses com trackballs para jogos
+- 280295 | Figuras planas de brinquedo feitas em acrílico, com suporte

@@ -1,0 +1,135 @@
+# Sinapse: analise-preliminar
+
+TRIGGER: workflow_trigger (preliminar, parte1, veracidade, liceidade, distintividade)
+SKILL_VERSION: V6 — Padrão Vialum Premium
+
+---
+
+## Propósito
+
+Gerar a PARTE 1 do PLANO DE ANÁLISE: análise jurídica intrínseca da marca sob os três
+requisitos legais do INPI, com sugestão fundamentada de classes NCL.
+
+---
+
+## REGRA: Requisitos Sempre em CAIXA ALTA
+
+Sempre que mencionar os três requisitos no texto:
+- "Quanto à **VERACIDADE**, o sinal..."
+- "Em relação à **LICEIDADE**, o termo..."
+- "No tocante à **DISTINTIVIDADE**, observa-se..."
+
+NUNCA usar "licitude". O termo correto é sempre **LICEIDADE**.
+
+---
+
+## VERACIDADE
+
+Analisar se o sinal marcário pode induzir o consumidor a erro ou engano sobre:
+- A natureza do produto/serviço
+- A procedência geográfica
+- A qualidade intrínseca
+
+Marca que descreve falsamente → irregistrável (Art. 124, IX, LPI).
+Marca arbitrária → passa nesse critério com facilidade.
+
+---
+
+## LICEIDADE
+
+Verificar conformidade com o Art. 124 da LPI. Irregistráveis:
+- Símbolos oficiais, emblemas nacionais/estrangeiros
+- Expressões contrárias à moral e bons costumes
+- Termos técnicos genéricos da área
+- Cores isoladas sem forma distintiva
+- Reprodução de nome/signo de terceiro sem autorização
+
+---
+
+## DISTINTIVIDADE — 4 Níveis do INPI
+
+Classificar o sinal marcário obrigatoriamente em um dos 4 níveis:
+
+**FANTASIOSO:** Termo inventado, sem significado prévio no idioma.
+Exemplos: Kodak, Xerox, Vialum.
+→ Máxima distintividade. Mais fácil de registrar. Alta proteção.
+
+**ARBITRÁRIO:** Termo existente, mas sem relação com o produto/serviço.
+Exemplos: Apple (para computadores), Amazon (para e-commerce).
+→ Alta distintividade. Proteção robusta.
+
+**EVOCATIVO (SUGESTIVO):** Termo que evoca qualidades sem descrever diretamente.
+Exemplos: Neve (papel higiênico), Duracell (pilhas), Comfort (amaciante).
+→ Distintividade média. Registrável mas com mais cuidado.
+
+**DESCRITIVO:** Termo que descreve diretamente o produto/serviço.
+Exemplos: "Açúcar Doce", "Fast Food", "Pizzaria Express".
+→ Baixa ou nenhuma distintividade. Dificuldade no INPI.
+
+### Para marcas compostas:
+1. Decompor em partes → analisar cada termo separadamente
+2. Analisar o conjunto → combinação pode criar significado novo
+3. Classificar o conjunto no nível mais adequado
+
+---
+
+## LAUDO DESCRITIVO POR CLASSE
+
+### Distribuição obrigatória de níveis de recomendação:
+- **Classes 1 e 2:** "muito recomendável"
+- **Classe 3:** "recomendável"
+- **Classes 4+:** "possui sinergia"
+
+### Estrutura por classe:
+```
+**Classe {N} ({nível})** – {especificações extraídas do NCL-XX.md}
+{Parágrafo: aplicação técnica ao caso concreto}
+```
+
+### OBRIGATÓRIO: Antes de sugerir qualquer classe, ler:
+`genesis/squads/laudo-viabilidade/resources/know-how/ncl-classes/NCL-[XX].md`
+
+Nunca inventar especificações. Usar apenas itens presentes na lista oficial.
+
+---
+
+## Estrutura do Arquivo .md (PARTE 1)
+
+```markdown
+# {MARCA} - PLANO DE ANÁLISE DE VIABILIDADE
+
+**Cliente:** {cliente}
+**Marca Principal:** {nome_marca}
+**Marcas Alternativas:** {alternativos ou "Não informadas"}
+**Atividade:** {atividade}
+**Data:** {data_atual}
+
+---
+
+## PARTE 1: ANÁLISE PRELIMINAR
+
+## ANÁLISE DOS REQUISITOS (VERACIDADE, LICEIDADE E DISTINTIVIDADE)
+
+{narrativa jurídica contínua — parágrafos fluídos, sem listas}
+
+## LAUDO DESCRITIVO POR CLASSE
+
+Nesta seção, iremos expor nossas sugestões sobre quais classes independentes são
+aconselháveis para registro conforme o seguimento da empresa. Sabe-se que a empresa
+tem como atividade {atividade}.
+
+**Classe {N} (muito recomendável)** – {especificações...}
+{parágrafo de aplicação ao caso}
+
+**Classe {N} (muito recomendável)** – {especificações...}
+{parágrafo de aplicação ao caso}
+
+**Classe {N} (recomendável)** – {especificações...}
+{parágrafo de aplicação ao caso}
+
+## PARTE 2: ANÁLISE DE COLIDÊNCIAS INPI
+
+⚠️ **AGUARDANDO PROCESSAMENTO DOS DADOS DO INPI**
+```
+
+NÃO incluir separadores `---` no final das seções. Usar apenas no cabeçalho e entre PARTE 1 e PARTE 2.

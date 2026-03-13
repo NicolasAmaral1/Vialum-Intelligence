@@ -1,0 +1,100 @@
+# Classe NCL 13
+
+Especificações pré-especificadas (Português):
+
+- 130001 | Acetil-nitrocelulose
+- 130002 | Carretas de canhões [artilharia]
+- 130003 | Cartuchos explosivos
+- 130005 | Explosivos de nitrato de amônio
+- 130006 | Detonadores
+- 130007 | Armas motorizadas
+- 130008 | Armas de gás lacrimogêneo
+- 130009 | Armas de fogo
+- 130010 | Escovas para limpar armas de fogo
+- 130013 | Fogos de artifício
+- 130014 | Peças de artilharia [canhões]
+- 130015 | Armas balísticas
+- 130015 | Mísseis balísticos
+- 130016 | Aparelhos para encher cartucheiras
+- 130017 | Fogos de bengala
+- 130018 | Buchas detonadoras
+- 130019 | Estojos [cápsulas] de cartucho
+- 130020 | Canhões
+- 130021 | Canos de espingardas
+- 130021 | Canos de armas de fogo
+- 130022 | Espingardas
+- 130022 | Carabinas
+- 130023 | Cartridges* Cartuchos*
+- 130024 | Aparelhos para carregar cartuchos
+- 130025 | Cartucheiras
+- 130026 | Armas de fogo de caça
+- 130026 | Sporting firearms
+- 130027 | Munições
+- 130028 | Cães de armas de fogo
+- 130028 | Cães de espingardas
+- 130028 | Hammers for guns
+- 130029 | Cornos de pólvora
+- 130030 | Algodão-pólvora
+- 130030 | Piroxilina
+- 130031 | Culatras de armas de fogo
+- 130032 | Dinamite
+- 130033 | Estojos para espingarda
+- 130033 | Estojos para armas de fogo
+- 130034 | Explosivos
+- 130035 | Fogos sinalizadores
+- 130036 | Armas de fogo
+- 130037 | Coronhas [armas de fogo]
+- 130038 | Espelhos de pontaria para armas de fogo
+- 130038 | Espelhos de pontaria para espingardas
+- 130038 | Sighting mirrors for guns
+- 130040 | Guarda-matos para armas de fogo
+- 130040 | Guarda-matos para espingardas
+- 130041 | Chumbo de caça [granalha]
+- 130041 | Granalha [chumbo de caça]
+- 130042 | Munições para armas de fogo
+- 130043 | Lança-mísseis
+- 130044 | Mechas de minas [explosivos]
+- 130045 | Minas [explosivos]
+- 130046 | Metralhadoras
+- 130047 | Morteiros [armas de fogo]
+- 130048 | Obuses
+- 130049 | Pistolas [armas]
+- 130050 | Pólvora
+- 130051 | Pós explosivos
+- 130052 | Projéteis [armas]
+- 130053 | Matérias pirofóricas
+- 130054 | Produtos pirotécnicos
+- 130055 | Revólveres
+- 130056 | Munhões para armas pesadas
+- 130057 | Plataformas de tiro
+- 130058 | Miras, exceto telescópicas, para armas de fogo
+- 130059 | Pistolas de ar [armas]
+- 130060 | Mechas de inflamação para explosivos
+- 130060 | Estopins
+- 130061 | Escorvas
+- 130062 | Cordéis detonantes para explosivos
+- 130062 | Firing lanyards for explosives
+- 130063 | Alças de ombro para armas
+- 130063 | Bandoleiras para armas
+- 130064 | Sinais de neblina explosivos
+- 130065 | Miras, exceto telescópicas, para artilharia
+- 130066 | Espoletas, exceto de brinquedo
+- 130066 | Percussion caps, other than toys
+- 130068 | Foguetes [projéteis]
+- 130069 | Lança-arpões
+- 130070 | Silenciadores para armas
+- 130071 | Tanques [carros de combate]
+- 130072 | Fogos de artifício pequenos
+- 130073 | Sprays para fins de defesa pessoal
+- 130073 | Sprays for personal defence purposes
+- 130074 | Cintos porta-munição
+- 130075 | Cintos de munição para armas automáticas
+- 130076 | Torpedos
+- 130077 | Armas ligeiras [arma de fogo]
+- 130077 | Armas portáteis [arma de fogo]
+- 130078 | Granadas de mão
+- 130079 | Pistolas lançadoras de foguetes
+- 130080 | Sinalizadores de resgate, explosivos ou pirotécnicos
+- 130081 | Pistolas de largada
+- 130082 | Arpões adaptados para lança-arpões
+- 130083 | Mísseis de cruzeiro

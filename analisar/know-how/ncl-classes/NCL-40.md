@@ -1,0 +1,156 @@
+# Classe NCL 40
+
+Especificações pré-especificadas (Português):
+
+- 400001 | Abrasão
+- 400002 | Processamento de filmes cinematográficos
+- 400003 | Purificação de ar
+- 400004 | Magnetização
+- 400005 | Aplicação de aviamentos em têxteis
+- 400006 | Acabamentos para papel [tratamento]
+- 400007 | Prateação [revestimento com prata]
+- 400008 | Branqueamento de tecidos
+- 400009 | Trabalhos em madeira
+- 400010 | Debruar roupas
+- 400011 | Brasagem
+- 400012 | Confecção de roupas
+- 400013 | Revestimento com cádmio
+- 400014 | Calandragem de tecidos
+- 400015 | Cozimento de cerâmica
+- 400015 | Firing pottery
+- 400016 | Pintura para calçados
+- 400017 | Cromagem
+- 400018 | Metalizar
+- 400019 | Tingimento de couro
+- 400020 | Acondicionamento de peles [peleteria]
+- 400021 | Corte de tecidos
+- 400022 | Impressão de estampas
+- 400023 | Revelação de filme fotográfico
+- 400024 | Douração
+- 400025 | Tratamento de água
+- 400026 | Galvanoplastia
+- 400027 | Estanhagem
+- 400028 | Modelagem de peles sob medida [peleteria]
+- 400029 | Serviços de ferreiro
+- 400030 | Tratamento antitraças para peles [peleteria]
+- 400031 | Fresagem
+- 400032 | Extração de suco de frutas
+- 400033 | Defumação de alimentos
+- 400034 | Galvanização
+- 400035 | Gravação [entalhe]
+- 400036 | Impermeabilização de tecidos
+- 400036 | Fabric waterproofing
+- 400037 | Ignifugação de tecidos
+- 400037 | Ignifugação de têxteis
+- 400037 | Fabric fireproofing
+- 400038 | Tratamento antivincos para roupas
+- 400039 | Tratamento de lã
+- 400040 | Laminação
+- 400041 | Esmerilhamento
+- 400042 | Tratamento de metal
+- 400043 | Temperamento de metal
+- 400044 | Moagem de farinha
+- 400045 | Niquelagem
+- 400046 | Urdidura [tear]
+- 400047 | Serviços de peleteria
+- 400048 | Polimento por abrasão
+- 400049 | Encadernação
+- 400050 | Aplainamento de materiais
+- 400051 | Selaria [seleiro]
+- 400052 | Serragem de materiais
+- 400053 | Alfaiataria
+- 400054 | Curtimento
+- 400055 | Taxidermia
+- 400056 | Serviços de tinturaria*
+- 400057 | Tingimento de têxteis
+- 400058 | Tratamento de tecidos
+- 400058 | Tratamento de têxteis
+- 400059 | Tratamento antitraça para têxteis
+- 400060 | Tingimento de tecidos
+- 400061 | Tratamento para papel
+- 400062 | Sopramento de vidro
+- 400063 | Serviço de bordar
+- 400064 | Trabalho em couro
+- 400065 | Coloração de vidros de janelas por meio de revestimento da superfície
+- 400066 | Conservação de alimentos e bebidas
+- 400067 | Derrubada e processamento de madeira
+- 400068 | Reciclagem de lixo e resíduos
+- 400069 | Pré-encolhimento de tecidos
+- 400070 | Lustração de peles [peleteria]
+- 400071 | Acetinagem de peles [peleteria]
+- 400072 | Tintura para peles [peleteria]
+- 400081 | Desodorização de ar
+- 400081 | Air deodorising
+- 400082 | Perfumar o ar
+- 400083 | Montagem de materiais sob encomenda de terceiros
+- 400084 | Molduragem de obras de arte
+- 400085 | Banho de ouro
+- 400086 | Marcação a  laser
+- 400087 | Providing information relating to material treatmentProvimento de informações sobre processamento de materiais
+- 400087 | Provimento de informações sobre tratamento de materiais
+- 400088 | Polimento de vidro óptico
+- 400089 | Impressão fotográfica
+- 400090 | Fotogravura [serviço]
+- 400091 | Processamento de óleo
+- 400092 | Acolchoamento
+- 400093 | Serviços de refino
+- 400094 | Abate de animais
+- 400095 | Decapagem
+- 400097 | Tratamento de lixo [transformação]
+- 400098 | Modificação [ajustes] de roupas
+- 400099 | Serviços de caldeireiro
+- 400100 | Fundição de metal
+- 400101 | Vulcanização [tratamento de material]
+- 400102 | Fabricação personalizada de aparelhos ortodônticos
+- 400103 | Produção de energia
+- 400104 | Aluguel de geradores de eletricidade
+- 400105 | Destruição de lixo e resíduos
+- 400106 | Incineração de lixo e resíduos
+- 400107 | Serviços de separação de cores
+- 400108 | Copiagem de chaves
+- 400109 | Processing of hazardous materials for decontaminationProcessamento de materiais perigosos para descontaminação
+- 400110 | Impressão litográfica
+- 400111 | Impressão
+- 400112 | Aluguel de máquinas de tricotar
+- 400113 | Impressão ofsete
+- 400114 | Serviços de fotocomposição
+- 400115 | Serigrafia
+- 400116 | Triagem de lixo e de material reciclável [transformação]
+- 400117 | Congelamento de alimentos
+- 400118 | Aluguel de aparelhos de ar condicionado
+- 400119 | Aluguel de aparelhos para aquecimento de ambientes
+- 400120 | Pisoamento de tecidos
+- 400121 | Serviços de crioconservação
+- 400122 | Serviços de jateamento abrasivo
+- 400123 | Aluguel de aquecedores
+- 400124 | Upcycling [reciclagem de lixo]
+- 400125 | Soldagem
+- 400126 | Serviços de aplicação de película em vidros de carros
+- 400127 | Impressão 3d para terceiros
+- 400128 | Produção de cervejas para terceiros
+- 400129 | Fabricação de pães sob encomenda
+- 400130 | Pasteurização de alimentos e bebidas
+- 400130 | Pasteurising of food and beverages
+- 400131 | Serviços de vinificação para terceiros
+- 400132 | Consultoria em vinificação
+- 400133 | Fabricação personalizada de barcos
+- 400134 | Serviços de destilação
+- 400135 | Rental of industrial robots for use in manufacturingAluguel de robôs industriais para uso em fabricação
+- 400136 | Fabricação personalizada de aeronaves
+- 400137 | Serviços de marcenaria [fabricação personalizada de peças em madeira]
+- 400138 | Esmagamento de concreto
+- 400140 | Irradiação de alimentos
+- 400141 | Aluguel de baterias
+- 400142 | Captura de carbono
+- 400143 | Produção de energia verde renovável
+- 400144 | Aluguel de impressoras para uso com computadores
+- 400145 | Encapsulamento de semicondutores para terceiros
+- 400146 | Custom manufacturing of chips [integrated circuits] for othersFabricação personalizada de chips [circuitos integrados] para terceiros
+- 400147 | Serviços de decocção de medicamentos fitoterápicos
+- 400148 | Biofabricação personalizada de produtos farmacêuticos
+- 400148 | Biomanufatura personalizada de produtos farmacêuticos
+- 400149 | Serviços de biorremediação
+- 400150 | Polimento de joias por abrasão
+- 400150 | Jewelry polishing by abrasion
+- 400151 | Aluguel de purificadores de ar para remediação de mofo
+- 400151 | Rental of air scrubbers for mold remediation

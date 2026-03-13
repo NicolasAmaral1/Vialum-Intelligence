@@ -1,0 +1,55 @@
+# Classe NCL 38
+
+Especificações pré-especificadas (Português):
+
+- 380003 | Radiodifusão
+- 380004 | Transmissão de mensagem
+- 380005 | Teledifusão
+- 380006 | Transmissão de telegramas
+- 380007 | Serviços de telegrafia
+- 380008 | Comunicações por telegramas
+- 380009 | Serviços de telefonia
+- 380010 | Comunicações por telefone
+- 380011 | Serviços de telex
+- 380012 | Serviços de agências de notícias
+- 380021 | Teledifusão por cabo
+- 380022 | Serviços de comunicação por telefone celular
+- 380022 | Cell phone communication services
+- 380023 | Comunicação por terminais de computador
+- 380024 | Computer aided transmission of messages and imagesTransmissão de mensagens e de imagens por meio de computador
+- 380025 | Transmissão de correio eletrônico
+- 380026 | Transmissão por fac-símile [fax]
+- 380027 | Providing information in the field of telecommunicationsProvimento  de informações sobre telecomunicações
+- 380028 | Serviços de telechamadas [rádio, telefone ou outros meios de comunicação eletrônica]
+- 380029 | Aluguel de aparelhos de transmissão de mensagens
+- 380030 | Comunicação por redes de fibra óptica
+- 380030 | Communications by fiber optic networks
+- 380031 | Aluguel de aparelhos de fac-símile [fax]
+- 380032 | Aluguel de modems
+- 380033 | Aluguel de equipamentos de telecomunicação
+- 380034 | Aluguel de aparelhos de telefones
+- 380035 | Transmissão por satélite
+- 380036 | Bbs [serviços de telecomunicação]
+- 380037 | Serviços de roteamento e junção de telecomunicações
+- 380039 | Serviços de teleconferência
+- 380040 | Providing user access to global computer networksProvimento de acesso à rede global de computadores
+- 380041 | Rental of access time to global computer networksAluguel de tempo de acesso à rede global de computadores
+- 380042 | Providing telecommunication channels for teleshopping servicesProvimento de canais de telecomunicação para serviços de telecompras
+- 380043 | Provimento de salas de bate-papo
+- 380044 | Provimento de acesso a banco de dados
+- 380045 | Serviços de correio de voz
+- 380046 | Transmissão de cartões de felicitações on-line
+- 380047 | Transmissão de arquivos digitais
+- 380048 | Serviços de difusão sem fio [telecomunicações]
+- 380049 | Serviços de videoconferência
+- 380050 | Provimento de fóruns on-line
+- 380051 | Streaming de dados [distribuição de dados]
+- 380052 | Comunicação por rádio
+- 380053 | Transmissão de vídeo sob demanda
+- 380054 | Transmissão de podcasts
+- 380055 | Aluguel de aparelhos smartphone
+- 380056 | Serviços de geolocalização [serviços de telecomunicações]
+- 380057 | Fornecimento de acesso a redes blockchain
+- 380058 | Provimento de salas de bate-papo em ambientes virtuais
+- 380059 | Providing online virtual reality-based forums for work collaborationProvimento de fóruns de realidade virtual on-line para colaboração profissional
+- 380060 | Aluguel de aparelhos de atendimento telefônico

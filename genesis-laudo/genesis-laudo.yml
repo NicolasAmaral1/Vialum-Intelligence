@@ -1,0 +1,73 @@
+services:
+  genesis-laudo:
+    container_name: genesis-laudo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - PORT=3001
+      - DATABASE_URL=postgresql://laudo:${DB_PASSWORD}@genesis-laudo-db:5432/laudo
+      - CLICKUP_API_TOKEN=${CLICKUP_API_TOKEN}
+      # WORKSPACE_PATH = /root (parent de genesis/) para que os paths funcionem:
+      #   scripts: /root/genesis/squads/laudo-viabilidade/scripts/
+      #   laudos:  /root/laudos/{cliente}/{marca}/
+      - WORKSPACE_PATH=/root
+    volumes:
+      # aiOS workspace (AGENTS.md + squads + .aios-core) — lido/escrito pelo claude CLI
+      - /root/genesis:/root/genesis
+      # Laudos gerados — compartilhado entre claude CLI e Node.js
+      - /root/laudos:/root/laudos
+      # Auth do Claude CLI — montado no HOME do usuário node (uid 1000) que roda no container.
+      # O container usa USER node, portanto HOME=/home/node → claude busca em /home/node/.claude.
+      - /root/.claude:/home/node/.claude:ro
+    labels:
+      - "traefik.enable=true"
+      # Forçar Traefik a usar a rede proxy (container está em 2 redes)
+      - "traefik.docker.network=proxy"
+      # Router HTTPS
+      - "traefik.http.routers.genesis-laudo.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/laudo`)"
+      - "traefik.http.routers.genesis-laudo.entrypoints=websecure"
+      - "traefik.http.routers.genesis-laudo.tls.certresolver=le"
+      # Router HTTP (redirect)
+      - "traefik.http.routers.genesis-laudo-http.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/laudo`)"
+      - "traefik.http.routers.genesis-laudo-http.entrypoints=web"
+      # Serviço
+      - "traefik.http.services.genesis-laudo.loadbalancer.server.port=3001"
+    networks:
+      - proxy
+      - laudo-internal
+    depends_on:
+      genesis-laudo-db:
+        condition: service_healthy
+
+  genesis-laudo-db:
+    container_name: genesis-laudo-db
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=laudo
+      - POSTGRES_USER=laudo
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - genesis-laudo-db-data:/var/lib/postgresql/data
+      # Migration executada automaticamente no primeiro boot
+      - ./migrations:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U laudo -d laudo"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - laudo-internal  # apenas rede interna — não exposto externamente
+
+volumes:
+  genesis-laudo-db-data:
+    name: genesis-laudo-db-data
+
+networks:
+  proxy:
+    external: true
+  laudo-internal:
+    driver: bridge
+    name: laudo-internal

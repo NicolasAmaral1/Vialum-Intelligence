@@ -1,0 +1,195 @@
+# Classe NCL 41
+
+Especificações pré-especificadas (Português):
+
+- 410002 | Academias [educação]
+- 410003 | Serviços de parques de diversão
+- 410004 | Serviços de divertimento
+- 410004 | Serviços de entretenimento
+- 410005 | Adestramento de animais
+- 410006 | Serviços de aluguel de projetores e acessórios cinematográficos
+- 410007 | Serviços de espetáculos
+- 410008 | Serviços de estúdios de cinema
+- 410009 | Apresentação de espetáculos circenses
+- 410010 | Organização de competições [educação ou entretenimento]
+- 410011 | Cursos por correspondência
+- 410012 | Educação física
+- 410013 | Aluguel de cenários para shows
+- 410014 | Provimento de instalações para recreação
+- 410015 | Programas de entretenimento de rádio
+- 410016 | Publicação de textos, exceto para publicidade
+- 410017 | Serviços de ensino
+- 410017 | Serviços de instrução
+- 410017 | Serviços de educação
+- 410018 | Aluguel de equipamentos para gravação de som
+- 410019 | Aluguel de filmes cinematográficos
+- 410020 | Produção de filmes, exceto para fins de publicidade
+- 410021 | Aulas de ginástica
+- 410023 | Serviços de empréstimo de livros por bibliotecas
+- 410024 | Publicação de livros
+- 410025 | Aluguel de aparelhos de rádio e televisão
+- 410026 | Produção de programas de rádio e televisão
+- 410027 | Apresentação de espetáculos de variedades
+- 410028 | Serviços de orquestra
+- 410029 | Produções teatrais
+- 410030 | Produção de shows
+- 410031 | Programas de entretenimento de televisão
+- 410032 | Aluguel de cenários para palco
+- 410033 | Serviços de jardins zoológicos
+- 410035 | Provimento de instalações desportivas
+- 410036 | Serviços de modelos vivos para artistas
+- 410041 | Serviços de bibliotecas itinerantes
+- 410041 | Bookmobile services
+- 410042 | Provimento de instalações para cassino [jogos de azar ou apostas]
+- 410044 | Organização e apresentação de colóquios
+- 410045 | Organização e apresentação de conferências
+- 410046 | Organização e apresentação de congressos
+- 410047 | Serviços de discoteca
+- 410048 | Provimento de informações sobre educação [instrução]
+- 410049 | Exames pedagógicos [avaliação]
+- 410050 | Provimento de informações sobre entretenimento [lazer]
+- 410051 | Organization of exhibitions for cultural or educational purposesOrganização de exposições para fins culturais ou educativos
+- 410052 | Serviços de jogos de azar ou apostas
+- 410053 | Provimento de instalações para golfe
+- 410054 | Serviços de academia de ginástica [treinamento físico e para a saúde]
+- 410055 | Colônia de férias
+- 410056 | Apresentação de espetáculos ao vivo
+- 410057 | Projeções de filmes cinematográficos
+- 410057 | Movie theatre presentations
+- 410058 | Escolas de enfermagem
+- 410059 | Organização de competições desportivas
+- 410060 | Planejamento de festas
+- 410061 | Treinamento prático [demonstração]
+- 410062 | Provimento de instalações para museus
+- 410063 | Serviços de estúdios de gravação
+- 410064 | Providing information relating to recreational activitiesProvimento de informações sobre recreação
+- 410065 | Aluguel de equipamento para mergulho
+- 410066 | Aluguel de equipamentos desportivos, exceto veículos
+- 410067 | Aluguel de estádios
+- 410068 | Aluguel de videocassetes
+- 410069 | Aluguel de fitas de vídeo
+- 410070 | Organização e apresentação de seminários
+- 410071 | Serviços de acampamentos desportivos
+- 410072 | Organização e apresentação de simpósios
+- 410073 | Cronometragem de eventos desportivos
+- 410075 | Ensino em escolas em regime de internato
+- 410076 | Organização e apresentação de oficinas de trabalho [treinamento]
+- 410077 | Organização de concursos de beleza
+- 410078 | Reservas de lugares para shows
+- 410079 | Dublagem
+- 410080 | Educação religiosa
+- 410081 | Operação de loterias
+- 410082 | Organização de bailes
+- 410083 | Organização de espetáculos [shows] [serviços de empresário]
+- 410084 | Provimento de serviços para jogos eletrônicos
+- 410085 | Aluguel de equipamento de áudio
+- 410086 | Rental of lighting apparatus for theatrical sets or television studiosAluguel de equipamentos para iluminação de teatro ou estúdios de televisão
+- 410087 | Aluguel de quadras de tênis
+- 410088 | Aluguel de câmeras de vídeo
+- 410088 | Rental of camcorders
+- 410089 | Serviços de roteirização, exceto para fins publicitários
+- 410090 | Edição de videoteipe
+- 410091 | Online publication of electronic books and journalsPublicação on-line de livros e periódicos eletrônicos
+- 410092 | Editoração eletrônica
+- 410093 | Legendagem
+- 410094 | Game services provided online from a computer networkProvimento de serviços para jogos on-line [computadores]
+- 410095 | Serviços de karaokê
+- 410097 | Serviços de composição musical
+- 410098 | Serviços de boates [entretenimento]
+- 410099 | Providing online electronic publications, not downloadableProvimento de publicações eletrônicas on-line, não baixáveis
+- 410100 | Reportagens fotográficas
+- 410101 | Fotografia
+- 410102 | Orientação vocacional
+- 410103 | Serviços de reportagem de notícias
+- 410104 | Tradução
+- 410105 | Interpretação de linguagem de sinais
+- 410106 | Filmagem em vídeo
+- 410182 | Microfilmagem
+- 410183 | Serviços de agenciamento de ingressos
+- 410184 | Redação de textos*
+- 410185 | Organização e regência de concertos
+- 410186 | Serviços de caligrafia
+- 410187 | Layout services, other than for advertising purposesServiços de layout, exceto para fins publicitários
+- 410188 | Organization of fashion shows for entertainment purposesOrganização de desfiles de moda para fins de entretenimento
+- 410189 | Orientação [treinamento]
+- 410189 | Coaching [treinamento]
+- 410190 | Locação de espaços para prática de esporte
+- 410191 | Serviços de dj
+- 410192 | Interpretação de idiomas
+- 410193 | Serviços de personal trainer [preparo físico]
+- 410194 | Serviços de instrução de aulas de atividade física
+- 410195 | Reciclagem profissional [treinamento]
+- 410196 | Produção musical
+- 410197 | Aluguel de brinquedos
+- 410198 | Aluguel de equipamento de jogos
+- 410199 | Serviços educacionais prestados por escolas
+- 410200 | Provimento de música on-line, não baixável
+- 410201 | Provimento de vídeos on-line, não baixáveis
+- 410202 | Aulas particulares
+- 410203 | Arranging and conducting of in-person educational forumsOrganização e e condução de fóruns educacionais presenciais
+- 410204 | Composição de canções
+- 410205 | Elaboração de roteiros [roteirização]
+- 410206 | Condução de visitas guiadas
+- 410207 | Serviços de treinamento através de simuladores
+- 410208 | Providing films, not downloadable, via video-on-demand servicesFornecimento de filmes, não baixáveis, através de serviços de video sob demanda
+- 410209 | Fornecimento de programas de televisão, não baixáveis, através de serviços de video sob demanda410209 41 Providing television programs, not downloadable, via video-on-demand services
+- 410210 | Ensino de sado [ensino de cerimônia do chá japonesa]
+- 410211 | Ensino de aikido
+- 410212 | Aluguel de obras de arte
+- 410213 | Aluguel de aquários indoor
+- 410214 | Condução de circuitos de escalada guiados
+- 410215 | Cultural, educational or entertainment services provided by art galleriesServiços culturais, pedagógicos ou de divertimento providos por galerias de arte
+- 410217 | Distribuição de filmes
+- 410218 | Transferência de know-how [treinamento]
+- 410219 | Educational assistance services for persons with individual needsServiços de assistência educacional para pessoas com necessidades individuais
+- 410220 | Ensino de artes marciais
+- 410221 | Educational examination for users to qualify to pilot dronesExames pedagógicos para qualificação  de pilotagem de drones
+- 410222 | Serviços de engenharia de som para eventos
+- 410223 | Serviços de edição de vídeos para eventos
+- 410224 | Serviços de técnico de iluminação para eventos
+- 410225 | Direção de filmes, exceto filmes  publicitários
+- 410226 | Providing user reviews for entertainment or cultural purposesProvimento de críticas feitas por usuários para fins culturais ou de entretenimento
+- 410227 | Providing user rankings for entertainment or cultural purposesProvimento de classificações feitas por usuários para fins culturais ou de entretenimento
+- 410227 | Providing user ratings for entertainment or cultural purposesProvimento de avaliações feitas por usuários para fins culturais ou de entretenimento
+- 410228 | Aluguel de simuladores de treinamento
+- 410229 | Physical fitness assessment services for training purposesAvaliação de aptidão física para fins de treinamento
+- 410230 | Serviços de pintura facial
+- 410231 | Organização de competições esportivas eletrônicas
+- 410232 | Direção de shows
+- 410233 | Serviços de esportes eletrônicos
+- 410234 | Serviços de biblioteca de jogos
+- 410235 | Serviços de biblioteca de multimídia
+- 410236 | Serviços de imagens fotográficas por drone
+- 410237 | Serviços de imagem de vídeo por drone
+- 410238 | Transferência de conhecimento e know-how de negócios [treinamento]
+- 410239 | Providing training and educational examination for certification purposesProvimento de treinamento e exame pedagógico [avaliação] para fins de certificação
+- 410240 | Pesquisa na área de educação
+- 410241 | Aluguel de leitores de livros digitais [e-readers]
+- 410242 | Arranging and conducting of entertainment eventsOrganização e realização de eventos de entretenimento
+- 410243 | Organização e realização de eventos esportivos
+- 410244 | Educação musical
+- 410245 | Legendagem para pessoas com limitação auditiva
+- 410247 | Quarto de fuga [escape] [entretenimento]
+- 410247 | Jogo de fuga [escape] [entretenimento]
+- 410248 | Apresentação de exposições em museu
+- 410249 | Produção de podcasts
+- 410250 | Aluguel de objetos de cena
+- 410251 | Agendamento de programas de rádio e televisão
+- 410252 | Provimento de imagens on-line, não baixáveis
+- 410253 | Provimento de passeios turísticos virtuais guiados on-line
+- 410254 | Providing facilities for playing live action role playing [larp] gamesProvimento de instalações para jogar rpg ao vivo (LARP)
+- 410255 | Serviços de entretenimento providos em ambientes virtuais
+- 410257 | Organização de eventos de corrida de animais
+- 410258 | Organização de concursos de beleza para animais
+- 410259 | Organização de festas de swingers
+- 410261 | Provimento de playgrounds para animais de estimação
+- 410262 | Aluguel de arquivos de imagem digital autenticados por tokens não fungíveis [NFTs]
+- 410264 | Providing smash rooms for entertainment purposesProvimento de quartos de destruição para fins de entretenimento
+- 410264 | Providing rage rooms for entertainment purposes
+- 410265 | Serviços de comentários esportivos
+- 410266 | Aluguel de máquinas para exercícios físicos
+- 410267 | Arranging and conducting of business conferencesOrganização e realização de conferências empresariais
+- 410268 | Aluguel de dicionários eletrônicos portáteis
+- 410269 | Aluguel de tradutores eletrônicos de bolso
+- 410270 | Aluguel de pranchas para stand up paddle
+- 410271 | Apresentação de shows de luzes com drones

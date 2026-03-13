@@ -1,0 +1,11 @@
+# Domain: workflow-contrato
+# Injetado pelo L5/L6 quando o workflow contrato-procuracao está ativo.
+
+O workflow contrato-procuracao tem 4 fases sequenciais obrigatórias.
+Fase 1 (coletar-dados): elicitar dados PF ou PJ do cliente via protocolo-coletar-dados.md.
+Fase 2 (definir-escopo): elicitar nome da marca, classes INPI, pagamento e valor via protocolo-definir-escopo.md.
+Fase 3 (gerar-docs): executar assemble_contract.py via Bash e salvar em genesis/outputs/protocolo/ via protocolo-gerar-docs.md.
+Fase 4 (finalizar): confirmar documentos e upload para Google Drive via protocolo-finalizar.md.
+Não pule fases. Não avance sem confirmação do usuário.
+O script deve ser chamado de: cd genesis/outputs/protocolo/ && python3 ../../squads/protocolo/scripts/assemble_contract.py '<JSON>'
+O campo upload_drive deve ser false na Fase 3 e true somente na Fase 4.

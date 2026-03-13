@@ -1,0 +1,11 @@
+AGENT_LAUDO_ALWAYS_ON=true
+AGENT_LAUDO_AGENT_TRIGGER=laudo
+
+ANALISE_PRELIMINAR_WORKFLOW_TRIGGER=preliminar,parte1,veracidade,liceidade,distintividade
+ANALISE_INPI_WORKFLOW_TRIGGER=inpi,colidencia,anterioridade,parte2,narrativa
+ANALISE_ESPECIFICACOES_RECALL=especificacoes,ncl,classe,especificacao,concorrente
+
+LAUDO_RECALL=laudo,viabilidade,marca,inpi,pi,propriedade intelectual,registro,deposito,classe ncl
+CLICKUP_LAUDO_RECALL=clickup,fila,para fazer,em processo,feito,card,laudo
+
+LAUDO_VIABILIDADE_EXTENDS=extend

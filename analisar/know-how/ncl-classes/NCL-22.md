@@ -1,0 +1,139 @@
+# Classe NCL 22
+
+Especificações pré-especificadas (Português):
+
+- 220001 | Tela de tecido para tabiques de ventilação
+- 220002 | Tarpaulins* Oleados [tecidos]*
+- 220003 | Tiras para atar videiras
+- 220004 | Aparas de madeira para enchimento
+- 220005 | Palha de madeira
+- 220006 | Serragem de madeira
+- 220007 | Enchimentos [estofos]
+- 220007 | Flocos [enchimento]
+- 220008 | Seda crua
+- 220009 | Redes para camuflagem
+- 220010 | Fibras têxteis em bruto
+- 220011 | Redes de pesca comerciais
+- 220012 | Pêlos de camelo
+- 220013 | Fibras de cânhamo
+- 220014 | Estopa
+- 220015 | Correias de cânhamo
+- 220016 | Fios de resíduos de seda
+- 220016 | Resíduos de seda
+- 220018 | Fibra de coco
+- 220018 | Coconut fiber
+- 220019 | Casulos
+- 220020 | Cordas não metálicas
+- 220021 | Cordas *
+- 220022 | Corda de chicote
+- 220023 | Escadas de corda
+- 220025 | Algodão cru
+- 220026 | Estopa de algodão
+- 220027 | Crina de cavalo*
+- 220028 | Penugem [plumas]
+- 220029 | Penugem de eider [plumas]
+- 220030 | Padding materials, not of rubber, plastics, paper or cardboardMateriais para estofamento, exceto de borracha, materiais plásticos, papel ou papelão
+- 220030 | Stuffing, not of rubber, plastics, paper or cardboard
+- 220031 | Barbantes [cordel] para embalagem
+- 220033 | Lã para estofamento [acolchoamento]
+- 220035 | Barbantes [cordel]
+- 220036 | Enxárcias de embarcações
+- 220037 | Fibras de sílica vitrificada para uso têxtil
+- 220037 | Vitreous silica fibers for textile use
+- 220038 | Cordéis feitos de papel
+- 220039 | Cordéis para redes
+- 220040 | Flocos de seda
+- 220041 | Flocos de lã
+- 220042 | Fios para amarrar feixes
+- 220043 | Redes para dormir
+- 220044 | Ervas para estofamento
+- 220045 | Fitas de gelosias [lamelas de persianas]
+- 220045 | Webbing for jalousies
+- 220046 | Juta
+- 220047 | Paina
+- 220048 | Laços [redes, entrelaçamentos]
+- 220050 | Lã crua ou tratada
+- 220051 | Lã cardada
+- 220052 | Lã penteada
+- 220054 | Líber
+- 220055 | Linhol [fio grosso, untado em cerol]
+- 220056 | Linho em bruto [fibra do linho]
+- 220057 | Plumas [penugem] para enchimento [artigos de cama]
+- 220058 | Toldos de matérias têxteis
+- 220059 | Velas de navios
+- 220060 | Fibras em rama para filtragem
+- 220061 | Fibras em rama para estofamento e enchimento
+- 220062 | Palha para estofamento
+- 220064 | Penas para estofamento [plumas]
+- 220065 | Pêlos de animais
+- 220066 | Fibras de rami
+- 220066 | Ramie fiber
+- 220067 | Ráfia
+- 220068 | Sacks for the transport and storage of materials in bulkSacos para transporte e armazenamento de mercadorias a granel
+- 220069 | Bags [envelopes, pouches] of textile, for packagingSacos [invólucros, sacolas] de matéria têxtil, para embalar
+- 220070 | Esparto [grama]
+- 220071 | Tendas*
+- 220071 | Toldos*
+- 220072 | Lã [velo]
+- 220073 | Lã tosquiada
+- 220074 | Algas do mar [material de estofamento]
+- 220074 | Sargaço [material de estofamento]
+- 220075 | Capas para veículos, não adaptadas
+- 220076 | Fibras têxteis
+- 220076 | Textile fibers
+- 220077 | Sisal
+- 220078 | Fitas não metálicas para embrulhar ou atar
+- 220079 | Fios não metálicos para atar ou embalar
+- 220080 | Embalagens de palha para garrafas
+- 220080 | Invólucros de palha para garrafas
+- 220080 | Bottle envelopes of straw
+- 220081 | Braçadeiras não metálicas para sustentação de cargas
+- 220081 | Harness, not of metal, for handling loads
+- 220082 | Correias não metálicas para sustentação de cargas
+- 220082 | Belts, not of metal, for handling loads
+- 220083 | Lingas não metálicas para sustentação de cargas
+- 220084 | Cabos não metálicos
+- 220085 | Coberturas para camuflagem
+- 220086 | Binding thread, not of metal, for agricultural purposesCintas não metálicas para uso agrícola
+- 220087 | Fibras de carbono para uso têxtil
+- 220087 | Carbon fibers for textile use
+- 220088 | Cordões para caixilhos de janelas de guilhotina
+- 220089 | Cordões para pendurar quadros
+- 220090 | Resíduos de algodão [estopa] para estofamentos
+- 220091 | Corda para embalagem
+- 220092 | Fibras plásticas para uso têxtil
+- 220092 | Plastic fibers for textile use
+- 220093 | Fibras de vidro para uso têxtil
+- 220093 | Glass fibers for textile use
+- 220094 | Redes *
+- 220101 | Fibras curtas de algodão
+- 220102 | Toldos de material sintético
+- 220103 | Cordas para reboque de carros
+- 220104 | Sacos postais
+- 220105 | Velas para snowkite
+- 220105 | Velas para kite esqui
+- 220106 | Sacos em malha para lavagem de roupa
+- 220107 | Sacos mortuários
+- 220108 | Redes de cerco
+- 220109 | Tanques-rede para piscicultura
+- 220110 | Lonas [telas] para velas de embarcações
+- 220111 | Persianas [toldos] para exteriores, de matéria têxtil
+- 220112 | Amarrações não metálicas [amarrilhos]
+- 220113 | Redes utilizadas para a alimentação de animais
+- 220114 | Cerdas de porco*
+- 220115 | Lonas de proteção contra poeira
+- 220115 | Drop cloths
+- 220116 | Cloth bags specially adapted for the storage of diapersSacos de tecido especialmente adaptados para armazenamento de fraldas
+- 220117 | Sacos de bivaque como abrigos
+- 220118 | Sacos para roupa suja
+- 220119 | Presilhas para fios, não metálicas
+- 220119 | Abraçadeiras para fios, não metálicas
+- 220120 | Espuma de soja para enchimento e estofamento
+- 220121 | Rede de proteção contra pássaros e insetos
+- 220122 | Bolsas para acampamento
+- 220123 | Redes de proteção não metálicas para rochas
+- 220124 | Fibra de poliéster fiada para uso têxtil
+- 220124 | Spun polyester fiber for textile use
+- 220125 | Ombrelone / guarda-sol de pátio
+- 220126 | Fibras de poliéster para estofamento
+- 220126 | Polyester fibers for stuffing upholstery

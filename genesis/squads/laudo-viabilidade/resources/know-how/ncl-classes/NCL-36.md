@@ -1,0 +1,121 @@
+# Classe NCL 36
+
+Especificações pré-especificadas (Português):
+
+- 360001 | Seguro contra acidentes
+- 360002 | Empréstimos a prazo
+- 360003 | Serviços atuariais
+- 360004 | Locação de imóveis
+- 360005 | Corretagem *
+- 360006 | Serviços de agências de crédito
+- 360007 | Serviços de agências imobiliárias
+- 360008 | Corretagem imobiliária
+- 360009 | Serviços de agências de cobranças de dívidas
+- 360010 | Corretagem de seguros
+- 360011 | Serviços financeiros de agências alfandegárias
+- 360012 | Seguros
+- 360013 | Serviços bancários
+- 360014 | Avaliação imobiliária
+- 360015 | Captação de fundos para caridade
+- 360016 | Fundos mútuos
+- 360017 | Investimentos de capital [finanças]
+- 360018 | Fianças [garantias]
+- 360019 | Operações de câmbio
+- 360020 | Emissão de cheques de viagem
+- 360020 | Issuance of travelers' checks
+- 360021 | Compensação financeira
+- 360022 | Serviços de depósito em cofres bancários
+- 360023 | Serviços de cobrança financeira
+- 360024 | Empréstimos [financiamento]
+- 360025 | Avaliação fiscal
+- 360026 | Avaliação financeira [seguros, bancos, imóveis]
+- 360027 | Factoring
+- 360028 | Serviços fiduciários
+- 360028 | Fiduciary
+- 360029 | Serviços de financiamento
+- 360030 | Administração financeira
+- 360031 | Serviços de penhor
+- 360032 | Administração de imóveis
+- 360033 | Administração predial
+- 360034 | Seguros contra incêndio
+- 360035 | Aluguel de apartamentos
+- 360036 | Locação de fazendas
+- 360038 | Seguros de saúde
+- 360039 | Seguros marítimos
+- 360040 | Operações bancárias de hipoteca
+- 360041 | Serviços bancários de poupança
+- 360042 | Financiamento de leasing
+- 360042 | Lease-purchase financing
+- 360043 | Corretagem de valores
+- 360044 | Seguros de vida
+- 360045 | Serviços de agências imobiliárias de locação de apartamentos
+- 360046 | Análise financeira
+- 360051 | Avaliação de antigüidades
+- 360052 | Avaliação de arte
+- 360053 | Verificação de validade de cheque
+- 360053 | Check verification
+- 360054 | Consultoria financeira
+- 360055 | Consultoria em seguros
+- 360056 | Processamento de pagamento de cartão de crédito
+- 360057 | Processamento de pagamento de cartão de débito
+- 360058 | Transferência eletrônica de fundos
+- 360059 | Provimento  de informações financeiras
+- 360060 | Provimento de informações sobre seguros
+- 360061 | Avaliação de jóias
+- 360061 | Jewelry appraisal
+- 360062 | Avaliação numismática
+- 360063 | Serviços de cobrança de aluguel
+- 360064 | Avaliação filatélica
+- 360065 | Emissão de vouchers pré-pagos
+- 360066 | Depósitos de objetos de valor
+- 360067 | Cotações de bolsa de valores
+- 360068 | Emissão de cartões de crédito
+- 360069 | Aluguel de escritórios [imóveis]
+- 360070 | Fundos de pensão [aposentadoria]
+- 360071 | Patrocínio financeiro
+- 360072 | Serviços bancários de acesso remoto [internet banking]
+- 360073 | Serviços de liquidação financeira
+- 360103 | Orçamento [avaliação financeira]
+- 360104 | Intermediação de créditos de carbono
+- 360105 | Avaliação financeira de madeira em pé
+- 360105 | Financial valuation of standing timber
+- 360107 | Avaliação financeira de lã
+- 360107 | Financial valuation of wool
+- 360108 | Serviços de empréstimo com garantia de ações
+- 360109 | Serviços de fundos de previdência
+- 360110 | Serviços de corretagem de ações
+- 360111 | Serviços de notificação de débitos
+- 360112 | Captação de financiamento para projetos de construção
+- 360113 | Provimento de informações financeiras através de uma website
+- 360114 | Financial management of reimbursement payments for othersGestão financeira de pagamento de reembolsos para terceiros
+- 360115 | Fundos de investimentos
+- 360116 | Corretagem de ações e títulos
+- 360117 | Serviços de pagamento de fianças
+- 360119 | Aluguel de escritórios para co-working
+- 360120 | Financial appraisals in responding to calls for tendersAvaliações financeiras para responder a licitações
+- 360120 | Avaliações financeiras para responder a solicitações de propostas [rfp] de prestação de serviços
+- 360121 | Pesquisas financeiras
+- 360123 | Serviços imobiliários
+- 360124 | Transferência eletrônica de criptomoedas
+- 360125 | Avaliação financeira de ativos de propriedade intelectual
+- 360126 | Preparation of quotes for cost estimation purposesElaboração de cotações para fins de estimativa de custos
+- 360127 | Financiamento coletivo [crowdfunding]
+- 360128 | Serviços de pagamento por carteira eletrônica [e-wallet]
+- 360129 | Operações de câmbio de criptomoedas
+- 360130 | Electronic funds transfer provided via blockchain technologyTransferência eletrônica de fundos provida por meio de tecnologia blockchain
+- 360131 | Emissão de cartões-presentes
+- 360132 | Serviços bancários móveis
+- 360133 | Administração de assuntos financeiros
+- 360134 | Assessoria financeira relacionada a impostos
+- 360135 | Corretagem de negócios
+- 360136 | Apoio financeiro
+- 360137 | Assessoria financeira
+- 360138 | Emissão de vales-presente pré-pagos
+- 360139 | Online banking services rendered in virtual environmentsServiços bancários de acesso remoto [online banking] providos em ambientes virtuais
+- 360140 | Negociação financeira de criptomoeda
+- 360141 | Serviços de corretor de carros
+- 360142 | Serviços de administração de reivindicação de garantia
+- 360143 | Aluguel de pastagens
+- 360144 | Engenharia financeira
+- 360145 | Administração de planos de seguros
+- 360146 | Aluguel de terminais de pagamento

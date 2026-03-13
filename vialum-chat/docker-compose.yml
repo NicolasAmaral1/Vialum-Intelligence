@@ -1,0 +1,103 @@
+services:
+  # ─── API Backend ─────────────────────────────────────────
+  vialumchat-api:
+    container_name: vialumchat-api
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - PORT=4000
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://vialumchat:${DB_PASSWORD}@vialumchat-db:5432/vialumchat
+      - REDIS_URL=redis://:${REDIS_PASSWORD}@vialumchat-redis:6379
+      - JWT_SECRET=${JWT_SECRET}
+      - JWT_REFRESH_SECRET=${JWT_REFRESH_SECRET}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - CORS_ORIGIN=*
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.vialumchat-api.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/chat`)"
+      - "traefik.http.routers.vialumchat-api.entrypoints=websecure"
+      - "traefik.http.routers.vialumchat-api.tls.certresolver=le"
+      - "traefik.http.services.vialumchat-api.loadbalancer.server.port=4000"
+    networks:
+      - proxy
+      - vialumchat-internal
+    depends_on:
+      vialumchat-db:
+        condition: service_healthy
+      vialumchat-redis:
+        condition: service_healthy
+
+  # ─── Web Frontend ────────────────────────────────────────
+  vialumchat-web:
+    container_name: vialumchat-web
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=https://api.luminai.ia.br/chat
+        - NEXT_PUBLIC_WS_URL=https://api.luminai.ia.br
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      - "traefik.http.routers.vialumchat-web.rule=Host(`chat.luminai.ia.br`)"
+      - "traefik.http.routers.vialumchat-web.entrypoints=websecure"
+      - "traefik.http.routers.vialumchat-web.tls.certresolver=le"
+      - "traefik.http.services.vialumchat-web.loadbalancer.server.port=3000"
+    networks:
+      - proxy
+
+  # ─── PostgreSQL ───────────────────────────────────────────
+  vialumchat-db:
+    container_name: vialumchat-db
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=vialumchat
+      - POSTGRES_USER=vialumchat
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - vialumchat-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U vialumchat -d vialumchat"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - vialumchat-internal
+
+  # ─── Redis ───────────────────────────────────────────────
+  vialumchat-redis:
+    container_name: vialumchat-redis
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: redis-server --requirepass ${REDIS_PASSWORD} --maxmemory 256mb --maxmemory-policy allkeys-lru
+    volumes:
+      - vialumchat-redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD}", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - vialumchat-internal
+
+volumes:
+  vialumchat-db-data:
+    name: vialumchat-db-data
+  vialumchat-redis-data:
+    name: vialumchat-redis-data
+
+networks:
+  proxy:
+    external: true
+  vialumchat-internal:
+    driver: bridge
+    name: vialumchat-internal

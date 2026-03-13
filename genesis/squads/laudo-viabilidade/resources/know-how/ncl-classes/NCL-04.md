@@ -1,0 +1,122 @@
+# Classe NCL 04
+
+Especificações pré-especificadas (Português):
+
+- 040001 | Beeswax* Cera de abelha*
+- 040002 | Álcool metilado
+- 040003 | Álcool [combustível]
+- 040004 | Combustível à base de álcool
+- 040005 | Tiras de papel para acender fogo
+- 040006 | Aparas de madeira para acender fogo
+- 040007 | Isca para acender fogo
+- 040008 | Antracito
+- 040009 | Preparações antiderrapantes para correias
+- 040011 | Graxa para armas
+- 040012 | Compostos para ligar pó para varredura
+- 040013 | Lenha para fogo
+- 040014 | Carvão vegetal [combustível]
+- 040015 | Velas [iluminação]
+- 040015 | Tapers
+- 040016 | Briquetes de carvão
+- 040017 | Blocos de turfa [combustível]
+- 040018 | Briquetes de madeira
+- 040019 | Briquetes combustíveis
+- 040020 | Misturas combustíveis vaporizadas
+- 040021 | Cera de carnaúba
+- 040022 | Ceresina
+- 040023 | Carvão [combustível]
+- 040024 | Turfa [combustível]
+- 040025 | Fuel* Combustível*
+- 040026 | Graxa para calçados
+- 040027 | Cera [matéria-prima]
+- 040028 | Cera para correias
+- 040029 | Cera para iluminação
+- 040030 | Cera industrial
+- 040031 | Coque
+- 040032 | Combustível mineral
+- 040033 | Graxa para correias
+- 040034 | Graxa para couro
+- 040035 | Graxas industriais
+- 040036 | Óleos para desmoldar [construção]
+- 040037 | Sebo
+- 040038 | Produtos para remover pó
+- 040039 | Óleos para iluminação
+- 040040 | Gás para iluminação
+- 040041 | Combustível para iluminação
+- 040042 | Óleo lubrificante
+- 040043 | Petrol
+- 040043 | Gasolina
+- 040044 | Éter de petróleo
+- 040045 | Ligroína
+- 040046 | Pavios para velas
+- 040047 | Geleia de petróleo para uso industrial
+- 040048 | Óleo diesel
+- 040048 | Gasóleo
+- 040049 | Gás combustível
+- 040050 | Gás de óleo
+- 040052 | Grafite lubrificante
+- 040053 | Òleo de coltar [óleo de alcatrão de hulha]
+- 040054 | Nafta de carvão
+- 040055 | Óleos para conservação de alvenaria
+- 040056 | Óleo umectante
+- 040057 | Óleo de peixe para uso industrial
+- 040058 | Preparações de óleo de soja para tratamento antiaderente de utensílios de cozinha
+- 040059 | Querosene
+- 040060 | Graxa lubrificante
+- 040061 | Pavios de candeeiro
+- 040062 | Linhita
+- 040063 | Lubrificantes
+- 040064 | Mazut [óleo pesado combustível]
+- 040065 | Óleo de colza para uso industrial
+- 040065 | Colza oil for industrial purposes
+- 040066 | Nafta
+- 040067 | Óleo de ossos para uso industrial
+- 040068 | Oleína
+- 040069 | Ozocerite
+- 040069 | Ozocerite
+- 040070 | Parafina
+- 040071 | Petróleo, em bruto ou refinado
+- 040072 | Pó de carvão [combustível]
+- 040073 | Estearina
+- 040074 | Lanolina
+- 040074 | Suarda [lanolina]
+- 040075 | Óleo de girassol para uso industrial
+- 040076 | Velas votivas
+- 040079 | Compostos para ligar pó
+- 040080 | Óleo para uso têxtil
+- 040081 | Carburantes
+- 040081 | Combustível para motor
+- 040084 | Óleo combustível
+- 040084 | Combustible oil
+- 040085 | Aditivos, não químicos, para combustível para motores
+- 040086 | Graxas para conservação de couro
+- 040087 | Óleo industrial
+- 040088 | Gás solidificado [combustível]
+- 040089 | Óleo de rícino para uso industrial
+- 040090 | Óleos para conservação de couro
+- 040101 | Fluidos de corte
+- 040102 | Óleos para tintas
+- 040103 | Gás pobre
+- 040104 | Óleo para motor
+- 040105 | Velas perfumadas
+- 040106 | Energia elétrica
+- 040107 | Etanol [combustível]
+- 040108 | Acendalha
+- 040109 | Compostos para absorção de pó
+- 040110 | Benzina
+- 040111 | Combustível à base de biomassa [biocombustível]
+- 040112 | Combustível à base de benzeno
+- 040113 | Combustível à base de xileno
+- 040114 | Cera para esquis
+- 040115 | Lanolina para uso na fabricação de cosméticos
+- 040116 | Cera de abelha para uso na fabricação de cosméticos
+- 040117 | Carvão para narguilé
+- 040118 | Óleo de transmissão
+- 040118 | Fluido de transmissão
+- 040119 | Lascas de madeira para uso como combustível
+- 040120 | Lascas de madeira para defumar e saborizar alimentos
+- 040120 | Wood chips for smoking and flavoring foods
+- 040121 | Velas de soja
+- 040122 | Óleo dielétrico para uso em metalurgia
+- 040123 | Combustível hidrogênio
+- 040124 | Gás natural

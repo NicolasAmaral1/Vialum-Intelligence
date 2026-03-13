@@ -1,0 +1,15 @@
+tool:
+  schema_version: 2.0
+  id: google-drive
+  type: mcp
+  name: Google Drive
+  version: 1.0.0
+  description: Google Drive integration (read, search, and manage files)
+  mcp_specific:
+    server_command: "npx -y @modelcontextprotocol/server-gdrive"
+    transport: stdio
+    environment_variables:
+      - name: GOOGLE_DRIVE_CREDENTIALS_PATH
+        required: true
+      - name: GOOGLE_DRIVE_TOKEN_PATH
+        required: true

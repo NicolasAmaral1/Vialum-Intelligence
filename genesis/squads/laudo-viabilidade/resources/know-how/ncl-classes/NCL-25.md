@@ -1,0 +1,227 @@
+# Classe NCL 25
+
+Especificações pré-especificadas (Português):
+
+- 250001 | Antiderrapantes para calçados
+- 250002 | Vestuário para automobilistas
+- 250003 | Calçados*
+- 250004 | Sandálias de banho
+- 250005 | Chinelos de banho
+- 250006 | Stockings* Meias finas compridas, femininas*
+- 250007 | Meias finas compridas, femininas e absorventes de transpiração
+- 250008 | Calcanheiras para meias
+- 250009 | Gorros
+- 250010 | Guarda-pós
+- 250010 | Macacões
+- 250011 | Boá [estola de plumas]
+- 250012 | Bonés
+- 250013 | Malhas [vestuário]
+- 250014 | Botas *
+- 250015 | Botas de cano médio
+- 250016 | Biqueiras para calçados
+- 250017 | Sudários axilares
+- 250018 | Suspensórios [vestuário]
+- 250018 | Suspenders [braces] for clothing
+- 250020 | Colarinhos [vestuário]
+- 250021 | Cachecóis
+- 250021 | Cachenês
+- 250022 | Corpetes
+- 250023 | Cuecas samba-canção
+- 250023 | Cuecas boxer
+- 250024 | Solidéus [barrete]
+- 250025 | Corpetes de lingerie
+- 250026 | Roupa íntima
+- 250026 | Underclothing
+- 250027 | Capuzes [vestuário]
+- 250028 | Armações de chapéus
+- 250030 | Palas de boné
+- 250031 | Cintos [vestuário]
+- 250032 | Xales
+- 250033 | Penhoares
+- 250033 | Robes
+- 250034 | Pulôveres
+- 250034 | Suéteres
+- 250034 | Jumpers [pullovers]
+- 250035 | Casulas sacerdotais [vestimenta]
+- 250036 | Socks* Meias*
+- 250037 | Suspensórios de meias
+- 250038 | Ligas
+- 250039 | Cintas liga
+- 250040 | Canos de botas
+- 250041 | Palmilhas
+- 250042 | Camisas*
+- 250043 | Peitilhos de camisas
+- 250044 | Camisas de manga curta
+- 250045 | Vestuário *
+- 250046 | Chapéus [chapelaria]
+- 250048 | Ferragens de metal para calçados
+- 250049 | Peles [vestuário]
+- 250050 | Colarinhos postiços
+- 250051 | Meias-calças
+- 250054 | Roupas íntimas absorventes de transpiração
+- 250054 | Sweat-absorbent underclothing
+- 250055 | Espartilhos
+- 250056 | Suits* Ternos
+- 250057 | Vestuário confeccionado
+- 250058 | Culotes para bebês
+- 250059 | Orelheiras [vestuário]
+- 250060 | Gravatas
+- 250061 | Gáspeas para sapatos
+- 250062 | Perneiras
+- 250063 | Calças de montaria
+- 250064 | Calças compridas
+- 250064 | Pants (am.)
+- 250065 | Vestuário para ciclistas
+- 250066 | Trajes
+- 250067 | Luvas [vestuário]
+- 250068 | Forros confeccionados [parte de vestuário]
+- 250069 | Lenços de pescoço*
+- 250069 | Echarpes
+- 250070 | Faixas [vestuário]
+- 250071 | Artigos de malha [vestuário]
+- 250072 | Palas para camisas
+- 250073 | Alpercatas
+- 250074 | Estolas de pele
+- 250075 | Chuteiras
+- 250075 | Football boots
+- 250076 | Cartolas
+- 250077 | Gabardines [vestuário]
+- 250078 | Coletes [roupa íntima]
+- 250079 | Cintas [roupa íntima]
+- 250080 | Galochas
+- 250080 | Goloshes
+- 250082 | Waistcoats* Coletes*
+- 250082 | Vests*
+- 250083 | Presilhas para perneiras
+- 250084 | Escapulários [vestuário]
+- 250085 | Sapatos para ginástica
+- 250086 | Casacos [capotes]
+- 250087 | Roupas impermeáveis
+- 250088 | Polainas
+- 250088 | Leg warmers
+- 250089 | Jérseis [vestuário]
+- 250090 | Saias
+- 250092 | Enxovais para recém-nascidos [vestuário]
+- 250093 | Librés
+- 250094 | Camisas desportivas
+- 250095 | Punhos de camisa
+- 250095 | Wristbands [clothing]
+- 250096 | Aventais [vestuário]
+- 250097 | Agasalhos para as mãos
+- 250098 | Manípulos [estolas]
+- 250099 | Luvas sem dedos
+- 250100 | Mitras [chapéus]
+- 250100 | Miters [hats]
+- 250101 | Pantufas
+- 250102 | Pelerines
+- 250103 | Peliças
+- 250104 | Roupas de praia
+- 250105 | Sapatos de praia
+- 250106 | Bolsos para roupas
+- 250108 | Pijamas
+- 250108 | Pajamas
+- 250109 | Vestidos
+- 250110 | Calçados de madeira
+- 250111 | Sandálias
+- 250112 | Cuecas
+- 250114 | Sutiãs
+- 250115 | Blazers [vestuário]
+- 250115 | Paletós
+- 250115 | Sobretudos [vestuário]
+- 250116 | Saltos para calçados
+- 250117 | Togas
+- 250118 | Viras para calçados
+- 250119 | Uniformes
+- 250120 | Dólmã [veste militar]
+- 250121 | Casacos [jaquetas]
+- 250122 | Vestuário de papel
+- 250123 | Véus [vestuário]
+- 250124 | Toucas de natação
+- 250125 | Calções de banho
+- 250125 | Calções de banho [sungas]
+- 250125 | Sungas
+- 250126 | Roupas de banho
+- 250126 | Trajes de banho
+- 250127 | Roupões de banho
+- 250128 | Babadouros, exceto de papel
+- 250129 | Solas para calçados
+- 250130 | Sapatos*
+- 250131 | Saltos de sapatos
+- 250132 | Sapatos para esportes*
+- 250134 | Travas para chuteiras de futebol
+- 250134 | Studs for football shoes
+- 250141 | Botas para esportes*
+- 250142 | Faixas para a cabeça [vestuário]
+- 250143 | Parcas
+- 250144 | Anáguas
+- 250145 | Botas de esqui
+- 250146 | Combinação [roupa íntima]
+- 250147 | Body [roupa íntima]
+- 250147 | Bodies [underclothing]
+- 250148 | Bandanas
+- 250149 | Roupa para ginástica
+- 250150 | Roupas de imitação de couro
+- 250151 | Roupas de couro
+- 250152 | Mantilhas
+- 250153 | Fantasias [roupas]
+- 250154 | Sáris
+- 250155 | Camisetas
+- 250156 | Turbantes
+- 250157 | Plastrom
+- 250158 | Toucas de banho
+- 250159 | Coletes para pesca
+- 250160 | Cintos porta-moedas [vestuário]
+- 250161 | Lenços de bolso
+- 250162 | Chapéus de papel [vestuário]
+- 250163 | Máscaras para dormir
+- 250164 | Saias-calças
+- 250165 | Ponchos
+- 250166 | Sarongues
+- 250167 | Luvas de esqui
+- 250168 | Leggings [calças]
+- 250169 | Jardineiras [vestuário]
+- 250169 | Pinafore dresses
+- 250170 | Viseiras [chapelaria]
+- 250171 | Knickers* Calcinhas*
+- 250171 | Panties*
+- 250172 | Camisetas regata para a prática de esportes
+- 250173 | Valenki [botas de feltro]
+- 250174 | Túnicas para padres
+- 250175 | Botas de cano curto
+- 250176 | Meias absorventes de transpiração
+- 250177 | Capas de corte para cabeleireiros
+- 250179 | Uniformes para artes marciais
+- 250180 | Leotards [collants]
+- 250181 | Quimonos
+- 250182 | Babadores, com manga, exceto de papel
+- 250183 | Vestuário contendo substâncias emagrecedoras
+- 250184 | Vestuário bordado
+- 250185 | Protetores de salto para sapatos
+- 250186 | Artigos de chapelaria
+- 250187 | Mitenes [luvas sem dedos]
+- 250188 | Vestuário de látex
+- 250189 | Rash guards [camisa de compressão para prática esportiva]
+- 250190 | Vestuário com led
+- 250191 | Lenços de cabeça
+- 250191 | Headscarfs
+- 250192 | Sutiãs adesivos
+- 250192 | Adhesive brassieres
+- 250193 | Perneiras curtas
+- 250194 | Luvas térmicas para dispositivos com tela de toque
+- 250195 | Face coverings [clothing], not for medical or sanitary purposesMáscaras faciais [vestuário], exceto para fins médicos ou sanitários
+- 250195 | Face masks [clothing], not for medical or sanitary purposes
+- 250196 | Luvas de ciclismo
+- 250197 | Luvas para dirigir
+- 250198 | Roupas esportivas com sensores digitais
+- 250199 | Hanbok [vestido tradicional coreano]
+- 250200 | Vestuário autenticado por tokens não fungíveis NFTs]
+- 250201 | Protetores de mamilo enquanto roupa íntima
+- 250202 | Alças para sutiãs
+- 250203 | Roupas inteligentes
+- 250204 | Uniformes médicos, exceto para salas de cirurgia
+- 250205 | Luvas para montanhismo
+- 250206 | Roupas eletricamente aquecidas
+- 250207 | Meias aquecidas eletricamente
+- 250208 | Footmuffs, electrically heated or not electrically heatedAgasalhos para os pés, aquecidos eletricamente ou não
+- 250209 | Aventais de barba
+- 250210 | Luvas de ioga

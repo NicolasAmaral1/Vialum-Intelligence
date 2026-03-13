@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acompanhamento — Genesis</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L2 22H22L12 2Z" fill="#9FEC14"/>
+      </svg>
+      GENESIS <span>LAUDOS</span>
+    </a>
+    <nav>
+      <a href="/">Novo Pedido</a>
+      <a href="/acompanhamento.html" class="active">Acompanhamento</a>
+      <a href="/admin.html" id="adminLink" class="hidden">Usuários</a>
+      <button type="button" class="nav-button" id="logoutBtn">Sair</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-meta">
+      <div>
+        <h1 class="page-title">Fila de Laudos</h1>
+        <p class="page-subtitle">Acompanhe o status dos pedidos registrados no ClickUp.</p>
+      </div>
+      <div class="user-pill" id="userPill">Carregando...</div>
+    </section>
+
+    <div id="alertBox" class="alert"></div>
+
+    <div id="loading" class="loading-copy">
+      <p>Carregando dados do ClickUp...</p>
+    </div>
+
+    <div class="laudos-grid" id="laudosContainer"></div>
+  </main>
+
+  <script>
+    async function loadSession() {
+      const response = await fetch('/api/auth/session');
+      const data = await response.json();
+
+      if (!data.authenticated) {
+        window.location.href = '/login';
+        return null;
+      }
+
+      if (data.user.mustChangePassword) {
+        window.location.href = '/senha';
+        return null;
+      }
+
+      document.getElementById('userPill').textContent =
+        `${data.user.displayName} (${data.user.companyName || data.user.username})`;
+
+      if (data.user.role === 'admin') {
+        document.getElementById('adminLink').classList.remove('hidden');
+      }
+
+      return data.user;
+    }
+
+    async function marcarComoEntregue(taskId) {
+      const alertBox = document.getElementById('alertBox');
+
+      try {
+        const res = await fetch(`/api/laudos/${taskId}/entregue`, { method: 'PATCH' });
+        const data = await res.json();
+
+        if (!res.ok) {
+          if (data.code === 'PASSWORD_CHANGE_REQUIRED') {
+            window.location.href = '/senha';
+            return;
+          }
+          throw new Error(data.error || 'Falha ao mover laudo.');
+        }
+
+        alertBox.textContent = 'Laudo movido para CPF com sucesso.';
+        alertBox.className = 'alert success';
+        await carregarLaudos();
+      } catch (err) {
+        alertBox.textContent = `Erro: ${err.message}`;
+        alertBox.className = 'alert error';
+      }
+    }
+
+    async function carregarLaudos() {
+      const container = document.getElementById('laudosContainer');
+      const loader = document.getElementById('loading');
+      const alertBox = document.getElementById('alertBox');
+
+      try {
+        container.innerHTML = '';
+        alertBox.className = 'alert';
+
+        const res = await fetch('/api/laudos');
+        const data = await res.json();
+
+        loader.style.display = 'none';
+
+        if (!res.ok) {
+          if (data.code === 'PASSWORD_CHANGE_REQUIRED') {
+            window.location.href = '/senha';
+            return;
+          }
+          throw new Error(data.error || 'Falha ao carregar laudos.');
+        }
+
+        if (data.laudos.length === 0) {
+          container.innerHTML = '<p class="empty-copy">Nenhum laudo encontrado na fila.</p>';
+          return;
+        }
+
+        data.laudos.forEach((laudo) => {
+          const badgeColor = laudo.color || '#A0A0A0';
+          const date = new Date(Number(laudo.date_created)).toLocaleDateString('pt-BR');
+          const mostrarBotaoEntregue = laudo.status === 'feito';
+
+          container.insertAdjacentHTML('beforeend', `
+            <div class="laudo-item">
+              <div class="laudo-info">
+                <h3>${laudo.name}</h3>
+                <p>Recebido em: ${date}</p>
+              </div>
+              <div class="laudo-actions">
+                <div class="status-badge" style="color: ${badgeColor}; border: 1px solid ${badgeColor}33; background: ${badgeColor}11;">
+                  ${laudo.status}
+                </div>
+                ${mostrarBotaoEntregue ? `<button class="action-button" onclick="marcarComoEntregue('${laudo.id}')">ENTREGUE</button>` : ''}
+              </div>
+            </div>
+          `);
+        });
+      } catch (err) {
+        loader.style.display = 'none';
+        alertBox.textContent = `Erro: ${err.message}`;
+        alertBox.className = 'alert error';
+      }
+    }
+
+    document.getElementById('logoutBtn').addEventListener('click', async () => {
+      await fetch('/api/auth/logout', { method: 'POST' });
+      window.location.href = '/login';
+    });
+
+    loadSession().then((user) => {
+      if (user) carregarLaudos();
+    });
+  </script>
+</body>
+</html>

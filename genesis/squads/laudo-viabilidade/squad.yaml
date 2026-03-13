@@ -1,0 +1,109 @@
+name: laudo-viabilidade
+version: 1.0.0
+short-title: Laudos de Viabilidade de Marca
+description: >
+  Squad responsável pelo fluxo completo de análise de viabilidade de registro marcário:
+  monitoramento do ClickUp, coleta de dados, análise preliminar (VERACIDADE, LICEIDADE,
+  DISTINTIVIDADE), processamento de anterioridades do INPI, análise narrativa de colidências
+  e geração de laudo profissional (PDF + DOCX) com upload para o Google Drive.
+
+author: Vialum Intelligence
+license: UNLICENSED
+
+slashPrefix: laudo
+
+aios:
+  type: squad
+  minVersion: 2.0.0
+
+requires:
+  aios: ">=2.0.0"
+  python: ">=3.9"
+
+tags:
+  - laudo
+  - viabilidade
+  - marca
+  - inpi
+  - propriedade-intelectual
+  - pi
+  - colidencia
+  - ncl
+  - pdf
+  - docx
+  - clickup
+  - drive
+
+# Task-first architecture
+components:
+  tasks:
+    - laudo-monitorar.md
+    - laudo-coletar.md
+    - laudo-preliminar.md
+    - laudo-inpi.md
+    - laudo-gerar.md
+  agents:
+    - laudo.md
+  workflows:
+    - nova-analise.md
+
+dependencies:
+  python:
+    - reportlab>=4.0.0
+    - python-docx>=1.0.0
+    - docxtpl>=0.16.0
+    - google-api-python-client>=2.0.0
+    - google-auth-oauthlib>=1.0.0
+    - google-auth-httplib2>=0.1.0
+
+config:
+  extends: extend
+
+integration:
+  clickup:
+    enabled: true
+    mcp_server: "clickup-mcp-server"
+    list_id: "901324787605"
+    list_path: "Avelum > Genesis > Laudos de Viabilidade > Fluxo de Laudos"
+    status_entrada: "para fazer"
+    status_processo: "em processo"
+    status_saida: "feito"
+
+  google_drive:
+    enabled: true
+    credentials: squads/laudo-viabilidade/resources/credentials.json
+    token: squads/laudo-viabilidade/resources/token.json
+
+# Estrutura de saída
+output:
+  base_dir: laudos/
+  pattern: "laudos/{cliente}/{marca}/"
+  files:
+    plano_analise: "{marca} - PLANO DE ANÁLISE.md"
+    inpi_raw: "inpi-raw.txt"
+    inpi_processed: "inpi-raw-processed.json"
+    laudo_pdf: "{marca} - LAUDO FINAL REPORTLAB.pdf"
+    laudo_docx: "{marca} - LAUDO FINAL BUILDER.docx"
+
+# Recursos internos do squad
+resources:
+  scripts:
+    processar_inpi: squads/laudo-viabilidade/scripts/processar_inpi.py
+    gerar_pdf: squads/laudo-viabilidade/scripts/gerar_laudo_reportlab.py
+    gerar_docx: squads/laudo-viabilidade/scripts/gerar_docx_builder.py
+    drive: squads/laudo-viabilidade/scripts/google_drive_service.py
+  assets:
+    fonts: squads/laudo-viabilidade/resources/assets/fonts/
+    logo: squads/laudo-viabilidade/resources/assets/imagens-fixas/logo-genesis.png
+    fluxograma: squads/laudo-viabilidade/resources/assets/imagens-fixas/fluxograma-inpi.png
+  know_how:
+    ncl_classes: squads/laudo-viabilidade/resources/know-how/ncl-classes/
+
+# CLI First: como rodar este squad
+cli:
+  nova_analise: >
+    claude -p "@laudo *nova-analise" --dangerously-skip-permissions
+  monitorar: >
+    claude -p "@laudo *monitorar" --dangerously-skip-permissions
+  processar_card: >
+    claude -p "@laudo *nova-analise TASK_ID" --dangerously-skip-permissions

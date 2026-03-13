@@ -1,0 +1,409 @@
+# Classe NCL 12
+
+Especificações pré-especificadas (Português):
+
+- 120001 | Empilhadeiras de garfo
+- 120002 | Engates de vagões
+- 120003 | Engates para veículos terrestres
+- 120004 | Transportadores aéreos
+- 120005 | Veículos aéreos
+- 120006 | Balões de ar quente
+- 120007 | Câmaras de ar para pneumáticos
+- 120007 | Inner tubes for pneumatic tires
+- 120008 | Equipamentos para conserto de câmaras de ar [pneumáticos]
+- 120009 | Bombas de ar [acessórios de veículos]
+- 120010 | Amortecedores para suspensão de veículos
+- 120011 | Molas amortecedoras para veículos
+- 120012 | Aviões anfíbios
+- 120013 | Dispositivos antiderrapantes para pneus de veículos
+- 120013 | Non-skid devices for vehicle tires
+- 120014 | Correntes antiderrapantes
+- 120015 | Apoios de cabeça para assentos de veículos
+- 120016 | Caminhões borrifadores
+- 120017 | Atrelagem de reboque para veículos
+- 120018 | Ônibus para transporte urbano
+- 120019 | Ônibus de turismo
+- 120021 | Barcos
+- 120022 | Caminhões
+- 120022 | Trucks
+- 120025 | Chassi de automóvel
+- 120026 | Alarmes de marcha à ré para veículos
+- 120027 | Aviões
+- 120028 | Barcas
+- 120029 | Porta-bagagem para veículos
+- 120030 | Aeróstatos
+- 120030 | Balões dirigíveis
+- 120031 | Pneus para rodas de veículo
+- 120031 | Tires for vehicle wheels
+- 120032 | Válvulas para pneus de veículo
+- 120032 | Valves for vehicle tires
+- 120033 | Flanges para aros de rodas de ferrovia
+- 120033 | Flanges for railway wheel tires
+- 120034 | Barras de torção para veículos
+- 120035 | Cascos de navio
+- 120036 | Ganchos de barcos
+- 120037 | Lemes de navio
+- 120038 | Dispositivos para soltar barcos
+- 120039 | Planos inclinados para barcos
+- 120040 | Propulsores a hélice para barcos
+- 120041 | Remos
+- 120042 | Carrocerias basculantes [caçambas basculantes]
+- 120042 | Tipping bodies for trucks
+- 120043 | Rodas de vagonete
+- 120044 | Bicycles* Bicicletas*
+- 120046 | Estribos de bicicleta
+- 120047 | Truques para veículos ferroviários
+- 120048 | Turcos para barcos
+- 120049 | Para-lamas
+- 120050 | Carrinhos de duas rodas para transportar bagagem
+- 120050 | Sack-barrows
+- 120050 | Carrinhos para transportar bagagem
+- 120051 | Carros para instalações de transporte por cabo
+- 120052 | Carrinhos para transporte de munição
+- 120053 | Rodas de veículo
+- 120054 | Capôs para motores de veículos
+- 120054 | Bonnets for vehicle engines
+- 120055 | Capôs dobráveis para veículos
+- 120055 | Tops [folding roofs] for vehicles
+- 120056 | Trailers [caravan]
+- 120057 | Trailers [reboque]
+- 120058 | Crankcases for land vehicle components, other than for enginesCárteres para componentes de veículos, exceto para motores
+- 120059 | Cintos de segurança para assentos de veículos
+- 120060 | Eixos para rodas de veículos
+- 120060 | Vehicle wheel hubs
+- 120061 | Correntes de bicicletas
+- 120062 | Cadeiras de rodas
+- 120063 | Barcaças [chatas]
+- 120064 | Lanchas
+- 120065 | Carros de manutenção
+- 120066 | Carros enroladores de mangueira
+- 120067 | Carros torpedo
+- 120067 | Ladle cars
+- 120067 | Ladle carriages
+- 120067 | Casting cars
+- 120068 | Carrinhos de golfe [veículos]
+- 120068 | Golf cars [vehicles]
+- 120069 | Chassi de veículo
+- 120070 | Leme
+- 120071 | Material circulante para funiculares
+- 120072 | Material circulante para ferrovias
+- 120073 | Chaminés de navios
+- 120074 | Lagartas para veículos
+- 120074 | Treads for vehicles [roller belts]
+- 120075 | Tratores
+- 120076 | Vagões
+- 120077 | Para-choques de veículos
+- 120078 | Tampões de choque [material ferroviário rodante]
+- 120079 | Circuitos hidráulicos para veículos
+- 120080 | Guidões de bicicleta
+- 120081 | Cabines-dormitório para veículos
+- 120082 | Madeiras para navios [armações]
+- 120084 | Pneus de bicicleta
+- 120084 | Bicycle tires
+- 120085 | Coroas [engrenagem] para bicicletas
+- 120086 | Freios de bicicleta
+- 120087 | Para-lamas de ciclos e ciclomotores [veículos]
+- 120088 | Aros de roda de bicicleta
+- 120088 | Bicycle wheel rims
+- 120089 | Manivelas para bicicletas
+- 120090 | Motores para bicicletas
+- 120091 | Eixos para rodas de bicicletas
+- 120091 | Bicycle wheel hubs
+- 120092 | Pedais de bicicletas
+- 120093 | Bombas para pneus de bicicletas
+- 120093 | Pumps for bicycle tires
+- 120094 | Raios de rodas de bicicleta
+- 120094 | Bicycle wheel spokes
+- 120095 | Rodas de bicicletas
+- 120096 | Selins de bicicleta
+- 120097 | Estribos de motocicletas
+- 120103 | Engrenagem para veículos terrestres
+- 120105 | Dragas [barcos]
+- 120106 | Troles [dresinas]
+- 120109 | Motores elétricos para veículos terrestres
+- 120110 | Veículos elétricos
+- 120111 | Embreagens para veículos terrestres
+- 120112 | Assentos veiculares de segurança para crianças
+- 120113 | Paraquedas
+- 120114 | Lonas para pneumáticos
+- 120114 | Casings for pneumatic tires
+- 120116 | Contrapesos para rodas de veículo
+- 120117 | Veículos espaciais
+- 120118 | Mastros para navios
+- 120119 | Eixos para veículos
+- 120120 | Fusos de eixo
+- 120121 | Limpadores de para-brisa
+- 120121 | Windscreen wipers
+- 120122 | Redes para bicicletas
+- 120123 | Redes porta-bagagem para veículos
+- 120124 | Calotas das rodas
+- 120125 | Furgões [veículos]
+- 120126 | Freios para veículos
+- 120127 | Anéis de eixos de roda
+- 120128 | Veículos refrigerados
+- 120129 | Vagões frigoríficos
+- 120130 | Motores para veículos terrestres
+- 120130 | Motors for land vehicles
+- 120131 | Remos [gingas]
+- 120131 | Stern oars
+- 120132 | Capas de assento para veículos
+- 120133 | Vigias [náutico]
+- 120134 | Hidroaviões
+- 120135 | Hidroplanos
+- 120136 | Carros dormitórios
+- 120138 | Locomotivas
+- 120139 | Motores de propulsão para veículos terrestres
+- 120140 | Vagões [estradas de ferro]
+- 120141 | Estribos de veículos
+- 120142 | Mecanismos de transmissão para veículos terrestres
+- 120143 | Mecanismos de propulsão para veículos terrestres
+- 120144 | Veículos militares para transporte
+- 120145 | Motores a jato para veículos terrestres
+- 120147 | Motocicletas
+- 120148 | Rodas livres para veículos terrestres
+- 120149 | Veículos náuticos
+- 120150 | Navios
+- 120151 | Hélices de navios
+- 120153 | Remos para canoas
+- 120154 | Para-brisas
+- 120154 | Windshields
+- 120155 | Pregos para pneus
+- 120155 | Spikes for tires
+- 120156 | Banda de rodagem para recauchutar pneus
+- 120156 | Treads for retreading tires
+- 120157 | Pneus
+- 120157 | Pneumatic tires
+- 120159 | Barcas
+- 120160 | Portas para veículos
+- 120161 | Porta-esquis para automóveis
+- 120162 | Triciclos para entregas
+- 120162 | Triciclos transportadores
+- 120163 | Carrinhos de bebê
+- 120163 | Strollers
+- 120164 | Toldos para carrinhos para bebês
+- 120164 | Stroller covers
+- 120165 | Capotas para carrinhos de bebês
+- 120165 | Stroller hoods
+- 120166 | Propulsores de hélice
+- 120168 | Raios para rodas de veículos
+- 120169 | Esticadores de raio para rodas
+- 120170 | Elevadores para esqui
+- 120171 | Molas de suspensão para veículos
+- 120172 | Vagões restaurante
+- 120172 | Dining cars
+- 120173 | Espelhos retrovisores
+- 120174 | Aros para rodas de veículos
+- 120174 | Vehicle wheel rims
+- 120175 | Selins para motocicletas
+- 120176 | Side cars
+- 120177 | Assentos para veículos
+- 120178 | Carros esportivos
+- 120179 | Cunhos [náutica]
+- 120180 | Assentos de teleféricos
+- 120182 | Toletes [cavilhas do remo]
+- 120182 | Oarlocks
+- 120183 | Veículos basculantes
+- 120184 | Aeronaves
+- 120185 | Chassi de veículos
+- 120186 | Trenós [veículos]
+- 120187 | Bondes
+- 120188 | Aparelhos e instalações de transporte por cabo
+- 120189 | Funiculares
+- 120190 | Teleféricos
+- 120190 | Cable cars
+- 120191 | Triciclos
+- 120192 | Turbinas para veículos terrestres
+- 120193 | Veículos para locomoção por via terrestre, aérea, fluvial, marítima ou ferroviária
+- 120194 | Remendos adesivos para consertar câmaras de ar
+- 120195 | Estofamentos para veículos
+- 120196 | Bicicleta a motor
+- 120198 | Janelas para veículos
+- 120199 | Carros
+- 120199 | Motor cars
+- 120199 | Automóveis
+- 120200 | Dispositivos antirroubo para veículos
+- 120201 | Dispositivos basculantes, partes de vagões e caminhões
+- 120202 | Iates
+- 120203 | Aeronautical apparatus, machines and appliancesAparelhos, máquinas e dispositivos aeronáuticos
+- 120204 | Anti-glare devices for vehicles* Dispositivos antirreflexo para veículos*
+- 120204 | Anti-dazzle devices for vehicles* Dispositivos antiofuscantes para veículos*
+- 120206 | Pneus de automóvel
+- 120206 | Automobile tires
+- 120207 | Carrocerias de automóvel
+- 120209 | Para-choques para automóveis
+- 120210 | Amortecedores para automóveis
+- 120211 | Alarme antirroubo para veículos
+- 120212 | Buzinas para veículos
+- 120213 | Betoneiras
+- 120214 | Câmaras de ar para pneu de bicicletas
+- 120214 | Inner tubes for bicycle tires
+- 120215 | Lonas de freio para veículos
+- 120216 | Sapatas de freio para veículos
+- 120217 | Caixas de câmbio para veículos terrestres
+- 120218 | Carrinhos de mão
+- 120219 | Carts* Carroças
+- 120221 | Quadros de bicicletas [chassi]
+- 120222 | Carrocerias
+- 120223 | Assentos ejetáveis para aeronaves
+- 120224 | Coberturas [capa] moldadas para veículos
+- 120225 | Correntes de comando para veículos terrestres
+- 120226 | Correntes de transmissão para veículos terrestres
+- 120227 | Conversor de torque para veículos terrestres
+- 120228 | Luzes direcionais para veículos
+- 120229 | Chaminés de locomotivas
+- 120230 | Volantes para veículos
+- 120232 | Coberturas de selim para bicicletas
+- 120233 | Ambulâncias
+- 120234 | Pneus sem câmara de ar para ciclos e ciclomotores [veículos]
+- 120234 | Tubeless tires for bicycles
+- 120235 | Engrenagens de redução para veículos terrestres
+- 120236 | Segmentos de freio para veículos
+- 120237 | Veículos sobre colchão de ar
+- 120241 | Tampas para tanques de combustível de veículos
+- 120242 | Connecting rods for land vehicles, other than parts of motors and enginesBielas para veículos terrestres, exceto peças de motores
+- 120243 | Painel elevador de carroceria [partes de veículos terrestres]
+- 120243 | Elevating tailgates [parts of land vehicles]
+- 120243 | Power tailgates [parts of land vehicles]
+- 120244 | Arneses de segurança para assentos de veículos
+- 120245 | Para-sóis adaptados para automóveis
+- 120246 | Eixos de transmissão para veículos terrestres
+- 120247 | Airbag [dispositivos de segurança para automóveis]
+- 120248 | Cestas adaptadas para bicicletas
+- 120249 | Veículos motorizados para acampamento [motor home]
+- 120249 | Motor homes
+- 120250 | Rodas para carrinhos
+- 120250 | Casters for carts [vehicles]
+- 120251 | Carrinhos de limpeza
+- 120252 | Defensas para navios [monelhas]
+- 120253 | Trenós de pé [tobogã]
+- 120254 | Baús para bicicletas
+- 120255 | Carrinhos de compras
+- 120255 | Shopping carts
+- 120256 | Snowmobiles
+- 120256 | Motoneves
+- 120257 | Veículos de controle remoto, exceto de brinquedo
+- 120258 | Patinetes [veículos]
+- 120259 | Mastros para barcos
+- 120260 | Capas para volantes de veículos
+- 120261 | Spoilers para veículos
+- 120262 | Limpadores de faróis
+- 120263 | Pastilhas de freio para veículos
+- 120264 | Capas para estepes
+- 120264 | Spare tyre covers
+- 120264 | Spare tire covers
+- 120265 | Carros basculantes
+- 120266 | Acendedores de charuto para automóveis
+- 120266 | Acendedores de cigarro para automóveis
+- 120267 | Discos de freio para veículos
+- 120268 | Alforjes adaptados para bicicletas*
+- 120269 | Campainhas de bicicletas
+- 120271 | Veículos blindados
+- 120271 | Armored vehicles
+- 120272 | Coxim de motor para veículos terrestres
+- 120273 | Drones militares
+- 120274 | Canoas
+- 120275 | Drones civis
+- 120276 | Retrovisores laterais para veículos
+- 120277 | Mosquiteiros para uso em carrinhos de bebê
+- 120277 | Fitted stroller mosquito nets
+- 120278 | Controles [joysticks] para veículos
+- 120279 | Carros autônomos
+- 120279 | Carros autoconduzidos
+- 120280 | Scooters
+- 120281 | Scooters de mobilidade
+- 120282 | Cinzeiros para automóveis
+- 120283 | Correntes para motocicletas
+- 120284 | Quadros de motocicleta
+- 120285 | Guidões de motocicleta
+- 120286 | Motores de motocicleta
+- 120287 | Cestas adaptadas para motocicletas
+- 120288 | Pneus maciços para rodas de veículos
+- 120288 | Solid tires for vehicle wheels
+- 120289 | Carrinhos de bebês
+- 120289 | Baby carriages
+- 120290 | Sacos térmicos de dormir para carrinhos de bebê
+- 120290 | Sacos térmicos de dormir para carrinhos de bebê tipo berço
+- 120291 | Sacos térmicos de dormir para carrinhos de bebê tipo passeio
+- 120291 | Sacos térmicos de dormir para carrinhos de bebê tipo reversível
+- 120292 | Câmara tipo mousse para pneus
+- 120292 | Tire mousse inserts
+- 120293 | Bolsas adaptadas para carrinhos de bebê
+- 120293 | Bags adapted for strollers
+- 120294 | Remotely operated vehicles for underwater inspectionsVeículos operados remotamente para inspeções subaquáticas
+- 120295 | Autonomous underwater vehicles for seabed inspectionsVeículos autônomos submarinos para inspeções do fundo do mar
+- 120296 | Sanfonas para ônibus articulados
+- 120297 | Bicicletas elétricas
+- 120298 | Capas para bancos de motos
+- 120299 | Carros de corrida
+- 120300 | Carros robotizados
+- 120301 | Drones com câmera
+- 120301 | Photography drones
+- 120302 | Carrinhos de pesca
+- 120303 | Carrinhos tipo gaiola
+- 120304 | Porcas para rodas de veículos
+- 120305 | Clips adapted for fastening automobile parts to automobile bodiesGrampos adaptados para prender partes de automóvel ao corpo do automóvel
+- 120306 | Trenós de resgate
+- 120307 | Caminhões de reboque [caminhões guincho]
+- 120307 | Wreckers for transport
+- 120308 | Caminhões de lixo
+- 120308 | Garbage trucks
+- 120309 | Trailers para transporte de bicicletas
+- 120309 | Reboques para transporte de bicicletas
+- 120310 | Trailers para transporte por bicicletas
+- 120310 | Reboques para transporte por bicicletas
+- 120311 | Carrinhos de passeio para animais de estimação
+- 120312 | Caminhões com guindaste integrado
+- 120313 | Drones para entrega
+- 120314 | Helicópteros de controle remoto com câmera embutida
+- 120315 | Autogiros
+- 120315 | Girocópteros
+- 120316 | Helicópteros
+- 120317 | Diciclos elétricos, com direção baseada no autoequilíbrio
+- 120318 | Skates elétricos [hoverboard]
+- 120319 | Monociclos elétricos, com direção baseada no autoequilíbrio
+- 120320 | Pinos para travar capôs de veículos
+- 120320 | Vehicle hood pins
+- 120321 | Pneus para limpa-neves
+- 120321 | Tires for snow ploughs
+- 120322 | Sinos de mergulho
+- 120323 | Porta-copos para veículos
+- 120324 | Trolleys* Carrinhos
+- 120325 | Carruagens puxadas por cavalos
+- 120326 | Veículos anfíbios
+- 120327 | Veículos todo o terreno
+- 120327 | Veículos fora de estrada
+- 120327 | Veículos off-road
+- 120328 | Carros movidos a hidrogênio
+- 120329 | Scooters aquáticos [embarcação de uso pessoal]
+- 120330 | Surveillance towers specially adapted for vehiclesTorres de vigilância especialmente adaptadas para veículos
+- 120331 | Trenós tipo “pulk” para transporte
+- 120332 | Barcos de resgate
+- 120333 | Veículos para neve
+- 120334 | Capas adaptadas para painel de veículos
+- 120335 | Robôs autônomos para entregas
+- 120336 | Pneumatic or hydraulic linear actuators for land vehiclesAtuadores lineares pneumáticos ou hidráulicos para veículos terrestres
+- 120337 | Transportadores de carga do tipo pórticos
+- 120338 | Veículos para superfícies movediças [swamp-going]
+- 120339 | Skates motorizados
+- 120340 | Rolamentos [peças de veículos]
+- 120341 | Tanques de combustível para veículos
+- 120342 | Veículos terrestres autônomos
+- 120343 | Navios de guerra
+- 120344 | Porta-aviões
+- 120345 | Trailers para cavalos
+- 120346 | Bicicletas tipo patinete
+- 120346 | Kickbikes
+- 120346 | Bicinetes
+- 120347 | Furgões para cavalos
+- 120348 | Caiaques
+- 120349 | Teleféricos aéreos para manuseio de cargas
+- 120352 | Carros de bombeiro
+- 120353 | Barcos de combate a incêndio
+- 120354 | Botes salva-vidas
+- 120355 | Barcos de salvamento
+- 120356 | Cadeiras de evacuação
+- 120358 | Surf skis [caiaque]
+- 120350 | Revestimentos para embreagem para veículos terrestres
+- 120351 | Trajes de mergulho atmosférico (ADS)
+- 120357 | Pet safety barriers in the nature of vehicle partitionsBarreiras de segurança para animais de estimação na forma de divisórias de veículos
+- 120359 | Barracas de teto concebidas para veículos

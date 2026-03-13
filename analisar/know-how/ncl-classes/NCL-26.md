@@ -1,0 +1,165 @@
+# Classe NCL 26
+
+Especificações pré-especificadas (Português):
+
+- 260001 | Fechos para sapatos
+- 260002 | Agulhas *
+- 260003 | Agulhas de sapateiro
+- 260004 | Agulhas de costura
+- 260006 | Agulhas para encadernar
+- 260007 | Agulhas para cerzir
+- 260008 | Agulhas de seleiro
+- 260009 | Agulhas para tricotar
+- 260010 | Fechos para vestuário
+- 260011 | Plumas de avestruz [acessórios de vestuário]
+- 260012 | Barbatanas para espartilhos
+- 260012 | Ossos de baleia para espartilhos
+- 260013 | Fitas para prender os cabelos
+- 260013 | Tiaras
+- 260014 | Barbas postiças
+- 260015 | Presilhas para cabelos
+- 260015 | Bobby pins
+- 260016 | Enfeites de chapéus
+- 260018 | Debruns para vestuário
+- 260019 | Galões para debrum
+- 260020 | Bolas para cerzir
+- 260021 | Botões *
+- 260022 | Colchetes [vestuário]
+- 260023 | Faixas elásticas para segurar mangas [vestuário]
+- 260024 | Braçais
+- 260024 | Arm bands [clothing accessories]
+- 260026 | Fivelas para alças
+- 260026 | Fivelas para suspensórios
+- 260027 | Broches [acessórios de vestuário]
+- 260028 | Artigos de fantasia [bordados]
+- 260028 | Bordados
+- 260031 | Fivelas para cintos
+- 260033 | Colchetes para sapatos
+- 260034 | Cadarços para sapatos
+- 260035 | Enfeites para sapatos
+- 260036 | Ilhoses para sapatos
+- 260037 | Chenille [passamanaria]
+- 260038 | Enfeites para os cabelos
+- 260039 | Grampos para ondular os cabelos
+- 260040 | Fivelas para os cabelos
+- 260040 | Prendedores para os cabelos
+- 260041 | Grampos para os cabelos
+- 260042 | Redes para os cabelos
+- 260043 | Cabelos postiços
+- 260044 | Tranças de cabelos
+- 260044 | Tresses of hair
+- 260045 | Algarismos para marcar roupa
+- 260046 | Suportes de colarinho
+- 260047 | Cordões para vestuário
+- 260048 | Colchetes de blusas
+- 260048 | Colchetes de corpetes
+- 260049 | Caixas de costura
+- 260050 | Dedais para costurar
+- 260051 | Agulhas de crochê
+- 260051 | Crochet needles
+- 260052 | Colchetes [armarinho]
+- 260053 | Fechos ecler
+- 260053 | Zippers
+- 260053 | Slide fasteners [zippers]
+- 260055 | Almofadas de alfinete
+- 260056 | Bainhas postiças
+- 260057 | Festões [bordado]
+- 260058 | Navetas para confecção de redes de pesca
+- 260059 | Flores artificiais
+- 260060 | Franjas
+- 260061 | Fruta artificial
+- 260063 | Borlas [armarinho]
+- 260064 | Orlas para vestuário
+- 260065 | Grinaldas artificiais
+- 260066 | Babados [trabalhos de renda]
+- 260067 | Cordões de lã
+- 260068 | Enfeites de laço [passamanaria]
+- 260068 | Passamanaria
+- 260069 | Letras para marcar roupa
+- 260070 | Haberdashery [dressmakers' articles], except threadArtigos de armarinho [itens de costura], exceto linhas *
+- 260071 | Lantejoulas de mica
+- 260072 | Bigodes postiços
+- 260073 | Ilhoses para vestuário
+- 260074 | Plumas de aves [acessórios de vestuário]
+- 260076 | Fitas [artigo de armarinho]
+- 260077 | Lantejoulas para vestuário
+- 260078 | Almofadas de agulha
+- 260079 | Perucas
+- 260080 | Espiguilha [renda]
+- 260081 | Heat adhesive patches for repairing textile articlesRemendos termocolantes para consertar artigos têxteis
+- 260082 | Plumas [acessórios de vestuário]
+- 260083 | Borlas [pompons]
+- 260084 | Babados de saia
+- 260085 | Rosetas [laço]
+- 260086 | Enfeites para vestuário
+- 260087 | Fechos ecler para bolsas
+- 260087 | Zip fasteners for bags
+- 260088 | Fivelas para sapatos
+- 260089 | Topetes [cabelo]
+- 260090 | Passa cordões [perucas]
+- 260091 | Estojos para agulha
+- 260092 | Caixas para agulhas de costura
+- 260093 | Bordados de prata
+- 260094 | Bordados de ouro
+- 260095 | Fitas elásticas
+- 260096 | Fitas para debruar
+- 260097 | Fivelas [acessórios de vestuário]
+- 260098 | Colchetes para espartilhos
+- 260099 | Coroas de flores artificiais
+- 260100 | Alfinetes, exceto joias e bijuterias
+- 260100 | Pins, other than jewelry
+- 260101 | Emblemas para roupa, exceto de metal precioso
+- 260111 | Adesivos termocolantes para ornamentação de artigos têxteis
+- 260112 | Números para competidores
+- 260113 | Emblemas ornamentais [botões]
+- 260114 | Arcos para o cabelo
+- 260115 | Toucas para tingir os cabelos
+- 260115 | Hair coloring caps
+- 260116 | Fechos aderentes
+- 260117 | Fitas de premiação
+- 260118 | Ombreiras para roupas
+- 260119 | Prendedores de calça para ciclistas
+- 260120 | Fitas para franzir cortinas
+- 260121 | Papelotes para cachear cabelo
+- 260122 | Ganchos para tapete
+- 260123 | Contas, exceto para a fabricação de joias
+- 260123 | Miçangas, exceto para fabricação de joias
+- 260124 | Carretéis para fios para bordar ou de lã, exceto partes de máquinas
+- 260125 | Apliques capilares
+- 260126 | Cabelo humano
+- 260127 | Hair curlers, electric and non-electric, other than hand implementsBigudis, elétricos e não elétricos, exceto instrumentos manuais
+- 260128 | Apliques [artigos de armarinho]
+- 260129 | Plantas artificiais, exceto árvores de natal
+- 260130 | Kits de costura
+- 260131 | Alfinetes entomológicos
+- 260132 | Agulhas para bordar
+- 260133 | Charms, other than for jewellery, key rings or key chainsBerloques, exceto para joias, bijuterias e chaveiros
+- 260133 | Charms, other than for jewelry, key rings or key chainsEnfeites [pingentes], exceto para joias, bijuterias e chaveiros
+- 260134 | Enfia-agulhas
+- 260136 | Guirlandas artificiais luminosas
+- 260137 | Coroas de plantas artificiais
+- 260138 | Coroas de plantas artificiais luminosas
+- 260139 | Faixas para chapéu
+- 260139 | Hat bands
+- 260140 | Fitas para cabelo
+- 260141 | Fitas e laços, exceto de papel, para embrulho de presente
+- 260142 | Laços [artigo de armarinho]
+- 260143 | Alfinetes de chapéu, exceto joias e bijuterias
+- 260143 | Hatpins, other than jewelry
+- 260144 | Fitas adesivas para sustentação dos seios
+- 260145 | Fitas adesivas dupla face para vestuário [fashion tape]
+- 260146 | Acessórios para lingerie [armarinho]
+- 260147 | Fivelas para bolsas
+- 260148 | Fechos para bolsas
+- 260149 | Arames para sutiãs
+- 260150 | Cordões para vestuário
+- 260151 | Berloques decorativos para telefones celulares
+- 260151 | Decorative charms for cell phones
+- 260152 | Fechos para porta-moedas
+- 260153 | Conjuntos de tricô
+- 260154 | Extensores de sutiã
+- 260155 | Extensores de alças de sutiãs
+- 260156 | Broches [bóton com alfinete]
+- 260157 | Carretilhas de marcação para costura
+- 260158 | Almofadas removíveis para aumento dos seios usadas em sutiãs
+- 260159 | Lançadeiras para frivolitê [navetas para renda]

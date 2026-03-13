@@ -1,0 +1,410 @@
+# Classe NCL 16
+
+Especificações pré-especificadas (Português):
+
+- 160001 | Letras de aço
+- 160002 | Penas de aço
+- 160003 | Porta fita adesiva [material de escritório]
+- 160004 | Selos para endereço
+- 160005 | Máquinas para endereçar
+- 160006 | Papel *
+- 160007 | Cartazes [pôsteres]
+- 160008 | Quadros de avisos, de papel ou papelão
+- 160009 | Máquinas de franquear para uso em escritório
+- 160009 | Postage meters for office use
+- 160010 | Clipes para papel
+- 160010 | Grampos para papel
+- 160011 | Clipes para canetas
+- 160012 | Grampeadores [material de escritório]
+- 160013 | Álbuns
+- 160013 | Álbuns de recortes
+- 160014 | Imagens [representações gráficas]
+- 160015 | Impressos [gravuras]
+- 160016 | Anéis de charutos
+- 160017 | Pencil sharpening machines, electric or non-electricMáquinas apontadoras de lápis, elétricas ou não elétricas
+- 160018 | Suportes de livros
+- 160019 | Descansos de mão para pintores
+- 160020 | Aquarelas [pinturas]
+- 160020 | Watercolours [paintings]
+- 160020 | Watercolors [paintings]
+- 160021 | Maquetes de arquitetura
+- 160022 | Pastas de arquivo
+- 160023 | Lousas para escrever
+- 160024 | Lápis para lousa
+- 160026 | Argila para modelar
+- 160027 | Tabelas aritméticas impressas
+- 160027 | Tabelas de cálculo impressas
+- 160028 | Gravuras
+- 160029 | Objetos de arte litografados
+- 160030 | Pinturas [quadros] com ou sem moldura
+- 160031 | Pencils* Lápis*
+- 160032 | Jornais
+- 160033 | Periódicos
+- 160034 | Atlas
+- 160035 | Fichários para papéis soltos
+- 160035 | Fichários de argolas
+- 160036 | Fitas gomadas [papelaria]
+- 160037 | Descansos de papel para copos de cerveja
+- 160038 | Bilhetes
+- 160039 | Amostras biológicas para uso em microscopia [material didático]
+- 160040 | Clichês para tipografia
+- 160041 | Blocos para desenho
+- 160042 | Blocos [papelaria]
+- 160043 | Bobinas para fitas de tinta
+- 160045 | Wristbands for the retention of writing instrumentsBraçadeiras para instrumentos de escrever
+- 160046 | Folhetos
+- 160047 | Bordados [modelos]
+- 160048 | Percevejos [tachas]
+- 160048 | Thumbtacks
+- 160049 | Umedecedores [material de escritório]
+- 160050 | Pincéis para pintores
+- 160051 | Mata-borrões
+- 160052 | Carimbos [selos]
+- 160053 | Selos para carimbar
+- 160054 | Almofadas de tinta para carimbos
+- 160055 | Cera para lacrar
+- 160056 | Máquinas para lacrar para escritório
+- 160057 | Materiais para lacrar para papelaria
+- 160058 | Livros para escrever ou desenhar
+- 160059 | Bandejas para ordenar e contar dinheiro
+- 160061 | Decalques
+- 160062 | Papel para decalque
+- 160063 | Tela para decalque
+- 160064 | Dedeiras de escritório
+- 160064 | Dedais de escritório
+- 160065 | Caracteres de tipografia
+- 160066 | Papel carbono
+- 160067 | Papel para máquinas registradoras
+- 160068 | Cadernos de anotações
+- 160069 | Réguas esquadros para desenho
+- 160070 | Cartões *
+- 160070 | Charts
+- 160071 | Materiais didáticos, exceto aparelhos
+- 160072 | Fichas [papelaria]
+- 160074 | Folhas de papel [papelaria]
+- 160075 | Papelão *
+- 160076 | Papelão para caixas para chapéus
+- 160077 | Cartões perfurados para teares de jacquard
+- 160078 | Tubos de papelão
+- 160080 | Catálogos
+- 160081 | Etiquetas para fichas
+- 160082 | Livros de canções [song books (ingl.)]
+- 160084 | Chassis para composição tipográfica
+- 160085 | Pastas para papéis
+- 160085 | Jackets for papers
+- 160087 | Cavaletes para pintura
+- 160088 | Números [caracteres de tipografia]
+- 160089 | Tinta nanquim
+- 160090 | Cromolitografias
+- 160090 | Cromos
+- 160091 | Massa para modelar, exceto para uso odontológico
+- 160092 | Arquivos [material de escritório]
+- 160093 | Máquinas para perfurar [material de escritório]
+- 160094 | Papel higiênico
+- 160094 | Hygienic paper
+- 160095 | Livros
+- 160096 | Compassos para desenhar
+- 160097 | Tipos [numerais e letras de tipografia]
+- 160097 | Letras e números [caracteres de tipografia]
+- 160098 | Componedores
+- 160101 | Bandejas para correspondência
+- 160102 | Cartuchos de papel, de forma cônica
+- 160103 | Líquidos corretivos [material de escritório]
+- 160104 | Tintas para corrigir [heliografia]
+- 160105 | Minas de lápis
+- 160106 | Cortes histológicos para fins didáticos
+- 160107 | Curvas francesas
+- 160108 | Capas [papelaria]
+- 160108 | Envoltórios [papelaria]
+- 160109 | Giz para escrever
+- 160110 | Giz para litografia
+- 160111 | Giz para alfaiates
+- 160112 | Porta giz
+- 160113 | Lapiseiras
+- 160114 | Porta minas de lápis
+- 160115 | Embalagens de papel para cremes
+- 160116 | Colchetes para papel
+- 160118 | Cilindros para máquinas de escrever
+- 160119 | Decalcomania
+- 160119 | Decalcomanias
+- 160121 | Desenhos impressos
+- 160122 | Pentes para marmorear
+- 160123 | Pranchetas para desenho
+- 160124 | Artigos para desenhar
+- 160125 | Instrumentos para desenhar
+- 160126 | Diagramas
+- 160127 | Envelopes [papelaria]
+- 160128 | Duplicadores [mimeógrafo;hectógrafo]
+- 160129 | Águas-fortes [gravuras]
+- 160130 | Papel para embalagem
+- 160130 | Papel para embrulho
+- 160131 | Canetas
+- 160132 | Máquinas de escrever, elétricas ou não elétricas
+- 160133 | Caixas para canetas
+- 160133 | Estojos para canetas
+- 160134 | Ponta de pena de escrever de ouro
+- 160135 | Produtos para apagar
+- 160136 | Artigos para escrever
+- 160137 | Brasões [sinetes]
+- 160138 | Moldes para apagar
+- 160139 | Borrachas para apagar
+- 160140 | Papel para eletrocardiógrafos
+- 160141 | Furadores [material de escritório]
+- 160142 | Tintas *
+- 160143 | Fitas de tinta
+- 160144 | Tinteiros
+- 160146 | Máquinas de escritório para fechar envelopes
+- 160147 | Fotografias [impressos]
+- 160148 | Limpa penas [canetas]
+- 160149 | Selos [sinetes]
+- 160150 | Tecidos para encadernação
+- 160153 | Livros razão
+- 160154 | Fichas de arquivo
+- 160155 | Figurines of papier mâché Estatuetas de papel machê
+- 160155 | Statuettes of papier mâché
+- 160156 | Filtro de papel
+- 160157 | Materiais filtrantes feitos de papel
+- 160158 | Formulários [impressos]
+- 160159 | Materiais de escritório, exceto móveis
+- 160160 | Lápis de carvão
+- 160161 | Estênceis [papelaria]
+- 160162 | Galés [tipografia]
+- 160163 | Clichês de galvanotipia
+- 160164 | Mapas geográficos impressos
+- 160165 | Globos terrestres
+- 160166 | Godês para aquarelas
+- 160166 | Artists' watercolor saucers
+- 160167 | Reproduções gráficas
+- 160168 | Representações gráficas
+- 160169 | Raspadeiras de escritório [apagadores]
+- 160170 | Chapas ou placas para gravar
+- 160171 | Hectógrafos
+- 160172 | Horários impressos
+- 160173 | Umedecedores para superfícies gomadas [material de escritório]
+- 160174 | Cartão postal
+- 160175 | Material impresso
+- 160176 | Aparelhos manuais para etiquetar
+- 160177 | Blanquetas para tipografia, exceto de tecido
+- 160179 | Publicações impressas
+- 160180 | Manuais [impressos]
+- 160180 | Handbooks [manuals]
+- 160182 | Papel de carta
+- 160183 | Pesos para papel
+- 160184 | Estiletes para traçar para desenho
+- 160185 | Canetas para desenho
+- 160186 | Toalhas de mesa e guardanapos, de papel
+- 160187 | Litografias
+- 160188 | Pedras litográficas
+- 160189 | Brochuras
+- 160190 | Papel luminoso
+- 160191 | Papel machê
+- 160192 | Blocos de papel em múltiplas vias [papelaria]
+- 160193 | Giz para marcar
+- 160195 | Matérias plásticas para modelar
+- 160196 | Materiais para modelar
+- 160197 | Pasta para modelar
+- 160198 | Lenços de papel
+- 160199 | Telas de tinta para duplicadores
+- 160200 | Toalhas de papel para mesa
+- 160201 | Quadros-negros
+- 160202 | Clipes de papel
+- 160203 | Numeradores [máquinas para numerar]
+- 160204 | Oleografias
+- 160205 | Tiras de encadernação
+- 160206 | Obreias para cartas
+- 160207 | Paletas para pintores
+- 160208 | Pantógrafos [instrumentos para desenho]
+- 160209 | Artigos de papelaria
+- 160210 | Papel-pergaminho
+- 160211 | Pastéis [lápis ou bastões]
+- 160212 | Moldes para costura
+- 160214 | Estojos para moldes
+- 160215 | Rolos para pintores de parede
+- 160216 | Telas para pintura
+- 160217 | Estojos de tintas [material escolar]
+- 160218 | Filme plástico para embrulhar
+- 160219 | Aparelhos para emoldurar fotografias
+- 160221 | Fotogravuras
+- 160223 | Cópias heliográficas [plantas]
+- 160223 | Plantas [impressos]
+- 160224 | Vincadores de papel [material de escritório]
+- 160225 | Canetas-tinteiro
+- 160226 | Clichê estêncil
+- 160227 | Estênceis
+- 160228 | Retratos
+- 160229 | Papel para cobrir vasos de flores
+- 160229 | Covers of paper for flower pots
+- 160230 | Aparelhos e máquinas para mimeografar
+- 160231 | Paper tapes and cards for the recordal of computer programmesFitas de papel e cartões para gravação de programas de computador
+- 160232 | Prospectos
+- 160233 | Papel para radiogramas
+- 160234 | Réguas para desenhar
+- 160235 | Regretas [componedores]
+- 160236 | Artigos para encadernação
+- 160238 | Tela para encadernação
+- 160238 | Bookbinding cloth
+- 160239 | Fios para encadernação
+- 160239 | Bookbinding cords
+- 160241 | Inking sheets for document reproducing machinesTelas de tinta para máquinas de reprodução de documentos
+- 160242 | Canetas [material de escritório]
+- 160243 | Revistas [periódicos]
+- 160244 | Paper ribbons, other than haberdashery or hair decorationsFitas de papel, exceto artigos de armarinho ou fitas para cabelo
+- 160245 | Fitas para máquinas de escrever
+- 160246 | Bags [envelopes, pouches] of paper or plastics, for packagingSacos [invólucros, sacolas] de papel ou plástico para embalar
+- 160247 | Almofadas para carimbos
+- 160248 | Material escolar [papelaria]
+- 160249 | Marcadores de livros
+- 160249 | Marcadores de páginas
+- 160250 | Cartões de felicitações
+- 160251 | Esteatita [giz para alfaiates]
+- 160253 | Esferas para canetas esferográficas
+- 160254 | Descansos de papel redondos para mesa
+- 160255 | Risque e rabisque [material de escritório]
+- 160257 | Teclas para máquinas de escrever
+- 160258 | Suportes para carimbos
+- 160259 | Caixas para carimbos [selos]
+- 160259 | Caixas para selos
+- 160260 | Selos de correio
+- 160261 | Placas para carimbar
+- 160262 | Transparências [papelaria]
+- 160263 | Aparelhos para fazer vinhetas
+- 160265 | Substâncias adesivas [colas] para papelaria ou uso doméstico
+- 160266 | Adhesive tapes for stationery or household purposesFitas adesivas para papelaria ou para uso doméstico
+- 160268 | Placas de endereçamento para máquinas de endereçar
+- 160269 | Almanaques
+- 160270 | Calendários
+- 160271 | Starch paste [adhesive] for stationery or household purposesCola de amido, para papelaria ou uso doméstico
+- 160273 | Pincéis [brochas]
+- 160274 | Self-adhesive tapes for stationery or household purposesFitas autoadesivas enquanto artigo de papelaria ou para uso doméstico
+- 160275 | Elásticos para escritório
+- 160276 | Babadores de papel
+- 160278 | Quadros de pasta [polpa] de madeira [papelaria]
+- 160279 | Papelão de pasta [polpa] de madeira
+- 160280 | Caixas de papel ou papelão
+- 160281 | Suportes para canetas e lápis
+- 160282 | Invólucros de papel ou papelão para garrafas
+- 160283 | Descansos em papel para copos ou garrafas
+- 160284 | Cartões de participação [papelaria]
+- 160285 | Embalagens de plástico-bolha
+- 160285 | Plastic bubble packs for packaging
+- 160286 | Bandeiras [de papel]
+- 160287 | Fragmentadoras de papel [artigos de escritório]
+- 160288 | Folhas de celulose reciclada para embrulhar
+- 160289 | Caixas-arquivo de mesa para papéis [material de escritório]
+- 160290 | Colas para papelaria ou uso doméstico
+- 160290 | Pastas [colas] para escritório ou uso doméstico
+- 160291 | Espátulas para cortar papel [abridores de carta]
+- 160292 | Sacos de lixo, de papel ou plástico
+- 160293 | Apontadores de lápis, elétricos ou não elétricos
+- 160294 | Lenços de papel para retirar maquiagem
+- 160295 | Guardanapos de papel
+- 160296 | Jogo americano de papel para mesa
+- 160297 | Esquadros para desenho
+- 160298 | Réguas t para desenho
+- 160299 | Porta-canetas
+- 160300 | Estojos para artigos de escrever [material de escritório]
+- 160301 | Tinteiros porta-canetas
+- 160303 | Modelos de escrita
+- 160304 | Embalagens de papel ou papelão para garrafas
+- 160305 | Letreiros de papel ou cartão
+- 160306 | Papel toalha
+- 160307 | Toalhas de rosto, de papel
+- 160308 | Etiquetas de papel ou papelão
+- 160309 | Buril para gravar água-forte
+- 160310 | Folhas de viscose para embalar
+- 160311 | Gomas [substâncias adesivas] para papelaria ou uso doméstico
+- 160312 | Telas gomadas para papelaria
+- 160313 | Ictiocola para escritório ou uso doméstico
+- 160324 | Filtros de papel para café
+- 160325 | Filme plástico, extensível, para uso em paletização
+- 160327 | Sinalizadores de papel ou papelão
+- 160328 | Etiquetas adesivas [papelaria]
+- 160330 | Equipamentos e máquinas para encadernação [equipamento de escritório]
+- 160331 | Revistas em quadrinhos
+- 160332 | Papel para cópias [papelaria]
+- 160333 | Porta-talão de cheques
+- 160333 | Holders for checkbooks
+- 160334 | Bastões de tinta
+- 160335 | Pedras de tinta [recipientes de tintas]
+- 160336 | Cartões musicais de felicitações
+- 160337 | Circulares
+- 160338 | Material de embalagem, feito de amido
+- 160339 | Papel encerado
+- 160340 | Porta passaporte
+- 160342 | Pincéis para escrever
+- 160343 | Equipamentos para escrever
+- 160344 | Revestimento de papel para gavetas [perfumado ou não]
+- 160345 | Máquinas não elétricas para boletos de cartão de crédito
+- 160346 | Plastificadoras de documento [material de escritório]
+- 160347 | Papéis para pintura e caligrafia
+- 160348 | Apagadores para quadros
+- 160349 | Pranchetas
+- 160350 | Indicadores não eletrônicos para quadros
+- 160351 | Paper bows, other than haberdashery or hair decorationsLaços de papel, exceto artigos de armarinho ou laços para cabelo
+- 160352 | Moldes para argila de modelagem [material para artistas]
+- 160352 | Molds for modelling clays [artists' materials]
+- 160353 | Prendedores para dinheiro
+- 160354 | Figurinhas, exceto para jogos
+- 160355 | Absorbent sheets of paper or plastic for foodstuff packagingFolhas absorventes de papel ou de plástico para embalar produtos alimentícios
+- 160356 | Fitas corretivas [artigos de escritório]
+- 160358 | Bandejas para pintura de parede
+- 160359 | Marcadores de texto [artigos de papelaria]
+- 160360 | Panfletos
+- 160361 | Pastas para documentos [artigos de papelaria]
+- 160362 | Acessórios para marcar e/ou prender páginas de livros
+- 160363 | Argila de polímero para modelar
+- 160364 | Carimbos obliteradores
+- 160365 | Packing [cushioning, stuffing] materials of paper or cardboardMateriais para embalagem [enchimento, amortecimento] em papel ou papelão
+- 160366 | Enchimento de papel ou papelão
+- 160366 | Stuffing of paper or cardboard
+- 160367 | Cédulas
+- 160368 | Giz em spray
+- 160369 | Cupons impressos
+- 160370 | Papel de arroz*
+- 160371 | Sacos plásticos para dejetos de animais de estimação
+- 160372 | Washi [espécie de papel japonês]
+- 160373 | Caminhos de mesa em papel
+- 160374 | Partitura impressa
+- 160375 | Banners [faixas] de papel
+- 160376 | Bandeirolas de papel
+- 160377 | Folhas de celulóide para animação
+- 160378 | Paper bags for use in the sterilization of medical instrumentsSacos de papel para uso na esterilização de instrumentos médicos
+- 160378 | Paper bags for use in the sterilisation of medical instruments
+- 160379 | Porta-crachás [material de escritório]
+- 160380 | Porta-crachás retráteis [material de escritório]
+- 160381 | Presilhas para porta-crachás [material de escritório]
+- 160382 | Papel para mesas de exames clínicos
+- 160383 | Papel para cobrir bandejas odontológicas
+- 160384 | Babadores com mangas, em papel
+- 160385 | Guilhotinas para cortar papel [material de escritório]
+- 160386 | Estênceis para decoração de comidas e bebidas
+- 160387 | Crachás de identificação [material de escritório]
+- 160388 | Bobinas para códigos de barra
+- 160389 | Purpurina para papelaria
+- 160390 | Etiquetas em papel para a restituição de bagagem
+- 160391 | Lenços de papel para limpeza
+- 160392 | Capas de proteção para livros
+- 160393 | Livros de colorir
+- 160393 | Coloring books
+- 160394 | Imagens para colorir
+- 160394 | Colouring pictures
+- 160395 | Papel dobrável para origami
+- 160396 | Sacolas de compras em papel ou plástico
+- 160396 | Sacolas de papel ou plástico
+- 160397 | Pergaminhos para mezuzá
+- 160398 | Estojos para mezuzá
+- 160399 | Papel manteiga
+- 160400 | Quadros magnéticos enquanto materiais de escritório
+- 160401 | Cavaletes para apresentação [flip-chart]
+- 160402 | Cédulas colecionáveis
+- 160403 | Papel semente plantável [artigos de papelaria]
+- 160403 | Papel plantável [artigos de papelaria]
+- 160404 | Decalques de chão
+- 160405 | Filme à base de algas para embalar
+- 160406 | Plástico-bolha para embalagem
+- 160407 | Pens [writing implements] incorporating tips for operating touchscreen devicesCanetas [materiais para escrita] com pontas para uso em dispositivos com tela de toque
+- 160408 | Papel de seda
+- 160409 | Sacos de alimentos de papel ou plástico
+- 160410 | Decorações de festa em papel
+- 160411 | Cartões perfurados virgens para máquinas de tricô
+- 160412 | Hastes de chenille para artesanato

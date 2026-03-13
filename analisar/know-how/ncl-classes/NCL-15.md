@@ -1,0 +1,107 @@
+# Classe NCL 15
+
+Especificações pré-especificadas (Português):
+
+- 150001 | Acordeões
+- 150002 | Chaves de afinar
+- 150003 | Palhetas de instrumento de sopro
+- 150004 | Arcos para instrumentos musicais
+- 150005 | Nozes de arco para instrumentos musicais
+- 150006 | Varetas de arcos para instrumentos musicais
+- 150007 | Crinas de cavalos para arcos de instrumentos musicais
+- 150008 | Pianos
+- 150009 | Batutas
+- 150010 | Baquetas de tambor
+- 150011 | Bandônios
+- 150012 | Realejos
+- 150013 | Baixos
+- 150014 | Harmônicas [gaitas de boca]
+- 150015 | Corda de tripa para instrumentos musicais
+- 150016 | Buzinas grandes [trombetas]
+- 150017 | Carrilhões [instrumentos musicais]
+- 150018 | Castanholas
+- 150019 | Chapéus chineses [instrumento musical]
+- 150020 | Cavaletes para tímpanos
+- 150021 | Cravelhas
+- 150022 | Cítaras
+- 150023 | Clarinetes
+- 150024 | Teclados para instrumentos musicais
+- 150025 | Instrumentos musicais
+- 150026 | Concertinas
+- 150027 | Contrabaixos
+- 150028 | Cordas para instrumentos musicais
+- 150029 | Instrumentos musicais de corda
+- 150030 | Cornetas [instrumentos musicais]
+- 150031 | Cornetins [instrumentos musicais]
+- 150032 | Pratos
+- 150033 | Diapasões
+- 150034 | Boquilhas para instrumentos musicais
+- 150035 | Estojos para instrumentos musicais
+- 150036 | Flautas
+- 150037 | Gongos
+- 150038 | Berimbau de boca
+- 150039 | Violões
+- 150040 | Harmônio [pequeno órgão de sala]
+- 150041 | Harpas
+- 150042 | Cordas de harpa
+- 150043 | Oboés
+- 150044 | Instrumentos musicais eletrônicos
+- 150045 | Reguladores de intensidade para pianos mecânicos
+- 150046 | Liras
+- 150048 | Palhetas
+- 150048 | Palhetas para instrumentos de corda
+- 150049 | Bandolins
+- 150050 | Apoios de queixo para violinos
+- 150051 | Gaitas-de-fole
+- 150052 | Caixas de música
+- 150053 | Aparelhos para virar páginas de caderno de música
+- 150054 | Cavaletes para instrumentos musicais
+- 150055 | Triângulos [instrumentos musicais]
+- 150056 | Ocarinas
+- 150057 | Órgãos
+- 150058 | Foles para órgãos [tubos]
+- 150059 | Couros de tambores
+- 150059 | Peles de tambor
+- 150060 | Pedais para instrumentos musicais
+- 150061 | Teclados de piano
+- 150062 | Cordas de piano
+- 150063 | Teclas de piano
+- 150064 | Foles para instrumentos musicais
+- 150065 | Surdinas para instrumentos musicais
+- 150065 | Dampers for musical instruments
+- 150066 | Tambores [baterias]
+- 150067 | Pandeiros
+- 150068 | Tantãs
+- 150069 | Tímpanos
+- 150070 | Trombones
+- 150071 | Clarins
+- 150072 | Trompetes
+- 150073 | Válvulas para instrumentos musicais
+- 150074 | Violas
+- 150075 | Violinos
+- 150076 | Xilofones
+- 150077 | Teclas para instrumentos musicais
+- 150078 | Rolos musicais
+- 150079 | Rolos musicais perfurados
+- 150080 | Estantes [pedestais] para partitura
+- 150081 | Hugin [violino chinês]
+- 150082 | Flautas de bambu
+- 150083 | Pipa [violão, guitarra chinesa]
+- 150084 | Sheng [instrumento de sopro chinês]
+- 150085 | Suona [trompete chinês]
+- 150086 | Sinos de mão [instrumentos musicais]
+- 150087 | Sintetizadores de música
+- 150088 | Suportes para instrumentos musicais
+- 150089 | Saxofones
+- 150090 | Balalaicas [instrumentos de cordas]
+- 150091 | Banjos
+- 150092 | Escaletas
+- 150093 | Colofônia [breu] para instrumentos musicais de corda
+- 150093 | Resina [breu] para instrumentos musicais de corda
+- 150094 | Baterias robóticas [instrumentos musicais]
+- 150095 | Baquetas do tipo mallet, para instrumentos musicais
+- 150096 | Correias [straps] para instrumentos musicais
+- 150097 | Tigelas tibetanas
+- 150098 | Percussões eletrônicas
+- 150098 | Caixas de ritmos
+- 150099 | Instrumentos musicais para crianças

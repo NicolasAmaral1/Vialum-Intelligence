@@ -1,0 +1,52 @@
+# Classe NCL 34
+
+Especificações pré-especificadas (Português):
+
+- 340001 | Fósforos
+- 340002 | Tips of yellow amber for cigar and cigarette holdersBoquilhas de âmbar amarelo para piteiras de cigarro e charuto
+- 340002 | Pontas de âmbar amarelo para piteiras de cigarro e de charuto
+- 340003 | Fumo
+- 340004 | Bolsas para tabaco [fumo]
+- 340005 | Piteiras para cigarro
+- 340006 | Filtros de cigarro
+- 340007 | Isqueiros para fumantes
+- 340008 | Recipientes de gás para isqueiros para charutos
+- 340009 | Cachimbos para tabaco
+- 340010 | Pacotes de papéis para cigarros
+- 340011 | Papel absorvente para cachimbos de tabaco
+- 340012 | Fumo para mascar
+- 340013 | Charutos
+- 340014 | Cortadores de charuto
+- 340015 | Charuteiras
+- 340016 | Cigarreiras
+- 340017 | Piteiras para charuto
+- 340019 | Cigarettes containing tobacco substitutes, not for medical purposesCigarros contendo sucedâneos de fumo, exceto para uso médico
+- 340020 | Cigarettes* Cigarros*
+- 340021 | Enrolador de cigarros
+- 340022 | Piteiras longas para cigarro
+- 340023 | Boquilhas para piteiras para cigarros
+- 340024 | Papel de cigarro
+- 340025 | Cigarrilhas
+- 340026 | Limpadores para cachimbos [cachimbos para tabaco]
+- 340027 | Pedras de isqueiro para fumantes
+- 340028 | Ervas para fumar *
+- 340030 | Suportes para cachimbo [cavaletes] [cachimbos para tabaco]
+- 340031 | Porta-fósforos
+- 340032 | Recipientes para fumo
+- 340033 | Rapé
+- 340034 | Caixas de rapé
+- 340035 | Caixas de fósforos
+- 340036 | Cinzeiros
+- 340037 | Escarradeira para usuários de tabaco
+- 340038 | Umidificadores [caixas para conservar tabaco suficientemente úmido]
+- 340039 | Cigarros eletrônicos
+- 340040 | Soluções líquidas para uso em cigarros eletrônicos
+- 340041 | Vaporizadores para fumantes
+- 340042 | Flavorizantes/aromatizantes para tabaco
+- 340042 | Flavorings for tobacco
+- 340043 | Flavorizantes/aromatizantes para uso em cigarros eletrônicos
+- 340043 | Flavorings for use in electronic cigarettes
+- 340044 | Pavios para isqueiros
+- 340045 | Narguilé
+- 340046 | Devices for heating tobacco for the purpose of inhalationDispositivos para aquecimento de tabaco para fins de inalação
+- 340047 | Nicotine pouches for use as a tobacco substitute, not for medical purposesSachês de nicotina como substituto do tabaco, exceto para fins medicinais

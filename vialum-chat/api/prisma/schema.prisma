@@ -1,0 +1,652 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ════════════════════════════════════════════════════════════
+// MULTI-TENANT ROOT
+// ════════════════════════════════════════════════════════════
+
+model Account {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name      String   @db.VarChar(255)
+  slug      String   @unique @db.VarChar(100)
+  plan      String   @default("free") @db.VarChar(50)
+  settings  Json     @default("{}")
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  accountUsers    AccountUser[]
+  inboxes         Inbox[]
+  contacts        Contact[]
+  conversations   Conversation[]
+  messages        Message[]
+  labels          Label[]
+  cannedResponses CannedResponse[]
+  automationRules AutomationRule[]
+  aiSuggestions   AISuggestion[]
+  webhookEvents   WebhookEvent[]
+  treeFlows       TreeFlow[]
+  objections      Objection[]
+  talks           Talk[]
+  apiKeys         AccountApiKey[]
+  groups          Group[]
+
+  @@map("accounts")
+}
+
+// ════════════════════════════════════════════════════════════
+// API KEYS (External access)
+// ════════════════════════════════════════════════════════════
+
+model AccountApiKey {
+  id         String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId  String    @map("account_id") @db.Uuid
+  name       String    @db.VarChar(100)
+  keyHash    String    @unique @map("key_hash") @db.VarChar(64)
+  keyPrefix  String    @map("key_prefix") @db.VarChar(20)
+  lastUsedAt DateTime? @map("last_used_at") @db.Timestamptz
+  expiresAt  DateTime? @map("expires_at") @db.Timestamptz
+  active     Boolean   @default(true)
+  createdAt  DateTime  @default(now()) @map("created_at") @db.Timestamptz
+
+  account Account @relation(fields: [accountId], references: [id], onDelete: Cascade)
+
+  @@index([accountId])
+  @@index([keyHash])
+  @@map("account_api_keys")
+}
+
+// ════════════════════════════════════════════════════════════
+// USERS & AUTH
+// ════════════════════════════════════════════════════════════
+
+model User {
+  id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name         String   @db.VarChar(255)
+  email        String   @unique @db.VarChar(255)
+  passwordHash String   @map("password_hash") @db.VarChar(255)
+  avatarUrl    String?  @map("avatar_url")
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt    DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  accountUsers  AccountUser[]
+  refreshTokens RefreshToken[]
+  assignedConversations Conversation[] @relation("assignee")
+  aiSuggestionsReviewed AISuggestion[] @relation("reviewer")
+  talkEventsActed       TalkEvent[]    @relation("actor")
+
+  @@map("users")
+}
+
+model AccountUser {
+  id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId    String   @map("account_id") @db.Uuid
+  userId       String   @map("user_id") @db.Uuid
+  role         String   @default("agent") @db.VarChar(50)
+  availability String   @default("online") @db.VarChar(50)
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt    DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account Account @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([accountId, userId])
+  @@index([accountId])
+  @@index([userId])
+  @@map("account_users")
+}
+
+model RefreshToken {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  userId    String   @map("user_id") @db.Uuid
+  tokenHash String   @unique @map("token_hash") @db.VarChar(255)
+  expiresAt DateTime @map("expires_at") @db.Timestamptz
+  revoked   Boolean  @default(false)
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([tokenHash])
+  @@map("refresh_tokens")
+}
+
+// ════════════════════════════════════════════════════════════
+// INBOXES (WhatsApp instances)
+// ════════════════════════════════════════════════════════════
+
+model Inbox {
+  id                  String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId           String   @map("account_id") @db.Uuid
+  name                String   @db.VarChar(255)
+  channelType         String   @default("whatsapp") @map("channel_type") @db.VarChar(50)
+  provider            String   @db.VarChar(50) // evolution_api | cloud_api
+  providerConfig      Json     @default("{}") @map("provider_config")
+  workingHours        Json     @default("{}") @map("working_hours")
+  greetingMessage     String?  @map("greeting_message")
+  outOfOfficeMessage  String?  @map("out_of_office_message")
+  createdAt           DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt           DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account        Account         @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  contactInboxes ContactInbox[]
+  conversations  Conversation[]
+  messages       Message[]
+  webhookEvents  WebhookEvent[]
+  groups         Group[]
+
+  @@index([accountId])
+  @@map("inboxes")
+}
+
+// ════════════════════════════════════════════════════════════
+// CONTACTS
+// ════════════════════════════════════════════════════════════
+
+model Contact {
+  id               String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId        String    @map("account_id") @db.Uuid
+  name             String    @db.VarChar(255)
+  phone            String?   @db.VarChar(50)
+  email            String?   @db.VarChar(255)
+  avatarUrl        String?   @map("avatar_url")
+  customAttributes Json      @default("{}") @map("custom_attributes")
+  funnelStage      String?   @map("funnel_stage") @db.VarChar(100)
+  notes            String?
+  deletedAt        DateTime? @map("deleted_at") @db.Timestamptz
+  createdAt        DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt        DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account          Account         @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  contactInboxes   ContactInbox[]
+  conversations    Conversation[]
+  talks            Talk[]
+  groupMemberships GroupMember[]
+  sentMessages     Message[]       @relation("messageSender")
+
+  @@index([accountId])
+  @@index([phone])
+  @@index([email])
+  @@map("contacts")
+}
+
+model ContactInbox {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  contactId String   @map("contact_id") @db.Uuid
+  inboxId   String   @map("inbox_id") @db.Uuid
+  sourceId  String   @map("source_id") @db.VarChar(255) // WA number: 5511999999999@s.whatsapp.net
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  contact       Contact        @relation(fields: [contactId], references: [id], onDelete: Cascade)
+  inbox         Inbox          @relation(fields: [inboxId], references: [id], onDelete: Cascade)
+  conversations Conversation[]
+
+  @@unique([inboxId, sourceId])
+  @@index([contactId])
+  @@index([inboxId])
+  @@map("contact_inboxes")
+}
+
+// ════════════════════════════════════════════════════════════
+// GROUPS (WhatsApp group chats)
+// ════════════════════════════════════════════════════════════
+
+model Group {
+  id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId     String   @map("account_id") @db.Uuid
+  inboxId       String   @map("inbox_id") @db.Uuid
+  jid           String   @db.VarChar(100) // 120363XXXXX@g.us
+  name          String   @db.VarChar(255)
+  description   String?
+  profilePicUrl String?  @map("profile_pic_url")
+  groupType     String   @default("client") @map("group_type") @db.VarChar(30) // client | agency
+  metadata      Json     @default("{}")
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt     DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account       Account        @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  inbox         Inbox          @relation(fields: [inboxId], references: [id])
+  members       GroupMember[]
+  conversations Conversation[]
+
+  @@unique([inboxId, jid])
+  @@index([accountId])
+  @@index([jid])
+  @@map("groups")
+}
+
+model GroupMember {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  groupId   String   @map("group_id") @db.Uuid
+  contactId String   @map("contact_id") @db.Uuid
+  role      String   @default("member") @db.VarChar(30) // admin | member | superadmin
+  joinedAt  DateTime @default(now()) @map("joined_at") @db.Timestamptz
+
+  group   Group   @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  contact Contact @relation(fields: [contactId], references: [id], onDelete: Cascade)
+
+  @@unique([groupId, contactId])
+  @@index([groupId])
+  @@index([contactId])
+  @@map("group_members")
+}
+
+// ════════════════════════════════════════════════════════════
+// CONVERSATIONS & MESSAGES
+// ════════════════════════════════════════════════════════════
+
+model Conversation {
+  id                   String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId            String    @map("account_id") @db.Uuid
+  inboxId              String    @map("inbox_id") @db.Uuid
+  contactId            String    @map("contact_id") @db.Uuid
+  contactInboxId       String?   @map("contact_inbox_id") @db.Uuid
+  groupId              String?   @map("group_id") @db.Uuid
+  assigneeId           String?   @map("assignee_id") @db.Uuid
+  activeTalkId         String?   @map("active_talk_id") @db.Uuid
+  status               String    @default("open") @db.VarChar(50) // open | pending | resolved | snoozed
+  unreadCount          Int       @default(0) @map("unread_count")
+  lastActivityAt       DateTime  @default(now()) @map("last_activity_at") @db.Timestamptz
+  snoozedUntil         DateTime? @map("snoozed_until") @db.Timestamptz
+  customAttributes     Json      @default("{}") @map("custom_attributes")
+  additionalAttributes Json      @default("{}") @map("additional_attributes")
+  deletedAt            DateTime? @map("deleted_at") @db.Timestamptz
+  createdAt            DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt            DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account      Account       @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  inbox        Inbox         @relation(fields: [inboxId], references: [id])
+  contact      Contact       @relation(fields: [contactId], references: [id])
+  contactInbox ContactInbox? @relation(fields: [contactInboxId], references: [id])
+  group        Group?        @relation(fields: [groupId], references: [id])
+  assignee     User?         @relation("assignee", fields: [assigneeId], references: [id])
+  activeTalk   Talk?         @relation("activeTalk", fields: [activeTalkId], references: [id])
+
+  messages           Message[]
+  conversationLabels ConversationLabel[]
+  aiSuggestions      AISuggestion[]
+  talks              Talk[]
+
+  @@index([accountId])
+  @@index([inboxId])
+  @@index([contactId])
+  @@index([assigneeId])
+  @@index([status])
+  @@index([lastActivityAt(sort: Desc)])
+  @@index([activeTalkId])
+  @@index([groupId])
+  @@map("conversations")
+}
+
+model Message {
+  id                String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId         String   @map("account_id") @db.Uuid
+  conversationId    String   @map("conversation_id") @db.Uuid
+  inboxId           String   @map("inbox_id") @db.Uuid
+  senderType        String   @map("sender_type") @db.VarChar(50) // user | contact | bot
+  senderId          String?  @map("sender_id") @db.Uuid
+  senderContactId   String?  @map("sender_contact_id") @db.Uuid
+  content           String?
+  messageType       String   @default("incoming") @map("message_type") @db.VarChar(50) // incoming | outgoing | activity | template
+  contentType       String   @default("text") @map("content_type") @db.VarChar(50) // text | image | video | audio | document | location | sticker | template
+  contentAttributes Json     @default("{}") @map("content_attributes")
+  status            String   @default("sent") @db.VarChar(50) // sending | sent | delivered | read | failed
+  private           Boolean  @default(false) // true = internal note
+  externalMessageId String?  @map("external_message_id") @db.VarChar(255)
+  createdAt         DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt         DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account       Account      @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  conversation  Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  inbox         Inbox        @relation(fields: [inboxId], references: [id])
+  senderContact Contact?     @relation("messageSender", fields: [senderContactId], references: [id])
+  talkMessage   TalkMessage?
+
+  @@index([conversationId])
+  @@index([accountId])
+  @@index([inboxId])
+  @@index([externalMessageId])
+  @@index([createdAt(sort: Desc)])
+  @@map("messages")
+}
+
+// ════════════════════════════════════════════════════════════
+// LABELS
+// ════════════════════════════════════════════════════════════
+
+model Label {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId   String   @map("account_id") @db.Uuid
+  name        String   @db.VarChar(100)
+  color       String   @default("#6366F1") @db.VarChar(7)
+  description String?
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account            Account             @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  conversationLabels ConversationLabel[]
+
+  @@unique([accountId, name])
+  @@index([accountId])
+  @@map("labels")
+}
+
+model ConversationLabel {
+  conversationId String   @map("conversation_id") @db.Uuid
+  labelId        String   @map("label_id") @db.Uuid
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  label        Label        @relation(fields: [labelId], references: [id], onDelete: Cascade)
+
+  @@id([conversationId, labelId])
+  @@index([conversationId])
+  @@index([labelId])
+  @@map("conversation_labels")
+}
+
+// ════════════════════════════════════════════════════════════
+// CANNED RESPONSES
+// ════════════════════════════════════════════════════════════
+
+model CannedResponse {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId String   @map("account_id") @db.Uuid
+  shortCode String   @map("short_code") @db.VarChar(100)
+  content   String
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account Account @relation(fields: [accountId], references: [id], onDelete: Cascade)
+
+  @@unique([accountId, shortCode])
+  @@index([accountId])
+  @@map("canned_responses")
+}
+
+// ════════════════════════════════════════════════════════════
+// AUTOMATION RULES
+// ════════════════════════════════════════════════════════════
+
+model AutomationRule {
+  id          String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId   String    @map("account_id") @db.Uuid
+  name        String    @db.VarChar(255)
+  description String?
+  eventName   String    @map("event_name") @db.VarChar(100)
+  conditions  Json      @default("[]")
+  actions     Json      @default("[]")
+  active      Boolean   @default(true)
+  runCount    Int       @default(0) @map("run_count")
+  lastRunAt   DateTime? @map("last_run_at") @db.Timestamptz
+  createdAt   DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account Account @relation(fields: [accountId], references: [id], onDelete: Cascade)
+
+  @@index([accountId])
+  @@index([eventName])
+  @@index([active])
+  @@map("automation_rules")
+}
+
+// ════════════════════════════════════════════════════════════
+// AI SUGGESTIONS (HITL)
+// ════════════════════════════════════════════════════════════
+
+model AISuggestion {
+  id              String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String    @map("account_id") @db.Uuid
+  conversationId  String    @map("conversation_id") @db.Uuid
+  talkId          String?   @map("talk_id") @db.Uuid
+  talkStepId      String?   @map("talk_step_id") @db.VarChar(100)
+  triggeredBy     String?   @map("triggered_by") @db.VarChar(100) // automation_rule | treeflow | manual | webhook
+  triggerId       String?   @map("trigger_id") @db.Uuid
+  content         String    // suggested content
+  editedContent   String?   @map("edited_content")
+  status          String    @default("pending") @db.VarChar(50) // pending | approved | rejected | sent | edited
+  confidence      Decimal?  @db.Decimal(3, 2) // 0.00 - 1.00
+  autoMode        Boolean   @default(false) @map("auto_mode")
+  funnelStage     String?   @map("funnel_stage") @db.VarChar(100)
+  context         Json      @default("{}")
+  reviewedBy      String?   @map("reviewed_by") @db.Uuid
+  reviewedAt      DateTime? @map("reviewed_at") @db.Timestamptz
+  sentAt          DateTime? @map("sent_at") @db.Timestamptz
+  createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account      Account      @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  talk         Talk?        @relation(fields: [talkId], references: [id])
+  reviewer     User?        @relation("reviewer", fields: [reviewedBy], references: [id])
+
+  @@index([accountId])
+  @@index([conversationId])
+  @@index([status])
+  @@index([talkId])
+  @@map("ai_suggestions")
+}
+
+// ════════════════════════════════════════════════════════════
+// WEBHOOK EVENTS (idempotency)
+// ════════════════════════════════════════════════════════════
+
+model WebhookEvent {
+  id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId      String   @map("account_id") @db.Uuid
+  inboxId        String   @map("inbox_id") @db.Uuid
+  provider       String   @db.VarChar(50)
+  eventType      String   @map("event_type") @db.VarChar(100)
+  idempotencyKey String   @unique @map("idempotency_key") @db.VarChar(255)
+  payload        Json
+  processed      Boolean  @default(false)
+  error          String?
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  account Account @relation(fields: [accountId], references: [id])
+  inbox   Inbox   @relation(fields: [inboxId], references: [id])
+
+  @@index([inboxId])
+  @@index([idempotencyKey])
+  @@index([processed])
+  @@map("webhook_events")
+}
+
+// ════════════════════════════════════════════════════════════
+// TREEFLOW — Templates
+// ════════════════════════════════════════════════════════════
+
+model TreeFlow {
+  id              String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String   @map("account_id") @db.Uuid
+  name            String   @db.VarChar(255)
+  slug            String   @db.VarChar(100)
+  description     String?
+  category        String?  @db.VarChar(100) // sales | support | onboarding | custom
+  activeVersionId String?  @map("active_version_id") @db.Uuid
+  settings        Json     @default("{}")
+  // settings: { auto_mode_enabled, confidence_threshold, inactivity_timeout_minutes, max_objection_retries, default_labels }
+  isArchived      Boolean  @default(false) @map("is_archived")
+  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account       Account            @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  activeVersion TreeFlowVersion?   @relation("activeVersion", fields: [activeVersionId], references: [id])
+  versions      TreeFlowVersion[]  @relation("treeFlowVersions")
+  objections    TreeFlowObjection[]
+  talks         Talk[]
+
+  @@unique([accountId, slug])
+  @@index([accountId])
+  @@map("tree_flows")
+}
+
+model TreeFlowVersion {
+  id            String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  treeFlowId    String    @map("tree_flow_id") @db.Uuid
+  versionNumber Int       @map("version_number")
+  status        String    @default("draft") @db.VarChar(50) // draft | published | deprecated
+  definition    Json      // TreeFlowDefinition: { initial_step_id, steps[], global_instructions }
+  abWeight      Int       @default(100) @map("ab_weight") // 0-100 for A/B testing
+  notes         String?
+  publishedAt   DateTime? @map("published_at") @db.Timestamptz
+  createdAt     DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt     DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  treeFlow              TreeFlow   @relation("treeFlowVersions", fields: [treeFlowId], references: [id], onDelete: Cascade)
+  activeForTreeFlow     TreeFlow[] @relation("activeVersion")
+  talks                 Talk[]
+
+  @@unique([treeFlowId, versionNumber])
+  @@index([treeFlowId])
+  @@index([status])
+  @@map("tree_flow_versions")
+}
+
+// ════════════════════════════════════════════════════════════
+// OBJECTIONS
+// ════════════════════════════════════════════════════════════
+
+model Objection {
+  id               String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId        String   @map("account_id") @db.Uuid
+  name             String   @db.VarChar(255)
+  category         String?  @db.VarChar(100) // price | timing | trust | competitor | custom
+  description      String?
+  detectionHints   Json     @default("[]") @map("detection_hints") // string[]
+  rebuttalStrategy String?  @map("rebuttal_strategy")
+  rebuttalExamples Json     @default("[]") @map("rebuttal_examples") // string[]
+  severity         String   @default("medium") @db.VarChar(50) // low | medium | high | critical
+  createdAt        DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt        DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account   Account             @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  treeFlows TreeFlowObjection[]
+
+  @@unique([accountId, name])
+  @@index([accountId])
+  @@index([category])
+  @@map("objections")
+}
+
+model TreeFlowObjection {
+  treeFlowId  String   @map("tree_flow_id") @db.Uuid
+  objectionId String   @map("objection_id") @db.Uuid
+  stepIds     Json     @default("[]") @map("step_ids") // string[] — relevant steps (empty = all)
+  priority    Int      @default(0)
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  treeFlow  TreeFlow  @relation(fields: [treeFlowId], references: [id], onDelete: Cascade)
+  objection Objection @relation(fields: [objectionId], references: [id], onDelete: Cascade)
+
+  @@id([treeFlowId, objectionId])
+  @@index([treeFlowId])
+  @@index([objectionId])
+  @@map("tree_flow_objections")
+}
+
+// ════════════════════════════════════════════════════════════
+// TALKS — Conversation Sessions
+// ════════════════════════════════════════════════════════════
+
+model Talk {
+  id                       String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId                String    @map("account_id") @db.Uuid
+  conversationId           String    @map("conversation_id") @db.Uuid
+  contactId                String    @map("contact_id") @db.Uuid
+  treeFlowId               String    @map("tree_flow_id") @db.Uuid
+  treeFlowVersionId        String    @map("tree_flow_version_id") @db.Uuid
+  parentTalkId             String?   @map("parent_talk_id") @db.Uuid
+  status                   String    @default("active") @db.VarChar(50) // active | paused | completed | closed_inactivity | closed_manual | archived
+  priority                 Int       @default(0)
+  metadata                 Json      @default("{}")
+  startedAt                DateTime  @default(now()) @map("started_at") @db.Timestamptz
+  pausedAt                 DateTime? @map("paused_at") @db.Timestamptz
+  resumedAt                DateTime? @map("resumed_at") @db.Timestamptz
+  closedAt                 DateTime? @map("closed_at") @db.Timestamptz
+  archivedAt               DateTime? @map("archived_at") @db.Timestamptz
+  lastActivityAt           DateTime  @default(now()) @map("last_activity_at") @db.Timestamptz
+  inactivityTimeoutMinutes Int       @default(1440) @map("inactivity_timeout_minutes")
+  createdAt                DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt                DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  account         Account          @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  conversation    Conversation     @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  contact         Contact          @relation(fields: [contactId], references: [id])
+  treeFlow        TreeFlow         @relation(fields: [treeFlowId], references: [id])
+  treeFlowVersion TreeFlowVersion  @relation(fields: [treeFlowVersionId], references: [id])
+  parentTalk      Talk?            @relation("subTalks", fields: [parentTalkId], references: [id])
+  childTalks      Talk[]           @relation("subTalks")
+  activeForConversations Conversation[] @relation("activeTalk")
+
+  talkFlow      TalkFlow?
+  talkEvents    TalkEvent[]
+  talkMessages  TalkMessage[]
+  aiSuggestions AISuggestion[]
+
+  @@index([accountId])
+  @@index([conversationId])
+  @@index([contactId])
+  @@index([treeFlowId])
+  @@index([status])
+  @@index([parentTalkId])
+  @@index([lastActivityAt])
+  @@map("talks")
+}
+
+model TalkFlow {
+  id                    String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  talkId                String   @unique @map("talk_id") @db.Uuid
+  currentStepId         String   @map("current_step_id") @db.VarChar(100)
+  state                 Json     @default("{}") // TalkFlowState: { filled_actions, step_history, variables, messages_in_current_step }
+  objectionsEncountered Json     @default("[]") @map("objections_encountered")
+  escapeAttempts        Int      @default(0) @map("escape_attempts")
+  confidenceHistory     Json     @default("[]") @map("confidence_history")
+  snapshot              Json?    // full snapshot on close (for future resume)
+  createdAt             DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt             DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  talk Talk @relation(fields: [talkId], references: [id], onDelete: Cascade)
+
+  @@index([talkId])
+  @@map("talk_flows")
+}
+
+model TalkEvent {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  talkId    String   @map("talk_id") @db.Uuid
+  eventType String   @map("event_type") @db.VarChar(100)
+  data      Json     @default("{}")
+  actorType String   @default("system") @map("actor_type") @db.VarChar(50) // system | ai | agent | automation
+  actorId   String?  @map("actor_id") @db.Uuid
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  talk  Talk  @relation(fields: [talkId], references: [id], onDelete: Cascade)
+  actor User? @relation("actor", fields: [actorId], references: [id])
+
+  @@index([talkId])
+  @@index([eventType])
+  @@index([createdAt(sort: Desc)])
+  @@map("talk_events")
+}
+
+model TalkMessage {
+  id                 String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  talkId             String   @map("talk_id") @db.Uuid
+  messageId          String   @unique @map("message_id") @db.Uuid
+  routingConfidence  Decimal? @map("routing_confidence") @db.Decimal(3, 2)
+  routedBy           String   @default("ai") @map("routed_by") @db.VarChar(50) // ai | manual | system
+  createdAt          DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  talk    Talk    @relation(fields: [talkId], references: [id], onDelete: Cascade)
+  message Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
+
+  @@index([talkId])
+  @@index([messageId])
+  @@map("talk_messages")
+}

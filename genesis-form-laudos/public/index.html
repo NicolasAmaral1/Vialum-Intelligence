@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novo Laudo — Genesis</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L2 22H22L12 2Z" fill="#9FEC14"/>
+      </svg>
+      GENESIS <span>LAUDOS</span>
+    </a>
+    <nav>
+      <a href="/" class="active">Novo Pedido</a>
+      <a href="/acompanhamento.html">Acompanhamento</a>
+      <a href="/admin.html" id="adminLink" class="hidden">Usuários</a>
+      <button type="button" class="nav-button" id="logoutBtn">Sair</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-meta">
+      <div>
+        <h1 class="page-title">Solicitar Viabilidade</h1>
+        <p class="page-subtitle">Preencha os dados abaixo para enviar o pedido direto para a fila da IA no ClickUp.</p>
+      </div>
+      <div class="user-pill" id="userPill">Carregando...</div>
+    </section>
+
+    <div id="alertBox" class="alert"></div>
+
+    <div class="card">
+      <form id="laudoForm">
+        <div class="form-group">
+          <label for="nomeMarca">Nome da Marca</label>
+          <input type="text" id="nomeMarca" name="nomeMarca" placeholder="Ex: Aquavitta" required>
+        </div>
+
+        <div class="form-group">
+          <label for="nomeCliente">Nome do Cliente</label>
+          <input type="text" id="nomeCliente" name="nomeCliente" placeholder="Ex: João da Silva" required>
+        </div>
+
+        <div class="form-group">
+          <label for="atividade">Atividade de Atuação</label>
+          <textarea id="atividade" name="atividade" placeholder="Descreva os produtos ou serviços oferecidos..." required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="indicacao">Quem Indicou?</label>
+          <input type="text" id="indicacao" name="indicacao" placeholder="Ex: vendedor, indicação, campanha">
+        </div>
+
+        <button type="submit" class="btn-primary" id="submitBtn">
+          <span class="text">Enviar Pedido para IA</span>
+          <div class="loader"></div>
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <script>
+    async function loadSession() {
+      const response = await fetch('/api/auth/session');
+      const data = await response.json();
+
+      if (!data.authenticated) {
+        window.location.href = '/login';
+        return null;
+      }
+
+      if (data.user.mustChangePassword) {
+        window.location.href = '/senha';
+        return null;
+      }
+
+      document.getElementById('userPill').textContent =
+        `${data.user.displayName} (${data.user.companyName || data.user.username})`;
+
+      if (data.user.role === 'admin') {
+        document.getElementById('adminLink').classList.remove('hidden');
+      }
+
+      return data.user;
+    }
+
+    document.getElementById('logoutBtn').addEventListener('click', async () => {
+      await fetch('/api/auth/logout', { method: 'POST' });
+      window.location.href = '/login';
+    });
+
+    document.getElementById('laudoForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const btn = document.getElementById('submitBtn');
+      const alertBox = document.getElementById('alertBox');
+
+      btn.classList.add('loading');
+      btn.disabled = true;
+      alertBox.className = 'alert';
+      alertBox.textContent = '';
+
+      const formData = {
+        nomeMarca: document.getElementById('nomeMarca').value,
+        nomeCliente: document.getElementById('nomeCliente').value,
+        atividade: document.getElementById('atividade').value,
+        indicacao: document.getElementById('indicacao').value,
+      };
+
+      try {
+        const response = await fetch('/api/laudos', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formData),
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          if (data.code === 'PASSWORD_CHANGE_REQUIRED') {
+            window.location.href = '/senha';
+            return;
+          }
+          throw new Error(data.error || 'Erro desconhecido');
+        }
+
+        alertBox.textContent = 'Pedido enviado com sucesso. O ClickUp receberá também o usuário que gerou a solicitação.';
+        alertBox.classList.add('success');
+        document.getElementById('laudoForm').reset();
+      } catch (err) {
+        alertBox.textContent = `Erro: ${err.message}`;
+        alertBox.classList.add('error');
+      } finally {
+        btn.classList.remove('loading');
+        btn.disabled = false;
+      }
+    });
+
+    loadSession();
+  </script>
+</body>
+</html>

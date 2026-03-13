@@ -1,0 +1,30 @@
+# Squad Protocolo-v2 — Synapse Manifest
+# Formato: DOMAIN_ATTRIBUTE=value (CARL-compatible)
+# Este arquivo é lido pelo L5 Squad Processor do SynapseEngine.
+
+# ──────────────────────────────────────────────────────────────────
+# AGENTE: regras sempre injetadas quando @protocolo está ativo
+# Domain file: agent-protocolo
+# ──────────────────────────────────────────────────────────────────
+AGENT_PROTOCOLO_STATE=active
+AGENT_PROTOCOLO_ALWAYS_ON=true
+AGENT_PROTOCOLO_AGENT_TRIGGER=protocolo
+
+# ──────────────────────────────────────────────────────────────────
+# CLICKUP: regras da integração com ClickUp
+# Domain file: clickup-protocolo
+# ──────────────────────────────────────────────────────────────────
+CLICKUP_PROTOCOLO_STATE=active
+CLICKUP_PROTOCOLO_RECALL=clickup,card,fila,status,contrato + proc,pagamento,processar,monitorar,task_id
+
+# ──────────────────────────────────────────────────────────────────
+# QUALIFICAÇÃO: regras de qualificação jurídica PF/PJ
+# Domain file: qualificacao
+# ──────────────────────────────────────────────────────────────────
+QUALIFICACAO_STATE=active
+QUALIFICACAO_RECALL=pessoa fisica,pessoa juridica,pf,pj,cpf,cnpj,representante legal,razao social,qualificacao,rg,endereco,profissao,estado civil,nacionalidade
+
+# ──────────────────────────────────────────────────────────────────
+# Merge mode: extend (adiciona às regras do core, não substitui)
+# ──────────────────────────────────────────────────────────────────
+PROTOCOLO_V2_EXTENDS=extend

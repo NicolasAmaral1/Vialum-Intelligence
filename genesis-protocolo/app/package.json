@@ -1,0 +1,10 @@
+{
+  "name": "genesis-protocolo",
+  "version": "1.0.0",
+  "description": "Automação de contratos Genesis via ClickUp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}

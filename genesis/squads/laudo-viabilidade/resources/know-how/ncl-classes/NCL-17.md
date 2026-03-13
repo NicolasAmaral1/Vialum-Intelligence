@@ -1,0 +1,167 @@
+# Classe NCL 17
+
+Especificações pré-especificadas (Português):
+
+- 170001 | Acetato de celulose [semiprocessado]
+- 170002 | Resinas acrílicas, semiprocessadas
+- 170003 | Cortinas de segurança de amianto
+- 170003 | Safety curtains of asbestos
+- 170004 | Anéis de borracha
+- 170005 | Ardósia de amianto
+- 170005 | Slate asbestos
+- 170006 | Mangueiras de água
+- 170008 | Materiais à prova de som
+- 170009 | Anéis de estanqueidade
+- 170009 | Anéis de vedação
+- 170010 | Balata [látex]
+- 170011 | Elementos de vedação estanques
+- 170012 | Borrachas de vedação para potes herméticos
+- 170013 | Tiras para calafetar
+- 170013 | Weatherstripping
+- 170014 | Enchimentos de borracha ou plástico
+- 170014 | Stuffing of rubber or plastics
+- 170015 | Composições para calafetar
+- 170016 | Materiais não condutores para conservar calor
+- 170017 | Borracha, bruta ou semitrabalhada
+- 170018 | Rolhas de borracha
+- 170018 | Tampões de borracha
+- 170019 | Válvulas de chapeletas de borracha
+- 170020 | Borracha sintética
+- 170021 | Amortecedores de impacto feitos de borracha
+- 170022 | Mangueiras flexíveis, não metálicas
+- 170023 | Materiais isolantes
+- 170024 | Composições para impedir irradiação de calor
+- 170025 | Mangueiras de matérias têxteis
+- 170026 | Substâncias para impedir irradiação de calor nas caldeiras
+- 170029 | Papel para capacitores elétricos
+- 170030 | Gaxetas para canos
+- 170030 | Juntas de vedação para canos
+- 170031 | Cordas de borracha
+- 170032 | Lã de algodão para calafetar
+- 170033 | Juntas para cilindros
+- 170034 | Dielétricos [isolantes]
+- 170035 | Folhas de amianto
+- 170036 | Ebonite
+- 170037 | Revestimentos de cortiça para isolamento acústico
+- 170038 | Fibras elásticas, exceto para uso têxtil
+- 170038 | Fios elásticos, exceto para uso têxtil
+- 170040 | Materiais para calafetar
+- 170041 | Enchimento para juntas de expansão
+- 170041 | Fillers for expansion joints
+- 170042 | Composições químicas para vedar vazamentos
+- 170043 | Gaxetas*
+- 170043 | Juntas de vedação
+- 170044 | Feltro de amianto
+- 170045 | Feltro de isolamento
+- 170046 | Fibra vulcanizada
+- 170046 | Vulcanized fiber
+- 170047 | Fios para soldar de matérias plásticas
+- 170047 | Soldering threads of plastic
+- 170048 | Materiais parcialmente processados para lona de freio
+- 170050 | Guta-percha
+- 170051 | Óleo isolante para transformadores
+- 170052 | Óleos isolantes
+- 170053 | Foil of regenerated cellulose, other than for wrappingFolha de celulose regenerada, exceto para embalar
+- 170053 | Sheets of regenerated cellulose, other than for wrappingLâminas de celulose regenerada, exceto para embalar
+- 170055 | Papel isolante
+- 170056 | Tecidos isolantes
+- 170057 | Vernizes isolantes
+- 170058 | Substâncias para isolamento de construções contra umidade
+- 170059 | Folhas metálicas para isolamento
+- 170059 | Metal foil for insulation
+- 170060 | Tintas isolantes
+- 170061 | Lã de escória [isolante]
+- 170062 | Lã mineral [isolante]
+- 170063 | Lã de vidro para isolamento
+- 170064 | Látex [borracha]
+- 170065 | Canos de mangueira de lona
+- 170066 | Luto
+- 170067 | Mangas de engate não metálicas para canos
+- 170067 | Luvas não metálicas para canos
+- 170067 | Virolas não metálicas para canos
+- 170068 | Mangas de borracha para proteção de partes de máquinas
+- 170068 | Sleeves of rubber for protecting parts of machines
+- 170069 | Compostos selantes para juntas
+- 170070 | Mica, bruta ou semiprocessada
+- 170071 | Papel de amianto
+- 170072 | Filme plástico, exceto para embalar
+- 170073 | Conexões não metálicas para canos
+- 170074 | Mangueiras de conexão para radiadores de veículos
+- 170075 | Resinas sintéticas, semiprocessadas
+- 170075 | Resinas artificiais, semiprocessadas
+- 170076 | Arruelas de borracha ou fibra vulcanizada
+- 170076 | Washers of rubber or vulcanized fiber
+- 170077 | Bags [envelopes, pouches] of rubber, for packagingSacos [invólucros, sacolas] de borracha, para embalar
+- 170078 | Revestimentos de amianto
+- 170079 | Tecidos de amianto
+- 170080 | Telas de amianto
+- 170081 | Gaxetas de amianto
+- 170082 | Válvulas de borracha ou fibra vulcanizada
+- 170082 | Valves of india-rubber or vulcanized fiber
+- 170083 | Folhas de viscose, exceto para embalar
+- 170084 | Isolantes para trilhos de ferrovias
+- 170085 | Conexões não metálicas para canos para ar comprimido
+- 170087 | Papelão de amianto
+- 170088 | Fibras de amianto
+- 170088 | Filamentos de amianto
+- 170089 | Materiais não metálicos de reforço para canos
+- 170091 | Amianto
+- 170092 | Batedores [bloqueador] de borracha
+- 170094 | Isolantes para cabos
+- 170095 | Fios de borracha, exceto  para uso têxtil
+- 170096 | Fibras de carbono, exceto para uso têxtil
+- 170096 | Carbon fibers, other than for textile use
+- 170097 | Substâncias plásticas, semiprocessadas
+- 170098 | Isolantes para cabos de eletricidade
+- 170099 | Isolantes
+- 170100 | Moldes de ebonite
+- 170100 | Ebonite molds
+- 170101 | Packing [cushioning, stuffing] materials of rubber or plasticsMateriais de borracha ou plástico para embalagem [enchimento, amortecimento]
+- 170102 | Fibras plásticas, exceto para uso têxtil
+- 170102 | Filamentos plásticos, exceto para uso têxtil
+- 170103 | Fibra de vidro para isolamento
+- 170103 | Glass fibers for insulation
+- 170103 | Glass fibres for insulation
+- 170103 | Fiberglass for insulation
+- 170104 | Tecidos de fibra de vidro para isolamento
+- 170104 | Fiberglass fabrics for insulation
+- 170105 | Threads of plastic materials, other than for textile useFios de materiais plásticos, exceto para uso têxtil
+- 170106 | Filtering materials of semi-processed foams of plasticMateriais filtrantes feitos de espumas plásticas semiprocessadas
+- 170107 | Fitas isolantes
+- 170108 | Barreiras flutuantes antipoluição
+- 170109 | Materiais de borracha para recauchutagem de pneus
+- 170109 | Rubber material for recapping tires
+- 170110 | Argamassa isolante
+- 170111 | Coberturas de plástico para uso na agricultura
+- 170112 | Suportes de espuma para arranjos de flores [produtos semiacabados]
+- 170113 | Borracha líquida
+- 170114 | Soluções de borracha
+- 170115 | Películas tingidas antirreflexo para janelas
+- 170115 | Películas tingidas antiofuscantes para janelas
+- 170116 | Materiais refratários isolantes
+- 170117 | Goma bruta ou semitrabalhada
+- 170118 | Fita adesiva multiuso
+- 170119 | Batedores [bloqueador] de borracha para portas
+- 170120 | Batedores [bloqueador] de borracha para janelas
+- 170121 | Conexões não metálicas para tubos flexíveis
+- 170122 | Conexões não metálicas para tubos rígidos
+- 170123 | Amortecedores de borracha para uso em paredes de cais
+- 170124 | Filtering materials of semi-processed films of plasticMateriais filtrantes feitos de filmes plásticos semiprocessados
+- 170125 | Filamentos plásticos para impressão 3d
+- 170126 | Tintas isolantes
+- 170127 | Vidro acrílico, semiprocessado
+- 170128 | Vidro orgânico, semiprocessado
+- 170129 | Etiquetas costuradas de borracha para roupas
+- 170130 | Vedações para óleo
+- 170131 | Anéis o-ring
+- 170132 | Tapetes de borracha antiderrapantes
+- 170133 | Filmes isolantes
+- 170134 | Películas de proteção contra interferência eletromagnética [EMI]
+- 170135 | Materiais para isolamento acústico
+- 170136 | Selantes líquidos para transmissões
+- 170137 | Folhas de absorção de ondas eletromagnéticas
+- 170138 | Fitas de alerta de perigo, adesivas
+- 170139 | Massa de calafetagem
+- 170140 | Fibras de poliéster fiadas para isolamento
+- 170140 | Spun polyester fibers for insulation
+- 170141 | Bocais/bicos para mangueiras de água

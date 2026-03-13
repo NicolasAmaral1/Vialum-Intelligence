@@ -1,0 +1,125 @@
+# Sinapse: analise-inpi
+
+TRIGGER: workflow_trigger (inpi, colidencia, anterioridade, parte2)
+SKILL_VERSION: V6 — Padrão Vialum Premium
+
+---
+
+## Propósito
+
+Processar o JSON de anterioridades do INPI e gerar a PARTE 2 do laudo: análise narrativa
+e contextual de colidências, focada em precedentes, coexistência e estratégia defensiva.
+
+---
+
+## ⚠️ PROIBIÇÕES ABSOLUTAS — Descumprir é FALHA GRAVE
+
+❌ NÃO USE subcapítulos numerados: `### 1. Contexto`, `### 2. Análise`
+❌ NÃO CRIE seção separada listando processos ao final
+❌ NÃO USE título de conclusão: `## CONCLUSÃO`, `### Veredito`
+❌ NÃO USE estratégia em tópicos: `1. Depositar... 2. Monitorar...`
+❌ NÃO USE separadores `---` em qualquer lugar da Parte 2
+❌ NÃO USE bullet points: `* item` ou `- item`
+❌ NÃO CRIE tabelas de colidências (nem ao final, nem no meio)
+
+✅ USE: Parágrafos narrativos contínuos, dados citados INLINE
+
+---
+
+## Título Obrigatório da Seção
+
+```markdown
+## PARTE 2: ANÁLISE DE COLIDÊNCIAS E ANTERIORIDADES
+```
+
+---
+
+## Estrutura da Narrativa
+
+### Parágrafo 1 — Contexto de Saturação (sem subtítulo)
+
+Analisar a densidade de marcas similares na(s) classe(s) pesquisada(s).
+Verificar se o termo é "comum" na base (marca fraca) ou exclusivo (marca forte).
+
+*Modelo:*
+> "Ao perscrutar a base de dados do INPI na Classe XX, deparamo-nos com uma densidade
+> considerável de registros contendo o radical [TERMO]. Identificamos convivência pacífica
+> entre marcas como **[MARCA A]** (Proc. XXXX), **[MARCA B]** (Proc. YYYY) e **[MARCA C]**
+> (Proc. ZZZZ). Essa profusão de registros sinaliza que o INPI considera o termo de
+> distintividade mitigada, permitindo coexistência desde que as atividades guardem distância."
+
+### Parágrafos 2-N — Análise Individual de Cada Anterioridade
+
+Para cada marca do JSON, um parágrafo com:
+- Nome da marca (em **negrito**)
+- Número do processo
+- Titular
+- Status atual
+- Especificações na íntegra
+- Análise de colidência (fonética, gráfica, ideológica)
+- Nível de risco: ALTO, MÉDIO ou BAIXO
+- Estratégia de defesa
+
+**Varie o estilo de parágrafo:**
+
+*Estilo 1 (Foco no Titular):*
+> "De titularidade de [TITULAR], o processo [000] (**[MARCA]**) encontra-se em [STATUS] e
+> visa proteger [ESPECIFICAÇÕES]. Ao confrontarmos os sinais, nota-se que..."
+
+*Estilo 2 (Foco na Colidência):*
+> "A proximidade fonética entre a marca pretendida e a anterioridade **[MARCA]** (Proc. [000])
+> exige cautela. O referido sinal, de [TITULAR], protege [ESPECIFICAÇÕES]. Contudo, a tese
+> de coexistência é viável pois..."
+
+*Estilo 3 (Foco no Mercado):*
+> "No segmento de [MERCADO], identificamos o registro **[MARCA]** (Proc. [000]), registrado
+> por [TITULAR]. Embora o status seja [STATUS], sua especificação abrange [ESPECIFICAÇÕES],
+> o que gera um ponto de contato que deve ser mitigado através de..."
+
+### Parágrafo Final — Conclusão e Estratégia (SEM TÍTULO, SEM TÓPICOS)
+
+Fechar com parágrafo contínuo que:
+1. Consolide a viabilidade: Muito Provável / Provável / Possível com Defesa / Pouco Provável
+2. Descreva estratégia mestra em texto corrido (NÃO usar 1., 2., 3.)
+3. Mencione diferenciação visual estratégica ("escudo visual")
+
+*Modelo correto:*
+> "Diante do exposto, avaliamos a viabilidade de registro como **POSSÍVEL (COM ESTRATÉGIA
+> DEFENSIVA)**. Recomenda-se protocolar o pedido na forma mista, investindo em identidade
+> visual distintiva que se distancie do padrão [PADRÃO] dominante no segmento. Caso o INPI
+> aponte colidência com o processo [XXX], a defesa será pautada na tese de diluição do
+> termo e especialidade dos serviços. O monitoramento ativo do processo concorrente é
+> prudente para apresentar eventual oposição ou negociação de coexistência."
+
+---
+
+## Regras de Ouro (Padrão Vialum Premium)
+
+1. **Loteamento:** Analisar INDIVIDUALMENTE e NOMINALMENTE todas as marcas.
+   Se > 10 marcas, processar em lotes de 5, anunciar ao usuário entre lotes.
+
+2. **Especificação completa:** Não apenas citar a Classe — extrair e analisar a descrição
+   completa das atividades do colidente, confrontando com o produto/serviço do cliente.
+
+3. **Jurisprudência interna:** Verificar despachos de oposições ou recusas prévias.
+   Se o colidente superou indeferimento por outra marca similar → usar pelo Princípio da
+   Isonomia ("Se o INPI permitiu para ele, tem que permitir para nós").
+
+4. **Diferenciação Visual:** Identificar o padrão visual das marcas líderes do segmento
+   conflitante. Recomendar que o cliente use identidade visual que fuja ativamente desse padrão.
+
+5. **Tese da Distintividade Mitigada:** Se o termo é comum na base → posicionar como
+   "Marca Comum" (diluída no comércio), afastando a capacidade do líder de pleitear
+   exclusividade fora de seu exato canal de atuação.
+
+---
+
+## Execução em Lotes
+
+SE há mais de 10 anterioridades:
+```
+⚖️ Mira — Identificadas {n} anterioridades. Processarei em lotes de 5 para garantir
+densidade técnica absoluta. Iniciando Lote 1 de {ceil(n/5)}...
+```
+
+Após cada lote, informar progresso e perguntar se pode continuar.

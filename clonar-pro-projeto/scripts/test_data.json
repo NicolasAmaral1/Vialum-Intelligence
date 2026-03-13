@@ -1,0 +1,19 @@
+{
+  "tipo_pessoa": "PJ",
+  "razao_social": "Empresa Teste Ltda",
+  "cnpj": "12.345.678/0001-90",
+  "endereco_sede": "Rua Teste, 123",
+  "nome_rep": "João da Silva",
+  "cpf_rep": "123.456.789-00",
+  "rg_rep": "98765432-1",
+  "cargo_rep": "Sócio-Administrador",
+  "nacionalidade_rep": "brasileiro",
+  "estado_civil_rep": "casado",
+  "profissao_rep": "empresário",
+  "endereco_rep": "Av. Brasil, 100",
+  "nome_marca": "MARCA TESTE",
+  "qtd_classes": "2",
+  "valor_total": "R$ 2.000,00",
+  "forma_pagamento": "pix_auto",
+  "condicao_pagamento": "vista"
+}

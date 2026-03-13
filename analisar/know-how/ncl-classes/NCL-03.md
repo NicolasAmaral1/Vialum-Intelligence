@@ -1,0 +1,280 @@
+# Classe NCL 03
+
+Especificações pré-especificadas (Português):
+
+- 030001 | Substâncias adesivas para fixar cabelos postiços
+- 030002 | Pedras para amaciar
+- 030003 | Grinding preparations
+- 030003 | Preparações para afiar
+- 030005 | Pedra de barbear [adstringente]
+- 030006 | Óleo de amêndoas para uso cosmético
+- 030007 | Sabonete de amêndoas
+- 030009 | Goma de amido para brilho [lavanderia]
+- 030010 | Goma de amido para lavanderia
+- 030010 | Laundry starch
+- 030011 | Rouge [vermelho] para polimento
+- 030011 | Rouge de joalheiro
+- 030012 | Sabões*
+- 030013 | Sabões de avivamento de cores [têxtil]
+- 030014 | Anil para lavanderia
+- 030016 | Preparações cosméticas para banhos
+- 030017 | Sabonete para barbear
+- 030018 | Batons para os lábios
+- 030019 | Cotton swabs for cosmetic purposes
+- 030019 | Hastes com pontas de algodão para fins cosméticos
+- 030020 | Máscaras de beleza
+- 030022 | Branco de espanha [carbonato de cálcio]
+- 030023 | Cremes para clarear a pele
+- 030023 | Cream for whitening the skin
+- 030025 | Produtos para clarear couro
+- 030026 | Sais para branquear
+- 030027 | Soda para branquear
+- 030028 | Produtos para alvejar roupa
+- 030028 | Laundry bleaching preparations
+- 030029 | Produtos para dar brilho [lavanderia]
+- 030030 | Madeira aromática
+- 030031 | Enxaguantes bucais, exceto para uso medicinal
+- 030032 | Esmalte para unhas
+- 030032 | Nail polish
+- 030033 | Produtos para maquiagem
+- 030034 | Loções capilares*
+- 030035 | Carbonetos metálicos [abrasivos]
+- 030036 | Carboneto [carbeto] de silício [abrasivo]
+- 030038 | Cinza vulcânica para limpeza
+- 030039 | Creme para sapato
+- 030040 | Tinturas para os cabelos
+- 030040 | Hair colorants
+- 030041 | Preparações para ondular os cabelos
+- 030041 | Waving preparations for the hair
+- 030042 | Cílios postiços
+- 030043 | Produtos cosméticos para os cílios
+- 030045 | Preparações para polimento
+- 030046 | Cera para sapatos
+- 030047 | Cera para assoalhos e móveis
+- 030048 | Produtos para fazer brilhar [lustração]
+- 030049 | Cera para sapateiros
+- 030050 | Pez para sapateiros
+- 030052 | Cera para bigode
+- 030052 | Mustache wax
+- 030053 | Cera para assoalhos de tacos
+- 030054 | Cera para polir
+- 030055 | Cera para alfaiates
+- 030058 | Água de colônia [eau de cologne]
+- 030060 | Colorantes para toalete
+- 030061 | Conservantes para couro [produtos para polir]
+- 030061 | Preservatives for leather [polishes]
+- 030062 | Coríndon [abrasivo]
+- 030063 | Cosméticos para animais
+- 030064 | Paletas de maquiagem contendo cosméticos
+- 030065 | Cosméticos
+- 030066 | Algodão para uso cosmético
+- 030067 | Giz para limpeza
+- 030068 | Tira-manchas
+- 030069 | Lápis para uso cosmético
+- 030070 | Cremes para polir
+- 030071 | Cremes cosméticos
+- 030072 | Cristais de soda para a limpeza
+- 030073 | Pastas para afiar navalha
+- 030074 | Cremes para couro
+- 030074 | Cera para couro
+- 030075 | Detergentes, exceto os utilizados durante processo de fabricação e para uso médico
+- 030076 | Soluções para decapagem
+- 030077 | Preparações desengordurantes, exceto para uso em processos de fabricação
+- 030078 | Produtos para remover maquiagem
+- 030079 | Dentifrícios*
+- 030081 | Preparações desincrustantes para uso doméstico
+- 030082 | Diamantina [abrasivo]
+- 030083 | Preparações antiestáticas para uso doméstico
+- 030084 | Lixa de esmeril com costado de papel
+- 030085 | Produtos para remover lacas
+- 030086 | Lixa de esmeril com costado de pano
+- 030087 | Produtos descolorantes
+- 030087 | Color-removing preparations
+- 030088 | Produtos para remover vernizes
+- 030089 | Água de javel [solução à base de cloro diluído]
+- 030089 | Água sanitária [solução à base de cloro diluído]
+- 030089 | Potassium hypochloride
+- 030091 | Água de cheiro para perfumar
+- 030092 | Água de toalete [eaux de toilette]
+- 030093 | Casca de quilaia para lavagem
+- 030094 | Esmeril
+- 030095 | Incense* Incenso*
+- 030096 | Preparações depilatórias
+- 030096 | Depilatories
+- 030097 | Cera para depilação
+- 030098 | Produtos para enxaguar a roupa [lavanderia]
+- 030098 | Preparations for soaking laundry
+- 030100 | Óleos voláteis para fins cosméticos
+- 030100 | Óleos essenciais para fins cosméticos
+- 030102 | Maquiagem para o rosto
+- 030104 | Preparações para limpeza
+- 030109 | Geleia de petróleo para uso cosmético
+- 030111 | Gorduras para uso cosmético
+- 030112 | Água oxigenada [peróxido de hidrogênio] para uso cosmético
+- 030114 | Óleos para uso cosmético
+- 030117 | Óleos para limpeza
+- 030118 | Óleos para perfumar
+- 030120 | Óleos para toalete
+- 030122 | Loções para uso cosmético
+- 030123 | Leites de limpeza para toalete
+- 030124 | Produtos para lavanderia
+- 030125 | Preparações para higiene pessoal*
+- 030126 | Líquidos para limpeza de para-brisa
+- 030126 | Windshield cleaning liquids
+- 030127 | Produtos para alisar [engomar]
+- 030131 | Cosméticos para as sobrancelhas
+- 030133 | Produtos neutralizadores para permanentes nos cabelos
+- 030134 | Xampus*
+- 030135 | Perfumes
+- 030136 | Unhas postiças
+- 030137 | Preparações para o cuidado das unhas
+- 030138 | Preparações para limpeza de papel de parede
+- 030139 | Papel para polir
+- 030140 | Lixa com costado de papel [lixa de papel]
+- 030140 | Glass paper
+- 030142 | Preparações cosméticas para cuidados da pele
+- 030143 | Sabonete antitranspirante para os pés
+- 030144 | Pedras de polir
+- 030145 | Pedra-pomes
+- 030146 | Pomadas para uso cosmético
+- 030147 | Pó para maquiagem
+- 030148 | Preparações para barbear
+- 030149 | Sabonete desodorante
+- 030150 | Sachês para perfumar roupa
+- 030152 | Sabonetes
+- 030152 | Cakes of soap
+- 030153 | Lixívia de soda
+- 030154 | Lápis de sobrancelhas
+- 030155 | Talco para toalete
+- 030156 | Tinturas cosméticas
+- 030157 | Terebintina para desengordurar
+- 030158 | Óleo de terebintina para desengordurar
+- 030160 | Lixa com costado de tecido [lixa pano]
+- 030160 | Tela [tecido] abrasiva
+- 030161 | Tecido de vidro [tecido abrasivo]
+- 030162 | Antitranspirantes [produtos de toalete]
+- 030163 | Sabonete antitranspirante
+- 030164 | Pedra trípole para polimento
+- 030165 | Abrasivos *
+- 030166 | Papel abrasivo
+- 030167 | Amoníaco [álcali volátil] [detergente]
+- 030167 | Álcali volátil [amoníaco] [detergente]
+- 030168 | Pedras de alúmen [pedras-ume] [adstringente]
+- 030169 | Leite de amêndoas para uso cosmético
+- 030170 | Preparações para remoção de ferrugem
+- 030171 | Preparações para bronzear [cosméticos]
+- 030174 | Produtos químicos de uso doméstico para avivar cores [lavanderia]
+- 030174 | Color-brightening chemicals for household purposes [laundry]
+- 030175 | Sais de banho, exceto para uso medicinal
+- 030176 | Tinturas para barba
+- 030177 | Preparações cosméticas para emagrecimento
+- 030178 | Substâncias adesivas para fixar cílios postiços
+- 030179 | Produtos para remover a pintura
+- 030180 | Desodorantes [perfumaria]
+- 030181 | Decalques decorativos para uso cosmético
+- 030191 | Adstringentes para uso cosmético
+- 030192 | Bleaching preparations [decolorants] for cosmetic purposesProdutos descolorantes para uso cosmético
+- 030193 | Amaciantes de tecidos [lavanderia]
+- 030194 | Preparações para limpeza de próteses dentárias
+- 030195 | Produtos para desentupir canos de esgoto
+- 030196 | Xampus para animais de estimação [preparações para higiene não medicamentosas]
+- 030197 | Lenços impregnados com loções cosméticas
+- 030198 | Produtos para polimento de próteses dentárias
+- 030199 | Substâncias adesivas para uso cosmético
+- 030200 | Loções pós-barba
+- 030201 | Laquê para cabelos
+- 030202 | Cosmético para dar cor e volume aos cílios
+- 030202 | Máscaras de cílios
+- 030203 | Mistura de fragrâncias
+- 030204 | Pulverizadores para refrescar o hálito
+- 030205 | Produtos para lavagem a seco
+- 030206 | Removedores de cera para assoalhos [produtos para decapagem]
+- 030207 | Cera antiderrapante para pisos
+- 030208 | Líquidos antiderrapantes para pisos
+- 030209 | Canned pressurized air for cleaning and dusting purposesAr comprimido em lata para fins de limpeza
+- 030210 | Géis para clareamento dental
+- 030211 | Panos impregnados com detergente para limpeza
+- 030212 | Produtos para dar brilho às folhas das plantas
+- 030213 | Varetas de incenso
+- 030214 | Agentes de secagem para máquinas de lavar louças
+- 030214 | Agentes de secagem para lava-louças
+- 030215 | Preparações para perfumar ambientes
+- 030216 | Tiras refrescantes para o hálito
+- 030217 | Desodorizante para animais de estimação
+- 030218 | Preparações de aloe vera para uso cosmético
+- 030219 | Preparações de babosa para uso cosmético
+- 030220 | Géis de massagem, exceto para uso medicinal
+- 030221 | Brilho para os lábios
+- 030222 | Bálsamo, exceto para uso medicinal
+- 030223 | Xampu a seco*
+- 030224 | Adesivos para enfeitar unhas
+- 030225 | Preparações para proteção solar
+- 030227 | Henna [tintura cosmética]
+- 030228 | Preparações polidoras para calçados
+- 030229 | Porta-batom
+- 030230 | Preparações para banho, exceto para fins medicinais
+- 030231 | Condicionadores para cabelos
+- 030232 | Preparações para alisar cabelos
+- 030233 | Tissues impregnated with make-up removing preparationsLenços impregnados com preparações para remover maquiagem
+- 030234 | Preparações de colágeno para fins cosméticos
+- 030235 | Tiras para branqueamento dental
+- 030237 | Preparações fitocosméticas
+- 030238 | Preparações de limpeza para fins de higiene íntima pessoal, não medicinais
+- 030239 | Extratos de ervas para fins cosméticos
+- 030240 | Removedores de esmalte de unhas
+- 030240 | Nail polish removers
+- 030241 | Cera para assoalhos
+- 030242 | Xampus para animais [preparações higiênicas não medicinais]
+- 030243 | Produtos para lavar os olhos, não medicinais
+- 030244 | Vaginal washes for personal sanitary or deodorant purposesLavagens vaginais para fins de higiene ou desodorização
+- 030245 | Chemical cleaning preparations for household purposesProdutos químicos de limpeza para uso doméstico
+- 030246 | Aromatizadores de ambiente com varetas [difusores de aroma]
+- 030247 | Bleaching preparations [decolorants] for household purposesProdutos alvejantes [descolorantes] para uso doméstico
+- 030248 | Velas de massagem para fins cosméticos
+- 030249 | Cosméticos para crianças
+- 030250 | Preparações para refrescar o hálito para higiene pessoal
+- 030251 | Baby wipes impregnated with cleaning preparationsLenços umedecidos para bebês, impregnados com preparações para limpeza
+- 030252 | Basma [tintura cosmética]
+- 030253 | Parches em gel para os olhos para fins cosméticos
+- 030254 | Brilho para unhas [glitter]
+- 030255 | Água micelar
+- 030256 | Tinta corporal para uso cosmético
+- 030257 | Látex líquido para tinta corporal para uso cosmético
+- 030258 | Pastas de dentes*
+- 030259 | Cotton wool impregnated with make-up removing preparationsAlgodão impregnado com preparações demaquilantes
+- 030260 | Folhas para máquina de lavar que previnem a descoloração
+- 030260 | Color run prevention laundry sheets
+- 030261 | Folhas antiestáticas para máquina de secar
+- 030261 | Antistatic drier sheets
+- 030262 | Glitter corporal
+- 030262 | Purpurina corporal
+- 030263 | Fitas para pálpebra dupla
+- 030263 | Fitas para realce de côncavo
+- 030264 | Sprays de resfriamento para fins cosméticos
+- 030265 | Disposable steam-heated masks, not for medical purposesMáscaras descartáveis aquecidas a vapor, exceto para fins medicinais
+- 030266 | Pastilhas de limpeza para máquinas de café
+- 030267 | Curativos para reconstrução das unhas
+- 030268 | Cera aromática para derreter [preparações de fragrância]
+- 030269 | Carimbos cosméticos, abastecidos
+- 030271 | Chá para banho para fins cosméticos
+- 030272 | Mascaras de tecido [sheet mask] para fins cosméticos
+- 030273 | Tônicos para fins cosméticos
+- 030275 | Soros para uso cosmético
+- 030276 | Canetas para clareamento dental
+- 030277 | Hidratantes para a pele para fins cosméticos
+- 030278 | Esferas de lavanderia abastecidas com sabão para roupas
+- 030278 | Washing balls filled with laundry detergents
+- 030279 | Detergentes para lavar louça
+- 030279 | Dish soaps
+- 030280 | Detergentes para máquinas de lavar louças
+- 030280 | Detergentes para lava-louças
+- 030281 | Pasta de açúcar para depilação
+- 030282 | Pau-de-águila [incenso]
+- 030283 | Fitas adesivas para fixar cabelos postiços
+- 030284 | Cera para modelagem de sobrancelhas
+- 030285 | Bombas efervescentes de banho [sal de banho]
+- 030285 | Esferas efervescentes de banho [sal de banho]
+- 030287 | Água floral para fins cosméticos
+- 030288 | Essências para fins cosméticos
+- 030289 | Essências para perfumar
+- 030290 | Cera de efeitos especiais para maquiagem

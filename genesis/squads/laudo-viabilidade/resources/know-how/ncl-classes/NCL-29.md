@@ -1,0 +1,292 @@
+# Classe NCL 29
+
+Especificações pré-especificadas (Português):
+
+- 290002 | Extratos de algas para uso alimentar
+- 290003 | Gelatina
+- 290005 | Gorduras comestíveis
+- 290006 | Anchovas, não vivas
+- 290007 | Manteiga de amendoim
+- 290008 | Manteiga
+- 290009 | Manteiga de cacau para uso alimentar
+- 290010 | Manteiga de coco
+- 290012 | Clara de ovos
+- 290013 | Morcela [charcutaria]
+- 290013 | Blood sausage
+- 290014 | Caldo
+- 290014 | Consomê
+- 290015 | Preparações para fazer caldo
+- 290016 | Caviar
+- 290017 | Frutas em conserva
+- 290018 | Charcutaria
+- 290019 | Batatas em lâminas finas fritas
+- 290019 | Batatas fritas portuguesas
+- 290020 | Chucrute
+- 290021 | Coco seco
+- 290022 | Óleo de colza para uso alimentar
+- 290022 | Óleo de nabo silvestre comestível
+- 290023 | Caldos concentrados
+- 290023 | Consomês concentrados
+- 290024 | Compotas
+- 290025 | Frutas congeladas
+- 290026 | Sopas
+- 290027 | Uvas secas [passas]
+- 290028 | Pepinos em conserva
+- 290029 | Legumes e verduras em conserva
+- 290030 | Legumes e verduras cozidos
+- 290031 | Legumes e verduras secos
+- 290032 | Óleos para uso alimentar
+- 290033 | Nata [laticínios]
+- 290034 | Queijos
+- 290035 | Frutas cobertas com açúcar
+- 290035 | Frutas cristalizadas
+- 290036 | Croquetes
+- 290037 | Crustáceos, não vivos
+- 290038 | Tâmaras processadas
+- 290039 | Leite
+- 290040 | Lagostins-do-rio, não vivos
+- 290041 | Filé de peixe
+- 290042 | Coalho
+- 290043 | Frutas cozidas
+- 290044 | Pastas de geleia de fruta
+- 290045 | Polpas de frutas
+- 290046 | Carne
+- 290047 | Pescado, não vivo
+- 290048 | Geleias para uso alimentar, exceto confeitos
+- 290049 | Geleia de carne [aspic]
+- 290050 | Carne de caça
+- 290051 | Compotas de gengibre
+- 290052 | Grãos de soja, em conserva, para uso alimentar
+- 290053 | Fatty substances for the manufacture of edible fatsMatérias gordurosas para fabricação de gorduras comestíveis
+- 290054 | Pastas à base de gordura para fatias de pão
+- 290055 | Arenques, não vivos
+- 290057 | Lagostas, não vivas
+- 290058 | Óleo de milho para uso alimentar
+- 290058 | Corn oil for food
+- 290059 | Óleo de noz de palma para uso alimentar
+- 290060 | Óleo de gergelim para uso alimentar
+- 290061 | Ostras, não vivas
+- 290062 | Ictiocola [cola de peixe] para uso alimentar
+- 290063 | Presunto
+- 290064 | Gema de ovos
+- 290065 | Iogurte
+- 290065 | Yogurt
+- 290066 | Preparações para sopas [frutas, legumes e verduras]
+- 290067 | Caldos de vegetais para cozinha
+- 290068 | Extratos de carne para fins culinários
+- 290070 | Kefir
+- 290070 | Quefir
+- 290071 | Koumys
+- 290071 | Kumys
+- 290072 | Bebidas lácteas em que o leite predomina
+- 290073 | Soro de leite
+- 290074 | Laticínios
+- 290075 | Lagostas espinhosas, não vivas
+- 290076 | Bacon
+- 290077 | Lentilhas em conserva
+- 290078 | Margarina
+- 290079 | Geleias de frutas cítricas
+- 290081 | Tutano animal para uso alimentar
+- 290082 | Mariscos, não vivos
+- 290083 | Mexilhões, não vivos
+- 290084 | Óleo de palmeira para uso alimentar
+- 290085 | Frutos oleaginosos preparados
+- 290086 | Ovos *
+- 290087 | Ovos em pó
+- 290088 | Pastas de fígado
+- 290088 | Patê de fígado
+- 290089 | Cebolas em conserva
+- 290090 | Azeitonas em conserva
+- 290091 | Azeite de oliva para uso alimentar
+- 290092 | Óleo de ossos para alimentação
+- 290093 | Pectina para uso culinário
+- 290095 | Picles
+- 290096 | Ervilhas em conserva
+- 290097 | Salsichas
+- 290098 | Carnes salgadas
+- 290099 | Preparações para fazer sopa
+- 290101 | Purê de tomate
+- 290102 | Saladas de legumes
+- 290103 | Banha de porco
+- 290104 | Saladas de frutas
+- 290106 | Sardinhas, não vivas
+- 290107 | Salmão, não vivo
+- 290108 | Sebo para uso alimentar
+- 290109 | Atum, não vivo
+- 290110 | Suco de tomate para cozinha
+- 290111 | Óleo de girassol para uso alimentar
+- 290112 | Tripas
+- 290113 | Trufas em conserva
+- 290114 | Aves não vivas
+- 290115 | Cascas [raspas] de frutas
+- 290115 | Raspas [cascas] de frutas
+- 290116 | Alginatos para uso culinário
+- 290117 | Amêndoas moídas
+- 290118 | Amendoins preparados
+- 290120 | Cogumelos em conserva
+- 290121 | Gordura de coco
+- 290122 | Oleo de coco para uso alimentar
+- 290123 | Feijões em conserva
+- 290124 | Fígado
+- 290125 | Alimentos à base de peixe
+- 290131 | Pedaços de fruta
+- 290132 | Mariscos, não vivos
+- 290133 | Frutas conservadas em álcool
+- 290134 | Pólen preparado para alimentação
+- 290135 | Lagostins, não vivos
+- 290136 | Peixe em conserva
+- 290137 | Carne em conserva
+- 290138 | Camarões, não vivos
+- 290139 | Ovos de caracol para consumo
+- 290140 | Tofu
+- 290141 | Creme batido
+- 290141 | Creme chantilly
+- 290142 | Carne de porco
+- 290143 | Ninhos de pássaros comestíveis
+- 290144 | Peixe enlatado
+- 290144 | Canned fish
+- 290145 | Farinha de peixe para consumo humano
+- 290146 | Frutas enlatadas
+- 290146 | Canned fruit
+- 290147 | Carne enlatada
+- 290147 | Canned meat
+- 290148 | Bolinhos de batata
+- 290149 | Peixe em salmoura
+- 290150 | Pepinos-do-mar, não vivos
+- 290151 | Crisálidas do bicho-da-seda para consumo humano
+- 290152 | Legumes e verduras enlatados
+- 290152 | Canned vegetables
+- 290153 | Salsichas empanadas
+- 290154 | Batata em flocos
+- 290155 | Purê de maçã
+- 290156 | Compotas de oxicoco
+- 290157 | Taíne
+- 290158 | Homus
+- 290159 | Nori em conserva
+- 290160 | Petiscos a base frutas
+- 290161 | Coalhada
+- 290162 | Kimchi
+- 290163 | Leite de soja
+- 290164 | Milk-shakes [bebidas à base de leite]
+- 290165 | Pimentão em conserva
+- 290166 | Sementes de girassol preparadas
+- 290167 | Mousses de peixe
+- 290168 | Egg nog, não alcoólico
+- 290169 | Mousses de vegetais
+- 290170 | Ovas de peixe preparadas
+- 290171 | Prepared seeds* Sementes preparadas*
+- 290172 | Aloe vera [babosa] para alimentação humana
+- 290173 | Alho em conserva
+- 290174 | Leite albuminoso
+- 290174 | Protein milk
+- 290175 | Óleo de linhaça para uso alimentar
+- 290175 | Flaxseed oil for food
+- 290176 | Batatas em lâminas finas fritas com baixo teor de gordura
+- 290176 | Batatas fritas portuguesas com baixo teor de gordura
+- 290177 | Lecitina para uso culinário
+- 290178 | Fermentos láticos para uso culinário
+- 290179 | Compotas
+- 290180 | Leite condensado
+- 290181 | Smetana
+- 290182 | Leite fermentado e cozido no forno
+- 290183 | Leite coalhado
+- 290184 | Massa de tomate
+- 290185 | Pasta de abobrinha
+- 290186 | Pasta de berinjela
+- 290186 | Eggplant paste
+- 290187 | Leite de amendoim para culinária
+- 290188 | Leite de amêndoas para fins culinários
+- 290189 | Leite de arroz
+- 290190 | Alcachofras em conserva
+- 290191 | Arranjos de frutas processadas
+- 290192 | Leite em pó*
+- 290193 | Yakitori [espeto de frango grelhado]
+- 290194 | Bulgogi
+- 290195 | Frutos oleaginosos caramelizados
+- 290196 | Frutos oleaginosos aromatizados
+- 290196 | Flavored nuts
+- 290197 | Avelãs preparadas
+- 290198 | Frutas silvestres/frutas vermelhas em conserva
+- 290199 | Guacamole
+- 290200 | Anéis de cebola
+- 290201 | Falafel
+- 290202 | Suco de limão para fins culinários
+- 290203 | Carne liofilizada
+- 290203 | Lyophilized meat
+- 290203 | Lyophilised meat
+- 290204 | Leite de aveia
+- 290205 | Creme à base de vegetais
+- 290206 | Vegetais liofilizados
+- 290206 | Lyophilized vegetables
+- 290206 | Lyophilised vegetables
+- 290207 | Azeite de oliva extra virgem para uso alimentar
+- 290209 | Larvas comestíveis de formiga, preparadas
+- 290210 | Insetos comestíveis, não vivos
+- 290211 | Milho doce processado
+- 290212 | Pastas à base de frutos oleaginosos
+- 290213 | Dumplings [bolinho de massa] à base de batata
+- 290214 | Salsichas de cachorro-quente
+- 290215 | Corn dogs [salsicha empanada, servida em um palito]
+- 290216 | Óleo de soja para alimentação
+- 290217 | Substitutos do leite
+- 290218 | Leite de amêndoas
+- 290219 | Leite de amendoim
+- 290220 | Leite de coco
+- 290221 | Leite de coco para fins culinários
+- 290222 | Bebidas à base de leite de coco
+- 290223 | Leite de arroz para fins culinários
+- 290224 | Bebidas à base de leite de amêndoas
+- 290225 | Bebidas à base de leite de amendoim
+- 290226 | Invólucros naturais ou artificiais para fazer salsichas
+- 290227 | Bacalhau salgado e seco
+- 290228 | Bolinhos fritos de queijo cottage
+- 290229 | Pasta de frutas prensadas
+- 290230 | Casca de tofu
+- 290231 | Hambúrguer de soja
+- 290232 | Hambúrguer de tofu
+- 290233 | Tagine  [prato preparado de vegetais, peixe ou carne]
+- 290233 | Tagine [prepared meat, fish or vegetable dish]
+- 290234 | Tempeh
+- 290235 | Satay
+- 290236 | Legumes e verduras processados
+- 290237 | Frutas processadas
+- 290238 | Ratatouille
+- 290239 | Pato confitado
+- 290239 | Confit de pato
+- 290240 | Andouillettes
+- 290241 | Salsichas brancas
+- 290242 | Cassoulet
+- 290243 | Chucrute garnie
+- 290244 | Hash brown [bolinhos de batata picada ou ralada e frita]
+- 290245 | Omeletes
+- 290245 | Omelets
+- 290246 | Charuto de repolho recheado com carne
+- 290247 | Concentrados à base de legumes e verduras, para cozinhar
+- 290248 | Concentrados à base de frutas para cozinhar
+- 290249 | Pastas à base de legumes e verduras
+- 290250 | Ágar-ágar para fins culinários
+- 290251 | Moluscos, não vivos
+- 290251 | Mollusks, not live
+- 290252 | Quark [queijo]
+- 290253 | Queijo cottage
+- 290254 | Bebidas de ácido lático
+- 290255 | Flores comestíveis, secas
+- 290256 | Gengibre cristalizado
+- 290257 | Gengibre em conserva
+- 290258 | Gengibre marinado
+- 290259 | Sopa de frutas vermelhas
+- 290260 | Sobremesa cremosa britânica [fool] à base de frutas vermelhas
+- 290261 | Refeições preparadas à base de legumes ou verduras para crianças pequenas
+- 290262 | Agraço para fins culinários
+- 290263 | Petisco à base de carne
+- 290264 | Petisco à base de peixe
+- 290265 | Petisco à base de legumes e verduras
+- 290266 | Óleo de amêndoas para alimentos
+- 290267 | Substitutos de carne
+- 290268 | Imitação de carne à base de plantas
+- 290269 | Fruta cortada
+- 290270 | Legumes e verduras cortados
+- 290271 | Petisco à base de tofu
+- 290272 | Óleo vegetal para alimentos
+- 290273 | Petiscos à base de algas marinhas
+- 290274 | Algas marinhas preparadas

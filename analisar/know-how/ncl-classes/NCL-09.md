@@ -1,0 +1,950 @@
+# Classe NCL 09
+
+Especificações pré-especificadas (Português):
+
+- 090001 | Bobinas elétricas
+- 090002 | Aceleradores de partícula
+- 090003 | Reflective articles for wear, for the prevention of accidentsArtigos refletores para uso [vestimenta] para prevenção de acidentes
+- 090005 | Clothing for protection against accidents, irradiation and fireRoupas para proteção contra acidentes, irradiação e fogo
+- 090007 | Baterias elétricas para veículos
+- 090007 | Acumuladores elétricos para veículos [baterias]
+- 090008 | Tanques de baterias
+- 090008 | Tanques de acumuladores [baterias]
+- 090009 | Caixas de baterias [acumuladores]
+- 090009 | Caixas de acumuladores [baterias]
+- 090010 | Acidímetros para baterias
+- 090011 | Hidrômetros
+- 090012 | Placas para baterias
+- 090013 | Alarmes de apito
+- 090014 | Alarmes acústicos
+- 090014 | Alarmes sonoros
+- 090015 | Dutos acústicos
+- 090016 | Discos fonográficos
+- 090016 | Sound recording discs
+- 090017 | Tubos acústicos
+- 090018 | Actinômetros
+- 090019 | Máquinas de somar
+- 090020 | Aerômetros
+- 090021 | Aparelhos para ampliação [fotografia]
+- 090022 | Electro-dynamic apparatus for the remote control of railway pointsAparelhos eletrodinâmicos para controle remoto de agulhas ferroviárias
+- 090023 | Magnets* Ímãs*
+- 090024 | Bobinas eletromagnéticas
+- 090025 | Aparelhos para análise do ar
+- 090026 | Alarmes *
+- 090027 | Alcoolômetros
+- 090028 | Alidades
+- 090029 | Aparelhos para análise de alimentos
+- 090030 | Igniting apparatus, electric, for igniting at a distanceAparelhos elétricos para ignição à distância
+- 090030 | Electric apparatus for remote ignition
+- 090031 | Baterias de ignição
+- 090033 | Altímetros
+- 090034 | Luvas de amianto para proteção contra acidentes
+- 090035 | Roupas de amianto para proteção contra fogo
+- 090036 | Amperímetros
+- 090037 | Amplificadores
+- 090038 | Tubos amplificadores [válvulas]
+- 090038 | Válvulas amplificadoras
+- 090039 | Anemômetros
+- 090040 | Anéis para calibrar
+- 090041 | Extintores de incêndio
+- 090043 | Anodos
+- 090044 | Baterias de anodo
+- 090044 | Baterias de alta tensão
+- 090045 | Antenas
+- 090045 | Antennas
+- 090047 | Viseiras para capacetes
+- 090048 | Dispositivos anti-interferência [eletricidade]
+- 090049 | Transformadores [eletricidade]
+- 090050 | Apertômetros [óptica]
+- 090053 | Máquinas para contar e separar dinheiro
+- 090054 | Caixas de distribuição [eletricidade]
+- 090055 | Instrumentos geodésicos
+- 090056 | Cadeias de agrimensura
+- 090059 | Lentes para astrofotografia
+- 090060 | Válvulas termiônicas
+- 090060 | Thermionic tubes
+- 090061 | Aparelhos para ensino audiovisual
+- 090062 | Juke-boxes [música]
+- 090062 | Coin-operated musical automata [juke boxes]
+- 090063 | Mecanismos para aparelhos acionados por moedas
+- 090064 | Mecanismos para aparelhos acionados por fichas
+- 090066 | Calibradores [calibres]
+- 090067 | Comparadores
+- 090068 | Alarmes de incêndio
+- 090069 | Automatic indicators of low pressure in vehicle tyresIndicadores automáticos de baixa pressão nos pneus
+- 090069 | Automatic indicators of low pressure in vehicle tires
+- 090070 | Trajes para proteção de aviadores
+- 090071 | Campainhas elétricas
+- 090071 | Cigarras [campainhas elétricas]
+- 090072 | Varinhas de adivinho para encontrar água
+- 090074 | Balanças
+- 090075 | Balões meteorológicos
+- 090076 | Aparelhos desmagnetizadores para fitas magnéticas
+- 090077 | Gravadores de fita
+- 090078 | Fitas magnéticas
+- 090079 | Barômetros
+- 090080 | Máquinas para pesar
+- 090081 | Básculas [balança para grandes pesos]
+- 090082 | Batedores para incêndio
+- 090083 | Carregadores para acumuladores elétricos
+- 090085 | Betatrons
+- 090086 | Dispensadores de bilhetes, eletrônicos
+- 090087 | Caixas para alto-falantes
+- 090088 | Lentes close-up
+- 090089 | Bornes
+- 090090 | Bujões indicadores de pressão para válvulas
+- 090092 | Galvanômetros
+- 090093 | Botões de campainha
+- 090094 | Caixas de distribuição [eletricidade]
+- 090095 | Braços reprodutores para toca-discos
+- 090096 | Níveis de bolhas de ar
+- 090097 | Máquinas de cartões perfurados para escritórios
+- 090098 | Revestimentos para cabos elétricos
+- 090099 | Molduras para diapositivos [slides] [cromos]
+- 090101 | Réguas de cálculo circulares
+- 090102 | Réguas de cálculo
+- 090103 | Máquinas de calcular
+- 090104 | Paquímetros
+- 090105 | Gabaritos [instrumentos de medição]
+- 090106 | Aparelhos heliográficos
+- 090107 | Câmeras cinematográficas
+- 090109 | Tubos capilares para uso laboratorial
+- 090111 | Suportes para gravação de som
+- 090112 | Capacetes para proteção
+- 090113 | Máscaras respiratórias, exceto para fins médicos
+- 090114 | Máscaras para proteção de soldador
+- 090116 | Aparelhos para controle de calor
+- 090117 | Câmaras escuras [fotografia]
+- 090120 | Instrumentos para controle de caldeira
+- 090122 | Secadoras [fotografia]
+- 090124 | Aparelhos para montagem de filme cinematográfico
+- 090125 | Circuitos impressos
+- 090126 | Luzes piscantes [sinais luminosos]
+- 090127 | Sinos de sinalização
+- 090128 | Estojos para lâminas de microscópio
+- 090129 | Coletores elétricos
+- 090130 | Electric installations for the remote control of industrial operationsInstalações elétricas para controle remoto de operações industriais
+- 090131 | Caixa de fusíveis [eletricidade]
+- 090132 | Comutadores
+- 090133 | Bússolas marítimas
+- 090134 | Oculares [instrumentos ópticos]
+- 090136 | Conta-fios
+- 090137 | Podômetros [pedômetro; conta-passos]
+- 090138 | Contadores [medidores]
+- 090138 | Medidores [contadores]
+- 090139 | Metrônomos
+- 090140 | Condensadores elétricos [capacitores]
+- 090140 | Capacitores [condensadores elétricos]
+- 090141 | Condutores elétricos
+- 090142 | Condutos de eletricidade [eletrodutos]
+- 090142 | Eletrodutos [condutos de eletricidade]
+- 090143 | Conjuntores
+- 090144 | Conectores [eletricidade]
+- 090145 | Caixas de junção [eletricidade]
+- 090146 | Painéis de distribuição
+- 090148 | Contatos elétricos
+- 090149 | Aparelhos para controle de porte postal
+- 090149 | Aparelhos para controle de selo postal
+- 090150 | Aparelhos reguladores, elétricos
+- 090151 | Monitoring apparatus, other than for medical purposesAparelhos para monitoramento, exceto para fins medicinais
+- 090152 | Aparelhos para controle de velocidade para veículos
+- 090153 | Conversores elétricos
+- 090154 | Fotocopiadoras [fotográficas, eletrostáticas, térmicas]
+- 090157 | Retortas
+- 090158 | Suportes para retortas
+- 090160 | Objetivas [lentes] [óptica]
+- 090161 | Instrumentos para cosmografia
+- 090162 | Diving suits* Roupas de mergulho*
+- 090163 | Dispositivos elétricos para comutação
+- 090164 | Interruptores elétricos
+- 090165 | Limitadores [eletricidade]
+- 090166 | Plugues elétricos [conector macho]
+- 090167 | Retificadores de corrente [eletricidade]
+- 090168 | Chaves combinadoras para baterias [redutores]
+- 090168 | Redutores [eletricidade]
+- 090169 | Fitas métricas [apetrechos de costura]
+- 090170 | Cadinhos [laboratórios]
+- 090170 | Crisol [laboratórios]
+- 090171 | Aparelhos para medir a espessura do couro
+- 090172 | Ciclotrons
+- 090173 | Detectores de moedas falsas [contrafação]
+- 090174 | Disparadores de obturador [fotografia]
+- 090175 | Densímetros
+- 090176 | Desenhos animados
+- 090177 | Bandejas de laboratório
+- 090178 | Detectores de metal para uso industrial ou militar
+- 090179 | Sonares
+- 090180 | Detectores
+- 090181 | Obturadores [fotografia]
+- 090182 | Diafragmas [acústica]
+- 090183 | Centering apparatus for photographic transparenciesDispositivos para enquadramento de diapositivos [slide] [cromo]
+- 090184 | Câmeras [fotografia]
+- 090185 | Diapositivos [slides] [cromos]
+- 090185 | Slides [diapositivos] [cromos]
+- 090186 | Projetores de slides [diapositivos] [cromos]
+- 090186 | Projetores de diapositivos [slides] [cromos]
+- 090187 | Aparelhos para medir distância
+- 090188 | Máquinas de ditar
+- 090189 | Aparelhos para difração [microscopia]
+- 090190 | Alto-falantes
+- 090191 | Disjuntores
+- 090192 | Toca-discos
+- 090193 | Microscópios
+- 090194 | Aparelhos para registro de distância
+- 090194 | Apparatus for recording distance
+- 090195 | Distanciômetros [telêmetro]
+- 090195 | Telêmetros [distanciômetro]
+- 090197 | Quadros de distribuição [eletricidade]
+- 090198 | Consoles de distribuição [eletricidade]
+- 090200 | Compassos para medição
+- 090201 | Medidores
+- 090202 | Aparelhos para medição
+- 090203 | Dinamômetros
+- 090204 | Indicadores de nível de água
+- 090205 | Saídas de incêndio
+- 090206 | Lâmpadas de flash [fotografia]
+- 090207 | Receptores de telefone
+- 090208 | Telas fluorescentes
+- 090209 | Telas de projeção
+- 090210 | Máscaras protetoras para operários
+- 090211 | Telas [fotografia]
+- 090212 | Escorredores para uso em fotografia
+- 090212 | Photographic racks
+- 090213 | Indicadores de perda elétrica
+- 090214 | Aparelhos elétricos medidores
+- 090215 | Cabos elétricos
+- 090216 | Dutos [eletricidade]
+- 090217 | Painéis de comando [eletricidade]
+- 090218 | Células galvânicas
+- 090218 | Elementos galvânicos
+- 090219 | Conexões para linhas elétricas
+- 090220 | Conexões elétricas
+- 090220 | Connections, electric
+- 090222 | Relés elétricos
+- 090227 | Transmissores de sinais eletrônicos
+- 090228 | Aparelhos de transmissão [telecomunicação]
+- 090230 | Instrumentos para limpeza de discos fonográficos
+- 090230 | Cleaning apparatus for sound recording discs
+- 090231 | Fitas para gravação de som
+- 090232 | Aparelhos para registrar a milhagem de veículos
+- 090232 | Aparelhos para registrar a quilometragem de veículos [hodômetro]
+- 090233 | Carretéis [fotografia]
+- 090234 | Sinais mecânicos
+- 090235 | Epidiascópios
+- 090236 | Tubos de ensaio
+- 090237 | Aparelhos para balanceamento
+- 090238 | Termostatos
+- 090239 | Ergômetros
+- 090240 | Instrumentos e máquinas para teste de material
+- 090241 | Aparelhos para examinar ovos
+- 090242 | Aferidores [aferímetro]
+- 090243 | Medidores de gasolina
+- 090243 | Petrol gauges
+- 090245 | Para-chispas [veda fagulhas]
+- 090246 | Cases especially made for photographic apparatus and instrumentsEstojos especialmente feitos para aparelhos e instrumentos de fotografia
+- 090249 | Aparelhos para teste exceto para uso medicinal
+- 090250 | Refratômetros
+- 090251 | Exposímetros [posímetros]
+- 090251 | Medidores de exposição [medidores de luz]
+- 090253 | Aparelhos de fermentação para uso laboratorial
+- 090254 | Aparelhos para segurança de tráfego ferroviário
+- 090255 | Fios elétricos
+- 090256 | Fios magnéticos
+- 090257 | Pesos de prumo
+- 090258 | Fios de prumo
+- 090259 | Redes de proteção contra acidentes
+- 090260 | Redes de segurança
+- 090260 | Redes salva-vidas
+- 090261 | Lonas de segurança
+- 090262 | Aparelhos para cortar filme
+- 090263 | Filters for respiratory masks, not for medical purposesFiltros para máscaras respiratórias, exceto para fins médicos
+- 090264 | Filtros para fotografia
+- 090266 | Carregadores de pilhas e baterias
+- 090267 | Aparelhos de alta freqüência
+- 090268 | Frequencímetros
+- 090269 | Fusíveis
+- 090270 | Rádios
+- 090271 | Detectores de galena
+- 090272 | Pilhas galvânicas
+- 090274 | Luvas para proteção contra acidentes
+- 090275 | Luvas para mergulhadores
+- 090276 | Gloves for protection against x-rays for industrial purposesLuvas para proteção contra raios x, para uso industrial
+- 090278 | Aparelhos para análise de gás
+- 090279 | Gasômetros [instrumentos de medição]
+- 090280 | Aparelhos e instrumentos geodésicos
+- 090281 | Balizas [instrumentos de topografia]
+- 090281 | Réguas de mira para nivelamento [instrumentos de topografia]
+- 090282 | Secadores de cópias fotográficas
+- 090283 | Aparelhos para dar brilho às fotografias
+- 090284 | Réguas [instrumentos de medida]
+- 090285 | Vidros graduados
+- 090285 | Graduated glassware
+- 090286 | Retículas para fotogravura [trama]
+- 090287 | Grades para baterias
+- 090288 | Roupas para proteção contra fogo
+- 090288 | Garments for protection against fire
+- 090289 | Receptores de áudio e de vídeo
+- 090290 | Aparelhos de heliografia
+- 090291 | Hologramas
+- 090292 | Higrômetros
+- 090293 | Fios para identificação para fios elétricos
+- 090294 | Identificadores para fios elétricos
+- 090295 | Dispositivos e equipamentos para salvamento
+- 090296 | Bicos para mangueiras de incêndio
+- 090298 | Bombas de incêndio
+- 090299 | Goniômetros verticais
+- 090299 | Inclinômetros
+- 090299 | Indicadores de gradiente
+- 090299 | Clinômetros
+- 090300 | Taxímetros
+- 090301 | Indicadores de quantidade
+- 090302 | Vacuômetros
+- 090303 | Indicadores de velocidade
+- 090304 | Indutores [eletricidade]
+- 090305 | Rotores [eletricidade]
+- 090306 | Dispositivos para processamento de dados
+- 090307 | Espelhos para inspeção de trabalhos
+- 090308 | Aparelhos para intercomunicação
+- 090309 | Suportes para chapas escuras [fotogafia]
+- 090310 | Inversores [eletricidade]
+- 090311 | Ionization apparatus not for the treatment of air or waterAparelhos de ionização, exceto para tratamento de ar e água
+- 090312 | Olhos mágicos para portas
+- 090313 | Marcadores de bainha para costura
+- 090315 | Mobília especialmente feita para laboratórios
+- 090316 | Lactodensímetros
+- 090317 | Lactômetros [galactômetros]
+- 090318 | Lâmpadas para quarto escuro [fotografia]
+- 090319 | Lanternas ópticas
+- 090319 | Lâmpadas ópticas
+- 090321 | Lanternas mágicas
+- 090322 | Lanternas de sinalização
+- 090323 | Laser, exceto para uso médico
+- 090324 | Lentes ópticas
+- 090325 | Balanças para pesar cartas
+- 090326 | Barquilhas [instrumentos de medição]
+- 090327 | Linhas de sondas
+- 090328 | Lentes de aumento
+- 090329 | Sinais luminosos
+- 090330 | Luminosos de néon
+- 090333 | Níveis [instrumentos de topografia]
+- 090336 | Medidores de pressão, exceto para uso médico
+- 090337 | Periscópios
+- 090338 | Máscaras para proteção, exceto para fins medicinais
+- 090339 | Instrumentos matemáticos
+- 090340 | Mecanismos para aparelhos de televisão acionados por moedas
+- 090341 | Megafones
+- 090342 | Memórias para computador
+- 090343 | Réguas de carpinteiro [corrediça]
+- 090344 | Níveis de mercúrio
+- 090345 | Instrumentos para medição de velocidade [fotografia]
+- 090346 | Aparelhos medidores de precisão
+- 090347 | Instrumentos para medição
+- 090348 | Instrumentos meteorológicos
+- 090349 | Metros [instrumentos de medição]
+- 090350 | Parafusos micrométricos para instrumentos ópticos
+- 090351 | Microfones
+- 090352 | Micrótomos
+- 090353 | Interruptores cronométricos automáticos
+- 090354 | Espelhos ópticos
+- 090355 | Dispositivos respiratórios para nado subaquático
+- 090356 | Aparelhos e instrumentos náuticos
+- 090357 | Aparelhos de sinalização navais
+- 090358 | Instrumentos para navegação
+- 090360 | Pilhas elétricas
+- 090361 | Acumuladores elétricos
+- 090362 | Nível [instrumento para determinar a horizontalidade de um plano]
+- 090363 | Instrumentos para nivelamento
+- 090365 | Prismas [óptica]
+- 090366 | Instrumentos para observação
+- 090367 | Oitantes
+- 090368 | Ohmímetros
+- 090369 | Ondômetros
+- 090370 | Instrumentos e aparelhos ópticos
+- 090371 | Vidro óptico
+- 090372 | Computadores
+- 090373 | Programas de computador, gravados
+- 090374 | Oscilógrafos
+- 090377 | Aparelhos para transvasar oxigênio
+- 090379 | Micrômetros
+- 090379 | Micrometer gauges
+- 090380 | Painéis de sinalização, luminosos ou mecânicos
+- 090381 | Condutores de raios
+- 090381 | Para-raios
+- 090383 | Parquímetros
+- 090384 | Aparelhos e instrumentos para astronomia
+- 090386 | Aparelhos para medir a espessura da pele
+- 090387 | Acidímetros [instrumentos para medir grau de acidez]
+- 090388 | Aparelhos e instrumentos para pesagem
+- 090389 | Salinômetros
+- 090390 | Bandejas de lavar [fotografia]
+- 090391 | Apoios para aparelhos fotográficos
+- 090392 | Visores fotográficos
+- 090393 | Fotômetros
+- 090394 | Aparelhos para fototelegrafia
+- 090395 | Aparelhos e instrumentos para física
+- 090396 | Dispositivos para direção automática de veículos
+- 090398 | Pipetas de laboratório
+- 090399 | Pranchetas [instrumentos de agrimensura]
+- 090400 | Planímetros
+- 090401 | Tampões de ouvido para mergulhadores
+- 090402 | Campainhas [dispositivos de alarme]
+- 090403 | Weights* Pesos*
+- 090404 | Polarímetros
+- 090407 | Aparelhos para radiotelefonia
+- 090408 | Aparelhos para radiotelegrafia
+- 090409 | Medidores de pressão
+- 090410 | Indicadores de pressão
+- 090411 | Aparelhos para projeção
+- 090412 | Dispositivos catódicos anticorrosão
+- 090414 | Protetores bucais*
+- 090415 | Pirômetros
+- 090416 | Aparelhos de radar
+- 090417 | Rádios para veículos
+- 090418 | Aparelhos para radiologia para uso industrial
+- 090419 | Transferidores [instrumentos de medida]
+- 090420 | Apparatus and installations for the production of x-rays, not for medical purposesAparelhos e instalações geradores de raios x, exceto para uso médico
+- 090421 | Tubos de raios x exceto para uso médico
+- 090422 | Protection devices against x-rays, not for medical purposesDispositivos para proteção contra raios x, exceto para uso médico
+- 090423 | Aparelhos de telefone
+- 090424 | Refratores
+- 090425 | Aparelhos roentgen, exceto para uso médico
+- 090426 | Espectroscópios
+- 090427 | Resistências elétricas
+- 090429 | Termômetros, exceto para uso médico
+- 090430 | Respirators for filtering air, not for medical purposesRespiradores para filtragem de ar, exceto para fins médicos
+- 090431 | Aparelhos respiratórios, exceto para fins médicos
+- 090432 | Reostatos
+- 090433 | Balanças romanas
+- 090433 | Steelyards [lever scales]
+- 090433 | Lever scales [steelyards]
+- 090434 | Sinais, luminosos ou mecânicos
+- 090435 | Sacarímetros
+- 090436 | Sondas para uso científico
+- 090437 | Satélites para uso científico
+- 090439 | Membranas para aparelhos científicos
+- 090440 | Aparelhos para ensino
+- 090441 | Bobinas de reatância [impedância]
+- 090441 | Bobinas de autoindução [impedância]
+- 090442 | Conectores de fios [eletricidade]
+- 090443 | Fechaduras elétricas
+- 090444 | Sextantes
+- 090445 | Apitos de sinalização
+- 090446 | Triângulos de sinalização para veículos avariados
+- 090447 | Electro-dynamic apparatus for the remote control of signalsAparelhos eletrodinâmicos para o controle remoto de sinais
+- 090448 | Simuladores para direção e controle de veículos
+- 090449 | Sirenes
+- 090450 | Aparelhos para transmissão de som
+- 090451 | Aparelhos para gravação de som
+- 090452 | Aparelhos para reprodução de som
+- 090453 | Aparelhos e máquinas para sondagem
+- 090454 | Chumbos de sondagem
+- 090455 | Sonômetros
+- 090457 | Espectrógrafos
+- 090458 | Esferômetros
+- 090460 | Estereoscópios
+- 090461 | Aparelhos estereoscópicos
+- 090462 | Agulhas para toca-discos
+- 090462 | Styli for record players
+- 090463 | Sulfitômetros
+- 090464 | Tele-impressoras [telex]
+- 090464 | Máquinas de telex
+- 090465 | Tacômetros
+- 090466 | Padrões de abertura de roscas [aferidores]
+- 090467 | Telégrafos [aparelhos]
+- 090468 | Aparelhos de televisão
+- 090469 | Fios telegráficos
+- 090470 | Controles remotos
+- 090471 | Mastros para antenas sem fio
+- 090472 | Teleprompters
+- 090473 | Transmissores telefônicos
+- 090474 | Teleruptores
+- 090475 | Binóculos
+- 090476 | Telescópios
+- 090477 | Indicadores de temperatura
+- 090478 | Aparelho para registro de tempo
+- 090479 | Teodolitos
+- 090481 | Termostatos para veículos
+- 090484 | Totalizadores
+- 090485 | Conta-giros [taquímetros]
+- 090486 | Reguladores de velocidade para toca-discos
+- 090488 | Transmissores [telecomunicação]
+- 090489 | Balanças de precisão
+- 090490 | Graminhos [marcenaria]
+- 090491 | Tubos de vácuo [rádio]
+- 090492 | Urinômetros
+- 090493 | Variômetros
+- 090494 | Verniês [nônio]
+- 090495 | Fitas de vídeo
+- 090496 | Viscosímetros
+- 090497 | Instalações elétricas antirroubo
+- 090498 | Regulador de tensão, para veículos
+- 090499 | Máquinas para votar
+- 090500 | Voltímetros
+- 090503 | Aparelhos para trocar agulhas de toca-discos
+- 090504 | Destiladores para experiências em laboratório
+- 090505 | Fios de fusível
+- 090507 | Anticátodos
+- 090508 | Apitos para cães
+- 090509 | Miras telescópicas para armas de fogo
+- 090509 | Telescopic sights for firearms
+- 090511 | Dispositivos de alarme antirroubo
+- 090512 | Instrumentos azimutais
+- 090513 | Balizas luminosas
+- 090514 | Suportes para bobinas elétricas
+- 090515 | Filmes, expostos
+- 090516 | Placas sinalizadoras para estrada, luminosas ou mecânicas
+- 090517 | Boias salva-vidas
+- 090518 | Boias de sinalização
+- 090522 | Campainhas [cigarras]
+- 090523 | Bússolas
+- 090524 | Sinalizadores de neblina, não explosivos
+- 090525 | Caixas registradoras
+- 090526 | Telas radiológicas para uso industrial
+- 090529 | Cartões magnéticos para identificação
+- 090531 | Células fotovoltaicas
+- 090532 | Densitômetros, exceto para fins medicinais
+- 090533 | Discos magnéticos
+- 090534 | Discos flexíveis [disquetes]
+- 090535 | Fitas para limpar cabeçotes de gravação
+- 090536 | Aparelhos de videocassetes
+- 090537 | Teclados de computador
+- 090538 | Circuitos integrados
+- 090539 | Semicondutores
+- 090540 | Chips [circuitos integrados]
+- 090543 | Catodos
+- 090546 | Coletes salva-vidas
+- 090547 | Cintos de salvamento
+- 090549 | Aparelhos e instrumentos de química
+- 090550 | Filmes cinematográficos, expostos
+- 090553 | Material para condutos elétricos [fios, cabos]
+- 090556 | Incubadoras para cultura bacteriológica
+- 090557 | Baterias solares
+- 090558 | Fios de cobre isolados
+- 090559 | Tubos para descargas elétricas, exceto para iluminação
+- 090559 | Ampolas para descargas elétricas, exceto para iluminação
+- 090562 | Diafragmas [fotografia]
+- 090564 | Aparelhos para destilação para uso científico
+- 090565 | Dosímetros
+- 090566 | Campainhas elétricas de porta
+- 090568 | Fornalhas para laboratórios
+- 090568 | Fornos para laboratórios
+- 090571 | Fibras ópticas [filamentos condutores de luz]
+- 090571 | Optical fibers [light conducting filaments]
+- 090572 | Fios telefônicos
+- 090573 | Filmes para raios x expostos
+- 090573 | Filmes roentgen expostos
+- 090574 | Filtros para raios ultravioletas [fotografia]
+- 090575 | Pavilhões para alto-falantes
+- 090577 | Tripés para câmeras
+- 090581 | Leitores de código de barras
+- 090582 | Coletes à prova de bala
+- 090582 | Bullet-proof vests
+- 090583 | Boias de marcação
+- 090584 | Plaquetas para circuitos integrados
+- 090585 | Aparelhos de cromatografia para laboratório
+- 090586 | Cronógrafos [instrumento para medição de tempo]
+- 090587 | Discos compactos [cd] [áudio e vídeo]
+- 090588 | Discos compactos de memória somente de leitura [cd-rom]
+- 090589 | Programas operacionais para computador, gravados
+- 090590 | Periféricos de computador
+- 090591 | Softwares de computador, gravados
+- 090592 | Condensadores ópticos
+- 090593 | Acopladores acústicos
+- 090594 | Acopladores [processamento de dados]
+- 090595 | Câmaras de descompressão
+- 090596 | Plotters [traçador gráfico]
+- 090597 | Máscaras para mergulho
+- 090598 | Canetas eletrônicas para unidades de visualização
+- 090599 | Cartões magnéticos codificados
+- 090600 | Aparelhos de fac-símile [fax]
+- 090603 | Interfaces para computadores
+- 090604 | Juke-boxes para computadores
+- 090605 | Joelheiras para operários
+- 090606 | Dimmers [interruptor de graduação de intensidade luminosa]
+- 090606 | Reguladores de intensidade luminosa [dimmer]
+- 090606 | Interruptores de graduação de intensidade luminosa [dimmer]
+- 090607 | Suportes magnéticos para dados
+- 090608 | Codificadores magnéticos
+- 090609 | Unidades de fita magnética para computadores
+- 090610 | Microprocessadores
+- 090611 | Modems
+- 090612 | Monitores [periféricos de computador]
+- 090613 | Monitores [programas de computador]
+- 090614 | Mouses de computador
+- 090615 | Leitores ópticos de caractere
+- 090616 | Suportes ópticos para dados
+- 090617 | Discos ópticos
+- 090618 | Impressoras para uso com computadores*
+- 090619 | Processadores [unidades centrais de processamento] [informática]
+- 090619 | Unidades centrais de processamento [processadores] [informática]
+- 090620 | Leitores [equipamentos de processamentos de dados]
+- 090621 | Safety restraints, other than for vehicle seats and sports equipmentCintos de segurança, exceto para veículos ou equipamentos desportivos
+- 090622 | Escâneres [scanner] para processamento de dados
+- 090623 | Detectores de fumaça
+- 090624 | Transistores [eletrônicos]
+- 090625 | X-ray photographs, other than for medical purposesRadiografias, exceto para uso médico
+- 090626 | Mangas de junção para cabos elétricos
+- 090627 | Ábacos
+- 090628 | Agendas eletrônicas
+- 090629 | Aparelhos de secretária eletrônica
+- 090630 | Câmeras de vídeo
+- 090631 | Toca-fitas
+- 090632 | Toca-cd [discos compactos]
+- 090633 | Aparelhos de diagnóstico, exceto para uso médico
+- 090634 | Drives de disquetes para computadores
+- 090635 | Trilhos elétricos para montagem de holofotes
+- 090636 | Tradutores eletrônicos de bolso
+- 090637 | Etiquetas eletrônicas para mercadorias
+- 090638 | Cobertores para incêndio
+- 090639 | Flash [fotografia]
+- 090640 | Cartões com circuito integrado [cartões inteligentes]
+- 090640 | Cartões inteligentes [cartões com circuito integrado]
+- 090641 | Colheres de dosagem
+- 090642 | Notebook [computadores]
+- 090643 | Quadros eletrônicos para avisos
+- 090644 | Calculadoras de bolso
+- 090645 | Shoes for protection against accidents, irradiation and fireCalçados para proteção contra acidentes, irradiação e fogo
+- 090646 | Sprinklers [jatos aspersores] para incêndio
+- 090647 | Cabos de ignição para motores
+- 090649 | Relógios de ponto
+- 090650 | Videocassetes [fitas]
+- 090651 | Cartuchos para videogames
+- 090652 | Monitores de vídeo
+- 090653 | Videofones
+- 090654 | Óculos para esportes
+- 090655 | Prendedores de nariz para mergulho
+- 090656 | Capacetes de segurança para esportes
+- 090657 | Publicações eletrônicas, baixáveis
+- 090658 | Programas de computador baixáveis
+- 090659 | Dispositivos de navegação para veículos [computador de bordo]
+- 090660 | Ímãs decorativos
+- 090661 | Telefones sem fio
+- 090662 | Mouse pads [informática]
+- 090663 | Rádios toca-fitas portáteis
+- 090664 | Apoios para os pulsos [informática]
+- 090665 | Cabos coaxiais
+- 090666 | Cabos de fibra óptica
+- 090666 | Fiber optic cables
+- 090667 | Protetores de tomada
+- 090668 | Medidores de profundidade oceânica
+- 090669 | Cercas elétricas
+- 090670 | Programas de jogos de computador, gravados
+- 090671 | Fones de ouvido
+- 090672 | Lâmpadas de lastro
+- 090673 | Pager
+- 090674 | Aparelhos de navegação por satélite
+- 090675 | Válvulas de solenóide [interruptor eletromagnético]
+- 090676 | Aparelhos de proteção contra variação de tensão
+- 090677 | Walkie-talkies
+- 090678 | Birutas [aparelhos que indicam a direção dos ventos]
+- 090679 | Indicadores eletrônicos emissores de luz
+- 090680 | Manequins de ressuscitação [material de ensino]
+- 090682 | Aparelhos para controle de iluminação de palco
+- 090683 | Ampulhetas
+- 090683 | Hourglasses
+- 090684 | Chips de dna [chips biológicos]
+- 090685 | Tocadores de dvd
+- 090686 | Caixas eletrônicos
+- 090687 | Semáforos [dispositivos de sinalização]
+- 090688 | Kits hands-free para telefones
+- 090689 | Anteparos de amianto para bombeiros
+- 090690 | Capacetes de equitação
+- 090691 | Vestuário especial para uso em laboratórios
+- 090692 | Braceletes de identificação codificada, magnéticos
+- 090693 | Transponder
+- 090694 | Toques baixáveis para telefones celulares
+- 090694 | Downloadable ring tones for cell phones
+- 090695 | Arquivos de música baixáveis
+- 090696 | Arquivos de imagem baixáveis
+- 090697 | Bonecos para teste de colisão
+- 090698 | Centrífugas de laboratório
+- 090699 | Placas de circuito impresso
+- 090700 | Pen drives
+- 090701 | Aparelhos de gps [sistema de posicionamento global]
+- 090702 | Tocadores portáteis de mídia
+- 090703 | Alças para telefones celulares
+- 090703 | Straps for cell phones
+- 090704 | Diodos emissores de luz [led]
+- 090705 | Tríodos
+- 090706 | Transformadores elevadores
+- 090707 | Laptops
+- 090708 | Mangueiras de incêndio
+- 090709 | Bolsas adaptadas para laptops
+- 090710 | Capas para laptops
+- 090711 | Porta-retratos digitais
+- 090712 | Placa de petri
+- 090713 | Tubos de pitot
+- 090714 | Estroboscópios
+- 090715 | Cones de sinalização de trânsito
+- 090716 | Temperature indicator labels, not for medical purposesEtiquetas indicadoras de temperatura, exceto para uso médico
+- 090717 | Aplicativos, baixáveis
+- 090718 | Leitores de livros digitais [e-readers]
+- 090719 | Smartphones
+- 090720 | Toner cartridges, unfilled, for printers and photocopiersCartuchos vazios para impressoras e fotocopiadoras
+- 090721 | Babá eletrônica
+- 090722 | Babá eletrônica com vídeo
+- 090723 | Para-sol [parte de câmera fotográfica]
+- 090724 | Tablets
+- 090725 | Cartões [chaves de acesso] codificados
+- 090726 | Óculos 3d
+- 090727 | Cartões de memória para videogames
+- 090728 | Vestuário à prova de balas
+- 090729 | Acelerômetro
+- 090730 | Adaptadores elétricos
+- 090731 | Cápsulas salva-vidas para desastres naturais
+- 090732 | Hardware de computador
+- 090733 | Painéis solares para produção de eletricidade
+- 090734 | Telefones celulares
+- 090734 | Cellular phones
+- 090734 | Cell phones
+- 090735 | Miras telescópicas para artilharia
+- 090736 | Painéis digitais
+- 090737 | Monitores vestíveis de atividade física
+- 090738 | Carregadores para cigarros eletrônicos
+- 090739 | Pulseiras conectadas [instrumentos de medição]
+- 090740 | Capas para smartphones
+- 090741 | Estojos para smartphones
+- 090742 | Bastões de selfie [suportes manuais]
+- 090743 | Calorímetros
+- 090744 | Medidores de vazão
+- 090744 | Fluxímetros
+- 090745 | Coletes salva-vidas refletivos
+- 090746 | Coleira eletrônica para adestrar animais
+- 090747 | Joysticks for use with computers, other than for video gamesControles para uso com computadores, exceto para videogames
+- 090748 | Óculos inteligentes
+- 090749 | Relógios inteligentes
+- 090750 | Aparelhos para extinguir fogo
+- 090751 | Filmes protetores adaptados para telas de computador
+- 090752 | Protetores bucais para esportes
+- 090753 | Protetores de cabeça para esportes
+- 090754 | Ponteiros para bússolas
+- 090755 | Hardware de token de segurança para autenticação de usuários
+- 090756 | Detectores infravermelhos
+- 090757 | Capas para assistentes pessoais digitais [pdas]
+- 090758 | Balanças para bebês
+- 090759 | Electronic access control systems for interlocking doorsControle eletrônico de acesso para portas interligadas
+- 090760 | Câmeras termográficas
+- 090761 | Balanças com avaliadores de massa corporal
+- 090761 | Scales with body mass analyzers
+- 090762 | Capas para tablets
+- 090763 | Caixas-pretas [gravadores de dados]
+- 090764 | Estações meteorológicas digitais
+- 090765 | Estações de carga para veículos elétricos
+- 090766 | Terminais interativos com tela de toque
+- 090767 | Anéis inteligentes
+- 090768 | Electric and electronic effects units for musical instrumentsUnidades de efeitos elétricos e eletrônicos para instrumentos musicais
+- 090769 | Interfaces de áudio
+- 090770 | Equalizadores [aparelhos de áudio]
+- 090770 | Equalisers [audio apparatus]
+- 090771 | Subwoofers
+- 090772 | Balanças de banheiro
+- 090773 | Termohigrômetros
+- 090774 | Biochips
+- 090775 | Películas protetoras adaptadas para smartphones
+- 090776 | Headsets de realidade virtual
+- 090777 | Quadros brancos interativos, eletrônicos
+- 090778 | Humanoid robots with artificial intelligence for use in scientific researchRobôs humanoides com inteligência artificial para uso em pesquisa científica
+- 090779 | Mixers de áudio
+- 090780 | Pilhas para cigarros eletrônicos
+- 090781 | Electronic key fobs being remote control apparatusChaveiros eletrônicos [aparelhos de controle remoto]
+- 090782 | Partitura eletrônica, baixável
+- 090783 | Réguas t para medir
+- 090784 | Esquadros para medir
+- 090785 | Réguas esquadros para medir
+- 090786 | Telas/painéis [displays] digitais eletrônicos
+- 090787 | Robôs de laboratório
+- 090788 | Robôs didáticos
+- 090788 | Robôs pedagógicos
+- 090789 | Robôs de vigilância para segurança
+- 090790 | Assistentes pessoais digitais [pda]
+- 090790 | Palmtops [pda]
+- 090791 | Computer software platforms, recorded or downloadablePlataformas de programas de computador, gravados ou baixáveis
+- 090792 | Localizadores de satélite [medidores de intensidade de sinal]
+- 090793 | Medidores de anel
+- 090794 | Medidores de dedo
+- 090795 | Computadores thin client
+- 090796 | Câmeras de ré para veículos
+- 090797 | Dicionários eletrônicos portáteis
+- 090798 | Simuladores para treinamento em ressuscitação
+- 090799 | Chicotes elétricos automotivos
+- 090800 | Esnórquel [snorkel]
+- 090801 | Apitos para esportes
+- 090802 | Computer screen saver software, recorded or downloadableSoftwares protetores de tela para computadores, gravados ou baixáveis
+- 090802 | Programas protetores de tela para computadores, gravados ou baixáveis
+- 090803 | Lentes [objetivas] para autorretrato
+- 090804 | Elementos gráficos baixáveis para telefones celulares
+- 090804 | Downloadable graphics for cell phones
+- 090805 | Telecommunication apparatus in the form of jewelleryAparelhos de telecomunicação na forma de joias
+- 090805 | Telecommunication apparatus in the form of jewelry
+- 090806 | Computadores vestíveis
+- 090807 | Monitores de vídeo vestíveis
+- 090808 | Magnetic resonance imaging [mri] apparatus, not for medical purposesAparelhos de imagem por ressonância magnética [IRM], exceto para fins médicos
+- 090809 | Sinalizadores a laser para resgate
+- 090810 | Ink cartridges, unfilled, for printers and photocopiersCartuchos de tinta, vazios, para impressoras e fotocopiadoras
+- 090811 | Pedais wah-wah
+- 090812 | Instrumentos de medição de altura
+- 090813 | Cabeças para treinamento de penteados [material de ensino]
+- 090814 | Dispositivos para a projeção de teclados virtuais
+- 090815 | Cobertores de sobrevivência
+- 090817 | Dispositivos de análise granulométrica de nanopartículas
+- 090817 | Nanoparticle size analyzers
+- 090818 | Almofadas para fones de ouvido
+- 090819 | Luvas de dados
+- 090820 | Mouse com trackball para computador
+- 090821 | Emoticons baixáveis para telefones celulares
+- 090821 | Downloadable emoticons for cell phones
+- 090822 | Robôs de telepresença
+- 090823 | Termostatos digitais para climatização
+- 090824 | Sensores piezoelétricos
+- 090825 | Diodos emissores de luz orgânicos [oled]
+- 090826 | Diodos emissores de luz quânticos [qled]
+- 090827 | Droppers for measuring, other than for medical or household purposesConta-gotas graduados, exceto para uso médico ou doméstico
+- 090828 | Soquetes elétricos
+- 090829 | Programas de jogos de computador baixáveis
+- 090830 | Rescue flares, non-explosive and non-pyrotechnicSinalizadores de resgate, não explosivos e não pirotécnicos
+- 090831 | Suportes adaptados para laptops
+- 090832 | Acessórios para cabeça [capacetes de proteção]
+- 090833 | Cadeados eletrônicos
+- 090834 | Cintos de lastro para mergulho
+- 090835 | Fones de ouvido para comunicação remota
+- 090836 | Sensores de estacionamento para veículos
+- 090837 | Impressoras de bilhetes
+- 090838 | Cintos corporais para apoio na elevação de cargas
+- 090839 | Cincerro para guiar rebanho
+- 090840 | Projetores de vídeo
+- 090841 | Software baixável para gerar chaves criptográficas para receber e gastar criptomoedas
+- 090842 | Carteiras eletrônicas baixáveis
+- 090843 | Máquinas para pagamento com cartão de crédito
+- 090844 | Passaportes biométricos
+- 090844 | E-passports
+- 090845 | Cédulas de identidade biométricas
+- 090846 | Centrais [hubs] para casas inteligentes
+- 090846 | Centrais [hubs] de automação residenciais
+- 090847 | Conjuntos de dados, gravados ou baixáveis
+- 090847 | Datasets, gravados ou baixáveis
+- 090848 | Aparelhos de exibição projetados no vidro para veículos
+- 090849 | Alto-falantes inteligentes
+- 090850 | Fechaduras biométricas
+- 090851 | Bolas extintoras de incêndio
+- 090852 | Alto-falantes vestíveis
+- 090853 | Medidores de poeira ultrafina portáteis
+- 090854 | Smartphones dobráveis
+- 090855 | Lanternas para smartphones
+- 090856 | Escâneres [scanners] 3d
+- 090857 | Alto-falantes à base de filmes finos
+- 090858 | Microfones de alto-falante sem fio
+- 090859 | Scanners [apparatus] for performing automotive diagnosticsEscâneres [aparelhos scanner] para diagnóstico automotivo
+- 090860 | Trajes hápticos, exceto para fins medicinais
+- 090861 | Anéis de luz [ring lights] de selfie para smartphones
+- 090862 | Carregadores para telefones celulares
+- 090862 | Chargers for cell phones
+- 090863 | Protetores de tela para telefones celulares
+- 090863 | Screen protectors for cell phones
+- 090864 | Sinais de alerta [luminosos]
+- 090865 | Sinais de segurança [luminosos]
+- 090866 | Anéis de dedo para segurar telefones celulares
+- 090866 | Ring holders for cell phones
+- 090867 | Anéis suportes para telefones celulares
+- 090867 | Ring stands for cell phones
+- 090868 | Headsets
+- 090869 | Headsets para jogar videogames
+- 090870 | Software de computador baixável para gestão de operações de criptomoeda usando tecnologia blockchain
+- 090870 | Aparelhos de eletrólise para uso laboratorial
+- 090872 | Apparatus for generating gas for calibration purposesAparelhos para geração de gás para fins de calibragem
+- 090873 | Apparatus for testing breast milk, other than for medical or veterinary useAparelhos para testar leite materno, exceto para uso médico ou veterinário
+- 090874 | Carregadores de energia portáteis
+- 090875 | Amplificadores para servomotores
+- 090876 | Controladores eletrônicos para servomotores
+- 090877 | Computadores quânticos
+- 090878 | Musical instrument digital interface controllers being audio interfacesControles de interface digital de instrumentos musicais enquanto interfaces de áudio
+- 090879 | Biorreatores para uso laboratorial
+- 090880 | Bioreactors for cell culturing for scientific researchBiorreatores para cultura celular para pesquisa científica
+- 090881 | Holders adapted for mobile telephones and smartphonesSuportes adaptados para telefones celulares e smartphones
+- 090881 | Holders adapted for cell phones and smartphones
+- 090882 | Suportes de telefone para carros
+- 090883 | Óculos de realidade virtual [head mounted displays]
+- 090883 | Óculos de realidade aumentada [head mounted displays]
+- 090884 | Wireless portable printers for use with laptops and mobile devicesImpressoras portáteis sem fio para uso com laptops e dispositivos móveis
+- 090887 | Airbags para fins de segurança para proteção contra quedas
+- 090888 | Capacetes neurais, exceto para fins medicinais
+- 090889 | Alto-falantes portáteis
+- 090890 | Bafômetros
+- 090891 | Bases de refrigeração para laptops
+- 090891 | Bases cooler para laptops
+- 090892 | Ventoinhas [ventiladores] de refrigeração internas para computadores
+- 090893 | Pedais de efeitos para violões
+- 090894 | Software as a medical device [samd], downloadableSoftware como um dispositivo médico [samd], baixável
+- 090896 | Tapetes [suporte] para painel de veículo adaptados para telefones celulares e smartphones090896 9 Dashboard mats adapted for holding cell phones and smartphones
+- 090897 | Controles para servomotores
+- 090898 | Máscaras contra pó com purificação do ar
+- 090899 | Atuadores elétricos
+- 090900 | Atuadores lineares elétricos
+- 090901 | Luvas isolantes para proteção contra acidentes
+- 090902 | Dosímetros, exceto para uso médico [aparelhos de medição]
+- 090903 | Roupas secas para mergulho [dry suit]
+- 090904 | Macacões para mergulho [dive skin]
+- 090905 | Roupas para esportes aquáticos
+- 090906 | Roteadores para redes de computador
+- 090907 | Extensores de frequência
+- 090908 | Sistemas de alerta de míssil
+- 090910 | Sistemas de navegação autônoma para navios
+- 090911 | Terminais de autoatendimento
+- 090912 | Escâneres [scanner] de documentos portáteis
+- 090913 | Estojos para smartphones com teclado integrado
+- 090914 | Medidores de alinhamento de rodas
+- 090915 | Mesas para mixar vídeos
+- 090916 | Humanoid robots with artificial intelligence for preparing beveragesRobôs humanoides com inteligência artificial para preparar bebidas
+- 090917 | User-programmable humanoid robots, not configuredRobôs humanoides programáveis pelo usuário, não configurados
+- 090918 | Arquivos de imagens digitais baixáveis autenticados por tokens não fungíveis [NFTs]
+- 090919 | Ozonizadores para fins de calibragem
+- 090919 | Geradores de ozônio para fins de calibragem
+- 090920 | Cordões para telefones celulares
+- 090920 | Lanyards for mobile telephones
+- 090921 | Gimbals para câmeras digitais
+- 090922 | Gimbals para smartphones
+- 090924 | Terminais de ponto de venda [PDV]
+- 090924 | Terminais de ponto de venda [POS]
+- 090925 | Aparelhos para projeção holográfica
+- 090926 | Buretas de laboratório
+- 090926 | Laboratory burets
+- 090927 | Suportes com rastreador de movimentos para câmeras
+- 090928 | Carteiras de hardware para criptomoedas
+- 090929 | Vestuário virtual baixável
+- 090930 | Controles de realidade virtual
+- 090931 | Foguetes sonoros
+- 090932 | Motorcyclists' clothing for protection against accident or injuryVestuário para motociclistas para proteção contra acidentes ou ferimentos
+- 090933 | Arquivos de músicas digitais baixáveis autenticados por tokens não fungíveis [NFTs]
+- 090934 | Downloadable application software for virtual environmentsAplicativo baixável para ambientes virtuais
+- 090935 | Softwares de computador baixáveis para cunhar tokens não fungíveis [NFTs]
+- 090936 | Aparelhos para medição de poeira
+- 090937 | Aparelhos de diagnóstico para uso em laboratório de pesquisa
+- 090938 | Ultrasonic imaging apparatus, not for medical purposesAparelhos de imagem ultrassônicos, exceto para fins medicinais
+- 090939 | Capacitive finger sleeves for touchscreen devicesLuvas de dedo capacitivas para dispositivos com tela de toque
+- 090939 | Mangas de dedo capacitivas para dispositivos com tela de toque
+- 090940 | Dispositivos sequenciadores de música
+- 090941 | Sinais de trânsito para pedestres
+- 090942 | Etiquetas eletrônicas para prateleira
+- 090943 | Mídia de armazenamento eletrônico
+- 090944 | Câmeras de painéis de instrumentos
+- 090944 | Dash cam
+- 090945 | Osciladores eletrônicos
+- 090946 | Ressonadores eletrônicos
+- 090947 | Filmes polarizadores para painéis [displays]
+- 090948 | Filmes condutores transparentes para painéis [displays]
+- 090949 | Simuladores de treinamento médico
+- 090950 | Arquivos de vídeo baixáveis
+- 090951 | Canetas stylus para telas sensíveis ao toque
+- 090952 | Escâneres [scanner] biométricos
+- 090953 | Espelhos de tráfego
+- 090954 | Espelhos convexos de segurança
+- 090955 | Dispositivos de proteção contra surtos elétricos
+- 090956 | Escudos antimotim
+- 090957 | Baterias nucleares
+- 090958 | Coletes salva-vidas para animais de estimação
+- 090959 | Frascos para uso laboratorial
+- 090960 | Reatores químicos para uso laboratorial
+- 090961 | Espelhos inteligentes/virtuais [tela eletrônica interativa]
+- 090962 | Chuveiros de emergência
+- 090963 | Reguladores para mergulho
+- 090964 | Gene amplification apparatus for scientific research in laboratoriesAparelho de amplificação genética para pesquisa científica em laboratórios
+- 090965 | Etiquetas de comunicação de campo próximo [NFC]

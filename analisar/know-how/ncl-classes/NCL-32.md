@@ -1,0 +1,73 @@
+# Classe NCL 32
+
+Especificações pré-especificadas (Português):
+
+- 320001 | Extratos de fruta não alcoólicos
+- 320002 | Cerveja
+- 320003 | Cerveja de gengibre
+- 320003 | Ginger ale
+- 320004 | Malte [cerveja]
+- 320005 | Cerveja não fermentada [mosto de cerveja]
+- 320006 | Bebidas não alcoólicas à base de fruta
+- 320007 | Bebidas à base de soro de leite
+- 320008 | Preparações para fazer bebidas não alcoólicas
+- 320009 | Essências não alcoólicas para fazer bebidas
+- 320010 | Suco de fruta
+- 320010 | Sucos de frutas
+- 320011 | Xaropes para bebidas
+- 320012 | Águas [bebidas]
+- 320013 | Produtos para fazer água gaseificada
+- 320013 | Produtos para fazer água gaseificada por adição de gás carbônico
+- 320014 | Água litinada
+- 320015 | Água mineral [bebida]
+- 320017 | Água de seltz
+- 320018 | Águas minerais engarrafadas
+- 320019 | Mosto
+- 320020 | Limonadas
+- 320021 | Extratos de lúpulo para fazer cerveja
+- 320022 | Sucos de frutas, verduras e legumes [bebidas]
+- 320023 | Xaropes para limonada
+- 320025 | Mosto de malte
+- 320026 | Mosto de uva não fermentado
+- 320027 | Orchata
+- 320028 | Água de soda
+- 320029 | Bebidas à base de sorvetes
+- 320029 | Sorbets [beverages]
+- 320030 | Suco de tomate [bebida]
+- 320031 | Bebidas não alcoólicas
+- 320033 | Pastilhas para bebidas efervescentes
+- 320034 | Pós para bebidas efervescentes
+- 320035 | Água gaseificada
+- 320035 | Água gaseificada por adição de gás carbônico
+- 320041 | Salsaparrilha [bebida não alcoólica]
+- 320042 | Aperitivos não alcoólicos
+- 320043 | Coquetéis não alcoólicos
+- 320044 | Néctares de frutas não alcoólicos
+- 320045 | Bebidas isotônicas
+- 320047 | Sidra não alcoólica
+- 320048 | Kvass
+- 320049 | Bebidas não alcoólicas à base de mel
+- 320050 | Smoothies [bebida à base de frutas e legumes]
+- 320051 | Bebidas não alcoólicas à base de aloe vera/babosa
+- 320052 | Coquetéis à base de cerveja
+- 320053 | Soya-based beverages, other than milk substitutesBebidas à base de soja, exceto substitutas do leite
+- 320054 | Bebidas para esportistas enriquecidas com proteínas
+- 320055 | Rice-based beverages, other than milk substitutesBebidas à base de arroz, exceto substitutas do leite
+- 320056 | Bebidas não alcoólicas com sabor de café
+- 320056 | Non-alcoholic beverages flavored with coffee
+- 320057 | Bebidas não alcoólicas com sabor de chá
+- 320057 | Non-alcoholic beverages flavored with tea
+- 320058 | Refrigerantes
+- 320059 | Vinho de cevada [cerveja]
+- 320060 | Bebidas energéticas
+- 320061 | Bebidas de frutas secas não alcoólicas
+- 320062 | Shandy [cervejas misturadas com bebidas não alcoólicas]
+- 320063 | Misturas secas à base de amido para preparação de bebidas
+- 320064 | Coquetéis à base de cerveja não alcoólica
+- 320065 | Cerveja sem álcool
+- 320066 | Pós para fazer refrigerantes
+- 320067 | Lúpulo congelado para fabricação de cerveja
+- 320068 | Pellets de lúpulo para fabricação de cerveja
+- 320069 | Lúpulo seco para fazer cerveja
+- 320070 | Bebidas não alcoólicas à base de vinagre de frutas
+- 320071 | Cervejas de uva

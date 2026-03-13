@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ARQUITETURA</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+</head>
+<body>
+<h1 id="arquitetura-do-genesis-laudo">Arquitetura do
+<code>genesis-laudo</code></h1>
+<h2 id="visão-geral">Visão geral</h2>
+<p>O <code>genesis-laudo</code> é um serviço web standalone que expõe o
+squad <code>laudo-viabilidade</code> por meio de um dashboard HITL. Ele
+não reimplementa a inteligência do fluxo de laudos; ele orquestra a
+execução do <code>claude</code> CLI, persiste estado operacional em
+PostgreSQL e oferece uma interface web para acompanhamento, checkpoints
+humanos e geração final dos documentos.</p>
+<p>Na implementação atual, o endpoint público previsto é:</p>
+<ul>
+<li><code>https://api.luminai.ia.br/laudo/</code></li>
+</ul>
+<p>Não encontrei evidência no código local de uso de
+<code>laudos.luminai.ia.br</code>. O roteamento configurado em
+Compose/Traefik usa <code>api.luminai.ia.br</code> com
+<code>PathPrefix(/laudo)</code>.</p>
+<h2 id="componentes-principais">Componentes principais</h2>
+<h3 id="camada-web">1. Camada web</h3>
+<p>Stack:</p>
+<ul>
+<li>Node.js 20</li>
+<li>Express</li>
+<li>EJS</li>
+<li>SSE para progresso assíncrono de geração</li>
+</ul>
+<p>O servidor sobe na porta <code>3001</code> e concentra duas áreas
+principais:</p>
+<ul>
+<li>dashboard: fila ClickUp + análises ativas/concluídas</li>
+<li>detalhe da análise: stepper por fase, checkpoints, submissão de INPI
+e geração final</li>
+</ul>
+<p>Referências:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-laudo/app/server.js">server.js</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-laudo/app/routes/dashboard.js">dashboard.js</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-laudo/app/routes/analise.js">analise.js</a></li>
+</ul>
+<h3 id="orquestração-do-workflow">2. Orquestração do workflow</h3>
+<p>O serviço delega a execução do fluxo ao agente <code>@laudo</code>,
+via subprocesso:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">claude</span> <span class="at">-p</span> <span class="st">&quot;@laudo *nova-analise {task_id}&quot;</span> <span class="at">--dangerously-skip-permissions</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">claude</span> <span class="at">-p</span> <span class="st">&quot;@laudo *inpi {task_id}&quot;</span> <span class="at">--dangerously-skip-permissions</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">claude</span> <span class="at">-p</span> <span class="st">&quot;@laudo *gerar {task_id}&quot;</span> <span class="at">--dangerously-skip-permissions</span></span></code></pre></div>
+<p>Esse CLI roda no workspace configurado por
+<code>WORKSPACE_PATH</code>, que precisa conter o repositório
+<code>genesis</code> e acesso ao squad
+<code>squads/laudo-viabilidade/</code>.</p>
+<p>Referência:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-laudo/app/services/claude.js">claude.js</a></li>
+</ul>
+<h3 id="banco-de-dados">3. Banco de dados</h3>
+<p>O PostgreSQL é dedicado ao serviço e tem três responsabilidades:</p>
+<ul>
+<li>registrar a análise corrente por <code>task_id</code></li>
+<li>manter trilha de eventos append-only</li>
+<li>rastrear cada execução do CLI</li>
+</ul>
+<p>Tabelas:</p>
+<ul>
+<li><code>analyses</code>: estado atual da análise, fase, checkpoints,
+pasta, outputs e link do Drive</li>
+<li><code>analysis_events</code>: log imutável de eventos
+operacionais</li>
+<li><code>cli_executions</code>: telemetria de subprocessos
+<code>claude</code></li>
+</ul>
+<p>Referências:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-laudo/migrations/001_init.sql">001_init.sql</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-laudo/app/services/db.js">db.js</a></li>
+</ul>
+<h3 id="integrações-externas">4. Integrações externas</h3>
+<p>O sistema conversa com quatro superfícies externas:</p>
+<ul>
+<li>ClickUp REST API v2: fila, leitura de card, comentário e mudança de
+status</li>
+<li>Claude Code CLI: execução do workflow</li>
+<li>Google Drive: upload dos arquivos finais, executado pelo próprio
+squad</li>
+<li>Scripts Python do squad: principalmente
+<code>processar_inpi.py</code>, além dos geradores de PDF/DOCX</li>
+</ul>
+<p>Referências:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-laudo/app/services/clickup.js">clickup.js</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis/squads/laudo-viabilidade/workflows/nova-analise.md">nova-analise.md</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis/squads/laudo-viabilidade/squad.yaml">squad.yaml</a></li>
+</ul>
+<h2 id="fluxo-funcional">Fluxo funcional</h2>
+<h3 id="entrada">Entrada</h3>
+<p>O dashboard consulta o ClickUp na lista configurada e mostra cards em
+status <code>para fazer</code>. Quando o usuário inicia uma análise:</p>
+<ol type="1">
+<li>o serviço cria ou reaproveita o registro em
+<code>analyses</code></li>
+<li>registra evento inicial</li>
+<li>move o card para <code>em processo</code></li>
+<li>dispara <code>@laudo *nova-analise {task_id}</code> em
+background</li>
+<li>redireciona o usuário imediatamente para a tela da análise</li>
+</ol>
+<h3 id="fase-1-e-fase-2">Fase 1 e Fase 2</h3>
+<p>O workflow <code>*nova-analise</code> executa:</p>
+<ol type="1">
+<li>coleta de dados do card</li>
+<li>criação da pasta <code>laudos/{cliente}/{marca}/</code></li>
+<li>geração do plano preliminar em Markdown</li>
+<li>parada obrigatória no Checkpoint 1</li>
+</ol>
+<p>Quando essa etapa termina com sucesso, o backend salva o caminho da
+pasta no banco.</p>
+<h3 id="checkpoint-1">Checkpoint 1</h3>
+<p>O Checkpoint 1 é bloqueante. O backend só permite aprovação se a
+análise estiver na fase <code>2</code>. Ao aprovar:</p>
+<ul>
+<li><code>checkpoint_1</code> vira <code>aprovado</code></li>
+<li>a <code>fase</code> vai para <code>3</code></li>
+<li>um evento <code>checkpoint_approved</code> é persistido</li>
+</ul>
+<h3 id="entrada-inpi">Entrada INPI</h3>
+<p>Na fase <code>3</code>, o usuário cola o texto bruto do INPI. O
+sistema:</p>
+<ol type="1">
+<li>salva <code>inpi-raw.txt</code> dentro da pasta da análise</li>
+<li>executa <code>processar_inpi.py</code></li>
+<li>registra evento <code>inpi_submitted</code></li>
+<li>executa <code>@laudo *inpi {task_id}</code></li>
+</ol>
+<p>Essa chamada preenche a parte 2 do plano de análise.</p>
+<h3 id="checkpoint-2">Checkpoint 2</h3>
+<p>O Checkpoint 2 também é bloqueante. Só é aceito se a análise estiver
+na fase <code>3</code>. Ao aprovar:</p>
+<ul>
+<li><code>checkpoint_2</code> vira <code>aprovado</code></li>
+<li>a <code>fase</code> vai para <code>4</code></li>
+<li>novo evento <code>checkpoint_approved</code> é gravado</li>
+</ul>
+<h3 id="geração-final">Geração final</h3>
+<p>Na fase <code>4</code>, o endpoint de geração:</p>
+<ol type="1">
+<li>valida que os dois checkpoints foram aprovados</li>
+<li>evita reprocessamento se <code>output_pdf</code> já existir</li>
+<li>executa <code>@laudo *gerar {task_id}</code></li>
+<li>acompanha stdout via SSE para atualizar progresso na UI</li>
+<li>detecta PDF, DOCX e URL do Drive</li>
+<li>persiste os outputs no banco</li>
+<li>comenta no card do ClickUp e move o status para
+<code>feito</code></li>
+</ol>
+<h2 id="modelo-de-execução">Modelo de execução</h2>
+<h3 id="processamento-assíncrono">Processamento assíncrono</h3>
+<p>O serviço usa <code>setImmediate(...)</code> para disparar execuções
+longas sem bloquear a resposta HTTP. Isso aparece em três pontos:</p>
+<ul>
+<li>início da análise</li>
+<li>processamento do INPI</li>
+<li>geração final</li>
+</ul>
+<p>Não existe fila externa, worker separado ou broker. O processo web
+faz tudo:</p>
+<ul>
+<li>recebe HTTP</li>
+<li>dispara subprocessos locais</li>
+<li>persiste estado</li>
+<li>emite progresso em memória</li>
+</ul>
+<p>Isso simplifica o MVP, mas cria acoplamento forte entre UI,
+orquestração e execução.</p>
+<h3 id="sse-em-memória">SSE em memória</h3>
+<p>O progresso da geração final usa <code>EventEmitter</code> em
+memória, chaveado por <code>task_id</code>. Isso significa:</p>
+<ul>
+<li>funciona bem em instância única</li>
+<li>não compartilha eventos entre múltiplas réplicas</li>
+<li>perde listeners/eventos se o processo reiniciar</li>
+</ul>
+<p>Para o estágio atual, isso é coerente com o deploy single-instance em
+VPS.</p>
+<h2 id="modelo-de-dados">Modelo de dados</h2>
+<h3 id="analyses"><code>analyses</code></h3>
+<p>Representa a visão corrente da análise.</p>
+<p>Campos mais relevantes:</p>
+<ul>
+<li><code>task_id</code>: chave funcional vinda do ClickUp</li>
+<li><code>fase</code>: enum implícito de <code>0</code> a
+<code>4</code></li>
+<li><code>checkpoint_1</code>, <code>checkpoint_2</code>: estados dos
+gates humanos</li>
+<li><code>pasta</code>: diretório físico em
+<code>/root/laudos/...</code></li>
+<li><code>output_pdf</code>, <code>output_docx</code>,
+<code>drive_url</code>: saídas finais</li>
+</ul>
+<h3 id="analysis_events"><code>analysis_events</code></h3>
+<p>Tabela append-only para auditoria operacional. Eventos observados no
+código:</p>
+<ul>
+<li><code>started</code></li>
+<li><code>completed</code></li>
+<li><code>checkpoint_approved</code></li>
+<li><code>error</code></li>
+<li><code>cli_called</code></li>
+<li><code>inpi_submitted</code></li>
+</ul>
+<h3 id="cli_executions"><code>cli_executions</code></h3>
+<p>Permite diagnosticar cada chamada ao <code>claude</code>:</p>
+<ul>
+<li>comando</li>
+<li>argumentos</li>
+<li>status</li>
+<li>stdout</li>
+<li>stderr</li>
+<li>exit code</li>
+<li>timestamps</li>
+</ul>
+<h2 id="deploy-e-infraestrutura">Deploy e infraestrutura</h2>
+<h3 id="containers">Containers</h3>
+<p>O <code>genesis-laudo.yml</code> define dois serviços:</p>
+<ul>
+<li><code>genesis-laudo</code>: aplicação Node.js</li>
+<li><code>genesis-laudo-db</code>: PostgreSQL 16 Alpine</li>
+</ul>
+<h3 id="redes">Redes</h3>
+<p>Há duas redes:</p>
+<ul>
+<li><code>proxy</code>: externa, para Traefik</li>
+<li><code>laudo-internal</code>: bridge privada entre app e banco</li>
+</ul>
+<p>O banco não é exposto externamente.</p>
+<h3 id="volumes">Volumes</h3>
+<p>O container principal monta:</p>
+<ul>
+<li><code>/root/genesis:/root/genesis</code>: workspace aiOS com squads,
+AGENTS e scripts</li>
+<li><code>/root/laudos:/root/laudos</code>: arquivos gerados</li>
+<li><code>/root/.claude:/home/node/.claude:ro</code>: autenticação do
+Claude CLI</li>
+</ul>
+<p>O banco usa o volume persistente:</p>
+<ul>
+<li><code>genesis-laudo-db-data</code></li>
+</ul>
+<h3 id="roteamento-http">Roteamento HTTP</h3>
+<p>Traefik publica o serviço com:</p>
+<ul>
+<li><code>Host(api.luminai.ia.br)</code></li>
+<li><code>PathPrefix(/laudo)</code></li>
+<li>TLS com <code>certresolver=le</code></li>
+</ul>
+<p>A app interna responde na porta <code>3001</code>.</p>
+<p>Referências:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-laudo/genesis-laudo.yml">genesis-laudo.yml</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-laudo/Dockerfile">Dockerfile</a></li>
+</ul>
+<h2 id="dependências-do-squad">Dependências do squad</h2>
+<p>O <code>genesis-laudo</code> depende da presença do squad
+<code>laudo-viabilidade</code>, que contém:</p>
+<ul>
+<li>workflow <code>nova-analise</code></li>
+<li>tasks de monitoramento, coleta, preliminar, INPI e geração</li>
+<li>scripts Python de processamento e geração de documentos</li>
+<li>credenciais do Google Drive</li>
+<li>assets e know-how de NCL</li>
+</ul>
+<p>Ou seja: a aplicação web é a casca operacional; a lógica de domínio
+de laudos continua majoritariamente dentro do squad.</p>
+<p>Referências:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis/squads/laudo-viabilidade/squad.yaml">squad.yaml</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis/squads/laudo-viabilidade/workflows/nova-analise.md">nova-analise.md</a></li>
+</ul>
+<h2 id="decisões-arquiteturais-implícitas">Decisões arquiteturais
+implícitas</h2>
+<p>Pelo código atual, as decisões mais importantes são:</p>
+<ul>
+<li>CLI-first: o backend orquestra o <code>claude</code>, não
+reimplementa o fluxo</li>
+<li>estado persistido em banco: a análise não depende só do
+filesystem</li>
+<li>filesystem compartilhado: app e squad operam sobre a mesma pasta de
+laudos</li>
+<li>HITL obrigatório: o fluxo foi desenhado para parar em checkpoints
+explícitos</li>
+<li>single instance: SSE em memória e ausência de job queue apontam para
+uma instância única</li>
+</ul>
+<h2 id="riscos-e-limitações-atuais">Riscos e limitações atuais</h2>
+<ul>
+<li>O servidor web acumula UI, orquestração e execução pesada no mesmo
+processo.</li>
+<li><code>setImmediate</code> não oferece durabilidade; reinício do
+processo pode interromper execuções em andamento.</li>
+<li>SSE com <code>EventEmitter</code> em memória não escala
+horizontalmente.</li>
+<li>O timeout do CLI está fixado em 5 minutos, o que pode ser curto para
+fluxos maiores.</li>
+<li>A detecção de sucesso da geração final depende parcialmente de
+parsing de stdout e presença de arquivos.</li>
+<li>A consistência entre banco, filesystem, ClickUp e Drive é eventual,
+não transacional.</li>
+</ul>
+<h2 id="resumo-operacional">Resumo operacional</h2>
+<p>Em termos práticos, a arquitetura é esta:</p>
+<pre class="text"><code>Browser
+  -&gt; Express/EJS (genesis-laudo)
+    -&gt; PostgreSQL (estado e auditoria)
+    -&gt; ClickUp API (fila e status)
+    -&gt; Claude CLI (orquestra o squad)
+      -&gt; squad laudo-viabilidade
+        -&gt; scripts Python
+        -&gt; filesystem /root/laudos
+        -&gt; Google Drive</code></pre>
+<h2 id="observação-sobre-a-vps">Observação sobre a VPS</h2>
+<p>A inspeção direta da máquina <code>vps-nova</code> ficou bloqueada
+pelo sandbox desta sessão, então este documento foi montado a partir do
+código local e da documentação de deploy existente no workspace. A
+estrutura de execução descrita aqui está alinhada com o
+<code>docker-compose</code>, o <code>Dockerfile</code>, as rotas e os
+serviços encontrados localmente.</p>
+</body>
+</html>

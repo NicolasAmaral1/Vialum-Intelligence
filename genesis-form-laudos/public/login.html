@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login — Genesis Laudos</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="auth-body">
+  <main class="auth-main">
+    <section class="auth-hero">
+      <div class="eyebrow">Acesso restrito</div>
+      <h1 class="page-title">Portal de Laudos</h1>
+      <p class="page-subtitle">Entre com usuário e senha. Cada pedido enviado ao ClickUp passa a registrar quem fez a solicitação.</p>
+    </section>
+
+    <section class="card auth-card">
+      <h2 class="section-title">Entrar</h2>
+      <div id="alertBox" class="alert"></div>
+
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="username">Usuário</label>
+          <input type="text" id="username" autocomplete="username" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Senha</label>
+          <input type="password" id="password" autocomplete="current-password" required>
+        </div>
+
+        <button type="submit" class="btn-primary" id="loginBtn">
+          <span class="text">Entrar</span>
+          <div class="loader"></div>
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <script>
+    async function bootstrap() {
+      const response = await fetch('/api/auth/session');
+      const data = await response.json();
+
+      if (data.authenticated) {
+        window.location.href = data.user.mustChangePassword ? '/senha' : '/';
+      }
+    }
+
+    document.getElementById('loginForm').addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const alertBox = document.getElementById('alertBox');
+      const btn = document.getElementById('loginBtn');
+
+      btn.classList.add('loading');
+      btn.disabled = true;
+      alertBox.className = 'alert';
+      alertBox.textContent = '';
+
+      try {
+        const response = await fetch('/api/auth/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            username: document.getElementById('username').value,
+            password: document.getElementById('password').value,
+          }),
+        });
+
+        const data = await response.json();
+        if (!response.ok) {
+          throw new Error(data.error || 'Falha no login.');
+        }
+
+        window.location.href = data.user.mustChangePassword ? '/senha' : '/';
+      } catch (err) {
+        alertBox.textContent = `Erro: ${err.message}`;
+        alertBox.className = 'alert error';
+      } finally {
+        btn.classList.remove('loading');
+        btn.disabled = false;
+      }
+    });
+
+    bootstrap();
+  </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+name: protocolo
+version: 1.0.0
+short-title: Protocolo de Onboarding de Clientes Genesis
+description: >
+  Squad responsável pelo fluxo completo de onboarding de novos clientes da Genesis Registro de Marcas:
+  coleta de dados, geração automatizada de Contrato de Serviços e Procuração (PDF com fontes Sora,
+  logo Genesis e cláusulas da biblioteca), e upload automático para o Google Drive do cliente.
+
+author: Vialum Intelligence
+license: UNLICENSED
+
+slashPrefix: protocolo
+
+aios:
+  type: squad
+  minVersion: 2.0.0
+
+requires:
+  aios: ">=2.0.0"
+  python: ">=3.9"
+
+tags:
+  - protocolo
+  - onboarding
+  - contrato
+  - procuracao
+  - marca
+  - inpi
+  - genesis
+  - cliente
+  - drive
+
+# Task-first architecture: tasks são o ponto de entrada primário
+components:
+  tasks:
+    - protocolo-coletar-dados.md
+    - protocolo-definir-escopo.md
+    - protocolo-gerar-docs.md
+    - protocolo-finalizar.md
+  agents:
+    - protocolo.md
+  workflows:
+    - contrato-procuracao.md
+  checklists:
+    - dados-pf.md
+    - dados-pj.md
+  scripts:
+    - assemble_contract.py
+    - google_drive_service.py
+
+dependencies:
+  python:
+    - reportlab>=4.0.0
+    - google-api-python-client>=2.0.0
+    - google-auth-oauthlib>=1.0.0
+    - google-auth-httplib2>=0.1.0
+
+config:
+  extends: extend
+  coding-standards: docs/coding-standards.md
+  tech-stack: docs/tech-stack.md
+
+integration:
+  # Futura integração ClickUp: Genesis > Clientes > Protocolo
+  clickup:
+    enabled: false
+    workspace: Genesis
+    list: "Clientes > Protocolo"
+  google_drive:
+    enabled: true
+    credentials: resources/credentials.json
+    token: resources/token.json
+    output_local: ../../../../outputs/protocolo/

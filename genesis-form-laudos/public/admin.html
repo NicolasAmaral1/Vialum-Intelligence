@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usuários — Genesis Laudos</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L2 22H22L12 2Z" fill="#9FEC14"/>
+      </svg>
+      GENESIS <span>LAUDOS</span>
+    </a>
+    <nav>
+      <a href="/">Novo Pedido</a>
+      <a href="/acompanhamento.html">Acompanhamento</a>
+      <a href="/admin.html" class="active">Usuários</a>
+      <button type="button" class="nav-button" id="logoutBtn">Sair</button>
+    </nav>
+  </header>
+
+  <main class="admin-layout">
+    <section class="page-meta">
+      <div>
+        <h1 class="page-title">Gestão de Usuários</h1>
+        <p class="page-subtitle">Crie logins individuais e distribua senhas temporárias para cada cliente ou parceiro.</p>
+      </div>
+      <div class="user-pill" id="userPill">Carregando...</div>
+    </section>
+
+    <div id="alertBox" class="alert"></div>
+
+    <section class="card">
+      <h2 class="section-title">Novo usuário</h2>
+      <form id="userForm" class="grid-form">
+        <div class="form-group">
+          <label for="displayName">Nome de exibição</label>
+          <input type="text" id="displayName" required>
+        </div>
+
+        <div class="form-group">
+          <label for="companyName">Empresa</label>
+          <input type="text" id="companyName" placeholder="Ex: 3P">
+        </div>
+
+        <div class="form-group">
+          <label for="username">Usuário</label>
+          <input type="text" id="username" placeholder="Ex: 3p" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Senha temporária</label>
+          <input type="text" id="password" minlength="12" required>
+        </div>
+
+        <div class="form-group">
+          <label for="role">Perfil</label>
+          <select id="role">
+            <option value="client">Cliente</option>
+            <option value="admin">Administrador</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-primary" id="createBtn">
+          <span class="text">Criar usuário</span>
+          <div class="loader"></div>
+        </button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Usuários atuais</h2>
+      <div class="table-wrap">
+        <table class="users-table">
+          <thead>
+            <tr>
+              <th>Usuário</th>
+              <th>Nome</th>
+              <th>Empresa</th>
+              <th>Perfil</th>
+              <th>Status</th>
+              <th>Último login</th>
+            </tr>
+          </thead>
+          <tbody id="usersTableBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    async function loadSession() {
+      const response = await fetch('/api/auth/session');
+      const data = await response.json();
+
+      if (!data.authenticated) {
+        window.location.href = '/login';
+        return null;
+      }
+
+      if (data.user.mustChangePassword) {
+        window.location.href = '/senha';
+        return null;
+      }
+
+      if (data.user.role !== 'admin') {
+        window.location.href = '/';
+        return null;
+      }
+
+      document.getElementById('userPill').textContent =
+        `${data.user.displayName} (${data.user.companyName || data.user.username})`;
+
+      return data.user;
+    }
+
+    function formatDate(value) {
+      if (!value) return 'Nunca';
+      return new Date(value).toLocaleString('pt-BR');
+    }
+
+    async function loadUsers() {
+      const response = await fetch('/api/users');
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Falha ao carregar usuários.');
+      }
+
+      const tbody = document.getElementById('usersTableBody');
+      tbody.innerHTML = '';
+
+      data.users.forEach((user) => {
+        const status = user.mustChangePassword ? 'Troca pendente' : 'Ativo';
+        tbody.insertAdjacentHTML('beforeend', `
+          <tr>
+            <td>${user.username}</td>
+            <td>${user.displayName}</td>
+            <td>${user.companyName || '—'}</td>
+            <td>${user.role}</td>
+            <td>${status}</td>
+            <td>${formatDate(user.lastLoginAt)}</td>
+          </tr>
+        `);
+      });
+    }
+
+    document.getElementById('userForm').addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const alertBox = document.getElementById('alertBox');
+      const btn = document.getElementById('createBtn');
+
+      btn.classList.add('loading');
+      btn.disabled = true;
+      alertBox.className = 'alert';
+      alertBox.textContent = '';
+
+      try {
+        const response = await fetch('/api/users', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            displayName: document.getElementById('displayName').value,
+            companyName: document.getElementById('companyName').value,
+            username: document.getElementById('username').value,
+            password: document.getElementById('password').value,
+            role: document.getElementById('role').value,
+          }),
+        });
+
+        const data = await response.json();
+        if (!response.ok) {
+          throw new Error(data.error || 'Falha ao criar usuário.');
+        }
+
+        alertBox.textContent = `Usuário ${data.user.username} criado. A troca de senha será obrigatória no primeiro login.`;
+        alertBox.className = 'alert success';
+        document.getElementById('userForm').reset();
+        await loadUsers();
+      } catch (err) {
+        alertBox.textContent = `Erro: ${err.message}`;
+        alertBox.className = 'alert error';
+      } finally {
+        btn.classList.remove('loading');
+        btn.disabled = false;
+      }
+    });
+
+    document.getElementById('logoutBtn').addEventListener('click', async () => {
+      await fetch('/api/auth/logout', { method: 'POST' });
+      window.location.href = '/login';
+    });
+
+    loadSession().then((user) => {
+      if (user) loadUsers().catch((err) => {
+        const alertBox = document.getElementById('alertBox');
+        alertBox.textContent = `Erro: ${err.message}`;
+        alertBox.className = 'alert error';
+      });
+    });
+  </script>
+</body>
+</html>

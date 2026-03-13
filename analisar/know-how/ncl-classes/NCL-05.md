@@ -1,0 +1,573 @@
+# Classe NCL 05
+
+Especificações pré-especificadas (Português):
+
+- 050001 | Abrasivos dentários
+- 050002 | Aconitina
+- 050003 | Adesivos para dentaduras
+- 050005 | Preparações para purificar o ar
+- 050006 | Alimentos à base de albumina para uso medicinal
+- 050007 | Preparações à base de albumina para uso medicinal
+- 050008 | Álcool para uso medicinal
+- 050009 | Aldeídos para uso farmacêutico
+- 050010 | Ligas de metais preciosos para uso odontológico
+- 050012 | Amálgamas dentários
+- 050013 | Amido para uso dietético ou farmacêutico
+- 050017 | Anestésicos
+- 050018 | Óleo essencial de endro para uso medicinal
+- 050018 | Essência de aneto para uso medicinal
+- 050019 | Esparadrapos
+- 050019 | Sticking plasters
+- 050020 | Casca de angustura para uso medicinal
+- 050022 | Chá antiasma
+- 050023 | Pomada protetora contra enregelamento de membros para uso farmacêutico
+- 050023 | Bálsamo [pomada] contra queimadura produzida pelo frio
+- 050025 | Preparações para hemorróidas
+- 050025 | Hemorrhoid preparations
+- 050026 | Preparações para destruir fungos da podridão seca
+- 050028 | Substâncias contra traças
+- 050029 | Preparações antiparasitárias
+- 050030 | Antissépticos
+- 050031 | Algodão antisséptico
+- 050032 | Preparações antiúricas
+- 050033 | Lápis antiverrugas
+- 050034 | Algodão asséptico
+- 050035 | Papel apanha-moscas
+- 050036 | Bouillons for bacteriological cultures for medical purposes or veterinary purposesCaldos para culturas bacteriológicas para uso médico ou veterinário
+- 050036 | Media for bacteriological cultures for medical purposes or veterinary purposesMeios para culturas bacteriológicas para uso médico ou veterinário
+- 050036 | Bacteriological culture mediums for medical purposes or veterinary purposes
+- 050037 | Preparações bacteriológicas para uso medicinal e veterinário
+- 050038 | Venenos bacterianos
+- 050039 | Preparações bacterianas para uso medicinal ou veterinário
+- 050040 | Anéis para calos dos pés
+- 050041 | Preparações para banhos com fins medicinais
+- 050042 | Sais para banhos de água mineral
+- 050043 | Banhos de oxigênio
+- 050044 | Água do mar para banhos medicinais
+- 050045 | Preparações terapêuticas para banhos
+- 050046 | Preparações balsâmicas para uso medicinal
+- 050049 | Ataduras para curativos
+- 050050 | Bálsamos para uso medicinal
+- 050051 | Produtos para lavar gado [inseticidas]
+- 050052 | Biocidas
+- 050053 | Preparações de bismuto para uso farmacêutico
+- 050054 | Água saturnina [solução aquosa de subacetato de chumbo]
+- 050054 | Água vegetomineral de goulard  [solução aquosa de subacetato de chumbo]
+- 050055 | Inseticidas
+- 050056 | Carvão vegetal para uso farmacêutico
+- 050057 | Balas [doces] medicinais
+- 050058 | Lama medicinal
+- 050058 | Sedimento medicinal [lama]
+- 050059 | Lama para banhos
+- 050061 | Preparações para tratamento de queimaduras
+- 050062 | Catechu para uso farmacêutico
+- 050063 | Preparações para calos
+- 050064 | Calomelano [fungicida]
+- 050065 | Pó de cantáridas
+- 050066 | Borracha para uso odontológico
+- 050067 | Xaropes para uso farmacêutico
+- 050068 | Cápsulas para remédios
+- 050069 | Preparações farmacêuticas
+- 050070 | Cataplasmas
+- 050072 | Algodão [chumaço] para uso medicinal
+- 050073 | Bandagem [atadura] para uso medicinal
+- 050074 | Preparações farmacêuticas à base de cal
+- 050075 | Produtos para lavar cães [inseticidas]
+- 050076 | Repelentes para cães
+- 050077 | Preparações químico-farmacêuticas
+- 050079 | Cloral hidratado para uso farmacêutico
+- 050080 | Clorofórmio
+- 050081 | Cigarros sem tabaco, para uso medicinal
+- 050082 | Cimentos dentários
+- 050083 | Cimento para cascos de animal
+- 050084 | Cera de moldagem para uso odontológico
+- 050084 | Molding wax for dentists
+- 050086 | Cocaína para fins medicinais
+- 050087 | Coleiras antiparasitas para animais
+- 050088 | Colírios
+- 050089 | Compressas
+- 050090 | Preparações vitamínicas*
+- 050091 | Chemical conductors for electrocardiograph electrodesCondutores químicos para eletrodos de eletrocardiógrafo
+- 050092 | Casca de condurango para uso medicinal
+- 050093 | Remédios para alívio de constipação
+- 050094 | Soluções para lentes de contato
+- 050094 | Solutions for use with contact lenses
+- 050095 | Contraceptivos químicos
+- 050096 | Substâncias para contraste radiológico para uso médico
+- 050098 | Calicidas [remédios contra calos]
+- 050099 | Algodão para uso medicinal
+- 050100 | Preparações farmacêuticas para tratamento de queimaduras de sol
+- 050102 | Bastões cáusticos
+- 050103 | Preparações para frieiras
+- 050104 | Bastões hemostáticos
+- 050104 | Hemostatic pencils
+- 050105 | Casca de cróton
+- 050106 | Curare
+- 050107 | Vacinas
+- 050108 | Detergentes para uso médico
+- 050109 | Decocções para uso farmacêutico
+- 050110 | Materiais para obturação dentária
+- 050111 | Materiais para moldes dentários
+- 050112 | Vernizes dentários
+- 050113 | Mástiques dentários
+- 050114 | Curativos medicinais
+- 050115 | Porcelana para próteses dentárias
+- 050116 | Preparações para facilitar a dentição
+- 050117 | Medicamentos depurativos
+- 050118 | Desinfetantes para uso higiênico
+- 050119 | Deodorants, other than for human beings or for animalsDesodorantes, exceto para seres humanos e animais
+- 050120 | Preparações para matar camundongos
+- 050121 | Pão para diabéticos, para fins medicinais
+- 050122 | Digestivos para uso farmacêutico
+- 050123 | Digitalina
+- 050124 | Analgésicos
+- 050125 | Drogas para uso medicinal
+- 050126 | Estojos portáteis para remédios, abastecidos
+- 050127 | Magnésia para uso farmacêutico
+- 050128 | Água de melissa para uso farmacêutico
+- 050129 | Água mineral para uso medicinal
+- 050130 | Sais de água mineral
+- 050131 | Água termal
+- 050132 | Cascas de árvore para uso farmacêutico
+- 050133 | Elixires [preparações farmacêuticas]
+- 050134 | Solventes para remover esparadrapo
+- 050135 | Preparações anticriptogâmicas
+- 050136 | Esponjas vulnerárias
+- 050136 | Esponjas cicatrizantes
+- 050137 | Sais para uso medicinal
+- 050138 | Ésteres para uso farmacêutico
+- 050139 | Éteres para uso farmacêutico
+- 050140 | Curativos cirúrgicos
+- 050141 | Eucaliptol para uso farmacêutico
+- 050142 | Eucalipto para uso farmacêutico
+- 050143 | Purgantes
+- 050143 | Evacuants
+- 050144 | Farinhas para uso farmacêutico
+- 050144 | Meal for pharmaceutical purposes
+- 050145 | Farinhas lácteas para bebês
+- 050146 | Febrífugos
+- 050147 | Erva-doce para uso medicinal
+- 050148 | Infusões medicinais
+- 050149 | Chás medicinais
+- 050150 | Óleo de fígado de bacalhau
+- 050151 | Fungicidas
+- 050152 | Nervinos
+- 050153 | Guaiacol para uso farmacêutico
+- 050154 | Vermífugos
+- 050154 | Anti-helmínticos
+- 050155 | Gaze para curativos
+- 050156 | Laxativos
+- 050157 | Gelatina para uso medicinal
+- 050158 | Genciana para uso farmacêutico
+- 050159 | Germicidas
+- 050160 | Glicerofosfatos
+- 050161 | Gomas para uso medicinal
+- 050162 | Linhaça para uso farmacêutico
+- 050162 | Flaxseed for pharmaceutical purposes
+- 050163 | Gorduras para uso medicinal
+- 050164 | Gorduras para uso veterinário
+- 050165 | Gordura para ordenhar
+- 050166 | Preparações químicas para diagnóstico de gravidez
+- 050167 | Óleos medicinais
+- 050168 | Hematogênio
+- 050168 | Hematogen
+- 050169 | Hemoglobina
+- 050169 | Hemoglobin
+- 050170 | Ervas medicinais
+- 050171 | Hormônios para uso medicinal
+- 050172 | Óleo de mostarda para uso medicinal
+- 050174 | Hidrastina
+- 050175 | Hidrastinina
+- 050176 | Algodão hidrófilo
+- 050176 | Absorbent wadding
+- 050177 | Sêmen para inseminação artificial
+- 050178 | Repelentes contra insetos
+- 050179 | Tintura de iodo
+- 050180 | Peptonas para uso farmacêutico
+- 050181 | Iodofórmio
+- 050182 | Musgo irlandês para uso medicinal
+- 050182 | Carragena para uso medicinal
+- 050183 | Jalapa [vegetal]
+- 050184 | Jujubas medicinais
+- 050185 | Alcaçuz para uso farmacêutico
+- 050186 | Extratos de tabaco [inseticidas]
+- 050187 | Fermentos lácticos para uso farmacêutico
+- 050188 | Bebidas de leite maltado para uso medicinal
+- 050189 | Produtos para lavar animais [inseticidas]
+- 050190 | Farinha de linhaça para uso farmacêutico
+- 050190 | Flaxseed meal for pharmaceutical purposes
+- 050191 | Loções para uso farmacêutico
+- 050192 | Açúcar de leite para uso farmacêutico
+- 050192 | Lactose para uso farmacêutico
+- 050193 | Produtos para exterminar larvas
+- 050194 | Lêvedo para uso farmacêutico
+- 050195 | Preparações para exterminar lesmas
+- 050196 | Linimentos [ungüentos]
+- 050197 | Lupulina para uso farmacêutico
+- 050198 | Gomas de mascar para uso medicinal
+- 050199 | Casca de mangue para uso farmacêutico
+- 050200 | Calcinhas higiênicas para menstruação
+- 050200 | Calças higiênicas para menstruação
+- 050200 | Sanitary knickers
+- 050200 | Menstruation knickers
+- 050201 | Menta para uso farmacêutico
+- 050202 | Preparações químicas para tratar mofo
+- 050203 | Malte para uso farmacêutico
+- 050204 | Herbicidas
+- 050204 | Weedkillers
+- 050204 | Preparações para destruir ervas daninhas
+- 050205 | Bastões de enxofre [desinfetantes]
+- 050207 | Pomadas para uso medicinal
+- 050208 | Tinturas para uso medicinal
+- 050209 | Soros para fins médicos
+- 050210 | Mentol
+- 050211 | Ungüentos mercuriais
+- 050212 | Substâncias nutritivas para microrganismos
+- 050213 | Culturas de microrganismos para uso medicinal ou veterinário
+- 050214 | Pastilhas para uso farmacêutico
+- 050214 | Lozenges for pharmaceutical purposes
+- 050216 | Veneno para ratos
+- 050217 | Cola para capturar moscas
+- 050217 | Adesivos para capturar moscas
+- 050218 | Preparações para abater moscas
+- 050219 | Mostarda para uso farmacêutico
+- 050220 | Loções para uso veterinário
+- 050221 | Casca de mirabólano para uso farmacêutico
+- 050222 | Preparações químicas para tratar ferrugem em plantas
+- 050222 | Preparações químicas para tratar mangra
+- 050223 | Narcóticos
+- 050224 | Sais aromáticos
+- 050225 | Ungüentos para uso farmacêutico
+- 050226 | Opiáceos
+- 050227 | Ópio para fins médicos
+- 050228 | Opodeldoque
+- 050229 | Preparações para opoterapia
+- 050229 | Preparações para organoterapia
+- 050230 | Amálgamas dentários de ouro
+- 050231 | Pectina para uso farmacêutico
+- 050232 | Absorventes higiênicos internos
+- 050232 | Absorventes internos para menstruação
+- 050234 | Toalhas higiênicas para menstruação
+- 050234 | Absorventes higiênicos externos para menstruação
+- 050234 | Sanitary pads
+- 050236 | Fenol para uso farmacêutico
+- 050237 | Papel para sinapismos
+- 050237 | Papel para cataplasmas de mostarda
+- 050238 | Parasiticidas
+- 050239 | Preparações farmacêuticas para cuidar da pele
+- 050240 | Chás de ervas para uso medicinal
+- 050241 | Preparações farmacêuticas para combate à caspa
+- 050242 | Pepsinas para uso farmacêutico
+- 050243 | Comprimidos para uso farmacêutico
+- 050244 | Estojos de primeiros socorros, abastecidos
+- 050245 | Fosfatos para uso farmacêutico
+- 050246 | Preparações químicas para tratar filoxera
+- 050247 | Remédios antitranspirantes para os pés
+- 050248 | Plasma sanguíneo
+- 050249 | Venenos
+- 050251 | Sais de potássio para uso medicinal
+- 050252 | Pó de píretro
+- 050253 | Quebracho para uso medicinal
+- 050254 | Quássia para uso medicinal
+- 050255 | Quinquina [quina] para uso medicinal
+- 050255 | Cinchona para uso medicinal
+- 050256 | Quinino para uso medicinal
+- 050257 | Quinoleína para uso medicinal
+- 050258 | Substâncias radioativas para uso medicinal
+- 050259 | Rádio para uso medicinal
+- 050260 | Raízes medicinais
+- 050261 | Raízes de ruibarbo para uso farmacêutico
+- 050262 | Tônicos [medicamento]
+- 050263 | Subnitrato de bismuto [nitrato básico de bismuto] para uso farmacêutico
+- 050264 | Salsaparrilha para uso medicinal
+- 050265 | Sangue para uso medicinal
+- 050266 | Sanguessugas para uso medicinal
+- 050267 | Escapulários para uso cirúrgico
+- 050268 | Sedativos
+- 050268 | Tranqüilizantes
+- 050269 | Ergotina para uso farmacêutico
+- 050270 | Medicamentos soroterápicos
+- 050271 | Emplastros de mostarda
+- 050271 | Cataplasmas de mostarda
+- 050271 | Sinapismos
+- 050272 | Preparações para esterilização do solo
+- 050272 | Soil-sterilising preparations
+- 050273 | Soporíferos
+- 050274 | Sais de sódio para uso medicinal
+- 050275 | Preparações para esterilização
+- 050275 | Sterilising preparations
+- 050276 | Estricnina
+- 050277 | Substâncias hemostáticas [estípticos]
+- 050278 | Açúcar para uso medicinal
+- 050279 | Sulfonamidas [medicamentos]
+- 050280 | Supositórios
+- 050281 | Tártaro para uso farmacêutico
+- 050282 | Terebintina para uso farmacêutico
+- 050283 | Óleo de terebintina para uso farmacêutico
+- 050284 | Timol para uso farmacêutico
+- 050285 | Remédios contra transpiração
+- 050286 | Papel antitraça
+- 050286 | Mothproof paper
+- 050287 | Preparações veterinárias
+- 050288 | Preparações químicas para tratar doenças da vinha
+- 050289 | Preparações para destruir pragas
+- 050290 | Vesicantes
+- 050291 | Acetatos para uso farmacêutico
+- 050292 | Ácidos para uso farmacêutico
+- 050294 | Fitas adesivas para uso medicinal
+- 050294 | Adhesive bands for medical purposes
+- 050296 | Alcaloides para uso medicinal
+- 050297 | Alimentos dietéticos adaptados para uso medicinal
+- 050298 | Alimentos para bebês
+- 050299 | Acetato de alumínio para uso farmacêutico
+- 050300 | Leite de amêndoas para uso farmacêutico
+- 050301 | Ungüentos para queimaduras de sol
+- 050302 | Sais de banho para uso medicinal
+- 050303 | Bastões de alcaçuz para uso farmacêutico
+- 050304 | Bicarbonato de sódio para uso farmacêutico
+- 050305 | Preparações biológicas para uso medicinal
+- 050306 | Bromo para uso farmacêutico
+- 050307 | Bebidas dietéticas adaptadas para uso medicinal
+- 050308 | Óleo de cânfora para uso medicinal
+- 050309 | Cânfora para uso medicinal
+- 050310 | Açúcar-cande para uso medicinal
+- 050310 | Açúcar de farmácia para uso medicinal
+- 050311 | Carbolineum [parasiticida]
+- 050312 | Algicidas
+- 050313 | Lecitina para uso medicinal
+- 050314 | Gases para uso medicinal
+- 050315 | Protetores para calcinha [produtos higiênicos]
+- 050316 | Geleia real para uso farmacêutico
+- 050317 | Preparações medicinais para emagrecimento
+- 050318 | Ésteres de celulose para uso farmacêutico
+- 050319 | Cáusticos para uso farmacêutico
+- 050320 | Éteres de celulose para uso farmacêutico
+- 050321 | By-products of the processing of cereals for dietetic or medical purposesSubprodutos do processamento de grãos de cereais para fins dietéticos ou medicinais
+- 050323 | Preparações químicas para uso farmacêutico
+- 050324 | Colódio para uso farmacêutico
+- 050325 | Creme de tártaro para uso farmacêutico
+- 050326 | Creosoto para uso farmacêutico
+- 050327 | Medicamentos para uso odontológico
+- 050328 | Medicamentos para uso humano
+- 050329 | Medicamentos para uso veterinário
+- 050330 | Preparações para diagnóstico para uso medicinal
+- 050331 | Glicerina para uso medicinal
+- 050332 | Bebidas medicinais
+- 050333 | Fermentos para uso farmacêutico
+- 050334 | Flores de enxofre para uso farmacêutico
+- 050335 | Formaldeído para uso farmacêutico
+- 050336 | Ervas para fumar para uso medicinal
+- 050337 | Inalantes para fins médicos
+- 050338 | Ácido gálico para uso farmacêutico
+- 050339 | Geleia de petróleo para uso medicinal
+- 050340 | Glicose para uso medicinal
+- 050341 | Gomas-gutas para uso medicinal
+- 050342 | Bálsamo de gurjun para uso medicinal
+- 050343 | Extratos de lúpulo para uso farmacêutico
+- 050344 | Óleo de rícino para uso medicinal
+- 050345 | Peróxido de hidrogênio para uso medicinal
+- 050346 | Iodo para uso farmacêutico
+- 050347 | Iodetos para uso farmacêutico
+- 050348 | Iodetos alcalinos para uso farmacêutico
+- 050349 | Isótopos para uso medicinal
+- 050350 | Substâncias dietéticas adaptadas para uso medicinal
+- 050351 | Fraldas higiênicas para pessoas com incontinência
+- 050361 | Preparações biológicas para uso veterinário
+- 050362 | Preparações químicas para uso medicinal
+- 050363 | Preparações químicas para uso veterinário
+- 050364 | Chemical reagents for medical or veterinary purposesReagentes químicos para uso medicinal ou veterinário
+- 050365 | Preparações para limpeza de lentes de contato
+- 050366 | Diástase para uso medicinal
+- 050367 | Fibras alimentares
+- 050367 | Dietary fiber
+- 050368 | Enzimas para uso medicinal
+- 050369 | Enzimas para uso veterinário
+- 050370 | Preparações enzimáticas para uso medicinal
+- 050371 | Preparações enzimáticas para uso veterinário
+- 050372 | Calças absorventes para pessoas com incontinência
+- 050373 | Sicativos [agentes secantes] para uso medicinal
+- 050374 | Lenços impregnados com loções farmacêuticas
+- 050375 | Preparações de elementos traço para uso humano ou animal
+- 050376 | Aminoácidos para uso medicinal
+- 050377 | Aminoácidos para uso veterinário
+- 050378 | Protetores para seios [amamentação]
+- 050379 | Cedro para uso como repelente de insetos
+- 050380 | Desinfetantes para banheiros químicos
+- 050381 | Farinha de peixe para uso farmacêutico
+- 050382 | Suplementos alimentares minerais
+- 050383 | Enxaguantes bucais para uso medicinal
+- 050384 | Suplementos nutricionais
+- 050385 | Cimento ósseo para usos cirúrgico e ortopédico
+- 050385 | Bone cement for surgical and orthopedic purposes
+- 050386 | Incenso repelente de insetos
+- 050387 | Acaricidas
+- 050388 | Antibióticos
+- 050389 | Moderadores de apetite para uso medicinal
+- 050390 | Preparações broncodilatadoras
+- 050391 | Protetores para joanetes
+- 050392 | Molesquim [tecido de algodão] para uso medicinal
+- 050392 | Fustão de algodão para uso medicinal
+- 050393 | Produtos para lavagem vaginal de uso médico
+- 050394 | Preparações medicinais para crescimento do cabelo
+- 050395 | Esteróides
+- 050396 | Adjuvantes para uso medicinal
+- 050397 | Implantes cirúrgicos com tecidos vivos
+- 050398 | Tapa-olhos para uso medicinal
+- 050399 | Oxigênio para fins medicinais
+- 050400 | Desodorantes para roupas e materiais têxteis
+- 050401 | Preparações para desodorizar ambientes
+- 050401 | Air deodorising preparations
+- 050402 | Preparações para higiene íntima para fins medicinais
+- 050403 | Células-tronco para fins medicinais
+- 050404 | Células-tronco para fins veterinários
+- 050405 | Cultura de tecido biológico para fins medicinais
+- 050406 | Cultura de tecido biológico para fins veterinários
+- 050407 | Sprays refrescantes para uso medicinal
+- 050408 | Lubrificantes sexuais
+- 050409 | Preparações de aloe vera para uso farmacêutico
+- 050409 | Preparações de babosa para uso farmacêutico
+- 050410 | Pó de pérola para uso medicinal
+- 050411 | Preparações para diminuir a atividade sexual
+- 050412 | Fraldas para bebês
+- 050412 | Babies' napkins
+- 050413 | Fraldas-calças para bebês
+- 050413 | Babies' napkin-pants
+- 050414 | Preparações para lavagem dos olhos para uso medicinal
+- 050415 | Pílulas de inibidor de apetite
+- 050416 | Pílulas para emagrecimento
+- 050417 | Pílulas para bronzeamento
+- 050418 | Pílulas antioxidantes
+- 050419 | Suplementos alimentares para animais
+- 050420 | Suplementos alimentares de albumina
+- 050421 | Suplementos alimentares de linhaça
+- 050421 | Flaxseed dietary supplements
+- 050422 | Suplementos alimentares de óleo de linhaça
+- 050422 | Flaxseed oil dietary supplements
+- 050423 | Suplementos alimentares de germe de trigo
+- 050424 | Suplementos alimentares de levedura
+- 050425 | Suplementos alimentares de geleia real
+- 050426 | Própolis para fins farmacêuticos
+- 050427 | Suplementos alimentares de própolis
+- 050428 | Suplementos alimentares de pólen
+- 050429 | Suplementos alimentares de enzimas
+- 050430 | Suplementos alimentares de glicose
+- 050431 | Suplementos alimentares de lecitina
+- 050432 | Suplementos alimentares de alginatos
+- 050433 | Alginatos para uso farmacêutico
+- 050434 | Suplementos alimentares de caseína
+- 050435 | Suplementos alimentares de proteína
+- 050436 | Suplementos de proteína para animais
+- 050437 | Papel reagente para uso médico
+- 050438 | Álcool para uso farmacêutico
+- 050439 | Pesticidas
+- 050440 | Fraldas para animais de estimação
+- 050441 | Desinfetantes
+- 050442 | Colas cirúrgicas
+- 050443 | Diagnostic biomarker reagents for medical purposesReagentes biomarcadores de diagnóstico para uso medicinal
+- 050444 | Preparações para tratamento da acne
+- 050445 | Ração [forragem], com medicação, para fins veterinários
+- 050446 | Preparações diagnósticas para fins veterinários
+- 050447 | Hastes com pontas de algodão para fins médicos
+- 050447 | Cotton sticks for medical purposes
+- 050448 | Fórmula infantil [preparações alimentares para bebês]
+- 050448 | Leite artificial para bebês
+- 050449 | Leite em pó para bebês
+- 050450 | Transplantes [tecidos vivos]
+- 050451 | Colágeno para fins médicos
+- 050452 | Extratos de plantas para fins farmacêuticos
+- 050453 | Produtos farmacêuticos
+- 050454 | Preparações de microrganismos para uso medicinal ou veterinário
+- 050455 | Preparações fitoterápicas para fins medicinais
+- 050456 | Extratos de ervas para fins medicinais
+- 050457 | Géis para estimulação sexual
+- 050458 | Imunoestimulantes
+- 050459 | Preparações nutracêuticas para fins medicinais ou terapêuticos
+- 050460 | Freeze-dried food adapted for medical purposes
+- 050460 | Comida liofilizada, adaptada para fins medicinais
+- 050460 | Lyophilised food adapted for medical purposes
+- 050461 | Comida homogeneizada para fins medicinais
+- 050461 | Homogenised food adapted for medical purposes
+- 050462 | Seringas pré-abastecidas para fins medicinais
+- 050463 | Freeze-dried meat adapted for medical purposes
+- 050463 | Carne liofilizada adaptada para fins medicinais
+- 050463 | Lyophilised meat adapted for medical purposes
+- 050464 | Papéis reagentes para fins veterinários
+- 050465 | Adstringentes para fins medicinais
+- 050466 | Dentifrícios medicamentosos
+- 050467 | Preparações para tratamento contra piolhos [pediculicida]
+- 050468 | Xampus contra piolhos
+- 050469 | Xampus inseticidas para animais
+- 050470 | Banhos de uso veterinário com propriedades inseticidas
+- 050471 | Sabonete antibacteriano
+- 050472 | Loções antibacterianas para lavagem das mãos
+- 050473 | Loções pós-barba medicinais
+- 050474 | Xampus medicinais
+- 050475 | Preparações medicinais de toucador
+- 050476 | Loções capilares medicinais
+- 050477 | Xampus a seco medicinais
+- 050478 | Xampus medicinais para animais de estimação
+- 050479 | Sabão desinfetante
+- 050480 | Sabonete medicinal
+- 050481 | Velas de massagem para fins terapêuticos
+- 050482 | Suplementos alimentares à base de pó de açaí
+- 050483 | Adesivos transdérmicos com suplementos vitamínicos
+- 050484 | Suplementos alimentares com efeito cosmético
+- 050485 | Gomas de mascar de nicotina para auxílio no abandono do tabagismo
+- 050486 | Adesivos transdérmicos de nicotina para auxílio no abandono do tabagismo
+- 050487 | Capsules made of dendrimer-based polymers, for pharmaceuticalsCápsulas feitas de polímero à base de dendrímeros, para preparações farmacêuticas
+- 050488 | Preparações químicas para tratar doenças de plantas cerealíferas
+- 050489 | Enchimentos cutâneos injetáveis
+- 050489 | Preenchimentos dérmicos injetáveis
+- 050490 | Pulseiras impregnadas com repelentes de insetos
+- 050491 | Pasta de dentes medicamentosa
+- 050492 | Gel de massagem para uso medicinal
+- 050493 | Bastões para o alívio da dor de cabeça
+- 050494 | Esponjas contraceptivas
+- 050495 | Fraldas de natação descartáveis para bebês
+- 050495 | Swim nappies, disposable, for babies
+- 050496 | Fraldas de natação reutilizáveis para bebês
+- 050496 | Swim nappies, reusable, for babies
+- 050497 | Colchonetes, descartáveis, para a troca de fraldas de bebês
+- 050497 | Nappy changing mats, disposable, for babies
+- 050498 | Produtos para preenchimento de cavidades ósseas compostos por tecidos vivos
+- 050499 | Cilindros de oxigênio, cheios, para fins medicinais
+- 050500 | Cannabis para uso medicinal
+- 050500 | Maconha para uso medicinal
+- 050501 | Desodorizantes para caixas de areia
+- 050501 | Deodorisers for litter trays
+- 050502 | Desodorizantes aromáticos para toaletes
+- 050502 | Aromatic deodorisers for toilets
+- 050503 | Diagnostic strips for testing breast milk for medical purposesTiras de diagnóstico para testar leite materno para fins medicinais
+- 050504 | Suplementos alimentares de proteína de soro do leite
+- 050505 | Suplementos alimentares de levedura de cerveja
+- 050506 | Preparações de canabidiol para uso medicinal
+- 050507 | Tetrahidrocanabinol [thc] para uso medicinal
+- 050508 | Chá para banho para fins terapêuticos
+- 050509 | Tapetes higiênicos descartáveis para forrar colchonetes para animais de estimação
+- 050509 | Disposable absorbent pads for lining pet crates
+- 050510 | Anti-inflamatórios
+- 050511 | Tapetes higiênicos descartáveis para adestrar animais de estimação
+- 050511 | Disposable house training pads for pets
+- 050512 | Rolos de moxa para moxabustão
+- 050512 | Bastões de moxa para moxabustão
+- 050513 | Suplementos alimentares para seres humanos
+- 050514 | Wipes impregnated with disinfectants for hygiene purposesLenços impregnados com desinfetantes para uso higiênico
+- 050515 | Hidratantes para a pele enquanto enchimentos cutâneos injetáveis
+- 050516 | Óleo de amêndoas para fins médicos
+- 050517 | Preparações dermatológicas
+- 050518 | Adesivos para mamilos para fins médicos
+- 050519 | Pomada à base de mel para fins médicos
+- 050520 | Preparações de diagnóstico para fins medicinais, para uso em laboratórios médicos
+- 050521 | Pré-envoltórios [underwrap] para fitas atléticas
+- 050522 | Adesivos impregnados com preparações para tratamento da acne
+- 050523 | Bolsas de nicotina para auxílio no abandono do tabagismo
+- 050523 | Sachês de nicotina para auxílio no abandono do tabagismo
+- 050523 | Saquinhos de nicotina para auxílio no abandono do tabagismo
+- 050524 | Filmes impregnados para tratamento de queimaduras
+- 050525 | Óleos de aromaterapia
+- 050526 | Cremes de aromaterapia
+- 050527 | Água floral para fins medicinais
+- 050528 | Géis de hialuronato de sódio para fins médicos
+- 050529 | Suplementos alimentares de colostro
+- 050530 | Preparações de nicotina para uso como auxiliares para parar de fumar
+- 050531 | Corantes fluorescentes para fins médicos

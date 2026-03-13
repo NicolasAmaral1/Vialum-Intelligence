@@ -1,0 +1,550 @@
+# Classe NCL 06
+
+Especificações pré-especificadas (Português):
+
+- 060001 | Aço, bruto ou semitrabalhado
+- 060002 | Ligas de aço
+- 060003 | Cintas de aço
+- 060003 | Folhas de aço
+- 060004 | Fios de aço
+- 060005 | Aço fundido
+- 060006 | Mastros de aço
+- 060009 | Venezianas de aço
+- 060010 | Chapas de aço
+- 060011 | Tubos de aço
+- 060011 | Canos de aço
+- 060012 | Prendedores de metal para correias de máquinas
+- 060013 | Agulhas para estradas de ferro
+- 060013 | Agulhas para linhas férreas
+- 060014 | Bocais/bicos* de metal
+- 060016 | Prata níquel
+- 060016 | Prata alemã [alpaca]
+- 060017 | Alumínio
+- 060018 | Bronze
+- 060019 | Fios de alumínio
+- 060020 | Chapas para ancoragem
+- 060020 | Tie plates
+- 060021 | Dosadores de metal
+- 060022 | Lingüetas de metal
+- 060023 | Mastros de metal
+- 060024 | Varas de metal
+- 060025 | Armadilhas para animais selvagens *
+- 060026 | Cintas de metal para sustentação de cargas
+- 060026 | Harness of metal for handling loads
+- 060027 | Metal antifricção
+- 060028 | Protetores de metal para árvores
+- 060029 | Cofres de dinheiro [metálicos ou não metálicos]
+- 060030 | Soldadura de prata
+- 060032 | Liga de estanho prateado
+- 060033 | Materiais de metal para reforço de concreto
+- 060034 | Cofres-fortes [metálicos ou não metálicos]
+- 060034 | Strongboxes [metal or non-metal]
+- 060035 | Travas de metal para janelas
+- 060036 | Travas de metal para portas
+- 060037 | Anilhos [arruelas] de metal
+- 060038 | Rings of metal* Anéis de metal*
+- 060038 | Anéis de parada de metal
+- 060039 | Gonzos de metal
+- 060040 | Pisos de metal
+- 060041 | Arame farpado
+- 060042 | Barras de metal para balaustradas
+- 060043 | Berílio [glucínio]
+- 060043 | Glucínio [berílio]
+- 060044 | Correntes para gado
+- 060045 | Bigornas de encaixe
+- 060045 | Bick-irons
+- 060046 | Metal branco
+- 060047 | Chapas de metal para blindagem
+- 060047 | Armor-plating of metal
+- 060048 | Fechos de metal para caixa
+- 060049 | Parafusos de metal para uso com porcas
+- 060050 | Bottles [containers] of metal for compressed gas or liquid airGarrafas [recipientes] de metal para gás comprimido ou ar líquido
+- 060051 | Pulseiras de metal para identificação
+- 060052 | Chapas grossas de ferro
+- 060053 | Ligas para brasagem
+- 060054 | Flanges [cintas] de metal
+- 060055 | Monumentos de bronze para túmulos
+- 060055 | Monumentos fúnebres de bronze para túmulos
+- 060056 | Bronzes [obras de arte]
+- 060057 | Cabos teleféricos
+- 060058 | Cordagem de metal para cabos
+- 060059 | Junções de metal para cabos, não elétricas
+- 060059 | Uniões de metal para cabos, não elétricas
+- 060061 | Cádmio
+- 060062 | Cadeados de metal, não eletrônicos
+- 060063 | Calços
+- 060064 | Ponteiras de metal para bengalas
+- 060065 | Recipientes de metal para armazenar ácidos
+- 060066 | Cofres de segurança
+- 060067 | Celtium [hafnium]
+- 060067 | Háfnio
+- 060068 | Correntes de metal *
+- 060071 | Correntes de metal de segurança
+- 060073 | Elos de metal para correntes
+- 060074 | Caixilhos de metal para construção
+- 060075 | Roldanas de metal para janelas
+- 060075 | Roldanas de metal para caixilho de janela
+- 060076 | Dutos de metal para instalações de aquecimento central
+- 060076 | Canos de metal para instalações de aquecimento central
+- 060076 | Ducts and pipes of metal for central heating installationsDutos e canos de metal para instalações de aquecimento central
+- 060077 | Cravos de ferraduras
+- 060078 | Cavilhas de metal
+- 060078 | Dowels of metal
+- 060078 | Pins [pegs] of metal
+- 060079 | Cromo
+- 060080 | Cromato de ferro
+- 060080 | Cromita
+- 060081 | Minério de cromo [cromita]
+- 060082 | Chavetas de metal [contrapinos]
+- 060082 | Contrapinos de metal[chavetas]
+- 060083 | Chaves de metal
+- 060085 | Pregos de metal
+- 060086 | Pregos pequenos sem cabeça metálicos
+- 060086 | Tachas pequenas sem cabeça metálicas
+- 060087 | Buchas de metal
+- 060088 | Cobalto bruto
+- 060089 | Materiais de metal para linhas férreas
+- 060090 | Colunas metálicas para edificações
+- 060091 | Canos de metal para água
+- 060092 | Mangas [ferragem de metal]
+- 060093 | Latas
+- 060093 | Latas para conservas
+- 060094 | Contêineres de metal [armazenagem, transporte]
+- 060095 | Contratrilhos de metal
+- 060095 | Guard rails of metal for railways
+- 060096 | Moldes em forma de concha [fundição]
+- 060096 | Chill-molds [foundry]
+- 060097 | Bigornas
+- 060098 | Rufos de metal para telhados
+- 060099 | Joelhos de metal para canos
+- 060100 | Portas de metal *
+- 060101 | Esticadores de metal para correias
+- 060102 | Ganchos de metal
+- 060102 | Crampons of metal [cramps]
+- 060103 | Cremalheiras de metal
+- 060104 | Cremonas
+- 060105 | Ganchos [ferragens de metal]
+- 060106 | Guarnições de metal para janelas
+- 060108 | Fios de metal comum
+- 060109 | Cobre, bruto ou semitrabalhado
+- 060110 | Anéis de cobre
+- 060111 | Tubos em metal para revestimento de poços
+- 060112 | Containers of metal for compressed gas or liquid airContêineres de metal para gás comprimido ou ar líquido
+- 060113 | Capachos de metal
+- 060114 | Canos de metal para drenagem
+- 060115 | Ferro, bruto ou semitrabalhado
+- 060116 | Talas de junções para trilhos
+- 060118 | Parafusos de metal com rosca soberba
+- 060119 | Embalagens de folha-de-flandres [latas]
+- 060120 | Caixas de correio de metal
+- 060121 | Campainhas metálicas de porta, não elétricas
+- 060122 | Esporas
+- 060123 | Esquadros de metal para construção
+- 060124 | Escadas de metal
+- 060125 | Trancas de metal para janela
+- 060127 | Tubos de metal
+- 060127 | Canos de metal
+- 060129 | Trilhos de metal
+- 060130 | Ferragens de metal para janelas
+- 060131 | Fitas de ferro
+- 060131 | Folhas de ferro em rolo
+- 060132 | Fio de ferro
+- 060133 | Ferro fundido, bruto ou semitrabalhado
+- 060134 | Minério de ferro
+- 060135 | Mecanismos metálicos para fechar portas, não elétricos
+- 060135 | Molas metálicas para fechar portas, não elétricas
+- 060136 | Ferromolibdênio
+- 060137 | Ferrosilício
+- 060138 | Titanium iron
+- 060138 | Ferrotitânio
+- 060139 | Ferrotungstênio
+- 060140 | Ferragens para construção
+- 060140 | Ferragens para edificações
+- 060141 | Cavilhas [ferragens metálicas]
+- 060143 | Olhais [ferragens metálicas]
+- 060143 | Screw rings
+- 060144 | Trancas de metal, exceto elétricas
+- 060145 | Galena [minério]
+- 060146 | Selos de chumbo
+- 060147 | Germânio
+- 060148 | Cata-ventos de metal
+- 060148 | Wind vanes of metal
+- 060148 | Weather vanes of metal
+- 060149 | Grampos para escalada
+- 060150 | Fôrmas de metal para gelo
+- 060151 | Bicos de lubrificação
+- 060152 | Grades de metal
+- 060152 | Grilles of metal
+- 060153 | Fechos de molas
+- 060154 | Índio
+- 060155 | Emblemas de metal para veículos
+- 060156 | Gelosias [venezianas] de metal
+- 060157 | Latão, bruto ou semitrabalhado
+- 060158 | Persianas externas de metal
+- 060159 | Rampas de metal para lançamento de foguetes
+- 060160 | Ripas de metal
+- 060161 | Limalhas
+- 060162 | Vigas de metal para escadas
+- 060163 | Limonito
+- 060164 | Lingotes de metal comum
+- 060165 | Lintéis de metal
+- 060166 | Rodízios de metal para camas
+- 060167 | Trincos de metal
+- 060168 | Lingotes [metalurgia]
+- 060169 | Magnésio
+- 060170 | Construções transportáveis de metal
+- 060172 | Virolas de metal para cabos [empunhaduras]
+- 060173 | Mangas de engate metálicas para canos
+- 060173 | Virolas metálicas para canos
+- 060174 | Manganês
+- 060175 | Paletes de metal para manuseio
+- 060176 | Paletes de metal para transporte de carga
+- 060177 | Degraus de metal
+- 060179 | Marquises [estruturas] de metal
+- 060180 | Batentes de portas, de metal
+- 060181 | Algemas
+- 060182 | Metais comuns, brutos ou semitrabalhados
+- 060183 | Minérios de metal
+- 060184 | Tecidos de fios de metal
+- 060184 | Wire gauze
+- 060185 | Metais pirofóricos
+- 060187 | Rodízios de metal para móveis
+- 060188 | Pranchas de metal [folhas]
+- 060188 | Pilings of metal
+- 060189 | Molibdênio
+- 060190 | Monumentos de metal
+- 060191 | Tenazes [ferragem de metal]
+- 060192 | Revestimentos de parede em placas metálicas para construção
+- 060193 | Níquel
+- 060194 | Nióbio
+- 060195 | Rufos de metal para construção
+- 060196 | Números de metal para casas, não luminosos
+- 060197 | Venezianas de metal
+- 060198 | Paliçadas de metal [tapumes]
+- 060199 | Cestos de metal
+- 060200 | Signalling panels, non-luminous and non-mechanical, of metalPainéis sinalizadores, não luminosos e não mecânicos, de metal
+- 060201 | Revestimentos metálicos de parede para construção
+- 060202 | Cabides de metal para vestuário
+- 060203 | Rinques de patinação [construções], em metal
+- 060204 | Lingüetas de fechaduras
+- 060205 | Postes de metal
+- 060206 | Molas [ferragens de metal]
+- 060207 | Roldanas de metal, exceto para máquinas
+- 060208 | Cavilhas [estacas] de metal para tendas
+- 060209 | Tetos de metal
+- 060210 | Assoalhos de metal
+- 060211 | Revestimento de metal para construções e edificações
+- 060211 | Revestimento de metal para edificações
+- 060212 | Placas giratórias [estrada de ferro]
+- 060213 | Telhas de metal
+- 060214 | Chumbo, bruto ou semitrabalhado
+- 060215 | Trampolins de metal
+- 060216 | Maçanetas de metal para portas
+- 060217 | Rebites de metal
+- 060218 | Portões de metal
+- 060219 | Painéis de metal para portas
+- 060220 | Fecho de metais para portas
+- 060221 | Argolas de metal comum para chaves
+- 060222 | Postes telegráficos de metal
+- 060223 | Zinco
+- 060224 | Vigas de metal
+- 060224 | Girders of metal
+- 060225 | Traves [vigas] de metal
+- 060226 | Plataformas, pré-fabricadas, de metal
+- 060227 | Ferragens de metal, pequenas *
+- 060227 | Hardware of metal, small
+- 060228 | Road signs, non-luminous and non-mechanical, of metalPlacas sinalizadoras para estrada, exceto luminosas e mecânicas, de metal
+- 060229 | Conexões de metal para canos
+- 060230 | Tensores de fios de metal [tirantes de tensão]
+- 060231 | Recipientes de metal para embalagem
+- 060232 | Tanques de metal [recipientes]
+- 060232 | Reservatórios de metal
+- 060233 | Soleiras de metal
+- 060235 | Signs, non-luminous and non-mechanical, of metalSinais, não luminosos e não mecânicos, de metal
+- 060236 | Estufas transportáveis de metal
+- 060237 | Fechaduras de metal para veículos
+- 060238 | Batentes de metal
+- 060239 | Silos de metal
+- 060240 | Sinos para animais
+- 060241 | Bells* Sinos*
+- 060242 | Fios de metal para soldar
+- 060243 | Válvulas de metal, exceto peças de máquinas
+- 060244 | Estátuas de metal comum
+- 060245 | Dormentes de metal para linhas férreas
+- 060245 | Dormentes de metal para estradas de ferro
+- 060246 | Tântalo [metal]
+- 060247 | Fechos
+- 060248 | Bigornas [portáteis]
+- 060249 | Tirantes de tensão [tensores]
+- 060251 | Titânio
+- 060252 | Telhados de metal
+- 060253 | Tombac [liga]
+- 060254 | Túmulos de metal
+- 060255 | Catracas [borboletas] de metal, não automáticas
+- 060256 | Treliça de metal
+- 060256 | Trellis of metal
+- 060257 | Tungstênio
+- 060258 | Encanamento de metal
+- 060259 | Vanádio
+- 060260 | Janelas de batente metálicas
+- 060262 | Virolas
+- 060263 | Aviários de metal [estruturas]
+- 060264 | Zircônio
+- 060265 | Esferas de aço
+- 060266 | Construções de aço
+- 060267 | Armaduras de metal para dutos de ar comprimido
+- 060268 | Fios de ligas de metal comum, exceto fusíveis
+- 060269 | Ligas de metal comum
+- 060270 | Folhas de alumínio
+- 060271 | Estacas de metal para amarração
+- 060272 | Cais flutuantes de metal para amarração de barcos
+- 060273 | Âncoras *
+- 060274 | Lambris de metal
+- 060275 | Materiais de metal para reforço de canos
+- 060276 | Materiais de metal para reforço de construção
+- 060277 | Materiais de metal para reforço de correias de máquinas
+- 060278 | Obras de arte de metal comum
+- 060279 | Recipientes de metal para misturar argamassa
+- 060280 | Banheiras para aves [estruturas de metal]
+- 060282 | Balizas de metal, não luminosas
+- 060284 | Esticadores de fitas de ferro [tirantes de tensão]
+- 060285 | Fitas de metal para atar
+- 060285 | Wrapping or binding bands of metal
+- 060286 | Fios de metal para atar
+- 060287 | Barris de metal
+- 060288 | Cintas de metal para barris
+- 060289 | Tonéis de metal
+- 060290 | Piscinas [estruturas de metal]
+- 060291 | Materiais de metal para construção
+- 060291 | Materiais de metal para construção
+- 060292 | Armaduras de metal para sustentação de concreto
+- 060293 | Instalações de metal para estacionar bicicletas
+- 060294 | Blocos de metal para pavimentação
+- 060295 | Caixas de metal comum
+- 060296 | Batoques de metal
+- 060296 | Tampões de metal
+- 060297 | Tampas de metal para vedação
+- 060298 | Fivelas de metal comum [ferragem]
+- 060299 | Tampas de metal para vedação de garrafas
+- 060300 | Fechos de metal para garrafas
+- 060300 | Bottle fasteners of metal
+- 060301 | Maçanetas de metal
+- 060302 | Varetas de metal para brasagem
+- 060303 | Varetas de metal para brasagem e soldagem
+- 060304 | Varetas de metal para soldagem
+- 060305 | Correias de metal para manuseio de cargas
+- 060305 | Belts of metal for handling loads
+- 060306 | Lingas de metal para manuseio de cargas
+- 060307 | Bustos de metal comum
+- 060308 | Cabines de metal para banho
+- 060310 | Cabines de metal para pintura com pistola
+- 060310 | Booths of metal for spraying paint
+- 060311 | Cabos de metal, não elétricos
+- 060312 | Cintas de metal para prender canos
+- 060312 | Grampos de metal de parede para prender canos
+- 060312 | Grampos de metal para prender canos
+- 060313 | Abraçadeiras de metal para cabos ou tubos
+- 060313 | Grampos de metal para cabos ou tubos
+- 060314 | Parafusos de metal para cabos
+- 060315 | Caixilhos de metal para janelas
+- 060316 | Caixilhos de metal para estufa
+- 060317 | Estrados de metal para pisos
+- 060318 | Coberturas de metal para chaminés
+- 060319 | Cintas de metal para uso agrícola
+- 060320 | Dispositivos metálicos não elétricos para abrir portas
+- 060321 | Ladrilhos de metal para construção
+- 060322 | Ladrilhos de metal
+- 060323 | Jazigos de metal
+- 060324 | Guarnições de metal para caixões
+- 060325 | Paletes [plataformas] de metal para carga
+- 060326 | Bitolas de metal para medida de carga em vagões de trem
+- 060326 | Bitolas de metal para medidas de carga em vagões de trem
+- 060327 | Dobradiças de metal
+- 060328 | Vigas de metal para construção civil
+- 060329 | Batentes de metal para porta
+- 060329 | Door casings of metal
+- 060330 | Materials of metal for funicular railway permanent waysMateriais de metal para funiculares fixos de ferrovias
+- 060331 | Capuzes de metal para chaminés
+- 060332 | Calhas de metal para telhados
+- 060332 | Canaletas de metal para telhados
+- 060335 | Tubos de metal para drenagem [válvulas]
+- 060336 | Divisórias de metal
+- 060337 | Revestimentos de metal para poços de petróleo
+- 060338 | Recipientes de metal para combustível líquido
+- 060339 | Construções de metal
+- 060340 | Contêineres flutuantes de metal
+- 060341 | Cordas de metal
+- 060343 | Cornijas de metal
+- 060344 | Molduras de metal para cornijas
+- 060344 | Moldings of metal for cornices
+- 060345 | Cantoneiras de metal
+- 060346 | Janelas de metal
+- 060347 | Ferragens para portas
+- 060348 | Rodízios de metal para portas corrediças
+- 060349 | Tampas de metal para alçapões
+- 060350 | Coberturas de metal para telhados
+- 060351 | Ganchos de metal para telhas de ardósia
+- 060352 | Ganchos de metal para cabideiros de roupas
+- 060353 | Fios de cobre não isolados
+- 060354 | Cubas de metal
+- 060355 | Degraus de metal para escadas
+- 060356 | Canos de metal para escoamento de águas
+- 060356 | Canos de metal para calhas
+- 060357 | Reels of metal, non-mechanical, for flexible hosesCarretéis não mecânicos de metal para mangueiras flexíveis
+- 060358 | Dispensadores de toalha metálicos
+- 060359 | Válvulas de metal para canos de água
+- 060360 | Andaimes de metal
+- 060361 | Escadas [portáteis] de metal
+- 060362 | Escadas móveis de metal para embarque de passageiros
+- 060363 | Abraçadeiras de metal
+- 060364 | Porcas de metal
+- 060365 | Postes de metal para linhas de transmissão de energia
+- 060365 | Poles of metal for power lines
+- 060366 | Canos de metal para ramificação
+- 060367 | Cercaduras de metal para túmulos
+- 060368 | Cercas de metal
+- 060370 | Sinalizadores de metal
+- 060372 | Escoras de metal
+- 060373 | Estanho
+- 060374 | Folha-de-flandres
+- 060375 | Folha de estanho
+- 060376 | Chapas e placas de metal
+- 060379 | Fechos de metal para maletas
+- 060380 | Guarnições de metal para móveis
+- 060381 | Painéis de metal para construção
+- 060382 | Figuras de metal comum
+- 060382 | Estatuetas de metal comum
+- 060383 | Esticadores de tensão para fios de metal [tirantes de tensão]
+- 060384 | Moldes de metal para fundição
+- 060384 | Foundry molds of metal
+- 060385 | Lajes funerárias de metal
+- 060385 | Lápides de metal
+- 060386 | Monumentos de metal para túmulos
+- 060387 | Placas de metal para túmulos
+- 060388 | Estelas funerárias de metal
+- 060389 | Placas comemorativas de metal
+- 060390 | Guarda-fogos de metal para fornos
+- 060391 | Suportes de metal para pipas [tonel]
+- 060393 | Guarnições de metal para camas
+- 060394 | Guarnições de metal para portas
+- 060395 | Fechos de metal para recipientes
+- 060396 | Ataduras de metal para feixes
+- 060397 | Cercas de segurança de metal para ruas e estradas
+- 060398 | Baús de metal
+- 060398 | Recipientes de metal
+- 060399 | Placas de metal para identificação
+- 060399 | Identity plates of metal
+- 060400 | Placas de metal para licenciamento de veículos
+- 060400 | Numberplates of metal
+- 060401 | Cermet
+- 060402 | Torneiras de metal para pipas
+- 060402 | Faucets of metal for casks
+- 060411 | Colunas de metal para publicidade
+- 060412 | Boias de metal para ancoragem [amarração]
+- 060413 | Chaminés de metal
+- 060414 | Hastes de metal para chaminés
+- 060415 | Ducts of metal for ventilating and air-conditioning installationsDutos de metal para ventilação e instalações de ar condicionado
+- 060416 | Folhas de metal para embalagem e empacotamento
+- 060417 | Solda de ouro
+- 060418 | Contêineres de metal, não mecânicos
+- 060419 | Letters and numerals of common metal, except typeLetras e algarismos de metal comum, exceto tipos
+- 060420 | Manilhas de metal para encanamentos
+- 060420 | Tubulações de metal para encanamentos
+- 060421 | Condutos forçados [de metal]
+- 060422 | Cabines telefônicas de metal
+- 060422 | Telephone boxes of metal
+- 060423 | Caixas de metal para ferramentas, vazias
+- 060424 | Caixas [baú] de metal tipo gabinete para ferramentas, vazias
+- 060425 | Galinheiros de metal
+- 060426 | Trancas para rodas de veículos
+- 060427 | Cabo de aço
+- 060428 | Telas de metal para mosquiteiro
+- 060430 | Pitões de metal
+- 060431 | Suportes para lenha [trasfogueiro]
+- 060432 | Dispositivos metálicos para repelir aves, acionados pelo vento
+- 060433 | Jaulas de metal para animais selvagens
+- 060434 | Metais em pó*
+- 060435 | Materiais de construção refratários, metálicos
+- 060436 | Pérgulas [construções de metal]
+- 060437 | Estábulos metálicos
+- 060438 | Pocilgas metálicas
+- 060439 | Prefabricated houses [ready-to-assemble] of metalCasas pré-fabricadas [prontas para montar] de metal
+- 060440 | Bandejas de metal*
+- 060441 | Sarjetas metálicas
+- 060442 | Tampas metálicas de rosca para garrafas
+- 060443 | Dispositivos metálicos não elétricos para abrir janelas
+- 060444 | Dispositivos metálicos não elétricos para fechar janelas
+- 060445 | Ladrilhos de metal para paredes
+- 060446 | Lajes de metal
+- 060447 | Lajes de metal para construção
+- 060448 | Escabelos de metal para os pés
+- 060448 | Banquinhos de metal para os pés
+- 060449 | Telhados de metal, contendo células fotovoltaicas
+- 060450 | Portas blindadas de metal
+- 060450 | Armored doors of metal
+- 060451 | Barras de apoio, metálicas, para banheiras
+- 060452 | Dispensadores metálicos de sacos para fezes de cachorro
+- 060453 | Metais em folha ou pó para impressoras 3d
+- 060454 | Fechos de metal para caixilhos de janelas
+- 060455 | Trancas metálicas para portas
+- 060456 | Telhas metálicas em “s” [ing. pantiles]
+- 060457 | Balaústres de metal
+- 060458 | Revestimento de metal para proteção externa de construções
+- 060459 | Barras de aço laminadas a quente
+- 060460 | Barras de aço polidas
+- 060461 | Barras descascadas de metal
+- 060462 | Barras de metal polidas e trefiladas
+- 060463 | Ganchos de metal para pendurar bolsas
+- 060464 | Cantoneiras de metal para móveis
+- 060465 | Etiquetas de metal
+- 060466 | Galões [recipientes] em metal para combustíveis
+- 060467 | Estacas de metal para plantas ou árvores
+- 060468 | Mastros [estruturas] para bandeiras metálicos
+- 060469 | Clipes de metal para fechar pacotes
+- 060470 | Pregos de metal para sapatos
+- 060471 | Tacos de metal para saltos de sapatos
+- 060472 | Cofres eletrônicos
+- 060473 | Portas do tipo camarão metálicas
+- 060474 | Molduras de metal para construção
+- 060474 | Moldings of metal for building
+- 060475 | Cornijas de metal para lareiras
+- 060476 | Rampas de metal para veículos
+- 060477 | Crucifixos de metal comum, exceto joias ou bijuterias
+- 060477 | Crucifixes of common metal, other than jewelry
+- 060478 | Portas do tipo vai e vem metálicas
+- 060479 | Recipientes de metal para drenagem de óleo
+- 060480 | Mastros de bandeira portáteis de metal
+- 060481 | Rolhas de metal
+- 060482 | Portas sanfonadas de metal
+- 060483 | Grelhas metálicas de lareira
+- 060484 | Cabines metálicas de isolamento acústico, transportáveis
+- 060485 | Painéis acústicos metálicos
+- 060486 | Miniestufas metálicas
+- 060486 | Cold frames of metal
+- 060487 | Abraçadeiras para fios, em metal
+- 060487 | Presilhas para fios, em metal
+- 060488 | Waste dumpsters of metal, other than for medical useLixeiras de metal, exceto para uso medicinal
+- 060489 | Taças estatuárias comemorativas de metal comum
+- 060490 | Taças para premiação de metal comum
+- 060491 | Recipientes em metal para reciclagem
+- 060493 | Etiquetas de metal costuradas para vestuário
+- 060494 | Etiquetas adesivas em metal para bolsas
+- 060495 | Pisos laminados de metal
+- 060496 | Dispensadores metálicos de bilhete
+- 060497 | Caixas de metal para fornecer toalhas de papel
+- 060498 | Porta-papel higiênico de metal
+- 060499 | Postigos [janela] de metal
+- 060500 | Redes de proteção feitas de metal para rochas
+- 060501 | Building materials of metal with soundproofing qualitiesMateriais de metal para construção à prova de som
+- 060501 | Construction materials of metal with soundproofing qualities
+- 060502 | Folhas de alumínio para fins culinários
+- 060502 | Aluminum foil for cooking purposes
+- 060503 | Hand-held supermarket shopping baskets of metalCestas de compras metálicas para supermercado
+- 060504 | Estruturas de montagem em metal para painéis solares
+- 060505 | Dustbins of metal, other than for household purposesLatas de lixo de metal, exceto para fins domésticos
+- 060505 | Trash cans of metal, other than for household purposesLixeiras de metal, exceto para fins domésticos
+- 060505 | Refuse bins of metal, other than for household purposes
+- 060505 | Garbage cans of metal, other than for household purposes
+- 060506 | Dispensadores de metal para sabonete
+- 060507 | Engradados de metal [armazenamento, transporte]
+- 060508 | Pranchas/placas de tração em metal para desatolar veículos

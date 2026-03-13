@@ -1,0 +1,165 @@
+# Classe NCL 18
+
+Especificações pré-especificadas (Português):
+
+- 180001 | Bastões para alpinismo
+- 180001 | Bastões de alpinista
+- 180002 | Peles de animais
+- 180002 | Pelts
+- 180003 | Argolas para guarda-chuva
+- 180004 | Armações de selas
+- 180005 | Coleiras de couro
+- 180005 | Leather leads
+- 180006 | Presilhas de selas
+- 180007 | Varetas para guarda-chuva ou guarda-sol de mão
+- 180008 | Película de tripas de bois ou carneiros
+- 180010 | Bolsas
+- 180011 | Bridões
+- 180012 | Correias para equipamento militar
+- 180013 | Pastas para partituras
+- 180014 | Cabos de guarda-chuvas
+- 180015 | Bengalas*
+- 180015 | Canes
+- 180016 | Bengalas-assento
+- 180017 | Freios para animais
+- 180018 | Armações para guarda-chuva ou para guarda-sol de mão
+- 180019 | Bolsas de caça
+- 180020 | Bolsas escolares
+- 180020 | Pastas escolares
+- 180020 | Sacolas escolares
+- 180021 | Porta-cartão
+- 180022 | Cartão-couro [imitação de couro]
+- 180023 | Caixas de couro para chapéus
+- 180025 | Rédeas para cavalos
+- 180026 | Capas para cavalos
+- 180027 | Pele de cabrito
+- 180028 | Focinheira
+- 180030 | Coleiras para animais*
+- 180031 | Cordões de couro
+- 180031 | Cadarços [cordel] de couro
+- 180032 | Peles curtidas
+- 180033 | Correias de arreios
+- 180033 | Harness traces
+- 180034 | Tiras de couro [selaria]
+- 180035 | Correias para patins
+- 180036 | Correias de couro
+- 180036 | Tiras de couro
+- 180038 | Couro curtido
+- 180039 | Couro não trabalhado ou semitrabalhado
+- 180041 | Enfeites de couro para móveis
+- 180041 | Leather trimmings for furniture
+- 180042 | Imitações de couro
+- 180043 | Umbrellas* Guarda-chuva*
+- 180044 | Mochilas à tiracolo para transportar bebês
+- 180045 | Peças de borracha para estribos
+- 180046 | Estribos de couro
+- 180047 | Bolsas de couro para ferramentas, vazias
+- 180049 | Chicotes
+- 180050 | Embornais [saco para alimentação animal]
+- 180051 | Capas de guarda-chuvas
+- 180052 | Bainhas de couro para molas
+- 180052 | Casings, of leather, for plate springs
+- 180053 | Joelheiras para cavalos
+- 180054 | Capas para animais
+- 180055 | Arreios para animais
+- 180056 | Antolhos
+- 180056 | Blinders [harness]
+- 180057 | Tirantes [arreio]
+- 180058 | Mochilas
+- 180058 | Backpacks
+- 180059 | Cabrestos
+- 180059 | Cabrestos para cavalos
+- 180060 | Empunhaduras de bengalas
+- 180060 | Walking cane handles
+- 180061 | Chicote de nove tiras
+- 180062 | Fitas de couro para chapéus
+- 180063 | Molesquim [imitação de couro]
+- 180065 | Armações para bolsas [peças estruturais de bolsas]
+- 180065 | Estruturas para bolsas [peças estruturais de bolsas]
+- 180066 | Sombrinha [guarda-sol de mão]
+- 180067 | Peles
+- 180067 | Fur-skins
+- 180068 | Empunhaduras de guarda-chuvas
+- 180069 | Carteiras de bolso
+- 180070 | Sacolas de compras com rodas
+- 180071 | Sacolas de compras reutilizáveis
+- 180072 | Rédeas
+- 180073 | Maletas para documentos
+- 180074 | Bolsas para alpinistas
+- 180075 | Bolsas para campistas
+- 180076 | Bolsas de praia
+- 180077 | Bolsas de mão
+- 180078 | Bolsas de viagem
+- 180079 | Bags [envelopes, pouches] of leather, for packagingSacos [invólucros, sacolas] de couro, para embalar
+- 180079 | Invólucros de couro para embalagem
+- 180080 | Barrigueiras de couro [montaria]
+- 180081 | Selas para montaria
+- 180082 | Selaria
+- 180083 | Pastas [malas]
+- 180085 | Malas de viagem
+- 180086 | Alças de malas
+- 180086 | Alças de valises
+- 180087 | Válvulas de couro
+- 180088 | Peles de gado
+- 180089 | Caixas de couro ou de cartão-couro
+- 180090 | Bolsas de malhas
+- 180091 | Estojos de couro ou de cartão-couro
+- 180092 | Baús [bagagem]
+- 180093 | Estojos de cosméticos [frasqueiras], vazios
+- 180094 | Chamois leather, other than for cleaning purposesPeles de camurça, exceto para limpeza
+- 180094 | Skins of chamois, other than for cleaning purposes
+- 180096 | Correias de couro usadas a tiracolo
+- 180096 | Leather shoulder straps
+- 180096 | Leather shoulder belts
+- 180097 | Capas de proteção para selas de cavalo
+- 180098 | Caixas de fibra vulcanizada
+- 180098 | Boxes of vulcanized fiber
+- 180100 | Bornais [mochilas]
+- 180111 | Capas protetoras de roupas para viagem
+- 180112 | Freios [arreios]
+- 180113 | Porta-chaves
+- 180114 | Sacolas de rede para compras
+- 180115 | Valises
+- 180116 | Capas de couro para móveis
+- 180117 | Mantas para selas de cavalo
+- 180118 | Bolsas para equipamentos esportivos*
+- 180119 | Estribos
+- 180120 | Componentes de arreios
+- 180121 | Ferraduras
+- 180122 | Slings para carregar bebês
+- 180123 | Bolsas para carregar bebês [slings]
+- 180124 | Bolsas*
+- 180125 | Porta-cartões de crédito [carteiras]
+- 180126 | Porta-cartões de visita
+- 180127 | Randsel [mochila escolar típica japonesa]
+- 180128 | Etiquetas de bagagem
+- 180128 | Baggage tags
+- 180129 | Xairéis para selas de cavalos
+- 180130 | Etiquetas de couro
+- 180131 | Alças porta sacolas de compras
+- 180132 | Tefilin [filactérios]
+- 180133 | Malas com rodinhas
+- 180134 | Saddlebags* Alforjes*
+- 180135 | Roupas para animais de estimação
+- 180136 | Correias para guiar crianças
+- 180137 | Malas motorizadas
+- 180138 | Cubos de compressão para bagagens [bolsas de compressão]
+- 180139 | Pastas para conferências
+- 180139 | Conference portfolios
+- 180140 | Bastões de caminhada
+- 180140 | Bastões de trekking
+- 180141 | Panos de couro
+- 180142 | Mochilas para carregar bebês
+- 180143 | Nécessaires, não adaptadas
+- 180144 | Organizadores para malas de viagem
+- 180144 | Luggage organizers
+- 180145 | Couro vegano
+- 180146 | Etiquetas costuradas de couro para roupas
+- 180147 | Etiquetas adesivas de couro para bolsas
+- 180148 | Dog waste bag dispensers adapted for use with leashesDispensadores de sacos para fezes de cachorros, adaptados para uso com guias
+- 180149 | Imitações de couro à base de micélio
+- 180150 | Estruturas para porta-moedas [peças estruturais de porta-moedas]
+- 180151 | Malas de viagem inteligentes
+- 180152 | Correntes para carteira
+- 180153 | Bastões de caminhada nórdica
+- 180153 | Nordic walking stick

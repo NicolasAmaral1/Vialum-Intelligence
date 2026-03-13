@@ -1,15 +1,17 @@
 # AIOS Task Format Specification V1.0
 
-**Date:** 2025-11-13  
-**Version:** 1.0.0  
-**Status:** Standard  
-**Author:** Brad Frost Cognitive Clone
+
+
+
+**Date:** 2025-11-13**Version:** 1.0.0**Status:** Standard**Author:** Brad Frost Cognitive Clone
+
 
 ---
 
 ## Purpose
 
 This document defines the UNIVERSAL format for AIOS Tasks, ensuring consistency, scalability, and reusability across workflows, executors, and teams.
+
 
 ---
 
@@ -104,6 +106,7 @@ atomic_layer: [Atom | Molecule | Organism | Template | Page | Config | Strategy 
 - updated_at: [YYYY-MM-DD]
 ```
 
+
 ---
 
 ## Field Definitions
@@ -112,35 +115,39 @@ atomic_layer: [Atom | Molecule | Organism | Template | Page | Config | Strategy 
 
 #### 1. `task`
 
-**Type:** `string` (function name)  
-**Required:** ✅ Yes  
-**Format:** `camelCase()` with parentheses
+
+
+**Type:** `string` (function name)**Required:** ✅ Yes**Format:** `camelCase()` with parentheses
 
 **Purpose:** Unique identifier for the task function.
 
 **Validation:**
-- Must be unique across workflow
-- Must be valid JavaScript function name
-- Must end with `()`
+
+* Must be unique across workflow
+* Must be valid JavaScript function name
+* Must end with `()`
 
 **Examples:**
+
 ```yaml
 task: loadFormatConfig()
 task: analyzeBrief()
 task: designCTAComponent()
 ```
 
+
 ---
 
 #### 2. `responsável`
 
-**Type:** `string`  
-**Required:** ✅ Yes  
-**Format:** Free text (role or service name)
+
+
+**Type:** `string`**Required:** ✅ Yes**Format:** Free text (role or service name)
 
 **Purpose:** Human-readable name of the responsible entity.
 
 **Examples:**
+
 ```yaml
 responsável: Creative Director
 responsável: format-loader.js
@@ -148,23 +155,26 @@ responsável: OpenRouter Vision Model
 responsável: Brad Frost Clone
 ```
 
+
 ---
 
 #### 3. `responsavel_type`
 
-**Type:** `enum`  
-**Required:** ✅ Yes  
-**Values:** `Agente | Worker | Humano | Clone`
+
+
+**Type:** `enum`**Required:** ✅ Yes**Values:** `Agente | Worker | Humano | Clone`
 
 **Purpose:** Defines the executor type for orchestration, cost tracking, and error handling.
 
 **Validation:**
-- Must be one of the 4 allowed values
-- Determines execution environment
+
+* Must be one of the 4 allowed values
+* Determines execution environment
 
 **Decision Tree:** See `EXECUTOR-DECISION-TREE.md`
 
 **Examples:**
+
 ```yaml
 responsavel_type: Agente  # AI-powered execution
 responsavel_type: Worker  # Script-based execution
@@ -172,23 +182,27 @@ responsavel_type: Humano  # Manual human execution
 responsavel_type: Clone   # Mind emulation with heuristics
 ```
 
+
 ---
 
 #### 4. `atomic_layer`
 
-**Type:** `enum`  
-**Required:** ✅ Yes (for design-related tasks), ⚠️ Optional (for config/strategy)  
-**Values:**
-- **Atomic Design:** `Atom | Molecule | Organism | Template | Page`
-- **Other Layers:** `Config | Strategy | Content | Media | Layout | Analysis`
+
+
+**Type:** `enum`**Required:** ✅ Yes (for design-related tasks), ⚠️ Optional (for config/strategy)**Values:**
+
+* **Atomic Design:** `Atom | Molecule | Organism | Template | Page`
+* **Other Layers:** `Config | Strategy | Content | Media | Layout | Analysis`
 
 **Purpose:** Maps task to Atomic Design layer for architecture validation.
 
 **Validation:**
-- Design tasks MUST specify Atomic Design layer
-- Non-design tasks SHOULD specify functional layer
+
+* Design tasks MUST specify Atomic Design layer
+* Non-design tasks SHOULD specify functional layer
 
 **Examples:**
+
 ```yaml
 atomic_layer: Atom       # Step 7a: Design CTA (single component)
 atomic_layer: Molecule   # Step 8a: Compose Text Group (title + body + cta)
@@ -199,12 +213,13 @@ atomic_layer: Config     # Step 1: Load Format Config
 atomic_layer: Strategy   # Step 3: Analyze Brief
 ```
 
+
 ---
 
 #### 5. `Entrada` (Inputs)
 
-**Type:** `array of objects`  
-**Required:** ✅ Yes (can be empty array if no inputs)
+
+**Type:** `array of objects`**Required:** ✅ Yes (can be empty array if no inputs)
 
 **Purpose:** Defines all inputs required by the task, with types, sources, and constraints.
 
@@ -223,7 +238,7 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
 **Field Details:**
 
 | Sub-field | Type | Required | Description |
-|-----------|------|----------|-------------|
+|----|----|----|----|
 | `campo` | string | ✅ Yes | Field name (camelCase) |
 | `tipo` | string | ✅ Yes | Type definition (see Type System below) |
 | `origem` | string | ✅ Yes | Source step ID or "config" or "user input" |
@@ -256,12 +271,13 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
   padrão: null
 ```
 
+
 ---
 
 #### 6. `Saída` (Outputs)
 
-**Type:** `array of objects`  
-**Required:** ✅ Yes (can be empty array if no outputs)
+
+**Type:** `array of objects`**Required:** ✅ Yes (can be empty array if no outputs)
 
 **Purpose:** Defines all outputs produced by the task, with types, destinations, and persistence.
 
@@ -279,7 +295,7 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
 **Field Details:**
 
 | Sub-field | Type | Required | Description |
-|-----------|------|----------|-------------|
+|----|----|----|----|
 | `campo` | string | ✅ Yes | Field name (camelCase) |
 | `tipo` | string | ✅ Yes | Type definition |
 | `destino` | string or array | ✅ Yes | Destination step(s) or "state" or "output" |
@@ -307,14 +323,15 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
   cache_key: format_${formatConfig.formatId}_${formatConfig.orientation}
 ```
 
+
 ---
 
 ### Optional Fields
 
 #### 7. `Checklist`
 
-**Type:** `object with arrays`  
-**Required:** ⚠️ Recommended
+
+**Type:** `object with arrays`**Required:** ⚠️ Recommended
 
 **Purpose:** Defines validations (pre-conditions, post-conditions, acceptance criteria) for automated and manual testing.
 
@@ -347,23 +364,22 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
 
 **Checklist Types:**
 
+
 1. **Pre-conditions** (Run BEFORE task)
-   - Validate inputs exist and are valid
-   - Check dependencies are met
-   - Verify environment is ready
-   - **Blocking:** Task aborts if pre-condition fails
-
+   * Validate inputs exist and are valid
+   * Check dependencies are met
+   * Verify environment is ready
+   * **Blocking:** Task aborts if pre-condition fails
 2. **Post-conditions** (Run AFTER task)
-   - Validate outputs match schema
-   - Check business rules
-   - Verify no side effects
-   - **Blocking:** Task rolls back if post-condition fails
-
+   * Validate outputs match schema
+   * Check business rules
+   * Verify no side effects
+   * **Blocking:** Task rolls back if post-condition fails
 3. **Acceptance Criteria** (Run AFTER workflow)
-   - Validate Story requirements
-   - Can be manual (human review)
-   - Can be automated (integration tests)
-   - **Non-blocking:** Log failure, continue workflow
+   * Validate Story requirements
+   * Can be manual (human review)
+   * Can be automated (integration tests)
+   * **Non-blocking:** Log failure, continue workflow
 
 **Examples:**
 
@@ -417,12 +433,13 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
       manual_check: true
 ```
 
+
 ---
 
 #### 8. `Template`
 
-**Type:** `object`  
-**Required:** ⚠️ Optional (but recommended for Agente executors)
+
+**Type:** `object`**Required:** ⚠️ Optional (but recommended for Agente executors)
 
 **Purpose:** References template files that define input/output schemas, prompts, or UI forms.
 
@@ -440,7 +457,7 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
 **Template Types:**
 
 | Type | Purpose | Example |
-|------|---------|---------|
+|----|----|----|
 | `input` | Validates input schema | `templates/input-schemas/analyze-brief.json` |
 | `output` | Validates output schema | `templates/output-schemas/analyze-brief.json` |
 | `prompt` | AI agent prompt structure | `Squads/.../analyze-ad-brief.md` |
@@ -473,17 +490,19 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
   variables: [ad_preview_url, quality_criteria]
 ```
 
+
 ---
 
 #### 9. `Tools`
 
-**Type:** `object`  
-**Required:** ⚠️ Recommended (to document reusability)
+
+**Type:** `object`**Required:** ⚠️ Recommended (to document reusability)
 
 **Purpose:** Catalogs reusable tools/functions used by the task, enabling:
-- **Reusability tracking** (which tasks share tools)
-- **Versioning** (tool updates affect which tasks)
-- **Cost tracking** (tool API costs)
+
+* **Reusability tracking** (which tasks share tools)
+* **Versioning** (tool updates affect which tasks)
+* **Cost tracking** (tool API costs)
 
 **Structure:**
 
@@ -524,12 +543,13 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
     shared_with: [Step 2, Step 7]
 ```
 
+
 ---
 
 #### 10. `Scripts`
 
-**Type:** `object`  
-**Required:** ⚠️ Optional (for Worker executors primarily)
+
+**Type:** `object`**Required:** ⚠️ Optional (for Worker executors primarily)
 
 **Purpose:** References custom scripts executed by the task.
 
@@ -563,12 +583,13 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
     version: 2.0.0
 ```
 
+
 ---
 
 #### 11. `Performance`
 
-**Type:** `object`  
-**Required:** ⚠️ Recommended (for optimization)
+
+**Type:** `object`**Required:** ⚠️ Recommended (for optimization)
 
 **Purpose:** Documents expected performance metrics and optimization opportunities.
 
@@ -620,12 +641,13 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
 - skippable_when: [ready_copy=true]
 ```
 
+
 ---
 
 #### 12. `Error Handling`
 
-**Type:** `object`  
-**Required:** ⚠️ Recommended (for robustness)
+
+**Type:** `object`**Required:** ⚠️ Recommended (for robustness)
 
 **Purpose:** Defines error handling strategy for resilience.
 
@@ -646,7 +668,7 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
 **Strategies:**
 
 | Strategy | When to Use | Example |
-|----------|-------------|---------|
+|----|----|----|
 | `retry` | Transient errors (API timeout, rate limit) | AI agent call failed with 429 |
 | `fallback` | Recoverable errors (AI failed, use default) | Template selection → fallback to default |
 | `abort` | Critical errors (invalid brand_id, missing template) | Brand not found → abort workflow |
@@ -679,12 +701,13 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
 - notification: email + slack
 ```
 
+
 ---
 
 #### 13. `Metadata`
 
-**Type:** `object`  
-**Required:** ⚠️ Recommended (for traceability)
+
+**Type:** `object`**Required:** ⚠️ Recommended (for traceability)
 
 **Purpose:** Links task to Stories, versions, and dependencies for project management.
 
@@ -715,6 +738,7 @@ atomic_layer: Strategy   # Step 3: Analyze Brief
 - created_at: 2025-11-10
 - updated_at: 2025-11-13
 ```
+
 
 ---
 
@@ -772,6 +796,7 @@ AdAnalysis             # References schemas/AdAnalysis.json
   tipo: Brand  # References schemas/Brand.json
 ```
 
+
 ---
 
 ## Validation Rules
@@ -821,6 +846,7 @@ function validateInputOutput(io, type) {
   return true;
 }
 ```
+
 
 ---
 
@@ -927,6 +953,7 @@ atomic_layer: Strategy
 - updated_at: 2025-11-10
 ```
 
+
 ---
 
 ### Worker (Script-Based)
@@ -1029,6 +1056,7 @@ atomic_layer: Config
 - updated_at: 2025-11-10
 ```
 
+
 ---
 
 ### Humano (Manual Review)
@@ -1126,6 +1154,7 @@ atomic_layer: Page
 - created_at: 2025-11-13
 - updated_at: 2025-11-13
 ```
+
 
 ---
 
@@ -1247,6 +1276,7 @@ atomic_layer: Atom
 - updated_at: 2025-11-13
 ```
 
+
 ---
 
 ## Validation Checklist
@@ -1299,6 +1329,7 @@ Use this checklist to validate any AIOS Task:
 - [ ] Version defined
 - [ ] Dependencies listed
 - [ ] Breaking changes documented
+
 
 ---
 
@@ -1395,20 +1426,24 @@ atomic_layer: Strategy    # ← ADDED
 - notification: log
 ```
 
+
 ---
 
 ## Version History
 
 | Version | Date | Author | Changes |
-|---------|------|--------|---------|
+|----|----|----|----|
 | 1.0.0 | 2025-11-13 | Brad Frost Clone | Initial specification |
+
 
 ---
 
 **END OF TASK FORMAT SPECIFICATION**
 
 **Related Documents:**
-- `EXECUTOR-DECISION-TREE.md` - How to choose executor type
-- `TEMPLATE-SYSTEM-GUIDE.md` - Template design patterns
-- `TOOLS-AND-SCRIPTS-CATALOG.md` - Available tools reference
+
+* `EXECUTOR-DECISION-TREE.md` - How to choose executor type
+* `TEMPLATE-SYSTEM-GUIDE.md` - Template design patterns
+* `TOOLS-AND-SCRIPTS-CATALOG.md` - Available tools reference
+
 

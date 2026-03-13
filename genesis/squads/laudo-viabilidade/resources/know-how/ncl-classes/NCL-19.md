@@ -1,0 +1,312 @@
+# Classe NCL 19
+
+Especificações pré-especificadas (Português):
+
+- 190001 | Suportes não metálicos para afixação de anúncios
+- 190002 | Vidro de alabastro para construção
+- 190003 | Alabastro
+- 190004 | Cimento de amianto [fibrocimento]
+- 190005 | Argamassa de amianto
+- 190006 | Slate* Ardósia*
+- 190007 | Ardósias para telhados
+- 190008 | Pó de ardósia
+- 190009 | Caibros para telhados
+- 190010 | Areia argentífera
+- 190011 | Argila de oleiro
+- 190012 | Pedras refratárias
+- 190012 | Tijolos refratários
+- 190013 | Asfalto
+- 190014 | Pavimentos de asfalto
+- 190015 | Lambris [madeira]
+- 190016 | Balaústres, não metálicos
+- 190017 | Betume
+- 190018 | Tiras alcatroadas para construção
+- 190019 | Barracas
+- 190020 | Barracas de feiras
+- 190021 | Ripas de telhado
+- 190022 | Portas do tipo camarão não metálicas
+- 190023 | Concreto
+- 190024 | Elementos de concreto para construção
+- 190025 | Produtos betuminosos para construção
+- 190026 | Madeira semitrabalhada
+- 190027 | Madeira para construção
+- 190027 | Tábuas
+- 190028 | Compensados de madeira
+- 190029 | Madeira manufaturada
+- 190030 | Madeira para fabricação de utensílios domésticos
+- 190031 | Madeira serrada
+- 190032 | Pavimentos de madeira
+- 190033 | Folhas de madeira compensada
+- 190033 | Veneers
+- 190034 | Madeira para compensados
+- 190035 | Revestimentos de madeira
+- 190036 | Cimento *
+- 190037 | Piche [breu]
+- 190038 | Tijolos
+- 190039 | Barro para tijolos
+- 190040 | Aglutinantes para ladrilhagem
+- 190040 | Aglutinantes para tijolos
+- 190041 | Cabines telefônicas, não metálicas
+- 190041 | Telephone boxes, not of metal
+- 190042 | Caixa para construção debaixo d'água
+- 190043 | Pedra calcária
+- 190043 | Calcareous stone
+- 190044 | Calhas de telhado não metálicas
+- 190044 | Canaletas não metálicas para telhados
+- 190045 | Papelão para construção
+- 190045 | Building cardboard
+- 190046 | Papelão betumado para construção
+- 190048 | Argila refratária
+- 190048 | Chamota [argila cerâmica refratária]
+- 190049 | Molduras de lareira, não metálicas
+- 190050 | Estruturas não metálicas para construção
+- 190051 | Materiais para construção e revestimento de ruas
+- 190052 | Lime* Cal*
+- 190053 | Argamassa para construção
+- 190053 | Argamassa
+- 190054 | Gesso *
+- 190055 | Chaminés não metálicas
+- 190056 | Revestimentos de cimento à prova de fogo
+- 190057 | Placas de cimento
+- 190058 | Postes de cimento
+- 190059 | Xistos
+- 190060 | Divisórias não metálicas
+- 190061 | Construções não metálicas
+- 190062 | Papel de construção
+- 190063 | Vidro de construção
+- 190064 | Cornijas não metálicas
+- 190065 | Molduras não metálicas para cornijas
+- 190065 | Moldings, not of metal, for cornices
+- 190066 | Rufos não metálicos para telhados
+- 190067 | Cantoneiras não metálicas
+- 190068 | Janelas não metálicas
+- 190069 | Portas não metálicas *
+- 190070 | Tampas não metálicas para alçapões
+- 190071 | Coberturas não metálicas para telhados
+- 190072 | Giz bruto
+- 190073 | Quartzo para construção
+- 190074 | Degraus não metálicos para escadas
+- 190075 | Canos não metálicos para calha
+- 190076 | Encanamentos não metálicos de água
+- 190078 | Andaimes não metálicos
+- 190079 | Postes não metálicos para linhas de transmissão de energia
+- 190079 | Poles, not of metal, for power lines
+- 190080 | Canos não metálicos de ramificação
+- 190081 | Cercaduras não metálicas para sepulturas
+- 190081 | Cercaduras não metálicas para túmulos
+- 190082 | Revestimentos betuminosos para telhados
+- 190083 | Traves [vigas] não metálicas
+- 190083 | Vigas não metálicas
+- 190084 | Pocilgas não metálicas
+- 190085 | Estábulos não metálicos
+- 190086 | Escoras não metálicas
+- 190088 | Lápides não metálicas para túmulos
+- 190088 | Placas não metálicas para túmulos
+- 190089 | Placas comemorativas, não metálicas
+- 190090 | Feltro para construção
+- 190091 | Moldes não metálicos para fundição
+- 190091 | Foundry molds, not of metal
+- 190092 | Cimento para fornalhas
+- 190093 | Cimento para alto-fornos
+- 190094 | Stone* Pedra*
+- 190095 | Vidros para construção [vidraças]
+- 190096 | Argila *
+- 190097 | Alcatrão de hulha
+- 190098 | Granito
+- 190099 | Cascalho
+- 190100 | Arenito para construção
+- 190101 | Tubos para arenito
+- 190102 | Gipsita [material de construção]
+- 190103 | Gelosias [venezianas] não metálicas
+- 190104 | Escórias [materiais de construção]
+- 190105 | Balastro [brita de escória]
+- 190106 | Tacos de assoalho em parquete
+- 190107 | Persianas de exterior, não metálicas ou têxteis
+- 190108 | Rampas não metálicas para lançamento de foguetes
+- 190109 | Ripas não metálicas
+- 190110 | Aglutinantes para conservação de estradas
+- 190111 | Cortiça aglomerada para construção
+- 190112 | Assoalhos em parquetes
+- 190113 | Vigas de suporte não metálicas [partes de escadas]
+- 190114 | Lintéis não metálicos
+- 190115 | Blocos para pavimentação luminosos
+- 190116 | Macadame
+- 190117 | Monumentos, não metálicos
+- 190118 | Cimento de magnésia
+- 190119 | Construções transportáveis não metálicas
+- 190120 | Mármore
+- 190121 | Granulados de vidro para marcação de estradas
+- 190121 | Glass granules for marking out roads
+- 190122 | Road marking sheets and strips of synthetic materialFolhas e placas de material sintético para marcação de estradas
+- 190123 | Marquises [estruturas] não metálicas para construção
+- 190124 | Mastros [postes] não metálicos
+- 190125 | Tacos para assoalho
+- 190125 | Stave wood
+- 190126 | Mosaicos para construção
+- 190127 | Madeira moldável
+- 190127 | Moldable wood
+- 190128 | Caixilhos não metálicos para construção
+- 190128 | Molduras não metálicas para construção
+- 190129 | Revestimentos [materiais de construção]
+- 190130 | Revestimentos não metálicos para paredes e muros
+- 190131 | Rufos não metálicos para construção
+- 190132 | Olivina para construção
+- 190133 | Venezianas não metálicas
+- 190134 | Cercas de paliçadas, não metálicas
+- 190134 | Paliçadas não metálicas
+- 190135 | Cercas não metálicas
+- 190136 | Estaca-pranchas não metálicas
+- 190136 | Estacas não metálicas
+- 190137 | Signalling panels, non-luminous and non-mechanical, not of metalPainéis sinalizadores não mecânicos, não luminosos e não metálicos
+- 190138 | Revestimentos não metálicos para paredes, para construção
+- 190139 | Rinques de patinação [estruturas], não metálicos
+- 190140 | Poleiros
+- 190141 | Pedras de construção
+- 190142 | Pedra artificial
+- 190143 | Pedras de escórias
+- 190143 | Clinker stone
+- 190144 | Lajes tumulares [lápides]
+- 190144 | Lápides [pedras funerárias]
+- 190145 | Tufo [calcário]
+- 190146 | Trabalhos de pedra
+- 190147 | Pisos não metálicos
+- 190148 | Tetos não metálicos
+- 190149 | Pranchas de madeira para construção
+- 190150 | Forros [revestimentos] não metálicos para construção
+- 190150 | Revestimentos não metálicos para construção
+- 190151 | Telhas não metálicas
+- 190152 | Pranchas não metálicas para saltos
+- 190153 | Portais não metálicos
+- 190154 | Painéis não metálicos para portas
+- 190155 | Postes telegráficos não metálicos
+- 190156 | Galinheiros não metálicos
+- 190157 | Traves não metálicas
+- 190158 | Plataformas pré-fabricadas não metálicas
+- 190160 | Reservatórios de alvenaria
+- 190161 | Materiais para revestimento de ruas
+- 190162 | Soleiras não metálicas
+- 190163 | Junco para construção
+- 190164 | Road signs, non-luminous and non-mechanical, not of metalPlacas sinalizadoras para estrada, exceto luminosas e mecânicas, não metálicas
+- 190165 | Non-luminous and non-mechanical signs, not of metalSinalização não luminosa, não mecânica e não metálica
+- 190166 | Areia, exceto areia para fundição
+- 190167 | Estufas transportáveis não metálicas
+- 190168 | Sílica [quartzo]
+- 190169 | Silos não metálicos
+- 190170 | Estátuas de pedra, concreto ou mármore
+- 190171 | Alcatrão
+- 190172 | Terracota [material de construção]
+- 190173 | Telhados não metálicos
+- 190174 | Túmulos não metálicos
+- 190175 | Caramanchões [estruturas], não metálicos
+- 190175 | Pérgulas [construções não metálicas]
+- 190176 | Dormentes não metálicos para estradas de ferro
+- 190176 | Travessas não metálicas para estradas de ferro
+- 190177 | Grade [treliça] não metálica
+- 190177 | Treliças não metálicas
+- 190178 | Canos rígidos não metálicos para construção
+- 190179 | Janelas de batente, não metálicas
+- 190180 | Vidro isolante para construção
+- 190181 | Janelas de vidro, exceto para janelas de automóveis
+- 190181 | Vidraças, exceto vidros para janelas de automóveis
+- 190182 | Vitrais
+- 190183 | Vidraças para construção
+- 190184 | Aviários não metálicos [estruturas]
+- 190185 | Caibros [carpintaria]
+- 190186 | Xilólito
+- 190187 | Cabeços para amarração, não metálicos
+- 190188 | Cais flutuantes não metálicos para amarração de embarcações
+- 190189 | Lambris não metálicos
+- 190190 | Aquários [estruturas]
+- 190191 | Materiais de reforço não metálicos para construção
+- 190192 | Vidro de segurança
+- 190193 | Objetos de arte de pedra, concreto ou mármore
+- 190194 | Banheiras para aves [estruturas], não metálicas
+- 190195 | Balizas não luminosas e não metálicas
+- 190196 | Piscinas [estruturas não metálicas]
+- 190197 | Materiais de construção, não metálicos
+- 190197 | Construction materials, not of metal
+- 190198 | Cofragens não metálicas para concreto
+- 190199 | Bicicletários não metálicos
+- 190200 | Blocos não metálicos para pavimentação
+- 190201 | Papelão de pasta de madeira para construções
+- 190202 | Bustos de pedra, concreto ou mármore
+- 190203 | Cabines de banho não metálicas
+- 190205 | Cabines não metálicas para pintura à pistola
+- 190206 | Postes não metálicos
+- 190208 | Caixilhos para janelas, não metálicos
+- 190209 | Caixilhos para portas, não metálicos
+- 190209 | Batentes para portas, não metálicos
+- 190210 | Estruturas para estufa, não metálicas
+- 190211 | Calcário argiloso
+- 190211 | Marga calcária
+- 190212 | Chapéus de chaminés, não metálicos
+- 190213 | Azulejos não metálicos para construção
+- 190213 | Ladrilhos não metálicos para construção
+- 190214 | Ladrilhos não metálicos para piso
+- 190214 | Pisos não metálicos para construção
+- 190215 | Câmaras mortuárias, não metálicas, para sepultamento
+- 190216 | Proteção para chaminés não metálica
+- 190217 | Prolongamentos não metálicos de chaminés
+- 190218 | Tubos de chaminés, não metálicos
+- 190219 | Lajes não metálicas para pavimentação
+- 190220 | Canos para drenagem, não metálicos
+- 190222 | Escadas não metálicas
+- 190223 | Painéis não metálicos para construção
+- 190224 | Estatuetas de pedra, concreto ou mármore
+- 190224 | Statuettes of stone, concrete or marble
+- 190225 | Monumentos funerários não metálicos
+- 190226 | Estelas funerárias não metálicas
+- 190227 | Cercas não metálicas para segurança em estradas
+- 190228 | Caixas de correspondência, de alvenaria
+- 190231 | Aglomerados de bagaços de cana-de-açúcar [material de construção]
+- 190232 | Condutos forçados, não metálicos
+- 190233 | Seixos para aquários
+- 190234 | Areia para aquários
+- 190235 | Ducts, not of metal, for ventilating and air-conditioning installationsDutos não metálicos para instalações de ventilação e ar condicionado
+- 190236 | Geotêxteis
+- 190237 | Pedras de alvenaria
+- 190238 | Tapume de vinil
+- 190239 | Mosquiteiros não metálicos
+- 190240 | Roofing, not of metal, incorporating photovoltaic cellsTelhado, não metálico, contendo células fotovoltaicas
+- 190241 | Decks modulares, não metálicos
+- 190242 | Materiais de construção refratários, não metálicos
+- 190243 | Prefabricated houses [ready-to-assemble], not of metalCasas pré-fabricadas [prontas para montar], exceto de metal
+- 190244 | Pórfiros [rochas]
+- 190245 | Sarjeta, não metálica
+- 190246 | Catracas não metálicas
+- 190247 | Lápides não metálicas
+- 190248 | Tábuas de assoalho em madeira
+- 190249 | Cerâmicas para piso
+- 190250 | Telhas não metálicas em “s” [ing. pantile]
+- 190251 | Ladrilhos para paredes, não metálicos
+- 190252 | Lajes não metálicas para construção
+- 190253 | Cristal de rocha
+- 190254 | Portas blindadas, não metálicas
+- 190254 | Armored doors, not of metal
+- 190255 | Vidro esmaltado para construção
+- 190256 | Pilares, não metálicos, para construção
+- 190257 | Suportes triangulares, não metálicos, para construção
+- 190258 | Revestimento não metálico para proteção externa de construções
+- 190259 | Limitadores plásticos de grama
+- 190260 | Rolamentos de borracha para o isolamento sísmico de construções
+- 190261 | Blindagem, não metálica
+- 190261 | Armor-plating, not of metal
+- 190262 | Mastros [estruturas] para bandeira, não metálicos
+- 190263 | Portas do tipo vai e vem, não metálicas
+- 190264 | Portas sanfonadas não metálicas
+- 190265 | Cabines transportáveis à prova de som, não metálicas
+- 190266 | Painéis acústicos, não metálicos
+- 190267 | Miniestufas, não metálicas
+- 190267 | Cold frames, not of metal
+- 190268 | Pisos laminados, não metálicos
+- 190269 | Areia para brincar
+- 190270 | Postigos [janela], não metálicos
+- 190271 | Building materials with soundproofing qualities, not of metalMateriais de construção à prova de som, não metálicos
+- 190271 | Construction materials with soundproofing qualities, not of metal
+- 190272 | Commemorative statuary cups of stone, concrete or marbleTaças estatuárias comemorativas, de pedra, concreto ou mármore
+- 190273 | Taças para premiação, de pedra, concreto ou mármore
+- 190274 | Vidro inteligente para construção
+- 190275 | Estruturas de montagem, não metálicas, para painéis solares
+- 190276 | Fitas adesivas para marcação de superfícies de estradas
+- 190277 | Pedra refratária para construção
+- 190278 | Perfis de plástico para construção

@@ -1,0 +1,144 @@
+# Classe NCL 39
+
+Especificações pré-especificadas (Português):
+
+- 390002 | Acompanhamento de viajantes
+- 390003 | Fornecimento de água
+- 390004 | Transporte aéreo
+- 390006 | Transporte por ambulância
+- 390007 | Serviços de reboque de veículos em pane
+- 390008 | Locação de automóveis
+- 390009 | Transporte por carro
+- 390010 | Transporte por ônibus
+- 390011 | Transporte em embarcação para recreio
+- 390012 | Aluguel de barcos
+- 390013 | Quebra-gelo
+- 390014 | Transporte por caminhão
+- 390015 | Salvamento de navios
+- 390016 | Serviços de carga e descarga para barcaças
+- 390017 | Transporte por carroças
+- 390018 | Transporte ferroviário
+- 390019 | Aluguel de cavalos
+- 390020 | Entrega de pacotes
+- 390021 | Carregamento de bagagens
+- 390022 | Embalagem de pacotes
+- 390023 | Corretagem marítima
+- 390024 | Organização de cruzeiros [viagens]
+- 390025 | Serviços de transporte para visitas turísticas
+- 390026 | Descarregamento [carga]
+- 390027 | Entrega de mercadorias
+- 390028 | Armazenagem de mercadorias
+- 390030 | Distribuição de água
+- 390031 | Distribuição de eletricidade
+- 390032 | Operação de portas de eclusas
+- 390033 | Serviços de estacionamento
+- 390033 | Parking lot services
+- 390034 | Armazenagem
+- 390034 | Depósito
+- 390035 | Aluguel de armazéns
+- 390036 | Transporte por balsa
+- 390037 | Transporte fluvial
+- 390038 | Frete [transporte de mercadorias]
+- 390039 | Afretamento
+- 390040 | Aluguel de garagem
+- 390041 | Transporte por oleoduto
+- 390042 | Aluguel de vaga de garagem
+- 390043 | Aluguel de refrigeradores
+- 390043 | Frozen-food locker rental
+- 390044 | Aluguel de veículos
+- 390045 | Aluguel de trens
+- 390046 | Locação de vagões de carga
+- 390047 | Transporte de móveis
+- 390048 | Transporte
+- 390049 | Transporte por barco
+- 390050 | Organização de transporte para excursões
+- 390051 | Transporte de passageiros
+- 390052 | Pilotagem
+- 390054 | Reboque
+- 390055 | Desencalhe de navios
+- 390056 | Reserva de assentos para viagem
+- 390057 | Salvamento [naufrágio]
+- 390058 | Transporte por táxi
+- 390059 | Transporte por bondes
+- 390059 | Streetcar transport
+- 390060 | Expedição de frete
+- 390061 | Transporte marítimo
+- 390062 | Transporte por carro-forte
+- 390062 | Armored-car transport
+- 390063 | Transporte de viajantes
+- 390064 | Transporte e armazenagem de detritos
+- 390064 | Transporte e armazenagem de lixo
+- 390065 | Serviços de mudança
+- 390071 | Abrigo de barcos
+- 390072 | Serviços de despachantes de frete
+- 390072 | Freight brokerage
+- 390073 | Corretagem de transporte
+- 390074 | Serviços de chofer
+- 390075 | Serviços de mensageiros [mensagens ou mercadorias]
+- 390076 | Provimento  de informações sobre armazenamento
+- 390077 | Provimento  de informações sobre transportes
+- 390078 | Aluguel de sinos de imersão
+- 390079 | Aluguel de roupas de mergulho atmosféricas
+- 390080 | Aluguel de contêineres de armazenagem
+- 390081 | Aluguel de porta-bagagem de teto
+- 390082 | Operações de resgate [transporte]
+- 390083 | Reservas para transporte
+- 390084 | Reservas para viagens
+- 390085 | Salvamento subaquático
+- 390086 | Embalagem de mercadorias
+- 390087 | Entrega de mensagens
+- 390088 | Entrega de jornais
+- 390088 | Newspaper delivery
+- 390089 | Entrega de mercadorias por catálogo
+- 390090 | Distribuição de energia
+- 390091 | Locação de carros de corrida
+- 390092 | Aluguel de cadeiras de rodas
+- 390093 | Estivagem
+- 390094 | Physical storage of electronically stored data or documentsArmazenagem física de dados ou documentos armazenados eletronicamente
+- 390095 | Lançamento de satélite para terceiros
+- 390096 | Entrega de flores
+- 390097 | Franqueamento de correspondência
+- 390098 | Provimento  de informações sobre tráfego
+- 390099 | Aluguel de freezers
+- 390100 | Serviços de engarrafamento
+- 390101 | Serviços de logística em matéria de transporte
+- 390102 | Aluguel de aeronaves
+- 390103 | Transporte por barca
+- 390104 | Aluguel de ônibus especiais
+- 390105 | Aluguel de motores de aeronaves
+- 390106 | Transporte, sob escolta, de valores
+- 390107 | Aluguel de sistemas de navegação
+- 390108 | Provimento de informações sobre rotas rodoviárias
+- 390109 | Embalagem de presentes
+- 390110 | Aluguel de tratores
+- 390111 | Coleta de bens recicláveis [transporte]
+- 390112 | Aluguel de adegas elétricas
+- 390113 | Cash replenishment of automated teller machinesRecarregamento, com dinheiro, de caixas eletrônicos
+- 390114 | Serviços de aluguel de carros por períodos curtos de tempo [car sharing]
+- 390115 | Reabastecimento de máquinas automáticas de venda
+- 390116 | Serviços de armazenamento de bagagens
+- 390117 | Serviços de pilotagem de drones civis
+- 390119 | Arranging for travel visas and travel documents for persons travelling abroadPreparação de vistos e documentos de viagem para viagens internacionais
+- 390120 | Serviços de carona solidária [car pooling]
+- 390120 | Serviços de compartilhamento de carros [car pooling]
+- 390121 | Armazenamento temporário de chaves
+- 390122 | Aluguel de drones com câmera
+- 390124 | Collection of domestic and industrial waste and trashColeta de lixo e resíduos domésticos e industriais
+- 390125 | Aluguel de guarda-volumes
+- 390126 | Locating and tracking of people for transportation purposesLocalização e rastreamento de pessoas para fins de transporte
+- 390127 | Serviços de transporte de documentos jurídicos
+- 390128 | Transporte por teleférico
+- 390129 | Aluguel de assentos de segurança para crianças, para veículos
+- 390130 | Serviços de vestiário
+- 390130 | Serviço de guarda temporária de vestuário
+- 390130 | Serviço de chapelaria [guarda]
+- 390131 | Aluguel de drones de vigilância
+- 390132 | Aluguel de drones de segurança
+- 390133 | Locating and tracking of cargo for transportation purposesLocalização e rastreamento de carga para fins de transporte
+- 390134 | Transporte de dióxido de carbono capturado para terceiros
+- 390135 | Armazenamento de dióxido de carbono capturado para terceiros
+- 390137 | Transporte espacial
+- 390138 | Aluguel de robôs de entrega
+- 390139 | Serviços de aluguel de carros por assinatura
+- 390140 | Collection of household packaging for deposit return purposesColeta de embalagens domésticas retornáveis
+- 390141 | Armazenamento criogênico de tecidos biológicos [depósito]

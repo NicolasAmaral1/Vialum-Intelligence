@@ -1,0 +1,520 @@
+# Classe NCL 21
+
+Especificações pré-especificadas (Português):
+
+- 210001 | Bebedouros
+- 210002 | Manjedouras
+- 210005 | Lã de aço para limpeza
+- 210006 | Tábuas de lavar
+- 210007 | Recipientes isolantes térmicos para alimentos
+- 210008 | Batedores para tapetes [instrumentos manuais]
+- 210009 | Ampolas de vidro [recipientes]
+- 210009 | Glass vials [receptacles]
+- 210010 | Cerdas de animais
+- 210011 | Anilhos para aves domésticas
+- 210014 | Escovas *
+- 210015 | Sprinklers* Pulverizadores [sprinklers]*
+- 210016 | Regadores
+- 210017 | Cestos de pão para uso doméstico
+- 210018 | Anilhos para aves
+- 210019 | Banheiras para aves *
+- 210020 | Vassouras
+- 210021 | Vassouras mecânicas
+- 210022 | Frascos de vidro [recipientes]
+- 210023 | Baldes
+- 210023 | Caçambas
+- 210025 | Bacias [recipientes]
+- 210027 | Bicos dosadores
+- 210028 | Rascadeiras
+- 210030 | Manteigueiras
+- 210031 | Tampas para manteigueiras
+- 210032 | Canecas para cerveja
+- 210033 | Garrafão de vidro
+- 210033 | Jarras de vidro
+- 210034 | Recipientes para beber
+- 210035 | Recipientes isolantes térmicos para bebidas
+- 210037 | Porta sabonetes
+- 210038 | Caixas para chá
+- 210039 | Bacias [tigelas]
+- 210039 | Tigelas [bacias]
+- 210040 | Garrafão revestido de trançado de vime
+- 210040 | Carboys
+- 210041 | Descalçadeiras para botas
+- 210042 | Rolhas de vidro
+- 210043 | Saca-rolhas, elétricos e não elétricos
+- 210044 | Esferas de vidro decorativas
+- 210045 | Bottles* Garrafas*
+- 210046 | Garrafas térmicas
+- 210046 | Vacuum bottles
+- 210047 | Garrafas para refrigerar
+- 210048 | Abridores de garrafas, elétricos e não elétricos
+- 210049 | Espetos de metal para cozinha
+- 210049 | Cooking pins of metal
+- 210050 | Escovinhas para as unhas
+- 210051 | Escovas de toalete
+- 210052 | Escovas para vidros de luminárias
+- 210054 | Materiais para fabricação de escovas
+- 210055 | Pêlos para escovas
+- 210056 | Defumadores [perfumadores], elétricos e não elétricos
+- 210056 | Incensários [perfumadores], elétricos e não elétricos
+- 210057 | Galhetas
+- 210058 | Bandejas
+- 210059 | Gaiolas para pássaros
+- 210061 | Peneiras de farinha [utensílios domésticos]
+- 210062 | Recipientes isolantes térmicos
+- 210063 | Recipientes decantadores
+- 210064 | Porta-cardápios
+- 210065 | Caldeiras [panelas]
+- 210066 | Esfregões metálicos para arear
+- 210067 | Peneiradores de cinzas [utensílios domésticos]
+- 210068 | Cerâmicas para uso doméstico
+- 210069 | Mata-moscas [mecânicos]
+- 210070 | Caldeirões
+- 210071 | Escovas para sapatos
+- 210073 | Escovas para cavalos
+- 210074 | Manjedouras para animais
+- 210075 | Pentes para animais
+- 210076 | Pentes*
+- 210077 | Panos de limpeza
+- 210077 | Rags for cleaning
+- 210078 | Enfeites de porcelana
+- 210079 | Formas [utensílios de cozinha]
+- 210079 | Molds [kitchen utensils]
+- 210080 | Enceradeiras não elétricas
+- 210082 | Batedeiras [coqueteleiras]
+- 210082 | Coqueteleiras
+- 210084 | Potes para cola, não elétricos
+- 210085 | Vidros [recipientes]
+- 210086 | Chifres para beber
+- 210087 | Utensílios para cosméticos
+- 210088 | Coadores para uso doméstico
+- 210088 | Crivos para uso doméstico
+- 210088 | Escorredores para uso doméstico
+- 210089 | Fruteiras
+- 210090 | Descansos de talheres para mesa
+- 210091 | Fechos para tampas de panelas
+- 210092 | Tampas de pote
+- 210093 | Capas para tábuas de passar
+- 210094 | Prensas para gravatas
+- 210096 | Misturadores não elétricos para uso doméstico
+- 210097 | Peneiras [utensílios de uso doméstico]
+- 210098 | Cristais [vidraçaria]
+- 210099 | Formas para cubos de gelo
+- 210099 | Ice cube molds
+- 210100 | Couro para polimento
+- 210101 | Panelas não elétricas
+- 210102 | Pás de uso doméstico
+- 210103 | Formas de cozinha
+- 210103 | Cookery molds
+- 210104 | Instrumentos de limpeza manuais
+- 210105 | Palitos de dentes
+- 210106 | Bacias para lavar roupa
+- 210107 | Chapas para impedir o transbordo de leite
+- 210108 | Tábuas de cortar para cozinha
+- 210110 | Pentes com dentes largos para os cabelos
+- 210111 | Aspiradores de pó, não elétricos
+- 210112 | Descansos para ferros de passar
+- 210114 | Vidro em pó para decoração
+- 210115 | Estojos de toalete
+- 210115 | Frasqueiras equipadas com artigos de toalete
+- 210115 | Nécessaires equipadas com artigos de toalete
+- 210117 | Frascos dispensadores de sabão
+- 210118 | Garrafas sifão para adição de gás
+- 210118 | Garrafas sifão para água gaseificada
+- 210119 | Vidro esmaltado, exceto para construção
+- 210120 | Formas para alargar sapatos
+- 210121 | Funis
+- 210122 | Conjuntos de porta-condimentos
+- 210123 | Esponjas de banho
+- 210124 | Esponjeiras
+- 210125 | Espanadores de móveis
+- 210126 | Varais de roupa
+- 210127 | Baldes de tecidos fiados
+- 210128 | Estojos para pentes
+- 210129 | Louça de cerâmica
+- 210129 | Louça de faiança
+- 210132 | Suportes para arranjos de plantas e flores
+- 210133 | Vasos para flores
+- 210134 | Batedores não elétricos, para uso doméstico
+- 210135 | Esfregões
+- 210136 | Frigideiras, não elétricas
+- 210137 | Escovas para esfregar
+- 210138 | Fruit presses, non-electric, for household purposesEspremedores de frutas não elétricos, para uso doméstico
+- 210139 | Aparelho para absorver fumaça para uso doméstico
+- 210140 | Gamelas [vasilhas]
+- 210141 | Formas para alargar luvas
+- 210142 | Formas para bolos
+- 210142 | Cake molds
+- 210143 | Vidros [matérias-primas]
+- 210144 | Frascos de bebidas para esportes
+- 210144 | Cantis
+- 210145 | Grelhas [utensílios para cozinhar]
+- 210145 | Griddles [cooking utensils]
+- 210146 | Suportes para grelhas
+- 210146 | Gridiron supports
+- 210147 | Brochas de alcatrão, com cabo longo
+- 210148 | Esponjas para pó-de-arroz
+- 210149 | Glass, unworked or semi-worked, except building glassVidro, não trabalhado ou semitrabalhado, exceto vidro para construção
+- 210150 | Armadilhas para insetos
+- 210152 | Lã de vidro, exceto para isolamento
+- 210153 | Potes
+- 210154 | Travessas para frutas, legumes e verduras
+- 210155 | Baixelas [serviços] para licores
+- 210156 | Colheres para banhar alimentos [utensílios para cozinhar]
+- 210157 | Maiólica
+- 210158 | Moedores para cozinha, não elétricos
+- 210159 | Utensílios de uso doméstico
+- 210160 | Apanha-migalhas
+- 210161 | Mosaicos de vidro, exceto para construção
+- 210162 | Moinhos manuais para uso doméstico
+- 210163 | Refugos de lã para limpeza
+- 210164 | Indez [ovos artificiais]
+- 210165 | Oveiros
+- 210166 | Vidros opalas
+- 210167 | Opalinas
+- 210168 | Esfregões para limpeza
+- 210168 | Pads for cleaning
+- 210169 | Tábuas para pão
+- 210170 | Cestas para piqueniques, com louça
+- 210171 | Prensas para calças
+- 210173 | Pratos de papel
+- 210175 | Rolos para massa [domésticos]
+- 210176 | Pentes elétricos
+- 210177 | Espátulas para tortas
+- 210177 | Tart scoops
+- 210178 | Pipetas [provadores de vinho]
+- 210178 | Provadores de vinho [pipetas]
+- 210179 | Tábuas para passar roupa
+- 210180 | Bandejas de papel para uso doméstico
+- 210181 | Tachos de barro
+- 210183 | Bicos de regadores
+- 210183 | Roses for watering cans
+- 210184 | Moedores manuais para pimenta
+- 210185 | Pimenteiras
+- 210186 | Polishing apparatus and machines, for household purposes, non-electricAparelhos e máquinas não elétricos para polir, para uso doméstico
+- 210187 | Polishing materials for making shiny, except preparations, paper and stoneMateriais para polir, exceto preparações, papel e pedra
+- 210189 | Porcelanas
+- 210190 | Vasos
+- 210191 | Saboneteiras
+- 210192 | Urinóis
+- 210193 | Cerâmica
+- 210194 | Latas de lixo para uso doméstico
+- 210194 | Lixeiras para uso doméstico
+- 210194 | Refuse bins for household purposes
+- 210194 | Garbage cans for household purposes
+- 210195 | Estojos para pó compacto, vazios
+- 210196 | Baldes para gelo
+- 210196 | Ice pails
+- 210196 | Coolers [ice pails]
+- 210197 | Raladores para cozinha
+- 210198 | Armadilhas para ratos
+- 210198 | Ratoeiras
+- 210199 | Recipientes para cozinha ou uso doméstico
+- 210200 | Argolas para guardanapos
+- 210203 | Saladeiras
+- 210204 | Saleiros
+- 210204 | Salt shakers
+- 210206 | Aspersores para regar flores e plantas
+- 210207 | Serviços [baixela]
+- 210208 | Louças
+- 210209 | Serviços de chá [utensílio de mesa]
+- 210210 | Porta-guardanapos de mesa
+- 210211 | Vessels for making ices and ice cream, non-electricRecipientes para fazer gelados e sorvetes, não elétricos
+- 210212 | Pires
+- 210213 | Calçadeiras para sapatos
+- 210214 | Terrinas para sopa
+- 210215 | Escovas para sobrancelhas
+- 210216 | Armadilhas para camundongos
+- 210217 | Statues of porcelain, ceramic, earthenware, terra-cotta, clay or glassEstátuas de porcelana, cerâmica, faiança, terracota, argila ou vidro
+- 210218 | Açucareiros
+- 210219 | Adornos para centros de mesa
+- 210220 | Taças
+- 210221 | Esticadores de vestuário
+- 210221 | Stretchers for clothing
+- 210222 | Bules de chá
+- 210223 | Abotoadeiras
+- 210224 | Cofres de porquinho
+- 210226 | Samovares não elétricos
+- 210227 | Utensílios de mesa, exceto facas, garfos e colheres
+- 210228 | Vaporizadores de perfume
+- 210228 | Perfume sprayers
+- 210229 | Vidro incorporado com finos condutores elétricos
+- 210230 | Vidro pintado
+- 210231 | Vidro para janelas de veículos [produtos semi-acabados]
+- 210232 | Canecas
+- 210234 | Works of art of porcelain, ceramic, earthenware, terra-cotta, clay or glassObras de arte de porcelana, cerâmica, faiança, terracota, argila ou vidro
+- 210235 | Pratos
+- 210236 | Autoclaves para cozinha, não elétricas
+- 210236 | Pressure cookers, non-electric
+- 210238 | Batedores não elétricos
+- 210239 | Aquecedores não elétricos para mamadeiras
+- 210240 | Pincéis para barba
+- 210241 | Suportes para pincéis para barba
+- 210241 | Stands for shaving brushes
+- 210242 | Arandelas
+- 210242 | Bobeches
+- 210243 | Caixas de vidro
+- 210244 | Bomboneiras
+- 210244 | Caixas para doces
+- 210245 | Candelabros
+- 210245 | Candlesticks
+- 210246 | Chaleiras não elétricas
+- 210248 | Infusores de chá
+- 210248 | Tea balls
+- 210250 | Escovas de dentes
+- 210251 | Escovas elétricas, exceto de partes de máquina
+- 210252 | Busts of porcelain, ceramic, earthenware, terra-cotta, clay or glassBustos de porcelana, cerâmica, faiança, terracota, argila ou vidro
+- 210253 | Cachepôs, exceto de papel, para vasos de flores
+- 210253 | Covers, not of paper, for flower pots
+- 210254 | Moedores manuais para café
+- 210255 | Serviços de café [utensílio de mesa]
+- 210256 | Coadores não elétricos para café
+- 210257 | Máquinas não elétricas de café
+- 210258 | Descansos para copos ou garrafas, exceto de papel ou tecido
+- 210259 | Esfregões abrasivos para cozinha
+- 210260 | Fritadeiras, não elétricas
+- 210261 | Caixas refrigeradoras portáteis, não elétricas
+- 210261 | Geleiras portáteis, não elétricas
+- 210262 | Aparelhos para higiene bucal
+- 210263 | Camurça para limpeza
+- 210263 | Peles de camurça para limpeza
+- 210263 | Buckskin for cleaning
+- 210264 | Aparelhos não elétricos para engraxar sapatos
+- 210265 | Redomas para queijeira
+- 210266 | Cestos para uso doméstico
+- 210267 | Bandejas para uso doméstico
+- 210268 | Estopa de algodão para limpeza
+- 210269 | Campânulas para refeições [cloches]
+- 210269 | Covers for dishes
+- 210270 | Bases para pratos [utensílios de mesa]
+- 210271 | Moringas [bilhas]
+- 210271 | Cântaros
+- 210272 | Recipientes para cozinha
+- 210273 | Utensílios para cozinha
+- 210274 | Utensílios não elétricos para cozinhar
+- 210275 | Paliteiros
+- 210276 | Escovas de dentes, elétricas
+- 210277 | Aparelhos de desodorização para uso pessoal
+- 210277 | Deodorising apparatus for personal use
+- 210278 | Escovas para limpar tanques e recipientes
+- 210279 | Sinalizadores de porcelana ou vidro
+- 210280 | Esponjas para uso doméstico
+- 210281 | Espanadores de pó, de penas
+- 210282 | Panos de pó
+- 210283 | Fibras de sílica vitrificada, exceto para uso têxtil
+- 210283 | Vitreous silica fibers, other than for textile use
+- 210284 | Fibra de vidro, exceto para isolamento ou uso têxtil
+- 210284 | Fiberglass, other than for insulation or textile use
+- 210285 | Figurines of porcelain, ceramic, earthenware, terra-cotta, clay or glassFiguras de porcelana, cerâmica, faiança, terracota, argila ou vidro
+- 210285 | Statuettes of porcelain, ceramic, earthenware, terra-cotta, clay or glassEstatuetas de porcelana, cerâmica, faiança, terracota, argila ou vidro
+- 210286 | Linha de fibra de vidro, exceto para uso têxtil
+- 210286 | Fiberglass thread, other than for textile use
+- 210287 | Cafeteiras não elétricas
+- 210288 | Coadores de chá [filtros]
+- 210289 | Flasks* Frascos*
+- 210290 | Luvas para uso doméstico
+- 210291 | Canecas
+- 210292 | Galheteiros
+- 210294 | Luvas para polir
+- 210295 | Apagadores de velas
+- 210301 | Banheiras para bebês [portáteis]
+- 210302 | Gaiolas para animais de estimação
+- 210303 | Panos para limpeza de chão
+- 210304 | Escovas para lavar louça
+- 210305 | Terrários de interiores [cultura de plantas]
+- 210306 | Caixas para asseio de animais de estimação
+- 210306 | Bandejas para asseio de animais de estimação
+- 210308 | Fused silica [semi-worked product], other than for buildingSílica fundida [produtos semitrabalhados], exceto para construção
+- 210309 | Chapas de ferro não elétricas para waffles
+- 210310 | Porta-pão
+- 210311 | Pauzinhos para comida oriental
+- 210312 | Estopa para limpeza
+- 210313 | Pregadores para roupa
+- 210313 | Clothes-pins
+- 210314 | Pauzinhos para mexer coquetéis
+- 210315 | Sacos de confeiteiros
+- 210315 | Sacos de confeitar
+- 210315 | Pastry bags
+- 210316 | Cortadores modeladores de biscoito [artigo de cozinha]
+- 210317 | Potes de biscoitos
+- 210318 | Copos de papel ou de plástico
+- 210319 | Copos para beber
+- 210320 | Fio dental
+- 210321 | Luvas de jardinagem
+- 210322 | Panelas não elétricas para hot pot
+- 210323 | Bolsas isotérmicas
+- 210324 | Bandejas giratórias de mesa
+- 210325 | Merendeiras [lancheiras]
+- 210326 | Colheres para misturar [utensílios de cozinha]
+- 210327 | Aparelhos manuais para fazer noodle
+- 210328 | Cortadores de massa [espátula de padeiro]
+- 210329 | Desentupidores de pia
+- 210330 | Espátulas [utensílios de cozinha]
+- 210331 | Esponjas abrasivas para limpar a pele
+- 210332 | Espremedores de alho [utensílio de cozinha]
+- 210333 | Pratos descartáveis
+- 210334 | Trilhos e argolas para pendurar toalhas
+- 210335 | Porta-toalha para mesa
+- 210336 | Aquários para interiores
+- 210336 | Tanks [indoor aquaria]
+- 210337 | Tampas para aquário
+- 210338 | Terrários [viveiros] para interiores
+- 210339 | Esfregões com sistema de torção
+- 210340 | Cestos para papel
+- 210341 | Jardineiras para janelas
+- 210342 | Canudos para bebidas
+- 210342 | Drinking straws
+- 210343 | Abafadores para chaleiras
+- 210344 | Instrumentos para remover maquiagem
+- 210345 | Dispositivos elétricos para atrair e matar insetos
+- 210346 | Tapetes culinários
+- 210347 | Formas para alargar botas
+- 210348 | Cantis de bolso
+- 210349 | Espátulas para cosméticos
+- 210350 | Bandeja de gotejamento
+- 210351 | Armadilhas para moscas
+- 210352 | Porta-velas
+- 210353 | Panelas não elétricas de cozimento a vapor
+- 210354 | Esponjas para maquiagem
+- 210355 | Trituradores para uso na cozinha, não elétricos
+- 210356 | Pega-panelas
+- 210357 | Luvas térmicas para cozinha, para retirada de objetos do forno
+- 210357 | Luvas térmicas para cozinha
+- 210357 | Luvas térmicas para cozinha, para uso no preparo de churrascos
+- 210358 | Pincéis para culinária
+- 210359 | Seringas para temperar alimentos
+- 210360 | Luvas para limpar veículos
+- 210361 | Pincéis de maquiagem
+- 210362 | Baldes para esfregões com sistema de torção
+- 210363 | Máquinas para fazer tortilhas, não elétricas [utensílio de cozinha]
+- 210364 | Escovas para cera de esqui
+- 210365 | Escovas para cílios
+- 210366 | Egg separators, non-electric, for household purposesSeparadores de gemas e claras, não elétricos, para fins domésticos
+- 210367 | Separadores de dedos do pé para uso por pedicures
+- 210368 | Difusores de repelentes de mosquitos, para uso com tomada
+- 210369 | Bolsas de gelo para conservar comida e bebidas
+- 210370 | Cubos de gelo reutilizáveis
+- 210371 | Jogos americanos, exceto de papel ou tecido
+- 210372 | Jogos americanos, exceto de papel ou tecido
+- 210373 | Etiquetas identificadoras para decantadores
+- 210374 | Aeradores de vinho
+- 210375 | Refis para escovas de dente elétricas
+- 210376 | Cofrinhos de moeda
+- 210377 | Papa-bolinhas, elétricos ou não
+- 210378 | Panos para polimento
+- 210379 | Cerdas de porco para fabricação de escovas
+- 210380 | Crina de cavalo para fabricação de escovas
+- 210381 | Pegadores de gelo
+- 210382 | Pegadores de salada
+- 210383 | Conchas para servir
+- 210384 | Pilões para uso na cozinha
+- 210385 | Almofarizes para uso na cozinha
+- 210386 | Colheres para sorvete
+- 210387 | Quebra-nozes
+- 210388 | Pinças para açúcar
+- 210389 | Cabos para vassouras
+- 210390 | Conchas para servir vinho
+- 210391 | Banheiras infláveis para bebês
+- 210392 | Suportes para banheiras portáteis de bebê
+- 210393 | Descansos para sachê de chá
+- 210394 | Decoradores e bicos para decorar e confeitar bolos
+- 210395 | Varais giratórios
+- 210396 | Sacos de malha para uso culinário
+- 210397 | Conta-gotas para uso cosmético
+- 210398 | Conta-gotas para uso doméstico
+- 210399 | Cuscuzeiras, não elétricas
+- 210400 | Tagines [panela marroquina], não elétricas
+- 210400 | Tagines, non-electric
+- 210401 | Separadores de gema de ovo
+- 210402 | Coberturas [vedadores] em silicone para alimentos, reutilizáveis
+- 210403 | Luvas para escovação de animais
+- 210404 | Rodos [instrumentos de limpeza]
+- 210405 | Formas para ovo poché
+- 210406 | Aromatic oil diffusers, other than reed diffusers, electric and non-electricDifusores de óleos aromáticos, exceto varetas difusoras, elétricos e não elétricos
+- 210407 | Pratos para difusão de óleos aromáticos
+- 210408 | Máquinas manuais para fazer macarrão
+- 210409 | Lixeiras para descarte de fraldas
+- 210409 | Nappy disposal bins
+- 210410 | Disposable aluminium foil containers for household purposesRecipientes descartáveis em folha de alumínio para uso doméstico
+- 210410 | Disposable aluminum foil containers for household purposes
+- 210411 | Tubos cilíndricos para descascar alho
+- 210413 | Vertedores para garrafa de vinho
+- 210413 | Bicos dosadores para garrafa de vinho
+- 210414 | Tigelas para alimentação de animais de estimação
+- 210415 | Tigelas automáticas para alimentação de animais de estimação
+- 210416 | Aquecedores de velas, elétricos e não elétricos
+- 210417 | Panos para lavar louça
+- 210418 | Luvas abrasivas para esfoliar a pele
+- 210419 | Forminhas para assar de papel
+- 210420 | Forminhas para assar de silicone
+- 210421 | Tigelas de sopa
+- 210422 | Repelentes de pragas ultrassônicos
+- 210423 | Irrigadores orais
+- 210424 | Frascos inteligentes de remédios, vazios
+- 210425 | Valet trays [receptacles for small objects] for household purposesBandejas organizadoras [recipientes para pequenos objetos] para fins domésticos
+- 210426 | Espremedores em tubo para uso doméstico
+- 210427 | Figurines of porcelain, ceramic, earthenware, terra-cotta or glass for cakesEstatuetas de porcelana, cerâmica, louça de cerâmica, terracota ou vidro para bolos
+- 210428 | Assadeiras
+- 210429 | Moedores de carne, não elétricos
+- 210430 | Carimbos cosméticos, vazios
+- 210431 | Descansos, exceto de papel ou tecido, para copos de cerveja
+- 210432 | Automatic opening and closing trash cans for household purposesLixeiras com abertura e fechamento automáticos para fins domésticos
+- 210433 | Escova de cabelo com vibração de ondas sonoras
+- 210434 | Funis para torta
+- 210435 | Pinças de churrasco
+- 210436 | Garfos de servir
+- 210437 | Colheres de servir
+- 210438 | Garfos para churrasco
+- 210439 | Gaiolas para pegar insetos
+- 210440 | Caixas para colecionadores de insetos
+- 210441 | Aparelhos cosméticos para microdermoabrasão
+- 210442 | Capas para caixas de lenços
+- 210443 | Sacos para uso em culinária
+- 210444 | Palitos para doces congelados
+- 210445 | Esferas para uso em lavanderia, vazias
+- 210445 | Washing balls, empty
+- 210446 | Protetores de caneca
+- 210446 | Mug sleeves
+- 210447 | Taças estatuárias comemorativas, de porcelana, cerâmica, faiança, terracota ou vidro
+- 210448 | Disposable portable potties for adults and childrenPenicos portáteis descartáveis para adultos e crianças
+- 210449 | Raspadores
+- 210450 | Prize cups of porcelain, ceramic, earthenware, terra-cotta or glassTaças para premiação, de porcelana, cerâmica, faiança, terracota ou vidro
+- 210451 | Vidro de alabastro, exceto para construção
+- 210452 | Sabonete de aço inoxidável
+- 210453 | Penicos para crianças
+- 210454 | Bolas de secagem
+- 210455 | Escorredores de louças
+- 210456 | Pazinhas de lixo
+- 210457 | Rolos adesivos para limpeza
+- 210458 | Refil de folhas adesivas para rolos de limpeza
+- 210459 | Facial cleansing brushes, electric and non-electricEscovas para limpeza facial, elétricas e não elétricas
+- 210460 | Viseiras de proteção contra xampu
+- 210461 | Organizadores de comprimidos para uso pessoal
+- 210462 | Organizadores eletrônicos de comprimidos para uso pessoal
+- 210463 | Linha para sobrancelhas
+- 210465 | Separadores de cílios
+- 210466 | Merendeiras [lancheiras] com isolamento térmico
+- 210467 | Colheres de geleia
+- 210468 | Anéis de cozimento [utensílios para cozinhar]
+- 210469 | Suportes para bolos
+- 210470 | Conchas para banheiro
+- 210471 | Varetas de agitação para água quente de banho
+- 210472 | Redes de pesca para aquários
+- 210473 | Tapetes de lamber para animais de estimação
+- 210474 | Candle holders* Castiçais*
+- 210475 | Colher para mel
+- 210476 | Suportes para toalha de papel
+- 210477 | Limpadores faciais elétricos
+- 210478 | Bolsas [almofadas] aquecedoras para preparar comidas e bebidas
+- 210479 | Raspadores de língua
+- 210480 | Tábuas para massa
+- 210481 | Pesos para toalhas de mesa
+- 210482 | Extratores de cravos para fins cosméticos
+- 210482 | Extratores de comedão para fins cosméticos
+- 210483 | Frascos para servir molho de soja
+- 210483 | Soya sauce pitchers
+- 210484 | Tapetes de proteção para fogão de indução
+- 210484 | Tapetes de proteção para cooktops de indução
+- 210485 | Hydroponic growing containers for household purposesRecipientes de cultivo hidropônico para uso doméstico
+- 210486 | Lenços para óculos
+- 210486 | Panos para óculos

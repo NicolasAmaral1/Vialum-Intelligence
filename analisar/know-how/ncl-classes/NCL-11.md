@@ -1,0 +1,432 @@
+# Classe NCL 11
+
+Especificações pré-especificadas (Português):
+
+- 110001 | Instalações automáticas para irrigar
+- 110002 | Acumuladores de calor
+- 110003 | Queimadores de acetileno
+- 110004 | Geradores de acetileno
+- 110005 | Chamas de acetileno
+- 110006 | Dutos de ventilação
+- 110007 | Instalações de iluminação para veículos aéreos
+- 110008 | Aerotermos
+- 110009 | Aparelhos para desodorização do ar
+- 110009 | Air deodorising apparatus
+- 110010 | Aparelhos para resfriamento do ar
+- 110011 | Filtros para ar-condicionado
+- 110012 | Reaquecedores de ar
+- 110013 | Secadores de ar
+- 110013 | Air driers
+- 110014 | Instalações de ar-condicionado
+- 110015 | Instalações para filtragem de ar
+- 110016 | Aparelhos de ar quente
+- 110018 | Acendedores por fricção para ignição de gás
+- 110019 | Acendedor de gás
+- 110021 | Lâmpadas de bulbo
+- 110022 | Lâmpadas de bulbo, elétricas
+- 110023 | Lâmpadas de arco
+- 110024 | Luminárias elétricas
+- 110025 | Armações estruturais para fornos
+- 110026 | Armários frigoríficos
+- 110027 | Luzes para veículos
+- 110031 | Faróis para automóveis
+- 110032 | Resfriadores para fornalhas
+- 110032 | Recipientes de refrigeração para fornalhas
+- 110033 | Banheiras
+- 110035 | Banheiras para banhos de assento
+- 110036 | Cabines portáteis para banhos turcos
+- 110037 | Acessórios para banhos
+- 110038 | Aquecedores para banho
+- 110039 | Instalações de banheiros
+- 110039 | Bath plumbing fixtures
+- 110040 | Lâmpadas
+- 110041 | Lanternas para iluminação
+- 110042 | Camisas de candeeiro
+- 110042 | Lamp casings
+- 110043 | Queimadores incandescentes
+- 110044 | Bicos queimadores para candeeiros
+- 110045 | Lanternas para bicicleta
+- 110046 | Bidês [aparelho sanitário]
+- 110047 | Caldeiras, exceto peças de máquinas
+- 110048 | Fornos [cozedores]
+- 110049 | Hidrantes
+- 110050 | Tampões para radiadores
+- 110051 | Lanternas elétricas
+- 110051 | Electric flashlights
+- 110052 | Water heaters* Aquecedores de água*
+- 110053 | Fornos de padarias
+- 110055 | Quebra-jato para torneiras
+- 110056 | Espetos giratórios para assar
+- 110057 | Espetos para assar
+- 110058 | Queimadores de laboratório
+- 110059 | Tubos flamejantes para a indústria do petróleo
+- 110060 | Burners* Queimadores
+- 110061 | Queimadores germicidas
+- 110063 | Caldeiras de lavanderia
+- 110063 | Washing coppers
+- 110064 | Banheiros transportáveis
+- 110065 | Ventiladores [ar-condicionado]
+- 110066 | Torrefadores de café
+- 110067 | Aparelhos de aquecimento
+- 110068 | Torneiras para tubos e tubulações
+- 110068 | Spigots for pipes and pipelines
+- 110068 | Faucets for pipes and pipelines
+- 110068 | Cocks for pipes and pipelines
+- 110069 | Recuperadores de calor
+- 110070 | Acessórios para forno de barro refratário
+- 110071 | Lâmpadas para luzes direcionais para veículos
+- 110072 | Carvão para lâmpadas de arco
+- 110073 | Instalações de aquecimento
+- 110075 | Caixas de descarga [sanitários]
+- 110076 | Instalações de aquecimento de água
+- 110076 | Hot water heating installations
+- 110077 | Caldeiras de aquecimento [boilers]
+- 110078 | Tubos de caldeira para instalações de aquecimento
+- 110079 | Aparelhos de ar-condicionado para veículos
+- 110080 | Heating apparatus for solid, liquid or gaseous fuelsAparelhos de aquecimento para combustíveis sólidos, líquidos ou gasosos
+- 110081 | Aquecedores para veículos
+- 110082 | Aparelhos elétricos de aquecimento
+- 110083 | Radiadores de aquecimento central [calefação]
+- 110084 | Umidificadores para radiadores de aquecimento central
+- 110085 | Elementos aquecedores
+- 110086 | Aquecedores para ferros
+- 110087 | Esquenta-pés, elétricos ou não elétricos
+- 110089 | Aquecedores de pratos
+- 110090 | Aquecedores de imersão
+- 110091 | Vidros para luminárias
+- 110092 | Mangas de luminárias
+- 110093 | Canos de chaminés
+- 110094 | Gavetas [sopradores] de chaminés
+- 110095 | Secadores de cabelo
+- 110095 | Hair driers
+- 110096 | Instalações para distribuição de água
+- 110097 | Aparelhos secadores
+- 110099 | Aparelhos de ar-condicionado
+- 110100 | Aparelhos para esquentar cola
+- 110101 | Colunas para destilação
+- 110103 | Canos [peças de instalações sanitárias]
+- 110103 | Canos de água para instalações sanitárias
+- 110104 | Instalações para canos de água
+- 110105 | Toaletes
+- 110105 | Water closets
+- 110106 | Congeladores [freezers]
+- 110107 | Utensílios para cozinhar, elétricos
+- 110108 | Fogões de cozinha
+- 110108 | Cookers
+- 110109 | Aparelhos e instalações para cozimento
+- 110110 | Lanternas para motocicletas
+- 110111 | Tubos para descargas elétricas para iluminação
+- 110112 | Degeladores para veículos
+- 110115 | Aparelhos de desinfecção
+- 110116 | Usinas de dessalinização
+- 110117 | Aparelho de dessecação
+- 110118 | Difusores de luz
+- 110119 | Aparelhos resfriadores de bebidas
+- 110120 | Aparelhos de destilação
+- 110121 | Showers* Chuveiros*
+- 110122 | Bocais para lâmpadas elétricas
+- 110123 | Instalações para purificação de água
+- 110124 | Aparelhos para filtragem de água
+- 110125 | Instalações de resfriamento para água
+- 110126 | Fontes [chafariz]
+- 110127 | Tanques de água sob pressão
+- 110128 | Esterilizadores de água
+- 110128 | Water sterilisers
+- 110129 | Trocadores de calor, exceto partes de máquinas
+- 110130 | Aparelhos e instalações de iluminação
+- 110133 | Lustres
+- 110135 | Instalações de purificação de esgoto
+- 110136 | Iluminação de teto
+- 110137 | Radiadores elétricos
+- 110138 | Aparelhos para depuração de gás
+- 110141 | Aparelhos secadores de forragem
+- 110141 | Forage drying apparatus
+- 110142 | Evaporadores
+- 110143 | Fogões [aparelhos de aquecimento]
+- 110145 | Filamentos para lâmpadas elétricas
+- 110147 | Filtros para água potável
+- 110148 | Tochas
+- 110149 | Forjas portáteis
+- 110150 | Fornalhas, exceto para uso em laboratório
+- 110150 | Fornos, exceto para uso em laboratório
+- 110151 | Acessórios moldados para fornalhas
+- 110151 | Acessórios moldados para fornos
+- 110151 | Shaped fittings for furnaces
+- 110151 | Fittings, shaped, for ovens
+- 110152 | Barras de grelha
+- 110153 | Pisos de lareiras
+- 110154 | Furnace ash boxes
+- 110154 | Cinzeiros de lareiras
+- 110155 | Máquinas e aparelhos refrigeradores
+- 110156 | Câmaras frigoríficas
+- 110156 | Walk-in refrigerators
+- 110157 | Recipientes frigoríficos
+- 110158 | Lamparinas para frisar
+- 110159 | Torrefadores de frutas
+- 110160 | Depuradores de gás [partes de instalações de gás]
+- 110160 | Scrubbers [parts of gas installations]
+- 110161 | Queimadores de gás
+- 110162 | Caldeiras a gás
+- 110163 | Lâmpadas a gás
+- 110165 | Caldeiras de vapor, exceto partes de máquinas
+- 110166 | Lâmpadas germicidas para purificação de ar
+- 110167 | Aparelhos e máquinas de gelo
+- 110168 | Minigeladeira portátil [caixa térmica], elétrica
+- 110168 | Coolers, electric
+- 110169 | Globos para lâmpadas
+- 110169 | Globes for lamps
+- 110170 | Placas aquecedoras
+- 110171 | Torradeiras para pão
+- 110171 | Torradeiras
+- 110172 | Aparelhos para grelhar [grelhadores]
+- 110172 | Grills [cooking appliances]
+- 110172 | Griddles [cooking appliances]
+- 110173 | Incineradores
+- 110174 | Ionization apparatus for the treatment of air or waterAparelhos de ionização para tratamento de ar ou água
+- 110175 | Chafarizes ornamentais
+- 110176 | Lâmpadas de laboratório
+- 110177 | Instalações para resfriamento de leite
+- 110178 | Pasteurizadores
+- 110179 | Lâmpadas a óleo
+- 110180 | Lâmpadas de raios ultravioleta, exceto para uso medicinal
+- 110182 | Lâmpadas de segurança
+- 110183 | Refletores de lâmpadas
+- 110185 | Lampiões para decoração [lanternas chinesas]
+- 110186 | Lavatórios [partes de instalações sanitárias]
+- 110186 | Cubas para lavabos [partes de instalações sanitárias]
+- 110188 | Instalações de resfriamento para líquidos
+- 110189 | Tubos luminosos para iluminação
+- 110190 | Filamentos de magnésio para iluminação
+- 110191 | Torrefadores de malte
+- 110192 | Lâmpadas de mineiros
+- 110193 | Válvulas reguladoras de nível em reservatórios
+- 110196 | Números de casas luminosos
+- 110197 | Queimadores de gás oxídrico
+- 110198 | Radiadores [aquecimento]
+- 110199 | Queimadores de óleo
+- 110200 | Faróis de veículos
+- 110201 | Chapas de aquecimento
+- 110202 | Holofotes
+- 110203 | Instalações de polimerização
+- 110204 | Fornalhas de cozinha [fogões]
+- 110205 | Purgadores para instalação de aquecimento a vapor
+- 110206 | Aparelhos e máquinas para purificação de água
+- 110207 | Aparelhos e máquinas para purificação de ar
+- 110208 | Torres de refino para destilação
+- 110209 | Instalações e máquinas para resfriamento
+- 110210 | Fogareiros
+- 110212 | Refletores para veículos [faróis]
+- 110213 | Aparelhos e instalações de refrigeração
+- 110214 | Aparelhos e instalações para resfriamento
+- 110215 | Reguladores de chaminé [aquecimento]
+- 110216 | Regulating accessories for water or gas apparatus and pipesAcessórios de regulagem para aparelhos e canos de água ou gás
+- 110217 | Safety accessories for water or gas apparatus and pipesAcessórios de segurança para aparelhos e canos de água ou gás
+- 110218 | Torneiras *
+- 110218 | Faucets
+- 110219 | Arruelas para torneiras
+- 110219 | Washers for water faucets
+- 110220 | Assadeiras
+- 110221 | Aparelhos e instalações sanitários
+- 110222 | Aparelhos e instalações para secagem
+- 110223 | Aparelhos secadores de mão para banheiros
+- 110224 | Serpentinas [partes de instalações de destilação, aquecimento ou resfriamento]
+- 110225 | Ventiladores [peças de instalações de ar-condicionado]
+- 110226 | Esterilizadores
+- 110226 | Sterilisers
+- 110227 | Instalações de resfriamento para tabaco
+- 110228 | Torrefadores de tabaco
+- 110229 | Aparelhos de iluminação para veículos
+- 110230 | Torrefadores
+- 110231 | Instalações automáticas para transportar cinzas
+- 110232 | Instalações geradoras de vapor
+- 110233 | Ventilation [air-conditioning] installations and apparatusInstalações e aparelhos de ventilação [ar-condicionado]
+- 110234 | Ventilation [air-conditioning] installations for vehiclesInstalações e aparelhos de ventilação [ar-condicionado] para veículos
+- 110235 | Vasos sanitários
+- 110236 | Assentos para vasos sanitários
+- 110237 | Cúpulas para luminárias
+- 110238 | Bases de abajur
+- 110238 | Bases de luminária
+- 110239 | Torneiras misturadoras para canos de água
+- 110239 | Mixer faucets for water pipes
+- 110240 | Acessórios de regulagem e segurança para canos de gás
+- 110241 | Regulating and safety accessories for water apparatusAcessórios de regulagem e segurança para aparelhos de água
+- 110242 | Acumuladores de vapor
+- 110243 | Aparelhos e instalações para abrandamento da água
+- 110244 | Dutos de ventilação para laboratórios
+- 110245 | Esterilizadores de ar
+- 110245 | Air sterilisers
+- 110246 | Destiladores *
+- 110247 | Queimadores de álcool
+- 110249 | Dispositivos antirreflexo para veículos [acessórios para lanternas]
+- 110249 | Dispositivos antiofuscantes para veículos [acessórios para lanternas]
+- 110250 | Dispositivos de aquecimento para descongelar janelas de veículos
+- 110251 | Suportes para queimadores de gás
+- 110252 | Instalações para fornecimento de água
+- 110253 | Reatores nucleares
+- 110254 | Autoclaves, elétricas, para cozinhar
+- 110254 | Panelas de pressão, elétricas
+- 110256 | Luzes para automóveis
+- 110256 | Automobile lights
+- 110257 | Aquecedores elétricos para mamadeiras
+- 110258 | Aparelhos elétricos para fazer waffles (ingl.)
+- 110259 | Regulating and safety accessories for gas apparatusAcessórios de regulagem e segurança para aparelhos de gás
+- 110261 | Percoladores elétricos de café
+- 110262 | Máquinas elétricas de café
+- 110263 | Postes de iluminação pública
+- 110263 | Lampadários [iluminação pública]
+- 110264 | Tubos para caldeiras de aquecimento
+- 110265 | Churrasqueiras
+- 110266 | Frigideiras elétricas
+- 110267 | Lareiras, domésticas
+- 110268 | Bombas de calor
+- 110269 | Coletores solares [aquecimento]
+- 110270 | Fogões solares [fornalhas]
+- 110271 | Camas de bronzeamento
+- 110272 | Instalações de descargas sanitárias
+- 110272 | Aparelhos de descarga sanitária
+- 110273 | Aparelhos alimentadores de caldeiras de aquecimento
+- 110274 | Refrigeradores [geladeiras]
+- 110275 | Aparelhos de desodorização, exceto para uso pessoal
+- 110275 | Deodorising apparatus, not for personal use
+- 110276 | Aparelho para entrada de água
+- 110277 | Aparelhos para depuração de óleo
+- 110278 | Vaporizadores faciais
+- 110278 | Saunas faciais
+- 110279 | Suportes para fornos
+- 110280 | Escalfetas de bolso
+- 110291 | Banheiras de hidromassagem
+- 110292 | Chromatography apparatus for industrial purposesAparelhos de cromatografia para uso industrial
+- 110293 | Filamentos elétricos de aquecimento
+- 110294 | Condensadores de gás, exceto peças de máquinas
+- 110296 | Heating cushions, electric, not for medical purposesAlmofadas aquecidas eletricamente, exceto para uso medicinal
+- 110296 | Heating pads, electric, not for medical purposes
+- 110297 | Instalações para sauna
+- 110298 | Boxes para chuveiros
+- 110298 | Shower enclosures
+- 110299 | Pias
+- 110301 | Mictórios [urinóis], enquanto instalações sanitárias
+- 110302 | Bolsas de água quente
+- 110303 | Chaleiras elétricas
+- 110304 | Aquecedores de camas
+- 110305 | Cobertores elétricos, exceto para uso medicinal
+- 110306 | Esquentadores [caçarola de aquecimento]
+- 110307 | Aparelhos para filtragem de aquário
+- 110308 | Aquecedores para aquário
+- 110309 | Iluminação para aquário
+- 110310 | Tapetes aquecidos eletricamente
+- 110311 | Fornos odontológicos
+- 110312 | Aparelhos elétricos para fazer iogurte
+- 110312 | Electric appliances for making yoghurt
+- 110313 | Tanques de expansão para instalações de aquecimento central [calefação]
+- 110314 | Exaustores para cozinha
+- 110315 | Ventiladores elétricos de uso pessoal
+- 110316 | Secadoras de roupa, elétricas
+- 110316 | Laundry driers, electric
+- 110317 | Fornos de micro-onda [aparelhos de cozinha]
+- 110318 | Aparelhos de cloração para piscinas
+- 110319 | Válvulas de termostatos [partes de instalações de aquecimento]
+- 110320 | Aparelhos para hidromassagem
+- 110321 | Aparelho para desidratar restos de alimentos
+- 110322 | Luzes de mergulho
+- 110323 | Aparelhos de irrigação por gotejamento [acessórios de irrigação]
+- 110325 | Câmaras estéreis [instalações sanitárias]
+- 110326 | Pedras de lava para grelhas de churrasco
+- 110327 | Máquinas para irrigar, para fins agrícolas
+- 110328 | Fornos de micro-ondas para fins industriais
+- 110329 | Máquinas para assar pão
+- 110330 | Vitrines refrigeradas
+- 110331 | Passadeiras a vapor
+- 110332 | Máquinas de fazer pão
+- 110333 | Aparelhos de iluminação de LED [diodo emissor de luz]
+- 110334 | Aparelhos para banho de hidromassagem
+- 110335 | Balcões aquecidos
+- 110336 | Panelas elétricas
+- 110337 | Panelas elétricas de cozimento a vapor
+- 110338 | Máquinas para fazer tortilhas, elétricas
+- 110339 | Aparelhos para esterilizar livros
+- 110339 | Book sterilisation apparatus
+- 110340 | Sopradores térmicos
+- 110341 | Fontes de chocolate, elétricas
+- 110342 | Aparelho desinfetante para fins médicos
+- 110343 | Adegas elétricas
+- 110344 | Luzes pisca-pisca para decoração de festas
+- 110344 | Mangueiras luminosas para decoração de festas
+- 110346 | Lanternas de cabeça
+- 110346 | Lanternas frontais
+- 110347 | Lâmpadas para manicures
+- 110348 | Fogões a vácuo elétricos [sous-vide]
+- 110349 | Geradores de microbolhas para banhos
+- 110350 | Heating and cooling apparatus for dispensing hot and cold beveragesAparelhos aquecedores e resfriadores para distribuição de bebidas quentes e frias
+- 110352 | Pounded rice cake making machines, electric, for household purposesMáquinas elétricas para a preparação de bolo de arroz batido [mochi]
+- 110353 | Pavios adaptados para fogões [lareira] a óleo
+- 110354 | Fogões cooktop elétricos
+- 110355 | Lanternas a vela
+- 110356 | Fritadeiras a ar
+- 110357 | Máquinas de fazer sorvete
+- 110358 | Luzes direcionais para bicicletas
+- 110359 | Lâmpadas de cura, exceto para uso medicinal
+- 110361 | Sistemas de cultivo hidropônico
+- 110362 | Potes térmicos elétricos
+- 110363 | Desidratadores de alimentos, elétricos
+- 110364 | Aquecedores de mão alimentados por usb
+- 110365 | Aquecedores de xícara alimentados por usb
+- 110366 | Panelas de cuscuz, elétricas
+- 110367 | Luminárias de chão
+- 110367 | Standard lamps
+- 110368 | Tagines [panela marroquina], elétricas
+- 110368 | Tagines, electric
+- 110369 | Projetores de luz
+- 110370 | Máquinas de fumaça baixa
+- 110371 | Aparelhos e instalações sob piso para aquecimento
+- 110372 | Umidificadores de ar
+- 110373 | Máquinas elétricas para fazer leite de soja
+- 110374 | Coffee capsules, empty, for electric coffee machinesCápsulas de café, vazias, para máquinas elétricas de café
+- 110375 | Samovares elétricos
+- 110376 | Desumidificadores
+- 110377 | Membranas para unidades de osmose reversa
+- 110379 | Membrane filtration units for water treatment apparatusUnidades de filtração por membranas para aparelhos de tratamento de água
+- 110380 | Filtros para aparelhos de filtragem de água
+- 110381 | Reverse osmosis membrane filters for water treatmentFiltros com membranas de osmose reversa para tratamento de água
+- 110382 | Pias de cozinha com bancadas integradas
+- 110383 | Máquinas de café com purificadores de água
+- 110384 | Bastões de luz, à bateria
+- 110385 | Unidades de osmose reversa
+- 110386 | Recipientes elétricos para fazer gelados e sorvetes
+- 110387 | Panelas elétricas
+- 110388 | Aparelhos de adsorção para geração de gás
+- 110389 | Aparelhos de membrana para geração de gás
+- 110390 | Bioreactors for use in the treatment of wastewaterBiorreatores para uso no tratamento de águas residuais
+- 110391 | Aparelhos de fermentação para fins industriais
+- 110392 | Aparelhos para irrigação de fertilizantes
+- 110393 | Canecas aquecidas eletricamente
+- 110394 | Faróis de rodagem para veículos
+- 110395 | Canhões de neve
+- 110395 | Máquinas para fazer neve
+- 110396 | Beer brewing machines, electric, for household purposesMáquinas para fazer cerveja, elétricas, para fins domésticos
+- 110397 | Biorreatores para uso no tratamento de resíduos
+- 110398 | Heat-stabilized polypropylene pipes for heating installationsTubos de polipropileno estabilizado por calor para instalações de aquecimento
+- 110399 | Bastões de luz para iluminação
+- 110400 | Lavadores Venturi
+- 110401 | Filtros para aparelhos para filtragem de água
+- 110402 | Lâmpadas de bulbo inteligentes
+- 110403 | Aparelhos para secar o corpo
+- 110404 | Ozonizadores para fins sanitários
+- 110404 | Geradores de ozônio para fins sanitários
+- 110405 | Sterilizers for medical instruments / sterilisers for medical instrumentsEsterilizadores para instrumentos médicos
+- 110406 | Defumadores [aparelhos para cozinhar]
+- 110407 | Estações aquecidas para cortes de alimentos
+- 110408 | Embalagens de resfriamento de uso pessoal, exceto para fins médicos
+- 110409 | Máquinas de fumaça
+- 110410 | Cafeteiras, elétricas
+- 110411 | Frigideiras, elétricas
+- 110412 | Panelas elétricas para hot pot
+- 110413 | Potes aquecedores de cola, elétricos
+- 110414 | Lâmpadas de bulbo de diodos emissores de luz [LED]
+- 110415 | Aparelhos criogênicos*
+- 110416 | Máquinas de secagem de louças
+- 110417 | Refrigeradores [geladeiras] inteligentes
+- 110418 | Pulverizadores enquanto aparelhos desinfetantes
+- 110419 | Tapetes de resfriamento para animais de estimação, exceto para fins veterinários
+- 110420 | Lâmpadas para cultivo de plantas
+- 110421 | Steam cabinets for cleaning and freshening clothingArmários a vapor para limpeza e desodorização de roupas
+- 110422 | Luzes noturnas elétricas

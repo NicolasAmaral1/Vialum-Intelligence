@@ -1,0 +1,108 @@
+[
+  {
+    "numero_processo": null,
+    "nome_marca": null,
+    "situacao": null,
+    "apresentacao": null,
+    "natureza": null,
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [],
+    "representante_legal": null,
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "937025984",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Negócios de gestão hoteleira"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM MOTEL LTDA - ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "GILBERTO LUIS DA SILVEIRA"
+    },
+    "datas": {
+      "deposito": "14/11/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2814",
+        "data_rpi": "10/12/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "913771767",
+    "nome_marca": "Amsterdam",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Comércio (através de qualquer meio) de bijuteria; Comércio (através de qualquer meio) de artigos de chapelaria; Comércio (através de qualquer meio) de artigos do vestuário; Comércio (através de qualquer meio) de artigos e produtos confeccionados de couro e imitações de couro; Comércio (através de qualquer meio) de produtos têxteis; Comércio (através de qualquer meio) de roupas"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "GUILHERME MELO PORCARO PESSO"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Consolide - Dr. Alan Marcos da Silva"
+    },
+    "datas": {
+      "deposito": "23/11/2017",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2500",
+        "data_rpi": "04/12/2018",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 901706035 (AMSTERDAM) e Processo 828205132 (AMSTERDAM SAUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2450",
+        "data_rpi": "19/12/2017",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 901706035 (AMSTERDAM) e Processo 828205132 (AMSTERDAM SAUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850170298364"
+      ]
+    }
+  }
+]

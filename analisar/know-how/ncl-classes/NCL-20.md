@@ -1,0 +1,413 @@
+# Classe NCL 20
+
+Especificações pré-especificadas (Português):
+
+- 200001 | Colmeias de abelhas
+- 200002 | Painéis de afixação
+- 200003 | Decorações de matérias plásticas para alimentos
+- 200005 | Âmbar amarelo
+- 200006 | Animais empalhados
+- 200007 | Camas para animais domésticos
+- 200007 | Casinhas para animais domésticos
+- 200008 | Ninhos para animais domésticos
+- 200009 | Canis para animais domésticos
+- 200010 | Garras de animais
+- 200011 | Anéis de cortinas
+- 200013 | Vidro prateado [espelhos]
+- 200014 | Armários [guarda-louças]
+- 200015 | Armários para medicamentos
+- 200016 | Grampos não metálicos para cabos ou canos
+- 200017 | Tinas de madeira para decantar vinho
+- 200018 | Barbatana de baleia, não trabalhada ou semitrabalhada
+- 200019 | Bambu, não trabalhado ou semitrabalhado
+- 200020 | Bancos [móveis]
+- 200021 | Cestos de pesca [samburás]
+- 200022 | Cercados para bebê
+- 200023 | Berços
+- 200023 | Cradles
+- 200024 | Prateleiras para bibliotecas
+- 200025 | Carretéis de madeira para fio, seda e cordão
+- 200026 | Estrados [madeira] para cama
+- 200027 | Fitas de madeira
+- 200030 | Rolhas de cortiça
+- 200031 | Garrafeiras
+- 200032 | Bastidores para bordar
+- 200033 | Armações para escovas
+- 200034 | Aparadores [bufê]
+- 200035 | Chifres de animais
+- 200036 | Mesas para escrever
+- 200037 | Móveis para escritório
+- 200038 | Manequins para vestuário
+- 200039 | Favos artificiais para colmeias
+- 200040 | Quadros para colmeias de abelhas
+- 200041 | Peças de mobiliário
+- 200042 | Torneiras não metálicas para pipas
+- 200042 | Faucets, not of metal, for casks
+- 200043 | Arquivos para fichas [móveis]
+- 200044 | Arquivos [móveis]
+- 200045 | Imitações de casco de tartaruga
+- 200046 | Guarda-fogo para chaminés [mobília]
+- 200047 | Caixões [esquifes]
+- 200048 | Guarnições não metálicas para caixões
+- 200049 | Chifres de veado
+- 200049 | Esgalhos
+- 200050 | Seats* Assentos [cadeiras]*
+- 200050 | Cadeiras [assentos]*
+- 200051 | Chaise longues [chaises]
+- 200051 | Chaise lounges
+- 200052 | Apoio de cabeça [móveis]
+- 200053 | Porta-chapéus
+- 200054 | Paletes [plataformas] não metálicos para carga
+- 200055 | Loading gauge rods, not of metal, for railway wagonsBitolas não metálicas para medidas de carga para vagões de ferrovias
+- 200056 | Dobradiças não metálicas
+- 200057 | Vitrines [mobiliário]
+- 200057 | Expositores [mobiliário]
+- 200058 | Canis para cães
+- 200059 | Cabides para vestuário
+- 200059 | Clothes hangers
+- 200062 | Prateleiras para arquivos
+- 200063 | Armchairs* Poltronas*
+- 200064 | Bustos [manequins] de costura
+- 200064 | Manequins de costura
+- 200064 | Mannequins* Manequins*
+- 200065 | Recipientes não metálicos para combustíveis líquidos
+- 200066 | Cômodas com gavetas
+- 200067 | Balcões
+- 200068 | Contêineres não metálicos [armazenagem e transporte]
+- 200069 | Contêineres flutuantes, não metálicos
+- 200070 | Mesas *
+- 200071 | Coral
+- 200072 | Bandejas não metálicas *
+- 200074 | Chifre, não trabalhado ou semitrabalhado
+- 200076 | Corozo
+- 200076 | Marfim vegetal
+- 200077 | Artigos para cama, exceto roupa de cama
+- 200078 | Cushions* Almofadas*
+- 200079 | Colchões *
+- 200080 | Ganchos não metálicos para cabideiros
+- 200080 | Hooks, not of metal, for clothes rails
+- 200081 | Cubas não metálicas
+- 200082 | Carrinhos de chá
+- 200082 | Tea carts
+- 200083 | Mesas para desenho
+- 200084 | Dispensadores não metálicos de toalhas
+- 200085 | Divãs
+- 200087 | Aduelas de madeira
+- 200088 | Trabalhos de marcenaria
+- 200089 | Casco de tartaruga
+- 200090 | Conchas de ostras
+- 200091 | Tanchões [estacas, esteio de videira] não metálicos
+- 200092 | Escadas portáteis, de madeira ou plástico
+- 200093 | Mobile boarding stairs, not of metal, for passengersEscadas móveis não metálicas para embarque de passageiros
+- 200094 | Mobiliário escolar
+- 200095 | Mesas para datilografia
+- 200095 | Prateleiras para máquinas de escrever
+- 200096 | Letreiros de madeira ou plástico [cartazes]
+- 200097 | Porcas [parafusos], não metálicas
+- 200098 | Espuma-do-mar [sepiolita]
+- 200099 | Coberturas removíveis para pias
+- 200100 | Recipientes de plástico para embalagem
+- 200101 | Suportes de cortina para parede
+- 200102 | Camas *
+- 200103 | Reels, not of metal, non-mechanical, for flexible hosesCarretéis não metálicos e não mecânicos para mangueiras flexíveis
+- 200105 | Barras para passadeiras de escadas
+- 200106 | Bancadas de trabalho
+- 200108 | Racks
+- 200109 | Ninhos [viveiros de criação]
+- 200109 | Viveiros de criação
+- 200110 | Leques
+- 200112 | Fechos não metálicos de recipientes
+- 200113 | Guarnições não metálicas para móveis
+- 200115 | Jardineiras [móveis]
+- 200116 | Pedestais para vasos de flores
+- 200117 | Manjedouras para forragem
+- 200118 | Prateleiras para armas
+- 200119 | Tonéis não metálicos
+- 200120 | Suportes não metálicos para pipas
+- 200121 | Rodízios para cortinas
+- 200122 | Guarda-comidas
+- 200123 | Guarnições não metálicas para janelas
+- 200124 | Guarnições não metálicas para camas
+- 200125 | Guarnições não metálicas para portas
+- 200126 | Tábuas de carne [mesas de açougue]
+- 200128 | Engradados não metálicos [armazenamento, transporte]
+- 200129 | Capas para vestuário [guarda-roupa]
+- 200130 | Placas não metálicas de licenciamento para veículos
+- 200130 | Numberplates, not of metal
+- 200132 | Móveis de metal
+- 200133 | Rattan, não trabalhado ou semitrabalhado
+- 200134 | Mostradores de jornais [display]
+- 200135 | Porta-revistas
+- 200136 | Persianas de lamelas de interior
+- 200137 | Bancadas de lavatório [mobiliário]
+- 200139 | Rodízios não metálicos para camas
+- 200140 | Lingüetas não metálicas
+- 200141 | Atril [leitoril]
+- 200144 | Cabideiros tipo mancebo
+- 200145 | Paletes não metálicos para transporte de cargas
+- 200146 | Paletes não metálicos para manuseio
+- 200147 | Degraus não metálicos [escadas portáteis]
+- 200148 | Divisórias de madeira para móveis
+- 200148 | Partitions of wood for furniture
+- 200149 | Rodízios não metálicos para móveis
+- 200151 | Móbiles [decoração]
+- 200152 | Mesas para trabalhar em pé [escrivaninha]
+- 200153 | Madrepérola, não trabalhada ou semitrabalhada
+- 200154 | Placas não metálicas de identidade
+- 200154 | Identity plates, not of metal
+- 200155 | Números de casas, não luminosos e não metálicos
+- 200156 | Aves empalhadas
+- 200157 | Pillows* Travesseiros*
+- 200158 | Travesseiros de ar, exceto para uso medicinal
+- 200159 | Colchões de palha
+- 200159 | Straw mattress
+- 200160 | Palha entrançada, exceto esteiras
+- 200161 | Tranças de palha
+- 200162 | Fitas de palha
+- 200163 | Cestos de pão para padeiros
+- 200164 | Suportes para guarda-chuvas
+- 200165 | Biombos
+- 200166 | Cabideiros [ganchos] para vestuário, não metálicos
+- 200167 | Cortinas de contas para decoração
+- 200168 | Estacas não metálicas para tendas
+- 200169 | Bandejas de mesas
+- 200170 | Portas para móveis
+- 200171 | Trilhos para cortinas
+- 200172 | Prateleiras para móveis
+- 200173 | Acabamentos de plástico para móveis
+- 200174 | Reservatórios, exceto de metal ou alvenaria
+- 200174 | Tanques, exceto de metal ou alvenaria
+- 200175 | Varas para cortinas
+- 200176 | Ganchos para cortinas
+- 200177 | Pateras para cortinas, exceto de tecido
+- 200177 | Prendedores para cortinas, exceto de tecido
+- 200178 | Junco [material para entrançar]
+- 200179 | Cascos de animais
+- 200180 | Escrivaninhas [secretária]
+- 200181 | Fechaduras não metálicas para veículos
+- 200182 | Assentos de metal
+- 200183 | Sofás
+- 200184 | Canapés [móveis]
+- 200185 | Bases para camas
+- 200186 | Válvulas de plástico, exceto peças de máquinas
+- 200187 | Estátuas de madeira, cera, gesso ou plástico
+- 200188 | Mesas de metal
+- 200189 | Penteadeiras
+- 200190 | Molduras para quadros
+- 200190 | Moldings for picture frames
+- 200191 | Prateleiras para armazenagem
+- 200192 | Armários [mobiliário]
+- 200192 | Guarda-volumes [mobiliário]
+- 200192 | Cacifos [mobiliário]
+- 200193 | Espelhos
+- 200194 | Espreguiçadeiras
+- 200195 | Rolos de cama [travesseiros]
+- 200196 | Cavaletes [mobiliário]
+- 200197 | Quadros para pendurar chaves
+- 200198 | Guarda-louças [mobiliário]
+- 200199 | Cestaria
+- 200200 | Vitrines [móveis]
+- 200201 | Almofadas de ar, exceto para uso medicinal
+- 200202 | Colchões de ar, exceto para uso medicinal
+- 200203 | Barras de ambarino
+- 200204 | Chapas de ambarino
+- 200205 | Works of art of wood, wax, plaster, plastic or resinObras de arte em madeira, cera, gesso, plástico ou resina
+- 200206 | Caixões não metálicos para argamassa
+- 200207 | Baús não metálicos
+- 200207 | Cofres não metálicos
+- 200209 | Bancadas de tornos [móveis]
+- 200210 | Barris não metálicos
+- 200211 | Aros não metálicos para pipas
+- 200211 | Aros não metálicos para barris
+- 200212 | Suportes para máquinas de calcular
+- 200213 | Rolhas, não metálicas
+- 200213 | Batoques, não metálicos
+- 200214 | Cápsulas não metálicas para vedação
+- 200215 | Parafusos não metálicos
+- 200216 | Rebites não metálicos
+- 200217 | Cavilhas não metálicas
+- 200217 | Chavetas não metálicas
+- 200217 | Pinos guias não metálicos
+- 200218 | Pernos não metálicos
+- 200219 | Tampas não metálicas para garrafas
+- 200220 | Fechos não metálicos para garrafas
+- 200220 | Bottle fasteners, not of metal
+- 200221 | Pulseiras não metálicas de identificação
+- 200222 | Carrinhos de servir à mesa [móveis]
+- 200223 | Bustos de madeira, cera, gesso ou plástico
+- 200224 | Bornes de união [terminal], não metálicos, para cabos
+- 200224 | Bornes de união, não metálicos, para cabos
+- 200225 | Molduras [encaixilhamentos]
+- 200225 | Quadros [encaixilhamentos]
+- 200226 | Caixilhos para molduras [ripas]
+- 200226 | Ripas para molduras [caixilhos]
+- 200229 | Mesas de massagem
+- 200230 | Camas d'água, exceto para uso medicinal
+- 200231 | Válvulas de plástico para tubos de drenagem
+- 200232 | Cavilhas [tampões] não metálicas
+- 200232 | Tampões [cavilhas] não metálicos
+- 200233 | Conchas
+- 200235 | Tamborete
+- 200236 | Válvulas de matérias plásticas para encanamentos de água
+- 200238 | Invólucros de madeira para garrafas
+- 200239 | Estatuetas de madeira, cera, gesso ou plástico
+- 200239 | Statuettes of wood, wax, plaster or plastic
+- 200240 | Fechaduras não metálicas, exceto elétricas
+- 200241 | Cadeiras para cabeleireiros
+- 200242 | Varas não metálicas
+- 200243 | Cestos não metálicos
+- 200244 | Caixas de correio, exceto de metal ou alvenaria
+- 200251 | Bóias não metálicas para ancoragem
+- 200252 | Capas para vestuário [armazenamento]
+- 200253 | Sinalizadores de madeira ou plástico
+- 200254 | Carrinhos [mobiliário]
+- 200255 | Cortinas de bambu
+- 200256 | Baú para brinquedos
+- 200257 | Cadeiras altas para bebês
+- 200258 | Andadores para bebês
+- 200259 | Objetos de publicidade infláveis
+- 200260 | Cartões de plástico [chaves de acesso] não codificados e não magnéticos
+- 200261 | Placas de vidro para espelho
+- 200262 | Roldanas de plástico para persianas
+- 200263 | Cavalete de serrador
+- 200264 | Postes de arranhar para gatos
+- 200265 | Cangalhas
+- 200266 | Mesas com rodinhas para computadores
+- 200266 | Carts for computers [furniture]
+- 200267 | Urnas funerárias
+- 200268 | Móbiles sonoros [decoração]
+- 200268 | Sinos-dos-ventos [decoração]
+- 200269 | Persianas internas, feitas de madeira trançada
+- 200269 | Indoor window shades of woven wood
+- 200270 | Porta-livros [móveis]
+- 200271 | Almofadas para animais de estimação
+- 200272 | Persianas internas [mobiliário]
+- 200272 | Indoor window shades [furniture]
+- 200273 | Maçanetas de porta, não metálicas
+- 200274 | Espelhos portáteis [espelhos para banheiro]
+- 200275 | Tapetes para cercadinhos infantis
+- 200276 | Toalheiros de chão [móveis]
+- 200277 | Maçanetas, não metálicas
+- 200278 | Bancada, presa à parede, para troca de fraldas
+- 200279 | Colchonetes reutilizáveis para troca de fraldas
+- 200280 | Ferrolhos não metálicos
+- 200281 | Persianas internas, feitas de papel
+- 200281 | Indoor window shades of paper
+- 200282 | Persianas internas, feitas de matéria têxtil
+- 200282 | Indoor window shades of textile
+- 200283 | Campainhas de porta não metálicas, não elétricas
+- 200284 | Divisórias [móveis]
+- 200285 | Tampas de rosca não metálicas
+- 200286 | Aldravas de porta, exceto metálicas
+- 200287 | Bancadas para marcenaria
+- 200288 | Mobília inflável
+- 200289 | Banquinhos para os pés
+- 200290 | Barras de apoio não metálicas para banheiras
+- 200291 | Braçadeiras, exceto de metal, para prender tubos
+- 200292 | Painéis organizadores de joalheria e bijuteria
+- 200292 | Jewelry organizer displays
+- 200293 | Colchonetes
+- 200293 | Sleeping mats
+- 200294 | Argolas, não metálicas, para chaves
+- 200295 | Dispensadores não metálicos de sacos para fezes de cachorro
+- 200296 | Prendedores de porta, exceto de metal ou borracha
+- 200297 | Prendedores de janela, exceto de metal ou borracha
+- 200298 | Fechos de caixilhos, não metálicos, para janelas
+- 200299 | Trancas não metálicas para janelas
+- 200300 | Trancas não metálicas para portas
+- 200301 | Caixas de ferramentas, não metálicas, vazias
+- 200302 | Arca para ferramentas, não metálicas, vazias
+- 200303 | Estante modular
+- 200304 | Ganchos para pendurar bolsas, não metálicos
+- 200305 | Chaves de plástico
+- 200306 | Cantoneiras não metálicas para móveis
+- 200307 | Etiquetas de plástico
+- 200308 | Mesas de parede
+- 200309 | Armários para livros
+- 200310 | Arara para roupas
+- 200311 | Latões de gasolina, não metálicos
+- 200312 | Casas de passarinhos
+- 200313 | Clipes de plástico para fechar pacotes
+- 200314 | Protetores de berço, exceto roupa de cama
+- 200314 | Bumper guards for cribs, other than bed linen
+- 200315 | Caixas de madeira ou plástico
+- 200316 | Berços para bebês
+- 200316 | Cribs for babies
+- 200317 | Moisés [berço portátil]
+- 200318 | Pernas para mobília
+- 200319 | Pés para mobília
+- 200320 | Guarda-roupas
+- 200321 | Escabelos
+- 200322 | Pregos não metálicos para sapatos
+- 200323 | Tacos não metálicos para saltos de sapatos
+- 200324 | Crucifixes of wood, wax, plaster or plastic, other than jewelleryCrucifixos de madeira, cera, gesso ou plástico, exceto joias
+- 200324 | Crucifixes of wood, wax, plaster or plastic, other than jewelry
+- 200325 | Recipientes para drenagem de óleo, não metálicos
+- 200326 | Camas infláveis, exceto para uso medicinal
+- 200327 | Colchões para acampamento
+- 200328 | Rampas plásticas para uso em veículos
+- 200329 | Cadeiras para banho
+- 200330 | Almofada encosto de cabeça para bebês
+- 200331 | Almofadas antigiro para bebês
+- 200332 | Travesseiros posicionadores de cabeça para bebês
+- 200333 | Mastros portáteis, não metálicos
+- 200334 | Rolhas, exceto de vidro, metal ou borracha
+- 200335 | Molas para fechar portas, não metálicas, não elétricas
+- 200335 | Door springs, not of metal, non-electric
+- 200336 | Rodízios não metálicos para portas corrediças
+- 200337 | Cadeiras de banho para bebês
+- 200338 | Mesas de apoio para usar notebook sobre as pernas
+- 200339 | Escrivaninhas portáteis
+- 200340 | Dispositivos não metálicos, não elétricos, para abrir  portas
+- 200341 | Dispositivos não metálicos, não elétricos, para abrir janelas
+- 200342 | Dispositivos não metálicos, não elétricos, para fechar janelas
+- 200343 | Roldanas não metálicas para janelas
+- 200343 | Roldanas não metálicas para caixilho de janela
+- 200344 | Cadeados não metálicos, exceto eletrônicos
+- 200345 | Toucadores para banheiro [móveis]
+- 200346 | Gavetas para móveis
+- 200347 | Guarda-volumes para malas
+- 200347 | Cacifos para malas
+- 200347 | Armários para malas
+- 200348 | Containers, not of metal, for compressed gas or liquid airRecipientes, não metálicos, para gás comprimido ou ar líquido
+- 200349 | Bottles [containers], not of metal, for compressed gas or liquid airGarrafas [recipientes] não metálicas para gás comprimido ou ar líquido
+- 200350 | Bancos para banheiro
+- 200351 | Armários de cozinha [mobiliário]
+- 200352 | Tapetes removíveis para pias
+- 200353 | Organizadores de gaveta
+- 200354 | Organizadores de pendurar para armários
+- 200355 | Almofadas para forrar colchonetes para animais de estimação
+- 200357 | Protetores de respingos provenientes de espirros
+- 200358 | Waste dumpsters, not of metal, other than for medical useCaçambas de lixo não metálicas, exceto para uso médico
+- 200359 | Lixeiras para recicláveis, não metálicas
+- 200360 | Etiquetas costuradas de plástico para roupas
+- 200361 | Dispensadores de bilhetes, exceto de metal
+- 200362 | Caixas, exceto de metal, para liberação de toalhas de papel
+- 200363 | Porta-papel higiênico, exceto de metal
+- 200364 | Cadeiras ergonômicas para massagem na posição sentada
+- 200365 | Commemorative statuary cups of wood, wax, plaster or plasticTaças estatuárias comemorativas, de madeira, cera, gesso ou plástico
+- 200366 | Prateleiras para armazenar papelão
+- 200367 | Taças para premiação, de madeira, cera, gesso ou plástico
+- 200368 | Tapetes de dormir de bambu ou palha
+- 200369 | Pregos, não metálicos
+- 200370 | Pregos pequenos sem cabeça, não metálicos
+- 200370 | Tachas pequenas sem cabeça, não metálicas
+- 200371 | Árvores de gato
+- 200372 | Hand-held supermarket shopping baskets, not of metalCestas de compras não metálicas para supermercado
+- 200373 | Suportes de base para guarda-sóis de pátio
+- 200374 | Travesseiros de banho
+- 200375 | Bandejas [suporte] para teclado de computador
+- 200376 | Dustbins, not of metal, other than for household purposesLatas de lixo, não metálicas, exceto para fins domésticos
+- 200376 | Garbage cans, not of metal, other than for household purposesLixeiras, não metálicas, exceto para fins domésticos
+- 200376 | Trash cans, not of metal, other than for household purposes
+- 200377 | Travesseiros para amamentação
+- 200378 | Dispensadores de sabonete, exceto de metal
+- 200379 | Bocais/bicos*, exceto feitos de metal
+- 200380 | Pranchas/placas de tração para desatolar veículos, exceto de metal
+- 200381 | Almofadas de meditação
+- 200382 | Almofadas de ioga
+- 200382 | Travesseiros de ioga
+- 200383 | Bancos de meditação
+- 200384 | Rolos de ioga
+- 200385 | Altares [mobiliário]
+- 200386 | Estatuetas feitas de sementes

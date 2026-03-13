@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= analise.nome_marca %> — Genesis Laudo ⚖️</title>
+  <link rel="stylesheet" href="/laudo/public/style.css">
+  <% if (cliRodando) { %>
+  <meta http-equiv="refresh" content="10">
+  <% } %>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <a href="/laudo/" class="header-back">← Dashboard</a>
+      <span class="header-icon">⚖️</span>
+      <span class="header-title"><%= analise.nome_marca %></span>
+      <span class="header-sub"><%= analise.cliente %></span>
+    </div>
+    <% if (cliRodando) { %>
+      <div class="cli-running-badge">⚙️ Mira processando...</div>
+    <% } %>
+  </div>
+</header>
+
+<main class="main">
+
+  <!-- ── Stepper de fases ─────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="stepper">
+      <% const faseNomes = ['Monitorar', 'Coletar', 'Preliminar', 'INPI', 'Gerar']; %>
+      <% faseNomes.forEach(function(nome, i) { %>
+        <div class="step <%= analise.fase > i ? 'step-done' : analise.fase === i ? 'step-active' : 'step-pending' %>">
+          <div class="step-circle"><%= analise.fase > i ? '✓' : i %></div>
+          <div class="step-label"><%= nome %></div>
+        </div>
+        <% if (i < faseNomes.length - 1) { %>
+          <div class="step-connector <%= analise.fase > i ? 'connector-done' : '' %>"></div>
+        <% } %>
+      <% }) %>
+    </div>
+  </section>
+
+  <!-- ── Dados da análise ─────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="info-grid">
+      <div class="info-item">
+        <span class="info-label">Marca</span>
+        <span class="info-value"><%= analise.nome_marca %></span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Cliente</span>
+        <span class="info-value"><%= analise.cliente || '—' %></span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Atividade</span>
+        <span class="info-value"><%= analise.atividade || '—' %></span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">Task ClickUp</span>
+        <span class="info-value code"><%= analise.task_id %></span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">CP1</span>
+        <span class="info-value <%= analise.checkpoint_1 === 'aprovado' ? 'text-success' : '' %>">
+          <%= analise.checkpoint_1 === 'aprovado' ? '✓ Aprovado' : 'Pendente' %>
+        </span>
+      </div>
+      <div class="info-item">
+        <span class="info-label">CP2</span>
+        <span class="info-value <%= analise.checkpoint_2 === 'aprovado' ? 'text-success' : '' %>">
+          <%= analise.checkpoint_2 === 'aprovado' ? '✓ Aprovado' : 'Pendente' %>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Status do CLI ────────────────────────────────────────────────── -->
+  <% if (cliRodando) { %>
+  <section class="section">
+    <div class="cli-status-box">
+      <div class="cli-spinner">⚙️</div>
+      <div>
+        <div class="cli-status-title">Mira está trabalhando...</div>
+        <div class="cli-status-sub">Esta página atualiza automaticamente a cada 10 segundos.</div>
+      </div>
+    </div>
+  </section>
+  <% } %>
+
+  <!-- ── Conteúdo da análise (PLANO DE ANÁLISE.md) ────────────────────── -->
+  <% if (conteudoMd) { %>
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">📄 Plano de Análise</h2>
+      <% if (parte2Pronta) { %>
+        <span class="badge badge-count" style="background:rgba(159,236,20,0.1);color:var(--color-primary)">PARTE 1 + 2</span>
+      <% } else { %>
+        <span class="badge badge-count">PARTE 1</span>
+      <% } %>
+    </div>
+    <div class="markdown-body">
+      <%- require('marked').marked(conteudoMd) %>
+    </div>
+  </section>
+  <% } else if (!cliRodando && analise.fase >= 2) { %>
+  <section class="section">
+    <p class="empty-state">Arquivo de análise não encontrado. Verifique os logs do CLI.</p>
+  </section>
+  <% } else if (!cliRodando && analise.fase < 2) { %>
+  <section class="section">
+    <p class="empty-state">Análise ainda não iniciada. Aguardando execução do CLI.</p>
+  </section>
+  <% } %>
+
+  <!-- ── CHECKPOINT 1 — Aprovar PARTE 1 ───────────────────────────────── -->
+  <% if (analise.fase === 2 && analise.checkpoint_1 !== 'aprovado' && !cliRodando && conteudoMd) { %>
+  <section class="section">
+    <div class="checkpoint-box checkpoint-pending">
+      <div class="checkpoint-icon">⏸️</div>
+      <div class="checkpoint-info">
+        <div class="checkpoint-title">CHECKPOINT 1 — Revisão da PARTE 1</div>
+        <div class="checkpoint-sub">Revise a análise preliminar acima. Aprove para prosseguir com a busca INPI.</div>
+      </div>
+      <form action="/laudo/analise/checkpoint/1" method="POST">
+        <input type="hidden" name="task_id" value="<%= analise.task_id %>">
+        <button type="submit" class="btn btn-primary"
+          onclick="return confirm('Confirma a aprovação da PARTE 1 e avança para a fase INPI?')">
+          ✓ Aprovar PARTE 1
+        </button>
+      </form>
+    </div>
+  </section>
+  <% } %>
+
+  <!-- ── INPI — Colar dados e processar ───────────────────────────────── -->
+  <% if (analise.fase === 3 && analise.checkpoint_1 === 'aprovado' && !cliRodando && !parte2Pronta) { %>
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">🔍 Busca INPI</h2>
+    </div>
+    <div class="inpi-instructions">
+      <p>Realize a busca no INPI e cole o resultado abaixo:</p>
+      <ol>
+        <li>Acesse: <strong>busca.inpi.gov.br/pePI/servlet/MarcasServlet</strong></li>
+        <li>Pesquise por <strong><%= analise.nome_marca %></strong> em cada classe aprovada</li>
+        <li>Selecione todos os resultados (Ctrl+A) e copie (Ctrl+C)</li>
+        <li>Cole no campo abaixo e clique em <strong>Processar</strong></li>
+      </ol>
+    </div>
+    <form action="/laudo/analise/inpi" method="POST">
+      <input type="hidden" name="task_id" value="<%= analise.task_id %>">
+      <textarea
+        name="inpi_texto"
+        class="inpi-textarea"
+        placeholder="Cole aqui os dados brutos copiados da busca INPI..."
+        rows="14"
+      ></textarea>
+      <button type="submit" class="btn btn-primary" style="margin-top:12px">
+        ⚡ Processar dados INPI →
+      </button>
+    </form>
+  </section>
+  <% } %>
+
+  <!-- ── CHECKPOINT 2 — Aprovar PARTE 2 ───────────────────────────────── -->
+  <% if (analise.fase === 3 && analise.checkpoint_2 !== 'aprovado' && parte2Pronta && !cliRodando) { %>
+  <section class="section">
+    <div class="checkpoint-box checkpoint-pending">
+      <div class="checkpoint-icon">⏸️</div>
+      <div class="checkpoint-info">
+        <div class="checkpoint-title">CHECKPOINT 2 — Revisão da PARTE 2</div>
+        <div class="checkpoint-sub">Revise a análise de colidências acima. Aprovando, os documentos finais serão gerados.</div>
+      </div>
+      <form action="/laudo/analise/checkpoint/2" method="POST">
+        <input type="hidden" name="task_id" value="<%= analise.task_id %>">
+        <button type="submit" class="btn btn-primary"
+          onclick="return confirm('Confirma a aprovação da PARTE 2 e gera os documentos finais?')">
+          ✓ Aprovar PARTE 2
+        </button>
+      </form>
+    </div>
+  </section>
+  <% } %>
+
+  <!-- ── Fase 4: Gerar documentos ────────────────────────────────────── -->
+  <% if (analise.fase === 4) { %>
+
+    <% if (analise.output_pdf) { %>
+    <!-- Documentos gerados com sucesso -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">🎉 Documentos Gerados</h2>
+      </div>
+      <div class="gerar-done-box">
+        <div class="gerar-done-item">
+          <span class="gerar-done-icon">📄</span>
+          <span class="gerar-done-label">PDF</span>
+          <span class="gerar-done-value text-success">Gerado ✓</span>
+        </div>
+        <div class="gerar-done-item">
+          <span class="gerar-done-icon">📝</span>
+          <span class="gerar-done-label">DOCX</span>
+          <span class="gerar-done-value <%= analise.output_docx ? 'text-success' : '' %>">
+            <%= analise.output_docx ? 'Gerado ✓' : 'Não gerado' %>
+          </span>
+        </div>
+        <div class="gerar-done-item">
+          <span class="gerar-done-icon">☁️</span>
+          <span class="gerar-done-label">Drive</span>
+          <span class="gerar-done-value <%= analise.drive_url ? 'text-success' : '' %>">
+            <% if (analise.drive_url) { %>
+              <a href="<%= analise.drive_url %>" target="_blank" style="color:var(--color-primary)">Ver no Drive ↗</a>
+            <% } else { %>
+              Não enviado
+            <% } %>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <% } else if (cliRodando) { %>
+    <!-- Geração em progresso — SSE conecta automaticamente -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">⚙️ Gerando Documentos...</h2>
+      </div>
+      <div class="gerar-progress" data-task-id="<%= analise.task_id %>">
+        <div class="gerar-step-list">
+          <div class="gerar-step gerar-step-active" id="gerar-step-pdf">
+            <span class="gerar-step-dot">⏳</span> Gerando PDF...
+          </div>
+          <div class="gerar-step gerar-step-pending" id="gerar-step-docx">
+            <span class="gerar-step-dot">○</span> Gerando DOCX...
+          </div>
+          <div class="gerar-step gerar-step-pending" id="gerar-step-drive">
+            <span class="gerar-step-dot">○</span> Enviando ao Drive...
+          </div>
+          <div class="gerar-step gerar-step-pending" id="gerar-step-clickup">
+            <span class="gerar-step-dot">○</span> Atualizando ClickUp...
+          </div>
+        </div>
+        <p class="gerar-progress-hint">Esta página atualiza automaticamente ao concluir.</p>
+      </div>
+    </section>
+
+    <% } else { %>
+    <!-- Aguardando ação: botão para gerar documentos -->
+    <section class="section">
+      <div class="checkpoint-box checkpoint-pending">
+        <div class="checkpoint-icon">📦</div>
+        <div class="checkpoint-info">
+          <div class="checkpoint-title">Pronto para gerar documentos</div>
+          <div class="checkpoint-sub">Ambos checkpoints aprovados. Clique para gerar PDF + DOCX e enviar ao Google Drive.</div>
+        </div>
+        <form action="/laudo/analise/gerar" method="POST">
+          <input type="hidden" name="task_id" value="<%= analise.task_id %>">
+          <button type="submit" class="btn btn-primary"
+            onclick="return confirm('Confirma a geração dos documentos finais?')">
+            🚀 Gerar documentos
+          </button>
+        </form>
+      </div>
+    </section>
+    <% } %>
+
+  <% } %>
+
+  <!-- ── Log de execuções CLI ─────────────────────────────────────────── -->
+  <% if (cliExecs && cliExecs.length > 0) { %>
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">🖥️ Execuções CLI</h2>
+      <span class="badge badge-count"><%= cliExecs.length %></span>
+    </div>
+    <div class="cli-log-list">
+      <% cliExecs.forEach(function(exec) { %>
+        <div class="cli-log-item cli-log-<%= exec.status %>">
+          <div class="cli-log-header">
+            <span class="cli-log-status"><%= exec.status %></span>
+            <span class="cli-log-time"><%= new Date(exec.started_at).toLocaleTimeString('pt-BR') %></span>
+          </div>
+          <div class="cli-log-cmd"><%= exec.command %> <%= (Array.isArray(exec.args) ? exec.args : JSON.parse(exec.args || '[]')).join(' ') %></div>
+          <% if (exec.exit_code !== null) { %>
+            <div class="cli-log-exit">exit: <%= exec.exit_code %></div>
+          <% } %>
+        </div>
+      <% }) %>
+    </div>
+  </section>
+  <% } %>
+
+</main>
+
+<footer class="footer">
+  <span>— Mira ⚖️ &nbsp;|&nbsp; genesis-laudo v1.0.0</span>
+</footer>
+
+<script src="/laudo/public/app.js"></script>
+</body>
+</html>

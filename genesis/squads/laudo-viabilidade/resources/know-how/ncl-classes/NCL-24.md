@@ -1,0 +1,151 @@
+# Classe NCL 24
+
+Especificações pré-especificadas (Português):
+
+- 240001 | Tecidos adesivos para aplicação a quente
+- 240002 | Fabric, impervious to gases, for aeronautical balloonsTecidos impermeáveis a gases para balões aeronáuticos
+- 240003 | Tecidos imitação de peles de animais
+- 240004 | Tecidos para mobiliário [estofamento]
+- 240005 | Roupa de banho, exceto vestuário
+- 240006 | Estandartes de tecido ou plástico
+- 240007 | Panos para bilhar
+- 240008 | Tecidos *
+- 240009 | Malha para peneiras
+- 240009 | Tela para peneiras
+- 240010 | Entretelas
+- 240011 | Brocados
+- 240012 | Materiais têxteis
+- 240013 | Panos *
+- 240015 | Lonas [telas] para tapeçaria ou para bordados
+- 240016 | Tela de treliça
+- 240017 | Tecidos de cânhamo
+- 240018 | Panos de cânhamo
+- 240019 | Forros de chapéus, feitos de matéria têxtil
+- 240020 | Forros de tecido para calçados
+- 240021 | Tecido para calçados
+- 240022 | Caminhos de mesa, exceto de papel
+- 240023 | Cheviotes [tecido]
+- 240025 | Oleados [toalhas de mesa]
+- 240026 | Veludo
+- 240027 | Feltro *
+- 240028 | Tecidos de algodão
+- 240029 | Cobertas de cama
+- 240029 | Colchas
+- 240029 | Colchas de cama
+- 240029 | Bedspreads
+- 240030 | Protetores de colchões
+- 240031 | Cotim [tecido leve de linho ou algodão]
+- 240032 | Cobertas de cama de papel
+- 240033 | Toalhas de mesa, exceto de papel
+- 240034 | Mantas de viagem
+- 240035 | Crepe [tecido]
+- 240036 | Crepom [tecido]
+- 240037 | Damasco [tecido]
+- 240038 | Tecidos para lingerie
+- 240039 | Forros [têxteis]
+- 240040 | Lençóis [têxteis]
+- 240041 | Sudário [tecido]
+- 240042 | Bandeiras de tecido ou plástico
+- 240043 | Estamenha de tecido ou plástico
+- 240044 | Droguete [estofo]
+- 240045 | Edredons
+- 240046 | Tecidos fiados elásticos
+- 240047 | Pateras em tecido para cortinas
+- 240047 | Prendedores em tecido para cortinas
+- 240048 | Tecido para vidro [toalha]
+- 240049 | Tecidos desenhados para bordado
+- 240049 | Traced cloth for embroidery
+- 240050 | Flanela [tecido]
+- 240052 | Tecido de lã frisado
+- 240053 | Panos para queijo
+- 240053 | Morim [tecido]
+- 240054 | Fustão
+- 240055 | Luvas para banho
+- 240056 | Gaze [tecido]
+- 240057 | Gummed cloth, other than for stationery purposesPanos gomados, exceto para fins de papelaria
+- 240058 | Tecido grosseiro
+- 240059 | Capas [soltas] para móveis
+- 240059 | Loose covers for furniture
+- 240060 | Tecidos de seda para estampagem
+- 240061 | Chita [tecido]
+- 240062 | Jérsei [tecido]
+- 240063 | Tecidos de juta
+- 240064 | Tecidos de lã
+- 240064 | Woollen fabric
+- 240067 | Tecidos de linho
+- 240068 | Roupa de cama
+- 240069 | Tecido adamascado de linho
+- 240070 | Toalhas de mesa e guardanapos, exceto de papel
+- 240071 | Roupa de cama, mesa e banho
+- 240072 | Toalhas têxteis
+- 240073 | Marabu [tecido]
+- 240074 | Capas para colchões
+- 240075 | Capas de plástico para móveis
+- 240075 | Coverings of plastic for furniture
+- 240076 | Guardanapos de mesa têxteis
+- 240076 | Serviettes of textile
+- 240077 | Molesquim [tecido]
+- 240078 | Lenços de bolso têxteis
+- 240079 | Mosquiteiros
+- 240080 | Fronhas de travesseiros
+- 240081 | Matérias plásticas [substitutas de tecidos]
+- 240082 | Reposteiros [cortinados de porta]
+- 240083 | Tecidos de rami
+- 240084 | Raiom
+- 240085 | Cortinas de matérias têxteis ou plásticas
+- 240087 | Toalhas de rosto de matérias têxteis
+- 240088 | Seda [tecidos]
+- 240089 | Tule
+- 240090 | Esparto [tecidos]
+- 240091 | Tafetá [tecidos]
+- 240092 | Toalhas têxteis
+- 240093 | Cortinas de tecidos transparentes
+- 240094 | Zefir [tecido]
+- 240095 | Calicô
+- 240096 | Descansos em tecido para copos ou garrafas
+- 240097 | Jogos americanos de tecidos
+- 240098 | Fazendas não tecidas [não urdidas]
+- 240100 | Lençóis [liner] para sacos de dormir
+- 240101 | Lenços de tecido para remover maquiagem
+- 240102 | Etiquetas de tecido
+- 240103 | Colgaduras em matérias têxteis
+- 240103 | Tapeçarias murais [colgadura] de matérias têxteis
+- 240104 | Tecidos de fibra de vidro para uso têxtil
+- 240104 | Fiberglass fabrics for textile use
+- 240105 | Materiais filtrantes de matérias têxteis
+- 240106 | Blanquetas para impressão, de material têxtil
+- 240111 | Tecido de seda ou lã aveludada
+- 240112 | Fronhas decorativas para travesseiros
+- 240113 | Jogos americanos de tecidos
+- 240114 | Cobertores de cama
+- 240114 | Mantas de cama
+- 240115 | Capas para almofadas
+- 240117 | Capas para móveis, de tecido
+- 240118 | Cobertura de tecido para tampo de vaso sanitário
+- 240119 | Cortinas de chuveiro de tecido ou plástico
+- 240120 | Panos para troca de fraldas para bebês
+- 240121 | Cobertores para animais de estimação
+- 240122 | Sacos de dormir para bebês
+- 240123 | Bolsas de lã para envolver bebês
+- 240124 | Sacos de dormir
+- 240125 | Saias para cama
+- 240126 | Protetores de berço [roupa de cama]
+- 240126 | Protetores de moisés [roupa de cama]
+- 240127 | Musseline [tecido]
+- 240128 | Sacos de bivaque como capas para sacos de dormir
+- 240129 | Toalhas de piquenique
+- 240130 | Toalhas de chá
+- 240130 | Panos de prato
+- 240131 | Fustão
+- 240132 | Tecidos revestidos de cera reutilizáveis para embrulhar alimentos
+- 240133 | Descansos de tecido para copos de cerveja
+- 240134 | Etiquetas costuradas de tecido para roupas
+- 240135 | Etiquetas adesivas de tecido para bolsas
+- 240136 | Cobertores para ioga
+- 240136 | Mantas para ioga
+- 240137 | Toalhas para ioga
+- 240138 | Lençóis de couro
+- 240139 | Tecidos batik
+- 240139 | Tecidos batique
+- 240140 | Tecidos de poliéster
+- 240141 | Tecidos de renda

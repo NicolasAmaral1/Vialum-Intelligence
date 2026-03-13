@@ -1,0 +1,675 @@
+# Classe NCL 07
+
+Especificações pré-especificadas (Português):
+
+- 070001 | Acoplamentos de eixos [máquinas]
+- 070002 | Aparelhos para purificação de acetileno
+- 070003 | Conversores para siderúrgicas
+- 070004 | Máquinas dispensadoras de fita para uso industrial
+- 070005 | Bombas de aeração para aquários
+- 070006 | Aerocondensadores
+- 070007 | Agitadores
+- 070008 | Máquinas agrícolas
+- 070009 | Elevadores para agricultura
+- 070010 | Filtros para limpeza de ar de resfriamento, para motores
+- 070011 | Condensadores de ar
+- 070012 | Aparelhos para tirar cerveja sob pressão
+- 070013 | Size adjustment cutting machines for industrial purposesMáquinas de corte para ajuste de tamanho para fins industriais
+- 070014 | Rolos compressores
+- 070014 | Road rollers
+- 070015 | Alimentadores para carburadores
+- 070016 | Dispositivos de ignição para motores de combustão interna
+- 070018 | Alternadores
+- 070019 | Válvulas [peças de máquinas]
+- 070020 | Eixos de máquinas
+- 070021 | Virabrequins
+- 070022 | Eixos de transmissão, exceto para veículos terrestres
+- 070023 | Elevadores de passageiros
+- 070023 | Passenger elevators
+- 070024 | Elevadores [máquinas]
+- 070026 | Máquinas misturadoras
+- 070027 | Rolamentos autolubrificantes
+- 070028 | Arados
+- 070029 | Motores de avião
+- 070030 | Máquinas para caiação
+- 070030 | Colour-washing machines
+- 070031 | Anéis para lubrificação [peças de máquinas]
+- 070032 | Segmentos de êmbolos
+- 070032 | Anéis de êmbolos
+- 070033 | Escovas de dínamo
+- 070034 | Máquinas varredoras de rua, autopropulsoras
+- 070035 | Bancadas para serrar [partes de máquinas]
+- 070036 | Correias para transportadores
+- 070037 | Correias transportadoras
+- 070038 | Tigelas batedeiras
+- 070039 | Tambores [peças de máquinas]
+- 070040 | Invólucros [partes de máquinas]
+- 070041 | Armações para máquinas
+- 070042 | Moinhos [máquinas]
+- 070043 | Debulhadoras
+- 070044 | Máquinas para bater
+- 070045 | Betoneiras [máquinas]
+- 070046 | Máquinas para fazer manteiga
+- 070047 | Dínamos para bicicletas
+- 070048 | Connecting rods for machines, motors and enginesBielas para máquinas e motores
+- 070049 | Rolamentos de esferas
+- 070050 | Máquinas para fazer betume
+- 070051 | Máquinas colheitadeiras
+- 070051 | Máquinas ceifeiras
+- 070052 | Enfardadeiras
+- 070054 | Bobinas de tear [carretéis]
+- 070054 | Carretéis de tear
+- 070055 | Máquinas para trabalhar madeira
+- 070056 | Aparelhos para gaseificar bebidas
+- 070057 | Teares de malharia [máquinas]
+- 070058 | Enfardadeiras para feno
+- 070058 | Trussing apparatus for hay
+- 070059 | Coletores de lama [máquinas]
+- 070061 | Velas para reaquecimento de motores diesel
+- 070062 | Máquinas para rosquear
+- 070063 | Máquinas para enxaguar
+- 070064 | Máquinas para encher garrafas
+- 070065 | Máquinas para lavar garrafas
+- 070066 | Máquinas de cervejaria
+- 070067 | Tambores para máquinas de bordar
+- 070068 | Escovas [peças de máquinas]
+- 070069 | Buldôzeres
+- 070070 | Pás mecânicas
+- 070071 | Máquinas para malhetar
+- 070071 | Paring machines
+- 070072 | Cabrestantes
+- 070073 | Fateixas automáticas para uso náutico
+- 070074 | Correias para máquinas
+- 070075 | Capotas [partes de máquinas]
+- 070075 | Capôs [partes de máquinas]
+- 070075 | Guards [parts of machines]
+- 070076 | Máquinas componedoras [impressão]
+- 070077 | Injetores para motores
+- 070078 | Carburadores
+- 070079 | Guarnições para cardas [peças de máquinas de cardar]
+- 070080 | Facas enquanto peças de máquinas
+- 070081 | Caixas para matrizes [impressão]
+- 070082 | Peneiras para cinzas [máquinas]
+- 070083 | Separadores nata/leite
+- 070084 | Secadoras rotativas [centrífugas]
+- 070084 | Spin driers [not heated]
+- 070085 | Lubrificadores [peças de máquinas]
+- 070086 | Máquinas centrífugas
+- 070086 | Centrifuges [machines]
+- 070087 | Moinhos centrífugos
+- 070088 | Bombas centrífugas
+- 070089 | Descascadores de grãos
+- 070089 | Descascadores de cereais
+- 070089 | Descascadores de grãos e cereais
+- 070090 | Máquinas fresadoras
+- 070091 | Mancais de rolamento para máquinas
+- 070092 | Suportes para máquinas
+- 070093 | Escovas de carvão [eletricidade]
+- 070094 | Máquinas cortadoras de carvão
+- 070095 | Monta-cargas
+- 070096 | Rampas de carregamento
+- 070097 | Carros corrediça para máquinas de tricotar
+- 070097 | Slides for knitting machines
+- 070097 | Carriages for knitting machines
+- 070098 | Tornos mecânicos [máquinas-ferramentas]
+- 070099 | Roldanas *
+- 070100 | Relhas de arado
+- 070101 | Acessórios para caldeiras de máquinas
+- 070102 | Prensas de uvas
+- 070102 | Lagares de vinho
+- 070103 | Máquinas de cigarros para uso industrial
+- 070104 | Máquinas para curvar
+- 070105 | Tosquiadeiras elétricas
+- 070106 | Tesouras elétricas
+- 070107 | Formões para máquinas
+- 070108 | Válvulas para charneiras [peças de máquinas]
+- 070109 | Filtros-prensas
+- 070110 | Coletores de incrustações para caldeiras de máquinas
+- 070111 | Comandos de pedal para máquinas de costura
+- 070112 | Máquinas para fotocomposição
+- 070113 | Compressores [máquinas]
+- 070114 | Turbocompressores
+- 070115 | Condensadores de vapor [peças de máquinas]
+- 070116 | Instalações de condensação
+- 070117 | Roldanas [peças de máquinas]
+- 070118 | Junções [peças de motor]
+- 070118 | Junções para vedação [peças de motor]
+- 070119 | Máquinas para fazer cordas
+- 070120 | Máquinas para fundição de tipos [caracteres tipográficos]
+- 070122 | Tosquiadores [máquinas]
+- 070123 | Cortadores [máquinas]
+- 070124 | Geradores de corrente
+- 070125 | Coroas de sondagem [partes de máquinas]
+- 070125 | Coroas diamantadas [partes de máquinas]
+- 070126 | Correias para dínamo
+- 070128 | Máquinas para pontear
+- 070129 | Dispositivos para almofadas de ar para deslocar cargas
+- 070130 | Rolamentos [partes de máquinas]
+- 070131 | Facas elétricas
+- 070132 | Macacos para cremalheiras
+- 070133 | Instalações de peneiramento
+- 070135 | Macacos [máquinas]
+- 070136 | Máquinas para trabalhar couro
+- 070137 | Cabeças de cilindro para motores
+- 070138 | Cultivadores [máquinas]
+- 070139 | Cilindros para máquinas
+- 070140 | Cilindros para impressão
+- 070141 | Cilindros para laminação
+- 070143 | Máquinas para selecionar de uso industrial
+- 070145 | Tremonhas [descarga mecânica]
+- 070146 | Máquinas cortadeiras
+- 070147 | Desgaseificadores para água de alimentação
+- 070148 | Removedores de relva
+- 070149 | Desengorduradores [máquina]
+- 070150 | Acionadores de partida para motores e máquinas
+- 070151 | Máquinas rendeiras
+- 070152 | Separadores de vapor/óleo
+- 070153 | Desintegradores
+- 070154 | Redutores de pressão [partes de máquinas]
+- 070155 | Dobadouras mecânicas
+- 070157 | Máquinas para adelgaçar couro
+- 070158 | Máquinas para drenagem
+- 070159 | Máquinas para aparar
+- 070159 | Máquinas para desbastar
+- 070159 | Apparatus for dressing
+- 070160 | Dínamos
+- 070162 | Pulverizadores para esgoto
+- 070162 | Sewage pulverisers
+- 070163 | Aparelhos para gaseificar água
+- 070164 | Aparelhos para a mineralização de água potável
+- 070164 | Machines for the mineralisation of drinking water
+- 070165 | Aquecedores de água enquanto partes de máquinas
+- 070166 | Máquinas para descarnar
+- 070167 | Máquinas para rosquear e talhar
+- 070167 | Nut-tapping machines
+- 070168 | Desengaçadores [máquinas]
+- 070169 | Separadores de grãos
+- 070170 | Ejetores
+- 070171 | Geradores de eletricidade
+- 070172 | Aparelhos para elevação
+- 070173 | Embutidoras [máquinas de embutir]
+- 070174 | Embreagens, exceto para veículos terrestres
+- 070175 | Aparatos de entintamento para máquinas de impressão
+- 070176 | Alimentadores [partes de máquinas]
+- 070177 | Empacotadoras [máquina]
+- 070178 | Escadas rolantes
+- 070178 | Escalators
+- 070179 | Bombas [partes de máquinas e motores]
+- 070180 | Máquinas para selar [estampilhar]
+- 070181 | Máquina para estampar
+- 070182 | Etiquetadores [máquinas]
+- 070183 | Estiradores [máquinas]
+- 070184 | Escavadeiras
+- 070185 | Haulage apparatus [mining]
+- 070185 | Extratores para mineração
+- 070186 | Máquinas para remexer feno
+- 070187 | Peneiras [máquinas ou partes de máquinas]
+- 070188 | Navalhas para máquinas de cortar grama
+- 070189 | Lâminas [partes de máquinas]
+- 070190 | Máquinas para fiação
+- 070191 | Rodas para fiar
+- 070192 | Máquinas para filtrar
+- 070193 | Máquinas para acabamento
+- 070194 | Mandris [peças de máquinas]
+- 070195 | Prensas para forragem
+- 070196 | Máquinas para fundição
+- 070197 | Pistões para cilindros
+- 070198 | Caixas de engaxetamento [peças de máquinas]
+- 070199 | Blowing machines for the compression, exhaustion and transport of gasesVentiladores [foles] para compressão, aspiração e transporte de gases
+- 070199 | Ventoinhas [foles] para compressão, aspiração e transporte de gases
+- 070201 | Cortadores de grama [máquinas]
+- 070202 | Máquinas para alcatroamento
+- 070203 | Blowing machines for the compression, sucking and carrying of grainVentiladores [foles] para compressão, aspiração e transporte de grãos
+- 070203 | Fans for the compression, sucking and carrying of grainVentoinhas [foles] para compressão, aspiração e transporte de grãos
+- 070203 | Blowing machines or fans for the compression, sucking and carrying of grain
+- 070204 | Caixas de lubrificação [partes de máquinas]
+- 070205 | Bombas para lubrificação
+- 070206 | Máquinas para estampagem
+- 070207 | Máquinas para gravar
+- 070208 | Chanfradores
+- 070209 | Guias para máquinas
+- 070210 | Corta-palhas
+- 070210 | Chaff cutters
+- 070211 | Picadores de carne, elétricos
+- 070211 | Meat mincers, electric
+- 070212 | Mecanismos para teares
+- 070213 | Grades
+- 070214 | Máquinas de pulverização
+- 070214 | Atomizadores [máquinas]
+- 070214 | Pulverizadores [máquinas]
+- 070215 | Turbinas hidráulicas
+- 070216 | Máquinas para impressão para uso em chapas metálicas
+- 070217 | Clichês para impressão
+- 070218 | Máquinas para impressão
+- 070219 | Máquinas para impressão tipográfica
+- 070220 | Rolos de impressão para máquinas
+- 070222 | Máquinas para laticínios
+- 070223 | Lâminas para corta-palha
+- 070224 | Hastes para tear
+- 070225 | Máquinas para afiar lâminas [correia]
+- 070225 | Stropping machines
+- 070226 | Lâminas para serras [partes de máquinas]
+- 070227 | Porta-lâminas [partes de máquinas]
+- 070228 | Laminadores
+- 070229 | Lanças térmicas [máquinas]
+- 070230 | Manivelas [partes de máquinas]
+- 070231 | Máquinas de lavar louças
+- 070231 | Lava-louças
+- 070233 | Aparelhos para lavagem [limpeza]
+- 070234 | Máquinas para lavar [roupas]
+- 070235 | Instalações para lavagem de veículos
+- 070235 | Vehicle washing installations
+- 070236 | Máquinas de lavar operadas com moedas
+- 070237 | Máquinas para içamento
+- 070239 | Máquinas para torcer roupas
+- 070240 | Plainas para alisar
+- 070241 | Motores propulsores, exceto para veículos terrestres
+- 070242 | Máquinas a vapor
+- 070243 | Máquinas-ferramentas
+- 070244 | Magnetos para ignição
+- 070245 | Aparelhos para manuseio de carga e descarga
+- 070246 | Margeadores [impressão]
+- 070247 | Martelos [partes de máquinas]
+- 070248 | Martelos mecânicos
+- 070249 | Martelos pneumáticos
+- 070250 | Martinetes [martelos de forja]
+- 070251 | Mastros de carga
+- 070252 | Propulsion mechanisms, other than for land vehiclesMecanismos para propulsão, exceto para veículos terrestres
+- 070253 | Transmission mechanisms, other than for land vehiclesMecanismos de transmissão, exceto para veículos terrestres
+- 070254 | Reguladores [partes de máquinas]
+- 070255 | Máquinas para processar tabaco
+- 070256 | Trituradores elétricos para cozinha
+- 070257 | Diafragmas de bombas
+- 070258 | Máquinas para trabalhar metais
+- 070259 | Teares [máquinas]
+- 070260 | Máquinas para fiar [ing. spinning frame]
+- 070262 | Mós
+- 070263 | Máquinas moedoras
+- 070263 | Máquinas trituradoras
+- 070264 | Trados para minas
+- 070265 | Aparelhos para processamento de minérios
+- 070266 | Máquinas para moagem de farinha
+- 070267 | Misturadoras [batedoras] [máquinas]
+- 070268 | Ceifeiras
+- 070269 | Ceifeiras enfardadeiras
+- 070270 | Ceifeiras batedeiras
+- 070271 | Monta-cargas para vagões [elevadores]
+- 070272 | Motores a jato, exceto para veículos terrestres
+- 070273 | Dispositivos antipoluentes para motores e máquinas
+- 070274 | Pistões para motores
+- 070275 | Speed governors for machines, engines and motorsReguladores de velocidade para máquinas e motores
+- 070276 | Moldes [partes de máquinas]
+- 070276 | Molds [parts of machines]
+- 070277 | Mills for household purposes, other than hand-operatedMoinhos para uso doméstico, exceto manuais
+- 070278 | Máquinas para moldar
+- 070278 | Molding machines
+- 070279 | Rodas livres, exceto para veículos terrestres
+- 070280 | Lançadeiras [partes de máquinas]
+- 070281 | Máquinas e aparelhos para limpeza, elétricos
+- 070282 | Máquinas para sucção para uso industrial
+- 070283 | Máquinas para debruar
+- 070284 | Ferramentas portáteis, exceto as de propulsão manual
+- 070285 | Ferramentas [partes de máquinas]
+- 070286 | Porta-ferramentas [partes de máquinas]
+- 070287 | Abridores de latas elétricos
+- 070287 | Can openers, electric
+- 070288 | Máquinas para cortar pão
+- 070289 | Caixas de munhões [peças de máquinas]
+- 070290 | Rolamentos para eixos de transmissão
+- 070291 | Máquinas para fabricação de papel
+- 070292 | Calandras [máquinas]
+- 070292 | Mangles
+- 070294 | Máquinas empacotadoras
+- 070295 | Máquinas amassadeiras
+- 070296 | Máquinas elétricas para fazer massas alimentícias
+- 070297 | Máquinas para pintar
+- 070298 | Pistolas para pintar
+- 070299 | Máquinas para furar
+- 070300 | Furadeiras elétricas, manuais
+- 070301 | Máquinas para trabalhar pedras
+- 070302 | Pistões [peças de máquinas e motores]
+- 070303 | Prensas tipográficas
+- 070304 | Transportadores pneumáticos
+- 070305 | Punções para máquinas perfuradoras
+- 070306 | Máquinas perfuradoras
+- 070307 | Moinhos de pimenta, exceto operados manualmente
+- 070308 | Máquinas e aparelhos para polimento [elétricos]
+- 070309 | Bombas [máquinas]
+- 070310 | Bombas de ar [instalações de oficina]
+- 070311 | Bombas para instalações de aquecimento
+- 070312 | Bombas a vácuo [máquinas]
+- 070313 | Pontes rolantes
+- 070314 | Correias adesivas para roldanas
+- 070315 | Beverage preparation machines, electromechanicalAparelhos eletromecânicos para preparar bebidas
+- 070316 | Prensas [máquinas para uso industrial]
+- 070317 | Reguladores de pressão [partes de máquinas]
+- 070318 | Válvulas de pressão [partes de máquinas]
+- 070319 | Máquinas para pudlagem [descarbonização do ferro]
+- 070320 | Purgadores automáticos [separadores de vapor]
+- 070321 | Máquinas para aplainar
+- 070322 | Máquinas para colocação de trilhos
+- 070323 | Ancinhos para máquinas
+- 070324 | Ancinhos [máquinas]
+- 070325 | Máquinas para fazer frisos
+- 070326 | Retificadoras [máquinas-ferramentas]
+- 070327 | Bookbinding apparatus and machines for industrial purposesAparelhos e máquinas para encadernação para uso industrial
+- 070328 | Máquinas para passar roupa
+- 070329 | Máquinas cerzideiras
+- 070330 | Molas [peças de máquinas]
+- 070331 | Dispositivos elétricos para cortinas
+- 070332 | Máquinas para rebitagem
+- 070333 | Torneiras [partes de máquinas ou motores]
+- 070333 | Faucets [parts of machines, engines or motors]
+- 070334 | Prensas rotativas [tipografia]
+- 070335 | Mecanismos de rodas para máquinas
+- 070336 | Rodas para máquinas
+- 070337 | Volantes para máquinas
+- 070338 | Rolamentos de roletes
+- 070339 | Anéis de esferas para rolamentos
+- 070340 | Máquinas para construção de estradas
+- 070340 | Road building machines
+- 070341 | Serras [máquinas]
+- 070342 | Máquinas para exploração de minas
+- 070343 | Correias para motores e máquinas
+- 070344 | Máquinas para sachar [mondar]
+- 070345 | Máquinas para acetinar
+- 070346 | Máquinas para fazer salsichas
+- 070347 | Máquinas para selar [lacrar] de uso industrial
+- 070348 | Semeadoras [máquinas]
+- 070349 | Máquinas elétricas para soldagem
+- 070350 | Foles [partes de máquinas]
+- 070350 | Foles [ventiladores] [motores]
+- 070351 | Foles de forja
+- 070351 | Sopradores de forja
+- 070352 | Fôrmas para calçados [peças de máquinas]
+- 070352 | Shoe lasts [parts of machines]
+- 070353 | Máquinas envasadoras
+- 070353 | Máquinas para enchimento
+- 070354 | Estatores [partes de máquinas]
+- 070355 | Máquinas para estereotipar
+- 070356 | Máquinas para a produção de açúcar
+- 070358 | Superalimentadores [compressores]
+- 070359 | Mesas para máquinas
+- 070360 | Correias transportadoras [peças de máquinas]
+- 070360 | Carriage aprons
+- 070362 | Máquinas para tingir
+- 070364 | Máquinas para cardar
+- 070365 | Suportes para carretas [partes de máquinas]
+- 070366 | Munhões [peças de máquinas]
+- 070367 | Ordenhadeiras
+- 070368 | Ventosas para ordenhadeiras
+- 070368 | Teat cups for milking machines
+- 070369 | Transmissões para máquinas
+- 070370 | Instalações pneumáticas para transporte por tubos
+- 070370 | Tube conveyors, pneumatic
+- 070371 | Transportadores [máquinas]
+- 070372 | Máquinas para trançar
+- 070373 | Guinchos [máquinas]
+- 070374 | Máquinas para tricotar
+- 070375 | Turbinas, exceto para veículos terrestres
+- 070376 | Carretéis mecânicos para mangueiras flexíveis
+- 070377 | Tímpanos [tipografia]
+- 070378 | Máquinas tipográficas
+- 070379 | Joeiradoras
+- 070380 | Motores para veículos sobre colchão de ar
+- 070381 | Ventiladores para motores e máquinas
+- 070382 | Máquinas para trabalhar vidro
+- 070383 | Máquinas para construção de ferrovias
+- 070384 | Aparelhos para vulcanização
+- 070385 | Acoplamentos, exceto para veículos terrestres
+- 070386 | Motores aeronáuticos
+- 070387 | Máquinas para afiar
+- 070388 | Agricultural implements, other than hand-operatedInstrumentos agrícolas, exceto os operados manualmente
+- 070389 | Pedras para amolar [partes de máquinas]
+- 070389 | Sharpening wheels [parts of machines]
+- 070390 | Bombas para cerveja
+- 070391 | Motores de ar comprimido
+- 070392 | Máquinas de ar comprimido
+- 070393 | Bombas de ar comprimido
+- 070394 | Velas para ignição de motores a combustão interna
+- 070395 | Êmbolos amortecedores [peças de máquinas]
+- 070395 | Pistões amortecedores [peças de máquinas]
+- 070395 | Dashpot plungers [parts of machines]
+- 070396 | Mancais antifricção para máquinas [chumaceiras]
+- 070396 | Rolamentos antifricção para máquinas [chumaceiras]
+- 070397 | Escavadeiras [máquinas]
+- 070398 | Máquinas para sucção de ar
+- 070400 | Dispositivos economizadores de combustível para motores e máquinas
+- 070401 | Motores para barcos
+- 070402 | Motores de combustão interna para barcos
+- 070403 | Batedores elétricos
+- 070404 | Bate-estacas
+- 070405 | Lonas de freios, exceto para veículos
+- 070406 | Sapatas de freios, exceto para veículos
+- 070407 | Segmentos de freios, exceto para veículos
+- 070408 | Bobinas para máquinas
+- 070409 | Caixas de câmbio, exceto para veículos terrestres
+- 070410 | Máquinas para tampar garrafas
+- 070411 | Máquina para colocar tampas de garrafas
+- 070412 | Máquinas para vedação de garrafas
+- 070413 | Escovas elétricas [partes de máquinas]
+- 070414 | Trituradores de lixo
+- 070414 | Garbage disposal units
+- 070415 | Moedores de café, exceto os operados manualmente
+- 070416 | Tubos de caldeiras para máquinas
+- 070417 | Máquinas para terraplanagem
+- 070418 | Compactadores de lixo
+- 070418 | Trash compacting machines
+- 070419 | Cortadoras [máquinas] para uso industrial
+- 070420 | Rodas de oleiro
+- 070421 | Máquinas manipuladoras industriais, automáticas
+- 070422 | Robôs industriais
+- 070423 | Aparelhos eletromecânicos para preparação de alimentos
+- 070424 | Cartuchos para máquinas de filtrar
+- 070425 | Correntes de comando, exceto para veículos terrestres
+- 070426 | Conversores de torque, exceto para veículos terrestres
+- 070427 | Correntes de transmissão, exceto para veículos terrestres
+- 070428 | Porta-brocas [peças de máquinas]
+- 070429 | Caldeiras para máquinas a vapor
+- 070430 | Alimentadores para caldeiras de máquinas
+- 070431 | Máquinas tosquiadoras para animais
+- 070431 | Hair cutting machines for animals
+- 070431 | Hair clipping machines for animals
+- 070433 | Motores, exceto para veículos terrestres
+- 070433 | Engines, other than for land vehicles
+- 070434 | Cabos de controle para máquinas e motores
+- 070435 | Control mechanisms for machines, engines or motorsMecanismos de controle para máquinas e motores
+- 070436 | Matrizes para impressão tipográfica
+- 070437 | Compressores para refrigeradores
+- 070439 | Separadores de águas
+- 070439 | Drain cocks
+- 070440 | Máquinas para costura
+- 070441 | Correias de ventiladores para motores
+- 070442 | Incubadoras para ovos
+- 070443 | Engrenagens, exceto para veículos terrestres
+- 070444 | Liquidificadores elétricos para uso doméstico
+- 070445 | Máquinas de cozinha elétricas
+- 070446 | Cilindros para motores e máquinas
+- 070447 | Engrenagens para redução de velocidade, exceto para veículos terrestres
+- 070448 | Máquinas divisoras
+- 070449 | Brocas [peças de máquinas]
+- 070450 | Trocadores de calor [peças de máquinas]
+- 070451 | Canos de descarga para motores e máquinas
+- 070451 | Silenciosos para motores e máquinas
+- 070452 | Motores elétricos, exceto para veículos terrestres
+- 070453 | Guindastes
+- 070454 | Máquinas descascadoras
+- 070455 | Máquinas raladoras de frutas, legumes e verduras
+- 070456 | Pistolas de ar comprimido, para extrusão de mástique
+- 070457 | Filtros, enquanto partes de máquinas ou motores
+- 070458 | Enxadas [charruas]
+- 070459 | Batedores elétricos, para uso doméstico
+- 070460 | Espremedores de frutas elétricos para uso doméstico
+- 070461 | Motores e máquinas hidráulicas
+- 070462 | Sondas para perfuração, flutuantes ou não
+- 070463 | Fuel conversion apparatus for internal combustion enginesConversores de combustível para motores de combustão interna
+- 070464 | Radiadores [refrigeração] para motores e máquinas
+- 070471 | Tubos de caldeiras [partes de máquinas]
+- 070472 | Hydraulic controls for machines, motors and enginesControles hidráulicos para máquinas e motores
+- 070473 | Pneumatic controls for machines, motors and enginesControles pneumáticos para máquinas e motores
+- 070474 | Cárteres para máquinas e motores
+- 070475 | Processadores de alimentos, elétricos
+- 070476 | Pistolas elétricas para cola
+- 070477 | Pistolas [ferramentas que utilizam cartuchos explosivos]
+- 070478 | Aparelhos para içamento de redes [pesca]
+- 070479 | Juntas universais [juntas de cardan]
+- 070479 | Juntas cardan
+- 070480 | Calandras rotativas portáteis para tecidos
+- 070481 | Machines and apparatus for carpet shampooing, electricMáquinas e aparelhos elétricos para lavagem de tapetes
+- 070482 | Conversores catalíticos
+- 070483 | Instalações centrais de limpeza a vácuo
+- 070484 | Motosserras
+- 070485 | Aparelhos para limpeza a vapor
+- 070486 | Maçaricos para corte a gás
+- 070487 | Dust exhausting installations for cleaning purposesInstalações para aspiração de pó para limpeza
+- 070488 | Instalações para remoção de pó para limpeza
+- 070489 | Martelos elétricos
+- 070490 | Electromechanical machines for chemical industryMáquinas eletromecânicas para indústria química
+- 070491 | Correntes para elevadores [peças de máquinas]
+- 070492 | Geradores de energia de emergência
+- 070493 | Tanques de expansão [peças de máquinas]
+- 070494 | Diamantes de vidraceiro [partes de máquinas]
+- 070495 | Lavadoras de alta pressão
+- 070496 | Máquinas para indústria têxtil
+- 070497 | Coletor de descarga para motores
+- 070498 | Máquinas para refino de petróleo
+- 070499 | Máquinas para empacotamento
+- 070500 | Enceradeiras elétricas para assoalhos
+- 070501 | Máquinas elétricas para engraxar sapatos
+- 070502 | Removedores de neve
+- 070503 | Aparelhos para fundir, a gás
+- 070503 | Aparelhos para soldagem, a gás
+- 070504 | Maçarico para solda a gás
+- 070505 | Ferros de solda, a gás
+- 070506 | Vacuum cleaner attachments for disseminating perfumes and disinfectantsAcessórios para aspirador de pó para disseminação de perfumes e desinfetantes
+- 070507 | Mangueiras para aspirador de pó
+- 070508 | Aspiradores de pó
+- 070509 | Vibradores [máquinas] para uso industrial
+- 070510 | Machines and apparatus for wax-polishing, electricMáquinas elétricas para encerar
+- 070511 | Máquinas para encordoar raquetes
+- 070512 | Máquinas para montagem de bicicletas
+- 070513 | Subsoladores motorizados
+- 070514 | Aerógrafos para aplicação de cor [máquinas]
+- 070515 | Dispositivos hidráulicos para abrir portas
+- 070516 | Pedais de partida para motocicletas
+- 070517 | Sistema mecânico para alimentação de animais
+- 070518 | Esteiras rolantes
+- 070518 | Moving sidewalks
+- 070519 | Abafadores de som para motores e máquinas
+- 070519 | Silencers for motors and engines
+- 070520 | Dispositivos pneumáticos para abrir portas
+- 070521 | Sacos para aspirador de pó
+- 070522 | Maçaricos à gás
+- 070523 | Turbinas eólicas
+- 070524 | Pastilhas de freio, exceto para veículos
+- 070525 | Eletrodos para máquinas de soldagem
+- 070526 | Aparelhos para fundir, elétricos
+- 070528 | Aparelhos de soldagem, elétricos
+- 070529 | Ferros de solda, elétricos
+- 070530 | Aparelhos de fusão a arco elétrico
+- 070531 | Aparelhos de corte a arco elétrico
+- 070532 | Maçarico
+- 070533 | Prensa de frutas
+- 070534 | Máquinas sopradoras
+- 070535 | Máquinas de galvanoplastia
+- 070536 | Máquinas de galvanização
+- 070537 | Máquinas automáticas de venda
+- 070537 | Máquinas de autosserviço
+- 070538 | Dispositivos elétricos para fechar portas
+- 070539 | Dispositivos elétricos para abrir portas
+- 070540 | Dispositivos de comando para elevadores de passageiros
+- 070540 | Dispositivos para operar elevadores de passageiros
+- 070541 | Aparelhos elétricos para vedar materiais plásticos [embalagem]
+- 070542 | Bombas de combustível para postos de combustível
+- 070543 | Bombas autorreguladoras de combustível
+- 070544 | Máquinas para o processamento de plásticos
+- 070545 | Dispositivos elétricos para abrir janelas
+- 070546 | Dispositivos elétricos para fechar janelas
+- 070547 | Dispositivos hidráulicos para abrir janelas
+- 070548 | Dispositivos hidráulicos para fechar janelas
+- 070549 | Dispositivos pneumáticos para abrir janelas
+- 070550 | Dispositivos pneumáticos para fechar janelas
+- 070551 | Dispositivos hidráulicos para fechar portas
+- 070552 | Dispositivos pneumáticos para fechar portas
+- 070553 | Moedores para cozinha, elétricos
+- 070554 | Macacos pneumáticos
+- 070555 | Impressoras 3d
+- 070556 | Máquinas de peneirar
+- 070557 | Coxim de motor, exceto para veículos terrestres
+- 070558 | Extratores de pregos, elétricos
+- 070558 | Sacadores de pregos, elétricos
+- 070559 | Escovas para aspiradores de pó
+- 070560 | Afiador de esquis, elétricos
+- 070561 | Trituradores
+- 070562 | Compactadores
+- 070563 | Bocais de sucção para aspiradores de pó
+- 070564 | Pigs para limpeza de dutos
+- 070565 | Extratores de suco, elétricos
+- 070566 | Chaves de fenda, elétricas
+- 070567 | Joysticks being parts of machines, other than for game machinesJoysticks como parte de máquinas, exceto para máquinas de jogos
+- 070568 | Eixos de comando para motores de veículos
+- 070569 | Rubber tracks being parts of crawlers on construction machinesEsteiras de borracha [lagarta], enquanto peças de mecanismos tratores em máquinas para construção
+- 070570 | Esteiras de borracha [lagarta], enquanto peças de mecanismos tratores em máquinas e aparelhos de carregamento e descarregamento
+- 070571 | Rubber tracks being parts of crawlers on agricultural machinesEsteiras de borracha [lagarta], enquanto peças de mecanismos tratores em máquinas agrícolas
+- 070572 | Rubber tracks being parts of crawlers on mining machinesEsteiras de borracha [lagarta], enquanto peças de mecanismos tratores em máquinas para mineração
+- 070573 | Aspiradores de óleo usado pneumáticos
+- 070575 | Bombas para natação contracorrente
+- 070576 | Canetas de impressão em 3d
+- 070577 | Máquinas de arar para uso agrícola
+- 070578 | Cortadores de legumes em espirais, elétricos
+- 070579 | Bombas distribuidoras de hidrogênio para postos de combustível
+- 070580 | Máquinas industriais de impressão a jato de tinta
+- 070581 | Esfregões a vapor
+- 070581 | Vassouras a vapor
+- 070582 | Robotic exoskeleton suits, other than for medical purposesTrajes exoesqueléticos robóticos, exceto para fins medicinais
+- 070583 | Guindastes móveis
+- 070584 | Floating production storage and offloading [fpso] unitsUnidades flutuantes de produção, armazenamento e transferência [FPSO]
+- 070585 | Fatiadores de queijo, elétricos
+- 070586 | Descascadores de legumes, elétricos
+- 070587 | Elevadores de grãos
+- 070588 | Máquinas de lavar roupa com função de secagem
+- 070589 | Dispositivos de lavagem ultrassônica portáteis para lavanderia
+- 070590 | Fatiadores de verduras e legumes, elétricos
+- 070590 | Vegetable shredders, electric
+- 070591 | Máquinas para gerar gás por eletrólise
+- 070592 | Aspiradores de pó estacionários sem contato
+- 070592 | Aspiradores de cabelo fixos sem contato
+- 070593 | Bioreactors for use in manufacturing biopharmaceuticalsBiorreatores para uso na fabricação de biofármacos
+- 070594 | Pneumatic or hydraulic linear actuators, other than for land vehiclesAtuadores lineares pneumáticos ou hidráulicos, exceto para veículos terrestres
+- 070595 | Máquinas para aplicação de goma
+- 070596 | Bioimpressoras 3d
+- 070597 | Máquinas de gravação a laser portáteis
+- 070598 | Household cleaning and laundry robots with artificial intelligenceRobôs domésticos para limpeza e lavanderia com inteligência artificial
+- 070599 | Máquinas automáticas de venda de bilhetes
+- 070600 | Máquinas de liberação de fluidos para uso industrial
+- 070601 | Bombas de gasolina para postos de combustível
+- 070601 | Gas pumps for service stations
+- 070602 | Agulhas para máquinas para tricotar
+- 070603 | Agulhas para máquinas de costura
+- 070604 | Agulhas para máquinas cardadoras de lã
+- 070605 | Máquinas de carregamento de fornalhas
+- 070606 | Pinhões de motor de partida
+- 070606 | Pinhões de motor de arranque
+- 070607 | Máquinas para fabricação de semicondutores
+- 070608 | Semiconductor exposure apparatus for use in manufactureAparelhos de exposição de semicondutores usados em operações de fabricação
+- 070609 | Máquinas para fazer molho de soja
+- 070610 | Máquinas para fazer missô
+- 070611 | Braços robóticos para preparar bebidas
+- 070612 | Pistolas para jateamento de areia
+- 070613 | Pontes telescópicas para embarque de passageiros, eletromecânicas
+- 070614 | Trocadores automáticos de ferramentas para robôs industriais
+- 070615 | Máquinas de descarga elétrica [EDM]
+- 070616 | Centros de usinagem para metalurgia
+- 070616 | Machining centers for metalworking
+- 070617 | Elevadores mecânicos para empilhar veículos
+- 070618 | Turbocarregadores para motores
+- 070619 | Splicers de fusão de fibra óptica
+- 070619 | Emendador de fusão de fibra óptica
+- 070620 | Máquinas para descaroçar frutas
+- 070621 | Vedações mecânicas enquanto peças de máquinas
+- 070622 | Motores de popa
+- 070623 | Revestimentos para embreagem, exceto para veículos terrestres
+- 070624 | Reatores químicos para uso em fabricação
+- 070625 | Electric vacuum food sealers for household purposesSeladores elétricos a vácuo para alimentos, para uso doméstico
+- 070626 | Robô limpador de janelas
+- 070627 | Robôs de colheita agrícola

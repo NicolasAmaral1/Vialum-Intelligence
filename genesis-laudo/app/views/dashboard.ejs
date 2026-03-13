@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — Genesis Laudo ⚖️</title>
+  <link rel="stylesheet" href="/laudo/public/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="header-brand">
+      <span class="header-icon">⚖️</span>
+      <span class="header-title">Genesis Laudo</span>
+      <span class="header-sub">Squad laudo-viabilidade — Mira</span>
+    </div>
+    <nav class="header-nav">
+      <button class="btn btn-ghost btn-sm" onclick="location.reload()">⟳ Atualizar</button>
+    </nav>
+  </div>
+</header>
+
+<main class="main">
+
+  <!-- ── Avisos ───────────────────────────────────────────────────────── -->
+  <% if (avisos && avisos.length > 0) { %>
+    <div class="avisos">
+      <% avisos.forEach(function(a) { %>
+        <div class="aviso">⚠️ <%= a %></div>
+      <% }) %>
+    </div>
+  <% } %>
+
+  <!-- ── Fila ClickUp ─────────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">📋 Fila — Para Fazer</h2>
+      <span class="badge badge-count"><%= fila.length %></span>
+    </div>
+
+    <% if (fila.length === 0) { %>
+      <p class="empty-state">Nenhum card na fila no momento.</p>
+    <% } else { %>
+      <div class="card-grid">
+        <% fila.forEach(function(card) { %>
+          <div class="card card-queue">
+            <div class="card-marca"><%= card.nome_marca %></div>
+            <div class="card-meta"><%= card.cliente %> &bull; <%= card.atividade %></div>
+            <% if (card.url) { %>
+              <a href="<%= card.url %>" class="card-link" target="_blank">Ver no ClickUp ↗</a>
+            <% } %>
+            <form action="/laudo/analise/nova" method="POST" style="margin-top:12px">
+              <input type="hidden" name="task_id"    value="<%= card.task_id %>">
+              <input type="hidden" name="nome_marca" value="<%= card.nome_marca %>">
+              <input type="hidden" name="cliente"    value="<%= card.cliente %>">
+              <input type="hidden" name="atividade"  value="<%= card.atividade %>">
+              <button type="submit" class="btn btn-primary">Iniciar análise →</button>
+            </form>
+          </div>
+        <% }) %>
+      </div>
+    <% } %>
+  </section>
+
+  <!-- ── Em Processo ──────────────────────────────────────────────────── -->
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">⚡ Em Processo</h2>
+      <span class="badge badge-count badge-active"><%= ativas.length %></span>
+    </div>
+
+    <% if (ativas.length === 0) { %>
+      <p class="empty-state">Nenhuma análise em andamento.</p>
+    <% } else { %>
+      <div class="card-grid">
+        <% ativas.forEach(function(a) { %>
+          <div class="card card-active">
+            <div class="card-marca"><%= a.nome_marca %></div>
+            <div class="card-meta"><%= a.cliente %></div>
+            <div class="fase-badge">
+              Fase <%= a.fase %>/4
+              <% if (a.checkpoint_1 === 'aprovado') { %>&nbsp;· CP1 ✓<% } %>
+              <% if (a.checkpoint_2 === 'aprovado') { %>&nbsp;· CP2 ✓<% } %>
+            </div>
+            <a href="/laudo/analise/<%= a.task_id %>" class="btn btn-secondary" style="margin-top:12px">
+              Ver análise →
+            </a>
+          </div>
+        <% }) %>
+      </div>
+    <% } %>
+  </section>
+
+  <!-- ── Concluídas ───────────────────────────────────────────────────── -->
+  <% if (concluidas.length > 0) { %>
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">✅ Concluídas Recentes</h2>
+      <span class="badge badge-count"><%= concluidas.length %></span>
+    </div>
+    <div class="card-grid">
+      <% concluidas.forEach(function(a) { %>
+        <div class="card card-done">
+          <div class="card-marca"><%= a.nome_marca %></div>
+          <div class="card-meta"><%= a.cliente %></div>
+          <div class="card-actions">
+            <% if (a.drive_url) { %>
+              <a href="<%= a.drive_url %>" class="btn btn-ghost" target="_blank">Drive ↗</a>
+            <% } %>
+            <a href="/laudo/analise/<%= a.task_id %>" class="btn btn-ghost">Detalhes</a>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  </section>
+  <% } %>
+
+</main>
+
+<footer class="footer">
+  <span>— Mira ⚖️ &nbsp;|&nbsp; genesis-laudo v1.0.0</span>
+  <span id="last-refresh" class="footer-refresh"></span>
+</footer>
+
+<script src="/laudo/public/app.js"></script>
+</body>
+</html>

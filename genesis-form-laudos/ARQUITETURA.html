@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ARQUITETURA</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="arquitetura-do-genesis-form-laudos">Arquitetura do
+<code>genesis-form-laudos</code></h1>
+<h2 id="visão-geral">Visão geral</h2>
+<p>O <code>genesis-form-laudos</code> é um serviço web simples para
+intake e acompanhamento de pedidos de laudo. Ele publica uma interface
+em:</p>
+<ul>
+<li><code>https://laudos.luminai.ia.br</code></li>
+</ul>
+<p>O papel dele não é gerar o laudo nem orquestrar um workflow complexo.
+Ele funciona como uma camada fina entre o usuário e o ClickUp:</p>
+<ul>
+<li>cria novos cards na fila de laudos</li>
+<li>lista os cards existentes</li>
+<li>permite mover cards concluídos para o status <code>cpf</code></li>
+</ul>
+<h2 id="stack">Stack</h2>
+<ul>
+<li>Node.js 20</li>
+<li>Express</li>
+<li><code>axios</code> para chamadas HTTP</li>
+<li><code>cors</code></li>
+<li>frontend estático em HTML/CSS/JS</li>
+<li>Docker + Traefik para deploy</li>
+</ul>
+<p>Referências:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-form-laudos/server.js">server.js</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-form-laudos/package.json">package.json</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-form-laudos/Dockerfile">Dockerfile</a></li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-form-laudos/docker-compose.yml">docker-compose.yml</a></li>
+</ul>
+<h2 id="arquitetura-lógica">Arquitetura lógica</h2>
+<p>Em termos práticos, a aplicação tem só duas camadas:</p>
+<pre class="text"><code>Browser
+  -&gt; Express
+    -&gt; ClickUp API</code></pre>
+<p>Não há:</p>
+<ul>
+<li>PostgreSQL</li>
+<li>fila assíncrona</li>
+<li>worker separado</li>
+<li>integração com <code>claude</code> CLI</li>
+<li>processamento local de documentos</li>
+</ul>
+<h2 id="camada-web">Camada web</h2>
+<p>O Express faz duas coisas:</p>
+<ul>
+<li>serve os arquivos estáticos da pasta <code>public/</code></li>
+<li>expõe endpoints REST para operar sobre o ClickUp</li>
+</ul>
+<p>O servidor sobe na porta <code>3000</code>.</p>
+<p>Referência:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-form-laudos/server.js">server.js</a></li>
+</ul>
+<h2 id="frontend">Frontend</h2>
+<p>O frontend é estático e baseado em duas páginas:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-form-laudos/public/index.html">index.html</a>:
+formulário de novo pedido</li>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-form-laudos/public/acompanhamento.html">acompanhamento.html</a>:
+listagem e acompanhamento dos laudos</li>
+</ul>
+<h3 id="novo-pedido">1. Novo pedido</h3>
+<p>A tela principal coleta:</p>
+<ul>
+<li>nome da marca</li>
+<li>nome do cliente</li>
+<li>atividade</li>
+<li>quem indicou</li>
+</ul>
+<p>Ao enviar, ela chama <code>POST /api/laudos</code>, e o backend cria
+um card no ClickUp com status inicial <code>para fazer</code>.</p>
+<h3 id="acompanhamento">2. Acompanhamento</h3>
+<p>A segunda tela chama <code>GET /api/laudos</code>, mostra os cards
+existentes e ordena por prioridade de status. Quando um card está em
+<code>feito</code>, a UI exibe o botão <code>ENTREGUE</code>, que
+dispara <code>PATCH /api/laudos/:id/entregue</code> para mover o card
+para <code>cpf</code>.</p>
+<h2 id="backend-e-endpoints">Backend e endpoints</h2>
+<h3 id="post-apilaudos"><code>POST /api/laudos</code></h3>
+<p>Cria um novo card na lista do ClickUp.</p>
+<p>Payload esperado:</p>
+<ul>
+<li><code>nomeMarca</code></li>
+<li><code>nomeCliente</code></li>
+<li><code>atividade</code></li>
+<li><code>indicacao</code> opcional</li>
+</ul>
+<p>O backend transforma isso em:</p>
+<ul>
+<li><code>name</code>: nome da marca</li>
+<li><code>description</code>: texto formatado com cliente, atividade e
+indicação</li>
+<li><code>status</code>: <code>para fazer</code></li>
+</ul>
+<h3 id="get-apilaudos"><code>GET /api/laudos</code></h3>
+<p>Busca os cards da lista no ClickUp com
+<code>include_closed=true</code>, mapeia o payload para um formato
+simplificado e ordena por prioridade local:</p>
+<ul>
+<li><code>feito</code></li>
+<li><code>para fazer</code></li>
+<li><code>cpf</code></li>
+<li><code>em processo</code></li>
+</ul>
+<p>Se houver empate, usa a data de criação, com os mais recentes
+primeiro.</p>
+<h3
+id="patch-apilaudosidentregue"><code>PATCH /api/laudos/:id/entregue</code></h3>
+<p>Atualiza diretamente o card no ClickUp para o status
+<code>cpf</code>.</p>
+<h2 id="integração-com-clickup">Integração com ClickUp</h2>
+<p>Toda a lógica de negócio persistida está no ClickUp. O serviço
+depende de:</p>
+<ul>
+<li><code>CLICKUP_API_TOKEN</code></li>
+<li>lista fixa <code>901324787605</code></li>
+</ul>
+<p>Esse serviço usa o ClickUp como banco operacional de fato. O app
+apenas traduz ações da UI para chamadas REST.</p>
+<p>Pontos importantes da integração:</p>
+<ul>
+<li>autenticação por header <code>Authorization</code></li>
+<li>criação de task via <code>POST /list/{LIST_ID}/task</code></li>
+<li>leitura de tasks via <code>GET /list/{LIST_ID}/task</code></li>
+<li>atualização de status via <code>PUT /task/{id}</code></li>
+</ul>
+<p>Referência:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-form-laudos/server.js">server.js</a></li>
+</ul>
+<h2 id="estado-e-persistência">Estado e persistência</h2>
+<p>O serviço é stateless.</p>
+<p>Ele não persiste nada localmente além dos próprios arquivos da
+aplicação. Isso significa:</p>
+<ul>
+<li>não há banco de dados local</li>
+<li>não há cache de laudos</li>
+<li>cada carregamento consulta o ClickUp de novo</li>
+<li>reinício do container não perde estado funcional, desde que o token
+do ClickUp esteja presente</li>
+</ul>
+<h2 id="deploy">Deploy</h2>
+<h3 id="container">Container</h3>
+<p>O container é simples:</p>
+<ul>
+<li>imagem base <code>node:20-alpine</code></li>
+<li><code>npm install</code></li>
+<li><code>npm start</code></li>
+</ul>
+<p>Não há processos auxiliares nem múltiplos serviços no compose.</p>
+<h3 id="porta">Porta</h3>
+<p>Internamente a aplicação roda em <code>3000</code>.</p>
+<p>Também existe exposição direta:</p>
+<ul>
+<li><code>3010:3000</code></li>
+</ul>
+<p>Além disso, o serviço é publicado via Traefik.</p>
+<h3 id="traefik">Traefik</h3>
+<p>O <code>docker-compose.yml</code> define roteamento por host:</p>
+<ul>
+<li><code>Host(laudos.luminai.ia.br)</code></li>
+</ul>
+<p>Com:</p>
+<ul>
+<li>entrypoint <code>websecure</code></li>
+<li>TLS via <code>certresolver=le</code></li>
+<li>rede <code>proxy</code></li>
+</ul>
+<p>Referência:</p>
+<ul>
+<li><a
+href="/Users/nicolasamaral/Vialum-Intelligence/genesis-form-laudos/docker-compose.yml">docker-compose.yml</a></li>
+</ul>
+<h2 id="decisões-arquiteturais-implícitas">Decisões arquiteturais
+implícitas</h2>
+<p>As decisões mais claras no código são:</p>
+<ul>
+<li>frontend simples e estático para reduzir complexidade
+operacional</li>
+<li>backend fino, sem domínio local sofisticado</li>
+<li>ClickUp como sistema central de estado</li>
+<li>deploy em container único</li>
+<li>ausência de banco local para manter o serviço leve</li>
+</ul>
+<h2 id="limitações-atuais">Limitações atuais</h2>
+<ul>
+<li>A aplicação depende totalmente da disponibilidade do ClickUp.</li>
+<li>Não existe autenticação própria no app.</li>
+<li>A lista do ClickUp está hardcoded no backend.</li>
+<li>Não há validação forte de domínio além dos campos obrigatórios.</li>
+<li>Não há auditoria local de ações.</li>
+<li>Não há separação entre camadas de API, serviço e integração; tudo
+está concentrado em <code>server.js</code>.</li>
+</ul>
+<h2 id="resumo-operacional">Resumo operacional</h2>
+<p>Esse projeto é melhor entendido como um portal operacional leve:</p>
+<pre class="text"><code>Usuário abre laudos.luminai.ia.br
+  -&gt; preenche formulário ou acompanha pedidos
+  -&gt; Express recebe ação
+  -&gt; Express chama ClickUp
+  -&gt; ClickUp vira a fonte oficial do status</code></pre>
+<h2 id="relação-com-o-genesis-laudo">Relação com o
+<code>genesis-laudo</code></h2>
+<p>Este projeto é diferente do <code>genesis-laudo</code>.</p>
+<p>Diferença principal:</p>
+<ul>
+<li><code>genesis-form-laudos</code>: portal de entrada/acompanhamento
+em <code>laudos.luminai.ia.br</code></li>
+<li><code>genesis-laudo</code>: dashboard HITL e orquestração de
+workflow em <code>api.luminai.ia.br/laudo</code></li>
+</ul>
+<p>Ou seja, o primeiro é uma camada leve sobre o ClickUp; o segundo é
+uma camada de operação do fluxo interno de análise.</p>
+</body>
+</html>

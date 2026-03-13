@@ -1,0 +1,154 @@
+# Classe NCL 02
+
+Especificações pré-especificadas (Português):
+
+- 020001 | Tintas *
+- 020002 | Mordentes *
+- 020003 | Vernizes *
+- 020004 | Corantes para bebidas
+- 020004 | Colorings for beverages
+- 020005 | Corantes alimentícios
+- 020005 | Colorantes alimentícios
+- 020006 | Alizarina [corante]
+- 020007 | Tintas de alumínio
+- 020008 | Pó de alumínio para pintura
+- 020009 | Tintas de amianto
+- 020010 | Preparações anticorrosão
+- 020011 | Fixadores para aquarelas
+- 020011 | Fixatives for watercolors
+- 020014 | Pasta de prata
+- 020015 | Emulsões de prata [pigmentos]
+- 020016 | Pós para pratear
+- 020017 | Betume da judeia
+- 020017 | Verniz de asfalto
+- 020018 | Auramina
+- 020019 | Tintas bactericidas
+- 020020 | Estuque [revestimento texturizado]
+- 020021 | Faixas anticorrosão
+- 020022 | Bálsamo do canadá
+- 020023 | Corantes para manteiga
+- 020023 | Colorings for butter
+- 020024 | Corantes para cerveja
+- 020024 | Colorings for beer
+- 020025 | Verniz betuminoso
+- 020026 | Revestimentos para madeira [tintas]
+- 020027 | Mordentes para madeira
+- 020028 | Tinturas para madeira
+- 020029 | Terra de siena [argila]
+- 020031 | Lacas de bronzagem
+- 020032 | Pó de bronze para pintura
+- 020033 | Tintas para couro
+- 020034 | Caramelo [corante alimentar]
+- 020034 | Caramel [food coloring]
+- 020035 | Malte caramelo [corante alimentar]
+- 020035 | Malt caramel [food coloring]
+- 020036 | Revestimentos para feltros isolantes de telhados [tintas]
+- 020037 | Tintas para cerâmica
+- 020038 | Alvaiade [branco de chumbo]
+- 020039 | Negro de carvão [pigmento]
+- 020040 | Primer anticorrosivo para chassis de veículos
+- 020040 | Fundos seladores para proteção de chassis de veículos
+- 020041 | Tintas para calçado
+- 020042 | Leite de cal
+- 020043 | Pastas para impressão [tintas]
+- 020044 | Óxido de cobalto [corante]
+- 020045 | Carmim de cochonilha
+- 020045 | Carmim de cochinilha
+- 020046 | Colofônia [resina natural] *
+- 020047 | Colorants* Colorantes *
+- 020047 | Corantes
+- 020048 | Corantes de malte
+- 020049 | Preparações para conservação de madeira
+- 020050 | Copal
+- 020052 | Anilina [corante]
+- 020053 | Tíneres para tintas [diluentes]
+- 020054 | Tíneres para lacas [diluentes]
+- 020055 | Espessantes para tintas
+- 020056 | Creosoto para conservação da madeira
+- 020057 | Tinturas para couro
+- 020057 | Mordentes para couro
+- 020058 | Tinturas *
+- 020059 | Pigmentos
+- 020060 | Curcuma [corante]
+- 020061 | Resinas naturais em bruto
+- 020062 | Têmpera [tinta]
+- 020064 | Esmaltes [vernizes]
+- 020065 | Esmaltes para pintar
+- 020065 | Enamel paints
+- 020066 | Tintas para impressão
+- 020067 | Tintas para marcar animais
+- 020068 | Sicativos para tintas
+- 020070 | Revestimentos [tintas]
+- 020072 | Fixadores [vernizes]
+- 020073 | Negro de fumo [pigmento]
+- 020074 | Fustete [corante]
+- 020075 | Vidrados [tintas, lacas]
+- 020076 | Gomas-gutas para pintura
+- 020077 | Gomas-lacas
+- 020077 | Shellac
+- 020078 | Gomas-resinas
+- 020079 | Graxas antiferrugem
+- 020080 | Tinta para gravura
+- 020081 | Óxido de zinco [pigmento]
+- 020082 | Óleos para conservação de madeira
+- 020083 | Óleos antiferrugem
+- 020085 | Tintas à prova de fogo
+- 020086 | Índigo [corante]
+- 020087 | Binding preparations for paints
+- 020087 | Aglutinantes para tintas
+- 020088 | Corantes para licores
+- 020088 | Colorings for liqueurs
+- 020089 | Óxido de chumbo [pigmento]
+- 020089 | Litargírio [pigmento]
+- 020090 | Metais em pó para uso em pintura, decoração, impressão e arte
+- 020091 | Mástique [resina natural]
+- 020092 | Metal foil for use in painting, decorating, printing and artFolhas metálicas para uso em pintura, decoração, impressão e arte
+- 020093 | Produtos antiembaciamento para metais
+- 020094 | Preparações para proteção de metais
+- 020095 | Zarcão
+- 020095 | Mínio
+- 020096 | Papel para tingir ovos
+- 020098 | Urucum [corante]
+- 020098 | Anato [corante]
+- 020099 | Açafrão [corante]
+- 020100 | Sandáraca
+- 020101 | Fuligem [corante]
+- 020102 | Sumagre para vernizes
+- 020106 | Dióxido de titânio [pigmento]
+- 020107 | Preparações antiferrugem
+- 020108 | Substâncias usadas para preparar uma superfície para pintura [primer]
+- 020110 | Cal branca
+- 020111 | Madeira corante
+- 020111 | Madeira tintória
+- 020112 | Extratos de madeira tintória
+- 020112 | Wood dyestuffs
+- 020113 | Carbolineum [óleo de antraceno] para conservação de madeira
+- 020114 | Verniz de copal
+- 020115 | Lacquers* Lacas*
+- 020121 | Tintas para impressoras e fotocopiadoras
+- 020122 | Tintas anti-incrustantes
+- 020123 | Toner cartridges, filled, for printers and photocopiersCartuchos de toner, abastecidos, para impressoras e fotocopiadoras
+- 020124 | Aguarrás [diluente para tintas]
+- 020124 | Terebintina [diluente para tintas]
+- 020125 | Pastilhas de pintura removíveis
+- 020126 | Tintas de aquarela para uso em arte
+- 020126 | Watercolor paints for use in art
+- 020127 | Tintas a óleo para uso em arte
+- 020128 | Tintas comestíveis
+- 020129 | Cartuchos de tintas comestíveis, abastecidos, para impressoras
+- 020130 | Colorants for the restoration of furniture in the form of markersCorantes sob a forma de caneta para restauração de mobiliário
+- 020131 | Revestimentos antigrafite [tintas]
+- 020132 | Toner para impressoras e fotocopiadoras
+- 020133 | Cartuchos de tinta, abastecidos, para impressoras e fotocopiadoras
+- 020134 | Acabamento vitrificador para pisos de madeira
+- 020135 | Tintas antiurina
+- 020136 | Tintas para pintura condutoras
+- 020137 | Tintas para escrita, desenho ou impressão condutoras
+- 020138 | Tinta para tatuagem
+- 020139 | Corantes
+- 020140 | Brilho para uso em tinta
+- 020140 | Glitter para uso em tinta
+- 020140 | Purpurina para uso em tinta
+- 020141 | Líquido de mascaramento para uso em pintura em aquarela
+- 020141 | Máscara líquida para uso em pintura em aquarela
+- 020142 | Verniz comestível para decorar alimentos

@@ -1,0 +1,102 @@
+name: protocolo-v2
+version: 2.0.0
+short-title: Protocolo de Onboarding v2 — ClickUp First
+description: >
+  Squad responsável pelo fluxo completo de onboarding de novos clientes da Genesis
+  Registro de Marcas: monitoramento automático do ClickUp, validação de dados (PF/PJ),
+  geração automatizada de Contrato de Serviços e Procuração (PDF), upload para Google Drive
+  e finalização no ClickUp (anexos + comentário + movimentação de card).
+
+author: Vialum Intelligence
+license: UNLICENSED
+
+slashPrefix: protocolo
+
+aios:
+  type: squad
+  minVersion: 2.0.0
+
+requires:
+  aios: ">=2.0.0"
+  python: ">=3.9"
+
+tags:
+  - protocolo
+  - onboarding
+  - contrato
+  - procuracao
+  - marca
+  - inpi
+  - genesis
+  - cliente
+  - clickup
+  - drive
+  - v2
+
+# Task-first architecture: tasks são o ponto de entrada primário
+components:
+  tasks:
+    - protocolo-monitorar.md
+    - protocolo-validar.md
+    - protocolo-gerar.md
+    - protocolo-finalizar.md
+  agents:
+    - protocolo.md
+  workflows:
+    - contrato-procuracao.md
+
+# Scripts e recursos são compartilhados do squad protocolo (v1)
+# para evitar duplicação. Referenciar pelos caminhos abaixo:
+shared_from_protocolo:
+  scripts:
+    - squads/protocolo/scripts/assemble_contract.py
+    - squads/protocolo/scripts/google_drive_service.py
+  resources:
+    - squads/protocolo/resources/assets/     # fontes Sora + logo Genesis
+    - squads/protocolo/resources/termos/     # templates contrato.md + procuracao.md
+    - squads/protocolo/resources/credentials.json
+    - squads/protocolo/resources/token.json
+
+dependencies:
+  python:
+    - reportlab>=4.0.0
+    - google-api-python-client>=2.0.0
+    - google-auth-oauthlib>=1.0.0
+    - google-auth-httplib2>=0.1.0
+
+config:
+  extends: extend
+
+integration:
+  clickup:
+    enabled: true
+    mcp_server: "clickup-mcp-server"
+    list_id: "901322069698"
+    list_path: "Avelum > Genesis > Clientes > Protocolo"
+    status_entrada: "contrato + proc"
+    status_saida: "pagamento & assinatura"
+    custom_fields:
+      valor: "d660b997"
+      forma_pagamento: "c833a0a0"
+      parcelas: "91595fd2"
+      classes: "28f75c34"
+      documentos_inseridos: "842296be"
+
+  google_drive:
+    enabled: true
+    mcp_server: "@modelcontextprotocol/server-gdrive"
+    credentials: squads/protocolo/resources/credentials.json
+    token: squads/protocolo/resources/token.json
+    output_local: genesis/outputs/protocolo-v2/
+    drive_folder_pattern: "Clientes/{nome_marca} - {nome_cliente}/"
+
+# CLI First: como rodar este squad
+cli:
+  processar_todos: >
+    claude -p "@protocolo *processar" --dangerously-skip-permissions
+  processar_card: >
+    claude -p "@protocolo *processar TASK_ID" --dangerously-skip-permissions
+  apenas_monitorar: >
+    claude -p "@protocolo *monitorar" --dangerously-skip-permissions
+  cron_sugerido: >
+    0 * * * * cd /caminho/para/genesis && claude -p "@protocolo *processar" --dangerously-skip-permissions

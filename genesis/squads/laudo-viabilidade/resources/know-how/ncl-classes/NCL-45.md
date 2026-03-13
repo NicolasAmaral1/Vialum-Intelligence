@@ -1,0 +1,113 @@
+# Classe NCL 45
+
+Especificações pré-especificadas (Português):
+
+- 450001 | Segurança pessoal
+- 450002 | Serviço de acompanhantes
+- 450002 | Escorting in society [chaperoning]
+- 450003 | Serviços de agências de detetives
+- 450005 | Serviços de encontros
+- 450006 | Serviços de guarda noturna
+- 450006 | Serviços de vigilância noturna
+- 450033 | Abertura de fechaduras de segurança
+- 450046 | Aluguel de trajes a rigor
+- 450047 | Serviços de cremação
+- 450053 | Investigações de pessoas desaparecidas
+- 450056 | Serviços de enterros [funerais]
+- 450057 | Serviços de agente funerário
+- 450081 | Aluguel de roupas
+- 450099 | Serviços de guarda [vigilância, segurança]
+- 450112 | Serviços de agências matrimoniais
+- 450117 | Consultoria em segurança física
+- 450146 | Confecção de horóscopos [mapa astral]
+- 450179 | Combate ao fogo
+- 450184 | Organização de encontros religiosos
+- 450193 | Serviços de agência de adoção
+- 450194 | Monitorização de alarmes anti-roubo e de segurança
+- 450195 | Serviços de babá
+- 450196 | Verificação de segurança de bagagens
+- 450197 | Serviços de cuidados de moradias na ausência dos residentes [ing. house sitting]
+- 450198 | Serviços de babá de animais de estimação
+- 450199 | Investigações de antecedentes de pessoas
+- 450200 | Devolução de objetos perdidos
+- 450201 | Mediação [serviços jurídicos]
+- 450202 | Inspeção de fábricas para fins de segurança
+- 450203 | Aluguel de alarmes de incêndio
+- 450204 | Aluguel de extintores de incêndio
+- 450205 | Serviços de arbitragem
+- 450206 | Consultoria em propriedade intelectual
+- 450207 | Gestão de direitos autorais
+- 450208 | Licenciamento de propriedade intelectual
+- 450209 | Pesquisas jurídicas
+- 450211 | Serviços jurídicos
+- 450212 | Licenciamento de programa de computador [serviços jurídicos]
+- 450213 | Registro de nomes de domínio [serviços jurídicos]
+- 450214 | Serviços extrajudiciais de resolução de disputas
+- 450215 | Aluguel de cofres
+- 450216 | Pesquisa genealógica
+- 450217 | Planejamento e organização de cerimônias de casamento
+- 450218 | Serviços de redes sociais on-line
+- 450219 | Soltura de pombos para ocasiões especiais
+- 450220 | Embalsamamento
+- 450221 | Serviços de preparação de documentos jurídicos
+- 450222 | Rastreamento de bens roubados
+- 450223 | Serviços jurídicos relacionados a licenças
+- 450224 | Consultoria astrológica
+- 450225 | Consultoria espiritual
+- 450226 | Serviços de cartomancia
+- 450227 | Serviço de consultoria de estilo
+- 450228 | Escrita de cartas pessoais
+- 450229 | Condução de cerimônias fúnebres
+- 450230 | Legal services in relation to the negotiation of contracts for othersServiços jurídicos relativos à negociação de contratos para terceiros
+- 450231 | Condução de cerimônias religiosas
+- 450232 | Serviços de passeio com cachorros
+- 450233 | Leasing de nomes de domínio da internet
+- 450234 | Assistência para vestir quimono
+- 450235 | Aconselhamento jurídico para responder a licitações
+- 450235 | Aconselhamento jurídico para responder a solicitações de propostas [rfp] de prestação de serviços450236 45 Licensing [legal services] in the framework of software publishingLicenciamento [serviços jurídicos] no âmbito de publicação de softwares
+- 450237 | Serviços de monitoramento jurídico
+- 450238 | Organização de encontros políticos
+- 450239 | Serviços de consultoria jurídica relativa a mapeamento de patentes
+- 450240 | Serviços de legal advocacy [serviços jurídicos para suporte a causas de cunho social]
+- 450241 | Serviços de concierge
+- 450242 | Aconselhamento em matéria de luto
+- 450242 | Bereavement counseling
+- 450243 | Serviços de salva-vidas
+- 450244 | Serviços jurídicos em matéria de imigração
+- 450245 | Serviços de leitura de cartas de tarô para terceiros
+- 450246 | Auditoria para fins de conformidade regulatória [compliance regulatório]
+- 450247 | Auditoria para fins de conformidade jurídica [compliance jurídico]
+- 450248 | Transferência de propriedade [tabelionato]
+- 450249 | Serviços de lobby político
+- 450250 | Serviços de cosmetologistas mortuários
+- 450250 | Serviços de desairologistas
+- 450251 | Serviços de vigilância por drone
+- 450252 | Manutenção da ordem
+- 450253 | Serviços de agência de inclusão social
+- 450254 | Serviços de personal shopping para terceiros
+- 450255 | Monitoramento de alarmes médicos
+- 450256 | Security guarding of facilities via remote monitoring systemsSegurança de instalações por meio de sistemas de monitoramento remoto
+- 450257 | Localização e rastreamento de pessoas desaparecidas
+- 450258 | Serviço de entrega de processos jurídicos [serviços jurídicos]
+- 450258 | Serviço de notificação judicial
+- 450258 | Serviço de oficial de justiça
+- 450259 | Serviço de guarda de lugares em filas
+- 450260 | Legal research in the field of environmental protectionPesquisas jurídicas na área de proteção ambiental
+- 450261 | Serviços de doula
+- 450262 | Aluguel de câmeras de vigilância por vídeo
+- 450263 | Localização e rastreamento de bens perdidos
+- 450264 | Serviços de adoção de animais
+- 450265 | Providing non-medical in-home care services for individualsProvimento de serviços de cuidados domiciliares não médicos para pessoas
+- 450266 | Moderação de conteúdo para salas de bate-papo na internet
+- 450267 | Consultoria em segurança ocupacional
+- 450268 | Individual colour analysis services relating to clothing selectionServiços de análise de cores individuais relacionados à escolha de roupas
+- 450268 | Individual color analysis services relating to clothing selection
+- 450269 | Serviços jurídicos na área de proteção de crianças
+- 450271 | Redação jurídica
+- 450273 | Serviços de cartório
+- 450274 | Aluguel de cães de guarda
+- 450275 | Aluguel de coletes salva-vidas
+- 450276 | Aluguel de roupas de mergulho*
+- 450277 | Aluguel de roupas de proteção
+- 450278 | Aluguel de capacetes de proteção
+- 450279 | Organização de bens pessoais para terceiros

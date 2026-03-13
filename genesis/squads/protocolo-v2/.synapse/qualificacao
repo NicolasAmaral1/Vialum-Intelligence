@@ -1,0 +1,27 @@
+# Domain: qualificacao
+# Injetado pelo L6 Keyword Processor quando o prompt contém palavras-chave de qualificação.
+
+DETECÇÃO AUTOMÁTICA PF/PJ:
+  - CNPJ (padrão ##.###.###/####-##) → tipo_pessoa = "PJ"
+  - CPF (padrão ###.###.###-##) → tipo_pessoa = "PF"
+
+CAMPOS OBRIGATÓRIOS PF:
+  nome, cpf, nacionalidade, estado_civil, profissao, rg, endereco
+
+CAMPOS OBRIGATÓRIOS PJ:
+  razao_social, cnpj, endereco_sede, nome_rep, cpf_rep,
+  nacionalidade_rep, estado_civil_rep, profissao_rep, rg_rep, endereco_rep
+
+CAMPOS OPCIONAIS (PF e PJ):
+  orgao_emissor, cep, email, orgao_emissor_rep, cep_sede, cargo_rep
+
+PADRÃO PARA cargo_rep:
+  Se não informado → usar "sócio-administrador(a)"
+
+FORMATAÇÃO DA QUALIFICAÇÃO NO CONTRATO:
+  PF: "{nome}, {nacionalidade}, {estado_civil}, {profissao}, portador do RG nº {rg} {orgao_emissor}, inscrito no CPF sob o nº {cpf}, residente e domiciliado na {endereco}, CEP {cep}."
+  PJ: "{razao_social}, pessoa jurídica de direito privado, inscrita no CNPJ sob o nº {cnpj}, com sede na {endereco_sede}, CEP {cep_sede}, neste ato representada por seu {cargo_rep}, {nome_rep}, {nacionalidade_rep}, {estado_civil_rep}, {profissao_rep}, portador do RG nº {rg_rep} {orgao_emissor_rep}, inscrito no CPF sob o nº {cpf_rep}, residente e domiciliado na {endereco_rep}."
+
+SE DADOS INCOMPLETOS:
+  Comentar no card ClickUp com a lista de campos faltantes.
+  Não prosseguir para geração.

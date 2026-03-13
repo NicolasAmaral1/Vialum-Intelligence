@@ -19,7 +19,7 @@ ide:
     claude-desktop: false
     claude-code: true
 mcp:
-  enabled: false
+  enabled: true
   configLocation: .claude/mcp.json
   servers: []
 qa:

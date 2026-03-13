@@ -1,0 +1,13 @@
+tool:
+  schema_version: 2.0
+  id: pipedrive
+  type: mcp
+  name: Pipedrive
+  version: 1.0.0
+  description: Pipedrive CRM integration (deals, persons, organizations, pipelines)
+  mcp_specific:
+    server_command: "npx -y pipedriver"
+    transport: stdio
+    environment_variables:
+      - name: PIPEDRIVE_API_KEY
+        required: true

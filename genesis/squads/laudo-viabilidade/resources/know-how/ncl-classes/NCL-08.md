@@ -1,0 +1,324 @@
+# Classe NCL 08
+
+Especificações pré-especificadas (Português):
+
+- 080002 | Instrumentos manuais para esmerilhar
+- 080003 | Pedras para amolar
+- 080005 | Limas para agulhas
+- 080006 | Correias de couro usadas para afiar
+- 080008 | Furadores
+- 080008 | Sovelas
+- 080009 | Barras de mandrilagem [ferramentas manuais]
+- 080010 | Mandris [escareador] [ferramentas manuais]
+- 080011 | Mangas [soquete] de mandril [escareador]
+- 080012 | Extensões de berbequins para brocas
+- 080013 | Espátulas para pintura
+- 080014 | Espátulas [ferramentas manuais]
+- 080015 | Socos-ingleses
+- 080015 | Soqueiras
+- 080016 | Brocas [partes de ferramentas manuais]
+- 080017 | Esquadros [ferramentas]
+- 080019 | Instrumentos e ferramentas para esfolar animais
+- 080020 | Tarraxas
+- 080021 | Serras de arco
+- 080022 | Armas brancas
+- 080022 | Armas portáteis, exceto armas de fogo [arma branca]
+- 080023 | Extratores de pregos, operados manualmente
+- 080023 | Sacadores de pregos, operados manualmente
+- 080024 | Macacos manuais
+- 080025 | Baionetas
+- 080026 | Máquinas para cortar barba
+- 080028 | Berbequins manuais a propulsão muscular
+- 080029 | Talhadeiras de carpinteiro [cinzel]
+- 080030 | Bisegres
+- 080030 | Mortise axes
+- 080031 | Instrumentos para marcar gado
+- 080031 | Cattle marking tools
+- 080033 | Tosquiadeiras para gado
+- 080034 | Arranca-pregos [ferramentas manuais]
+- 080034 | Extratores de pregos tipo pé de cabra [ferramentas manuais]
+- 080036 | Camartelos
+- 080036 | Bushhammers
+- 080037 | Amoladores de facas
+- 080037 | Knife steels
+- 080038 | Martelos pena [ferramentas manuais para afixar rebites]
+- 080039 | Puxavantes [ferramentas manuais]
+- 080040 | Tesouras *
+- 080042 | Pinças
+- 080043 | Buris [ferramentas manuais]
+- 080044 | Alviões
+- 080045 | Ferros para calafetar
+- 080046 | Canivetes
+- 080047 | Martelos de pedra
+- 080048 | Serras tico-tico
+- 080049 | Facas de tanoeiro
+- 080050 | Punções para pregos
+- 080051 | Degoladores para ferreiros [ferramentas manuais]
+- 080051 | Fúler (ing. Fuller) [ferramentas manuais]
+- 080052 | Ferramentas manuais para pisoamento
+- 080053 | Facas de caça
+- 080054 | Chassis para serras manuais
+- 080055 | Serras [ferramentas manuais]
+- 080056 | Formas de sapateiro
+- 080058 | Ferros para frisar
+- 080059 | Talheres [facas, garfos e colheres]
+- 080059 | Tableware [knives, forks and spoons]
+- 080060 | Shears* Cisalhas [tesoura]*
+- 080061 | Lâminas para tesouras
+- 080062 | Perfuradores [ferramentas manuais]
+- 080063 | Chaves de boca
+- 080064 | Chaves inglesas [ferramentas manuais]
+- 080064 | Wrenches [hand tools]
+- 080065 | Chaves de fenda do tipo "catraca" [ferramentas manuais]
+- 080066 | Pentes para abrir roscas [ferramentas manuais]
+- 080066 | Porta-cossinetes [ferramentas manuais]
+- 080066 | Porta-tarraxas [ferramentas manuais]
+- 080067 | Perfuradores [furador]
+- 080068 | Suporte para pedras de amolar
+- 080069 | Machados
+- 080070 | Garfos [talheres]
+- 080071 | Plainas
+- 080072 | Ferramentas manuais
+- 080073 | Fatiadores de verduras e legumes, operados manualmente
+- 080073 | Vegetable shredders, hand-operated
+- 080074 | Alicates de unhas
+- 080075 | Corta-tubos [ferramentas manuais]
+- 080077 | Cutelos de açougueiro
+- 080078 | Cutelaria *
+- 080079 | Ferramentas manuais para colher frutos
+- 080080 | Colheres *
+- 080081 | Conchas [ferramentas manuais]
+- 080082 | Assentadores para navalhas de barbear [correias para afiar navalhas]
+- 080083 | Maços [ferramentas manuais]
+- 080084 | Ferramentas manuais para estampilhar
+- 080084 | Estampilhas [ferramentas manuais]
+- 080085 | Fresas [ferramentas manuais]
+- 080086 | Espátulas [jardinagem]
+- 080087 | Colheres de pedreiro [trolha]
+- 080088 | Apparatus for destroying plant parasites, hand-operatedAparelhos para destruir parasitas de plantas operados manualmente
+- 080089 | Diamantes de vidraceiros [partes de ferramentas manuais]
+- 080090 | Mandris de expansão [ferramentas manuais]
+- 080091 | Instrumentos para amolar navalhas
+- 080092 | Instrumentos para afiar [amolar]
+- 080093 | Instrumentos para afiar lâminas
+- 080095 | Facas para escamar
+- 080096 | Escardilhos [ferramentas manuais]
+- 080096 | Extratores de cardo [ferramentas manuais]
+- 080097 | Tesouras para podar [jardinagem]
+- 080097 | Secateurs
+- 080098 | Tesouras de eslagartar
+- 080099 | Facas para enxertar plantas
+- 080100 | Podadores de árvores
+- 080101 | Pinças para cutículas
+- 080101 | Alicates para cutículas
+- 080102 | Pinças para depilar
+- 080103 | Cabos para passadores
+- 080104 | Verrumões de carpinteiro [trado comprido]
+- 080105 | Estampadores [gravadores] em relevo [ferramentas manuais]
+- 080106 | Estojos para pedicure
+- 080107 | Estojos para aparelhos de barbear
+- 080108 | Vazadouros [partes de ferramentas manuais]
+- 080109 | Ancinhos [ferramentas manuais]
+- 080110 | Pás para remover [ferramentas manuais]
+- 080111 | Pás para cavar [ferramentas manuais]
+- 080112 | Podões para aparar bordas
+- 080113 | Foices
+- 080114 | Anéis de foices
+- 080115 | Pedras para afiar foices
+- 080115 | Pedras para afiar lâminas
+- 080116 | Ferros [ferramentas manuais não elétricas]
+- 080117 | Ferros para gofrar
+- 080118 | Ferros para polir e dar lustre
+- 080118 | Glazing irons
+- 080119 | Lâminas para plaina guilherme
+- 080120 | Ferros para moldagem
+- 080120 | Molding irons
+- 080121 | Ferros para plissar
+- 080122 | Ferros para marcar a fogo
+- 080124 | Verrumas [brocas] [ferramentas manuais]
+- 080125 | Bainhas para espadas
+- 080126 | Aparelhos manuais para ondular cabelos
+- 080127 | Cortadores de grama [instrumentos manuais]
+- 080128 | Picadores de gelo
+- 080129 | Goivas [ferramentas manuais]
+- 080130 | Cassetetes
+- 080130 | Cassetetes de polícia
+- 080130 | Bludgeons
+- 080131 | Buris de oculista
+- 080132 | Puxavantes para ferreiros
+- 080133 | Facas de correeiro
+- 080133 | Trinchetes [faca de sapateiro]
+- 080134 | Enxertadeiras [facas]
+- 080135 | Plainas guilherme
+- 080136 | Instrumentos para picar verduras e legumes
+- 080137 | Machadinhas
+- 080138 | Cutelos enquanto facas
+- 080139 | Enxós de tanoeiro
+- 080140 | Harpoons* Arpão*
+- 080141 | Enxós [ferramentas]
+- 080142 | Enxadões [picaretas]
+- 080143 | Abridores de ostras
+- 080144 | Vaporizadores para inseticidas [ferramentas manuais]
+- 080144 | Pulverizadores para inseticidas [ferramentas manuais]
+- 080144 | Atomizadores para inseticidas [ferramentas manuais]
+- 080145 | Ferramentas de jardinagem, operadas manualmente
+- 080146 | Facas de poda
+- 080147 | Grampos para carpinteiros ou tanoeiros
+- 080147 | Gastalhos para carpinteiros ou tanoeiros
+- 080148 | Lâminas para aparelho de barbear
+- 080149 | Lâminas [ferramentas manuais]
+- 080150 | Lâminas [armas]
+- 080151 | Lâminas para serras [partes de ferramentas manuais]
+- 080153 | Alavancas
+- 080154 | Machetes [facão ou faca de mato]
+- 080155 | Maços [martelos de madeira]
+- 080156 | Martelos [ferramentas manuais]
+- 080157 | Martelos de forja [malho]
+- 080158 | Martelos de pedreiro
+- 080159 | Chisels* Cinzéis*
+- 080160 | Esticadores para fitas metálicas [ferramentas manuais]
+- 080161 | Moletas [ferramentas manuais]
+- 080162 | Coletores de dinheiro
+- 080163 | Almofarizes para pilar [ferramentas manuais]
+- 080164 | Espevitadeiras [tesoura para esmorraçar]
+- 080166 | Estojos de barbear
+- 080167 | Pinças para numerar
+- 080168 | Lixas para unhas
+- 080169 | Abridores de latas, não elétricos
+- 080169 | Can openers, non-electric
+- 080171 | Picaretas [ferramentas manuais]
+- 080172 | Pilões [ferramentas manuais]
+- 080172 | Mãos de almofariz [ferramentas manuais]
+- 080174 | Pistolas [ferramentas manuais]
+- 080175 | Punções de centro [ferramentas manuais]
+- 080175 | Punções de bico [ferramentas manuais]
+- 080176 | Concha ou colher para fundição
+- 080177 | Ferros de plaina
+- 080178 | Limas grossas [grosa]
+- 080179 | Aparelhos para barbear, elétricos ou não
+- 080180 | Saca-pinos
+- 080181 | Atiçadores [ferros para atiçar fogo]
+- 080182 | Rebitadores [máquina para rebitar] [ferramentas manuais]
+- 080183 | Gadanhas
+- 080184 | Garfos para jardinagem [ferramentas manuais]
+- 080185 | Enxadas [ferramentas manuais]
+- 080186 | Porta-serras
+- 080187 | Cardas [ferramentas manuais]
+- 080188 | Podões [tesouras de podar]
+- 080189 | Foicinhas
+- 080191 | Aparelhos para decantar líquidos [ferramentas manuais]
+- 080192 | Ferramentas de corte [ferramentas manuais]
+- 080193 | Machos para fazer roscas [ferramentas manuais]
+- 080194 | Verrumões [trado] [ferramentas manuais]
+- 080195 | Chaves de fenda, não elétricas
+- 080196 | Talhadeiras [cinzéis] [ferramentas manuais]
+- 080197 | Trados [ferramentas manuais]
+- 080198 | Instrumentos para cortar tubos [ferramentas]
+- 080199 | Arcos de pua [ferramentas manuais]
+- 080200 | Implementos agrícolas manuais
+- 080201 | Pedras para amolar [ferramentas manuais]
+- 080201 | Rebolos [pedras para amolar] [ferramentas manuais]
+- 080202 | Seringas para pulverizar inseticidas
+- 080203 | Prataria [facas, garfos e colheres]
+- 080204 | Escavadoras [ferramentas manuais]
+- 080205 | Facas *
+- 080206 | Alicates*
+- 080207 | Pincers* Alicates [pinças]*
+- 080207 | Pinças*
+- 080207 | Tongs* Tenazes
+- 080208 | Espadas
+- 080209 | Sabres
+- 080211 | Aríetes [ferramentas manuais]
+- 080212 | Instrumentos para perfurar bilhetes
+- 080213 | Lixas de unhas, elétricas
+- 080214 | Polidores de unhas, elétricos ou não
+- 080214 | Nail buffers, electric or non-electric
+- 080218 | Porta-brocas [ferramentas manuais]
+- 080219 | Hair clippers for personal use, electric and non-electricMáquinas de uso pessoal para corte do cabelo, elétricas e não elétricas
+- 080220 | Forquilhas para agricultura [ferramentas manuais]
+- 080221 | Cortadores de unhas, elétricos ou não
+- 080222 | Máquinas para corte do pelo dos animais [instrumentos manuais]
+- 080223 | Tosquiadores [instrumentos manuais]
+- 080224 | Ferros de passar
+- 080226 | Rodas de esmeril [rebolo]
+- 080227 | Limas [ferramentas]
+- 080228 | Vazadores [saca-bocados] [ferramentas manuais]
+- 080229 | Punções [ferramentas manuais]
+- 080230 | Cortadores [ferramentas manuais]
+- 080231 | Estojos de manicure [kits]
+- 080232 | Guns, hand-operated, for the extrusion of masticsPistolas para extrusão de mástiques, acionadas manualmente
+- 080234 | Ferramentas manuais para abrir valas
+- 080235 | Raspadeiras [ferramentas manuais]
+- 080236 | Facas picadoras de carne
+- 080236 | Facas moedoras de carne
+- 080236 | Cutelos de carne enquanto facas
+- 080237 | Ferramentas manuais para raspagem
+- 080241 | Aparelho para furar orelhas
+- 080242 | Aparelhos para depilação, elétricos ou não
+- 080243 | Kits manicure, elétricos
+- 080244 | Tornos de bancada
+- 080244 | Vises
+- 080245 | Bombas manuais *
+- 080246 | Adagas
+- 080247 | Cintos porta-ferramentas
+- 080248 | Fatiadores de queijo, não elétricos
+- 080249 | Cortadores de pizza, não elétricos
+- 080250 | Pés de cabra
+- 080251 | Fatiadores de ovos, não elétricos
+- 080252 | Aparelhos para curvar cílios
+- 080253 | Caixa de meia esquadria [ferramentas manuais]
+- 080253 | Miter boxes [hand tools]
+- 080254 | Ancinhos coletores de areia
+- 080255 | Foles para lareira [ferramentas manuais]
+- 080256 | Aparelhos para fazer tatuagens
+- 080257 | Lixas de esmeril para toalete
+- 080258 | Guia fio [ferramenta manual]
+- 080258 | Draw wires [hand tools]
+- 080259 | Alicates decapadores [ferramentas manuais]
+- 080261 | Tornos de bancada [instrumentos manuais]
+- 080262 | Pistolas para calafetar, não elétricas
+- 080263 | Esticadores para fios metálicos [ferramentas manuais]
+- 080264 | Estiletes tipo bisturi
+- 080265 | Bombas de ar manuais
+- 080266 | Facas de cerâmica
+- 080267 | Lixas de esmeril em papelão para unhas
+- 080268 | Afiador de esquis operado manualmente
+- 080269 | Agulhas para tatuagens
+- 080270 | Espátulas para uso por artistas
+- 080271 | Cinzeis para escultores
+- 080272 | Colheres, garfos e facas de mesa, todos de plástico
+- 080273 | Colheres, garfos e facas de mesa para bebês
+- 080274 | Raspadores para esquis
+- 080275 | Cabos para ferramentas operadas manualmente [empunhaduras]
+- 080276 | Cabos para facas
+- 080277 | Cabos para foices
+- 080278 | Espiralizadores manuais de legumes
+- 080279 | Descascadores de legumes, operados manualmente
+- 080280 | Estiletes
+- 080281 | Aparelhos elétricos para trançar o cabelo
+- 080282 | Mexedores de tinta [palito]
+- 080283 | Cortadores manuais de cápsulas de garrafas de vinho
+- 080284 | Cortadores de frutas em fatias
+- 080285 | Descaroçador de frutas
+- 080286 | Cortador e fatiador de alimentos [mandolin]
+- 080287 | Garras de urso para carnes [garras trinchantes]
+- 080288 | Instrumentos estéreis para piercing corporal
+- 080289 | Laser hair removal apparatus, other than for medical purposesDispositivos depilatórios a laser, exceto para fins medicinais
+- 080290 | Martelos de emergência
+- 080291 | Facas para cortar verduras e legumes
+- 080292 | Garfos trinchantes
+- 080293 | Facas trinchantes
+- 080294 | Facas multiferramentas
+- 080294 | Facas multifuncionais
+- 080295 | Debulhadores de milho manuais
+- 080296 | Fatiadores de frutas manuais
+- 080297 | Processadores de alimentos manuais
+- 080298 | Teares manuais portáteis, de propulsão manual
+- 080299 | Tube squeezers, hand-operated, other than for household purposesEspremedores de tubos manuais, exceto para uso doméstico
+- 080300 | Chapinhas alisadoras de cabelo
+- 080301 | Descaroçadores de frutas, operados manualmente
+- 080302 | Coletes para ferramentas
+- 080303 | Furadores de costura
+- 080304 | Abridores de costura
+- 080304 | Stitch rippers
+- 080305 | Cinzéis sem corte

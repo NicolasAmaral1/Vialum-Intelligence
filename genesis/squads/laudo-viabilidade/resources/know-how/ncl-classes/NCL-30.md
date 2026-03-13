@@ -1,0 +1,350 @@
+# Classe NCL 30
+
+Especificações pré-especificadas (Português):
+
+- 300002 | Algas [condimentos]
+- 300003 | Massas alimentares
+- 300004 | Pasta de amêndoas
+- 300006 | Anis [grãos]
+- 300007 | Anis estrelado
+- 300008 | Confeitos para decoração de árvores de natal
+- 300009 | Infusões, exceto infusões medicinais
+- 300010 | Flavorizantes/aromatizantes para café
+- 300010 | Coffee flavorings
+- 300011 | Preparações aromáticas para uso alimentar
+- 300012 | Temperos
+- 300013 | Pão sem fermento
+- 300014 | Sal para conservar alimentos
+- 300015 | Bolachas
+- 300016 | Biscuits* Biscoitos*
+- 300016 | Cookies
+- 300017 | Biscoitos de malte
+- 300019 | Doces com hortelã-pimenta
+- 300020 | Balas
+- 300022 | Waffles
+- 300023 | Brioches
+- 300024 | Cacau
+- 300026 | Café
+- 300027 | Grãos de café não torrados
+- 300028 | Preparações vegetais para uso como substitutos de café
+- 300029 | Bolos
+- 300030 | Canela [especiaria]
+- 300031 | Alcaparras
+- 300032 | Caramelos [balas]
+- 300033 | Caril (curry) [especiaria]
+- 300034 | Preparações feitas com cereais
+- 300035 | Gomas de mascar
+- 300036 | Chicória [sucedâneo de café]
+- 300037 | Chá*
+- 300038 | Chocolate
+- 300039 | Maçapão
+- 300040 | Cravos-da-índia [especiaria]
+- 300041 | Condimentos
+- 300042 | Confeitos
+- 300042 | Doces [confeitos]
+- 300043 | Flocos de milho
+- 300043 | Maize flakes
+- 300044 | Pipoca
+- 300045 | Preparações para engrossar creme batido
+- 300046 | Sorvetes
+- 300047 | Panquecas
+- 300048 | Essências para alimentos
+- 300049 | Sal de cozinha
+- 300050 | Agentes para engrossar alimentos em cozimento
+- 300051 | Açafrão-da-terra*
+- 300053 | Adoçantes naturais
+- 300054 | Especiarias
+- 300055 | Bolo ou pão de gengibre
+- 300055 | Pão de gengibre
+- 300056 | Pimenta-da-jamaica [tempero]
+- 300057 | Farinhas*
+- 300057 | Flour
+- 300058 | Farinha de feijão
+- 300059 | Farinha de milho
+- 300059 | Maize meal
+- 300059 | Corn meal
+- 300059 | Maize flour
+- 300060 | Farinha de mostarda
+- 300061 | Farinha de cevada
+- 300062 | Farinha de soja
+- 300063 | Farinha de trigo
+- 300065 | Amido para uso alimentar
+- 300066 | Fermentos para massas
+- 300067 | Fondants [confeitos]
+- 300068 | Petits fours [pequenos doces ou salgados farináceos e assados]
+- 300069 | Açúcar *
+- 300070 | Flavorizantes/aromatizantes para bolos
+- 300070 | Flavorings for cakes
+- 300071 | Pó para bolo
+- 300072 | Massa para bolo
+- 300072 | Cake dough
+- 300073 | Gengibre moído
+- 300074 | Agentes para engrossar sorvetes
+- 300075 | Gelo natural ou artificial
+- 300076 | Gelo [água congelada]
+- 300077 | Glicose para fins culinários
+- 300078 | Glúten preparado para fins alimentares
+- 300080 | Sêmola para alimentação humana
+- 300081 | Vinagre
+- 300082 | Ketchup [molho]
+- 300083 | Bebidas de cacau com leite
+- 300084 | Bebidas de café com leite
+- 300085 | Bebidas de chocolate com leite
+- 300086 | Fermento [lêvedo]
+- 300087 | Levedura *
+- 300088 | Materiais para engrossar salsichas
+- 300089 | Macarons [bolinhos de massapão]
+- 300090 | Macarrão
+- 300091 | Milho moído
+- 300091 | Milled maize
+- 300092 | Milho torrado
+- 300092 | Roasted maize
+- 300093 | Pão *
+- 300094 | Maltose
+- 300095 | Melaço para uso alimentar
+- 300095 | Treacle
+- 300096 | Xarope de melaço
+- 300097 | Menta para confeitos
+- 300098 | Mel
+- 300100 | Cevada descascada
+- 300101 | Mostarda
+- 300102 | Noz-moscada [condimento]
+- 300103 | Noodles
+- 300104 | Pastelões [torta]
+- 300104 | Tortas
+- 300105 | Cevada moída
+- 300106 | Sanduíches
+- 300107 | Pastilhas [confeitos]
+- 300107 | Pastilles [confectionery]
+- 300108 | Produtos de confeitaria [pâtisserie]
+- 300109 | Biscoitos amanteigados
+- 300110 | Pãezinhos
+- 300111 | Pimentão [temperos]
+- 300112 | Pizzas
+- 300113 | Pimenta
+- 300114 | Farinha de batata*
+- 300115 | Pudins
+- 300116 | Amêndoas torradas
+- 300117 | Ravióli
+- 300118 | Alcaçuz [confeito]
+- 300119 | Rice* Arroz*
+- 300120 | Açafrão [temperos]
+- 300121 | Sagu
+- 300122 | Molhos [condimentos]
+- 300123 | Sal de aipo
+- 300124 | Semolina
+- 300125 | Sorbets
+- 300125 | Sorbets [ices]
+- 300126 | Espaguete
+- 300127 | Tapioca
+- 300128 | Farinha de tapioca*
+- 300129 | Tortas [tarte]
+- 300130 | Flavorizantes/aromatizantes de baunilha para fins culinários
+- 300130 | Vanilla flavorings for culinary purposes
+- 300132 | Aletrias
+- 300133 | Tortas de carne
+- 300134 | Pâtes en croûte
+- 300135 | Amaciantes de carne para fins culinários
+- 300136 | Gelados comestíveis
+- 300137 | Pós para preparar gelados comestíveis
+- 300137 | Pós para preparar sorvetes
+- 300138 | Confeitos de amêndoas
+- 300139 | Confeitos de amendoins
+- 300140 | Flavorizantes/aromatizantes para alimentos
+- 300140 | Food flavorings
+- 300141 | Flavorizantes/aromatizantes para bebidas
+- 300141 | Flavorings for beverages
+- 300142 | Aveia moída
+- 300143 | Aveia descascada
+- 300144 | Alimentos à base de aveia
+- 300145 | Flocos de aveia
+- 300146 | Farinha de aveia
+- 300147 | Tiras de alcaçuz [confeito]
+- 300148 | Vinagre de cerveja
+- 300149 | Bebidas à base de café
+- 300150 | Bebidas à base de cacau
+- 300151 | Bebidas à base de chocolate
+- 300152 | Sucedâneos de café
+- 300153 | Açúcar-cande*
+- 300161 | Flocos de cereais secos
+- 300162 | Picles mistos [condimento]
+- 300163 | Cuscuz
+- 300164 | Extrato de malte para uso alimentar
+- 300165 | Malte para consumo humano
+- 300166 | Própole*
+- 300166 | Própolis*
+- 300167 | Tempero de picles [condimento]
+- 300168 | Geleia real
+- 300169 | Água do mar para cozinhar
+- 300170 | Sushi
+- 300171 | Molho de tomate
+- 300172 | Maionese
+- 300174 | Biscoitos de água e sal
+- 300174 | Biscoitos de sal
+- 300174 | Bolachas [cracker]
+- 300175 | Creme [culinária]
+- 300176 | Geleias de frutas [confeitos]
+- 300177 | Muesli
+- 300178 | Tortas de arroz
+- 300179 | Molho de soja
+- 300181 | Frozen yogurt [sorvete à base de iogurte]
+- 300181 | Iogurte congelado [sorvete à base de iogurte]
+- 300181 | Iogurte gelado [sorvete à base de iogurte]
+- 300182 | Chutney [condimento]
+- 300183 | Rolinhos primavera
+- 300184 | Tacos
+- 300185 | Tortillas
+- 300186 | Chá gelado [bebidas à base de chá]
+- 300187 | Bebidas à base de chá
+- 300188 | Molho para salada
+- 300189 | Farinha de rosca
+- 300190 | Tabule
+- 300191 | Halva
+- 300192 | Quiches
+- 300193 | Molhos à base de carne
+- 300194 | Missô [condimento]
+- 300195 | Petiscos à base de cereais
+- 300196 | Petiscos à base de arroz
+- 300197 | Canjica [papa de milho branco]
+- 300198 | Farinha de canjica
+- 300198 | Sêmola de canjica
+- 300199 | Fermento em pó
+- 300200 | Bicarbonato de sódio para fins culinários
+- 300200 | Bicarbonate of soda for cooking purposes [baking soda]
+- 300201 | Ervas comestíveis conservadas [temperos]
+- 300202 | Refeições à base de noodles
+- 300203 | Cobertura de bolo [glacê]
+- 300204 | Mousses de chocolate
+- 300205 | Confeitos sob a forma de mousse
+- 300206 | Coulis de frutas [molhos]
+- 300207 | Marinados
+- 300208 | Cheeseburgers [sanduíches]
+- 300209 | Pesto
+- 300210 | Produtos para dourar carnes [ham glaze]
+- 300212 | Sementes de linhaça para fins culinários [condimento].
+- 300212 | Flaxseed for culinary purposes [seasoning]
+- 300213 | Germen de trigo para alimentação humana
+- 300214 | Barras de cereais hiperproteicas
+- 300215 | Creme de tártaro para uso culinário
+- 300216 | Aditivos de glúten para uso culinário
+- 300217 | Molhos para massas alimentares
+- 300218 | Barras de cereais
+- 300219 | Palm sugar
+- 300220 | Massa de farinha
+- 300221 | Flores ou folhas para uso como substitutos do chá
+- 300222 | Massa folhada
+- 300224 | Pelmeni
+- 300225 | Decorações, feitas de chocolate, para bolos
+- 300226 | Decorações, à base de confeitos, para bolos
+- 300227 | Frutos oleaginosos cobertos com chocolate
+- 300228 | Arroz-doce
+- 300229 | Farinha de nozes
+- 300230 | Alho moído [condimento]
+- 300231 | Baozi
+- 300232 | Polpa de arroz para fins culinários
+- 300233 | Jiaozi
+- 300234 | Ramen
+- 300235 | Panquecas salgadas
+- 300235 | Savory pancakes
+- 300236 | Misturas para massa de panquecas salgadas
+- 300236 | Savory pancake mixes
+- 300237 | Burritos
+- 300238 | Arroz cozido enrolado em folha de alga marinha
+- 300239 | Papel comestível
+- 300240 | Papel comestível de arroz
+- 300241 | Pastas à base de chocolate
+- 300242 | Pastas de chocolate contendo frutos oleaginosos
+- 300243 | Dumplings [bolinho de massa] à base de farinha de trigo
+- 300244 | Xarope de agave [adoçante natural]
+- 300245 | Glacê espelhado [mirror glaze]
+- 300246 | Freeze-dried dishes with the main ingredient being ricePratos liofilizados com arroz como ingrediente principal
+- 300246 | Lyophilized dishes with the main ingredient being rice
+- 300246 | Lyophilised dishes with the main ingredient being rice
+- 300247 | Freeze-dried dishes with the main ingredient being pastaPratos liofilizados com massa como ingrediente principal
+- 300247 | Lyophilised dishes with the main ingredient being pasta
+- 300247 | Lyophilized dishes with the main ingredient being pasta
+- 300248 | Bebidas à base de camomila
+- 300249 | Doce de leite
+- 300250 | Bibimbap [arroz misturado com vegetais e carne]
+- 300251 | Oniguiri
+- 300252 | Arroz instantâneo
+- 300253 | Cachorro-quente
+- 300254 | Cubos de gelo
+- 300255 | Sementes processadas para uso como tempero
+- 300256 | Sementes de gergelim [temperos]
+- 300257 | Piccalilli [condimento à base de picles de legumes cortados em pequenos pedaços]
+- 300258 | Quinoa processada
+- 300259 | Bulgur (triguilho)
+- 300260 | Trigo sarraceno processado
+- 300261 | Farinha de trigo sarraceno
+- 300262 | Molho de oxicoco [condimento]
+- 300263 | Molho de maçã [condimento]
+- 300264 | Croûtons [pedacinhos de pão fritos ou assados]
+- 300264 | Croutons
+- 300265 | Pão achatado à base de batata
+- 300267 | Confeitaria à base de frutas
+- 300268 | Biscoitos de arroz
+- 300269 | Panquecas kimchi
+- 300270 | Raspadinhas de gelo com feijões vermelhos adocicados
+- 300271 | Balas para refrescar hálito
+- 300272 | Gomas de mascar para refrescar hálito
+- 300273 | Macarrão udon
+- 300274 | Macarrão soba
+- 300275 | Pão sem glúten
+- 300276 | Tamarindo [condimento]
+- 300277 | Laksa
+- 300278 | Profiteroles
+- 300279 | Croissants
+- 300280 | Pains au chocolat [massa folheada assada, com chocolate]
+- 300280 | Chocolatines
+- 300281 | Chá de algas kelp
+- 300282 | Crème brûlée [sobremesa]
+- 300283 | Misturas para massa
+- 300284 | Biscoitos de papel comestível
+- 300285 | Cocadas sírias
+- 300286 | Cápsulas de café, cheias
+- 300287 | Água de flor de laranjeira para uso alimentar
+- 300288 | Picolés
+- 300289 | Torrone
+- 300290 | Harissa [condimento]
+- 300291 | Pasta de gengibre [tempero]
+- 300292 | Bebidas de chá, com leite
+- 300293 | Batatas fritas com cobertura de chocolate
+- 300294 | Herbal teas* Chás de ervas*
+- 300295 | Substitutos de chá
+- 300296 | Chocolate com licor
+- 300297 | Substitutos de cacau
+- 300298 | Levedura para fazer cerveja
+- 300299 | Chá de kombucha
+- 300300 | Pastelaria dinamarquesa [iguarias]
+- 300301 | Nhoque
+- 300302 | Flavored jelly crystals for making jelly confectioneryCristais de geleia flavorizados para fazer confeitos de geleia
+- 300302 | Flavoured jelly crystals for making jelly confectionery
+- 300303 | Suco de limão cristalizado [tempero]
+- 300304 | Sementes de abóbora processadas [temperos]
+- 300305 | Sementes de cânhamo processadas [temperos]
+- 300306 | Espelta processada
+- 300307 | Refeições preparadas à base de macarrão [noodles] para crianças pequenas
+- 300308 | Espelta pequena processada
+- 300309 | Pudins de leite
+- 300310 | Nibs de cacau
+- 300311 | Doenjang [condimento]
+- 300312 | Gochujang [pasta de pimenta coreana]
+- 300313 | Kimbap [rolinho coreano à base de arroz]
+- 300314 | Favos de mel comestíveis
+- 300315 | Adoçantes artificiais para fins culinários
+- 300316 | Sacarina para fins culinários
+- 300317 | Aspartame para fins culinários
+- 300318 | Cera de abelha comestível
+- 300319 | Substitutos de açúcar para fins culinários
+- 300320 | Grãos de café torrados
+- 300321 | Biscoitos recheados
+- 300321 | Filled cookies
+- 300322 | Ouro comestível para decorar alimentos e bebidas
+- 300323 | Pasta de açúcar para confeitaria
+- 300324 | Cardamomo [especiaria]
+- 300325 | Sumagre [especiaria]
+- 300326 | Farinha de fava
+- 300327 | Água floral para fins culinários
+- 300328 | Molho holandês
+- 300329 | Creme de manteiga/buttercream [cobertura]

@@ -1,0 +1,60 @@
+# Classe NCL 43
+
+Especificações pré-especificadas (Português):
+
+- 430004 | Serviços de agências de acomodações [hotéis, pensões]
+- 430010 | Serviço de bufê
+- 430013 | Casas de retiro para idosos
+- 430024 | Serviços de cafés [bares]
+- 430025 | Serviços de cafeteria
+- 430026 | Provimento de acomodações em acampamento
+- 430027 | Serviços de cantinas
+- 430028 | Aluguel de acomodações temporárias
+- 430066 | Serviços de pensão
+- 430071 | Serviços de acomodação, em casas, para turistas
+- 430073 | Serviços de acomodação em hotel
+- 430098 | Serviços de creches [berçários]
+- 430102 | Serviços de restaurantes
+- 430104 | Reservas em pensões [alojamento]
+- 430105 | Reservas em hotéis
+- 430107 | Serviços de restaurantes de autosserviço
+- 430108 | Serviços de lanchonetes
+- 430134 | Pensão para animais
+- 430138 | Serviços de bar
+- 430145 | Colônia de férias [alojamento]
+- 430160 | Aluguel de construções transportáveis
+- 430162 | Reservas de acomodações temporárias
+- 430183 | Serviços de motéis
+- 430186 | Aluguel de cadeiras, mesas, roupa de mesa e vidraria de mesa
+- 430187 | Aluguel de salas de reunião
+- 430189 | Aluguel de barracas [tendas]
+- 430190 | Aluguel de aparelhos de cozimento
+- 430191 | Aluguel de dispensadores de água potável
+- 430192 | Aluguel de equipamentos de iluminação*
+- 430193 | Escultura em alimentos
+- 430194 | Serviços de restaurantes washoku
+- 430196 | Serviços de restaurante de macarrão udon e soba
+- 430197 | Decoração de alimentos
+- 430198 | Decoração de bolos
+- 430199 | Providing information and advice in relation to the preparation of mealsProvimento de informações e conselhos sobre preparação de refeições
+- 430200 | Serviços de personal chef
+- 430201 | Serviços de bares para fumar narguilé
+- 430202 | Serviços de recepção para acomodação temporária [entrega de chaves]
+- 430203 | Serviços de abrigo para animais
+- 430204 | Temporary accommodation provided by halfway housesAcomodação temporária fornecida por centros de reabilitação
+- 430205 | Aluguel de acomodação em viagens
+- 430205 | Rental of vacation accommodation
+- 430206 | Aluguel de pias de cozinha
+- 430207 | Aluguel de vestiários portáteis
+- 430207 | Aluguel de trocadores portáteis
+- 430207 | Aluguel de camarins portáteis
+- 430208 | Serviços de restaurantes para retirada
+- 430210 | Aluguel de móveis
+- 430211 | Aluguel de móveis de escritório
+- 430212 | Aluguel de robôs para preparação de bebidas
+- 430213 | Serviços de cozinha fantasma
+- 430213 | Serviços de restaurante fantasma
+- 430213 | Serviços de ghost kitchen
+- 430214 | Provimento de salas VIP / lounges em aeroportos
+- 430215 | Booking and arranging of access to airport loungesReserva e organização de acesso a salas VIP / lounges em aeroportos
+- 430216 | Aluguel de panelas para hot pot

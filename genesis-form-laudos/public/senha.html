@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trocar Senha — Genesis Laudos</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="auth-body">
+  <main class="auth-main">
+    <section class="auth-hero">
+      <div class="eyebrow">Segurança</div>
+      <h1 class="page-title">Troca obrigatória de senha</h1>
+      <p class="page-subtitle">Para proteger o acesso, a senha inicial precisa ser substituída por uma senha forte antes de continuar.</p>
+    </section>
+
+    <section class="card auth-card">
+      <h2 class="section-title">Definir nova senha</h2>
+      <div id="userInfo" class="helper-copy"></div>
+      <div id="alertBox" class="alert"></div>
+
+      <form id="passwordForm">
+        <div class="form-group">
+          <label for="currentPassword">Senha atual</label>
+          <input type="password" id="currentPassword" autocomplete="current-password" required>
+        </div>
+
+        <div class="form-group">
+          <label for="newPassword">Nova senha</label>
+          <input type="password" id="newPassword" autocomplete="new-password" minlength="12" required>
+        </div>
+
+        <button type="submit" class="btn-primary" id="passwordBtn">
+          <span class="text">Atualizar senha</span>
+          <div class="loader"></div>
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <script>
+    async function bootstrap() {
+      const response = await fetch('/api/auth/session');
+      const data = await response.json();
+
+      if (!data.authenticated) {
+        window.location.href = '/login';
+        return;
+      }
+
+      document.getElementById('userInfo').textContent =
+        `Usuário autenticado: ${data.user.displayName} (${data.user.username})`;
+
+      if (!data.user.mustChangePassword) {
+        window.location.href = '/';
+      }
+    }
+
+    document.getElementById('passwordForm').addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const alertBox = document.getElementById('alertBox');
+      const btn = document.getElementById('passwordBtn');
+
+      btn.classList.add('loading');
+      btn.disabled = true;
+      alertBox.className = 'alert';
+      alertBox.textContent = '';
+
+      try {
+        const response = await fetch('/api/auth/change-password', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            currentPassword: document.getElementById('currentPassword').value,
+            newPassword: document.getElementById('newPassword').value,
+          }),
+        });
+
+        const data = await response.json();
+        if (!response.ok) {
+          throw new Error(data.error || 'Falha ao trocar senha.');
+        }
+
+        window.location.href = '/';
+      } catch (err) {
+        alertBox.textContent = `Erro: ${err.message}`;
+        alertBox.className = 'alert error';
+      } finally {
+        btn.classList.remove('loading');
+        btn.disabled = false;
+      }
+    });
+
+    bootstrap();
+  </script>
+</body>
+</html>

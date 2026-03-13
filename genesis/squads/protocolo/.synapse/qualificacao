@@ -1,0 +1,10 @@
+# Domain: qualificacao
+# Injetado pelo L6 quando o prompt menciona qualificação jurídica, PF/PJ, CPF ou CNPJ.
+
+Para Pessoa Física: coletar nome, cpf, nacionalidade, estado_civil, profissao, rg, orgao_emissor, endereco, cep, email.
+Para Pessoa Jurídica: coletar razao_social, cnpj, endereco_sede, cep_sede, email + dados completos do representante legal.
+CPF válido: 11 dígitos numéricos (remover pontuação para validar).
+CNPJ válido: 14 dígitos numéricos (remover pontuação para validar).
+A qualificação do CONTRATADO (Genesis) é hardcoded no script assemble_contract.py — não pergunte ao usuário.
+O script gera a qualificação jurídica formatada em negrito+sublinhado automaticamente.
+O campo tipo_pessoa deve ser "PF" ou "PJ" (maiúsculas).

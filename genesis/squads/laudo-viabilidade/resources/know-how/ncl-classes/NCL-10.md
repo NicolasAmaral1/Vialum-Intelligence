@@ -1,0 +1,380 @@
+# Classe NCL 10
+
+Especificações pré-especificadas (Português):
+
+- 100001 | Cintas abdominais
+- 100002 | Cintas hipogástricas
+- 100003 | Coletes abdominais
+- 100004 | Colchões para parto
+- 100005 | Aparelhos auditivos
+- 100006 | Cornetas acústicas
+- 100007 | Agrafos [grampos cirúrgicos]
+- 100008 | Agulhas para uso medicinal
+- 100009 | Agulhas para sutura
+- 100010 | Pessários
+- 100011 | Aparelhos terapêuticos de ar quente
+- 100012 | Vibradores de ar quente para uso medicinal
+- 100013 | Lençóis de proteção para leitos hospitalares
+- 100014 | Lençóis para pessoas com incontinência
+- 100015 | Cateteres
+- 100017 | Lâmpadas radiogêneas para uso medicinal
+- 100018 | Anéis para dentição
+- 100020 | Bandagens ortopédicas para articulações
+- 100020 | Orthopedic bandages for joints
+- 100021 | Talas [cirurgia]
+- 100022 | Bandagens elásticas, exceto para curativos
+- 100023 | Cintas galvânicas para uso medicinal
+- 100024 | Aparelhos de raio x para uso médico
+- 100025 | Comadres [bacias higiênicas]
+- 100026 | Bacias para uso medicinal
+- 100027 | Instrumentos obstétricos para gado
+- 100028 | Mamadeiras*
+- 100028 | Babies' bottles
+- 100029 | Bisturis para uso cirúrgico
+- 100030 | Escalpelos [bisturis]
+- 100031 | Botas para uso medicinal
+- 100033 | Algálias [sonda, cateter] cirúrgicas
+- 100034 | Escarradores para uso medicinal
+- 100035 | Categute
+- 100036 | Macas com rodas
+- 100036 | Padiolas [macas]
+- 100037 | Ambulance stretchers
+- 100038 | Artigos ortopédicos
+- 100038 | Orthopaedic articles
+- 100039 | Fundas para hérnia
+- 100039 | Hernia bandages
+- 100040 | Suportes de arco plantar para calçados
+- 100041 | Camisas de força
+- 100042 | Cânulas
+- 100043 | Luvas de uso medicinal
+- 100044 | Aparelhos para lavar cavidades do corpo
+- 100045 | Cintos para uso medicinal
+- 100046 | Cintas de gravidez
+- 100047 | Cintos ortopédicos
+- 100047 | Orthopedic belts
+- 100048 | Cadeiras de dentistas
+- 100049 | Tesouras para castrar
+- 100050 | Almofadas aquecidas eletricamente, para uso medicinal
+- 100050 | Heating pads, electric, for medical purposes
+- 100051 | Calçados ortopédicos
+- 100051 | Orthopedic footwear
+- 100052 | Dentes artificiais
+- 100053 | Esponjas cirúrgicas
+- 100054 | Aparelhos e instrumentos cirúrgicos
+- 100055 | Estojos de instrumentos para médicos
+- 100056 | Fios [cirúrgicos]
+- 100057 | Aparelhos para anestesia
+- 100058 | Tesouras para cirurgia
+- 100059 | Compressas termelétricas [cirurgia]
+- 100060 | Compressores [cirurgia]
+- 100061 | Conta-gotas para uso medicinal
+- 100062 | Corta-calos
+- 100063 | Aparelhos para massagens estéticas
+- 100064 | Almofadas para uso medicinal
+- 100065 | Cutelaria cirúrgica
+- 100067 | Incubadoras para uso medicinal
+- 100069 | Colheres para administração de remédios
+- 100071 | Limpa-ouvidos
+- 100072 | Brocas para uso odontológico
+- 100073 | Aparelhos e instrumentos odontológicos
+- 100074 | Pivôs para dentes artificiais
+- 100076 | Dentaduras
+- 100076 | Conjuntos de dentes artificiais [próteses]
+- 100077 | Lancetas
+- 100078 | Espelhos para dentistas
+- 100079 | Dedeiras para uso medicinal
+- 100079 | Protetores de dedo para fins medicinais
+- 100080 | Seringas para injeção
+- 100081 | Drenos para uso medicinal
+- 100082 | Bolsa d'água para uso medicinal
+- 100083 | Telas radiológicas para uso medicinal
+- 100084 | Eletrocardiógrafos
+- 100085 | Sondas para uso medicinal
+- 100086 | Bombas para uso medicinal
+- 100087 | Aparelhos para análise sanguínea
+- 100088 | Poltronas para uso medicinal ou odontológico
+- 100089 | Frascos conta-gotas para uso medicinal
+- 100090 | Fórceps
+- 100091 | Aparelhos terapêuticos galvânicos
+- 100092 | Luvas para massagens
+- 100093 | Gastroscópios
+- 100094 | Bolsas de gelo para uso medicinal
+- 100095 | Hemocitômetros
+- 100095 | Hemocytometers
+- 100096 | Camas d'água para uso medicinal
+- 100097 | Seringas hipodérmicas
+- 100098 | Almofadas hipogástricas
+- 100099 | Inaladores
+- 100100 | Injetores para uso medicinal
+- 100101 | Travesseiros soporíferos contra insônia
+- 100102 | Aparelhos e instrumentos urológicos
+- 100103 | Insufladores
+- 100104 | Aparelhos para enemas para uso medicinal
+- 100105 | Lâmpadas ultravioleta para uso medicinal
+- 100106 | Lasers para uso medicinal
+- 100107 | Bombas para tirar leite
+- 100108 | Lâmpadas para uso medicinal
+- 100109 | Vaporizadores para uso medicinal
+- 100110 | Urinóis [vasilhas]
+- 100111 | Maxilares artificiais
+- 100112 | Máscaras anestésicas
+- 100113 | Aparelhos para massagem
+- 100114 | Aparelhos e instrumentos médicos
+- 100115 | Recipientes para aplicação de medicamentos
+- 100116 | Maletas especiais para instrumentos médicos
+- 100117 | Membros artificiais
+- 100117 | Próteses
+- 100118 | Espelhos para cirurgiões
+- 100119 | Móveis especiais para uso medicinal
+- 100120 | Aparelhos obstétricos
+- 100121 | Cintas umbilicais
+- 100122 | Ceratômetros
+- 100122 | Oftalmômetros
+- 100123 | Oftalmoscópios
+- 100124 | Protetores de ouvido [audição]
+- 100125 | Pele artificial para uso cirúrgico
+- 100126 | Pontas de muletas
+- 100127 | Pistolas para medicação [uso veterinário]
+- 100127 | Bolus guns
+- 100128 | Preservativos
+- 100129 | Esfigmotensiômetros
+- 100129 | Esfigmomanômetros
+- 100129 | Aparelhos para medir a pressão arterial
+- 100130 | Lâmpadas a quartzo para uso medicinal
+- 100131 | Apparatus and installations for the production of x-rays, for medical purposesAparelhos e instalações para geração de raios x para uso medicinal
+- 100132 | Radiografias para uso medicinal
+- 100133 | Aparelhos de radiologia para uso medicinal
+- 100134 | Aparelhos para radioterapia
+- 100135 | Aparelhos para reanimação
+- 100136 | Tubos de raios x para uso medicinal
+- 100137 | Protection devices against x-rays, for medical purposesDispositivos de proteção contra raios x para uso medicinal
+- 100138 | Respiradores para respiração artificial
+- 100139 | Aparelhos para respiração artificial
+- 100140 | Serras para uso cirúrgico
+- 100141 | Seios artificiais [prótese]
+- 100142 | Seringas uterinas
+- 100143 | Seringas vaginais
+- 100144 | Estetoscópios
+- 100145 | Chupetas
+- 100145 | Pacifiers for babies
+- 100146 | Suportes para pés chatos
+- 100147 | Aparelhos para tratamento de surdez
+- 100148 | Fundas suspensórias
+- 100149 | Material para sutura
+- 100150 | Mesas de operação
+- 100151 | Trocartes [instrumento cirúrgico]
+- 100153 | Sondas uretrais
+- 100154 | Seringas uretrais
+- 100155 | Ventosas medicinais
+- 100156 | Aparelhos e instrumentos veterinários
+- 100157 | Vibradores para camas
+- 100158 | Aparelhos de vibromassagem
+- 100159 | Olhos artificiais [prótese]
+- 100161 | Travesseiros de ar para uso medicinal
+- 100162 | Almofadas de ar para uso medicinal
+- 100163 | Colchões de ar para uso medicinal
+- 100164 | Seringas para uso medicinal
+- 100165 | Meias elásticas para uso cirúrgico
+- 100166 | Meias para varizes
+- 100168 | Muletas
+- 100169 | Tampas de mamadeiras
+- 100170 | Bicos de mamadeiras
+- 100171 | Solas ortopédicas
+- 100171 | Orthopedic soles
+- 100172 | Lençóis estéreis para uso cirúrgico
+- 100173 | Camas especialmente feitas para uso medicinal
+- 100174 | Eletrodos para uso medicinal
+- 100175 | Cintos medicinais elétricos
+- 100176 | Physical exercise apparatus for medical purposesAparelhos para exercícios físicos para uso medicinal
+- 100177 | Incubadoras para bebês
+- 100178 | Escovas para limpar as cavidades do corpo
+- 100179 | Aparelhos odontológicos elétricos
+- 100180 | Aparelhos de análises para uso medicinal
+- 100180 | Aparelhos de teste para uso medicinal
+- 100181 | Filtros para raios ultravioleta de uso medicinal
+- 100182 | Apparatus for administering inhalants for medical purposesAparelhos para administração de inalantes para fins médicos
+- 100183 | Cintas elásticas para uso medicinal
+- 100184 | Contraceptivos, exceto os químicos
+- 100191 | Cobertores elétricos para uso medicinal
+- 100192 | Próteses capilares
+- 100193 | Joelheiras ortopédicas
+- 100193 | Knee bandages, orthopedic
+- 100194 | Lenses [intraocular prostheses] for surgical implantationLentes [próteses intraoculares] para implantes cirúrgicos
+- 100194 | Intraocular prostheses [lenses] for surgical implantationPróteses intraoculares [lentes] para implantes cirúrgicos
+- 100195 | Pads for preventing pressure sores on patient bodiesAlmofadas para impedir a formação de escaras
+- 100196 | Aparelhos de fisioterapia
+- 100197 | Espirômetros [aparelhos médicos]
+- 100198 | Termômetro para uso medicinal
+- 100199 | Agulhas de acupuntura
+- 100200 | Roupas especiais para salas de cirurgia
+- 100201 | Aparelhos de diagnóstico para uso medicinal
+- 100202 | Instrumentos elétricos para acupuntura
+- 100203 | Marcapassos cardíacos
+- 100204 | Guinchos elevadores de pacientes
+- 100205 | Máscaras utilizadas por pessoal da área médica
+- 100206 | Ataduras para engessar para uso ortopédico
+- 100206 | Plaster bandages for orthopedic purposes
+- 100207 | Lençóis cirúrgicos
+- 100208 | Implantes cirúrgicos com materiais artificiais
+- 100209 | Almofadas térmicas para primeiros socorros
+- 100210 | Cadeiras sanitárias
+- 100211 | Desfibriladores
+- 100212 | Dialisadores
+- 100213 | Fios guia médicos
+- 100214 | Aparelhos ortodônticos
+- 100215 | Aparelhos de tração para uso medicinal
+- 100216 | Coletores para descarte de resíduos médicos
+- 100217 | Tipoias [faixas de sustentação]
+- 100218 | Duchas para higiene íntima
+- 100219 | Bonecos eróticos
+- 100220 | Microdermabrasion apparatus for medical or therapeutic purposesAparelhos de microdermoabrasão para fins médicos ou terapêuticos
+- 100221 | Body rehabilitation apparatus for medical purposesAparelhos de reabilitação física de uso médico
+- 100222 | Medidores de pulso
+- 100222 | Esfigmômetros
+- 100223 | Stents [endopróteses vasculares]
+- 100224 | Tampões de ouvido [dispositivo para proteção da audição]
+- 100225 | Temperature indicator labels for medical purposesEtiquetas indicadoras de temperatura, para uso médico
+- 100226 | Andadores para pessoas com dificuldade de locomoção
+- 100227 | Tomógrafos para fins médicos
+- 100228 | Aparelhos para tratamento da acne
+- 100229 | Pentes para piolhos
+- 100230 | Bengalas de quatro apoios de uso médico
+- 100231 | Câmeras de endoscopia para fins médicos
+- 100232 | Aparelhos de monitoramento cardíaco
+- 100233 | Vestimenta para compressão
+- 100234 | Brinquedos sexuais
+- 100235 | Marcapasso cerebral
+- 100236 | Dispositivos subcutâneos para liberação de medicamentos
+- 100237 | Implantes biodegradáveis para fixar ossos
+- 100238 | Abaixador de língua para fins médicos
+- 100239 | Aspiradores nasais
+- 100240 | Protetores bucais para fins odontológicos
+- 100241 | Coletores menstruais
+- 100242 | Máscaras para respiração artificial
+- 100243 | Elásticos ortodônticos
+- 100244 | Analysers for bacterial identification for medical purposesEquipamentos de análise para identificação de bactérias para fins médicos
+- 100244 | Analyzers for bacterial identification for medical purposes
+- 100245 | Apparatus for dna and rna testing for medical purposesAparelhos para testes de dna e rna para fins médicos
+- 100246 | Apparatus for the regeneration of stem cells for medical purposesAparelhos para a regeneração de células-tronco para fins médicos
+- 100247 | Monitores de gordura corporal
+- 100248 | Monitores de composição corporal
+- 100249 | Separadores de dedos do pé para fins ortopédicos
+- 100249 | Toe separators for orthopedic purposes
+- 100250 | Pulseiras antirreumáticas
+- 100251 | Anéis antirreumáticos
+- 100252 | Pulseiras para uso medicinal
+- 100253 | Robôs cirúrgicos
+- 100254 | Alimentadores para bebês
+- 100254 | Baby feeding pacifiers
+- 100255 | Pulseiras anti-enjoo
+- 100256 | Andadores com rodas
+- 100257 | Inaladores de hidrogênio
+- 100258 | Magnetic resonance imaging [mri] apparatus for medical purposesAparelhos de imagem por ressonância magnética [IRM] para uso medicinal
+- 100259 | Colchões infláveis para uso medicinal
+- 100260 | Adesivos de resfriamento para uso medicinal
+- 100261 | Almofadas de resfriamento para primeiros socorros
+- 100262 | Mictórios portáveis
+- 100263 | Bengalas para uso medicinal
+- 100263 | Canes for medical purposes
+- 100264 | Trajes exoesqueléticos robóticos para uso médico
+- 100265 | Faixas de acupressão
+- 100266 | Prendedores de chupeta
+- 100266 | Clips for pacifiers
+- 100267 | Medidores de colesterol
+- 100268 | Camisolas de exames para pacientes
+- 100269 | Biomagnetic rings for therapeutic or medical purposesAnéis biomagnéticos para fins terapêuticos ou médicos
+- 100270 | Máscaras faciais terapêuticas
+- 100271 | Massageadores de gengivas para bebês
+- 100272 | Trituradores de comprimidos
+- 100273 | Glicosímetros
+- 100273 | Medidores de glicose
+- 100274 | Lâmpadas de secagem para uso médico
+- 100275 | Produtos para preenchimento de cavidades ósseas à base de materiais artificiais
+- 100276 | Câmaras de inalação
+- 100276 | Espaçadores para inaladores
+- 100277 | Mesas de exame clínico
+- 100278 | Nanorrobôs para fins médicos
+- 100278 | Nanites [nanomáquinas] para uso medicinal
+- 100279 | Fitas de cinesiologia
+- 100280 | Aparelhos médicos de refrigeração para tratamento de insolação
+- 100281 | Medical cooling apparatus for use in therapeutic hypothermiaAparelhos médicos de refrigeração para uso em hipotermia terapêutica
+- 100282 | Cortadores de comprimidos
+- 100283 | Máscaras para proteção para uso medicinal
+- 100284 | Máscaras de led para fins terapêuticos
+- 100285 | Concentradores de oxigênio para fins médicos
+- 100286 | Bandagem de suporte
+- 100287 | Capacetes para terapia a laser para tratar alopecia
+- 100288 | Disposable steam-heated masks for therapeutic purposesMáscaras descartáveis aquecidas a vapor para fins terapêuticos
+- 100289 | Adesivos descartáveis aquecidos a vapor para fins terapêuticos
+- 100290 | Implantes contraceptivos
+- 100291 | Dispositivos intrauterinos
+- 100292 | Aparelhos de monitoramento de diabetes
+- 100293 | Audiômetros
+- 100294 | Trajes hápticos para fins medicinais
+- 100295 | Apparatus for testing breast milk for medical purposesAparelhos para testar leite materno para fins medicinais
+- 100296 | Tubos capilares para uso medicinal
+- 100297 | Cristais para fins terapêuticos
+- 100298 | Stents [endopróteses vasculares] revestidos com medicamentos para trombose
+- 100298 | Drug-eluting stents for thrombosis
+- 100299 | Fones de ouvido portáteis com função de endoscopia
+- 100300 | Pistolas de massagem elétricas
+- 100301 | Capacetes neurais para fins medicinais
+- 100302 | Máscaras higiênicas
+- 100303 | Máscaras higiênicas reutilizáveis feitas de gaze
+- 100304 | Electric facial aesthetic treatment apparatus, other than facial steamersAparelhos elétricos para tratamento estético facial, exceto vaporizadores faciais
+- 100305 | Colheres para pacientes com tremor
+- 100306 | Dosímetros para uso médico
+- 100307 | Nebulisers for medical purposes / nebulizers for medical purposesNebulizadores para fins médicos
+- 100308 | Filtros para máscaras respiratórias para fins médicos
+- 100309 | Respiradores para filtragem de ar para fins médicos
+- 100310 | Máscaras respiratórias para fins médicos
+- 100311 | Aparelhos de respiração para fins médicos
+- 100312 | Ímãs terapêuticos
+- 100313 | Camas de hospital
+- 100314 | Cadeiras de massagem com aparelhos para massagem embutidos
+- 100316 | Tampões de ouvido para nadadores
+- 100317 | Densitômetros para fins médicos
+- 100318 | Protetores de mamilo para amamentação
+- 100319 | Diagnostic apparatus for medical purposes for use in medical laboratoriesAparelhos de diagnóstico para fins medicinais, para uso em laboratórios médicos
+- 100320 | Ultrasonic imaging apparatus for medical purposesAparelhos de imagem ultrassônicos para fins médicos
+- 100321 | Bath boards adapted for persons with physical disabilitiesPranchas de banho adaptadas para pessoas com deficiências físicas
+- 100322 | Fitas atléticas
+- 100323 | Cabines de isolamento equipadas com equipamentos médicos
+- 100324 | Eletrolaringe
+- 100324 | Laringe eletrônica
+- 100325 | Cryogenic treatment apparatus for medical purposesAparelhos de tratamento criogênico para fins médicos
+- 100326 | Cryogenic treatment apparatus for veterinary purposesAparelhos de tratamento criogênico para fins veterinários
+- 100327 | Andadores para animais de estimação
+- 100328 | Spectacles* Óculos*
+- 100328 | Eyeglasses
+- 100329 | Lentes de óculos
+- 100329 | Eyeglass lenses
+- 100330 | Armação de óculos
+- 100330 | Eyeglass frames
+- 100331 | Correntes para pincenê
+- 100331 | Correntes para óculos
+- 100332 | Cordões para óculos
+- 100332 | Eyeglass cords
+- 100333 | Óculos para correção do daltonismo
+- 100333 | Spectacles for correcting color vision deficiency
+- 100334 | Estojos de óculos
+- 100334 | Eyeglass cases
+- 100335 | Lentes de contato
+- 100336 | Estojos para lentes de contato
+- 100337 | Contact lens cases incorporating ultrasonic cleaning functionsEstojos para lentes de contato com funções de limpeza ultrassônica
+- 100338 | Lentes corretivas
+- 100339 | Óculos de sol
+- 100340 | Óculos de sol para animais de estimação
+- 100341 | Óculos antirreflexo
+- 100341 | Anti-glare eyeglasses
+- 100342 | Pincenê
+- 100343 | Prendedores de nariz para natação
+- 100344 | Smart walking sticks for persons with a visual impairmentBengalas inteligentes para pessoas com deficiência visual
+- 100345 | Aparelhos automáticos de vacinação para gado
+- 100346 | Andadores para fins médicos
+- 100347 | Extratores de cravos para uso médico
+- 100347 | Extratores de comedões para uso médico
+- 100348 | Rolos faciais para massagem
+- 100349 | Aparelhos profissionais de clareamento dental para uso odontológico
+- 100350 | Mouth guards for protection against teeth grindingProtetor bucal/placa para bruxismo
+- 100351 | Tapetes de resfriamento para animais de estimação para fins veterinários

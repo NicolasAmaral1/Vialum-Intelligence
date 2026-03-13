@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 2.7%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 2.7%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 2.7%;
+    --primary: 84 87% 50%;
+    --primary-foreground: 0 0% 2.7%;
+    --secondary: 80 20% 94%;
+    --secondary-foreground: 0 0% 2.7%;
+    --muted: 80 10% 95%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 80 20% 94%;
+    --accent-foreground: 0 0% 2.7%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 84 87% 50%;
+    --chart-1: 84 87% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.625rem;
+    --sidebar: 0 0% 98%;
+  }
+
+  .dark {
+    /* Background: #070707 */
+    --background: 0 0% 2.7%;
+    /* Foreground: #F9F9F9 */
+    --foreground: 0 0% 97.6%;
+    /* Card: slightly lifted from bg */
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 97.6%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 97.6%;
+    /* Primary: #9FEC14 (Genesis lime) */
+    --primary: 84 87% 50%;
+    --primary-foreground: 0 0% 2.7%;
+    /* Secondary: dark green tint */
+    --secondary: 84 30% 10%;
+    --secondary-foreground: 0 0% 97.6%;
+    /* Muted: soft dark */
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 55%;
+    /* Accent: subtle green glow */
+    --accent: 84 40% 12%;
+    --accent-foreground: 84 87% 50%;
+    /* Destructive */
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    /* Borders */
+    --border: 0 0% 14%;
+    --input: 0 0% 14%;
+    --ring: 84 87% 50%;
+    /* Charts */
+    --chart-1: 84 87% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    /* Sidebar: even darker */
+    --sidebar: 0 0% 3.5%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-size: 12px;
+  }
+}

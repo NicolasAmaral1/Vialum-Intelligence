@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  crm-hub:
+    build: .
+    container_name: vialum-crm-hub
+    restart: unless-stopped
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - JWT_SECRET=${JWT_SECRET}
+      - PORT=3100
+      - CORS_ORIGIN=${CORS_ORIGIN:-*}
+      - NODE_ENV=production
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.crm-hub.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/crm`)"
+      - "traefik.http.routers.crm-hub.entrypoints=websecure"
+      - "traefik.http.routers.crm-hub.tls.certresolver=letsencrypt"
+      - "traefik.http.services.crm-hub.loadbalancer.server.port=3100"
+    networks:
+      - proxy
+      - vialumchat-internal
+
+networks:
+  proxy:
+    external: true
+  vialumchat-internal:
+    external: true
