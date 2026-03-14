@@ -45,10 +45,12 @@ CLAUSES = {
         "pix_auto": 'O pagamento será realizado na modalidade **PIX (Automático)**, sendo disponibilizado Código BR Code (Copia e Cola) ou QR Code gerado pelo sistema de pagamento para a quitação.\n\nO CONTRATANTE compromete-se a efetuar ao CONTRATADO o pagamento da importância de **{{VALOR_TOTAL}}**, através do código fornecido.',
         "boleto_manual": 'O pagamento será realizado na modalidade **Boleto Bancário**, sendo o documento enviado em formato PDF pelo CONTRATADO ao CONTRATANTE.\n\nO CONTRATANTE compromete-se a efetuar ao CONTRATADO o pagamento da importância de **{{VALOR_TOTAL}}**, através da quitação do boleto enviado.',
         "boleto_auto": 'O pagamento será realizado na modalidade **Boleto Bancário**, sendo disponibilizado link para acesso e impressão do documento através do sistema de pagamento.\n\nO CONTRATANTE compromete-se a efetuar ao CONTRATADO o pagamento da importância de **{{VALOR_TOTAL}}**, através do link fornecido.',
+        "permuta": 'Os honorários do presente contrato, no valor de **{{VALOR_TOTAL}}**, serão quitados na modalidade **Permuta**, conforme as condições abaixo descritas.\n\n{{DESCRICAO_PERMUTA}}',
     },
     "condicoes": {
         "vista": 'O valor acima descrito deverá ser quitado **à vista**, no ato da contratação.',
         "parcelado": 'O valor acima descrito poderá ser parcelado em até **{{NUM_PARCELAS}} vezes**, sem juros, na opção Cartão de Crédito.',
+        "permuta": 'Eventuais outras avenças entre as partes poderão ser definidas em **termo aditivo** ao presente instrumento.',
     },
 }
 

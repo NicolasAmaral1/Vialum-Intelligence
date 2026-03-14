@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaga — Estagiário(a) de Direito | GENESIS</title>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page {
+    size: 210mm 297mm;
+    margin: 0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --green: #9FEC14;
+    --black: #070707;
+    --white: #FFFFFF;
+    --g50: #F5FDE7;
+    --g100: #ECFBD0;
+    --g200: #D9F7A0;
+    --g600: #7FBD0E;
+    --g700: #5F8E0B;
+    --g800: #405E07;
+    --g900: #202F04;
+    --gray6: #DBDBDB;
+    --gray8: #A0A0A0;
+    --gray9: #838383;
+  }
+
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    font-family: 'Sora', sans-serif;
+    background: var(--white);
+    color: var(--black);
+    overflow: hidden;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .page {
+    width: 210mm;
+    height: 297mm;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+  }
+
+  /* ========== TOPO VERDE ========== */
+  .top-bar {
+    background: var(--green);
+    padding: 16px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .top-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logo { height: 30px; width: auto; }
+
+  .top-bar-sep {
+    width: 1.5px;
+    height: 22px;
+    background: rgba(7,7,7,0.2);
+  }
+
+  .top-bar-text {
+    font-size: 7.5pt;
+    font-weight: 500;
+    color: var(--g900);
+    line-height: 1.35;
+  }
+
+  .badge-contratando {
+    background: var(--black);
+    color: var(--green);
+    font-size: 6.5pt;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    padding: 7px 18px;
+    border-radius: 3px;
+  }
+
+  /* ========== HERO PRETO ========== */
+  .hero {
+    background: var(--black);
+    padding: 30px 36px 26px 36px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -40px; right: -40px;
+    width: 180px; height: 180px;
+    border: 2px solid rgba(159,236,20,0.08);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; right: 60px;
+    width: 120px; height: 120px;
+    border: 2px solid rgba(159,236,20,0.05);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .hero-eyebrow {
+    font-size: 7pt;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 10px;
+    position: relative; z-index: 1;
+  }
+
+  .hero h1 {
+    font-size: 34pt;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -1.5px;
+    color: var(--white);
+    margin-bottom: 10px;
+    position: relative; z-index: 1;
+  }
+
+  .hero-sub {
+    font-size: 9pt;
+    color: rgba(255,255,255,0.5);
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 70%;
+    position: relative; z-index: 1;
+  }
+
+  .hero-chips {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    position: relative; z-index: 1;
+  }
+
+  .hero-chip {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(159,236,20,0.1);
+    border: 1px solid rgba(159,236,20,0.2);
+    padding: 5px 12px;
+    border-radius: 4px;
+  }
+
+  .hero-chip .hc-text {
+    font-size: 7.5pt;
+    color: rgba(255,255,255,0.75);
+    font-weight: 500;
+  }
+
+  .hero-chip .hc-text strong {
+    color: var(--green);
+    font-weight: 700;
+  }
+
+  /* ========== CORPO ========== */
+  .body-content {
+    padding: 20px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .grid-2x2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .section-block {
+    position: relative;
+    padding-left: 14px;
+  }
+
+  .section-block::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 3px;
+    border-radius: 2px;
+  }
+
+  .section-block.green-bar::before { background: var(--green); }
+  .section-block.dark-bar::before { background: var(--black); }
+  .section-block.light-bar::before { background: var(--g200); }
+  .section-block.accent-bar::before { background: var(--g600); }
+
+  .section-block h3 {
+    font-size: 8pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--black);
+    margin-bottom: 8px;
+  }
+
+  .section-block ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .section-block ul li {
+    font-size: 8pt;
+    color: #333;
+    line-height: 1.55;
+    padding-left: 12px;
+    position: relative;
+    margin-bottom: 3px;
+  }
+
+  .section-block ul li::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 7px;
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: var(--green);
+  }
+
+  .section-block ul li strong {
+    font-weight: 600;
+    color: var(--black);
+  }
+
+  /* ========== PERFIL CARD ========== */
+  .perfil-card {
+    background: var(--g50);
+    border: 1px solid var(--g200);
+    border-radius: 10px;
+    padding: 16px 20px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .perfil-icon-box {
+    width: 44px; height: 44px;
+    background: var(--green);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .perfil-icon-box svg {
+    width: 22px; height: 22px;
+    stroke: var(--g900);
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .perfil-text h3 {
+    font-size: 9pt;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 5px;
+  }
+
+  .perfil-text p {
+    font-size: 7.5pt;
+    color: #444;
+    line-height: 1.65;
+  }
+
+  .perfil-text p strong { color: var(--black); font-weight: 600; }
+  .perfil-text p em { font-style: normal; color: var(--g700); font-weight: 600; }
+
+  /* ========== PROCESSO SELETIVO ========== */
+  .processo-label {
+    font-size: 7pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--gray9);
+    margin-bottom: 10px;
+  }
+
+  .processo-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .pstep {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .pstep-num {
+    width: 34px; height: 34px;
+    background: var(--black);
+    color: var(--green);
+    font-size: 11pt;
+    font-weight: 800;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .pstep-label {
+    font-size: 8pt;
+    color: var(--black);
+    font-weight: 500;
+  }
+
+  .parrow {
+    width: 32px;
+    text-align: center;
+    color: var(--g200);
+    font-size: 14pt;
+    flex-shrink: 0;
+  }
+
+  /* ========== RODAPÉ SPLIT ========== */
+  .footer-split {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+
+  .footer-left-side {
+    background: var(--black);
+    padding: 18px 36px;
+  }
+
+  .footer-left-side h2 {
+    font-size: 13pt;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 4px;
+  }
+
+  .footer-left-side p {
+    font-size: 7.5pt;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.6;
+  }
+
+  .footer-left-side p strong {
+    color: var(--green);
+    font-weight: 600;
+  }
+
+  .footer-right-side {
+    background: var(--green);
+    padding: 18px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 180px;
+  }
+
+  .footer-right-side .fr-label {
+    font-size: 6pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: var(--g800);
+    margin-bottom: 2px;
+  }
+
+  .footer-right-side .fr-date {
+    font-size: 10pt;
+    font-weight: 800;
+    color: var(--black);
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  /* ========== PRINT ========== */
+  @media print {
+    html, body {
+      width: 210mm;
+      height: 297mm;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+      color-adjust: exact !important;
+    }
+    .page {
+      page-break-after: avoid;
+      page-break-inside: avoid;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- TOPO VERDE -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <img src="../../squads/protocolo/resources/assets/logo-genesis.png" alt="Genesis" class="logo">
+      <div class="top-bar-sep"></div>
+      <span class="top-bar-text">Inteligência Artificial<br>aplicada a Registro de Marcas</span>
+    </div>
+    <span class="badge-contratando">Estamos Contratando</span>
+  </div>
+
+  <!-- HERO PRETO -->
+  <div class="hero">
+    <div class="hero-eyebrow">Vaga de Estágio · Presencial</div>
+    <h1>Estagiário(a)<br>de Direito</h1>
+    <p class="hero-sub">
+      Una Direito e Tecnologia. Trabalhe com registro de marcas utilizando inteligência artificial no dia a dia.
+    </p>
+    <div class="hero-chips">
+      <div class="hero-chip">
+        <span class="hc-text"><strong>R$ 1.200</strong>/mês</span>
+      </div>
+      <div class="hero-chip">
+        <span class="hc-text">Bolsa + Vale Alimentação</span>
+      </div>
+      <div class="hero-chip">
+        <span class="hc-text">Rua Pará, 945 · Centro · Londrina-PR</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CORPO -->
+  <div class="body-content">
+
+    <div class="grid-2x2">
+      <div class="section-block green-bar">
+        <h3>O que você vai fazer</h3>
+        <ul>
+          <li>Trabalhar com <strong>registro de marcas</strong> junto ao INPI</li>
+          <li>Utilizar <strong>inteligência artificial</strong> aplicada no dia a dia</li>
+          <li>Atividades de escritório e atendimento ao cliente</li>
+          <li>Aprender e crescer unindo <strong>Direito e Tecnologia</strong></li>
+        </ul>
+      </div>
+
+      <div class="section-block dark-bar">
+        <h3>Requisitos</h3>
+        <ul>
+          <li>Matriculado(a) em <strong>Direito</strong> (pref. a partir do 2º ano)</li>
+          <li>Boa <strong>comunicação</strong> verbal e escrita</li>
+          <li>Disposição para aprender e trabalhar com <strong>IA</strong></li>
+          <li>Perfil <strong>proativo</strong> e com visão de longo prazo</li>
+        </ul>
+      </div>
+
+      <div class="section-block accent-bar">
+        <h3>Diferenciais</h3>
+        <ul>
+          <li>Interesse genuíno em <strong>inovação e tecnologia</strong></li>
+          <li>Familiaridade com <strong>ferramentas de IA</strong></li>
+          <li>Capacidade de adaptação a <strong>ambientes dinâmicos</strong></li>
+        </ul>
+      </div>
+
+      <div class="section-block light-bar">
+        <h3>Benefícios</h3>
+        <ul>
+          <li><strong>Bolsa estágio</strong> + vale alimentação incluso</li>
+          <li>Ambiente inovador com <strong>IA no dia a dia</strong></li>
+          <li>Aprendizado contínuo em tecnologia e direito</li>
+          <li><strong>Mentoria</strong> e desenvolvimento profissional</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- PERFIL -->
+    <div class="perfil-card">
+      <div class="perfil-icon-box">
+        <svg viewBox="0 0 24 24">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+          <circle cx="12" cy="7" r="4"/>
+        </svg>
+      </div>
+      <div class="perfil-text">
+        <h3>O perfil que buscamos</h3>
+        <p>
+          Procuramos alguém que <strong>se comunica bem</strong> e tem presença — sabe se expressar, ouvir e articular ideias com clareza. Mas aqui, isso caminha junto com a <em>aptidão e interesse por inteligência artificial</em>. Você não precisa ser expert em IA, mas precisa ter <strong>curiosidade genuína</strong> e vontade de integrar tecnologia ao trabalho jurídico.
+        </p>
+      </div>
+    </div>
+
+    <!-- PROCESSO -->
+    <div>
+      <div class="processo-label">Processo Seletivo</div>
+      <div class="processo-row">
+        <div class="pstep">
+          <div class="pstep-num">1</div>
+          <div class="pstep-label">Envio do currículo</div>
+        </div>
+        <div class="parrow">→</div>
+        <div class="pstep">
+          <div class="pstep-num">2</div>
+          <div class="pstep-label">Teste técnico simples</div>
+        </div>
+        <div class="parrow">→</div>
+        <div class="pstep">
+          <div class="pstep-num">3</div>
+          <div class="pstep-label">Entrevista presencial</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RODAPÉ -->
+  <div class="footer-split">
+    <div class="footer-left-side">
+      <h2>Candidate-se agora</h2>
+      <p>
+        Envie seu currículo para <strong>contato@genesis.com.br</strong><br>
+        ou acesse nosso formulário de inscrição online.
+      </p>
+    </div>
+    <div class="footer-right-side">
+      <div class="fr-label">Inscreva-se até</div>
+      <div class="fr-date">20 de março<br>de 2026</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
