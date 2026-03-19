@@ -7,6 +7,7 @@ import type {
   SendLocationParams,
   SendResult,
   MarkReadParams,
+  NormalizedMessage,
 } from '../whatsapp.interface.js';
 
 /**
@@ -185,6 +186,87 @@ export class CloudApiAdapter implements IWhatsAppProvider {
       return response.ok;
     } catch {
       return false;
+    }
+  }
+
+  // ── Webhook Normalization ──
+
+  async normalizeIncomingWebhook(
+    eventType: string,
+    payload: Record<string, unknown>,
+    _config: ProviderConfig,
+  ): Promise<NormalizedMessage | null> {
+    const entry = (payload.entry as Array<Record<string, unknown>>)?.[0];
+    const changes = (entry?.changes as Array<Record<string, unknown>>)?.[0];
+    const value = changes?.value as Record<string, unknown> | undefined;
+    if (!value?.messages) return null;
+
+    const msg = (value.messages as Array<Record<string, unknown>>)[0];
+    if (!msg) return null;
+
+    const contact = (value.contacts as Array<Record<string, unknown>>)?.[0];
+    const profile = contact?.profile as Record<string, unknown> | undefined;
+
+    const { content, contentType, contentAttributes } = this.extractContent(msg);
+
+    return {
+      externalMessageId: msg.id as string,
+      senderPhone: msg.from as string,
+      senderName: (profile?.name as string) ?? null,
+      content,
+      contentType,
+      contentAttributes,
+      timestamp: new Date(parseInt(msg.timestamp as string, 10) * 1000),
+      isFromMe: false, // Cloud API webhooks only deliver incoming messages
+    };
+  }
+
+  async fetchProfilePicture(_config: ProviderConfig, _phone: string): Promise<string | null> {
+    // Cloud API doesn't provide profile picture fetching via API
+    return null;
+  }
+
+  private extractContent(msg: Record<string, unknown>): { content: string | null; contentType: string; contentAttributes: Record<string, unknown> } {
+    const contentAttributes: Record<string, unknown> = {};
+    const type = msg.type as string;
+
+    switch (type) {
+      case 'text':
+        return { content: (msg.text as Record<string, unknown>)?.body as string ?? null, contentType: 'text', contentAttributes };
+      case 'image': {
+        const im = msg.image as Record<string, unknown>;
+        contentAttributes.mediaId = im?.id;
+        contentAttributes.mimetype = im?.mime_type;
+        return { content: (im?.caption as string) ?? null, contentType: 'image', contentAttributes };
+      }
+      case 'audio': {
+        const am = msg.audio as Record<string, unknown>;
+        contentAttributes.mediaId = am?.id;
+        contentAttributes.mimetype = am?.mime_type;
+        return { content: null, contentType: 'audio', contentAttributes };
+      }
+      case 'video': {
+        const vm = msg.video as Record<string, unknown>;
+        contentAttributes.mediaId = vm?.id;
+        return { content: (vm?.caption as string) ?? null, contentType: 'video', contentAttributes };
+      }
+      case 'document': {
+        const dm = msg.document as Record<string, unknown>;
+        contentAttributes.mediaId = dm?.id;
+        contentAttributes.fileName = dm?.filename;
+        return { content: (dm?.filename as string) ?? null, contentType: 'document', contentAttributes };
+      }
+      case 'sticker':
+        contentAttributes.mediaId = (msg.sticker as Record<string, unknown>)?.id;
+        return { content: null, contentType: 'sticker', contentAttributes };
+      case 'location': {
+        const lm = msg.location as Record<string, unknown>;
+        contentAttributes.latitude = lm?.latitude;
+        contentAttributes.longitude = lm?.longitude;
+        return { content: null, contentType: 'location', contentAttributes };
+      }
+      default:
+        return { content: `[${type}]`, contentType: 'text', contentAttributes };
     }
   }
 }

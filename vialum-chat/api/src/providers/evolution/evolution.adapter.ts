@@ -13,7 +13,9 @@ import type {
   UpdateParticipantParams,
   GroupParticipant,
   GroupInfoResult,
+  NormalizedMessage,
 } from '../whatsapp.interface.js';
+import { getRedis } from '../../config/redis.js';
 
 /**
  * Evolution API v2 adapter
@@ -291,5 +293,179 @@ export class EvolutionAdapter implements IWhatsAppProvider, IGroupProvider {
       groupJid,
       description,
     });
+  }
+
+  // ── Webhook Normalization ──
+
+  async normalizeIncomingWebhook(
+    eventType: string,
+    payload: Record<string, unknown>,
+    config: ProviderConfig,
+  ): Promise<NormalizedMessage | null> {
+    if (eventType !== 'messages.upsert' && eventType !== 'MESSAGES_UPSERT') {
+      return null;
+    }
+
+    const data = (payload.data ?? payload) as Record<string, unknown>;
+    const key = data.key as Record<string, unknown> | undefined;
+    const msg = data.message as Record<string, unknown> | undefined;
+    const isFromMe = !!key?.fromMe;
+
+    let senderPhone: string;
+    const remoteJid = String(key?.remoteJid ?? '');
+    let groupJid: string | undefined;
+    let participantPhone: string | undefined;
+
+    if (remoteJid.includes('@g.us')) {
+      groupJid = remoteJid;
+      const participantJid = String(key?.participant ?? '');
+      if (participantJid.includes('@lid')) {
+        const lid = participantJid.replace('@lid', '');
+        const resolved = await this.resolveLidToPhone(config as EvolutionConfig, lid);
+        participantPhone = resolved ?? lid;
+      } else {
+        participantPhone = participantJid.replace('@s.whatsapp.net', '');
+      }
+      senderPhone = participantPhone;
+    } else if (remoteJid.includes('@lid')) {
+      const lid = remoteJid.replace('@lid', '');
+      const resolved = await this.resolveLidToPhone(config as EvolutionConfig, lid);
+      senderPhone = resolved ?? lid;
+    } else {
+      senderPhone = remoteJid.replace('@s.whatsapp.net', '');
+    }
+
+    if (!senderPhone) return null;
+
+    // Extract content
+    const { content, contentType, contentAttributes } = this.extractContent(msg ?? {});
+
+    return {
+      externalMessageId: String(key?.id ?? `evo_${Date.now()}`),
+      senderPhone,
+      senderName: (data.pushName as string) ?? null,
+      content,
+      contentType,
+      contentAttributes,
+      timestamp: new Date(data.messageTimestamp ? Number(data.messageTimestamp) * 1000 : Date.now()),
+      isFromMe,
+      groupJid,
+      participantPhone,
+    };
+  }
+
+  async fetchProfilePicture(config: ProviderConfig, phone: string): Promise<string | null> {
+    const evoConfig = config as EvolutionConfig;
+    try {
+      const response = await fetch(
+        `${evoConfig.base_url.replace(/\/$/, '')}/chat/fetchProfilePictureUrl/${evoConfig.instance_name}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', apikey: evoConfig.api_key },
+          body: JSON.stringify({ number: phone }),
+        },
+      );
+      if (!response.ok) return null;
+      const data = await response.json() as Record<string, unknown>;
+      return (data.profilePictureUrl as string) ?? null;
+    } catch {
+      return null;
+    }
+  }
+
+  // ── Private helpers ──
+
+  private extractContent(msg: Record<string, unknown>): { content: string | null; contentType: string; contentAttributes: Record<string, unknown> } {
+    const contentAttributes: Record<string, unknown> = {};
+
+    if (msg.conversation) {
+      return { content: msg.conversation as string, contentType: 'text', contentAttributes };
+    }
+    if ((msg.extendedTextMessage as Record<string, unknown>)?.text) {
+      return { content: (msg.extendedTextMessage as Record<string, unknown>).text as string, contentType: 'text', contentAttributes };
+    }
+    if (msg.imageMessage) {
+      const im = msg.imageMessage as Record<string, unknown>;
+      contentAttributes.mimetype = im.mimetype;
+      contentAttributes.url = im.url;
+      return { content: (im.caption as string) ?? null, contentType: 'image', contentAttributes };
+    }
+    if (msg.audioMessage) {
+      const am = msg.audioMessage as Record<string, unknown>;
+      contentAttributes.mimetype = am.mimetype;
+      contentAttributes.seconds = am.seconds;
+      contentAttributes.ptt = am.ptt;
+      return { content: null, contentType: 'audio', contentAttributes };
+    }
+    if (msg.videoMessage) {
+      const vm = msg.videoMessage as Record<string, unknown>;
+      contentAttributes.mimetype = vm.mimetype;
+      return { content: (vm.caption as string) ?? null, contentType: 'video', contentAttributes };
+    }
+    if (msg.documentMessage) {
+      const dm = msg.documentMessage as Record<string, unknown>;
+      contentAttributes.mimetype = dm.mimetype;
+      contentAttributes.fileName = dm.fileName;
+      return { content: (dm.fileName as string) ?? null, contentType: 'document', contentAttributes };
+    }
+    if (msg.stickerMessage) {
+      return { content: null, contentType: 'sticker', contentAttributes };
+    }
+    if (msg.locationMessage) {
+      const lm = msg.locationMessage as Record<string, unknown>;
+      contentAttributes.latitude = lm.degreesLatitude;
+      contentAttributes.longitude = lm.degreesLongitude;
+      return { content: null, contentType: 'location', contentAttributes };
+    }
+
+    return { content: null, contentType: 'text', contentAttributes };
+  }
+
+  private async resolveLidToPhone(config: EvolutionConfig, lid: string): Promise<string | null> {
+    const redis = getRedis();
+    const cacheKey = `lid:${config.instance_name}:${lid}`;
+    const cached = await redis.get(cacheKey);
+    if (cached) return cached;
+
+    try {
+      const response = await fetch(
+        `${config.base_url.replace(/\/$/, '')}/chat/findContacts/${config.instance_name}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', apikey: config.api_key },
+          body: JSON.stringify({ where: {} }),
+        },
+      );
+      if (!response.ok) return null;
+
+      const contacts = await response.json() as Array<{ remoteJid: string; profilePicUrl: string | null }>;
+      const lidJid = `${lid}@lid`;
+      const lidContact = contacts.find((c) => c.remoteJid === lidJid);
+      if (!lidContact?.profilePicUrl) return null;
+
+      const lidPicFile = this.extractPicFilename(lidContact.profilePicUrl);
+      if (!lidPicFile) return null;
+
+      for (const contact of contacts) {
+        if (!contact.remoteJid.includes('@s.whatsapp.net') || !contact.profilePicUrl) continue;
+        if (this.extractPicFilename(contact.profilePicUrl) === lidPicFile) {
+          const phone = contact.remoteJid.replace('@s.whatsapp.net', '');
+          await redis.set(cacheKey, phone, 'EX', 86400 * 30);
+          return phone;
+        }
+      }
+      return null;
+    } catch {
+      return null;
+    }
+  }
+
+  private extractPicFilename(url: string): string | null {
+    try {
+      const parts = new URL(url).pathname.split('/');
+      return parts[parts.length - 1] ?? null;
+    } catch {
+      return null;
+    }
   }
 }

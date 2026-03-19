@@ -2,6 +2,8 @@ import { Worker, Job, Queue } from 'bullmq';
 import { getRedis } from '../config/redis.js';
 import { getPrisma } from '../config/database.js';
 import { Server as SocketIOServer } from 'socket.io';
+import { getWhatsAppProvider } from '../providers/factory.js';
+import type { NormalizedMessage } from '../providers/whatsapp.interface.js';
 
 // ════════════════════════════════════════════════════════════
 // Webhook Process Worker
@@ -23,18 +25,7 @@ export interface WebhookProcessJobData {
   payload: Record<string, any>;
 }
 
-interface NormalizedMessage {
-  externalMessageId: string;
-  senderPhone: string;
-  senderName: string | null;
-  content: string | null;
-  contentType: string;
-  contentAttributes: Record<string, any>;
-  timestamp: Date;
-  groupJid?: string;         // e.g. "120363XXXXX@g.us" (null for 1:1)
-  participantPhone?: string; // who sent within the group
-  isFromMe?: boolean;        // true = sent by us (outgoing from phone/web)
-}
+// NormalizedMessage is now imported from providers/whatsapp.interface.ts
 
 // Singleton queues to avoid per-job connection overhead
 let _automationQueue: Queue | null = null;
@@ -86,7 +77,9 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
       });
       const providerConfig = (inbox?.providerConfig ?? {}) as Record<string, any>;
 
-      const normalized = await normalizePayload(provider, eventType, payload, providerConfig);
+      // Use provider adapter for normalization (provider-agnostic)
+      const whatsappProvider = getWhatsAppProvider(provider);
+      const normalized = await whatsappProvider.normalizeIncomingWebhook(eventType, payload, providerConfig);
 
       if (!normalized) {
         // Not a message event (e.g., status update) — mark processed and skip
@@ -100,7 +93,7 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
 
       // ── Group message branch ──
       if (normalized.groupJid) {
-        return processGroupMessage(prisma, job, normalized, inboxId, accountId, webhookEventId, io, provider, providerConfig);
+        return processGroupMessage(prisma, job, normalized, inboxId, accountId, webhookEventId, io, whatsappProvider, providerConfig);
       }
 
       // For fromMe messages, senderPhone is the remote contact (who we're talking to)
@@ -135,12 +128,12 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
             },
           });
           job.log(`Created new contact ${contact.id} (${normalized.senderPhone})`);
-          fetchAndUpdateAvatar(contact.id, normalized.senderPhone, provider, providerConfig);
+          fetchAndUpdateAvatar(contact.id, normalized.senderPhone, whatsappProvider, providerConfig);
           syncContactNameFromCRM(contact.id, normalized.senderPhone, normalized.senderName);
         } else {
           job.log(`Reusing existing contact ${contact.id} for new inbox`);
           if (!contact.avatarUrl) {
-            fetchAndUpdateAvatar(contact.id, normalized.senderPhone, provider, providerConfig);
+            fetchAndUpdateAvatar(contact.id, normalized.senderPhone, whatsappProvider, providerConfig);
           }
           // Sync name from CRM if contact still has phone as name
           if (contact.name === normalized.senderPhone || contact.name === normalized.senderName) {
@@ -171,7 +164,7 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
 
         // Fetch avatar if missing
         if (!contactInbox.contact.avatarUrl) {
-          fetchAndUpdateAvatar(contactId, normalized.senderPhone, provider, providerConfig);
+          fetchAndUpdateAvatar(contactId, normalized.senderPhone, whatsappProvider, providerConfig);
         }
       }
 
@@ -223,7 +216,7 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
           content: normalized.content,
           messageType: isOutgoing ? 'outgoing' : 'incoming',
           contentType: normalized.contentType,
-          contentAttributes: normalized.contentAttributes,
+          contentAttributes: normalized.contentAttributes as any,
           status: 'delivered',
           externalMessageId: normalized.externalMessageId,
           createdAt: normalized.timestamp,
@@ -336,7 +329,7 @@ async function processGroupMessage(
   accountId: string,
   webhookEventId: string,
   io: SocketIOServer,
-  provider: string,
+  whatsappProvider: import('../providers/whatsapp.interface.js').IWhatsAppProvider,
   providerConfig: Record<string, any>,
 ) {
   const groupJid = normalized.groupJid!;
@@ -359,7 +352,7 @@ async function processGroupMessage(
     job.log(`Created new group ${group.id} (${groupJid})`);
 
     // Fetch group name in background
-    fetchAndUpdateGroupName(group.id, groupJid, provider, providerConfig);
+    fetchAndUpdateGroupName(group.id, groupJid, whatsappProvider.providerName, providerConfig);
   }
 
   // ── 2. Find or create sender Contact ──
@@ -376,7 +369,7 @@ async function processGroupMessage(
       },
     });
     job.log(`Created new contact ${contact.id} (${participantPhone})`);
-    fetchAndUpdateAvatar(contact.id, participantPhone, provider, providerConfig);
+    fetchAndUpdateAvatar(contact.id, participantPhone, whatsappProvider, providerConfig);
     syncContactNameFromCRM(contact.id, participantPhone, normalized.senderName);
   } else {
     if (normalized.senderName && contact.name === participantPhone) {
@@ -386,7 +379,7 @@ async function processGroupMessage(
       });
     }
     if (!contact.avatarUrl) {
-      fetchAndUpdateAvatar(contact.id, participantPhone, provider, providerConfig);
+      fetchAndUpdateAvatar(contact.id, participantPhone, whatsappProvider, providerConfig);
     }
     // Sync name from CRM if still using pushName or phone
     if (contact.name === participantPhone || contact.name === normalized.senderName) {
@@ -458,7 +451,7 @@ async function processGroupMessage(
       content: normalized.content,
       messageType: isGroupOutgoing ? 'outgoing' : 'incoming',
       contentType: normalized.contentType,
-      contentAttributes: normalized.contentAttributes,
+      contentAttributes: normalized.contentAttributes as any,
       status: 'delivered',
       externalMessageId: normalized.externalMessageId,
       createdAt: normalized.timestamp,
@@ -545,310 +538,24 @@ async function processGroupMessage(
   };
 }
 
-// ── LID → Phone Resolution ──
-
-/**
- * Resolves a WhatsApp LID to a real phone number by querying
- * the Evolution API's contacts and matching by profile picture.
- * Results are cached in Redis for 30 days.
- */
-async function resolveLidToPhone(
-  providerConfig: Record<string, any>,
-  lid: string,
-): Promise<string | null> {
-  const redis = getRedis();
-
-  // Check Redis cache
-  const cacheKey = `lid:${lid}`;
-  const cached = await redis.get(cacheKey);
-  if (cached) return cached;
-
-  const baseUrl = providerConfig.base_url ?? providerConfig.baseUrl;
-  const instanceName = providerConfig.instance_name ?? providerConfig.instanceName;
-  const apiKey = providerConfig.api_key ?? providerConfig.apiKey;
-
-  if (!baseUrl || !instanceName || !apiKey) {
-    console.warn('[LID resolver] Missing Evolution API config, cannot resolve LID');
-    return null;
-  }
-
-  try {
-    // Query Evolution API for all contacts
-    const response = await fetch(`${baseUrl}/chat/findContacts/${instanceName}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', apikey: apiKey },
-      body: JSON.stringify({ where: {} }),
-    });
-
-    if (!response.ok) {
-      console.warn(`[LID resolver] Evolution API returned ${response.status}`);
-      return null;
-    }
-
-    const contacts = await response.json() as Array<{
-      remoteJid: string;
-      profilePicUrl: string | null;
-      pushName: string | null;
-    }>;
-
-    // Find the LID contact
-    const lidJid = `${lid}@lid`;
-    const lidContact = contacts.find((c) => c.remoteJid === lidJid);
-
-    if (!lidContact?.profilePicUrl) {
-      console.warn(`[LID resolver] LID ${lid} not found or has no profile pic`);
-      return null;
-    }
-
-    // Extract profile pic filename (stable identifier)
-    const lidPicFile = extractPicFilename(lidContact.profilePicUrl);
-    if (!lidPicFile) return null;
-
-    // Find matching @s.whatsapp.net contact with same profile pic
-    for (const contact of contacts) {
-      if (!contact.remoteJid.includes('@s.whatsapp.net')) continue;
-      if (!contact.profilePicUrl) continue;
-
-      const contactPicFile = extractPicFilename(contact.profilePicUrl);
-      if (contactPicFile === lidPicFile) {
-        const phone = contact.remoteJid.replace('@s.whatsapp.net', '');
-        // Cache for 30 days
-        await redis.set(cacheKey, phone, 'EX', 86400 * 30);
-        console.log(`[LID resolver] Resolved ${lid} → ${phone}`);
-        return phone;
-      }
-    }
-
-    console.warn(`[LID resolver] No phone match found for LID ${lid}`);
-    return null;
-  } catch (err) {
-    console.error('[LID resolver] Error:', err);
-    return null;
-  }
-}
-
-/** Extract the stable filename from a WhatsApp profile pic URL */
-function extractPicFilename(url: string): string | null {
-  try {
-    const path = new URL(url).pathname;
-    const parts = path.split('/');
-    return parts[parts.length - 1] ?? null;
-  } catch {
-    return null;
-  }
-}
-
-// ── Payload Normalization ──
-
-async function normalizePayload(
-  provider: string,
-  eventType: string,
-  payload: Record<string, any>,
-  providerConfig: Record<string, any>,
-): Promise<NormalizedMessage | null> {
-  if (provider === 'evolution_api') {
-    return normalizeEvolutionAPI(eventType, payload, providerConfig);
-  } else if (provider === 'cloud_api') {
-    return normalizeCloudAPI(eventType, payload);
-  }
-  return null;
-}
-
-async function normalizeEvolutionAPI(
-  eventType: string,
-  payload: Record<string, any>,
-  providerConfig: Record<string, any>,
-): Promise<NormalizedMessage | null> {
-  // Evolution API sends different event types
-  if (eventType !== 'messages.upsert' && eventType !== 'MESSAGES_UPSERT') {
-    return null;
-  }
-
-  const data = payload.data ?? payload;
-  const key = data.key;
-  const msg = data.message;
-
-  const isFromMe = !!key?.fromMe;
-
-  // Extract sender phone from remoteJid
-  let senderPhone: string;
-  const remoteJid = (key?.remoteJid ?? '') as string;
-
-  let groupJid: string | undefined;
-  let participantPhone: string | undefined;
-
-  if (remoteJid.includes('@g.us')) {
-    // Group message: remoteJid = group JID, key.participant = sender JID
-    groupJid = remoteJid;
-    const participantJid = (key?.participant ?? '') as string;
-
-    if (participantJid.includes('@lid')) {
-      // Resolve LID to phone number
-      const lid = participantJid.replace('@lid', '');
-      const resolved = await resolveLidToPhone(providerConfig, lid);
-      participantPhone = resolved ?? lid;
-    } else {
-      participantPhone = participantJid.replace('@s.whatsapp.net', '');
-    }
-    senderPhone = participantPhone;
-  } else if (remoteJid.includes('@lid')) {
-    // LID format — resolve to real phone number via Evolution API
-    const lid = remoteJid.replace('@lid', '');
-    const resolved = await resolveLidToPhone(providerConfig, lid);
-    if (resolved) {
-      senderPhone = resolved;
-    } else {
-      // Fallback: store LID as identifier (message will be received but replies may fail)
-      console.warn(`[webhook] Could not resolve LID ${lid}, using LID as identifier`);
-      senderPhone = lid;
-    }
-  } else {
-    senderPhone = remoteJid.replace('@s.whatsapp.net', '');
-  }
-
-  if (!senderPhone) return null;
-
-  let content: string | null = null;
-  let contentType = 'text';
-  const contentAttributes: Record<string, any> = {};
-
-  if (msg?.conversation) {
-    content = msg.conversation;
-  } else if (msg?.extendedTextMessage?.text) {
-    content = msg.extendedTextMessage.text;
-  } else if (msg?.imageMessage) {
-    contentType = 'image';
-    content = msg.imageMessage.caption ?? null;
-    contentAttributes.mimetype = msg.imageMessage.mimetype;
-    contentAttributes.url = msg.imageMessage.url;
-  } else if (msg?.audioMessage) {
-    contentType = 'audio';
-    contentAttributes.mimetype = msg.audioMessage.mimetype;
-    contentAttributes.seconds = msg.audioMessage.seconds;
-    contentAttributes.ptt = msg.audioMessage.ptt;
-  } else if (msg?.videoMessage) {
-    contentType = 'video';
-    content = msg.videoMessage.caption ?? null;
-    contentAttributes.mimetype = msg.videoMessage.mimetype;
-  } else if (msg?.documentMessage) {
-    contentType = 'document';
-    content = msg.documentMessage.fileName ?? null;
-    contentAttributes.mimetype = msg.documentMessage.mimetype;
-    contentAttributes.fileName = msg.documentMessage.fileName;
-  } else if (msg?.stickerMessage) {
-    contentType = 'sticker';
-  } else if (msg?.locationMessage) {
-    contentType = 'location';
-    contentAttributes.latitude = msg.locationMessage.degreesLatitude;
-    contentAttributes.longitude = msg.locationMessage.degreesLongitude;
-  }
-
-  return {
-    externalMessageId: key?.id ?? `evo_${Date.now()}`,
-    senderPhone,
-    senderName: data.pushName ?? null,
-    content,
-    contentType,
-    contentAttributes,
-    timestamp: new Date(data.messageTimestamp ? data.messageTimestamp * 1000 : Date.now()),
-    groupJid,
-    participantPhone,
-    isFromMe,
-  };
-}
-
-function normalizeCloudAPI(
-  eventType: string,
-  payload: Record<string, any>,
-): NormalizedMessage | null {
-  // Meta Cloud API webhook structure
-  const entry = payload.entry?.[0];
-  const changes = entry?.changes?.[0];
-  const value = changes?.value;
-
-  if (!value?.messages?.[0]) return null;
-
-  const msg = value.messages[0];
-  const contact = value.contacts?.[0];
-
-  let content: string | null = null;
-  let contentType = 'text';
-  const contentAttributes: Record<string, any> = {};
-
-  switch (msg.type) {
-    case 'text':
-      content = msg.text?.body ?? null;
-      contentType = 'text';
-      break;
-    case 'image':
-      contentType = 'image';
-      content = msg.image?.caption ?? null;
-      contentAttributes.mediaId = msg.image?.id;
-      contentAttributes.mimetype = msg.image?.mime_type;
-      break;
-    case 'audio':
-      contentType = 'audio';
-      contentAttributes.mediaId = msg.audio?.id;
-      contentAttributes.mimetype = msg.audio?.mime_type;
-      break;
-    case 'video':
-      contentType = 'video';
-      content = msg.video?.caption ?? null;
-      contentAttributes.mediaId = msg.video?.id;
-      break;
-    case 'document':
-      contentType = 'document';
-      content = msg.document?.filename ?? null;
-      contentAttributes.mediaId = msg.document?.id;
-      contentAttributes.fileName = msg.document?.filename;
-      break;
-    case 'sticker':
-      contentType = 'sticker';
-      contentAttributes.mediaId = msg.sticker?.id;
-      break;
-    case 'location':
-      contentType = 'location';
-      contentAttributes.latitude = msg.location?.latitude;
-      contentAttributes.longitude = msg.location?.longitude;
-      break;
-    default:
-      content = `[${msg.type}]`;
-      break;
-  }
-
-  return {
-    externalMessageId: msg.id,
-    senderPhone: msg.from,
-    senderName: contact?.profile?.name ?? null,
-    content,
-    contentType,
-    contentAttributes,
-    timestamp: new Date(parseInt(msg.timestamp, 10) * 1000),
-  };
-}
+// ── Helper Functions ──
+// Note: Provider-specific normalization (LID resolution, payload parsing, avatar fetching)
+// is now handled by the provider adapters in src/providers/*/
+// [REMOVED] resolveLidToPhone, extractPicFilename, normalizePayload,
+// normalizeEvolutionAPI, normalizeCloudAPI — all moved to provider adapters.
+// See: src/providers/evolution/evolution.adapter.ts
+// See: src/providers/cloud-api/cloud.adapter.ts
 
 // ── Profile Picture Fetch (fire-and-forget) ──
 
 function fetchAndUpdateAvatar(
   contactId: string,
   phone: string,
-  provider: string,
+  whatsappProvider: import('../providers/whatsapp.interface.js').IWhatsAppProvider,
   providerConfig: Record<string, any>,
 ): void {
-  if (provider !== 'evolution_api') return;
-
-  const baseUrl = providerConfig.base_url ?? providerConfig.baseUrl;
-  const instanceName = providerConfig.instance_name ?? providerConfig.instanceName;
-  const apiKey = providerConfig.api_key ?? providerConfig.apiKey;
-
-  fetch(`${baseUrl}/chat/fetchProfilePictureUrl/${instanceName}`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', apikey: apiKey },
-    body: JSON.stringify({ number: phone }),
-  })
-    .then((res) => res.ok ? res.json() : null)
-    .then((data: any) => {
-      const url = data?.profilePictureUrl;
+  whatsappProvider.fetchProfilePicture(providerConfig, phone)
+    .then((url) => {
       if (!url) return;
       return getPrisma().contact.update({
         where: { id: contactId },
@@ -905,30 +612,25 @@ function syncContactNameFromCRM(
 function fetchAndUpdateGroupName(
   groupId: string,
   groupJid: string,
-  provider: string,
+  providerName: string,
   providerConfig: Record<string, any>,
 ): void {
-  if (provider !== 'evolution_api') return;
+  import('../providers/factory.js').then(({ getGroupProvider }) => {
+    const groupProvider = getGroupProvider(providerName);
+    if (!groupProvider) return;
 
-  const baseUrl = providerConfig.base_url ?? providerConfig.baseUrl;
-  const instanceName = providerConfig.instance_name ?? providerConfig.instanceName;
-  const apiKey = providerConfig.api_key ?? providerConfig.apiKey;
-
-  fetch(`${baseUrl}/group/findGroupInfos/${instanceName}?groupJid=${groupJid}`, {
-    method: 'GET',
-    headers: { apikey: apiKey },
-  })
-    .then((res) => res.ok ? res.json() : null)
-    .then((data: any) => {
-      if (!data?.subject) return;
-      return getPrisma().group.update({
-        where: { id: groupId },
-        data: {
-          name: data.subject,
-          description: data.description ?? null,
-          profilePicUrl: data.pictureUrl ?? null,
-        },
-      });
-    })
-    .catch(() => { /* non-critical */ });
+    groupProvider.getGroupInfo(providerConfig, groupJid)
+      .then((info) => {
+        if (!info.name) return;
+        return getPrisma().group.update({
+          where: { id: groupId },
+          data: {
+            name: info.name,
+            description: info.description ?? null,
+            profilePicUrl: info.profilePicUrl ?? null,
+          },
+        });
+      })
+      .catch(() => { /* non-critical */ });
+  }).catch(() => {});
 }

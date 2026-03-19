@@ -89,6 +89,24 @@ export interface IGroupProvider {
 }
 
 // ════════════════════════════════════════════════════════════
+// WEBHOOK NORMALIZATION
+// ════════════════════════════════════════════════════════════
+
+/** Normalized incoming message — provider-agnostic format */
+export interface NormalizedMessage {
+  externalMessageId: string;
+  senderPhone: string;
+  senderName: string | null;
+  content: string | null;
+  contentType: string;
+  contentAttributes: Record<string, unknown>;
+  timestamp: Date;
+  isFromMe: boolean;
+  groupJid?: string;
+  participantPhone?: string;
+}
+
+// ════════════════════════════════════════════════════════════
 // MESSAGING INTERFACE
 // ════════════════════════════════════════════════════════════
 
@@ -127,4 +145,20 @@ export interface IWhatsAppProvider {
    * Check if the provider instance is connected / healthy
    */
   checkHealth(config: ProviderConfig): Promise<boolean>;
+
+  /**
+   * Normalize an incoming webhook payload into a provider-agnostic format.
+   * Returns null if the payload is not a processable message (e.g. status update).
+   */
+  normalizeIncomingWebhook(
+    eventType: string,
+    payload: Record<string, unknown>,
+    config: ProviderConfig,
+  ): Promise<NormalizedMessage | null>;
+
+  /**
+   * Fetch a contact's profile picture URL.
+   * Returns null if not available.
+   */
+  fetchProfilePicture(config: ProviderConfig, phone: string): Promise<string | null>;
 }
