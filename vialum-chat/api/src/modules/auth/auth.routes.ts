@@ -55,7 +55,7 @@ export async function authRoutes(fastify: FastifyInstance) {
 
   // GET /me (protected)
   fastify.get('/me', {
-    onRequest: [fastify.authenticate],
+    onRequest: [(fastify as any).authenticate],
   }, async (request: FastifyRequest, reply: FastifyReply) => {
     try {
       const user = await authService.me(request.jwtPayload.userId);
