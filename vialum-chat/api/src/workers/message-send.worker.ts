@@ -67,17 +67,11 @@ export function createMessageSendWorker(io: SocketIOServer): Worker {
           const recipient = (conv.groupId && conv.group)
             ? conv.group.jid
             : (conv.contactInbox?.sourceId ?? conv.contact.phone);
-          if (recipient && conv.inbox.provider === 'evolution_api') {
-            const pc = conv.inbox.providerConfig as Record<string, any>;
-            const baseUrl = pc.base_url ?? pc.baseUrl;
-            const instanceName = pc.instance_name ?? pc.instanceName;
-            const apiKey = pc.api_key ?? pc.apiKey;
-            const phone = recipient.includes('@g.us') ? recipient : recipient.replace('@s.whatsapp.net', '');
-            await fetch(`${baseUrl}/chat/updatePresence/${instanceName}`, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json', apikey: apiKey },
-              body: JSON.stringify({ number: phone, presence: 'composing' }),
-            }).catch(() => {});
+          if (recipient) {
+            const provider = getWhatsAppProvider(conv.inbox.provider);
+            if (provider.sendPresence) {
+              await provider.sendPresence(conv.inbox.providerConfig as Record<string, any>, recipient, 'composing');
+            }
           }
           job.log(`Typing presence sent for conversation ${conversationId}`);
         } catch {
@@ -269,19 +263,8 @@ async function processMessageJob(
   });
 
   // ── Stop typing presence after sending (anti-ban) ──
-  if (inbox.provider === 'evolution_api') {
-    try {
-      const pc = inbox.providerConfig as Record<string, any>;
-      const baseUrl = pc.base_url ?? pc.baseUrl;
-      const instanceName = pc.instance_name ?? pc.instanceName;
-      const apiKey = pc.api_key ?? pc.apiKey;
-      const phone = recipientId.includes('@g.us') ? recipientId : recipientId.replace('@s.whatsapp.net', '');
-      await fetch(`${baseUrl}/chat/updatePresence/${instanceName}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', apikey: apiKey },
-        body: JSON.stringify({ number: phone, presence: 'paused' }),
-      }).catch(() => {});
-    } catch { /* non-critical */ }
+  if (whatsappProvider.sendPresence) {
+    whatsappProvider.sendPresence(providerConfig, recipientId, 'paused').catch((err) => console.error("[background]", err.message || err));
   }
 
   // ── Emit WebSocket ──

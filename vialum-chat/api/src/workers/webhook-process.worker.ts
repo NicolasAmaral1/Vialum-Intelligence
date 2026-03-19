@@ -567,7 +567,7 @@ function fetchAndUpdateAvatar(
         data: { avatarUrl: url },
       });
     })
-    .catch(() => { /* non-critical */ });
+    .catch((err) => console.error("[background]", err.message || err));
 }
 
 // ── CRM Name Sync (fire-and-forget) ──
@@ -611,7 +611,7 @@ function syncContactNameFromCRM(
         data: { name: officialName },
       });
     })
-    .catch(() => { /* non-critical */ });
+    .catch((err) => console.error("[background]", err.message || err));
 }
 
 function fetchAndUpdateGroupName(
@@ -636,6 +636,6 @@ function fetchAndUpdateGroupName(
           },
         });
       })
-      .catch(() => { /* non-critical */ });
-  }).catch(() => {});
+      .catch((err) => console.error("[background]", err.message || err));
+  }).catch((err) => console.error("[background]", err.message || err));
 }

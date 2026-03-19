@@ -147,6 +147,12 @@ export interface IWhatsAppProvider {
   checkHealth(config: ProviderConfig): Promise<boolean>;
 
   /**
+   * Send typing presence indicator (composing/paused).
+   * Not all providers support this — default implementation is no-op.
+   */
+  sendPresence?(config: ProviderConfig, to: string, presence: 'composing' | 'paused'): Promise<void>;
+
+  /**
    * Normalize an incoming webhook payload into a provider-agnostic format.
    * Returns null if the payload is not a processable message (e.g. status update).
    */

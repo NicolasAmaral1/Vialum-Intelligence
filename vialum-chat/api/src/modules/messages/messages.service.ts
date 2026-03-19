@@ -204,7 +204,7 @@ export async function list(
     prisma.conversation.update({
       where: { id: conversationId },
       data: { unreadCount: 0 },
-    }).catch(() => {}); // fire-and-forget
+    }).catch((err) => console.error("[background]", err.message || err)); // fire-and-forget
   }
 
   const hasMore = messages.length === limit;

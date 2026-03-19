@@ -56,7 +56,7 @@ async function apiKeyAuthPlugin(fastify: FastifyInstance) {
     prisma.accountApiKey.update({
       where: { id: record.id },
       data: { lastUsedAt: new Date() },
-    }).catch(() => { /* ignore */ });
+    }).catch((err) => console.error("[background]", err.message || err));
   });
 }
 

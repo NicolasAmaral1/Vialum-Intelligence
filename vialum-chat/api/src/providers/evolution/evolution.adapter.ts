@@ -295,6 +295,21 @@ export class EvolutionAdapter implements IWhatsAppProvider, IGroupProvider {
     });
   }
 
+  // ── Presence ──
+
+  async sendPresence(config: ProviderConfig, to: string, presence: 'composing' | 'paused'): Promise<void> {
+    const evoConfig = config as EvolutionConfig;
+    const phone = to.includes('@g.us') ? to : to.replace('@s.whatsapp.net', '');
+    await fetch(
+      `${evoConfig.base_url.replace(/\/$/, '')}/chat/updatePresence/${evoConfig.instance_name}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', apikey: evoConfig.api_key },
+        body: JSON.stringify({ number: phone, presence }),
+      },
+    ).catch((err) => console.error("[background]", err.message || err));
+  }
+
   // ── Webhook Normalization ──
 
   async normalizeIncomingWebhook(
