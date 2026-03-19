@@ -49,18 +49,27 @@ async function socketPlugin(fastify: FastifyInstance) {
       fastify.log.info(`Socket ${socket.id} joined account:${accountId}`);
     });
 
-    // Subscribe to conversation room — verify conversation belongs to user's account
+    // Subscribe to conversation room — verify account + inbox access (RLS)
     socket.on('subscribe:conversation', async (conversationId: string) => {
       try {
         const { getPrisma } = await import('../config/database.js');
+        const { getAccessibleInboxIds } = await import('../modules/inboxes/inbox-access.service.js');
         const prisma = getPrisma();
+
         const conversation = await prisma.conversation.findFirst({
           where: { id: conversationId, accountId: payload.accountId },
-          select: { id: true },
+          select: { id: true, inboxId: true },
         });
 
         if (!conversation) {
           fastify.log.warn(`Socket ${socket.id} tried to subscribe to unauthorized conversation: ${conversationId}`);
+          return;
+        }
+
+        // RLS: verify user has access to this conversation's inbox
+        const accessibleInboxIds = await getAccessibleInboxIds(payload.accountId, payload.userId);
+        if (accessibleInboxIds !== null && !accessibleInboxIds.includes(conversation.inboxId)) {
+          fastify.log.warn(`Socket ${socket.id} tried to subscribe to conversation in restricted inbox: ${conversationId}`);
           return;
         }
 

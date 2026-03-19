@@ -193,36 +193,39 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
         job.log(`Created new conversation ${conversation.id}`);
       }
 
-      // ── 4. Insert message (dedup check) ──
-      const existingMsg = await prisma.message.findFirst({
-        where: { externalMessageId: normalized.externalMessageId, conversationId: conversation.id },
-        select: { id: true },
+      // ── 4. Insert message (atomic dedup via transaction) ──
+      const message = await prisma.$transaction(async (tx) => {
+        const existing = await tx.message.findFirst({
+          where: { externalMessageId: normalized.externalMessageId, conversationId: conversation!.id },
+          select: { id: true },
+        });
+        if (existing) return null; // duplicate
+
+        return tx.message.create({
+          data: {
+            accountId,
+            conversationId: conversation!.id,
+            inboxId,
+            senderType: isOutgoing ? 'user' : 'contact',
+            senderId: isOutgoing ? null : contactId,
+            senderContactId: isOutgoing ? null : contactId,
+            content: normalized.content,
+            messageType: isOutgoing ? 'outgoing' : 'incoming',
+            contentType: normalized.contentType,
+            contentAttributes: normalized.contentAttributes as any,
+            status: 'delivered',
+            externalMessageId: normalized.externalMessageId,
+            createdAt: normalized.timestamp,
+            updatedAt: normalized.timestamp,
+          },
+        });
       });
 
-      if (existingMsg) {
+      if (!message) {
         await prisma.webhookEvent.update({ where: { id: webhookEventId }, data: { processed: true } });
         job.log(`Duplicate message ${normalized.externalMessageId}, skipping`);
-        return { skipped: true, reason: 'duplicate_message', messageId: existingMsg.id };
+        return { skipped: true, reason: 'duplicate_message' };
       }
-
-      const message = await prisma.message.create({
-        data: {
-          accountId,
-          conversationId: conversation.id,
-          inboxId,
-          senderType: isOutgoing ? 'user' : 'contact',
-          senderId: isOutgoing ? null : contactId,
-          senderContactId: isOutgoing ? null : contactId,
-          content: normalized.content,
-          messageType: isOutgoing ? 'outgoing' : 'incoming',
-          contentType: normalized.contentType,
-          contentAttributes: normalized.contentAttributes as any,
-          status: 'delivered',
-          externalMessageId: normalized.externalMessageId,
-          createdAt: normalized.timestamp,
-          updatedAt: normalized.timestamp,
-        },
-      });
 
       // Update conversation
       await prisma.conversation.update({
@@ -425,39 +428,41 @@ async function processGroupMessage(
     job.log(`Created new group conversation ${conversation.id}`);
   }
 
-  // ── 5. Insert message with senderContactId (dedup check) ──
-  const existingMessage = await prisma.message.findFirst({
-    where: { externalMessageId: normalized.externalMessageId, conversationId: conversation.id },
-    select: { id: true },
-  });
-
-  if (existingMessage) {
-    // Already processed — mark webhook and skip
-    await prisma.webhookEvent.update({ where: { id: webhookEventId }, data: { processed: true } });
-    job.log(`Duplicate message ${normalized.externalMessageId}, skipping`);
-    return { skipped: true, reason: 'duplicate_message', messageId: existingMessage.id };
-  }
-
+  // ── 5. Insert message (atomic dedup via transaction) ──
   const isGroupOutgoing = !!normalized.isFromMe;
 
-  const message = await prisma.message.create({
-    data: {
-      accountId,
-      conversationId: conversation.id,
-      inboxId,
-      senderType: isGroupOutgoing ? 'user' : 'contact',
-      senderId: isGroupOutgoing ? null : contact.id,
-      senderContactId: isGroupOutgoing ? null : contact.id,
-      content: normalized.content,
-      messageType: isGroupOutgoing ? 'outgoing' : 'incoming',
-      contentType: normalized.contentType,
-      contentAttributes: normalized.contentAttributes as any,
-      status: 'delivered',
-      externalMessageId: normalized.externalMessageId,
-      createdAt: normalized.timestamp,
-      updatedAt: normalized.timestamp,
-    },
+  const message = await prisma.$transaction(async (tx) => {
+    const existing = await tx.message.findFirst({
+      where: { externalMessageId: normalized.externalMessageId, conversationId: conversation!.id },
+      select: { id: true },
+    });
+    if (existing) return null;
+
+    return tx.message.create({
+      data: {
+        accountId,
+        conversationId: conversation!.id,
+        inboxId,
+        senderType: isGroupOutgoing ? 'user' : 'contact',
+        senderId: isGroupOutgoing ? null : contact.id,
+        senderContactId: isGroupOutgoing ? null : contact.id,
+        content: normalized.content,
+        messageType: isGroupOutgoing ? 'outgoing' : 'incoming',
+        contentType: normalized.contentType,
+        contentAttributes: normalized.contentAttributes as any,
+        status: 'delivered',
+        externalMessageId: normalized.externalMessageId,
+        createdAt: normalized.timestamp,
+        updatedAt: normalized.timestamp,
+      },
+    });
   });
+
+  if (!message) {
+    await prisma.webhookEvent.update({ where: { id: webhookEventId }, data: { processed: true } });
+    job.log(`Duplicate message ${normalized.externalMessageId}, skipping`);
+    return { skipped: true, reason: 'duplicate_message' };
+  }
 
   // Update conversation
   await prisma.conversation.update({

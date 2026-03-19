@@ -2,6 +2,7 @@ import { Worker, Job, Queue, QueueEvents } from 'bullmq';
 import { getRedis } from '../config/redis.js';
 import { getPrisma } from '../config/database.js';
 import { Server as SocketIOServer } from 'socket.io';
+import { getWhatsAppProvider } from '../providers/factory.js';
 
 // ════════════════════════════════════════════════════════════
 // Message Send Worker
@@ -209,16 +210,13 @@ async function processMessageJob(
     throw new Error(`No recipient ID for conversation ${conversationId}`);
   }
 
-  // ── Send via Provider ──
-  let externalMessageId: string | null = null;
-
-  if (inbox.provider === 'evolution_api') {
-    externalMessageId = await sendViaEvolutionAPI(providerConfig, recipientId, content);
-  } else if (inbox.provider === 'cloud_api') {
-    externalMessageId = await sendViaCloudAPI(providerConfig, recipientId, content);
-  } else {
-    throw new Error(`Unknown provider: ${inbox.provider}`);
-  }
+  // ── Send via Provider (adapter pattern) ──
+  const whatsappProvider = getWhatsAppProvider(inbox.provider);
+  const sendResult = await whatsappProvider.sendText(providerConfig, {
+    to: recipientId,
+    text: content,
+  });
+  const externalMessageId = sendResult.externalMessageId || null;
 
   // ── Create or Update Message record ──
   let message;
@@ -304,73 +302,4 @@ async function processMessageJob(
   return { messageId: message.id, externalMessageId };
 }
 
-// ── Provider Implementations ──
-
-async function sendViaEvolutionAPI(
-  config: Record<string, any>,
-  recipientId: string,
-  content: string,
-): Promise<string> {
-  const baseUrl = config.base_url ?? config.baseUrl;
-  const instanceName = config.instance_name ?? config.instanceName;
-  const apiKey = config.api_key ?? config.apiKey;
-
-  // For group JIDs (@g.us), keep the full JID; for individual, strip suffix
-  const phone = recipientId.includes('@g.us') ? recipientId : recipientId.replace('@s.whatsapp.net', '');
-
-  const response = await fetch(`${baseUrl}/message/sendText/${instanceName}`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      apikey: apiKey,
-    },
-    body: JSON.stringify({
-      number: phone,
-      text: content,
-    }),
-  });
-
-  if (!response.ok) {
-    const errorBody = await response.text();
-    throw new Error(`Evolution API error (${response.status}): ${errorBody}`);
-  }
-
-  const result = await response.json() as Record<string, any>;
-  return result.key?.id ?? result.messageId ?? `evo_${Date.now()}`;
-}
-
-async function sendViaCloudAPI(
-  config: Record<string, any>,
-  recipientId: string,
-  content: string,
-): Promise<string> {
-  const phoneNumberId = config.phone_number_id ?? config.phoneNumberId;
-  const accessToken = config.access_token ?? config.accessToken;
-
-  const phone = recipientId.includes('@g.us') ? recipientId : recipientId.replace('@s.whatsapp.net', '');
-
-  const response = await fetch(
-    `https://graph.facebook.com/v18.0/${phoneNumberId}/messages`,
-    {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${accessToken}`,
-      },
-      body: JSON.stringify({
-        messaging_product: 'whatsapp',
-        to: phone,
-        type: 'text',
-        text: { body: content },
-      }),
-    },
-  );
-
-  if (!response.ok) {
-    const errorBody = await response.text();
-    throw new Error(`Cloud API error (${response.status}): ${errorBody}`);
-  }
-
-  const result = await response.json() as Record<string, any>;
-  return result.messages?.[0]?.id ?? `cloud_${Date.now()}`;
-}
+// Provider-specific send functions removed — now using adapter pattern via getWhatsAppProvider()
