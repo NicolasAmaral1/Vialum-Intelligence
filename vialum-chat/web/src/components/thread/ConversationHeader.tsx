@@ -27,15 +27,13 @@ export function ConversationHeader({ conversation, onRefresh, onToggleSidebar }:
   const isGroup = !!conversation.group;
   const displayName = isGroup
     ? conversation.group?.name || 'Grupo sem nome'
-    : conversation.contact?.name || 'Sem nome';
+    : conversation.contact?.displayName || conversation.contact?.name || 'Sem nome';
   const avatarUrl = isGroup
     ? conversation.group?.profilePicUrl
     : conversation.contact?.avatarUrl;
-  const subtitle = isGroup
-    ? conversation.group?.groupType === 'agency' ? 'Grupo agência' : 'Grupo cliente'
-    : conversation.contact?.phone;
+  const groupTypeLabel = conversation.group?.groupType === 'agency' ? 'Grupo agência' : 'Grupo cliente';
+  const subtitle = isGroup ? groupTypeLabel : conversation.contact?.formattedPhone || conversation.contact?.phone;
 
-  const isOnline = !isGroup;
   const isResolved = conversation.status === 'resolved';
 
   const handleToggleStatus = async () => {
@@ -66,9 +64,7 @@ export function ConversationHeader({ conversation, onRefresh, onToggleSidebar }:
             avatarUrl={avatarUrl}
             size={36}
           />
-          {!isGroup && (
-            <span className="w-2.5 h-2.5 rounded-full bg-success border-2 border-raised absolute -bottom-0.5 -right-0.5" />
-          )}
+          {/* Online indicator removed — no presence tracking yet */}
         </div>
         <div className="text-left">
           <h3 className="text-[14px] font-semibold text-text-1 flex items-center gap-1.5">
@@ -76,8 +72,8 @@ export function ConversationHeader({ conversation, onRefresh, onToggleSidebar }:
             {displayName}
           </h3>
           {subtitle && (
-            <p className={`text-[11px] ${isOnline && !isGroup ? 'text-success' : 'text-text-3'}`}>
-              {isOnline && !isGroup ? 'Online' : subtitle}
+            <p className="text-[11px] text-text-3">
+              {subtitle}
             </p>
           )}
         </div>

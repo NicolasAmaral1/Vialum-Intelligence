@@ -1,0 +1,31 @@
+{
+  "marca": "METODO BASES",
+  "classes": [
+    41,
+    44,
+    16
+  ],
+  "por_classe": {
+    "41": {
+      "encontradas": 0,
+      "mantidas": 0,
+      "detalhadas": 0
+    },
+    "44": {
+      "encontradas": 0,
+      "mantidas": 0,
+      "detalhadas": 0
+    },
+    "16": {
+      "encontradas": 0,
+      "mantidas": 0,
+      "detalhadas": 0
+    }
+  },
+  "total_encontradas": 0,
+  "total_mantidas": 0,
+  "total_detalhadas": 0,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": []
+}

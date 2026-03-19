@@ -33,6 +33,7 @@ interface NormalizedMessage {
   timestamp: Date;
   groupJid?: string;         // e.g. "120363XXXXX@g.us" (null for 1:1)
   participantPhone?: string; // who sent within the group
+  isFromMe?: boolean;        // true = sent by us (outgoing from phone/web)
 }
 
 // Singleton queues to avoid per-job connection overhead
@@ -102,6 +103,10 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
         return processGroupMessage(prisma, job, normalized, inboxId, accountId, webhookEventId, io, provider, providerConfig);
       }
 
+      // For fromMe messages, senderPhone is the remote contact (who we're talking to)
+      // because Evolution API remoteJid is always the other party
+      const isOutgoing = !!normalized.isFromMe;
+
       // ── 2. Find or create contact ──
       const sourceId = `${normalized.senderPhone}@s.whatsapp.net`;
 
@@ -131,10 +136,15 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
           });
           job.log(`Created new contact ${contact.id} (${normalized.senderPhone})`);
           fetchAndUpdateAvatar(contact.id, normalized.senderPhone, provider, providerConfig);
+          syncContactNameFromCRM(contact.id, normalized.senderPhone, normalized.senderName);
         } else {
           job.log(`Reusing existing contact ${contact.id} for new inbox`);
           if (!contact.avatarUrl) {
             fetchAndUpdateAvatar(contact.id, normalized.senderPhone, provider, providerConfig);
+          }
+          // Sync name from CRM if contact still has phone as name
+          if (contact.name === normalized.senderPhone || contact.name === normalized.senderName) {
+            syncContactNameFromCRM(contact.id, normalized.senderPhone, contact.name);
           }
         }
 
@@ -165,12 +175,13 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
         }
       }
 
-      // ── 3. Find or create conversation ──
+      // ── 3. Find or create conversation (1:1 only — exclude group conversations) ──
       let conversation = await prisma.conversation.findFirst({
         where: {
           accountId,
           contactId,
           inboxId,
+          groupId: null, // IMPORTANT: only match 1:1 conversations, never groups
           status: { in: ['open', 'pending'] },
         },
         orderBy: { lastActivityAt: 'desc' },
@@ -206,14 +217,17 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
           accountId,
           conversationId: conversation.id,
           inboxId,
-          senderType: 'contact',
-          senderId: contactId,
+          senderType: isOutgoing ? 'user' : 'contact',
+          senderId: isOutgoing ? null : contactId,
+          senderContactId: isOutgoing ? null : contactId,
           content: normalized.content,
-          messageType: 'incoming',
+          messageType: isOutgoing ? 'outgoing' : 'incoming',
           contentType: normalized.contentType,
           contentAttributes: normalized.contentAttributes,
           status: 'delivered',
           externalMessageId: normalized.externalMessageId,
+          createdAt: normalized.timestamp,
+          updatedAt: normalized.timestamp,
         },
       });
 
@@ -222,7 +236,8 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
         where: { id: conversation.id },
         data: {
           lastActivityAt: new Date(),
-          unreadCount: { increment: 1 },
+          // Only increment unread for incoming messages
+          ...(isOutgoing ? {} : { unreadCount: { increment: 1 } }),
           status: conversation.status === 'resolved' ? 'open' : conversation.status,
         },
       });
@@ -247,10 +262,16 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
         },
       });
 
+      // Fetch updated conversation for accurate unreadCount
+      const updatedConv = await prisma.conversation.findUnique({
+        where: { id: conversation.id },
+        select: { unreadCount: true },
+      });
+
       io.to(`account:${accountId}`).emit('conversation:updated', {
         conversationId: conversation.id,
         lastActivityAt: new Date(),
-        unreadCount: conversation.unreadCount + 1,
+        unreadCount: updatedConv?.unreadCount ?? 0,
       });
 
       // ── 6. Trigger automation + talk routing ──
@@ -356,6 +377,7 @@ async function processGroupMessage(
     });
     job.log(`Created new contact ${contact.id} (${participantPhone})`);
     fetchAndUpdateAvatar(contact.id, participantPhone, provider, providerConfig);
+    syncContactNameFromCRM(contact.id, participantPhone, normalized.senderName);
   } else {
     if (normalized.senderName && contact.name === participantPhone) {
       await prisma.contact.update({
@@ -365,6 +387,10 @@ async function processGroupMessage(
     }
     if (!contact.avatarUrl) {
       fetchAndUpdateAvatar(contact.id, participantPhone, provider, providerConfig);
+    }
+    // Sync name from CRM if still using pushName or phone
+    if (contact.name === participantPhone || contact.name === normalized.senderName) {
+      syncContactNameFromCRM(contact.id, participantPhone, contact.name);
     }
   }
 
@@ -376,22 +402,29 @@ async function processGroupMessage(
   });
 
   // ── 4. Find or create group Conversation ──
+  // For groups, reuse any existing conversation (including resolved) to avoid duplicates
   let conversation = await prisma.conversation.findFirst({
     where: {
       accountId,
       groupId: group.id,
       inboxId,
-      status: { in: ['open', 'pending'] },
+      deletedAt: null,
     },
     orderBy: { lastActivityAt: 'desc' },
   });
 
   if (!conversation) {
+    // Find or create ContactInbox for the first participant
+    const groupContactInbox = await prisma.contactInbox.findFirst({
+      where: { contactId: contact.id, inboxId },
+    });
+
     conversation = await prisma.conversation.create({
       data: {
         accountId,
         inboxId,
         contactId: contact.id, // first participant becomes the conversation contact
+        contactInboxId: groupContactInbox?.id ?? null,
         groupId: group.id,
         status: 'open',
       },
@@ -412,20 +445,24 @@ async function processGroupMessage(
     return { skipped: true, reason: 'duplicate_message', messageId: existingMessage.id };
   }
 
+  const isGroupOutgoing = !!normalized.isFromMe;
+
   const message = await prisma.message.create({
     data: {
       accountId,
       conversationId: conversation.id,
       inboxId,
-      senderType: 'contact',
-      senderId: contact.id,
-      senderContactId: contact.id,
+      senderType: isGroupOutgoing ? 'user' : 'contact',
+      senderId: isGroupOutgoing ? null : contact.id,
+      senderContactId: isGroupOutgoing ? null : contact.id,
       content: normalized.content,
-      messageType: 'incoming',
+      messageType: isGroupOutgoing ? 'outgoing' : 'incoming',
       contentType: normalized.contentType,
       contentAttributes: normalized.contentAttributes,
       status: 'delivered',
       externalMessageId: normalized.externalMessageId,
+      createdAt: normalized.timestamp,
+      updatedAt: normalized.timestamp,
     },
   });
 
@@ -434,7 +471,7 @@ async function processGroupMessage(
     where: { id: conversation.id },
     data: {
       lastActivityAt: new Date(),
-      unreadCount: { increment: 1 },
+      ...(isGroupOutgoing ? {} : { unreadCount: { increment: 1 } }),
       status: conversation.status === 'resolved' ? 'open' : conversation.status,
     },
   });
@@ -461,10 +498,16 @@ async function processGroupMessage(
     group: { id: group.id, jid: groupJid, name: group.name },
   });
 
+  // Fetch updated conversation for accurate unreadCount
+  const updatedGroupConv = await prisma.conversation.findUnique({
+    where: { id: conversation.id },
+    select: { unreadCount: true },
+  });
+
   io.to(`account:${accountId}`).emit('conversation:updated', {
     conversationId: conversation.id,
     lastActivityAt: new Date(),
-    unreadCount: conversation.unreadCount + 1,
+    unreadCount: updatedGroupConv?.unreadCount ?? 0,
     groupId: group.id,
   });
 
@@ -625,8 +668,7 @@ async function normalizeEvolutionAPI(
   const key = data.key;
   const msg = data.message;
 
-  // Skip outgoing messages
-  if (key?.fromMe) return null;
+  const isFromMe = !!key?.fromMe;
 
   // Extract sender phone from remoteJid
   let senderPhone: string;
@@ -711,6 +753,7 @@ async function normalizeEvolutionAPI(
     timestamp: new Date(data.messageTimestamp ? data.messageTimestamp * 1000 : Date.now()),
     groupJid,
     participantPhone,
+    isFromMe,
   };
 }
 
@@ -810,6 +853,50 @@ function fetchAndUpdateAvatar(
       return getPrisma().contact.update({
         where: { id: contactId },
         data: { avatarUrl: url },
+      });
+    })
+    .catch(() => { /* non-critical */ });
+}
+
+// ── CRM Name Sync (fire-and-forget) ──
+// Calls the CRM Hub to resolve the contact's official name from Pipedrive/CRM
+// and updates the contact name in vialum-chat if found.
+
+function syncContactNameFromCRM(
+  contactId: string,
+  phone: string,
+  contactName: string | null,
+): void {
+  const crmUrl = process.env.CRM_HUB_URL;
+  if (!crmUrl) return;
+
+  // Call CRM Hub lookup endpoint
+  fetch(`${crmUrl}/api/v1/contacts/lookup`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      vialumContactId: contactId,
+      phone,
+      name: contactName,
+    }),
+  })
+    .then((res) => res.ok ? res.json() : null)
+    .then((data: any) => {
+      const crmName = data?.data?.name;
+      if (!crmName || crmName === contactName) return;
+
+      // Also check integrations for Pipedrive person name
+      const integrations = data?.data?.integrations ?? [];
+      const pipedrivePersonName = integrations.find(
+        (i: any) => i.provider === 'pipedrive' && i.resourceType === 'person',
+      )?.resourceName;
+
+      const officialName = pipedrivePersonName || crmName;
+      if (!officialName) return;
+
+      return getPrisma().contact.update({
+        where: { id: contactId },
+        data: { name: officialName },
       });
     })
     .catch(() => { /* non-critical */ });

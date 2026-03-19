@@ -1,0 +1,34 @@
+{
+  "marca": "AMSTERDAM",
+  "classes": [
+    42,
+    41,
+    38
+  ],
+  "por_classe": {
+    "42": {
+      "encontradas": 7,
+      "mantidas": 7,
+      "detalhadas": 7,
+      "falhas": []
+    },
+    "41": {
+      "encontradas": 12,
+      "mantidas": 12,
+      "detalhadas": 12,
+      "falhas": []
+    },
+    "38": {
+      "encontradas": 3,
+      "mantidas": 3,
+      "detalhadas": 3,
+      "falhas": []
+    }
+  },
+  "total_encontradas": 22,
+  "total_mantidas": 22,
+  "total_detalhadas": 22,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": []
+}

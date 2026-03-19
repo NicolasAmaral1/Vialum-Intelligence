@@ -1,0 +1,1651 @@
+[
+  {
+    "numero_processo": "002176181",
+    "nome_marca": "RADIUM",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Preparados para lavanderia, produtos e instrumentos de limpeza, exceto os de uso pessoal e industrial."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "BOMBRIL S/A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "MIGUEL MARTINS FERNANDES"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "002894408",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Preparados para lavanderia, produtos e instrumentos de limpeza, exceto os de uso pessoal e industrial."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.4.3",
+        "descricao": "Losangos ou quadrados sobre ponta"
+      },
+      {
+        "edicao": "4",
+        "codigo": "2.3.11",
+        "descricao": "Mulheres cozinhando ou fazendo trabalhos domésticos, garçonetes"
+      },
+      {
+        "edicao": "4",
+        "codigo": "25.5.2",
+        "descricao": "Fundos divididos em dois no sentido horizontal"
+      },
+      {
+        "edicao": "03",
+        "codigo": "10",
+        "descricao": "Preparados para lavanderia, produtos e instrumentos de limpeza, exceto os de uso pessoal e industrial."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BOMBRIL MERCOSUL S/A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "ADVOCACIA PIETRO ARIBONI S/C"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "20/02/2013",
+      "ordinario_fim": "19/02/2014",
+      "extraordinario_inicio": "20/02/2013",
+      "extraordinario_fim": "19/02/2014"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2327",
+        "data_rpi": "11/08/2015",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "003578941",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.4.3",
+        "descricao": "Losangos ou quadrados sobre ponta"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "03",
+        "codigo": "10",
+        "descricao": "Livre"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Gustavo Adolfo da Silva Gordo Pugliesi"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "04/09/2026",
+      "ordinario_fim": "03/09/2027",
+      "extraordinario_inicio": "04/09/2026",
+      "extraordinario_fim": "03/09/2027"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      },
+      {
+        "rpi": "2430",
+        "data_rpi": "01/08/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800170211251 (03/07/2017)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "003600572",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Gustavo Adolfo da Silva Gordo Pugliesi"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "22/08/2026",
+      "ordinario_fim": "21/08/2027",
+      "extraordinario_inicio": "22/08/2026",
+      "extraordinario_fim": "21/08/2027"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2504",
+        "data_rpi": "02/01/2019",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850180299419 (03/09/2018)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente(es): ARIBONI, FABBRI & SCHMIDT SOCIEDADE DE ADVOGADOS\nProcurador: Ariboni, Fabbri e Schmidt Sociedade de Advogados"
+      },
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      },
+      {
+        "rpi": "2456",
+        "data_rpi": "30/01/2018",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850180003506 (08/01/2018)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: KASZNAR, LEONARDOS ADVOGADOS\nProcurador: Kasznar, Leonardos Advogados"
+      },
+      {
+        "rpi": "2449",
+        "data_rpi": "12/12/2017",
+        "despacho": "Recurso não provido (decisão mantida)",
+        "detalhes": "850160059832 (24/03/2016)\nPetição (tipo): Recurso com fundamento em alto renome [em petição] (362.3)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nDetalhes do despacho:Recurso conhecido. Negado provimento. Mantido o indeferimento do pedido de Alto Renome da marca de apresentação nominativa SAPOLIO RADIUM."
+      },
+      {
+        "rpi": "2430",
+        "data_rpi": "01/08/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800170201020 (26/06/2017)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2417",
+        "data_rpi": "02/05/2017",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850170074467 (06/04/2017)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2413",
+        "data_rpi": "04/04/2017",
+        "despacho": "Exigência de mérito (em petição)",
+        "detalhes": "850160059832 (24/03/2016)\nPetição (tipo): Recurso com fundamento em alto renome [em petição] (362.3)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nDetalhes do despacho:Deve o requerente apresentar documentos complementares para comprovação da condição de alto renome de sua marca, notadamente uma pesquisa de opinião e de imagem que tenha abrangência nacional, descrição de metodologia, perfil detalhado e diversificado de entrevistados, no que tange a sexo, idade (16 anos ou mais), municípios de residência nas cinco regiões do país, todas as classes econômicas, entre outros. A pesquisa também deve visar aferir, especificamente, o grau de conhecimento e reputação da marca para a qual se pleiteia o alto renome."
+      },
+      {
+        "rpi": "2411",
+        "data_rpi": "21/03/2017",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850170035872 (20/02/2017)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: RICCI & ASSOCIADOS PROPRIEDADE INTELECTUAL S/S LTDA.\nProcurador: RICCI & ASSOCIADOS PROPRIEDADE INTELECTUAL S/S LTDA"
+      },
+      {
+        "rpi": "2369",
+        "data_rpi": "31/05/2016",
+        "despacho": "Notificação de recurso",
+        "detalhes": "850160059832 (24/03/2016)\nPetição (tipo): Recurso com fundamento em alto renome [em petição] (362.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nDetalhes do despacho:Recurso contra o indeferimento da petição."
+      },
+      {
+        "rpi": "2359",
+        "data_rpi": "22/03/2016",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850160018947 (01/02/2016)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2359",
+        "data_rpi": "22/03/2016",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850160018947 (01/02/2016)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2359",
+        "data_rpi": "22/03/2016",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850160018947 (01/02/2016)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2355",
+        "data_rpi": "23/02/2016",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850160018075 (29/01/2016)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: KASZNAR, LEONARDOS ADVOGADOS\nProcurador: Kasznar, Leonardos Advogados"
+      },
+      {
+        "rpi": "2351",
+        "data_rpi": "26/01/2016",
+        "despacho": "Indeferimento da petição",
+        "detalhes": "850140056653 (31/03/2014)\nPetição (tipo): Manifestação com fundamento em alto renome [em processo de registro] (361.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Montaury Pimenta, Machado & Vieira de Mello Advogados\nDetalhes do despacho:Não reconhecido o alto renome da marca nominativa SAPÓLIO RADIUM, referente ao registro nº 003600572, tendo em vista que os documentos trazidos aos autos não foram capazes de comprovar o pleito em questão, à luz dos quesitos constantes do art. 3º da Resolução INPI/PR nº 107/2013. O conteúdo integral do parecer elaborado pela Comissão Especial de Alto Renome está disponível ao requerente no módulo de buscas do portal do INPI."
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "Não reconhecido o alto renome da marca nominativa SAPÓLIO RADIUM, referente ao registro nº 003600572, tendo em vista que os documentos trazidos aos autos não foram capazes de comprovar o pleito em questão, à luz dos quesitos constantes do art. 3º da Resolução INPI/PR nº 107/2013. O conteúdo integral do parecer elaborado pela Comissão Especial de Alto Renome está disponível ao requerente no módulo de buscas do portal do INPI.",
+      "protocolos_conflitantes": [
+        "850180339095"
+      ]
+    }
+  },
+  {
+    "numero_processo": "750228989",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 03",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "ÁGUA SANITÁRIA, ÁGUA DE LAVANDA, ÁGUA DE TOALETE, AMACIANTE DE TECIDOS, CERA PARA ASSOALHOS, CERA PARA LAVANDERIAS, CERA PARA POLIR, CORANTES PARA LAVANDERIA, DESINFETANTES ( SABÃO ), DETERGENTE, PEDRA PARA POLIR, PRODUTOS PARA LIMPEZA, SABÕES, SABONETES, XAMPUS."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "25.7.1",
+        "descricao": "Superfícies ou fundos cobertos com figuras ou desenhos geométricos repetidos"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BOMBRIL MERCOSUL S/A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Roque Aloísio Schardong"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "750228997",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Preparados para lavanderia, produtos e instrumentos de limpeza, exceto os de uso pessoal e industrial."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "BOMBRIL S/A."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "810901960",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Gustavo Adolfo da Silva Gordo Pugliesi"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "19/06/2034",
+      "ordinario_fim": "18/06/2035",
+      "extraordinario_inicio": "19/06/2034",
+      "extraordinario_fim": "18/06/2035"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2826",
+        "data_rpi": "06/03/2025",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800250047393 (04/02/2025)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): BRIL COSMÉTICOS S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      },
+      {
+        "rpi": "2374",
+        "data_rpi": "05/07/2016",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800150128365 (22/05/2015)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "816697426",
+    "nome_marca": "SAPÓLIO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "25.5.1",
+        "descricao": "Fundos divididos em dois no sentido vertical"
+      },
+      {
+        "edicao": "4",
+        "codigo": "25.7.1",
+        "descricao": "Superfícies ou fundos cobertos com figuras ou desenhos geométricos repetidos"
+      },
+      {
+        "edicao": "03",
+        "codigo": "10",
+        "descricao": "Livre"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Gustavo Adolfo da Silva Gordo Pugliesi"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "22/06/2033",
+      "ordinario_fim": "21/06/2034",
+      "extraordinario_inicio": "22/06/2033",
+      "extraordinario_fim": "21/06/2034"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2765",
+        "data_rpi": "02/01/2024",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800230455373 (06/12/2023)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): BRIL COSMÉTICOS S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      },
+      {
+        "rpi": "2364",
+        "data_rpi": "26/04/2016",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800130249446 (04/12/2013)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: CARLOS MAX OLIVEIRA DA SILVA\nDetalhes do despacho:CONFORMEART. 133 DA LPI."
+      },
+      {
+        "rpi": "2363",
+        "data_rpi": "19/04/2016",
+        "despacho": "Ato de prejudicar petição",
+        "detalhes": "800140105090 (15/05/2014)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Ariboni, Fabbri e Scmidt Sociedade de Advogados\nDetalhes do despacho:Tendo em vista a petição de prorrogação de registro de marca apta, documento nº 800130249446, protocolada em 04/12/2013."
+      },
+      {
+        "rpi": "2277",
+        "data_rpi": "26/08/2014",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850140089962 (15/05/2014)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Ariboni, Fabbri e Scmidt Sociedade de Advogados"
+      },
+      {
+        "rpi": "2273",
+        "data_rpi": "29/07/2014",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850130235941 (04/12/2013)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: CARLOS MAX OLIVEIRA DA SILVA"
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "823182720",
+    "nome_marca": "PRORADIUM",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(7) 05",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "CARTÃO RADIOPROTETOR"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ROBERTO VERONEZ ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "O PRÓPRIO."
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "002176181",
+    "nome_marca": "RADIUM",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Preparados para lavanderia, produtos e instrumentos de limpeza, exceto os de uso pessoal e industrial."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "BOMBRIL S/A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "MIGUEL MARTINS FERNANDES"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "002894408",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Preparados para lavanderia, produtos e instrumentos de limpeza, exceto os de uso pessoal e industrial."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.4.3",
+        "descricao": "Losangos ou quadrados sobre ponta"
+      },
+      {
+        "edicao": "4",
+        "codigo": "2.3.11",
+        "descricao": "Mulheres cozinhando ou fazendo trabalhos domésticos, garçonetes"
+      },
+      {
+        "edicao": "4",
+        "codigo": "25.5.2",
+        "descricao": "Fundos divididos em dois no sentido horizontal"
+      },
+      {
+        "edicao": "03",
+        "codigo": "10",
+        "descricao": "Preparados para lavanderia, produtos e instrumentos de limpeza, exceto os de uso pessoal e industrial."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BOMBRIL MERCOSUL S/A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "ADVOCACIA PIETRO ARIBONI S/C"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "20/02/2013",
+      "ordinario_fim": "19/02/2014",
+      "extraordinario_inicio": "20/02/2013",
+      "extraordinario_fim": "19/02/2014"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2327",
+        "data_rpi": "11/08/2015",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "003578941",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.4.3",
+        "descricao": "Losangos ou quadrados sobre ponta"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "03",
+        "codigo": "10",
+        "descricao": "Livre"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Gustavo Adolfo da Silva Gordo Pugliesi"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "04/09/2026",
+      "ordinario_fim": "03/09/2027",
+      "extraordinario_inicio": "04/09/2026",
+      "extraordinario_fim": "03/09/2027"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      },
+      {
+        "rpi": "2430",
+        "data_rpi": "01/08/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800170211251 (03/07/2017)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "003600572",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Gustavo Adolfo da Silva Gordo Pugliesi"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "22/08/2026",
+      "ordinario_fim": "21/08/2027",
+      "extraordinario_inicio": "22/08/2026",
+      "extraordinario_fim": "21/08/2027"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2504",
+        "data_rpi": "02/01/2019",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850180299419 (03/09/2018)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente(es): ARIBONI, FABBRI & SCHMIDT SOCIEDADE DE ADVOGADOS\nProcurador: Ariboni, Fabbri e Schmidt Sociedade de Advogados"
+      },
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      },
+      {
+        "rpi": "2456",
+        "data_rpi": "30/01/2018",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850180003506 (08/01/2018)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: KASZNAR, LEONARDOS ADVOGADOS\nProcurador: Kasznar, Leonardos Advogados"
+      },
+      {
+        "rpi": "2449",
+        "data_rpi": "12/12/2017",
+        "despacho": "Recurso não provido (decisão mantida)",
+        "detalhes": "850160059832 (24/03/2016)\nPetição (tipo): Recurso com fundamento em alto renome [em petição] (362.3)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nDetalhes do despacho:Recurso conhecido. Negado provimento. Mantido o indeferimento do pedido de Alto Renome da marca de apresentação nominativa SAPOLIO RADIUM."
+      },
+      {
+        "rpi": "2430",
+        "data_rpi": "01/08/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800170201020 (26/06/2017)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2417",
+        "data_rpi": "02/05/2017",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850170074467 (06/04/2017)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2413",
+        "data_rpi": "04/04/2017",
+        "despacho": "Exigência de mérito (em petição)",
+        "detalhes": "850160059832 (24/03/2016)\nPetição (tipo): Recurso com fundamento em alto renome [em petição] (362.3)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nDetalhes do despacho:Deve o requerente apresentar documentos complementares para comprovação da condição de alto renome de sua marca, notadamente uma pesquisa de opinião e de imagem que tenha abrangência nacional, descrição de metodologia, perfil detalhado e diversificado de entrevistados, no que tange a sexo, idade (16 anos ou mais), municípios de residência nas cinco regiões do país, todas as classes econômicas, entre outros. A pesquisa também deve visar aferir, especificamente, o grau de conhecimento e reputação da marca para a qual se pleiteia o alto renome."
+      },
+      {
+        "rpi": "2411",
+        "data_rpi": "21/03/2017",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850170035872 (20/02/2017)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: RICCI & ASSOCIADOS PROPRIEDADE INTELECTUAL S/S LTDA.\nProcurador: RICCI & ASSOCIADOS PROPRIEDADE INTELECTUAL S/S LTDA"
+      },
+      {
+        "rpi": "2369",
+        "data_rpi": "31/05/2016",
+        "despacho": "Notificação de recurso",
+        "detalhes": "850160059832 (24/03/2016)\nPetição (tipo): Recurso com fundamento em alto renome [em petição] (362.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nDetalhes do despacho:Recurso contra o indeferimento da petição."
+      },
+      {
+        "rpi": "2359",
+        "data_rpi": "22/03/2016",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850160018947 (01/02/2016)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2359",
+        "data_rpi": "22/03/2016",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850160018947 (01/02/2016)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2359",
+        "data_rpi": "22/03/2016",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850160018947 (01/02/2016)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2355",
+        "data_rpi": "23/02/2016",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850160018075 (29/01/2016)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: KASZNAR, LEONARDOS ADVOGADOS\nProcurador: Kasznar, Leonardos Advogados"
+      },
+      {
+        "rpi": "2351",
+        "data_rpi": "26/01/2016",
+        "despacho": "Indeferimento da petição",
+        "detalhes": "850140056653 (31/03/2014)\nPetição (tipo): Manifestação com fundamento em alto renome [em processo de registro] (361.3)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Montaury Pimenta, Machado & Vieira de Mello Advogados\nDetalhes do despacho:Não reconhecido o alto renome da marca nominativa SAPÓLIO RADIUM, referente ao registro nº 003600572, tendo em vista que os documentos trazidos aos autos não foram capazes de comprovar o pleito em questão, à luz dos quesitos constantes do art. 3º da Resolução INPI/PR nº 107/2013. O conteúdo integral do parecer elaborado pela Comissão Especial de Alto Renome está disponível ao requerente no módulo de buscas do portal do INPI."
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "Não reconhecido o alto renome da marca nominativa SAPÓLIO RADIUM, referente ao registro nº 003600572, tendo em vista que os documentos trazidos aos autos não foram capazes de comprovar o pleito em questão, à luz dos quesitos constantes do art. 3º da Resolução INPI/PR nº 107/2013. O conteúdo integral do parecer elaborado pela Comissão Especial de Alto Renome está disponível ao requerente no módulo de buscas do portal do INPI.",
+      "protocolos_conflitantes": [
+        "850180339095"
+      ]
+    }
+  },
+  {
+    "numero_processo": "750228989",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 03",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "ÁGUA SANITÁRIA, ÁGUA DE LAVANDA, ÁGUA DE TOALETE, AMACIANTE DE TECIDOS, CERA PARA ASSOALHOS, CERA PARA LAVANDERIAS, CERA PARA POLIR, CORANTES PARA LAVANDERIA, DESINFETANTES ( SABÃO ), DETERGENTE, PEDRA PARA POLIR, PRODUTOS PARA LIMPEZA, SABÕES, SABONETES, XAMPUS."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "25.7.1",
+        "descricao": "Superfícies ou fundos cobertos com figuras ou desenhos geométricos repetidos"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BOMBRIL MERCOSUL S/A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Roque Aloísio Schardong"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "750228997",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Preparados para lavanderia, produtos e instrumentos de limpeza, exceto os de uso pessoal e industrial."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "BOMBRIL S/A."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "810901960",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Gustavo Adolfo da Silva Gordo Pugliesi"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "19/06/2034",
+      "ordinario_fim": "18/06/2035",
+      "extraordinario_inicio": "19/06/2034",
+      "extraordinario_fim": "18/06/2035"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2826",
+        "data_rpi": "06/03/2025",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800250047393 (04/02/2025)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): BRIL COSMÉTICOS S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      },
+      {
+        "rpi": "2374",
+        "data_rpi": "05/07/2016",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800150128365 (22/05/2015)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "811354890",
+    "nome_marca": "RADIUM",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "30 : 10",
+        "situacao_classe": null,
+        "especificacao": "Café."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "COOPERATIVA DOS CAF DA ZONA DE MOCOCA AGR PEC INDL LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "812107705",
+    "nome_marca": "CAFÉ TORRADO E MOÍDO RADIUM",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "30 : 10",
+        "situacao_classe": null,
+        "especificacao": "Café."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "COOPERATIVA DOS CAF DA ZONA DE MOCOCA AGR PEC INDL LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815184034",
+    "nome_marca": "RADIUM",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "40 : 15",
+        "situacao_classe": null,
+        "especificacao": "Serviços auxiliares ao comércio de mercadorias, inclusive à importação e à exportação."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ATRON EXPORTAÇÃO LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815257589",
+    "nome_marca": "RADIUM",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "25 : 10",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "INDÚSTRIA E COM. DE CONFECÇÕES ÁGUIA DO NORDESTE S.A"
+      }
+    ],
+    "representante_legal": {
+      "nome": "SINAL ASSESSORIA EMPRESARIAL LTDA"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "816697426",
+    "nome_marca": "SAPÓLIO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "03 : 10",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "25.5.1",
+        "descricao": "Fundos divididos em dois no sentido vertical"
+      },
+      {
+        "edicao": "4",
+        "codigo": "25.7.1",
+        "descricao": "Superfícies ou fundos cobertos com figuras ou desenhos geométricos repetidos"
+      },
+      {
+        "edicao": "03",
+        "codigo": "10",
+        "descricao": "Livre"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Gustavo Adolfo da Silva Gordo Pugliesi"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "22/06/2033",
+      "ordinario_fim": "21/06/2034",
+      "extraordinario_inicio": "22/06/2033",
+      "extraordinario_fim": "21/06/2034"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2765",
+        "data_rpi": "02/01/2024",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800230455373 (06/12/2023)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): BRIL COSMÉTICOS S.A.\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi"
+      },
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      },
+      {
+        "rpi": "2364",
+        "data_rpi": "26/04/2016",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800130249446 (04/12/2013)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: BOMBRIL MERCOSUL S.A.\nProcurador: CARLOS MAX OLIVEIRA DA SILVA\nDetalhes do despacho:CONFORMEART. 133 DA LPI."
+      },
+      {
+        "rpi": "2363",
+        "data_rpi": "19/04/2016",
+        "despacho": "Ato de prejudicar petição",
+        "detalhes": "800140105090 (15/05/2014)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Ariboni, Fabbri e Scmidt Sociedade de Advogados\nDetalhes do despacho:Tendo em vista a petição de prorrogação de registro de marca apta, documento nº 800130249446, protocolada em 04/12/2013."
+      },
+      {
+        "rpi": "2277",
+        "data_rpi": "26/08/2014",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850140089962 (15/05/2014)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: Ariboni, Fabbri e Scmidt Sociedade de Advogados"
+      },
+      {
+        "rpi": "2273",
+        "data_rpi": "29/07/2014",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850130235941 (04/12/2013)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: BOMBRIL MERCOSUL S.A.\nProcurador: CARLOS MAX OLIVEIRA DA SILVA"
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819581518",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "40 : 15",
+        "situacao_classe": null,
+        "especificacao": "Livre"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Gustavo Adolfo da Silva Gordo Pugliesi"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "16/06/2018",
+      "ordinario_fim": "15/06/2019",
+      "extraordinario_inicio": "16/06/2018",
+      "extraordinario_fim": "15/06/2019"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2563",
+        "data_rpi": "18/02/2020",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      },
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180067692 (12/03/2018)\nPetição (tipo): Anotação de transferência de titularidade decorrente de outros motivos (349.6)\nProcurador: Gustavo Adolfo da Silva Gordo Pugliesi\nCessionário: BRIL COSMÉTICOS S.A."
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "822607905",
+    "nome_marca": "RADIUM SYSTEMS.COM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(7) 00",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "PRESTAÇÃO DE SERVIÇOS DE ASSESSORIA E INTERMEDIAÇÃO DE NEGÓCIOS E CRIAÇÃO E IMPLANTAÇÃO DE LEILÕES E SHOPPINGS VIRTUAIS ATRÁVES DA INTERNET"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "RADIUM SYSTEMS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "BM&A Propriedade Intelectual Ltda"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "934222134",
+    "nome_marca": "ONCORADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Serviços de administração e gestão de negócios de centro hospitalares e centros médicos; serviços de consultoria, assessoria e fornecimento sobre organização de hospitais, centro médicos, clínicas, casas de saúde e outros estabelecimentos do gênero; administração de holding (tipo empresa); gestão e administração de negócios no ramo de clínica médica; gestão de franquias; serviços de agendamento digital; serviços administrativos para encaminhamentos médicos, administração de clínica de saúde."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "CENTRO INTEGRADO DE TRATAMENTO ONCOLOGICO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "LEALVI MARCAS E PATENTES LTDA."
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "22/01/2035",
+      "ordinario_fim": "21/01/2036",
+      "extraordinario_inicio": "22/01/2035",
+      "extraordinario_fim": "21/01/2036"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2872",
+        "data_rpi": "21/01/2026",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2859",
+        "data_rpi": "21/10/2025",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2782",
+        "data_rpi": "30/04/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "824577426",
+    "nome_marca": "INSTITUTO DO RADIUM ONCOLOGIA DE CAMPINAS",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "SERVIÇOS DE RADIOLOGIA, ONCOLOGIA CLÍNICA E PREVENÇÃO AO CANCER."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "5.5.4",
+        "descricao": "Margaridas, girassóis, margarida-dos-campos"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "INSTITUTO DO RADIUM DE CAMPINAS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "ALCA MARCAS E PATENTES"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "826302602",
+    "nome_marca": "RADIUM INSTITUTO DE ONCOLOGIA",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "PRESTAÇÃO DE SERVIÇOS MEDICOS, ONCOLOGICOS E HOSPITALARES."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.7.25",
+        "descricao": "Outras combinações de figuras geométricas diferentes, justapostas, unidas ou entrecortadas"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.1.1",
+        "descricao": "Círculos"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "INSTITUTO DO RADIUM DE CAMPINAS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "ICAMP MARCAS E PATENTES LTDA"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "07/12/2025",
+      "ordinario_fim": "06/12/2026",
+      "extraordinario_inicio": "07/12/2025",
+      "extraordinario_fim": "06/12/2026"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2396",
+        "data_rpi": "06/12/2016",
+        "despacho": "Concessão de registro",
+        "detalhes": "18070053078 (15/08/2007)\nPetição (tipo): Recurso (SINPI P04)\nRequerente: INSTITUTO DO RADIUM DE CAMPINAS LTDA\nProcurador: ICAMP MARCAS E PATENTES LTDA\nDetalhes do despacho:DECIDO O RECURSO nos termos e condições constantes do parecer exarado pela CGREC, ressalvado, conforme o caso, a adoção do padrão de apostila instituído por meio da Resolução n.º 166/2016."
+      },
+      {
+        "rpi": "2392",
+        "data_rpi": "08/11/2016",
+        "despacho": "Recurso provido (decisão reformada para: Deferimento)",
+        "detalhes": "18070053078 (15/08/2007)\nPetição (tipo): Recurso (SINPI P04)\nRequerente: INSTITUTO DO RADIUM DE CAMPINAS LTDA\nProcurador: ICAMP MARCAS E PATENTES LTDA\nDetalhes do despacho:DECIDO O RECURSO nos termos e condições constantes do parecer exarado pela CGREC, ressalvado, conforme o caso, a adoção do padrão de apostila instituído por meio da Resolução n.º 166/2016."
+      },
+      {
+        "rpi": "2388",
+        "data_rpi": "11/10/2016",
+        "despacho": "Anulação de despacho (em petição)",
+        "detalhes": "850140194044 (19/09/2014)\nPetição (tipo): Manifestação [em processo de registro] (339.5)\nRequerente: INSTITUTO DO RADIUM DE CAMPINAS LTDA.\nProcurador: Icamp Marcas e Patentes Ltda\nDetalhes do despacho:Anulada a decisão de não conhecer da petição publicada na RPI 2338, de de 27/10/15, tendo em vista erro material."
+      },
+      {
+        "rpi": "2338",
+        "data_rpi": "27/10/2015",
+        "despacho": "Decisão de não conhecer da petição",
+        "detalhes": "850140194044 (19/09/2014)\nPetiÃ§Ã£o (tipo): Manifestação [em processo de registro] (339.5)\nRequerente: INSTITUTO DO RADIUM DE CAMPINAS LTDA.\nProcurador: Icamp Marcas e Patentes Ltda\nDetalhes do despacho:Art. 219. Não serão conhecidos a petição, a oposição e o recurso, quando: I - apresentados fora do prazo previsto nesta Lei;"
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "829235280",
+    "nome_marca": "RADIUM SEMPRE + PELA VIDA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "PRESTAÇÃO DE SERVIÇOS MÉDICOS, ONCOLÓGICOS E HOSPITALATES. GENÉTICA MÉDICA, ANATOMIA PATOLÓGICA, LABORATÓRIO DE ANÁLISES CLÍNICAS, ENDOSCOPIA, TOMOGRAFIA COMPUTADORIZADA HELICOIDAL, ULTRA-SONOGRAFIA, MAMOGRAFIA, BIÓPSIAS, TOMOGRAFIA, RADIOTERAPIA E GENÉTICA MÉDICA."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "INSTITUTO DO RADIUM DE CAMPINAS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "ICAMP MARCAS E PATENTES LTDA"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2429",
+        "data_rpi": "25/07/2017",
+        "despacho": "Recurso não provido (decisão mantida)",
+        "detalhes": "810090257751 (09/11/2009)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (333.1)\nTitular: INSTITUTO DO RADIUM DE CAMPINAS LTDA\nProcurador: ICAMP MARCAS E PATENTES LTDA"
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "829966510",
+    "nome_marca": "RADIUM TAGUATINGA",
+    "situacao": "Pedido definitivamente arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "PRESTAÇÃO DE SERVIÇOS MÉDICOS, ONCOLÓGICOS E HOSPITALARES. GENÉTICA MÉDICA,"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.13.25",
+        "descricao": "Outras figuras geométricas, desenhos indefiníveis"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.1.1",
+        "descricao": "Círculos"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "INSTITUTO DO RADIUM DE CAMPINAS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "ICAMP MARCAS E PATENTES LTDA"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2475",
+        "data_rpi": "12/06/2018",
+        "despacho": "Arquivamento definitivo de pedido de registro por falta de pagamento da concessão",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2448",
+        "data_rpi": "05/12/2017",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "902434209",
+    "nome_marca": "ONCO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Clínicas médicas;Saúde (Serviços de -);Tratamento médico"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.7.25",
+        "descricao": "Outras combinações de figuras geométricas diferentes, justapostas, unidas ou entrecortadas"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "CENTRO INTEGRADO DE TRATAMENTO ONCOLOGICO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "LEALVI MARCAS E PATENTES"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "15/01/2033",
+      "ordinario_fim": "14/01/2034",
+      "extraordinario_inicio": "15/01/2033",
+      "extraordinario_fim": "14/01/2034"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2770",
+        "data_rpi": "06/02/2024",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800240019529 (12/01/2024)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): CENTRO INTEGRADO DE TRATAMENTO ONCOLOGICO LTDA\nProcurador: LEALVI MARCAS E PATENTES LTDA."
+      },
+      {
+        "rpi": "2414",
+        "data_rpi": "11/04/2017",
+        "despacho": "Requerimento não provido (mantida a concessão)",
+        "detalhes": "850140034362 (25/02/2014)\nPetição (tipo): Nulidade administrativa de registro de marca (336.1)\nTitular: INSTITUTO DO RADIUM DE CAMPINAS LTDA.\nProcurador: Icamp Marcas e Patentes Ltda"
+      },
+      {
+        "rpi": "2290",
+        "data_rpi": "25/11/2014",
+        "despacho": "Notificação de instauração de processo de nulidade a requerimento",
+        "detalhes": "850140034362 (25/02/2014)\nPetição (tipo): Nulidade administrativa de registro de marca (336.1)\nRequerente: INSTITUTO DO RADIUM DE CAMPINAS LTDA.\nProcurador: Icamp Marcas e Patentes Ltda"
+      },
+      {
+        "rpi": "2245",
+        "data_rpi": "14/01/2014",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2225",
+        "data_rpi": "27/08/2013",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "916277844",
+    "nome_marca": "RADIUM CENTRO DE MEDICINA E SAÚDE",
+    "situacao": "Pedido definitivamente arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aconselhamento em questões de saúde; Assistência médica; Cuidados paliativos; Enfermagem [médica]; Fisioterapia; Serviços de centros médicos; Serviços de clínica médica; Serviços de psicólogos; Serviços de saúde; Serviços hospitalares; Cirurgias médicas [serviços médicos]; Consultas médicas [serviços médicos]; Exame bacteriológico [análise clínica]; Exame de seqüência genética; Laboratório de análise clínica; Serviço de nutricionista; Orientação nutricional; Orientação psicológica; Perícia médica; Reabilitações físicas, mentais e emocionais [serviços médicos]; Serviços de medicina à distância; Serviços de raio-x; Serviços de terapia; Tratamento médico; Assessoria, consultoria e informação em assistência médica, prestada por médicos e outros especialistas da área médica; Assessoria, consultoria e informação médica; Assessoria, consultoria e informação na área médica; Assessoria, consultoria e informação no campo da saúde e da medicina; Assessoria, consultoria e informação sobre cuidados médicos; Assessoria, consultoria e informações sobre medicina, assistência médica e odontológica"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.1.1",
+        "descricao": "Círculos"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.11.12",
+        "descricao": "Linhas ou faixas curvas (exceto A 26.11.13)"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "RADIUM CLINICA MÉDICA DE CAMPINAS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Icamp Marcas e Patentes Ltda"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2525",
+        "data_rpi": "28/05/2019",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850190142816 (10/05/2019)\nPetição (tipo): Desistência de pedido de registro de marca (383.1)\nTitular(es): RADIUM CLINICA MÉDICA DE CAMPINAS LTDA\nProcurador: Icamp Marcas e Patentes Ltda\nDetalhes do despacho:Homologada a desistência total ao pedido de registro de marca."
+      },
+      {
+        "rpi": "2502",
+        "data_rpi": "18/12/2018",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  }
+]

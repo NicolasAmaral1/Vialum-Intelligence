@@ -52,16 +52,16 @@ export async function cannedResponseRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // POST /
-  fastify.post('/', async (request: FastifyRequest<{ Params: AccountParams }>, reply: FastifyReply) => {
+  // POST / — admin only
+  fastify.post('/', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: AccountParams }>, reply: FastifyReply) => {
     const { accountId } = request.params;
     const body = createSchema.parse(request.body);
     const data = await cannedResponsesService.create(accountId, body);
     return reply.status(201).send({ data });
   });
 
-  // PUT /:id
-  fastify.put('/:id', async (request: FastifyRequest<{ Params: ItemParams }>, reply: FastifyReply) => {
+  // PUT /:id — admin only
+  fastify.put('/:id', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: ItemParams }>, reply: FastifyReply) => {
     const { accountId, id } = request.params;
     const body = updateSchema.parse(request.body);
     try {
@@ -73,8 +73,8 @@ export async function cannedResponseRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // DELETE /:id
-  fastify.delete('/:id', async (request: FastifyRequest<{ Params: ItemParams }>, reply: FastifyReply) => {
+  // DELETE /:id — admin only
+  fastify.delete('/:id', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: ItemParams }>, reply: FastifyReply) => {
     const { accountId, id } = request.params;
     try {
       await cannedResponsesService.remove(accountId, id);

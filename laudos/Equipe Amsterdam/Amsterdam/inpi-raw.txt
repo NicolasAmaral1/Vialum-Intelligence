@@ -1,105 +1,821 @@
-
-Brasil
-Acesso à informação
-ParticipeServiçosLegislaçãoCanais
-Instituto Nacional daPropriedade IndustrialMinistério da Economia
-Consulta à Base de Dados do INPI
 [ Início | Ajuda? ]
+
 » Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
 Marca
-Nº do Processo:	 937025984
-Marca:	 AMSTERDAM
-Situação:	  Aguardando exame de mérito
-Apresentação:	 Nominativa
-Natureza:	 Produtos e/ou Serviço
+
+Nº do Processo:	 827622775	
+
+Marca:	 AMSTERDAM
+Situação:	  Registro de marca em vigor
+Apresentação:	 Mista
+Natureza:	 De Produto
+
+
 
 Classificação de Produtos / Serviços
 Classe de Nice	Situação da Classe	Especificação
-NCL(12) 35
-Vide Situação do Processo	Negócios de gestão hoteleira
+NCL(8) 30	Vide Situação do Processo	  CHOCOLATES, CARAMELOS, DENTRE OUTROS DOCES INCLUÍDOS NESTA C...
+
+
+Classificação Internacional de Viena
+Edição	Código	Descrição
+4	27.5.1	Letras apresentando um grafismo especial
+
 
 Titulares
-Nome
-Titular(1):	AMSTERDAM MOTEL LTDA - ME
+	Nome
+Titular(1):	RIYEMI SALIM MAHMOUD LANCHONETE ME
+
 
 Representante Legal
-Nome
+	Nome
+Procurador:	PIENEGONDA, MOREIRA & ASSOCIADOS LTDA
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+04/08/2005	19/08/2008	19/08/2028
+
+
+Prazos para prorrogação de registro de marca
+	Prazo Ordinário	Prazo Extraordinário
+Início	20/08/2027	20/08/2028
+Fim	19/08/2028	19/02/2029
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	800180304510	17/08/2018	-		374	RIYEMI SALIM MAHMOUD LANCHONETE ME		  -
+	800080088944	19/06/2008	-		334	CASA DE ESFIHA ALADINE LTDA ME		  -
+	800080088944	19/06/2008	-		310	CASA DE ESFIHA ALADINE LTDA ME		  -
+	810070048244	25/06/2007	-		366	CASA DE ESFIHA ALADINE LTDA ME		  -
+	018050011500	04/08/2005	-		302	CASA DE ESFIHA ALADINE LTDA ME		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2487	04/09/2018	Deferimento da petição	-	-	Protocolo: 800180304510 (17/08/2018)
+Petição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)
+Titular(es): RIYEMI SALIM MAHMOUD LANCHONETE ME
+Procurador: Jair Silva de Andrade
+
+2098	22/03/2011	565	-	-	CED.1 - CASA DE ESFIHA ALADINE LTDA.
+1963	19/08/2008	400	-	-	
+1947	29/04/2008	351	-	-	
+1809	06/09/2005	003	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 830555765	
+
+Marca:	 AMSTERDAM
+Situação:	  Registro de marca em vigor
+Apresentação:	 Mista
+Natureza:	 De Produto
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(9) 31	Vide Situação do Processo	  ALIMENTOS PARA ANIMAIS, ALIMENTOS PARA ANIMAIS DE ESTIMAÇÃO,...
+
+
+Classificação Internacional de Viena
+Edição	Código	Descrição
+4	27.5.1	Letras apresentando um grafismo especial
+
+
+Titulares
+	Nome
+Titular(1):	TONDO S/A
+
+
+Representante Legal
+	Nome
+Procurador:	Wilson Pinheiro Jabur
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+26/02/2010	05/02/2013	05/02/2033
+
+
+Prazos para prorrogação de registro de marca
+	Prazo Ordinário	Prazo Extraordinário
+Início	06/02/2032	06/02/2033
+Fim	05/02/2033	05/08/2033
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	850220206077	17/05/2022	-		385	TONDO S.A		  -
+	800220164568	12/05/2022	-		374	TONDO S.A		  -
+	800130010917	17/01/2013	-		373	TONDO S.A		  -
+	016100000952	26/02/2010	-		302	TONDO S.A		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2683	07/06/2022	Deferimento da petição	-	-	Protocolo: 850220206077 (17/05/2022)
+Petição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)
+Requerente: TONDO S/A
+Procurador: Wilson Pinheiro Jabur
+
+2683	07/06/2022	Deferimento da petição	-	-	Protocolo: 800220164568 (12/05/2022)
+Petição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)
+Titular(es): TONDO S/A
+Procurador: Wilson Pinheiro Jabur
+
+2196	05/02/2013	400	-	-	
+2181	23/10/2012	351	-	-	
+2063	20/07/2010	003	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 905240472	
+
+Marca:	 Amsterdam
+Situação:	  Registro de marca em vigor
+Apresentação:	 Mista
+Natureza:	 De Produto
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(10) 03	Vide Situação do Processo	  Adesivos (Substâncias -) para uso cosmético; Banhos (Prepara...
+
+
+Classificação Internacional de Viena
+Edição	Código	Descrição
+4	27.5.1	Letras apresentando um grafismo especial
+
+
+Titulares
+	Nome
+Titular(1):	GDR CARVALHO COSMETICS LTDA - ME
+
+
+Representante Legal
+	Nome
+Procurador:	CIDWAN UBERLÂNDIA LTDA ME
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+05/09/2012	01/09/2015	01/09/2025
+
+
+Prazos para prorrogação de registro de marca
+	Prazo Ordinário	Prazo Extraordinário
+Início	02/09/2024	02/09/2025
+Fim	01/09/2025	01/03/2026
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	800250379516	29/09/2025	-		374	FERNANDO VENTURA TORRES COSMETICOS LTDA		  -
+	800150206647	10/08/2015	-		372	FERNANDO VENTURA TORRES COSMETICOS LTDA		  -
+	850120148471	05/09/2012	-		389	FERNANDO VENTURA TORRES COSMETICOS LTDA		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2330	01/09/2015	Concessão de registro	-	-	
+2318	09/06/2015	Deferimento do pedido	-	-	
+2198	19/02/2013	003	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 911655611
+
+Marca:	 AMSTERDAM
+Situação:	  Registro de marca em vigor
+Apresentação:	 Nominativa
+Natureza:	 De Produto
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(10) 34	Vide Situação do Processo	Tabaco
+
+
+Titulares
+	Nome
+Titular(1):	HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA -ME
+
+
+Representante Legal
+	Nome
+Procurador:	AUDITA ASSESSORIA EMPRESARIAL LTDA.
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+22/09/2016	12/06/2018	12/06/2028
+
+
+Prazos para prorrogação de registro de marca
+	Prazo Ordinário	Prazo Extraordinário
+Início	13/06/2027	13/06/2028
+Fim	12/06/2028	12/12/2028
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	850220042603	01/02/2022	-		348	HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME		  -
+	850220010530	11/01/2022	-		385	HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME		  -
+	800180175108	14/05/2018	-		372	HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME		  -
+	850160210004	22/09/2016	-		389	HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2670	08/03/2022	Deferimento da petição	-	-	Protocolo: 850220042603 (01/02/2022)
+Petição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)
+Requerente: HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME
+Procurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.
+Detalhes do despacho:NOME E SEDE ALTERADOS.
+
+2667	15/02/2022	Deferimento da petição	-	-	Protocolo: 850220010530 (11/01/2022)
+Petição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)
+Requerente: SAMUEL LEONARDO HOPPE
+Procurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.
+Detalhes do despacho:Nomeado procurador AUDITA ASSESSORIA EMPRESARIAL LTDA com poderes para representar o titular do processo perante o INPI.
+
+2475	12/06/2018	Concessão de registro	-	-	
+2470	08/05/2018	Deferimento do pedido	-	-	
+2388	11/10/2016	Publicação de pedido de registro para oposição (exame formal concluído)	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 915873028
+
+Marca:	 Amsterdam Pub
+Situação:	  Registro de marca em vigor
+Apresentação:	 Nominativa
+Natureza:	 De Serviço
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(11) 41	Vide Situação do Processo	  Produção de shows; Serviços de boates [entretenimento]; Serv...
+
+
+Titulares
+	Nome
+Titular(1):	POWER EMPREENDIMENTOS LTDA
+
+
+Representante Legal
+	Nome
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+12/09/2018	23/07/2019	23/07/2029
+
+
+Prazos para prorrogação de registro de marca
+	Prazo Ordinário	Prazo Extraordinário
+Início	24/07/2028	24/07/2029
+Fim	23/07/2029	23/01/2030
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	800190248439	02/07/2019	-		372	POWER EMPREENDIMENTOS LTDA		  -
+	850180315710	12/09/2018	-		389	POWER EMPREENDIMENTOS LTDA		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2533	23/07/2019	Concessão de registro	-	-	
+2525	28/05/2019	Deferimento do pedido	-	-	
+2492	09/10/2018	Publicação de pedido de registro para oposição (exame formal concluído)	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 924461470	
+
+Marca:	 AMSTERDAM
+Situação:	  Registro de marca em vigor
+Apresentação:	 Mista
+Natureza:	 Produtos e/ou Serviço
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(11) 34	Vide Situação do Processo	  Artigo para fumante;Bolsas para tabaco [fumo];Charutos;Cigar...
+
+
+Classificação Internacional de Viena
+Edição	Código	Descrição
+4	10.1.1	Tabaco
+4	26.1.1	Círculos
+4	27.5.25	Letras apresentando algum outro grafismo especial
+
+
+Titulares
+	Nome
+Titular(1):	HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA -ME
+
+
+Representante Legal
+	Nome
+Procurador:	AUDITA ASSESSORIA EMPRESARIAL LTDA.
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+30/09/2021	10/01/2023	10/01/2033
+
+
+Prazos para prorrogação de registro de marca
+	Prazo Ordinário	Prazo Extraordinário
+Início	11/01/2032	11/01/2033
+Fim	10/01/2033	10/07/2033
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	800220445977	22/12/2022	-		372	HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME		  -
+	850220010548	11/01/2022	-		385	HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME		  -
+	850210427394	30/09/2021	-		389	HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2714	10/01/2023	Concessão de registro	-	-	
+2710	13/12/2022	Deferimento do pedido	-	-	
+2670	08/03/2022	Deferimento da petição	-	-	Protocolo: 850220042603 (01/02/2022)
+Petição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)
+Requerente: HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME
+Procurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.
+Detalhes do despacho:NOME E SEDE ALTERADOS.
+
+2667	15/02/2022	Deferimento da petição	-	-	Protocolo: 850220010548 (11/01/2022)
+Petição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)
+Requerente: SAMUEL LEONARDO HOPPE
+Procurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.
+Detalhes do despacho:Nomeado procurador AUDITA ASSESSORIA EMPRESARIAL LTDA com poderes para representar o titular do processo perante o INPI.
+
+2650	19/10/2021	Publicação de pedido de registro para oposição (exame formal concluído)	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 935265694	
+
+Marca:	 AMSTERDAM AJU
+Situação:	  Aguardando processamento da concessão do registro de marca
+Apresentação:	 Mista
+Natureza:	 Produtos e/ou Serviço
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(12) 41	Vide Situação do Processo	  Aluguel de salão de festas;Decoração de festas, cerimônias e...
+
+
+Classificação Internacional de Viena
+Edição	Código	Descrição
+4	27.5.1	Letras apresentando um grafismo especial
+
+
+Titulares
+	Nome
+Titular(1):	GDA RESTAURANTE E EVENTOS LTDA
+
+
+Representante Legal
+	Nome
+Procurador:	A Provincia Marcas e Patentes Ltda.
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+04/07/2024		
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	301260020852	05/02/2026	-		3023	DIRMA/GABINETE		  -
+	850240332844	04/07/2024	-		389	GDA RESTAURANTE E EVENTOS LTDA		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2875	10/02/2026	Deferimento do pedido	-	-	
+2794	23/07/2024	Publicação de pedido de registro para oposição (exame formal concluído)	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 935854002	
+
+Marca:	 Amsterdam
+Situação:	  Aguardando exame de mérito
+Apresentação:	 Mista
+Natureza:	 Produtos e/ou Serviço
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(12) 44	Vide Situação do Processo	  Assessoria, consultoria e informação em estética capilar;Ass...
+
+
+Classificação Internacional de Viena
+Edição	Código	Descrição
+4	29.1.8	Preto
+
+
+Titulares
+	Nome
+Titular(1):	AMISTERDAN ROCHA DOS SANTOS FILHO
+
+
+Representante Legal
+	Nome
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+18/08/2024		
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	850240419815	18/08/2024	-		389	AMISTERDAN ROCHA DOS SANTOS FILHO		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2800	03/09/2024	Publicação de pedido de registro para oposição (exame formal concluído)	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 937025984
+
+Marca:	 AMSTERDAM
+Situação:	  Aguardando exame de mérito
+Apresentação:	 Nominativa
+Natureza:	 Produtos e/ou Serviço
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(12) 35	Vide Situação do Processo	Negócios de gestão hoteleira
+
+
+Titulares
+	Nome
+Titular(1):	AMSTERDAM MOTEL LTDA - ME
+
+
+Representante Legal
+	Nome
 Procurador:	GILBERTO LUIS DA SILVEIRA
+
 
 Datas
 Data de Depósito	Data de Concessão	Data de Vigência 
 14/11/2024		
 
+
 Petições 
 Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
-Pagamento Conciliado
+	850240597420	14/11/2024	-		394	AMSTERDAM MOTEL LTDA - ME		  -
 
-
-
-850240597420	14/11/2024	-		394
-AMSTERDAM MOTEL LTDA - ME		  -
 
 Publicações 
 RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
 2814	10/12/2024	Publicação de pedido de registro para oposição (exame formal concluído)	-	-	
- 
-Dados atualizados até 24/02/2026 - Nº da Revista: 2877
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
 
 Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
 
-Fale Conosco
-
-
-
-Brasil
-Acesso à informação
-ParticipeServiçosLegislaçãoCanais
-Instituto Nacional daPropriedade IndustrialMinistério da Economia
-Consulta à Base de Dados do INPI
 [ Início | Ajuda? ]
+
 » Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
 Marca
-Nº do Processo:	 913771767
-Marca:	 Amsterdam
-Situação:	  Pedido de registro de marca indeferido (sem interposição de recurso)
-Apresentação:	 Nominativa
-Natureza:	 De Serviço
+
+Nº do Processo:	 825206049
+
+Marca:	 OLD AMSTERDAM
+Situação:	  Registro de marca em vigor
+Apresentação:	 Nominativa
+Natureza:	 De Produto
+
+
 
 Classificação de Produtos / Serviços
 Classe de Nice	Situação da Classe	Especificação
-NCL(11) 35
-Vide Situação do Processo	  Comércio (através de qualquer meio) de bijuteria; Comércio (...
-Especificação	
-Comércio (através de qualquer meio) de bijuteria; Comércio (através de qualquer meio) de artigos de chapelaria; Comércio (através de qualquer meio) de artigos do vestuário; Comércio (através de qualquer meio) de artigos e produtos confeccionados de couro e imitações de couro; Comércio (através de qualquer meio) de produtos têxteis; Comércio (através de qualquer meio) de roupas
+NCL(8) 29	Vide Situação do Processo	QUEIJO.
+
 
 Titulares
-Nome
-Titular(1):	GUILHERME MELO PORCARO PESSO
+	Nome
+Titular(1):	WESTLAND CHEESE BRANDS B.V.
+
 
 Representante Legal
-Nome
-Procurador:	Consolide - Dr. Alan Marcos da Silva
+	Nome
+Procurador:	MARCELLO DO NASCIMENTO
+
 
 Datas
 Data de Depósito	Data de Concessão	Data de Vigência 
-23/11/2017		
+29/01/2003	22/01/2019	22/01/2029
+
+
+Prazos para prorrogação de registro de marca
+	Prazo Ordinário	Prazo Extraordinário
+Início	23/01/2028	23/01/2029
+Fim	22/01/2029	22/07/2029
+
 
 Petições 
 Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
-Pagamento Conciliado
+	800180078104	02/03/2018	-		372	WESTLAND CHEESE BRANDS B.V.		  -
+	850170332521	22/12/2017	-		348	WESTLAND CHEESE BRANDS B.V.		  -
+	850170321379	13/12/2017	-		366	WESTLAND KAASSPECIALITEITEN B.V.		  -
+	850170321367	13/12/2017	-		366	WESTLAND KAASSPECIALITEITEN B.V.		  -
+	018070026587	30/04/2007	-		333	WESTLAND KAASSPECIALITEITEN B.V.		  -
+	018031002830	29/01/2003	-		848	DIRMA/GABINETE		  -
 
-
-
-850170298364	23/11/2017	-		389
-GUILHERME MELO PORCARO PESSO		  -
 
 Publicações 
 RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
-2500	04/12/2018	Indeferimento do pedido	-	-	Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 901706035 (AMSTERDAM) e Processo 828205132 (AMSTERDAM SAUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;
-2450	19/12/2017	Publicação de pedido de registro para oposição (exame formal concluído)	-	-	
- 
-Dados atualizados até 24/02/2026 - Nº da Revista: 2877
+2507	22/01/2019	Concessão de registro	-	-	
+2494	23/10/2018	Deferimento da petição	-	-	Protocolo: 850170332521 (22/12/2017)
+Petição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)
+Requerente(es): WESTLAND CHEESE BRANDS B.V.
+Procurador: David do Nascimento Advogados Associados
+Detalhes do despacho:Nome alterado.
+
+2467	17/04/2018	Ato de prejudicar petição	-	-	Protocolo: 850170321379 (13/12/2017)
+Petição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)
+Titular: WESTLAND KAASSPECIALITEITEN B.V.
+Procurador: David do Nascimento Advogados Associados
+Detalhes do despacho:Solicitação já atendida pela petição 850170321367, de mesmo teor.
+
+2467	17/04/2018	Petição de retificação atendida	-	-	Protocolo: 850170321367 (13/12/2017)
+Petição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)
+Titular: WESTLAND KAASSPECIALITEITEN B.V.
+Procurador: David do Nascimento Advogados Associados
+Detalhes do despacho:Vide publicação para o processo na RPI 2458 de 14/02/2018.
+
+2458	14/02/2018	Recurso provido (decisão reformada para: Deferimento)	-	-	Protocolo: 18070026587 (30/04/2007)
+Petição (tipo): Recurso (SINPI P04)
+Requerente: WESTLAND KAASSPECIALITEITEN B.V.
+Procurador: DAVID DO NASCIMENTO ADVOGADOS ASSOCIADOS
+Detalhes do despacho:DECIDO O RECURSO. NOS TERMOS E CONDIÇÕES CONSTANTES NO REFERIDO PARECER, RESSALVADO, CONFORME O CASO, A ADOÇÃO DO PADRÃO DE APOSTILA INSTITUÍDO POR MEIO DA RESOLUÇÃO 166/2016.
+
+1950	20/05/2008	210	-	-	INDEFERIMENTO.
+1886	27/02/2007	100	-	-	INCISO XIX DO ART. 124 DA LPI, REG(S). 819852040, 819852058.
+1680	18/03/2003	003	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
 
 Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
 
-Fale Conosco
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 826044735	
+
+Marca:	 OLD AMSTERDAM
+Situação:	  Registro de marca em vigor
+Apresentação:	 Mista
+Natureza:	 De Produto
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(8) 29	Vide Situação do Processo	QUEIJO E PRODUTOS DE QUEIJO.
+
+
+Classificação Internacional de Viena
+Edição	Código	Descrição
+4	27.5.1	Letras apresentando um grafismo especial
+4	26.7.25	Outras combinações de figuras geométricas diferentes, justapostas, unidas ou entrecortadas
+
+
+Titulares
+	Nome
+Titular(1):	WESTLAND CHEESE BRANDS B.V.
+
+
+Representante Legal
+	Nome
+Procurador:	MARCELLO DO NASCIMENTO
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+05/01/2004	02/04/2019	02/04/2029
+
+
+Prazos para prorrogação de registro de marca
+	Prazo Ordinário	Prazo Extraordinário
+Início	03/04/2028	03/04/2029
+Fim	02/04/2029	02/10/2029
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	800190090234	12/03/2019	-		372	WESTLAND CHEESE BRANDS B.V.		  -
+	850190045149	15/02/2019	-		339	WESTLAND CHEESE BRANDS B.V.		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2517	02/04/2019	Concessão de registro	-	-	
+2511	19/02/2019	Deferimento do pedido	-	-	
+2494	23/10/2018	Deferimento da petição	-	-	Protocolo: 850170332521 (22/12/2017)
+Petição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)
+Requerente(es): WESTLAND CHEESE BRANDS B.V.
+Procurador: David do Nascimento Advogados Associados
+Detalhes do despacho:Nome alterado.
+
+1900	05/06/2007	241	-	-	825206049.
+1726	03/02/2004	003	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+[ Início | Ajuda? ]
+
+» Consultar por: No.Processo | Marca | Titular | Cód. Figura ]	1/0
+
+
+Marca
+
+Nº do Processo:	 906708788
+
+Marca:	 NEW AMSTERDAM
+Situação:	  Registro de marca em vigor
+Apresentação:	 Nominativa
+Natureza:	 De Produto
+
+
+
+Classificação de Produtos / Serviços
+Classe de Nice	Situação da Classe	Especificação
+NCL(10) 33	Vide Situação do Processo	Bebidas alcoólicas [exceto cerveja]
+
+
+Titulares
+	Nome
+Titular(1):	E. & J. GALLO WINERY
+
+
+Representante Legal
+	Nome
+Procurador:	Dannemann, Siemsen, Bigler & Ipanema Moreira
+
+
+Datas
+Data de Depósito	Data de Concessão	Data de Vigência 
+02/09/2013	24/05/2016	24/05/2036
+
+
+Prazos para prorrogação de registro de marca
+	Prazo Ordinário	Prazo Extraordinário
+Início	25/05/2035	25/05/2036
+Fim	24/05/2036	24/11/2036
+
+
+Petições 
+Pgo	Protocolo	Data	Img		Serviço	Cliente	Delivery	Data
+	800250418767	14/11/2025	-		374	E. & J. GALLO WINERY		  -
+	800160117219	29/04/2016	-		372	E. & J. GALLO WINERY		  -
+	850130170056	02/09/2013	-		389	E. & J. GALLO WINERY		  -
+
+
+Publicações 
+RPI	Data RPI	Despacho	Certificado	Inteiro Teor	Complemento do Despacho
+2867	16/12/2025	Deferimento da petição	-	-	Protocolo: 800250418767 (14/11/2025)
+Petição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)
+Titular(es): E. & J. GALLO WINERY
+Procurador: Dannemann, Siemsen, Bigler & Ipanema Moreira
+
+2368	24/05/2016	Concessão de registro	-	-	
+2362	12/04/2016	Deferimento do pedido	-	-	
+2240	10/12/2013	Publicação de pedido de registro para oposição (exame formal concluído)	-	-	
+ 
+Dados atualizados até 10/03/2026 - Nº da Revista: 2879
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910

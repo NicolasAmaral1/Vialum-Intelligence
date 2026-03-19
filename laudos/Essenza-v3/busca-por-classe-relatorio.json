@@ -1,0 +1,44 @@
+{
+  "marca": "ESSENZA",
+  "classes": [
+    11,
+    35,
+    37
+  ],
+  "por_classe": {
+    "11": {
+      "encontradas": 4,
+      "mantidas": 4,
+      "detalhadas": 4,
+      "falhas": []
+    },
+    "35": {
+      "encontradas": 105,
+      "mantidas": 105,
+      "detalhadas": 101,
+      "falhas": [
+        "938757997",
+        "938944410",
+        "938944584",
+        "938980823"
+      ]
+    },
+    "37": {
+      "encontradas": 9,
+      "mantidas": 9,
+      "detalhadas": 9,
+      "falhas": []
+    }
+  },
+  "total_encontradas": 118,
+  "total_mantidas": 118,
+  "total_detalhadas": 114,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": [
+    "938757997",
+    "938944410",
+    "938944584",
+    "938980823"
+  ]
+}

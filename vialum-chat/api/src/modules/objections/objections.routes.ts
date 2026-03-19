@@ -66,8 +66,8 @@ export async function objectionRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // POST /objections
-  fastify.post('/', async (request: FastifyRequest, reply: FastifyReply) => {
+  // POST /objections — admin only
+  fastify.post('/', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload;
     const body = createSchema.parse(request.body);
 
@@ -82,8 +82,8 @@ export async function objectionRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // PATCH /objections/:id
-  fastify.patch('/:id', async (request: FastifyRequest, reply: FastifyReply) => {
+  // PATCH /objections/:id — admin only
+  fastify.patch('/:id', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload;
     const { id } = request.params as { id: string };
     const body = updateSchema.parse(request.body);
@@ -99,8 +99,8 @@ export async function objectionRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // DELETE /objections/:id
-  fastify.delete('/:id', async (request: FastifyRequest, reply: FastifyReply) => {
+  // DELETE /objections/:id — admin only
+  fastify.delete('/:id', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload;
     const { id } = request.params as { id: string };
 

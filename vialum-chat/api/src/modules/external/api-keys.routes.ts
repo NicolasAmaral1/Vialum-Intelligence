@@ -11,8 +11,8 @@ export async function apiKeyRoutes(fastify: FastifyInstance) {
     return reply.send({ data: keys });
   });
 
-  // Create API key
-  fastify.post('/', async (
+  // Create API key — admin only
+  fastify.post('/', { onRequest: [(fastify as any).adminGuard] }, async (
     request: FastifyRequest<{
       Params: { accountId: string };
       Body: { name: string };
@@ -29,8 +29,8 @@ export async function apiKeyRoutes(fastify: FastifyInstance) {
     return reply.status(201).send({ data: result });
   });
 
-  // Deactivate API key
-  fastify.delete('/:keyId', async (
+  // Deactivate API key — admin only
+  fastify.delete('/:keyId', { onRequest: [(fastify as any).adminGuard] }, async (
     request: FastifyRequest<{ Params: { accountId: string; keyId: string } }>,
     reply: FastifyReply,
   ) => {

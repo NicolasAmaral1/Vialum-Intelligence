@@ -13,6 +13,7 @@ import {
   Zap,
   GitBranch,
   Users,
+  UsersRound,
   Settings,
   LogOut,
 } from 'lucide-react';
@@ -27,6 +28,7 @@ const navItems = [
   { href: '/automation', icon: Zap, label: 'Automação' },
   { href: '/treeflows', icon: GitBranch, label: 'TreeFlows' },
   { href: '/contacts', icon: Users, label: 'Contatos' },
+  { href: '/settings/team', icon: UsersRound, label: 'Equipe' },
   { href: '/settings/account', icon: Settings, label: 'Configurações' },
 ];
 

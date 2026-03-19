@@ -40,6 +40,7 @@ components:
     - laudo-monitorar.md
     - laudo-coletar.md
     - laudo-preliminar.md
+    - laudo-busca-inpi.md
     - laudo-inpi.md
     - laudo-gerar.md
   agents:
@@ -55,6 +56,7 @@ dependencies:
     - google-api-python-client>=2.0.0
     - google-auth-oauthlib>=1.0.0
     - google-auth-httplib2>=0.1.0
+    - playwright>=1.40.0
 
 config:
   extends: extend
@@ -92,6 +94,7 @@ resources:
     gerar_pdf: squads/laudo-viabilidade/scripts/gerar_laudo_reportlab.py
     gerar_docx: squads/laudo-viabilidade/scripts/gerar_docx_builder.py
     drive: squads/laudo-viabilidade/scripts/google_drive_service.py
+    busca_por_classe: squads/laudo-viabilidade/scripts/busca_inpi_por_classe.py
   assets:
     fonts: squads/laudo-viabilidade/resources/assets/fonts/
     logo: squads/laudo-viabilidade/resources/assets/imagens-fixas/logo-genesis.png

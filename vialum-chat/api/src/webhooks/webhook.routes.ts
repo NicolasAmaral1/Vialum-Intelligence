@@ -22,11 +22,24 @@ function getIncomingMessageQueue(): Queue {
 }
 
 export async function webhookRoutes(fastify: FastifyInstance) {
+
+  // Rate limit per inboxId: 100 requests/minute
+  const webhookRateLimit = {
+    config: {
+      rateLimit: {
+        max: 100,
+        timeWindow: '1 minute',
+        keyGenerator: (request: FastifyRequest) =>
+          `webhook:${(request.params as Record<string, string>).inboxId}`,
+      },
+    },
+  };
+
   // ──────────────────────────────────────────────────────────
   // Evolution API Webhook
   // ──────────────────────────────────────────────────────────
 
-  fastify.post('/evolution/:inboxId', async (
+  fastify.post('/evolution/:inboxId', webhookRateLimit, async (
     request: FastifyRequest<{ Params: { inboxId: string }; Body: Record<string, unknown> }>,
     reply: FastifyReply,
   ) => {
@@ -148,7 +161,7 @@ export async function webhookRoutes(fastify: FastifyInstance) {
   // WhatsApp Cloud API Webhook — Events (POST)
   // ──────────────────────────────────────────────────────────
 
-  fastify.post('/cloud/:inboxId', async (
+  fastify.post('/cloud/:inboxId', webhookRateLimit, async (
     request: FastifyRequest<{ Params: { inboxId: string }; Body: Record<string, unknown> }>,
     reply: FastifyReply,
   ) => {

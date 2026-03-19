@@ -1,0 +1,53 @@
+# MinIO Object Storage — S3-Compatible
+# Portable: swap for AWS S3 by changing env vars in consumers.
+# MinIO itself only runs in self-hosted environments.
+#
+# Usage:
+#   cp .env.example .env  (edit values)
+#   docker compose up -d
+#   ./init-buckets.sh     (create default buckets)
+
+services:
+  minio:
+    image: minio/minio:latest
+    container_name: vialum-minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-vialum-admin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}
+      MINIO_REGION: ${MINIO_REGION:-us-east-1}
+    ports:
+      - "${MINIO_API_PORT:-9000}:9000"
+      - "${MINIO_CONSOLE_PORT:-9001}:9001"
+    volumes:
+      - minio-data:/data
+    networks:
+      - proxy
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    labels:
+      - "traefik.enable=true"
+      # API endpoint (S3-compatible)
+      - "traefik.http.routers.minio-api.rule=Host(`s3.luminai.ia.br`)"
+      - "traefik.http.routers.minio-api.entrypoints=websecure"
+      - "traefik.http.routers.minio-api.tls.certresolver=le"
+      - "traefik.http.routers.minio-api.service=minio-api"
+      - "traefik.http.services.minio-api.loadbalancer.server.port=9000"
+      # Console (admin UI)
+      - "traefik.http.routers.minio-console.rule=Host(`s3-console.luminai.ia.br`)"
+      - "traefik.http.routers.minio-console.entrypoints=websecure"
+      - "traefik.http.routers.minio-console.tls.certresolver=le"
+      - "traefik.http.routers.minio-console.service=minio-console"
+      - "traefik.http.services.minio-console.loadbalancer.server.port=9001"
+
+volumes:
+  minio-data:
+    driver: local
+
+networks:
+  proxy:
+    external: true

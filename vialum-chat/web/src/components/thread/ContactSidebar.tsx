@@ -1,10 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { X, ExternalLink, Loader2, FolderOpen, BarChart3, CheckSquare, Phone, Mail, GitBranch } from 'lucide-react';
+import { X, ExternalLink, Loader2, FolderOpen, BarChart3, CheckSquare, Phone, Mail, GitBranch, Users, RefreshCw, Shield } from 'lucide-react';
 import { crmApi } from '@/lib/api/crm';
+import { groupsApi, type GroupMember } from '@/lib/api/groups';
+import { useAuthStore } from '@/stores/auth.store';
+import { ContactAvatar } from '@/components/shared/AvatarFallback';
 import type { ContactCrmSummary, CrmIntegrationSummary } from '@/types/crm';
-import type { Contact, Label } from '@/types/api';
+import type { Contact, Label, Group } from '@/types/api';
 
 interface ActiveTalkInfo {
   id: string;
@@ -16,6 +19,7 @@ interface ActiveTalkInfo {
 
 interface ContactSidebarProps {
   contact: Contact;
+  group?: Group | null;
   conversationStatus: string;
   labels: Label[];
   activeTalk: ActiveTalkInfo | null;
@@ -25,16 +29,28 @@ interface ContactSidebarProps {
 
 export function ContactSidebar({
   contact,
+  group,
   conversationStatus,
   labels,
   activeTalk,
   pendingSuggestionsCount,
   onClose,
 }: ContactSidebarProps) {
+  const currentAccount = useAuthStore((s) => s.currentAccount);
   const [crmData, setCrmData] = useState<ContactCrmSummary | null>(null);
   const [crmLoading, setCrmLoading] = useState(true);
+  const [groupMembers, setGroupMembers] = useState<GroupMember[]>([]);
+  const [groupLoading, setGroupLoading] = useState(false);
+  const [syncing, setSyncing] = useState(false);
 
+  const isGroup = !!group;
+
+  // Fetch CRM data for contacts (not groups)
   useEffect(() => {
+    if (isGroup) {
+      setCrmLoading(false);
+      return;
+    }
     let cancelled = false;
     setCrmLoading(true);
 
@@ -52,9 +68,44 @@ export function ContactSidebar({
 
     return () => { cancelled = true; };
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [contact.id]);
+  }, [contact.id, isGroup]);
 
-  const initials = contact.name?.slice(0, 2).toUpperCase() || '??';
+  // Fetch group members
+  useEffect(() => {
+    if (!isGroup || !group?.id || !currentAccount) return;
+    let cancelled = false;
+    setGroupLoading(true);
+
+    groupsApi.get(currentAccount.accountId, group.id).then((result) => {
+      if (!cancelled && result?.data?.members) {
+        setGroupMembers(result.data.members);
+      }
+    }).catch(() => {}).finally(() => {
+      if (!cancelled) setGroupLoading(false);
+    });
+
+    return () => { cancelled = true; };
+  }, [group?.id, isGroup, currentAccount]);
+
+  const handleSyncGroup = async () => {
+    if (!group?.id || !currentAccount || syncing) return;
+    setSyncing(true);
+    try {
+      await groupsApi.sync(currentAccount.accountId, group.id);
+      // Re-fetch members after sync
+      const result = await groupsApi.get(currentAccount.accountId, group.id);
+      if (result?.data?.members) {
+        setGroupMembers(result.data.members);
+      }
+    } catch {
+      // silently fail
+    } finally {
+      setSyncing(false);
+    }
+  };
+
+  const displayName = isGroup ? (group?.name || 'Grupo sem nome') : (contact.displayName || contact.name);
+  const initials = displayName?.slice(0, 2).toUpperCase() || '??';
 
   const statusLabel = {
     open: 'Aberta',
@@ -70,7 +121,7 @@ export function ContactSidebar({
   };
   const statusClasses = statusStyles[conversationStatus] ?? 'bg-text-3/10 text-text-3';
 
-  // Funnel progress calculation
+  // Funnel progress calculation (contacts only)
   const funnelStages = ['lead', 'qualificado', 'proposta', 'negociacao', 'fechado'];
   const currentStageIndex = contact.funnelStage
     ? funnelStages.indexOf(contact.funnelStage.toLowerCase())
@@ -88,7 +139,9 @@ export function ContactSidebar({
     <div className="w-[360px] flex flex-col shrink-0 overflow-y-auto bg-raised border-l border-border animate-in slide-in-from-right duration-200">
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-3 border-b border-border">
-        <h3 className="text-[13px] font-semibold text-text-2">Detalhes do Contato</h3>
+        <h3 className="text-[13px] font-semibold text-text-2">
+          {isGroup ? 'Detalhes do Grupo' : 'Detalhes do Contato'}
+        </h3>
         <button
           onClick={onClose}
           className="p-1.5 rounded-lg hover:bg-white/[0.05] text-text-3 transition-colors"
@@ -99,37 +152,123 @@ export function ContactSidebar({
 
       {/* Profile card */}
       <div className="border-b border-border px-4 py-6 flex flex-col items-center">
-        <div className="h-[72px] w-[72px] rounded-full bg-gradient-to-br from-primary/80 to-primary flex items-center justify-center text-primary-foreground text-lg font-bold">
-          {initials}
-        </div>
-        <h4 className="mt-3 text-[16px] font-semibold text-text-1">{contact.name}</h4>
-        {contact.phone && (
-          <div className="flex items-center gap-1.5 mt-1 text-[12px] text-text-3">
-            <Phone className="h-3 w-3" />
-            {contact.phone}
+        {isGroup && group?.profilePicUrl ? (
+          <img
+            src={group.profilePicUrl}
+            alt={group.name}
+            className="h-[72px] w-[72px] rounded-full object-cover"
+          />
+        ) : (
+          <div className="h-[72px] w-[72px] rounded-full bg-gradient-to-br from-primary/80 to-primary flex items-center justify-center text-primary-foreground text-lg font-bold">
+            {isGroup ? <Users className="h-7 w-7" /> : initials}
           </div>
         )}
-        {contact.email && (
-          <div className="flex items-center gap-1.5 mt-1 text-[12px] text-text-3">
-            <Mail className="h-3 w-3" />
-            {contact.email}
-          </div>
-        )}
-        {contact.funnelStage && (
-          <div className="mt-4 w-full">
-            <div className="flex items-center justify-between mb-1.5">
-              <span className="text-[11px] text-text-3">Estágio do funil</span>
-              <span className="text-[11px] font-medium text-primary">{contact.funnelStage}</span>
-            </div>
-            <div className="w-full h-1.5 rounded-full overflow-hidden bg-surface-custom">
-              <div
-                className="h-full rounded-full bg-gradient-to-r from-primary/80 to-primary transition-all"
-                style={{ width: `${funnelProgress}%` }}
-              />
-            </div>
-          </div>
+        <h4 className="mt-3 text-[16px] font-semibold text-text-1 flex items-center gap-1.5">
+          {isGroup && <span className="text-[13px]">👥</span>}
+          {displayName}
+        </h4>
+
+        {isGroup ? (
+          <>
+            <span className="mt-1 text-[12px] text-text-3">
+              {group?.groupType === 'agency' ? 'Grupo agência' : 'Grupo cliente'}
+              {groupMembers.length > 0 && ` · ${groupMembers.length} membros`}
+            </span>
+            {group?.description && (
+              <p className="mt-2 text-[11px] text-text-3 text-center leading-relaxed max-w-[280px]">
+                {group.description}
+              </p>
+            )}
+          </>
+        ) : (
+          <>
+            {contact.phone && (
+              <div className="flex items-center gap-1.5 mt-1 text-[12px] text-text-3">
+                <Phone className="h-3 w-3" />
+                {contact.formattedPhone || contact.phone}
+              </div>
+            )}
+            {contact.email && (
+              <div className="flex items-center gap-1.5 mt-1 text-[12px] text-text-3">
+                <Mail className="h-3 w-3" />
+                {contact.email}
+              </div>
+            )}
+            {contact.funnelStage && (
+              <div className="mt-4 w-full">
+                <div className="flex items-center justify-between mb-1.5">
+                  <span className="text-[11px] text-text-3">Estágio do funil</span>
+                  <span className="text-[11px] font-medium text-primary">{contact.funnelStage}</span>
+                </div>
+                <div className="w-full h-1.5 rounded-full overflow-hidden bg-surface-custom">
+                  <div
+                    className="h-full rounded-full bg-gradient-to-r from-primary/80 to-primary transition-all"
+                    style={{ width: `${funnelProgress}%` }}
+                  />
+                </div>
+              </div>
+            )}
+          </>
         )}
       </div>
+
+      {/* Group members section */}
+      {isGroup && (
+        <div className="px-4 py-4 space-y-2 border-b border-border">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-1.5">
+              <Users className="h-3 w-3 text-text-4" />
+              <h5 className="text-[11px] font-semibold uppercase tracking-wider text-text-4">
+                Membros ({groupMembers.length})
+              </h5>
+            </div>
+            <button
+              type="button"
+              onClick={handleSyncGroup}
+              disabled={syncing}
+              className="p-1 rounded hover:bg-white/[0.05] text-text-4 hover:text-text-2 transition-colors disabled:opacity-50"
+              title="Sincronizar membros do WhatsApp"
+            >
+              <RefreshCw className={`h-3 w-3 ${syncing ? 'animate-spin' : ''}`} />
+            </button>
+          </div>
+
+          {groupLoading ? (
+            <div className="flex items-center justify-center py-3">
+              <Loader2 className="h-4 w-4 animate-spin text-text-3" />
+            </div>
+          ) : groupMembers.length === 0 ? (
+            <p className="text-[11px] text-text-3 py-2">Nenhum membro registrado</p>
+          ) : (
+            <div className="space-y-1 max-h-[240px] overflow-y-auto">
+              {groupMembers.map((member) => (
+                <div
+                  key={member.id}
+                  className="flex items-center gap-2.5 p-2 rounded-lg hover:bg-white/[0.03] transition-colors"
+                >
+                  <ContactAvatar
+                    name={member.contact.name}
+                    avatarUrl={member.contact.avatarUrl}
+                    size={28}
+                  />
+                  <div className="flex-1 min-w-0">
+                    <p className="text-[12px] text-text-1 truncate">{member.contact.name}</p>
+                    {member.contact.phone && (
+                      <p className="text-[10px] text-text-4 truncate">{member.contact.phone}</p>
+                    )}
+                  </div>
+                  {(member.role === 'admin' || member.role === 'superadmin') && (
+                    <span className="flex items-center gap-0.5 text-[9px] px-1.5 py-0.5 rounded-full bg-primary/10 text-primary font-medium">
+                      <Shield className="h-2.5 w-2.5" />
+                      {member.role === 'superadmin' ? 'Dono' : 'Admin'}
+                    </span>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Actions / Status section */}
       <div className="px-4 py-4 space-y-3 border-b border-border">
@@ -226,54 +365,55 @@ export function ContactSidebar({
         )}
       </div>
 
-      {/* Previous conversations / CRM */}
-      {crmLoading ? (
-        <div className="px-4 py-6 flex items-center justify-center">
-          <Loader2 className="h-4 w-4 animate-spin text-text-3" />
-          <span className="ml-2 text-xs text-text-3">Carregando CRM...</span>
-        </div>
-      ) : (
+      {/* CRM section — only for individual contacts */}
+      {!isGroup && (
         <>
-          {/* Pipedrive */}
-          {pipedriveItems.length > 0 && (
-            <div className="px-4 py-4 space-y-2 border-b border-border">
-              <h5 className="text-[11px] font-semibold uppercase tracking-wider text-text-4">Pipedrive</h5>
-              {pipedriveItems.map((item) => (
-                <IntegrationCard key={item.id} item={item} icon={<BarChart3 className="h-3.5 w-3.5" />} />
-              ))}
+          {crmLoading ? (
+            <div className="px-4 py-6 flex items-center justify-center">
+              <Loader2 className="h-4 w-4 animate-spin text-text-3" />
+              <span className="ml-2 text-xs text-text-3">Carregando CRM...</span>
             </div>
-          )}
+          ) : (
+            <>
+              {pipedriveItems.length > 0 && (
+                <div className="px-4 py-4 space-y-2 border-b border-border">
+                  <h5 className="text-[11px] font-semibold uppercase tracking-wider text-text-4">Pipedrive</h5>
+                  {pipedriveItems.map((item) => (
+                    <IntegrationCard key={item.id} item={item} icon={<BarChart3 className="h-3.5 w-3.5" />} />
+                  ))}
+                </div>
+              )}
 
-          {/* ClickUp */}
-          {clickupItems.length > 0 && (
-            <div className="px-4 py-4 space-y-2 border-b border-border">
-              <h5 className="text-[11px] font-semibold uppercase tracking-wider text-text-4">ClickUp</h5>
-              {clickupItems.map((item) => (
-                <IntegrationCard key={item.id} item={item} icon={<CheckSquare className="h-3.5 w-3.5" />} />
-              ))}
-            </div>
-          )}
+              {clickupItems.length > 0 && (
+                <div className="px-4 py-4 space-y-2 border-b border-border">
+                  <h5 className="text-[11px] font-semibold uppercase tracking-wider text-text-4">ClickUp</h5>
+                  {clickupItems.map((item) => (
+                    <IntegrationCard key={item.id} item={item} icon={<CheckSquare className="h-3.5 w-3.5" />} />
+                  ))}
+                </div>
+              )}
 
-          {/* Google Drive */}
-          {gdriveItems.length > 0 && (
-            <div className="px-4 py-4 space-y-2 border-b border-border">
-              <h5 className="text-[11px] font-semibold uppercase tracking-wider text-text-4">Google Drive</h5>
-              {gdriveItems.map((item) => (
-                <IntegrationCard key={item.id} item={item} icon={<FolderOpen className="h-3.5 w-3.5" />} />
-              ))}
-            </div>
-          )}
+              {gdriveItems.length > 0 && (
+                <div className="px-4 py-4 space-y-2 border-b border-border">
+                  <h5 className="text-[11px] font-semibold uppercase tracking-wider text-text-4">Google Drive</h5>
+                  {gdriveItems.map((item) => (
+                    <IntegrationCard key={item.id} item={item} icon={<FolderOpen className="h-3.5 w-3.5" />} />
+                  ))}
+                </div>
+              )}
 
-          {pipedriveItems.length === 0 && clickupItems.length === 0 && gdriveItems.length === 0 && (
-            <div className="px-4 py-4 text-center">
-              <p className="text-xs text-text-3">Nenhuma integração CRM vinculada</p>
-            </div>
+              {pipedriveItems.length === 0 && clickupItems.length === 0 && gdriveItems.length === 0 && (
+                <div className="px-4 py-4 text-center">
+                  <p className="text-xs text-text-3">Nenhuma integração CRM vinculada</p>
+                </div>
+              )}
+            </>
           )}
         </>
       )}
 
       {/* Notes */}
-      {contact.notes && (
+      {!isGroup && contact.notes && (
         <div className="px-4 py-4 space-y-2">
           <h5 className="text-[11px] font-semibold uppercase tracking-wider text-text-4">Notas</h5>
           <p className="text-xs text-text-3 leading-relaxed whitespace-pre-wrap">

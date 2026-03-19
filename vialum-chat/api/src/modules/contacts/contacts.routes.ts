@@ -14,6 +14,7 @@ const createContactSchema = z.object({
 
 const updateContactSchema = z.object({
   name: z.string().min(1).max(255).optional(),
+  customName: z.string().max(255).nullish(),
   phone: z.string().max(50).nullish(),
   email: z.string().email().max(255).nullish(),
   avatarUrl: z.string().url().nullish(),

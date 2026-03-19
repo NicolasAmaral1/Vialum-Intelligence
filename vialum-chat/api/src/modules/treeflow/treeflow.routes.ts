@@ -96,8 +96,8 @@ export async function treeFlowRoutes(fastify: FastifyInstance) {
     return reply.send({ data: treeFlows });
   });
 
-  // POST /tree-flows
-  fastify.post('/', async (request: FastifyRequest, reply: FastifyReply) => {
+  // POST /tree-flows — admin only
+  fastify.post('/', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload;
     const body = createSchema.parse(request.body);
 
@@ -128,8 +128,8 @@ export async function treeFlowRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // PATCH /tree-flows/:id
-  fastify.patch('/:id', async (request: FastifyRequest, reply: FastifyReply) => {
+  // PATCH /tree-flows/:id — admin only
+  fastify.patch('/:id', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload;
     const { id } = request.params as { id: string };
     const body = updateSchema.parse(request.body);
@@ -145,8 +145,8 @@ export async function treeFlowRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // POST /tree-flows/:id/versions
-  fastify.post('/:id/versions', async (request: FastifyRequest, reply: FastifyReply) => {
+  // POST /tree-flows/:id/versions — admin only
+  fastify.post('/:id/versions', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload;
     const { id } = request.params as { id: string };
     const body = createVersionSchema.parse(request.body);
@@ -162,8 +162,8 @@ export async function treeFlowRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // POST /tree-flows/:id/versions/:versionId/publish
-  fastify.post('/:id/versions/:versionId/publish', async (request: FastifyRequest, reply: FastifyReply) => {
+  // POST /tree-flows/:id/versions/:versionId/publish — admin only
+  fastify.post('/:id/versions/:versionId/publish', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload;
     const { id, versionId } = request.params as { id: string; versionId: string };
 

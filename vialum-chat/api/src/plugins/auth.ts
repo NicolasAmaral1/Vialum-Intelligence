@@ -44,6 +44,17 @@ async function authPlugin(fastify: FastifyInstance) {
       reply.status(403).send({ error: 'Forbidden', code: 'NO_ACCOUNT' });
     }
   });
+
+  // Admin guard: requires role admin or owner
+  fastify.decorate('adminGuard', async function (
+    request: FastifyRequest,
+    reply: FastifyReply,
+  ) {
+    const role = request.jwtPayload?.role;
+    if (role !== 'admin' && role !== 'owner') {
+      reply.status(403).send({ error: 'Forbidden', code: 'ADMIN_REQUIRED' });
+    }
+  });
 }
 
 export default fp(authPlugin, { name: 'auth' });

@@ -12,6 +12,8 @@ import { oauthRoutes } from './modules/oauth/oauth.routes.js';
 import { identityRoutes } from './modules/identity/identity.routes.js';
 import { agentRoutes } from './modules/agent/agent.routes.js';
 import { groupRoutes } from './modules/groups/groups.routes.js';
+import { taskRoutes } from './modules/tasks/tasks.routes.js';
+import { organizationRoutes } from './modules/organizations/organizations.routes.js';
 import { initProviders } from './providers/index.js';
 
 const fastify = Fastify({ logger: true });
@@ -42,6 +44,8 @@ async function start() {
     app.register(identityRoutes, { prefix: '/identity' });
     app.register(agentRoutes, { prefix: '/agent' });
     app.register(groupRoutes, { prefix: '/groups' });
+    app.register(taskRoutes, { prefix: '/tasks' });
+    app.register(organizationRoutes, { prefix: '/organizations' });
   }, { prefix: '/crm/api/v1' });
 
   await fastify.listen({ port: env.PORT, host: '0.0.0.0' });

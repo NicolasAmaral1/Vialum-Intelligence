@@ -1,0 +1,842 @@
+[
+  {
+    "numero_processo": "813591155",
+    "nome_marca": "ESSENZA",
+    "situacao": "Arquivado",
+    "titular": "ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME",
+    "classe": 35,
+    "prioridade": "19/06/1987"
+  },
+  {
+    "numero_processo": "815067763",
+    "nome_marca": "ESSENZA",
+    "situacao": "Arquivado",
+    "titular": "ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME",
+    "classe": 35,
+    "prioridade": "03/08/1989"
+  },
+  {
+    "numero_processo": "816417180",
+    "nome_marca": "ESSENZA",
+    "situacao": "Extinto",
+    "titular": "ESSENZA REPRESENTACOES E CONSULTORIA EM MARKETING LTDA",
+    "classe": 35,
+    "prioridade": "09/10/1991"
+  },
+  {
+    "numero_processo": "818469595",
+    "nome_marca": "ESSENZA",
+    "situacao": "Registro de marca extinto",
+    "titular": "BEAUTY SHOP COMÉRCIO, IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+    "classe": 35,
+    "prioridade": "08/05/1995"
+  },
+  {
+    "numero_processo": "818491892",
+    "nome_marca": "ESSENZA",
+    "situacao": "Registro de marca extinto",
+    "titular": "UNIQUE GESTÃO DE MARCAS E FRANQUIAS LTDA.",
+    "classe": 35,
+    "prioridade": "29/05/1995"
+  },
+  {
+    "numero_processo": "818854650",
+    "nome_marca": "QUINT' ESSÈNZA",
+    "situacao": "Arquivado",
+    "titular": "M AGIUFFRIDA COSMETICOS LTDA ME",
+    "classe": 35,
+    "prioridade": "27/10/1995"
+  },
+  {
+    "numero_processo": "818975830",
+    "nome_marca": "ESSENZA",
+    "situacao": "Registro de marca extinto",
+    "titular": "ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME",
+    "classe": 35,
+    "prioridade": "13/12/1995"
+  },
+  {
+    "numero_processo": "818975849",
+    "nome_marca": "ESSENZA",
+    "situacao": "Arquivado",
+    "titular": "ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME",
+    "classe": 35,
+    "prioridade": "13/12/1995"
+  },
+  {
+    "numero_processo": "819293571",
+    "nome_marca": "ESSENZA DI VITA",
+    "situacao": "Arquivado",
+    "titular": "AGROPECUARIA CONVERGENTE LTDA",
+    "classe": 35,
+    "prioridade": "24/07/1996"
+  },
+  {
+    "numero_processo": "819293563",
+    "nome_marca": "ESSENZA DI VITA",
+    "situacao": "Arquivado",
+    "titular": "AGROPECUARIA CONVERGENTE LTDA",
+    "classe": 35,
+    "prioridade": "24/07/1996"
+  },
+  {
+    "numero_processo": "821436651",
+    "nome_marca": "ESSENZA",
+    "situacao": "Arquivado",
+    "titular": "AKARI INDÚSTRIA, COMÉRCIO, IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+    "classe": 35,
+    "prioridade": "21/06/1999"
+  },
+  {
+    "numero_processo": "821868586",
+    "nome_marca": "ESSENZA LINGERIE",
+    "situacao": "Arquivado",
+    "titular": "ESSENZA INDÚSTRIA E COMÉRCIO LTDA",
+    "classe": 35,
+    "prioridade": "30/07/1999"
+  },
+  {
+    "numero_processo": "900607874",
+    "nome_marca": "ESSENZA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME",
+    "classe": 35,
+    "prioridade": "13/11/2007"
+  },
+  {
+    "numero_processo": "831302364",
+    "nome_marca": "ESSENZA",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "LEANDRO FERREIRA DE FREITAS",
+    "classe": 35,
+    "prioridade": "13/05/2008"
+  },
+  {
+    "numero_processo": "830406395",
+    "nome_marca": "ESSENZA",
+    "situacao": "Arquivado",
+    "titular": "HONG YANG CLINICA ESTETICA LTDA",
+    "classe": 35,
+    "prioridade": "28/10/2009"
+  },
+  {
+    "numero_processo": "904259285",
+    "nome_marca": "CAFÉ ESSENZA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ESSENZA CAFÉS E SOLÚVEIS EIRELI",
+    "classe": 35,
+    "prioridade": "17/11/2011"
+  },
+  {
+    "numero_processo": "906363276",
+    "nome_marca": "CHI ESSENZA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CECÍLIA DE OLIVEIRA SIMÕES MARQUES",
+    "classe": 35,
+    "prioridade": "11/06/2013"
+  },
+  {
+    "numero_processo": "907017487",
+    "nome_marca": "ESSENZA DESIGN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA",
+    "classe": 35,
+    "prioridade": "14/11/2013"
+  },
+  {
+    "numero_processo": "907036988",
+    "nome_marca": "Z ESSENZA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "'DIRCE AP. C. CHUBA COMERCIO DE CONFECÇÃO - ME'",
+    "classe": 35,
+    "prioridade": "21/11/2013"
+  },
+  {
+    "numero_processo": "907215734",
+    "nome_marca": "CYRELA ESSENZA",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "CYRELA BRAZIL REALTY S/A EMPREENDIMENTOS E PARTICIPAÇÕES",
+    "classe": 35,
+    "prioridade": "14/01/2014"
+  },
+  {
+    "numero_processo": "907324126",
+    "nome_marca": "ESSENZA DI FIORE",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "DENISE DE OLIVEIRA SOARES PIMENTEL-ME",
+    "classe": 35,
+    "prioridade": "12/02/2014"
+  },
+  {
+    "numero_processo": "910556067",
+    "nome_marca": "EQUIVALENZA ONLY ESSENZA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Equivalenza Brasil Comércio de Produtos de Perfumaria e Afins Ltda.",
+    "classe": 35,
+    "prioridade": "26/01/2016"
+  },
+  {
+    "numero_processo": "910638209",
+    "nome_marca": "ESSENZA",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ESSENZA INDÚSTRIA QUÍMICA EIRELI",
+    "classe": 35,
+    "prioridade": "17/02/2016"
+  },
+  {
+    "numero_processo": "912165880",
+    "nome_marca": "ESSENZA BEAUTY",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "PORTIER COSMÉTICOS LTDA",
+    "classe": 35,
+    "prioridade": "16/01/2017"
+  },
+  {
+    "numero_processo": "912649690",
+    "nome_marca": "E Essenza boutique",
+    "situacao": "Registro de marca extinto",
+    "titular": "JCS COMÉRCIO DE ROUPAS E ACESSÓRIOS FEMININOS LTDA. - ME",
+    "classe": 35,
+    "prioridade": "28/04/2017"
+  },
+  {
+    "numero_processo": "913209031",
+    "nome_marca": "ESSENZA COSMÉTICOS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ESSENZA COSMETICOS EIRELI EPP",
+    "classe": 35,
+    "prioridade": "14/08/2017"
+  },
+  {
+    "numero_processo": "913613800",
+    "nome_marca": "ESSENZA AMBIENTES",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "J. CARLOS MODULADOS LTDA - ME",
+    "classe": 35,
+    "prioridade": "25/10/2017"
+  },
+  {
+    "numero_processo": "913785172",
+    "nome_marca": "ESSENZA COMERCIAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ESSENZA COMERCIAL LTDA ME",
+    "classe": 35,
+    "prioridade": "24/11/2017"
+  },
+  {
+    "numero_processo": "914054821",
+    "nome_marca": "ESSENZA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ESSENZA INDÚSTRIA QUÍMICA EIRELI",
+    "classe": 35,
+    "prioridade": "22/01/2018"
+  },
+  {
+    "numero_processo": "915133326",
+    "nome_marca": "BIOESSENZA FARMÁCIA COM MANIPULAÇÃO",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "A P DO AMARAL LEITE DE SENA MANIPULAÇÃO - ME",
+    "classe": 35,
+    "prioridade": "31/07/2018"
+  },
+  {
+    "numero_processo": "916592120",
+    "nome_marca": "essenza INTERIORES",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "GS COMERCIO E INSTALACAO DE PAPEL DE PAREDE, CORTINAS E PERSIANAS LTDA",
+    "classe": 35,
+    "prioridade": "18/01/2019"
+  },
+  {
+    "numero_processo": "917255437",
+    "nome_marca": "ESSENZA FATALE LINGERIES E ACESSÓRIOS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "FATALE MODA INTIMA LTDA EPP",
+    "classe": 35,
+    "prioridade": "06/05/2019"
+  },
+  {
+    "numero_processo": "917270460",
+    "nome_marca": "ESSENZA DESIGN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA",
+    "classe": 35,
+    "prioridade": "08/05/2019"
+  },
+  {
+    "numero_processo": "917531507",
+    "nome_marca": "Essenza Feito a mão",
+    "situacao": "Registro de marca em vigor",
+    "titular": "GIOVANNA GIROTO DE OLIVEIRA RAMOS",
+    "classe": 35,
+    "prioridade": "14/06/2019"
+  },
+  {
+    "numero_processo": "917804392",
+    "nome_marca": "Essenza Di Fiori",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "MARLY APARECIDA BREDA TOMASONI",
+    "classe": 35,
+    "prioridade": "24/07/2019"
+  },
+  {
+    "numero_processo": "919710379",
+    "nome_marca": "ESSENZA DI FIORI",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "AME LACQUA COMÉRCIO DE COSMÉTICOS LTDA",
+    "classe": 35,
+    "prioridade": "15/05/2020"
+  },
+  {
+    "numero_processo": "921374160",
+    "nome_marca": "Essenza Joias",
+    "situacao": "Registro de marca em vigor",
+    "titular": "MARIA TEREZA MARCELINO SILVA",
+    "classe": 35,
+    "prioridade": "20/11/2020"
+  },
+  {
+    "numero_processo": "921635168",
+    "nome_marca": "Espaço Essenza Mantikir",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ESSENZA AGROECOLOGICO LTDA - ME",
+    "classe": 35,
+    "prioridade": "17/12/2020"
+  },
+  {
+    "numero_processo": "922892474",
+    "nome_marca": "Benessenza",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BENESSENZA BELEZA NATURAL COMERCIO DE COSMETICOS LTDA",
+    "classe": 35,
+    "prioridade": "09/05/2021"
+  },
+  {
+    "numero_processo": "923127151",
+    "nome_marca": "-",
+    "situacao": "Pedido considerado inexistente",
+    "titular": "SOLANGE MARIA ROCHA SILVA TROMBIM",
+    "classe": 35,
+    "prioridade": "31/05/2021"
+  },
+  {
+    "numero_processo": "923131892",
+    "nome_marca": "PRIMA ESSENZA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ANNA PAULA BACK",
+    "classe": 35,
+    "prioridade": "31/05/2021"
+  },
+  {
+    "numero_processo": "923897330",
+    "nome_marca": "Essenza Vitale",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SOLANGE MARIA ROCHA SILVA TROMBIM",
+    "classe": 35,
+    "prioridade": "10/08/2021"
+  },
+  {
+    "numero_processo": "924160446",
+    "nome_marca": "ESSENZA NEGÓCIOS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CAMILA CHIES",
+    "classe": 35,
+    "prioridade": "01/09/2021"
+  },
+  {
+    "numero_processo": "925070360",
+    "nome_marca": "ESSENZA",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ESSENZA COMERCIAL",
+    "classe": 35,
+    "prioridade": "30/11/2021"
+  },
+  {
+    "numero_processo": "925811360",
+    "nome_marca": "ESSENZA EMPREENDIMENTOS IMOBILIÁRIOS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ESSENZA EMPREENDIMENTOS IMOBILIÁRIOS LTDA",
+    "classe": 35,
+    "prioridade": "21/02/2022"
+  },
+  {
+    "numero_processo": "925945137",
+    "nome_marca": "Essenza Decor",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CAROLINA NAVES PEREIRA",
+    "classe": 35,
+    "prioridade": "08/03/2022"
+  },
+  {
+    "numero_processo": "926204734",
+    "nome_marca": "ESSENZIALE EssenzAmino",
+    "situacao": "Registro de marca em vigor",
+    "titular": "LAVORO AGRO HOLDING SA",
+    "classe": 35,
+    "prioridade": "31/03/2022"
+  },
+  {
+    "numero_processo": "929169581",
+    "nome_marca": "UNA ESSENZA MODA FEMININA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ELAINE CHRISTINA ROCHA",
+    "classe": 35,
+    "prioridade": "13/01/2023"
+  },
+  {
+    "numero_processo": "929201280",
+    "nome_marca": "Essenza Di Pizzotti",
+    "situacao": "Registro de marca em vigor",
+    "titular": "HUDSON PIZZOTTI FERNANDES",
+    "classe": 35,
+    "prioridade": "18/01/2023"
+  },
+  {
+    "numero_processo": "929746287",
+    "nome_marca": "Essenza Comercial",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "ESSENZA COMERCIAL",
+    "classe": 35,
+    "prioridade": "14/03/2023"
+  },
+  {
+    "numero_processo": "929809556",
+    "nome_marca": "Essenza",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "ESSENZA COMERCIAL",
+    "classe": 35,
+    "prioridade": "20/03/2023"
+  },
+  {
+    "numero_processo": "929906420",
+    "nome_marca": "essenza",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA",
+    "classe": 35,
+    "prioridade": "28/03/2023"
+  },
+  {
+    "numero_processo": "930382692",
+    "nome_marca": "Essenza Clínica",
+    "situacao": "Registro de marca em vigor",
+    "titular": "GTBONATTO CLINICA MEDICA E PSICOLOGICA LTDA",
+    "classe": 35,
+    "prioridade": "10/05/2023"
+  },
+  {
+    "numero_processo": "931234026",
+    "nome_marca": "ESSENZA SEMIJOIAS EM PEDRAS NATURAIS E ACESSÓRIOS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "LÍGIA CARDOSO RUBIN",
+    "classe": 35,
+    "prioridade": "21/07/2023"
+  },
+  {
+    "numero_processo": "931285704",
+    "nome_marca": "ESSENZA",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "ESSENZA AGROECOLOGICO LTDA - ME",
+    "classe": 35,
+    "prioridade": "26/07/2023"
+  },
+  {
+    "numero_processo": "934423431",
+    "nome_marca": "Essenza",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "SIMONE CUPERTINO LUPORINI",
+    "classe": 35,
+    "prioridade": "30/04/2024"
+  },
+  {
+    "numero_processo": "934453942",
+    "nome_marca": "Tressenza Perfumaria & Cosméticos",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PERFUMARIA JWC LTDA",
+    "classe": 35,
+    "prioridade": "02/05/2024"
+  },
+  {
+    "numero_processo": "935683143",
+    "nome_marca": "HESSENZA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "HESSENZA TOOLS COMERCIO E REPRESENTACAO LTDA",
+    "classe": 35,
+    "prioridade": "05/08/2024"
+  },
+  {
+    "numero_processo": "935750649",
+    "nome_marca": "Essenza Di Chef",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "BRIGIDE S STORE LTDA",
+    "classe": 35,
+    "prioridade": "09/08/2024"
+  },
+  {
+    "numero_processo": "936604778",
+    "nome_marca": "M MADRESSENZA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ABBOCCATO INDÚSTRIA E COMÉRCIO DE COSMÉTICOS LTDA ME",
+    "classe": 35,
+    "prioridade": "14/10/2024"
+  },
+  {
+    "numero_processo": "937243493",
+    "nome_marca": "QUINTESSENZA BY THAI TAFARELLO",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "58.185.772 THAIRINE TAFARELLO",
+    "classe": 35,
+    "prioridade": "03/12/2024"
+  },
+  {
+    "numero_processo": "937274852",
+    "nome_marca": "Maria Essenza",
+    "situacao": "Para liberar para exame de mérito (pedido de registro sem oposição)",
+    "titular": "ARIADNE PEREIRA ALVES CARVALHO",
+    "classe": 35,
+    "prioridade": "05/12/2024"
+  },
+  {
+    "numero_processo": "937275042",
+    "nome_marca": "Maria Essenza",
+    "situacao": "Para liberar para exame de mérito (pedido de registro sem oposição)",
+    "titular": "ARIADNE PEREIRA ALVES CARVALHO",
+    "classe": 35,
+    "prioridade": "05/12/2024"
+  },
+  {
+    "numero_processo": "937408735",
+    "nome_marca": "Essenza Squadra",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "SQD MATERIAL ESPORTIVO LTDA",
+    "classe": 35,
+    "prioridade": "16/12/2024"
+  },
+  {
+    "numero_processo": "937516104",
+    "nome_marca": "loreon essenza cosméticos",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "27.482.821 GESSICA LORENZINI ME",
+    "classe": 35,
+    "prioridade": "27/12/2024"
+  },
+  {
+    "numero_processo": "937605310",
+    "nome_marca": "ESSENZA D'OR",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "FRAN IMPORTADOS E E-COMMERCE LTDA",
+    "classe": 35,
+    "prioridade": "10/01/2025"
+  },
+  {
+    "numero_processo": "937941387",
+    "nome_marca": "NUVOLA DI ESSENZA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "58.067.413 WAGNER CLETO",
+    "classe": 35,
+    "prioridade": "07/02/2025"
+  },
+  {
+    "numero_processo": "937984647",
+    "nome_marca": "EV ESSENZA VIVA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "59.300.272 DEYVID ANDRADE NASCIMENTO",
+    "classe": 35,
+    "prioridade": "12/02/2025"
+  },
+  {
+    "numero_processo": "938022989",
+    "nome_marca": "ESSENZA MODA E ACESSÓRIOS",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "54.436.572 VALERIA PANTOJA MONTEIRO",
+    "classe": 35,
+    "prioridade": "14/02/2025"
+  },
+  {
+    "numero_processo": "938242121",
+    "nome_marca": "E T Essenza Per Tutti",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "LAURO MOREIRA DE PAULA NETO",
+    "classe": 35,
+    "prioridade": "05/03/2025"
+  },
+  {
+    "numero_processo": "938552147",
+    "nome_marca": "Essenza DItália",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "CASTAS COMÉRCIO E IMPORTAÇÃO DE BEBIDAS LTDA",
+    "classe": 35,
+    "prioridade": "28/03/2025"
+  },
+  {
+    "numero_processo": "938757997",
+    "nome_marca": "ESSENZA SUPERMERCADOS",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "PMS SUPERMERCADO LTDA",
+    "classe": 35,
+    "prioridade": "14/04/2025"
+  },
+  {
+    "numero_processo": "938944410",
+    "nome_marca": "Essenza Hub",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "58.528.855 ERIKA MANDU DA COSTA ABREU",
+    "classe": 35,
+    "prioridade": "29/04/2025"
+  },
+  {
+    "numero_processo": "938944584",
+    "nome_marca": "Essenza Hub",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "58.528.855 ERIKA MANDU DA COSTA ABREU",
+    "classe": 35,
+    "prioridade": "29/04/2025"
+  },
+  {
+    "numero_processo": "938980823",
+    "nome_marca": "ESSENZA HONEY BEAUTY",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ESSENZA COMERCIO INDUSTRIA FARMACEUTICA LTDA.ME",
+    "classe": 35,
+    "prioridade": "02/05/2025"
+  },
+  {
+    "numero_processo": "939345390",
+    "nome_marca": "Essenza Company",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "50.771.677 BARBARA DOMINGOS GIUNTINI BIANCHI",
+    "classe": 35,
+    "prioridade": "28/05/2025"
+  },
+  {
+    "numero_processo": "939358247",
+    "nome_marca": "Essenza Zen",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ARNALDO BONTEIN DA ROSA",
+    "classe": 35,
+    "prioridade": "29/05/2025"
+  },
+  {
+    "numero_processo": "939527855",
+    "nome_marca": "Essenza",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "GOMES & FERNANDES TINTAS E REVESTIMENTOS LTDA",
+    "classe": 35,
+    "prioridade": "10/06/2025"
+  },
+  {
+    "numero_processo": "939538229",
+    "nome_marca": "TESSENZA BRAND",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "GARRAH DESENVOLVIMENTO IMOBILIARIO",
+    "classe": 35,
+    "prioridade": "11/06/2025"
+  },
+  {
+    "numero_processo": "939764776",
+    "nome_marca": "ESSENZA CLINIC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "52.254.571 NICOLLY MENDONCA MUNDIM",
+    "classe": 35,
+    "prioridade": "27/06/2025"
+  },
+  {
+    "numero_processo": "939766000",
+    "nome_marca": "LUV'ESSENZA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "LUIZA ZANINI TAMEIRÃO",
+    "classe": 35,
+    "prioridade": "27/06/2025"
+  },
+  {
+    "numero_processo": "939778874",
+    "nome_marca": "Essenza Femme",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "47.621.740 FLAVIA EULALIA FERREIRA DO CARMO",
+    "classe": 35,
+    "prioridade": "30/06/2025"
+  },
+  {
+    "numero_processo": "940401517",
+    "nome_marca": "ESSENZA DI SERENITÀ",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "MICHELLI APARECIDA RAMPINI",
+    "classe": 35,
+    "prioridade": "04/08/2025"
+  },
+  {
+    "numero_processo": "940482827",
+    "nome_marca": "LAUTO ESSENZA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "LANA CARLA SOUZA LOPES DE CARVALHO",
+    "classe": 35,
+    "prioridade": "06/08/2025"
+  },
+  {
+    "numero_processo": "940527278",
+    "nome_marca": "Essenza Mobel",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "61.956.856 BARBARA TRINDADE DE ALMEIDA",
+    "classe": 35,
+    "prioridade": "06/08/2025"
+  },
+  {
+    "numero_processo": "940720264",
+    "nome_marca": "ESSENZA HOME CONCEPT",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ADRIANA DA CONCEIÇÃO ALVES PROCHNOW",
+    "classe": 35,
+    "prioridade": "22/08/2025"
+  },
+  {
+    "numero_processo": "940852683",
+    "nome_marca": "Essenza Boutique",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ANNA KAROLINE NUNES DE CAMARGO PIMENTEL",
+    "classe": 35,
+    "prioridade": "01/09/2025"
+  },
+  {
+    "numero_processo": "940943450",
+    "nome_marca": "PANESSENZA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "FABIO FERA",
+    "classe": 35,
+    "prioridade": "05/09/2025"
+  },
+  {
+    "numero_processo": "940958058",
+    "nome_marca": "essenzavitta",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "AURA VITTA LTDA",
+    "classe": 35,
+    "prioridade": "07/09/2025"
+  },
+  {
+    "numero_processo": "941136450",
+    "nome_marca": "ESSENZA CESTAS",
+    "situacao": "Aguardando manifestação sobre oposição",
+    "titular": "62.714.335 MICHELI TEDESCO",
+    "classe": 35,
+    "prioridade": "17/09/2025"
+  },
+  {
+    "numero_processo": "941314120",
+    "nome_marca": "l'essenza Vero",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "CLAUDINEI VECHINI 00428005950",
+    "classe": 35,
+    "prioridade": "19/09/2025"
+  },
+  {
+    "numero_processo": "941476316",
+    "nome_marca": "-",
+    "situacao": "Pedido considerado inexistente",
+    "titular": "LILLIAM LEMOS LOPES",
+    "classe": 35,
+    "prioridade": "03/10/2025"
+  },
+  {
+    "numero_processo": "941483193",
+    "nome_marca": "ÁRIS ESSENZA",
+    "situacao": "Aguardando manifestação sobre oposição",
+    "titular": "JOÃO CARLOS JUNGES",
+    "classe": 35,
+    "prioridade": "05/10/2025"
+  },
+  {
+    "numero_processo": "941507530",
+    "nome_marca": "Essenza Marmitas",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "JÚLIA CARVALHO ABDALLA SEMIÃO",
+    "classe": 35,
+    "prioridade": "08/10/2025"
+  },
+  {
+    "numero_processo": "941527492",
+    "nome_marca": "Essenza Alianças",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ADALY COMERCIO DE BIJUTERIAS LTDA",
+    "classe": 35,
+    "prioridade": "09/10/2025"
+  },
+  {
+    "numero_processo": "942168984",
+    "nome_marca": "ESSENZA by Ro&Alvi",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ROSINA MARIA CAMMAROTA LEITE",
+    "classe": 35,
+    "prioridade": "12/12/2025"
+  },
+  {
+    "numero_processo": "942169018",
+    "nome_marca": "ESSENZA CLUB by Ro&Alvi",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ROSINA MARIA CAMMAROTA LEITE",
+    "classe": 35,
+    "prioridade": "12/12/2025"
+  },
+  {
+    "numero_processo": "942425103",
+    "nome_marca": "ESSENZA",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA",
+    "classe": 35,
+    "prioridade": "15/01/2026"
+  },
+  {
+    "numero_processo": "942426606",
+    "nome_marca": "ESSENZA DESIGN COM EXPRESSÃO BRASILEIRA.",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA",
+    "classe": 35,
+    "prioridade": "15/01/2026"
+  },
+  {
+    "numero_processo": "942436296",
+    "nome_marca": "ESSENZA DI GIO",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "GIOVANA SILVA DE SOUZA",
+    "classe": 35,
+    "prioridade": "16/01/2026"
+  },
+  {
+    "numero_processo": "942494326",
+    "nome_marca": "Essenza Beauty",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "BISOTE COMERCIO DE ARTIGOS PARA PRESENTES LTDA",
+    "classe": 35,
+    "prioridade": "22/01/2026"
+  },
+  {
+    "numero_processo": "942635779",
+    "nome_marca": "ESSENZA ARTISAN PASTA",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "ESSENZA INDUSTRIA E COMERCIO DE MASSAS ARTESANAIS LTDA",
+    "classe": 35,
+    "prioridade": "04/02/2026"
+  },
+  {
+    "numero_processo": "942806905",
+    "nome_marca": "ESSENZA PROFESSIONAL beauty Ridics",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "ESSENZA SEDUCTION DISTRIBUIDORA LTDA",
+    "classe": 35,
+    "prioridade": "23/02/2026"
+  },
+  {
+    "numero_processo": "942812255",
+    "nome_marca": "Êssenza Hub Digital",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "ÊSSENZA HUB DIGITAL LTDA",
+    "classe": 35,
+    "prioridade": "23/02/2026"
+  },
+  {
+    "numero_processo": "942812484",
+    "nome_marca": "ESSENZA EYEWEAR",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "VISAO SAUDAVEL LTDA",
+    "classe": 35,
+    "prioridade": "23/02/2026"
+  }
+]

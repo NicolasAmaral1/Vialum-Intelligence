@@ -1,0 +1,74 @@
+[
+  {
+    "numero_processo": "002176181",
+    "nome_marca": "RADIUM",
+    "situacao": "Extinto",
+    "titular": "BOMBRIL S/A.",
+    "classe": 5,
+    "prioridade": "16/05/1933"
+  },
+  {
+    "numero_processo": "002894408",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca extinto",
+    "titular": "BOMBRIL MERCOSUL S/A.",
+    "classe": 5,
+    "prioridade": "03/07/1952"
+  },
+  {
+    "numero_processo": "003578941",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BRIL COSMÉTICOS S.A.",
+    "classe": 5,
+    "prioridade": "03/09/1957"
+  },
+  {
+    "numero_processo": "003600572",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BRIL COSMÉTICOS S.A.",
+    "classe": 5,
+    "prioridade": "22/01/1962"
+  },
+  {
+    "numero_processo": "750228989",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Extinto",
+    "titular": "BOMBRIL MERCOSUL S/A.",
+    "classe": 5,
+    "prioridade": "21/10/1975"
+  },
+  {
+    "numero_processo": "750228997",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Extinto",
+    "titular": "BOMBRIL S/A.",
+    "classe": 5,
+    "prioridade": "21/10/1975"
+  },
+  {
+    "numero_processo": "810901960",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BRIL COSMÉTICOS S.A.",
+    "classe": 5,
+    "prioridade": "01/07/1982"
+  },
+  {
+    "numero_processo": "816697426",
+    "nome_marca": "SAPÓLIO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BRIL COSMÉTICOS S.A.",
+    "classe": 5,
+    "prioridade": "04/06/1992"
+  },
+  {
+    "numero_processo": "823182720",
+    "nome_marca": "PRORADIUM",
+    "situacao": "Arquivado",
+    "titular": "ROBERTO VERONEZ ME",
+    "classe": 5,
+    "prioridade": "24/08/2000"
+  }
+]

@@ -1,5 +1,6 @@
 import { getPrisma } from '../../config/database.js';
 import { Prisma } from '@prisma/client';
+import { getDisplayName, formatPhoneBR } from '../../lib/contact-utils.js';
 
 export interface CreateContactInput {
   name: string;
@@ -13,6 +14,7 @@ export interface CreateContactInput {
 
 export interface UpdateContactInput {
   name?: string;
+  customName?: string | null;
   phone?: string | null;
   email?: string | null;
   avatarUrl?: string | null;
@@ -74,7 +76,7 @@ export async function findAll(accountId: string, filters: ContactFilters) {
   ]);
 
   return {
-    data,
+    data: data.map(enrichContact),
     meta: {
       total,
       page,
@@ -100,7 +102,7 @@ export async function findById(accountId: string, contactId: string) {
     throw { statusCode: 404, message: 'Contact not found', code: 'CONTACT_NOT_FOUND' };
   }
 
-  return contact;
+  return enrichContact(contact);
 }
 
 export async function update(accountId: string, contactId: string, data: UpdateContactInput) {
@@ -118,6 +120,7 @@ export async function update(accountId: string, contactId: string, data: UpdateC
     where: { id: contactId },
     data: {
       ...(data.name !== undefined && { name: data.name }),
+      ...(data.customName !== undefined && { customName: data.customName }),
       ...(data.phone !== undefined && { phone: data.phone }),
       ...(data.email !== undefined && { email: data.email }),
       ...(data.avatarUrl !== undefined && { avatarUrl: data.avatarUrl }),
@@ -143,4 +146,13 @@ export async function softDelete(accountId: string, contactId: string) {
     where: { id: contactId },
     data: { deletedAt: new Date() },
   });
+}
+
+// Enrich contact with displayName and formattedPhone
+function enrichContact<T extends { name: string; customName?: string | null; crmName?: string | null; phone?: string | null }>(contact: T): T & { displayName: string; formattedPhone: string } {
+  return {
+    ...contact,
+    displayName: getDisplayName(contact),
+    formattedPhone: formatPhoneBR(contact.phone),
+  };
 }

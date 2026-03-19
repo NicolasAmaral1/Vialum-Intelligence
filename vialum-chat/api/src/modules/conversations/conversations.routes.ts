@@ -42,7 +42,11 @@ export async function conversationRoutes(fastify: FastifyInstance) {
   fastify.get('/', async (request: FastifyRequest<{ Params: AccountParams; Querystring: Record<string, string> }>, reply: FastifyReply) => {
     const { accountId } = request.params;
     const filters = listQuerySchema.parse(request.query);
-    const result = await conversationsService.findAll(accountId, filters);
+    // Pass userId for RLS inbox filtering
+    const result = await conversationsService.findAll(accountId, {
+      ...filters,
+      userId: request.jwtPayload.userId,
+    });
     return reply.status(200).send(result);
   });
 

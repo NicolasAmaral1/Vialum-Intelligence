@@ -102,75 +102,296 @@ def extrair_dados_basicos(texto: str) -> Dict[str, Optional[str]]:
 
 
 def extrair_classes(texto: str) -> List[Dict[str, Optional[str]]]:
-    """Extrai informações de classes de produtos/serviços."""
+    """
+    Extrai informações de classes de produtos/serviços.
+
+    Suporta dois formatos do INPI:
+    1. Formato NCL moderno: "NCL(12) 35  Vide Situação  Especificação..."
+    2. Formato antigo (subclasse): "Classe Nacional  Sub-Classe  Especificação Sub-Classe"
+
+    Também extrai especificações completas que vêm expandidas (Playwright v3)
+    em blocos separados após o cabeçalho da classe.
+    """
     try:
         classes = []
-        
-        # Procurar pela seção de classificação
+
+        # Procurar pela seção de classificação (ambos os formatos)
         secao_match = re.search(
-            r'Classificação de Produtos / Serviços(.*?)(?:Classificação Internacional|Titulares|Representante Legal|Datas|$)',
+            r'Classifica[çc][ãa]o de Produtos\s*/?\.?\s*Servi[çc]os(.*?)(?:Classifica[çc][ãa]o Internacional|Titulares|Representante Legal|Datas|$)',
             texto,
             re.DOTALL
         )
-        
+
         if not secao_match:
             return []
-        
+
         secao_texto = secao_match.group(1)
-        
-        # Extrair classe e situação da tabela
-        # Regex melhorado para capturar a linha da classe e o que vem depois
-        classe_match = re.search(
-            r'(NCL\(\d+\)\s*\d+)\s+(.*?)(?:\n|$)',
+
+        # ── FORMATO NCL MODERNO ──
+        # Buscar todas as ocorrências de NCL(N) NN
+        # OU formato expandido: "Classe Nice - Revisão: (N)" seguido de número da classe
+        classe_matches = list(re.finditer(
+            r'(NCL\(\d+\)\s*\d+)',
             secao_texto
-        )
-        
-        if classe_match:
-            numero_classe = classe_match.group(1).strip()
-            resto_linha = classe_match.group(2).strip()
-            
-            # Se houver tab, o que vem depois é a especificação inline
-            if '\t' in resto_linha:
-                parts = resto_linha.split('\t')
-                situacao_classe = parts[0].strip()
-                especificacao_inline = ' '.join(parts[1:]).strip()
-            else:
-                situacao_classe = resto_linha
-                especificacao_inline = None
-            
-            # Extrair especificação completa (seção dedicada "Especificação")
-            spec_match = re.search(
-                r'Especificação\s+(.*?)(?:\n\n|Classificação Internacional|Titulares|Datas|$)',
-                secao_texto,
-                re.DOTALL
+        ))
+
+        # Se não achou NCL(N) NN, tentar formato expandido (Playwright v3)
+        # Formato: "Classe Nice - Revisão: (12)" seguido por linhas com
+        # "Descrição genérica da classe\tVide Situação\tEspecificação completa"
+        if not classe_matches:
+            revisao_matches = list(re.finditer(
+                r'Classe Nice\s*-\s*Revis[ãa]o:\s*\((\d+)\)',
+                secao_texto
+            ))
+            if revisao_matches:
+                for rmatch in revisao_matches:
+                    revisao = rmatch.group(1)
+
+                    # Pegar bloco de texto após a revisão até próxima seção
+                    start = rmatch.end()
+                    next_section = re.search(
+                        r'(?:Classifica[çc][ãa]o Internacional|Titulares|Representante|Classe Nice\s*-\s*Revis)',
+                        secao_texto[start:]
+                    )
+                    end = start + next_section.start() if next_section else len(secao_texto)
+                    bloco = secao_texto[start:end]
+
+                    # Buscar linha com tabs: "Desc genérica\tVide Situação\tEspecificação"
+                    tab_line = re.search(
+                        r'([^\n\t]+)\t+(?:Vide Situação[^\t]*)\t+\s*(.*?)(?:\n|$)',
+                        bloco
+                    )
+
+                    especificacao = None
+                    classe_num = '00'
+
+                    if tab_line:
+                        desc_generica = tab_line.group(1).strip()
+                        especificacao_raw = tab_line.group(2).strip()
+
+                        # Limpar especificação
+                        especificacao_raw = re.sub(r'\.\.\.\s*$', '', especificacao_raw).strip()
+                        if especificacao_raw and len(especificacao_raw) > 3:
+                            especificacao = especificacao_raw
+
+                        # Mapear descrição genérica para número de classe
+                        classe_num = _mapear_classe_por_descricao(desc_generica)
+
+                    numero_classe = f'NCL({revisao}) {classe_num}'
+
+                    # Buscar situação
+                    situacao_classe = None
+                    if 'Vide Situação do Processo' in bloco:
+                        situacao_classe = 'Vide Situação do Processo'
+
+                    classes.append({
+                        'numero_classe': numero_classe,
+                        'situacao_classe': situacao_classe,
+                        'especificacao': especificacao
+                    })
+
+                return classes
+
+        if classe_matches:
+            for i, cmatch in enumerate(classe_matches):
+                numero_classe = cmatch.group(1).strip()
+
+                # Pegar texto entre esta classe e a próxima (ou fim da seção)
+                start = cmatch.end()
+                if i + 1 < len(classe_matches):
+                    end = classe_matches[i + 1].start()
+                else:
+                    end = len(secao_texto)
+
+                bloco = secao_texto[start:end]
+
+                # Situação da classe
+                situacao_classe = None
+                sit_match = re.search(r'(Vide Situação do Processo|Aceita|Recusada)', bloco)
+                if sit_match:
+                    situacao_classe = sit_match.group(1).strip()
+
+                # Extrair especificação — múltiplas estratégias
+                especificacao = _extrair_especificacao_de_bloco(bloco)
+
+                classes.append({
+                    'numero_classe': numero_classe,
+                    'situacao_classe': situacao_classe,
+                    'especificacao': especificacao
+                })
+
+        # ── FORMATO ANTIGO (Classe Nacional / Sub-Classe) ──
+        if not classes:
+            # Formato: "NN\tNN\tDescrição da sub-classe"
+            subclasse_matches = re.findall(
+                r'(\d{2})\t+(\d{2})\t+(.*?)(?:\n|$)',
+                secao_texto
             )
-            
-            especificacao_vinda_de_secao = None
-            if spec_match:
-                # Limpar especificação: remover cabeçalhos e tabs
-                raw_spec = spec_match.group(1).strip()
-                linhas = raw_spec.split('\n')
-                especificacao_limpa = []
-                for linha in linhas:
-                    linha_stripped = linha.strip()
-                    # Pular linhas que parecem ser cabeçalhos de tabela ou vazias
-                    if linha_stripped and not re.match(r'^(Classe de Nice|NCL\(\d+\)|Situação|Vide|Especificação)', linha_stripped):
-                        especificacao_limpa.append(linha_stripped)
-                especificacao_vinda_de_secao = ' '.join(especificacao_limpa).strip()
-            
-            # Combinar especificações (prioriza a da seção, mas aceita a inline)
-            especificacao = especificacao_vinda_de_secao if especificacao_vinda_de_secao else especificacao_inline
-            
-            classes.append({
-                'numero_classe': numero_classe,
-                'situacao_classe': situacao_classe,
-                'especificacao': especificacao
-            })
-        
+            for classe_num, subclasse_num, descricao in subclasse_matches:
+                classes.append({
+                    'numero_classe': f'{classe_num} : {subclasse_num}',
+                    'situacao_classe': None,
+                    'especificacao': descricao.strip() if descricao.strip() else None
+                })
+
+            # Se não achou por tab, tentar pela seção "Especificação Sub-Classe Nacional"
+            if not classes:
+                spec_sub = re.search(
+                    r'Especifica[çc][ãa]o Sub-Classe Nacional\s*\n(.*?)(?:\n\n|Titulares|$)',
+                    secao_texto,
+                    re.DOTALL
+                )
+                if spec_sub:
+                    # Extrair classe e especificação
+                    linhas = [l.strip() for l in spec_sub.group(1).split('\n') if l.strip()]
+                    for linha in linhas:
+                        parts = re.split(r'\t+', linha)
+                        if len(parts) >= 3 and re.match(r'\d{2}', parts[0]):
+                            classes.append({
+                                'numero_classe': f'{parts[0]} : {parts[1]}',
+                                'situacao_classe': None,
+                                'especificacao': parts[2].strip()
+                            })
+
         return classes
     except Exception as e:
         warnings.warn(f"Erro ao extrair classes: {e}")
         return []
+
+
+def _mapear_classe_por_descricao(desc: str) -> str:
+    """
+    Mapeia a descrição genérica do cabeçalho Nice para o número da classe.
+    O INPI mostra a descrição genérica no formato expandido.
+    """
+    desc_lower = desc.lower().strip()
+
+    # Mapeamento parcial das descrições mais comuns
+    mapa = {
+        'produtos químicos': '01', 'tintas': '02', 'preparações para': '03',
+        'óleos e gorduras': '04', 'produtos farmacêuticos': '05',
+        'metais comuns': '06', 'máquinas': '07', 'ferramentas': '08',
+        'aparelhos e instrumentos científicos': '09', 'aparelhos e instrumentos cirúrgicos': '10',
+        'aparelhos para iluminação': '11', 'veículos': '12',
+        'armas de fogo': '13', 'metais preciosos': '14',
+        'instrumentos musicais': '15', 'papel': '16', 'borracha': '17',
+        'couros e imitações': '18', 'materiais para construção': '19',
+        'móveis': '20', 'utensílios': '21', 'cordas': '22',
+        'fios para uso têxtil': '23', 'tecidos': '24', 'vestuário': '25',
+        'rendas e bordados': '26', 'tapetes': '27', 'jogos': '28',
+        'carne': '29', 'café': '30', 'produtos agrícolas': '31',
+        'cervejas': '32', 'bebidas alcoólicas': '33', 'tabaco': '34',
+        'propaganda': '35', 'seguros': '36', 'construção': '37',
+        'telecomunicações': '38', 'transportes': '39',
+        'tratamento de materiais': '40', 'educação': '41',
+        'serviços científicos': '42', 'serviços de alimentação': '43',
+        'serviços médicos': '44', 'serviços jurídicos': '45',
+    }
+
+    for chave, classe in mapa.items():
+        if chave in desc_lower:
+            return classe
+
+    # Fallback: tentar extrair número diretamente
+    num_match = re.search(r'\b(\d{2})\b', desc)
+    if num_match:
+        val = int(num_match.group(1))
+        if 1 <= val <= 45:
+            return num_match.group(1)
+
+    return '00'
+
+
+def _extrair_especificacao_de_bloco(bloco: str) -> Optional[str]:
+    """
+    Extrai especificação de um bloco de texto de classe.
+
+    Lida com múltiplos formatos:
+    1. Inline após tab: "Vide Situação\t  Assessoria, consultoria..."
+    2. Seção dedicada: "Especificação\n  texto completo"
+    3. Formato expandido (Playwright v3): especificação em linhas separadas
+       após a descrição genérica da classe Nice
+    """
+    try:
+        especificacao = None
+
+        # Estratégia 1: Especificação inline (após tab, na mesma linha que "Vide Situação")
+        inline_match = re.search(
+            r'Vide Situação do Processo\s*\t+\s*(.*?)(?:\n|$)',
+            bloco
+        )
+        if inline_match:
+            spec_inline = inline_match.group(1).strip()
+            # Remover truncamento se presente
+            if spec_inline and not spec_inline.endswith('...'):
+                especificacao = spec_inline
+            elif spec_inline:
+                # Está truncada — tentar pegar a versão completa abaixo
+                especificacao = spec_inline  # fallback
+
+        # Estratégia 2: Seção dedicada "Especificação"
+        spec_match = re.search(
+            r'Especificação\s*\n(.*?)(?:\n\n|Classifica|Titulares|$)',
+            bloco,
+            re.DOTALL
+        )
+        if spec_match:
+            raw = spec_match.group(1).strip()
+            linhas = raw.split('\n')
+            limpa = []
+            for linha in linhas:
+                l = linha.strip()
+                if l and not re.match(
+                    r'^(Classe de Nice|NCL\(\d+\)|Situação|Vide|Especificação|Classe Nice)',
+                    l
+                ):
+                    limpa.append(l)
+            spec_secao = ' '.join(limpa).strip()
+            if spec_secao and len(spec_secao) > 5:
+                especificacao = spec_secao
+
+        # Estratégia 3: Formato expandido (Playwright v3)
+        # A especificação completa pode estar em linhas separadas no bloco,
+        # após a descrição genérica da classe Nice e antes do "Vide Situação"
+        # Formato: "Descrição genérica Nice\tVide Situação\tEspecificação completa"
+        expanded_match = re.search(
+            r'(?:Produtos|Serviços)[^\n]*\t+Vide Situação[^\t]*\t+\s*(.*?)(?:\n\n|\nClassifica|\nTitulares|$)',
+            bloco,
+            re.DOTALL
+        )
+        if expanded_match:
+            spec_expanded = expanded_match.group(1).strip()
+            # Limpar: remover linhas de ruído (tooltips, Leia-me, etc.)
+            linhas = spec_expanded.split('\n')
+            limpa = []
+            for linha in linhas:
+                l = linha.strip()
+                if l and not re.match(
+                    r'^(Leia-me|Classe Nice|PRAZOS|O direito|Os prazos|No cômputo|'
+                    r'Só serão|apresentados|União|esta data|Informações do Banco|'
+                    r'Descrição do Serviço|\d{3}\s)',
+                    l
+                ):
+                    limpa.append(l)
+            spec_expanded_clean = ' '.join(limpa).strip()
+            # Preferir versão expandida se for mais longa que a inline
+            if spec_expanded_clean and len(spec_expanded_clean) > len(especificacao or ''):
+                especificacao = spec_expanded_clean
+
+        # Limpar especificação final
+        if especificacao:
+            # Remover "..." final
+            especificacao = re.sub(r'\.\.\.\s*$', '', especificacao).strip()
+            # Remover tabs internos
+            especificacao = re.sub(r'\t+', ' ', especificacao).strip()
+            # Remover espaços duplos
+            especificacao = re.sub(r'\s{2,}', ' ', especificacao).strip()
+
+        return especificacao if especificacao else None
+
+    except Exception as e:
+        warnings.warn(f"Erro ao extrair especificação de bloco: {e}")
+        return None
 
 
 def extrair_classificacao_viena(texto: str) -> List[Dict[str, Optional[str]]]:

@@ -1,0 +1,17 @@
+{
+  "sucesso": false,
+  "etapas": {
+    "fuzzy": {
+      "marca_pesquisada": "AMSTERDAM",
+      "paginas_coletadas": 0,
+      "total_resultados_estimado": 0,
+      "total_paginas_disponiveis": 0,
+      "sucesso": false,
+      "erro": "Page.goto: net::ERR_CONNECTION_REFUSED at https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login\nCall log:\n  - navigating to \"https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login\", waiting until \"networkidle\"\n"
+    }
+  },
+  "arquivos": {
+    "raw_fuzzy": "/Users/nicolasamaral/Vialum-Intelligence/laudos/Equipe Amsterdam/Amsterdam/raw-fuzzy.md"
+  },
+  "erro": "Busca fuzzy falhou: Page.goto: net::ERR_CONNECTION_REFUSED at https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login\nCall log:\n  - navigating to \"https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login\", waiting until \"networkidle\"\n"
+}

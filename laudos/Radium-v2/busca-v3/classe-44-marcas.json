@@ -1,0 +1,50 @@
+[
+  {
+    "numero_processo": "824577426",
+    "nome_marca": "INSTITUTO DO RADIUM ONCOLOGIA DE CAMPINAS",
+    "situacao": "Arquivado",
+    "titular": "INSTITUTO DO RADIUM DE CAMPINAS LTDA",
+    "classe": 44,
+    "prioridade": "13/06/2002"
+  },
+  {
+    "numero_processo": "826302602",
+    "nome_marca": "RADIUM INSTITUTO DE ONCOLOGIA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INSTITUTO DO RADIUM DE CAMPINAS LTDA",
+    "classe": 44,
+    "prioridade": "22/04/2004"
+  },
+  {
+    "numero_processo": "829235280",
+    "nome_marca": "RADIUM SEMPRE + PELA VIDA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "INSTITUTO DO RADIUM DE CAMPINAS LTDA",
+    "classe": 44,
+    "prioridade": "30/07/2007"
+  },
+  {
+    "numero_processo": "829966510",
+    "nome_marca": "RADIUM TAGUATINGA",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "INSTITUTO DO RADIUM DE CAMPINAS LTDA",
+    "classe": 44,
+    "prioridade": "31/10/2008"
+  },
+  {
+    "numero_processo": "902434209",
+    "nome_marca": "ONCO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CENTRO INTEGRADO DE TRATAMENTO ONCOLOGICO LTDA",
+    "classe": 44,
+    "prioridade": "22/03/2010"
+  },
+  {
+    "numero_processo": "916277844",
+    "nome_marca": "RADIUM CENTRO DE MEDICINA E SAÚDE",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "RADIUM CLINICA MÉDICA DE CAMPINAS LTDA",
+    "classe": 44,
+    "prioridade": "19/11/2018"
+  }
+]

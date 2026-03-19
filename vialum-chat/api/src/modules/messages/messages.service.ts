@@ -199,6 +199,14 @@ export async function list(
     ...(cursor && { cursor, skip }),
   });
 
+  // Reset unread count when messages are fetched (first page only)
+  if (!filters.beforeId) {
+    prisma.conversation.update({
+      where: { id: conversationId },
+      data: { unreadCount: 0 },
+    }).catch(() => {}); // fire-and-forget
+  }
+
   const hasMore = messages.length === limit;
 
   return {

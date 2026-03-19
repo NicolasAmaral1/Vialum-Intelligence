@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import { RelativeTime } from '@/components/shared/RelativeTime';
 import { ContactAvatar } from '@/components/shared/AvatarFallback';
 import { ReadReceipts } from './ReadReceipts';
-import { Lock } from 'lucide-react';
+import { Lock, Image, Mic, Video, FileText, MapPin, Sticker } from 'lucide-react';
 import type { Message } from '@/types/api';
 
 interface MessageBubbleProps {
@@ -60,6 +60,9 @@ export function MessageBubble({ message, isFirst = true }: MessageBubbleProps) {
 
   const senderName = message.senderContact?.name || '';
 
+  const displayContent = message.content || null;
+  const hasMedia = !displayContent && message.contentType !== 'text';
+
   return (
     <div
       className={cn(
@@ -98,13 +101,39 @@ export function MessageBubble({ message, isFirst = true }: MessageBubbleProps) {
           </div>
         )}
 
-        <span className="text-text-1 whitespace-pre-wrap break-words">{message.content}</span>
+        {displayContent ? (
+          <span className="text-text-1 whitespace-pre-wrap break-words">{displayContent}</span>
+        ) : hasMedia ? (
+          <MediaPlaceholder contentType={message.contentType} attributes={message.contentAttributes} />
+        ) : null}
 
         <div className="flex items-center justify-end gap-0.5 mt-0.5">
           <RelativeTime date={message.createdAt} className="text-[10px] text-text-4" />
           {isOutgoing && <ReadReceipts status={message.status} />}
         </div>
       </div>
+    </div>
+  );
+}
+
+function MediaPlaceholder({ contentType, attributes }: { contentType: string; attributes: Record<string, unknown> }) {
+  const config: Record<string, { icon: React.ReactNode; label: string }> = {
+    audio: { icon: <Mic className="w-4 h-4" />, label: attributes.ptt ? 'Mensagem de voz' : 'Áudio' },
+    image: { icon: <Image className="w-4 h-4" />, label: 'Imagem' },
+    video: { icon: <Video className="w-4 h-4" />, label: 'Vídeo' },
+    document: { icon: <FileText className="w-4 h-4" />, label: (attributes.fileName as string) || 'Documento' },
+    location: { icon: <MapPin className="w-4 h-4" />, label: 'Localização' },
+    sticker: { icon: <Sticker className="w-4 h-4" />, label: 'Figurinha' },
+  };
+
+  const { icon, label } = config[contentType] ?? { icon: null, label: contentType };
+
+  const duration = attributes.seconds ? ` (${Math.floor(attributes.seconds as number / 60)}:${String((attributes.seconds as number) % 60).padStart(2, '0')})` : '';
+
+  return (
+    <div className="flex items-center gap-2 text-text-3 italic text-[12px]">
+      {icon}
+      <span>{label}{duration}</span>
     </div>
   );
 }

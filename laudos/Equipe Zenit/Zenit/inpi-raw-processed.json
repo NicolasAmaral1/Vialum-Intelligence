@@ -1,0 +1,4538 @@
+[
+  {
+    "numero_processo": "814332285",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "POST PLUS FINISH HOUSE COM IMP EXP LIC PROD CINEM LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "ORG. MÉRITO MARCAS E PATENTES LTDA"
+    },
+    "datas": {
+      "deposito": "04/07/1988",
+      "concessao": "06/02/1990",
+      "vigencia": "06/02/2000"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1296",
+        "data_rpi": "03/10/1995",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1262",
+        "data_rpi": "07/02/1995",
+        "despacho": "900",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1232",
+        "data_rpi": "12/07/1994",
+        "despacho": "550",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1005",
+        "data_rpi": "06/02/1990",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "984",
+        "data_rpi": "29/08/1989",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "959",
+        "data_rpi": "07/03/1989",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "818369221",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "POST PLUS FINISH HOUSE COM IMP EXP LIC PROD CINEM LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "FABIO DELLA NINA"
+    },
+    "datas": {
+      "deposito": "28/03/1995",
+      "concessao": "30/12/1997",
+      "vigencia": "30/12/2007"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1976",
+        "data_rpi": "18/11/2008",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1410",
+        "data_rpi": "30/12/1997",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1393",
+        "data_rpi": "12/08/1997",
+        "despacho": "276",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1360",
+        "data_rpi": "24/12/1996",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1338",
+        "data_rpi": "23/07/1996",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1312",
+        "data_rpi": "23/01/1996",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819332291",
+    "nome_marca": "ZENITH MEDIA",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "CORDIANT COMMUNICATIONS GROUP PLC"
+      }
+    ],
+    "representante_legal": {
+      "nome": "CLARKE MODET DO BRASIL LTDA"
+    },
+    "datas": {
+      "deposito": "25/06/1996",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1700",
+        "data_rpi": "05/08/2003",
+        "despacho": "270",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1589",
+        "data_rpi": "19/06/2001",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1557",
+        "data_rpi": "07/11/2000",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1508",
+        "data_rpi": "30/11/1999",
+        "despacho": "091",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1450",
+        "data_rpi": "06/10/1998",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1406",
+        "data_rpi": "11/11/1997",
+        "despacho": "004",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1391",
+        "data_rpi": "29/07/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "826431038",
+    "nome_marca": "ZENITH ORTODONTIA E ORTOPEDIA DENTOFACIAL",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "CLÍNICA DE ORTODONTIA E ORTOPEDIA DENTO FACIAL"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ANA ELIZABETH AGUIAR DA SILVA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "O PRÓPRIO."
+    },
+    "datas": {
+      "deposito": "22/04/2004",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1931",
+        "data_rpi": "08/01/2008",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1903",
+        "data_rpi": "26/06/2007",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1743",
+        "data_rpi": "01/06/2004",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "828131767",
+    "nome_marca": "ZÊNITE ODONTOLOGIA",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Clínicas médicas ; Odontologia; clínica odontológica."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.1.12",
+        "descricao": "Círculos ou elipses contendo um ou várias outras figuras geométricas"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "EVALDO ROMEIRO DA SILVA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "VILAGE MARCAS & PATENTES S/S LTDA"
+    },
+    "datas": {
+      "deposito": "07/02/2006",
+      "concessao": "18/03/2008",
+      "vigencia": "18/03/2018"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "19/03/2017",
+      "ordinario_fim": "18/03/2018",
+      "extraordinario_inicio": "19/03/2017",
+      "extraordinario_fim": "18/03/2018"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2514",
+        "data_rpi": "12/03/2019",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1941",
+        "data_rpi": "18/03/2008",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1934",
+        "data_rpi": "29/01/2008",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1836",
+        "data_rpi": "14/03/2006",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "900757604",
+    "nome_marca": "ZÊNITH ODONTOLOGIA",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Odontologia;Odontologia [cirurgião-dentista]"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "1.5.1",
+        "descricao": "Globos terrestres"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ANA ELIZABETH AGUIAR DA SILVA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "JAHIR MALTA NUNES"
+    },
+    "datas": {
+      "deposito": "25/02/2008",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2181",
+        "data_rpi": "23/10/2012",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2058",
+        "data_rpi": "15/06/2010",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1941",
+        "data_rpi": "18/03/2008",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "904777162",
+    "nome_marca": "Zênite Odontologia",
+    "situacao": "Pedido definitivamente arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Odontologia - [Informação em]; Odontologia - [Consultoria em..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.7.25",
+        "descricao": "Outras combinações de figuras geométricas diferentes, justapostas, unidas ou entrecortadas"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "GLÁUCIO FERREIRA GUIMARÃES"
+      }
+    ],
+    "representante_legal": {
+      "nome": "INDRID SOARES GERMANO"
+    },
+    "datas": {
+      "deposito": "07/05/2012",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2305",
+        "data_rpi": "10/03/2015",
+        "despacho": "Arquivamento definitivo de pedido de registro por falta de procuração",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2182",
+        "data_rpi": "30/10/2012",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "906297567",
+    "nome_marca": "ZÊNITE ESTÉTICA",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Fisioterapia"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.7.1",
+        "descricao": "Círculos ou elipses com um ou mais segmentos e/ou setores de círculos ou elipses"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.1",
+        "descricao": "Vermelho, rosa, laranja"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "WU CHI HAUR"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "28/05/2013",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2346",
+        "data_rpi": "22/12/2015",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 828131767 (ZÊNITE ODONTOLOGIA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2231",
+        "data_rpi": "08/10/2013",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 828131767 (ZÊNITE ODONTOLOGIA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850130097719"
+      ]
+    }
+  },
+  {
+    "numero_processo": "914809067",
+    "nome_marca": "A&S Zenith Arte & Saúde Odontologia",
+    "situacao": "Pedido de registro de marca indeferido",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Odontologia [cirurgião-dentista]"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.5",
+        "descricao": "Letras contendo inscrição"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.13",
+        "descricao": "Letras sob a forma de assinatura, assinaturas ilegíveis"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.10",
+        "descricao": "Grupos de letras apresentando dimensões diferentes"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "GUSTAVO BORGES GUARACIABA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "06/06/2018",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2516",
+        "data_rpi": "26/03/2019",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 902452169 (Arte e Saúde Odontologia). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia; Elemento nominativo alterado para ?A&S Zenith Arte & Saúde Odontologia? para adequação ao elemento figurativo."
+      },
+      {
+        "rpi": "2477",
+        "data_rpi": "26/06/2018",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 902452169 (Arte e Saúde Odontologia). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia; Elemento nominativo alterado para ?A&S Zenith Arte & Saúde Odontologia? para adequação ao elemento figurativo.",
+      "protocolos_conflitantes": [
+        "850180159430"
+      ]
+    }
+  },
+  {
+    "numero_processo": "921337000",
+    "nome_marca": "ZENITH EDUCAÇÃO CONTINUADA",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aconselhamento em questões de saúde;Assessoria, consultoria ..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.3.24",
+        "descricao": "Triângulos com superfície ou parte da superfície escura"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.11.2",
+        "descricao": "Duas linhas ou faixas"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZENITH CENTRO DE ENSINO E TRATAMENTO ODONTOLOGICO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "MÁRIO DE ALMEIDA MARCAS E PATENTES SOCIEDADE SIMPLES"
+    },
+    "datas": {
+      "deposito": "17/11/2020",
+      "concessao": "05/10/2021",
+      "vigencia": "05/10/2031"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "06/10/2030",
+      "ordinario_fim": "05/10/2031",
+      "extraordinario_inicio": "06/10/2030",
+      "extraordinario_fim": "05/10/2031"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2648",
+        "data_rpi": "05/10/2021",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2642",
+        "data_rpi": "24/08/2021",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2608",
+        "data_rpi": "29/12/2020",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "923776001",
+    "nome_marca": "Zenith BioNeural",
+    "situacao": "Pedido de registro de marca indeferido",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Assessoria, consultoria e informação no campo da saúde e da ..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "GABRIELLE TUBBS"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "29/07/2021",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2693",
+        "data_rpi": "16/08/2022",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 921337000 (ZENITH EDUCAÇÃO CONTINUADA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2641",
+        "data_rpi": "17/08/2021",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 921337000 (ZENITH EDUCAÇÃO CONTINUADA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850210321455"
+      ]
+    }
+  },
+  {
+    "numero_processo": "924968648",
+    "nome_marca": "ZÊNITE",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Assessoria, consultoria e informação odontológica;Serviços d..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "2.1.16",
+        "descricao": "Sombras ou silhuetas de homem"
+      },
+      {
+        "edicao": "4",
+        "codigo": "2.3.16",
+        "descricao": "Mulheres de perfil, silhuetas de mulher"
+      },
+      {
+        "edicao": "4",
+        "codigo": "2.9.7",
+        "descricao": "Narizes"
+      },
+      {
+        "edicao": "4",
+        "codigo": "2.9.8",
+        "descricao": "Lábios, bocas"
+      },
+      {
+        "edicao": "4",
+        "codigo": "2.9.25",
+        "descricao": "Outras partes do corpo humano"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZÊNITE REABILITAÇÃO ORAL LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Leonardo Valente Santos"
+    },
+    "datas": {
+      "deposito": "22/11/2021",
+      "concessao": "10/01/2023",
+      "vigencia": "10/01/2033"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "11/01/2032",
+      "ordinario_fim": "10/01/2033",
+      "extraordinario_inicio": "11/01/2032",
+      "extraordinario_fim": "10/01/2033"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2714",
+        "data_rpi": "10/01/2023",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2711",
+        "data_rpi": "20/12/2022",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2658",
+        "data_rpi": "14/12/2021",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "932108644",
+    "nome_marca": "Zênite",
+    "situacao": "Pedido definitivamente arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Farmácia de manipulação [manipulação de medicamentos]"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ANA PAULA NOVELLI"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "30/09/2023",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2844",
+        "data_rpi": "08/07/2025",
+        "despacho": "Arquivamento definitivo de pedido de registro por falta de cumprimento de exigência de mérito",
+        "detalhes": "Comprove documentalmente exercer efetiva e licitamente, como pessoa física, atividade compatível com a legislação relativa à medicamentos em vigor no País, bem como o disposto no §1º do art. 128 da LPI sobre o exercício efetivo da atividade por pessoas físicas. Alternativamente, apresente especificação suprimindo o item mencionado ou substituindo o mesmo por serviços passíveis de serem realizados por pessoa física nos termos da legislação vigente na data desta exigência. Cumpra na classificação atual (NCL(12)), conforme listas disponíveis no sítio eletrônico do INPI: https://www.gov.br/inpi/pt-br/servicos/marcas/classificacao-marcas/classificacao."
+      },
+      {
+        "rpi": "2832",
+        "data_rpi": "15/04/2025",
+        "despacho": "Exigência de mérito",
+        "detalhes": "Comprove documentalmente exercer efetiva e licitamente, como pessoa física, atividade compatível com a legislação relativa à medicamentos em vigor no País, bem como o disposto no §1º do art. 128 da LPI sobre o exercício efetivo da atividade por pessoas físicas. Alternativamente, apresente especificação suprimindo o item mencionado ou substituindo o mesmo por serviços passíveis de serem realizados por pessoa física nos termos da legislação vigente na data desta exigência. Cumpra na classificação atual (NCL(12)), conforme listas disponíveis no sítio eletrônico do INPI: https://www.gov.br/inpi/pt-br/servicos/marcas/classificacao-marcas/classificacao."
+      },
+      {
+        "rpi": "2754",
+        "data_rpi": "17/10/2023",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "933334869",
+    "nome_marca": "Zenith Saúde",
+    "situacao": "Pedido de registro de marca indeferido",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Odontologia [cirurgião-dentista];Serviços de odontologia"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.9",
+        "descricao": "Grupos de letras apresentando grafismos diferentes"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.8",
+        "descricao": "Preto"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "SALUT ODONTO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "ELCIO CARDOSO DA SILVA"
+    },
+    "datas": {
+      "deposito": "29/01/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2850",
+        "data_rpi": "19/08/2025",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 924968648 (ZÊNITE). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2771",
+        "data_rpi": "15/02/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 924968648 (ZÊNITE). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850240040634"
+      ]
+    }
+  },
+  {
+    "numero_processo": "934211523",
+    "nome_marca": "ZENITE TECH",
+    "situacao": "Pedido de registro de marca indeferido",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Assistência médica;Consultoria em saúde ocupacional;Exames m..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ZÊNITE TECNOLOGIA E TELEINFORMÁTICA LTDA EPP"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Wellington Dantas da Silva"
+    },
+    "datas": {
+      "deposito": "12/04/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2859",
+        "data_rpi": "21/10/2025",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 933334869 (Zenith Saúde). A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 921337000 (ZENITH EDUCAÇÃO CONTINUADA) e Processo 924968648 (ZÊNITE). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2782",
+        "data_rpi": "30/04/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 933334869 (Zenith Saúde). A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 921337000 (ZENITH EDUCAÇÃO CONTINUADA) e Processo 924968648 (ZÊNITE). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850240175264"
+      ]
+    }
+  },
+  {
+    "numero_processo": "934243751",
+    "nome_marca": "ZENITH SPA",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Estética [tratamento da pele e cabelo];Estética facial e cor..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "53.585.375/0001-27 LAÍS TEIXEIRA DE OLIVEIRA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "16/04/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2873",
+        "data_rpi": "27/01/2026",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 921337000 (ZENITH EDUCAÇÃO CONTINUADA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2859",
+        "data_rpi": "21/10/2025",
+        "despacho": "Sobrestamento do exame de mérito",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2782",
+        "data_rpi": "30/04/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 921337000 (ZENITH EDUCAÇÃO CONTINUADA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850260117395"
+      ]
+    }
+  },
+  {
+    "numero_processo": "935920854",
+    "nome_marca": "Zenith Mente Saudável",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aconselhamento em questões de saúde;Assessoria, consultoria ..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.1.16",
+        "descricao": "Círculos ou elipses com outros elementos figurativos"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.3.23",
+        "descricao": "Linhas ou faixas formando um ângulo"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.1.5",
+        "descricao": "Mais de dois círculos ou elipses, um dentro do outro, espirais"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.4",
+        "descricao": "Azul"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "MASTMED MEDICINA OCUPACIONAL LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "MARGARETE RODRIGUES"
+    },
+    "datas": {
+      "deposito": "22/08/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2802",
+        "data_rpi": "17/09/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "937111287",
+    "nome_marca": "Situação:\t  Pedido considerado inexistente",
+    "situacao": "Pedido considerado inexistente",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aconselhamento em questões de saúde;Aluguel de robôs cirúrgi..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "INSTITUTO FELIPE HURTADO DE EDUCACAO SOCIEDADE UNIPESSOAL LIMITADA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "23/11/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2815",
+        "data_rpi": "17/12/2024",
+        "despacho": "Decisão de considerar pedido inexistente por falta de pagamento",
+        "detalhes": "Pedido de registro de marca sem pagamento ou com pagamento posterior à data de envio do formulário eletrônico, em inobservância ao Art. 155 da Lei da Propriedade Industrial e em inobservância ao disposto no Art. 4º na Portaria 08/2022."
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "937518182",
+    "nome_marca": "OZ ORAL ZÊNITE ODONTOLOGIA INTEGRATIVA",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Assessoria, consultoria e informação odontológica;Assessoria..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.5",
+        "descricao": "Letras contendo inscrição"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.2",
+        "descricao": "Letras em contorno duplo"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "LELIENE SUELY RODRIGUES PEREIRA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "SONIA MARTA MARANGONI"
+    },
+    "datas": {
+      "deposito": "27/12/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2819",
+        "data_rpi": "14/01/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "938805606",
+    "nome_marca": "Elysium Zenith",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aconselhamento em questões de saúde;Acupuntura;Fisioterapia;..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "JOÃO VICTOR CARVALHO DE BRITO"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "16/04/2025",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2836",
+        "data_rpi": "13/05/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "939283859",
+    "nome_marca": "INSTITUTO ZENITH",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Assessoria, consultoria e informação em estética pessoal [tr..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.6",
+        "descricao": "Letras compostas de um conjunto de desenho"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.1.11",
+        "descricao": "Letras ou algarismos formando uma figura bicôncava"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.19",
+        "descricao": "Letras sobrepostas"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.8",
+        "descricao": "Letras ligadas a um elemento figurativo"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "THAIS SILVA DOS SANTOS"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Thais Silva dos santos"
+    },
+    "datas": {
+      "deposito": "23/05/2025",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2860",
+        "data_rpi": "28/10/2025",
+        "despacho": "Notificação de oposição",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2840",
+        "data_rpi": "10/06/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "940260182",
+    "nome_marca": "ESPAÇO ZÊNITH ESTÉTICA E BEM SENTIR",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aromaterapia;Assessoria, consultoria e informação em estétic..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "1.3.2",
+        "descricao": "Outras representações do sol"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "42.498.641 NATALIA MANTOVANI"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Everton Luis Rossin"
+    },
+    "datas": {
+      "deposito": "30/07/2025",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2858",
+        "data_rpi": "14/10/2025",
+        "despacho": "Petição de retificação atendida",
+        "detalhes": "850250469220 (20/08/2025)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nRequerente: 42.498.641 NATALIA MANTOVANI\nProcurador: Everton Luis Rossin\nDetalhes do despacho:Realizada a correção do elemento nominativo, conforme imagem apresentada no ato do depósito."
+      },
+      {
+        "rpi": "2850",
+        "data_rpi": "19/08/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "940718286",
+    "nome_marca": "Zenitis Saúde Integrada por Graziella Rios",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aconselhamento em questões de saúde;Acupuntura;Aromaterapia;..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "29.1.12",
+        "descricao": "Duas cores predominantes"
+      },
+      {
+        "edicao": "4",
+        "codigo": "5.5.21",
+        "descricao": "Uma flor"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.4",
+        "descricao": "Azul"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.7.25",
+        "descricao": "Outras combinações de figuras geométricas diferentes, justapostas, unidas ou entrecortadas"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZENITIS SAUDE INTEGRADA LTD"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Raul Kochhann Bergesch"
+    },
+    "datas": {
+      "deposito": "22/08/2025",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2864",
+        "data_rpi": "25/11/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": "Realizada a alteração do elemento nominativo, de acordo com a imagem da marca anexada no formulário, em conformidade com o item 4.2.4 do Manual de Marcas."
+      },
+      {
+        "rpi": "2853",
+        "data_rpi": "09/09/2025",
+        "despacho": "Exigência de pagamento",
+        "detalhes": "Considerando que o pedido foi protocolado após a entrada em vigor da nova tabela de retribuições, complemente a retribuição devida no exato valor fixado na tabela vigente. Siga instruções da seção 3.3.1 do Manual de Marcas para efetuar complementação. Cumpra esta exigência por meio de formulário de cumprimento de exigência formal (código de serviço 338), apresentando o comprovante de pagamento complementar. Prazo para cumprimento desta exigência: 5 dias (art. 157 e 221 da Lei da Propriedade Industrial)."
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "941061868",
+    "nome_marca": "INSTITUTO ZENITH - SAÚDE E NUTRIÇÃO INTEGRADA.",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aconselhamento em dieta e nutrição;Análise e prognóstico nut..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "INSTITUTO ZENITH - ATENDIMENTO NUTRICIONAL E APOIO A SAUDE LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "12/09/2025",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2857",
+        "data_rpi": "07/10/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "942189833",
+    "nome_marca": "INSTITUTO ZENITH BY THAIS TIGRO",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Assessoria, consultoria e informação em estética capilar;Ass..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.10",
+        "descricao": "Grupos de letras apresentando dimensões diferentes"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.8",
+        "descricao": "Letras ligadas a um elemento figurativo"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.22",
+        "descricao": "Monogramas formados por letras enlaçadas, sobrepostas ou combinadas de outra maneira"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "THAIS SILVA DOS SANTOS"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Mariana Silva Kretli"
+    },
+    "datas": {
+      "deposito": "15/12/2025",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2869",
+        "data_rpi": "30/12/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "942542231",
+    "nome_marca": "zenith saúde mental",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(13) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Orientação psicológica;Provimento de instalações para reabil..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "29.1.14",
+        "descricao": "Quatro cores"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.13.25",
+        "descricao": "Outras figuras geométricas, desenhos indefiníveis"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "MASTMED MEDICINA OCUPACIONAL LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "MODAL MARCAS E PATENTES LTDA."
+    },
+    "datas": {
+      "deposito": "27/01/2026",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2876",
+        "data_rpi": "18/02/2026",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "942547284",
+    "nome_marca": "Zenith Concept Salon",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(13) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Depilação;Depilação com cera;Manicure;Manicure e pedicure;Ma..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "29.1.8",
+        "descricao": "Preto"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.11.13",
+        "descricao": "Linhas ou faixas onduladas, ou em ziguezague"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.2",
+        "descricao": "Amarelo, dourado"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.6",
+        "descricao": "Branco, cinza, prateado"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "STUDIO SIMONY BONOME"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "28/01/2026",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2876",
+        "data_rpi": "18/02/2026",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "942717406",
+    "nome_marca": "ZÊNITY ODONTOLOGIA E HARMONIZAÇÃO",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(13) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Odontologia [cirurgião-dentista];Serviços de estética"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.4.11",
+        "descricao": "Quadriláteros contendo um ou mais triângulos ou linhas formando um ângulo"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "DANDARA DE OLIVEIRA CERQUEIRA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "12/02/2026",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2878",
+        "data_rpi": "03/03/2026",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": "Realizada a alteração do elemento nominativo, de acordo com a imagem da marca anexada no formulário, em conformidade com o item 4.2.4 do Manual de Marcas."
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "002205440",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ELGIN S/A"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "05/05/1953",
+      "concessao": "04/06/1959",
+      "vigencia": "04/06/1999"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1133",
+        "data_rpi": "18/08/1992",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1114",
+        "data_rpi": "07/04/1992",
+        "despacho": "900",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1097",
+        "data_rpi": "10/12/1991",
+        "despacho": "550",
+        "detalhes": ""
+      },
+      {
+        "rpi": "941",
+        "data_rpi": "01/11/1988",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "003446255",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "20",
+        "codigo": "35",
+        "descricao": "Recipientes, sacos e embalagens em geral."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "EMBALAGEM ZENITH LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "ALTAIR DIAS, MELLO & CIA. LTDA."
+    },
+    "datas": {
+      "deposito": "18/03/1958",
+      "concessao": "30/11/1966",
+      "vigencia": "30/11/2006"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1924",
+        "data_rpi": "20/11/2007",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1373",
+        "data_rpi": "25/03/1997",
+        "despacho": "795",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1373",
+        "data_rpi": "25/03/1997",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1351",
+        "data_rpi": "22/10/1996",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "816",
+        "data_rpi": "10/06/1986",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "811237524",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ZENITH ELECTRONICS CORPORATION"
+      }
+    ],
+    "representante_legal": {
+      "nome": "MOMSEN, LEONARDOS & CIA."
+    },
+    "datas": {
+      "deposito": "18/07/1983",
+      "concessao": "14/04/1987",
+      "vigencia": "14/04/2007"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1998",
+        "data_rpi": "22/04/2009",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1854",
+        "data_rpi": "18/07/2006",
+        "despacho": "920",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1814",
+        "data_rpi": "11/10/2005",
+        "despacho": "910",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1760",
+        "data_rpi": "28/09/2004",
+        "despacho": "690",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1609",
+        "data_rpi": "06/11/2001",
+        "despacho": "552",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1375",
+        "data_rpi": "08/04/1997",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1325",
+        "data_rpi": "23/04/1996",
+        "despacho": "735",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1314",
+        "data_rpi": "06/02/1996",
+        "despacho": "735",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1306",
+        "data_rpi": "12/12/1995",
+        "despacho": "745",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1306",
+        "data_rpi": "12/12/1995",
+        "despacho": "795",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1264",
+        "data_rpi": "21/02/1995",
+        "despacho": "550",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1075",
+        "data_rpi": "09/07/1991",
+        "despacho": "815",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1048",
+        "data_rpi": "02/01/1991",
+        "despacho": "805",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1013",
+        "data_rpi": "10/04/1990",
+        "despacho": "510",
+        "detalhes": ""
+      },
+      {
+        "rpi": "860",
+        "data_rpi": "14/04/1987",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "838",
+        "data_rpi": "11/11/1986",
+        "despacho": "275",
+        "detalhes": ""
+      },
+      {
+        "rpi": "788",
+        "data_rpi": "26/11/1985",
+        "despacho": "230",
+        "detalhes": ""
+      },
+      {
+        "rpi": "757",
+        "data_rpi": "23/04/1985",
+        "despacho": "090",
+        "detalhes": ""
+      },
+      {
+        "rpi": "750",
+        "data_rpi": "05/03/1985",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "731",
+        "data_rpi": "23/10/1984",
+        "despacho": "350",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "811237532",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ZENITH ELECTRONICS CORPORATION"
+      }
+    ],
+    "representante_legal": {
+      "nome": "MOMSEN, LEONARDOS & CIA."
+    },
+    "datas": {
+      "deposito": "18/07/1983",
+      "concessao": "14/04/1987",
+      "vigencia": "14/04/2007"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2000",
+        "data_rpi": "05/05/2009",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1854",
+        "data_rpi": "18/07/2006",
+        "despacho": "920",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1814",
+        "data_rpi": "11/10/2005",
+        "despacho": "910",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1760",
+        "data_rpi": "28/09/2004",
+        "despacho": "690",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1609",
+        "data_rpi": "06/11/2001",
+        "despacho": "552",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1375",
+        "data_rpi": "08/04/1997",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1142",
+        "data_rpi": "20/10/1992",
+        "despacho": "888",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1018",
+        "data_rpi": "15/05/1990",
+        "despacho": "890",
+        "detalhes": ""
+      },
+      {
+        "rpi": "955",
+        "data_rpi": "08/02/1989",
+        "despacho": "515",
+        "detalhes": ""
+      },
+      {
+        "rpi": "915",
+        "data_rpi": "03/05/1988",
+        "despacho": "805",
+        "detalhes": ""
+      },
+      {
+        "rpi": "887",
+        "data_rpi": "20/10/1987",
+        "despacho": "510",
+        "detalhes": ""
+      },
+      {
+        "rpi": "860",
+        "data_rpi": "14/04/1987",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "838",
+        "data_rpi": "11/11/1986",
+        "despacho": "275",
+        "detalhes": ""
+      },
+      {
+        "rpi": "788",
+        "data_rpi": "26/11/1985",
+        "despacho": "230",
+        "detalhes": ""
+      },
+      {
+        "rpi": "757",
+        "data_rpi": "23/04/1985",
+        "despacho": "090",
+        "detalhes": ""
+      },
+      {
+        "rpi": "750",
+        "data_rpi": "05/03/1985",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "731",
+        "data_rpi": "23/10/1984",
+        "despacho": "350",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "812972007",
+    "nome_marca": "ZENITE",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "25",
+        "codigo": "10",
+        "descricao": "Roupas e acessórios do vestuário de uso comum."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "CALCADOS VOGUE LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "EMILIO COLLADO LOPEZ"
+    },
+    "datas": {
+      "deposito": "18/11/1986",
+      "concessao": "23/10/1989",
+      "vigencia": "23/10/1999"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1602",
+        "data_rpi": "18/09/2001",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "992",
+        "data_rpi": "24/10/1989",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "969",
+        "data_rpi": "16/05/1989",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "946",
+        "data_rpi": "06/12/1988",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "930",
+        "data_rpi": "16/08/1988",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "813216834",
+    "nome_marca": "ZENITH",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "MORI SIMÕES COMERCIAL LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "17/12/1986",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1031",
+        "data_rpi": "04/09/1990",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1012",
+        "data_rpi": "03/04/1990",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "924",
+        "data_rpi": "05/07/1988",
+        "despacho": "235",
+        "detalhes": ""
+      },
+      {
+        "rpi": "905",
+        "data_rpi": "23/02/1988",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "888",
+        "data_rpi": "27/10/1987",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "813389127",
+    "nome_marca": "ZÊNITE",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.15.1",
+        "descricao": "Esferas"
+      },
+      {
+        "edicao": "09",
+        "codigo": "15",
+        "descricao": "Aparelhos e instrumentos científicos, médicos, odontológicos e veterinários."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZENITE IND E COMERCIO DE COMPUTADORES DEDICADOS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "08/04/1987",
+      "concessao": "12/06/1990",
+      "vigencia": "12/06/2000"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1663",
+        "data_rpi": "19/11/2002",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1116",
+        "data_rpi": "21/04/1992",
+        "despacho": "560",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1022",
+        "data_rpi": "12/06/1990",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1005",
+        "data_rpi": "06/02/1990",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "990",
+        "data_rpi": "10/10/1989",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "897",
+        "data_rpi": "29/12/1987",
+        "despacho": "200",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "814218296",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "IBRAS CBO INDS CIRURGICAS E OPTICAS S A COM IMP E EXP"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "02/05/1988",
+      "concessao": "03/05/1994",
+      "vigencia": "03/05/2004"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1802",
+        "data_rpi": "19/07/2005",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1222",
+        "data_rpi": "03/05/1994",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1193",
+        "data_rpi": "13/10/1993",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1174",
+        "data_rpi": "01/06/1993",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1158",
+        "data_rpi": "09/02/1993",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1105",
+        "data_rpi": "04/02/1992",
+        "despacho": "261",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1054",
+        "data_rpi": "13/02/1991",
+        "despacho": "286",
+        "detalhes": ""
+      },
+      {
+        "rpi": "972",
+        "data_rpi": "06/06/1989",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "949",
+        "data_rpi": "27/12/1988",
+        "despacho": "100",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "814300910",
+    "nome_marca": "ZENITH",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "CALZATURIFICIO DI VARESE S.P.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "MOMSEN, LEONARDOS & CIA."
+    },
+    "datas": {
+      "deposito": "14/06/1988",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1303",
+        "data_rpi": "21/11/1995",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1283",
+        "data_rpi": "04/07/1995",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "962",
+        "data_rpi": "28/03/1989",
+        "despacho": "200",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "814735959",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ZENITH ELECTRONICS CORPORATION"
+      }
+    ],
+    "representante_legal": {
+      "nome": "MOMSEN, LEONARDOS & CIA."
+    },
+    "datas": {
+      "deposito": "09/03/1989",
+      "concessao": "11/09/1990",
+      "vigencia": "11/09/2000"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1428",
+        "data_rpi": "05/05/1998",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1380",
+        "data_rpi": "13/05/1997",
+        "despacho": "900",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1360",
+        "data_rpi": "24/12/1996",
+        "despacho": "550",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1322",
+        "data_rpi": "02/04/1996",
+        "despacho": "745",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1322",
+        "data_rpi": "02/04/1996",
+        "despacho": "735",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1264",
+        "data_rpi": "21/02/1995",
+        "despacho": "550",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1032",
+        "data_rpi": "11/09/1990",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1026",
+        "data_rpi": "31/07/1990",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1008",
+        "data_rpi": "06/03/1990",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "992",
+        "data_rpi": "24/10/1989",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "983",
+        "data_rpi": "22/08/1989",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815196113",
+    "nome_marca": "ZENIT",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ELEVADORES ZENIT LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "26/10/1989",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1061",
+        "data_rpi": "02/04/1991",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1046",
+        "data_rpi": "18/12/1990",
+        "despacho": "100",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "816107955",
+    "nome_marca": "ZENIT",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 03",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "DETERGENTES PARA PROTEÇÃO E LIMPEZA DOS VEÍCULOS, PRODUTOS P..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "25.5.1",
+        "descricao": "Fundos divididos em dois no sentido vertical"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZENIT AUTO IMPORTADORA LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "SETA MARCAS E PATENTES LTDA"
+    },
+    "datas": {
+      "deposito": "27/03/1991",
+      "concessao": "15/03/2005",
+      "vigencia": "15/03/2015"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "16/03/2014",
+      "ordinario_fim": "15/03/2015",
+      "extraordinario_inicio": "16/03/2014",
+      "extraordinario_fim": "15/03/2015"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2341",
+        "data_rpi": "17/11/2015",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1784",
+        "data_rpi": "15/03/2005",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1766",
+        "data_rpi": "09/11/2004",
+        "despacho": "269",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1657",
+        "data_rpi": "08/10/2002",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1639",
+        "data_rpi": "04/06/2002",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1483",
+        "data_rpi": "08/06/1999",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1409",
+        "data_rpi": "23/12/1997",
+        "despacho": "003",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1081",
+        "data_rpi": "20/08/1991",
+        "despacho": "200",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817246789",
+    "nome_marca": "ZENITH",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "CHAMFIL-INDUSTRIA E COMERCIO LTDA."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "20/05/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1298",
+        "data_rpi": "17/10/1995",
+        "despacho": "270",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1251",
+        "data_rpi": "22/11/1994",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1220",
+        "data_rpi": "19/04/1994",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1192",
+        "data_rpi": "05/10/1993",
+        "despacho": "035",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819209236",
+    "nome_marca": "ZENIT",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "CHAMFIL-INDUSTRIA E COMERCIO LTDA."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "22/05/1996",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1611",
+        "data_rpi": "20/11/2001",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1555",
+        "data_rpi": "24/10/2000",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1443",
+        "data_rpi": "18/08/1998",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1389",
+        "data_rpi": "15/07/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819376850",
+    "nome_marca": "ZENITH",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ICAREY SOCIEDAD ANONIMA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "ASSEMP - MARCAS E PATENTES S/C LTDA"
+    },
+    "datas": {
+      "deposito": "29/08/1996",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1768",
+        "data_rpi": "23/11/2004",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1678",
+        "data_rpi": "05/03/2003",
+        "despacho": "035",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1454",
+        "data_rpi": "17/11/1998",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1392",
+        "data_rpi": "05/08/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "820169170",
+    "nome_marca": "ZENIT",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ZENIT AUTO IMPORTADORA LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "SETA MARCAS E PATENTES LTDA"
+    },
+    "datas": {
+      "deposito": "19/08/1997",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2120",
+        "data_rpi": "23/08/2011",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2101",
+        "data_rpi": "12/04/2011",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1648",
+        "data_rpi": "06/08/2002",
+        "despacho": "241",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1487",
+        "data_rpi": "06/07/1999",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1409",
+        "data_rpi": "23/12/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "820173762",
+    "nome_marca": "ZENIT AUTO PARTS",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "25.5.1",
+        "descricao": "Fundos divididos em dois no sentido vertical"
+      },
+      {
+        "edicao": "4",
+        "codigo": "25.7.1",
+        "descricao": "Superfícies ou fundos cobertos com figuras ou desenhos geométricos repetidos"
+      },
+      {
+        "edicao": "09",
+        "codigo": "10",
+        "descricao": "Aparelhos e instrumentos de medição, aferição e pesagem."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZENIT AUTO IMPORTADORA LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "SETA MARCAS E PATENTES LTDA"
+    },
+    "datas": {
+      "deposito": "22/08/1997",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2150",
+        "data_rpi": "20/03/2012",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2136",
+        "data_rpi": "13/12/2011",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2104",
+        "data_rpi": "03/05/2011",
+        "despacho": "241",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1690",
+        "data_rpi": "27/05/2003",
+        "despacho": "241",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1492",
+        "data_rpi": "10/08/1999",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1410",
+        "data_rpi": "30/12/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "900569719",
+    "nome_marca": "ORIA ZENITH",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Escovas para limpar as cavidades do corpo;Estetoscópios;Guia..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "OSTEOCAMP IMPLANTES & MATERIAIS CIRÚRGICOS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "VILAGE MARCAS & PATENTES S/S LTDA"
+    },
+    "datas": {
+      "deposito": "22/10/2007",
+      "concessao": "15/12/2009",
+      "vigencia": "15/12/2019"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "16/12/2018",
+      "ordinario_fim": "15/12/2019",
+      "extraordinario_inicio": "16/12/2018",
+      "extraordinario_fim": "15/12/2019"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2532",
+        "data_rpi": "16/07/2019",
+        "despacho": "Extinção de registro pela caducidade",
+        "detalhes": "850180231724 (09/08/2018)\nPetição (tipo): Caducidade (337.1)\nRequerente(es): A. MENARINI INDUSTRIE FARMACEUTICHE RIUNITE S.R.L.\nProcurador: Cruzeiro Newmarc Patentes e Marcas Ltda.\nDetalhes do despacho:Por falta de contestação ao requerimento de caducidade, conforme previsto no parágrafo 2º do Artigo 143 da Lei da Propriedade Industrial (LPI, lei n.º 9.279, de 14 de maio de 1996): Parágrafo 2º - O titular será intimado para se manifestar no prazo de 60 (sessenta) dias, cabendo-lhe o ônus de provar o uso da marca ou justificar seu desuso por razões legítimas."
+      },
+      {
+        "rpi": "2502",
+        "data_rpi": "18/12/2018",
+        "despacho": "Deferimento da petição de caducidade",
+        "detalhes": "850180231724 (09/08/2018)\nPetição (tipo): Caducidade (337.1)\nRequerente(es): A. MENARINI INDUSTRIE FARMACEUTICHE RIUNITE S.R.L.\nProcurador: Cruzeiro Newmarc Patentes e Marcas Ltda.\nDetalhes do despacho:Por falta de contestação ao requerimento de caducidade, conforme previsto no parágrafo 2º do Artigo 143 da Lei da Propriedade Industrial (LPI, lei n.º 9.279, de 14 de maio de 1996): Parágrafo 2º - O titular será intimado para se manifestar no prazo de 60 (sessenta) dias, cabendo-lhe o ônus de provar o uso da marca ou justificar seu desuso por razões legítimas."
+      },
+      {
+        "rpi": "2486",
+        "data_rpi": "28/08/2018",
+        "despacho": "Notificação de caducidade",
+        "detalhes": "850180231724 (09/08/2018)\nPetição (tipo): Caducidade (337.1)\nTitular(es): A. MENARINI INDUSTRIE FARMACEUTICHE RIUNITE S.R.L.\nProcurador: Cruzeiro Newmarc Patentes e Marcas Ltda."
+      },
+      {
+        "rpi": "2441",
+        "data_rpi": "17/10/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850150068324 (04/04/2015)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.1)\nRequerente: OSTEOCAMP IMPLANTES & MATERIAIS CIRÚRGICOS S.A.\nProcurador: Village Marcas e Patentes Ltda\nDetalhes do despacho:NOME E SEDE ALTERADO(A)S."
+      },
+      {
+        "rpi": "2032",
+        "data_rpi": "15/12/2009",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2024",
+        "data_rpi": "20/10/2009",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1922",
+        "data_rpi": "06/11/2007",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "830149163",
+    "nome_marca": "DAIKYO CRYSTAL ZENITH RU",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "SERINGAS MÉDICAS DO TIPO EM QUE AS PREPARAÇÕES FARMACÊUTICAS..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "DAIKYO SEIKO, LTD."
+      }
+    ],
+    "representante_legal": {
+      "nome": "GILBERTO DE CARVALHO"
+    },
+    "datas": {
+      "deposito": "11/12/2008",
+      "concessao": "01/02/2011",
+      "vigencia": "01/02/2021"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "02/02/2020",
+      "ordinario_fim": "01/02/2021",
+      "extraordinario_inicio": "02/02/2020",
+      "extraordinario_fim": "01/02/2021"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2658",
+        "data_rpi": "14/12/2021",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2091",
+        "data_rpi": "01/02/2011",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2086",
+        "data_rpi": "28/12/2010",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2001",
+        "data_rpi": "12/05/2009",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "911145230",
+    "nome_marca": "ZENIT",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aparelhos médicos de diagnóstico, leitura e interpretação au..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "A. MENARINI INDUSTRIE FARMACEUTICHE RIUNITE S.r.l."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Cruzeiro Newmarc Patentes e Marcas Ltda."
+    },
+    "datas": {
+      "deposito": "07/06/2016",
+      "concessao": "05/11/2019",
+      "vigencia": "05/11/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "06/11/2028",
+      "ordinario_fim": "05/11/2029",
+      "extraordinario_inicio": "06/11/2028",
+      "extraordinario_fim": "05/11/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2548",
+        "data_rpi": "05/11/2019",
+        "despacho": "Concessão de registro",
+        "detalhes": "850180233226 (10/08/2018)\nPetição (tipo): Recurso contra decisão em processo de registro (333.17)\nRequerente: A. MENARINI INDUSTRIE FARMACEUTICHE RIUNITE S.R.L.\nProcurador: Cruzeiro Newmarc Patentes e Marcas Ltda."
+      },
+      {
+        "rpi": "2541",
+        "data_rpi": "17/09/2019",
+        "despacho": "Recurso provido (decisão reformada para: Deferimento)",
+        "detalhes": "850180233226 (10/08/2018)\nPetição (tipo): Recurso contra decisão em processo de registro (333.17)\nRequerente: A. MENARINI INDUSTRIE FARMACEUTICHE RIUNITE S.R.L.\nProcurador: Cruzeiro Newmarc Patentes e Marcas Ltda."
+      },
+      {
+        "rpi": "2498",
+        "data_rpi": "21/11/2018",
+        "despacho": "Notificação de recurso",
+        "detalhes": "850180233226 (10/08/2018)\nPetição (tipo): Recurso contra decisão em processo de registro (333.17)\nRequerente(es): A. MENARINI INDUSTRIE FARMACEUTICHE RIUNITE S.R.L.\nProcurador: Cruzeiro Newmarc Patentes e Marcas Ltda.\nDetalhes do despacho:Recurso contra o indeferimento."
+      },
+      {
+        "rpi": "2475",
+        "data_rpi": "12/06/2018",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 900569719 (ORIA ZENITH). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2442",
+        "data_rpi": "24/10/2017",
+        "despacho": "Notificação de oposição",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2372",
+        "data_rpi": "21/06/2016",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 900569719 (ORIA ZENITH). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "800190390547"
+      ]
+    }
+  },
+  {
+    "numero_processo": "914059696",
+    "nome_marca": "Zenite Médica Ortopedia para vida",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aparelhos e instrumentos cirúrgicos; Aparelhos e instrumento..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "1.5.1",
+        "descricao": "Globos terrestres"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZENITE MATERIAIS CIRURGICOS LTDA-ME"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "22/01/2018",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2504",
+        "data_rpi": "02/01/2019",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca é constituida por sinal ou expressão de propaganda, irregistrável de acordo com o inciso VII do Art 124 da LPI. Art. 124 - Não são registráveis como marca: VII - sinal ou expressão empregada apenas como meio de propaganda;"
+      },
+      {
+        "rpi": "2459",
+        "data_rpi": "20/02/2018",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca é constituida por sinal ou expressão de propaganda, irregistrável de acordo com o inciso VII do Art 124 da LPI. Art. 124 - Não são registráveis como marca: VII - sinal ou expressão empregada apenas como meio de propaganda;",
+      "protocolos_conflitantes": [
+        "850180017484"
+      ]
+    }
+  },
+  {
+    "numero_processo": "915800136",
+    "nome_marca": "ZENITION",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aparelhos e instrumentos para diagnósticos e imagiologia méd..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "KONINKLIJKE PHILIPS N.V."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Daniel Advogados (Alt.de Daniel & Cia)"
+    },
+    "datas": {
+      "deposito": "03/09/2018",
+      "concessao": "23/07/2019",
+      "vigencia": "23/07/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "24/07/2028",
+      "ordinario_fim": "23/07/2029",
+      "extraordinario_inicio": "24/07/2028",
+      "extraordinario_fim": "23/07/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2699",
+        "data_rpi": "27/09/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220375461 (24/08/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: KONINKLIJKE PHILIPS N.V.\nProcurador: David do Nascimento Advogados Associados\nDetalhes do despacho:Sede alterada."
+      },
+      {
+        "rpi": "2533",
+        "data_rpi": "23/07/2019",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2523",
+        "data_rpi": "14/05/2019",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2491",
+        "data_rpi": "02/10/2018",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "922746206",
+    "nome_marca": "ZENITECH",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aparelhos e instrumentos odontológicos"
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "29.1.4",
+        "descricao": "Azul"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.3",
+        "descricao": "Verde"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.13.25",
+        "descricao": "Outras figuras geométricas, desenhos indefiníveis"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "INTRA-LOCK INDÚSTRIA, COMÉRCIO, IMPORTAÇÃO E EXPORTAÇÃO DE PRODUTOS IMPLANTOLÓGICOS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Sérgio Zanella Coppi"
+    },
+    "datas": {
+      "deposito": "26/04/2021",
+      "concessao": "19/04/2022",
+      "vigencia": "19/04/2032"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "20/04/2031",
+      "ordinario_fim": "19/04/2032",
+      "extraordinario_inicio": "20/04/2031",
+      "extraordinario_fim": "19/04/2032"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2676",
+        "data_rpi": "19/04/2022",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2665",
+        "data_rpi": "01/02/2022",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2627",
+        "data_rpi": "11/05/2021",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "501642242",
+    "nome_marca": "ZENITH ETERNA",
+    "situacao": "Designação indeferida (mantida em grau de recurso)",
+    "apresentacao": "Nominativa",
+    "natureza": "Madri Produto/Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Dispositivos médicos, a saber: enxertos endovasculares."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "Cook Medical Technologies LLC"
+      }
+    ],
+    "representante_legal": {
+      "nome": "EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2781",
+        "data_rpi": "24/04/2024",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850240155277 (03/04/2024)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: COOK MEDICAL TECHNOLOGIES LLC\nProcurador: EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO"
+      },
+      {
+        "rpi": "2778",
+        "data_rpi": "02/04/2024",
+        "despacho": "Recurso não provido (decisão mantida)",
+        "detalhes": "850230142601 (29/03/2023)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: COOK MEDICAL TECHNOLOGIES LLC\nProcurador: EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO"
+      },
+      {
+        "rpi": "2731",
+        "data_rpi": "09/05/2023",
+        "despacho": "Notificação de recurso",
+        "detalhes": "850230142601 (29/03/2023)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: COOK MEDICAL TECHNOLOGIES LLC\nProcurador: EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO\nDetalhes do despacho:Recurso contra o indeferimento"
+      },
+      {
+        "rpi": "2729",
+        "data_rpi": "25/04/2023",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850230142052 (29/03/2023)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: COOK MEDICAL TECHNOLOGIES LLC\nProcurador: EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO\nDetalhes do despacho:Nomeado procurador EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO com poderes para representar o titular do processo perante o INPI."
+      },
+      {
+        "rpi": "2717",
+        "data_rpi": "31/01/2023",
+        "despacho": "Indeferimento de designação",
+        "detalhes": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 924675772. A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI. As anterioridades impeditivas identificadas na busca realizada em cada classe do pedido são as seguintes: NCL(11-0)10: Processo 911145230 (ZENIT). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2673",
+        "data_rpi": "29/03/2022",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal de designação concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 924675772. A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI. As anterioridades impeditivas identificadas na busca realizada em cada classe do pedido são as seguintes: NCL(11-0)10: Processo 911145230 (ZENIT). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850240155277"
+      ]
+    }
+  },
+  {
+    "numero_processo": "501799774",
+    "nome_marca": "ZENITH THORACO+",
+    "situacao": "Aguardando apresentação ou exame de recurso contra o indeferimento de Designação Recebida",
+    "apresentacao": "Nominativa",
+    "natureza": "Madri Produto/Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Dispositivos médicos, a saber: enxertos endovasculares."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "Cook Medical Technologies LLC"
+      }
+    ],
+    "representante_legal": {
+      "nome": "EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2879",
+        "data_rpi": "10/03/2026",
+        "despacho": "Notificação de recurso",
+        "detalhes": "850250628036 (30/10/2025)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: COOK MEDICAL TECHNOLOGIES LLC\nProcurador: EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO\nDetalhes do despacho:Recurso contra o indeferimento."
+      },
+      {
+        "rpi": "2867",
+        "data_rpi": "16/12/2025",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850250627920 (30/10/2025)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: COOK MEDICAL TECHNOLOGIES LLC\nProcurador: EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO\nDetalhes do despacho:Destituído o procurador Vincent O. Wagner Woodard, Emhardt, Henry, Reeves & Wagner LLP e nomeado novo representante EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO com poderes para representar o titular do processo perante o INPI."
+      },
+      {
+        "rpi": "2852",
+        "data_rpi": "02/09/2025",
+        "despacho": "Indeferimento de designação",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 911145230 (ZENIT). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2816",
+        "data_rpi": "24/12/2024",
+        "despacho": "Notificação de oposição",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2803",
+        "data_rpi": "24/09/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal de designação concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 911145230 (ZENIT). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850250628036"
+      ]
+    }
+  },
+  {
+    "numero_processo": "501800804",
+    "nome_marca": "ZENITH FENESTRATED+",
+    "situacao": "Aguardando apresentação ou exame de recurso contra o indeferimento de Designação Recebida",
+    "apresentacao": "Nominativa",
+    "natureza": "Madri Produto/Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Dispositivos médicos, a saber: enxertos endovasculares."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "Cook Medical Technologies LLC"
+      }
+    ],
+    "representante_legal": {
+      "nome": "EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2879",
+        "data_rpi": "10/03/2026",
+        "despacho": "Notificação de recurso",
+        "detalhes": "850250673152 (26/11/2025)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: COOK MEDICAL TECHNOLOGIES LLC\nProcurador: EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO\nDetalhes do despacho:Recurso contra o indeferimento."
+      },
+      {
+        "rpi": "2871",
+        "data_rpi": "13/01/2026",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850250673137 (26/11/2025)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: COOK MEDICAL TECHNOLOGIES LLC\nProcurador: EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO\nDetalhes do despacho:Nomeado procurador EDUARDO LOURENÇO GUEDES SERRÃO DE OTERO com poderes para representar o titular do processo perante o INPI."
+      },
+      {
+        "rpi": "2856",
+        "data_rpi": "30/09/2025",
+        "despacho": "Indeferimento de designação",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI. As anterioridades impeditivas identificadas na busca realizada em cada classe do pedido são as seguintes: NCL(12-0)10: Processo 911145230 (ZENIT). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2803",
+        "data_rpi": "24/09/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal de designação concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI. As anterioridades impeditivas identificadas na busca realizada em cada classe do pedido são as seguintes: NCL(12-0)10: Processo 911145230 (ZENIT). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850250673152"
+      ]
+    }
+  },
+  {
+    "numero_processo": "501842563",
+    "nome_marca": "ZENITH TELOS",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Nominativa",
+    "natureza": "Madri Produto/Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 10",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Dispositivo médico, a saber: uma endoprótese arterial reno-v..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "COOK MEDICAL TECHNOLOGIES LLC"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2847",
+        "data_rpi": "29/07/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal de designação concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "002608626",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "REINALDO ROESCH S A COMERCIO IND E CULTURA DE ARROZ"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "26/12/1961",
+      "concessao": "26/12/1971",
+      "vigencia": "26/12/1991"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1131",
+        "data_rpi": "04/08/1992",
+        "despacho": "700",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "006778984",
+    "nome_marca": "ZENITAN",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ISOJUNX INDÚSTRIA DE TINTAS ESPECIAIS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "JOSE ANTONIO DE SOUZA CAPPELLINI"
+    },
+    "datas": {
+      "deposito": "25/04/1972",
+      "concessao": "10/10/1978",
+      "vigencia": "10/10/1998"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1532",
+        "data_rpi": "16/05/2000",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "950",
+        "data_rpi": "03/01/1989",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "006778992",
+    "nome_marca": "ZENITAN",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "ISOJUNX INDÚSTRIA DE TINTAS ESPECIAIS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "JOSE ANTONIO DE SOUZA CAPPELLINI"
+    },
+    "datas": {
+      "deposito": "25/04/1972",
+      "concessao": "10/10/1978",
+      "vigencia": "10/10/1998"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1532",
+        "data_rpi": "16/05/2000",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "950",
+        "data_rpi": "03/01/1989",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "811315835",
+    "nome_marca": "LOÇÃO REFRIGERANTE ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "INDUSTRIAS QUIMICAS NOVIDEX LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "CITY PATENTES E MARCAS LTDA"
+    },
+    "datas": {
+      "deposito": "29/09/1983",
+      "concessao": "26/02/1985",
+      "vigencia": "26/02/1995"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1342",
+        "data_rpi": "20/08/1996",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "749",
+        "data_rpi": "26/02/1985",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "733",
+        "data_rpi": "06/11/1984",
+        "despacho": "250",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "813216834",
+    "nome_marca": "ZENITH",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "MORI SIMÕES COMERCIAL LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "17/12/1986",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1031",
+        "data_rpi": "04/09/1990",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1012",
+        "data_rpi": "03/04/1990",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "924",
+        "data_rpi": "05/07/1988",
+        "despacho": "235",
+        "detalhes": ""
+      },
+      {
+        "rpi": "905",
+        "data_rpi": "23/02/1988",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "888",
+        "data_rpi": "27/10/1987",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "813389127",
+    "nome_marca": "ZÊNITE",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.15.1",
+        "descricao": "Esferas"
+      },
+      {
+        "edicao": "09",
+        "codigo": "15",
+        "descricao": "Aparelhos e instrumentos científicos, médicos, odontológicos e veterinários."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZENITE IND E COMERCIO DE COMPUTADORES DEDICADOS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "08/04/1987",
+      "concessao": "12/06/1990",
+      "vigencia": "12/06/2000"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1663",
+        "data_rpi": "19/11/2002",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1116",
+        "data_rpi": "21/04/1992",
+        "despacho": "560",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1022",
+        "data_rpi": "12/06/1990",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1005",
+        "data_rpi": "06/02/1990",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "990",
+        "data_rpi": "10/10/1989",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "897",
+        "data_rpi": "29/12/1987",
+        "despacho": "200",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "814218296",
+    "nome_marca": "ZENITH",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "IBRAS CBO INDS CIRURGICAS E OPTICAS S A COM IMP E EXP"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "02/05/1988",
+      "concessao": "03/05/1994",
+      "vigencia": "03/05/2004"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1802",
+        "data_rpi": "19/07/2005",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1222",
+        "data_rpi": "03/05/1994",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1193",
+        "data_rpi": "13/10/1993",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1174",
+        "data_rpi": "01/06/1993",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1158",
+        "data_rpi": "09/02/1993",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1105",
+        "data_rpi": "04/02/1992",
+        "despacho": "261",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1054",
+        "data_rpi": "13/02/1991",
+        "despacho": "286",
+        "detalhes": ""
+      },
+      {
+        "rpi": "972",
+        "data_rpi": "06/06/1989",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "949",
+        "data_rpi": "27/12/1988",
+        "despacho": "100",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "814422209",
+    "nome_marca": "ZENITH",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "WILLIBALDO LENZ CIA LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "LENZ & CIA LTDA"
+    },
+    "datas": {
+      "deposito": "29/08/1988",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1304",
+        "data_rpi": "28/11/1995",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1280",
+        "data_rpi": "13/06/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1252",
+        "data_rpi": "29/11/1994",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1224",
+        "data_rpi": "17/05/1994",
+        "despacho": "205",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1192",
+        "data_rpi": "05/10/1993",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "956",
+        "data_rpi": "14/02/1989",
+        "despacho": "200",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815415923",
+    "nome_marca": "ZENIT",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "CIBA-GEIGY AG"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "23/02/1990",
+      "concessao": "25/02/1992",
+      "vigencia": "25/02/2002"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1715",
+        "data_rpi": "18/11/2003",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1108",
+        "data_rpi": "25/02/1992",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1098",
+        "data_rpi": "17/12/1991",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1075",
+        "data_rpi": "09/07/1991",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1056",
+        "data_rpi": "26/02/1991",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815697171",
+    "nome_marca": "TIA ZENITA",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "MERCEARIA YARA LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "20/08/1990",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1135",
+        "data_rpi": "01/09/1992",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1117",
+        "data_rpi": "28/04/1992",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1100",
+        "data_rpi": "31/12/1991",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1068",
+        "data_rpi": "21/05/1991",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "816107955",
+    "nome_marca": "ZENIT",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 03",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "DETERGENTES PARA PROTEÇÃO E LIMPEZA DOS VEÍCULOS, PRODUTOS P..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "25.5.1",
+        "descricao": "Fundos divididos em dois no sentido vertical"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZENIT AUTO IMPORTADORA LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "SETA MARCAS E PATENTES LTDA"
+    },
+    "datas": {
+      "deposito": "27/03/1991",
+      "concessao": "15/03/2005",
+      "vigencia": "15/03/2015"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "16/03/2014",
+      "ordinario_fim": "15/03/2015",
+      "extraordinario_inicio": "16/03/2014",
+      "extraordinario_fim": "15/03/2015"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2341",
+        "data_rpi": "17/11/2015",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1784",
+        "data_rpi": "15/03/2005",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1766",
+        "data_rpi": "09/11/2004",
+        "despacho": "269",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1657",
+        "data_rpi": "08/10/2002",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1639",
+        "data_rpi": "04/06/2002",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1483",
+        "data_rpi": "08/06/1999",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1409",
+        "data_rpi": "23/12/1997",
+        "despacho": "003",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1081",
+        "data_rpi": "20/08/1991",
+        "despacho": "200",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817724508",
+    "nome_marca": "ZENITE",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "TICONA LLC"
+      }
+    ],
+    "representante_legal": {
+      "nome": "DANIEL ADVOGADOS"
+    },
+    "datas": {
+      "deposito": "18/02/1994",
+      "concessao": "14/10/1997",
+      "vigencia": "14/10/2027"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "15/10/2026",
+      "ordinario_fim": "14/10/2027",
+      "extraordinario_inicio": "15/10/2026",
+      "extraordinario_fim": "14/10/2027"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2438",
+        "data_rpi": "26/09/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800170254621 (07/08/2017)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: TICONA LLC\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)"
+      },
+      {
+        "rpi": "2314",
+        "data_rpi": "12/05/2015",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850120053991 (17/04/2012)\nPetição (tipo): Anotação de transferência de titularidade decorrente de cessão (349.1)\nProcurador: DANIEL ADVOGADOS\nCessionário: TICONA LLC"
+      },
+      {
+        "rpi": "1988",
+        "data_rpi": "10/02/2009",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1402",
+        "data_rpi": "14/10/1997",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1382",
+        "data_rpi": "27/05/1997",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1355",
+        "data_rpi": "19/11/1996",
+        "despacho": "205",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1334",
+        "data_rpi": "25/06/1996",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1305",
+        "data_rpi": "05/12/1995",
+        "despacho": "261",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1273",
+        "data_rpi": "25/04/1995",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1245",
+        "data_rpi": "11/10/1994",
+        "despacho": "100",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819244090",
+    "nome_marca": "ZENIT",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "SYNGENTA PARTICIPATIONS AG"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Fabrize Machado Pereira da Cruz"
+    },
+    "datas": {
+      "deposito": "28/05/1996",
+      "concessao": "22/12/1998",
+      "vigencia": "22/12/2018"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "23/12/2017",
+      "ordinario_fim": "22/12/2018",
+      "extraordinario_inicio": "23/12/2017",
+      "extraordinario_fim": "22/12/2018"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2546",
+        "data_rpi": "22/10/2019",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": "850160241288 (27/10/2016)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: SYNGENTA PARTICIPATIONS AG\nProcurador: Fabrize Machado Pereira da Cruz"
+      },
+      {
+        "rpi": "2397",
+        "data_rpi": "13/12/2016",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850160241288 (27/10/2016)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: SYNGENTA PARTICIPATIONS AG\nProcurador: Fabrize Machado Pereira da Cruz"
+      },
+      {
+        "rpi": "2030",
+        "data_rpi": "01/12/2009",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1863",
+        "data_rpi": "19/09/2006",
+        "despacho": "565",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1491",
+        "data_rpi": "03/08/1999",
+        "despacho": "565",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1459",
+        "data_rpi": "22/12/1998",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1446",
+        "data_rpi": "08/09/1998",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1390",
+        "data_rpi": "22/07/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "820386251",
+    "nome_marca": "ZENITH",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "25.5.1",
+        "descricao": "Fundos divididos em dois no sentido vertical"
+      },
+      {
+        "edicao": "03",
+        "codigo": "10",
+        "descricao": "FABRICAÇÃO DE SABÃO, DETERGENTES E PRODUTOS DE LIM ..."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "LENZ RODRIGUES & CIA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "DANNEMANN SIEMSEN BIGLER & IPANEMA MOREIRA"
+    },
+    "datas": {
+      "deposito": "05/11/1997",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1873",
+        "data_rpi": "28/11/2006",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1840",
+        "data_rpi": "11/04/2006",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1552",
+        "data_rpi": "03/10/2000",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1446",
+        "data_rpi": "08/09/1998",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "821476190",
+    "nome_marca": "ZÊNITE",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "03",
+        "codigo": "10",
+        "descricao": "OBJETIVO: COMERCILIZAÇÃO E INDUSTRIALIZAÇÃO DE PRO ..."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ZÊNITE QUIMICA INDÚSTRIA E COMÉRCIO LTDA-ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "O PRÓPRIO."
+    },
+    "datas": {
+      "deposito": "06/07/1999",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1603",
+        "data_rpi": "25/09/2001",
+        "despacho": "175",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1603",
+        "data_rpi": "25/09/2001",
+        "despacho": "155",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1495",
+        "data_rpi": "31/08/1999",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "828093652",
+    "nome_marca": "BODY SIZE NITRO ACTIVE NO2",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 05",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "SUPLEMENTOS ALIMENTARES; ALBUMINA; AMIDO PARA USO DIETÉTICO;..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "INTEGRALMÉDICA SUPLEMENTOS NUTRICIONAIS S/A"
+      }
+    ],
+    "representante_legal": {
+      "nome": "TAVARES & CAMARGO CONSULTORES ASSOCIADOS LTDA"
+    },
+    "datas": {
+      "deposito": "30/01/2006",
+      "concessao": "13/04/2010",
+      "vigencia": "13/04/2020"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "14/04/2019",
+      "ordinario_fim": "13/04/2020",
+      "extraordinario_inicio": "14/04/2019",
+      "extraordinario_fim": "13/04/2020"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2618",
+        "data_rpi": "09/03/2021",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": "850150017533 (28/01/2015)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: INTEGRALMÉDICA SUPLEMENTOS NUTRICIONAIS S/A\nProcurador: Natan Baril\nDetalhes do despacho:NOME ALTERADO."
+      },
+      {
+        "rpi": "2449",
+        "data_rpi": "12/12/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850150017533 (28/01/2015)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: INTEGRALMÉDICA SUPLEMENTOS NUTRICIONAIS S/A\nProcurador: Natan Baril\nDetalhes do despacho:NOME ALTERADO."
+      },
+      {
+        "rpi": "2307",
+        "data_rpi": "24/03/2015",
+        "despacho": "Requerimento não provido (mantida a concessão)",
+        "detalhes": "810100353676 (27/09/2010)\nPetição (tipo): Nulidade administrativa de registro de marca (336.1)\nRequerente: PROBIÓTICA LABORATÓRIOS LTDA.\nProcurador: PIENEGONDA, MOREIRA & ASSOCIADOS LTDA"
+      },
+      {
+        "rpi": "2090",
+        "data_rpi": "25/01/2011",
+        "despacho": "511",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2049",
+        "data_rpi": "13/04/2010",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2036",
+        "data_rpi": "12/01/2010",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1871",
+        "data_rpi": "14/11/2006",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1835",
+        "data_rpi": "07/03/2006",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "903709554",
+    "nome_marca": "Zenitec",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 05",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Diurético;Goma para uso medicinal;Medicinais (Bebidas -);Ina..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "29.1.4",
+        "descricao": "Azul"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.2.1",
+        "descricao": "Segmentos de círculos ou elipses (exceto 26.2.7)"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ERIOCHEM ZENITEC LTDA. - ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "GILBERTO FERRARO"
+    },
+    "datas": {
+      "deposito": "02/06/2011",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2463",
+        "data_rpi": "20/03/2018",
+        "despacho": "Recurso não provido (decisão mantida)",
+        "detalhes": "850160199328 (08/09/2016)\nPetição (tipo): Recurso contra decisão em processo de registro (333.17)\nTitular: ERIOCHEM ZENITEC LTDA. - ME\nProcurador: CLAUDIA WATANABE SOCIEDADE DE ADVOGADOS"
+      },
+      {
+        "rpi": "2389",
+        "data_rpi": "18/10/2016",
+        "despacho": "Notificação de recurso",
+        "detalhes": "850160199328 (08/09/2016)\nPetição (tipo): Recurso contra decisão em processo de registro (333.17)\nRequerente: ERIOCHEM ZENITEC LTDA. - ME\nProcurador: CLAUDIA WATANABE SOCIEDADE DE ADVOGADOS\nDetalhes do despacho:Contra ato denegatório da Diretoria de Marcas."
+      },
+      {
+        "rpi": "2382",
+        "data_rpi": "30/08/2016",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 900402458 (ZANITEK) e Processo 900402318 (ZANITECH). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2321",
+        "data_rpi": "30/06/2015",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850120096431 (25/06/2012)\nPetição (tipo): Anotação de transferência de titularidade decorrente de cessão (349.1)\nProcurador: GILBERTO FERRARO\nCessionário: ERIOCHEM ZENITEC LTDA. - ME"
+      },
+      {
+        "rpi": "2159",
+        "data_rpi": "22/05/2012",
+        "despacho": "009",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2129",
+        "data_rpi": "25/10/2011",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 900402458 (ZANITEK) e Processo 900402318 (ZANITECH). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850160199328"
+      ]
+    }
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "marca": "AMSTERDAM",
+  "classes": [
+    35,
+    42,
+    41,
+    38
+  ],
+  "por_classe": {
+    "35": {
+      "encontradas": 42,
+      "mantidas": 42,
+      "detalhadas": 38,
+      "falhas": [
+        "936107626",
+        "936774983",
+        "937025984",
+        "938338293"
+      ]
+    }
+  },
+  "total_encontradas": 42,
+  "total_mantidas": 42,
+  "total_detalhadas": 38,
+  "sucesso": true,
+  "erro": "Locator.click: Timeout 45000ms exceeded.\nCall log:\n  - waiting for locator(\"input[name=\\\"buscaExata\\\"][value=\\\"nao\\\"]\")\n",
+  "falhas_detalhe": [
+    "936107626",
+    "936774983",
+    "937025984",
+    "938338293"
+  ]
+}

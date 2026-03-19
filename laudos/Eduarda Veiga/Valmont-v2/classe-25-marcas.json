@@ -1,0 +1,26 @@
+[
+  {
+    "numero_processo": "006045294",
+    "nome_marca": "VALMONT",
+    "situacao": "Extinto",
+    "titular": "VALMONT INC.",
+    "classe": 25,
+    "prioridade": "16/09/1968"
+  },
+  {
+    "numero_processo": "815862571",
+    "nome_marca": "V VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CVL COSMETICS S.A.",
+    "classe": 25,
+    "prioridade": "27/04/1990"
+  },
+  {
+    "numero_processo": "819361925",
+    "nome_marca": "JACQUES VALMONT",
+    "situacao": "Arquivado",
+    "titular": "PLANET FASHION INTERNATIONAL S.A.",
+    "classe": 25,
+    "prioridade": "14/08/1996"
+  }
+]

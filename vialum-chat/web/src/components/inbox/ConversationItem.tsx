@@ -15,7 +15,7 @@ export function ConversationItem({ conversation, isActive }: ConversationItemPro
   const isGroup = !!conversation.group;
   const displayName = isGroup
     ? conversation.group?.name || 'Grupo sem nome'
-    : conversation.contact?.name || 'Sem nome';
+    : conversation.contact?.displayName || conversation.contact?.name || 'Sem nome';
   const avatarUrl = isGroup
     ? conversation.group?.profilePicUrl
     : conversation.contact?.avatarUrl;
@@ -24,9 +24,25 @@ export function ConversationItem({ conversation, isActive }: ConversationItemPro
   const senderPrefix = isGroup && lastMsg?.senderContact?.name
     ? `${lastMsg.senderContact.name.split(' ')[0]}: `
     : '';
-  const preview = lastMsg?.content
-    ? senderPrefix + lastMsg.content.slice(0, 80) + (lastMsg.content.length > 80 ? '...' : '')
-    : 'Sem mensagens';
+
+  const mediaLabels: Record<string, string> = {
+    audio: '🎤 Mensagem de voz',
+    image: '📷 Imagem',
+    video: '🎬 Vídeo',
+    document: '📄 Documento',
+    sticker: '🏷️ Figurinha',
+    location: '📍 Localização',
+  };
+
+  let preview: string;
+  if (!lastMsg) {
+    preview = 'Sem mensagens';
+  } else if (lastMsg.content) {
+    preview = senderPrefix + lastMsg.content.slice(0, 80) + (lastMsg.content.length > 80 ? '...' : '');
+  } else {
+    const mediaLabel = mediaLabels[lastMsg.contentType] || lastMsg.contentType;
+    preview = senderPrefix + mediaLabel;
+  }
 
   const hasUnread = conversation.unreadCount > 0;
   const labels = conversation.conversationLabels ?? [];

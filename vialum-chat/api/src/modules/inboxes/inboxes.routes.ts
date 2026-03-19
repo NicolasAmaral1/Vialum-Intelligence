@@ -1,6 +1,7 @@
 import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
 import { z } from 'zod';
 import * as inboxesService from './inboxes.service.js';
+import { getAccessibleInboxIds } from './inbox-access.service.js';
 
 const createInboxSchema = z.object({
   name: z.string().min(1).max(255),
@@ -21,11 +22,31 @@ const updateInboxSchema = z.object({
 });
 
 export async function inboxRoutes(fastify: FastifyInstance) {
-  // GET /
+  // GET / — returns all accessible inboxes with `isMine` flag
   fastify.get('/', async (request: FastifyRequest<{ Params: { accountId: string } }>, reply: FastifyReply) => {
     const { accountId } = request.params;
-    const inboxes = await inboxesService.findAll(accountId);
-    return reply.status(200).send({ data: inboxes });
+    const userId = request.jwtPayload.userId;
+    const role = request.jwtPayload.role;
+    const allInboxes = await inboxesService.findAll(accountId);
+
+    // Get user's own inbox IDs
+    const myInboxIds = await inboxesService.getMyInboxIds(accountId, userId);
+
+    // RLS: filter by accessible inboxes
+    const accessibleIds = await getAccessibleInboxIds(accountId, userId);
+    const filteredInboxes = accessibleIds === null
+      ? allInboxes // admin/owner can see all
+      : allInboxes.filter((inbox) => accessibleIds.includes(inbox.id));
+
+    // Annotate with isMine
+    const inboxes = filteredInboxes.map((inbox) => ({
+      ...inbox,
+      isMine: myInboxIds.includes(inbox.id),
+    }));
+
+    const canSeeAll = role === 'admin' || role === 'owner';
+
+    return reply.status(200).send({ data: inboxes, meta: { canSeeAll } });
   });
 
   // GET /:inboxId
@@ -40,16 +61,16 @@ export async function inboxRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // POST /
-  fastify.post('/', async (request: FastifyRequest<{ Params: { accountId: string } }>, reply: FastifyReply) => {
+  // POST / — admin only
+  fastify.post('/', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: { accountId: string } }>, reply: FastifyReply) => {
     const { accountId } = request.params;
     const body = createInboxSchema.parse(request.body);
     const inbox = await inboxesService.create(accountId, body);
     return reply.status(201).send({ data: inbox });
   });
 
-  // PUT /:inboxId
-  fastify.put('/:inboxId', async (request: FastifyRequest<{ Params: { accountId: string; inboxId: string } }>, reply: FastifyReply) => {
+  // PUT /:inboxId — admin only
+  fastify.put('/:inboxId', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: { accountId: string; inboxId: string } }>, reply: FastifyReply) => {
     const { accountId, inboxId } = request.params;
     const body = updateInboxSchema.parse(request.body);
     try {
@@ -61,8 +82,8 @@ export async function inboxRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // DELETE /:inboxId
-  fastify.delete('/:inboxId', async (request: FastifyRequest<{ Params: { accountId: string; inboxId: string } }>, reply: FastifyReply) => {
+  // DELETE /:inboxId — admin only
+  fastify.delete('/:inboxId', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: { accountId: string; inboxId: string } }>, reply: FastifyReply) => {
     const { accountId, inboxId } = request.params;
     try {
       await inboxesService.remove(accountId, inboxId);

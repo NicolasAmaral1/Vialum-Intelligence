@@ -1,0 +1,2239 @@
+{
+  "marca_alvo": "AMSTERDAM",
+  "tipo_marca": "arbitrario",
+  "classes_alvo": [
+    35,
+    42,
+    41,
+    38
+  ],
+  "threshold": 15,
+  "total_analisadas": 106,
+  "total_suspeitas": 98,
+  "total_ignoradas": 0,
+  "suspeitas": [
+    {
+      "numero_processo": "827622775",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "RIYEMI SALIM MAHMOUD LANCHONETE ME",
+      "classes": [
+        30
+      ],
+      "prioridade": "04/08/2005",
+      "avaliacao": {
+        "score": 100,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "830555765",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "TONDO S/A",
+      "classes": [
+        31
+      ],
+      "prioridade": "26/02/2010",
+      "avaliacao": {
+        "score": 100,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "905240472",
+      "nome_marca": "Amsterdam",
+      "situacao": "Registro de marca em vigor",
+      "titular": "GDR CARVALHO COSMETICS LTDA - ME",
+      "classes": [
+        3
+      ],
+      "prioridade": "05/09/2012",
+      "avaliacao": {
+        "score": 100,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "911655611",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA -ME",
+      "classes": [
+        34
+      ],
+      "prioridade": "22/09/2016",
+      "avaliacao": {
+        "score": 100,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "915873028",
+      "nome_marca": "Amsterdam Pub",
+      "situacao": "Registro de marca em vigor",
+      "titular": "POWER EMPREENDIMENTOS LTDA",
+      "classes": [
+        41
+      ],
+      "prioridade": "12/09/2018",
+      "avaliacao": {
+        "score": 100,
+        "motivos": [
+          "Grafica media (69%)",
+          "Fonetica media (75%)",
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.692,
+        "similaridade_fonetica": 0.75
+      }
+    },
+    {
+      "numero_processo": "924461470",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA -ME",
+      "classes": [
+        34
+      ],
+      "prioridade": "30/09/2021",
+      "avaliacao": {
+        "score": 100,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "935265694",
+      "nome_marca": "AMSTERDAM AJU",
+      "situacao": "Aguardando processamento da concessão do registro de marca",
+      "titular": "GDA RESTAURANTE E EVENTOS LTDA",
+      "classes": [
+        41
+      ],
+      "prioridade": "04/07/2024",
+      "avaliacao": {
+        "score": 100,
+        "motivos": [
+          "Grafica media (69%)",
+          "Fonetica media (75%)",
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.692,
+        "similaridade_fonetica": 0.75
+      }
+    },
+    {
+      "numero_processo": "935854002",
+      "nome_marca": "Amsterdam",
+      "situacao": "Aguardando exame de mérito",
+      "titular": "AMISTERDAN ROCHA DOS SANTOS FILHO",
+      "classes": [
+        44
+      ],
+      "prioridade": "18/08/2024",
+      "avaliacao": {
+        "score": 100,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "937025984",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Aguardando exame de mérito",
+      "titular": "AMSTERDAM MOTEL LTDA - ME",
+      "classes": [
+        35
+      ],
+      "prioridade": "14/11/2024",
+      "avaliacao": {
+        "score": 100,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Classes em comum: [35]"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "825206049",
+      "nome_marca": "OLD AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "WESTLAND CHEESE BRANDS B.V.",
+      "classes": [
+        29
+      ],
+      "prioridade": "29/01/2003",
+      "avaliacao": {
+        "score": 79,
+        "motivos": [
+          "Grafica media (69%)",
+          "Fonetica media (75%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.692,
+        "similaridade_fonetica": 0.75
+      }
+    },
+    {
+      "numero_processo": "826044735",
+      "nome_marca": "OLD AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "WESTLAND CHEESE BRANDS B.V.",
+      "classes": [
+        29
+      ],
+      "prioridade": "05/01/2004",
+      "avaliacao": {
+        "score": 79,
+        "motivos": [
+          "Grafica media (69%)",
+          "Fonetica media (75%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.692,
+        "similaridade_fonetica": 0.75
+      }
+    },
+    {
+      "numero_processo": "906708788",
+      "nome_marca": "NEW AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "E. & J. GALLO WINERY",
+      "classes": [
+        33
+      ],
+      "prioridade": "02/09/2013",
+      "avaliacao": {
+        "score": 79,
+        "motivos": [
+          "Grafica media (69%)",
+          "Fonetica media (75%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.692,
+        "similaridade_fonetica": 0.75
+      }
+    },
+    {
+      "numero_processo": "920333788",
+      "nome_marca": "BALYAMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "BALY GESTÃO DE MARCAS LTDA",
+      "classes": [
+        32
+      ],
+      "prioridade": "02/08/2020",
+      "avaliacao": {
+        "score": 79,
+        "motivos": [
+          "Grafica media (69%)",
+          "Fonetica media (69%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.692,
+        "similaridade_fonetica": 0.692
+      }
+    },
+    {
+      "numero_processo": "941478220",
+      "nome_marca": "Nova Amsterdam",
+      "situacao": "Aguardando exame de mérito",
+      "titular": "RESENHA RENTAVEL LTDA",
+      "classes": [
+        41
+      ],
+      "prioridade": "03/10/2025",
+      "avaliacao": {
+        "score": 78,
+        "motivos": [
+          "Grafica leve (64%)",
+          "Fonetica media (75%)",
+          "Raiz comum",
+          "Classes em comum: [41]"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.643,
+        "similaridade_fonetica": 0.75
+      }
+    },
+    {
+      "numero_processo": "828205132",
+      "nome_marca": "AMSTERDAM SAUER",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        35
+      ],
+      "prioridade": "02/03/2006",
+      "avaliacao": {
+        "score": 72,
+        "motivos": [
+          "Grafica leve (60%)",
+          "Fonetica leve (64%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.6,
+        "similaridade_fonetica": 0.643
+      }
+    },
+    {
+      "numero_processo": "830395636",
+      "nome_marca": "AJAX AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AFC AJAX NV",
+      "classes": [
+        28
+      ],
+      "prioridade": "02/10/2009",
+      "avaliacao": {
+        "score": 59,
+        "motivos": [
+          "Grafica leve (64%)",
+          "Fonetica media (69%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.643,
+        "similaridade_fonetica": 0.692
+      }
+    },
+    {
+      "numero_processo": "905801695",
+      "nome_marca": "FLAT AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMSTERDAM - HOTELARIA E ADMINISTRAÇÃO DE IMÓVEIS LTDA.",
+      "classes": [
+        43
+      ],
+      "prioridade": "21/01/2013",
+      "avaliacao": {
+        "score": 59,
+        "motivos": [
+          "Grafica leve (64%)",
+          "Fonetica media (69%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.643,
+        "similaridade_fonetica": 0.692
+      }
+    },
+    {
+      "numero_processo": "916057364",
+      "nome_marca": "AMSTERDAM HEAD SHOP",
+      "situacao": "Registro de marca em vigor",
+      "titular": "ANDRE WILLIAN MARQUES DOS SANTOS",
+      "classes": [
+        35
+      ],
+      "prioridade": "10/10/2018",
+      "avaliacao": {
+        "score": 59,
+        "motivos": [
+          "Fonetica leve (56%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.474,
+        "similaridade_fonetica": 0.562
+      }
+    },
+    {
+      "numero_processo": "936774983",
+      "nome_marca": "GREEN HOUSE AMSTERDAM",
+      "situacao": "Aguardando exame de mérito",
+      "titular": "GHSC TRADING B.V.",
+      "classes": [
+        35
+      ],
+      "prioridade": "25/10/2024",
+      "avaliacao": {
+        "score": 54,
+        "motivos": [
+          "Fonetica leve (53%)",
+          "Raiz comum",
+          "Classes em comum: [35]"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.429,
+        "similaridade_fonetica": 0.529
+      }
+    },
+    {
+      "numero_processo": "913427373",
+      "nome_marca": "Amsterdam",
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "titular": "RAFAEL REIS ARAÚJO",
+      "classes": [
+        25
+      ],
+      "prioridade": "21/09/2017",
+      "avaliacao": {
+        "score": 50,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "913505200",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "titular": "RAFAEL REIS ARAÚJO",
+      "classes": [
+        25
+      ],
+      "prioridade": "04/10/2017",
+      "avaliacao": {
+        "score": 50,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "913771767",
+      "nome_marca": "Amsterdam",
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "titular": "GUILHERME MELO PORCARO PESSO",
+      "classes": [
+        35
+      ],
+      "prioridade": "23/11/2017",
+      "avaliacao": {
+        "score": 50,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "917012640",
+      "nome_marca": "Amsterdam",
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "ANGELO PALMA CONTAR - ME",
+      "classes": [
+        41
+      ],
+      "prioridade": "29/03/2019",
+      "avaliacao": {
+        "score": 50,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "007023464",
+      "nome_marca": "AMSTERDAM SAUER",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        14
+      ],
+      "prioridade": "12/09/1978",
+      "avaliacao": {
+        "score": 46,
+        "motivos": [
+          "Grafica leve (60%)",
+          "Fonetica leve (64%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.6,
+        "similaridade_fonetica": 0.643
+      }
+    },
+    {
+      "numero_processo": "905647254",
+      "nome_marca": "OLYMPISCHE SPIELE - 1928 AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "COMITÉ INTERNATIONAL OLYMPIQUE",
+      "classes": [
+        35
+      ],
+      "prioridade": "15/11/2012",
+      "avaliacao": {
+        "score": 46,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.273,
+        "similaridade_fonetica": 0.321
+      }
+    },
+    {
+      "numero_processo": "905678095",
+      "nome_marca": "OLYMPISCHE SPIELE - 1928 AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "COMITÉ INTERNATIONAL OLYMPIQUE",
+      "classes": [
+        41
+      ],
+      "prioridade": "15/11/2012",
+      "avaliacao": {
+        "score": 46,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.273,
+        "similaridade_fonetica": 0.321
+      }
+    },
+    {
+      "numero_processo": "908680465",
+      "nome_marca": "VAN GOGH MUSEUM AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "Stichting Van Gogh Museum",
+      "classes": [
+        35
+      ],
+      "prioridade": "28/11/2014",
+      "avaliacao": {
+        "score": 46,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.36,
+        "similaridade_fonetica": 0.409
+      }
+    },
+    {
+      "numero_processo": "908680732",
+      "nome_marca": "VAN GOGH MUSEUM AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "Stichting Van Gogh Museum",
+      "classes": [
+        41
+      ],
+      "prioridade": "28/11/2014",
+      "avaliacao": {
+        "score": 46,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.36,
+        "similaridade_fonetica": 0.409
+      }
+    },
+    {
+      "numero_processo": "924754273",
+      "nome_marca": "AMSTERDAM BARTENDERS BAR PREMIUM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "JOSÉ MURILO TRAJANO SILVA 04854309164",
+      "classes": [
+        41
+      ],
+      "prioridade": "29/10/2021",
+      "avaliacao": {
+        "score": 46,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.281,
+        "similaridade_fonetica": 0.31
+      }
+    },
+    {
+      "numero_processo": "501660404",
+      "nome_marca": "FUTUROLA AMSTERDAM",
+      "situacao": "Registro de marca em vigor (Madri)",
+      "titular": "FUTUROLA HOLDING B.V.",
+      "classes": [
+        7
+      ],
+      "prioridade": "12/05/2022",
+      "avaliacao": {
+        "score": 46,
+        "motivos": [
+          "Grafica leve (50%)",
+          "Fonetica leve (56%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.5,
+        "similaridade_fonetica": 0.562
+      }
+    },
+    {
+      "numero_processo": "934144745",
+      "nome_marca": "AMSTERDAM CONVENIENCIA",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMSTERDAM CONVENIENCIA",
+      "classes": [
+        35
+      ],
+      "prioridade": "08/04/2024",
+      "avaliacao": {
+        "score": 46,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.409,
+        "similaridade_fonetica": 0.429
+      }
+    },
+    {
+      "numero_processo": "934144885",
+      "nome_marca": "AMSTERDAM CONVENIENCIA",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMSTERDAM CONVENIENCIA",
+      "classes": [
+        35
+      ],
+      "prioridade": "08/04/2024",
+      "avaliacao": {
+        "score": 46,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.409,
+        "similaridade_fonetica": 0.429
+      }
+    },
+    {
+      "numero_processo": "926830708",
+      "nome_marca": "Amsterdam Bebidas",
+      "situacao": "Aguardando fim de sobrestamento",
+      "titular": "FRANCISCO DE ASSIS LIRA DAVID 43739770899",
+      "classes": [
+        32
+      ],
+      "prioridade": "01/06/2022",
+      "avaliacao": {
+        "score": 42,
+        "motivos": [
+          "Grafica leve (53%)",
+          "Fonetica leve (56%)",
+          "Raiz comum"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.529,
+        "similaridade_fonetica": 0.562
+      }
+    },
+    {
+      "numero_processo": "936107626",
+      "nome_marca": "AMSTERDÃ MOTOCICLETA",
+      "situacao": "Aguardando exame de mérito",
+      "titular": "JOSE AMSTERDA MACEDO DE OLIVEIRA",
+      "classes": [
+        35
+      ],
+      "prioridade": "05/09/2024",
+      "avaliacao": {
+        "score": 42,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [35]"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.45,
+        "similaridade_fonetica": 0.474
+      }
+    },
+    {
+      "numero_processo": "938338293",
+      "nome_marca": "EDIFICIO RESIDENCIAL AMSTERDAM",
+      "situacao": "Aguardando exame de mérito",
+      "titular": "SARY E ARAUJO INCORPORACAO E CONSTRUCAO LTDA",
+      "classes": [
+        35
+      ],
+      "prioridade": "13/03/2025",
+      "avaliacao": {
+        "score": 42,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [35]"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.3,
+        "similaridade_fonetica": 0.321
+      }
+    },
+    {
+      "numero_processo": "007023448",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Extinto",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        14
+      ],
+      "prioridade": "12/09/1978",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "800271319",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Extinto",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        14
+      ],
+      "prioridade": "23/09/1980",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "811870561",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Extinto",
+      "titular": "AMSTERDAM INDUSTRAI E COMERCIO DE ROUPAS LTDA",
+      "classes": [
+        25
+      ],
+      "prioridade": "21/01/1985",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "815018037",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM INDUSTRIA DE BOLSAS LTDA",
+      "classes": [
+        25
+      ],
+      "prioridade": "15/08/1989",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "815030460",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM COMERCIO DE PECAS LTDA",
+      "classes": [
+        7
+      ],
+      "prioridade": "28/08/1989",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "815030495",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM COMERCIO DE PECAS LTDA",
+      "classes": [
+        40
+      ],
+      "prioridade": "28/08/1989",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "816979774",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM MARMORES E GRANITO S LTDA ME",
+      "classes": [
+        19
+      ],
+      "prioridade": "03/12/1992",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "817704590",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Extinto",
+      "titular": "PONTA DO LEME COMERCIO E DISTRIBUICAO LTDA",
+      "classes": [
+        40
+      ],
+      "prioridade": "25/02/1994",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "818231637",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "JOSEPH PETER HUBERT HORSCH ME",
+      "classes": [
+        38
+      ],
+      "prioridade": "20/01/1995",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Classes em comum: [38]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "819284670",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "JOSE MARCO ANTONIO GHIRALDINI",
+      "classes": [
+        41
+      ],
+      "prioridade": "15/07/1996",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "821867482",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "IRGB INFORMÁTICA LTDA",
+      "classes": [
+        42
+      ],
+      "prioridade": "29/07/1999",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Classes em comum: [42]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "822501767",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "TONDO S/A",
+      "classes": [
+        30
+      ],
+      "prioridade": "16/02/2000",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "823975762",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Registro de marca extinto",
+      "titular": "AMSTERDAM ALIMENTOS LTDA-EPP",
+      "classes": [
+        42
+      ],
+      "prioridade": "06/12/2001",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Classes em comum: [42]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "824726871",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "ROSEMARI T. DA SILVA HOTEL ME",
+      "classes": [
+        43
+      ],
+      "prioridade": "07/08/2002",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "828274800",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Registro de marca extinto",
+      "titular": "FERNAN COMÉRCIO E INDÚSTRIA LTDA",
+      "classes": [
+        21
+      ],
+      "prioridade": "24/03/2006",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "901706019",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Registro de marca extinto",
+      "titular": "AMSTERDAM ROUPAS PARA CASA LTDA",
+      "classes": [
+        24
+      ],
+      "prioridade": "04/06/2009",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "901706035",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Registro de marca extinto",
+      "titular": "AMSTERDAM ROUPAS PARA CASA LTDA",
+      "classes": [
+        35
+      ],
+      "prioridade": "04/06/2009",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "904894010",
+      "nome_marca": "AMSTERDAM",
+      "situacao": "Registro de marca extinto",
+      "titular": "LOCKERROOM MARKETING LTD.",
+      "classes": [
+        3
+      ],
+      "prioridade": "13/06/2012",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "917945689",
+      "nome_marca": "amsterdam",
+      "situacao": "Pedido definitivamente arquivado",
+      "titular": "KAREN LUCIANA GARAY ARENDT",
+      "classes": [
+        44
+      ],
+      "prioridade": "12/08/2019",
+      "avaliacao": {
+        "score": 40,
+        "motivos": [
+          "Grafica alta (100%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 1.0,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "840256540",
+      "nome_marca": "AMSTERDAM PUB",
+      "situacao": "Pedido definitivamente arquivado",
+      "titular": "POWER EMPREENDIMENTOS LTDA",
+      "classes": [
+        41
+      ],
+      "prioridade": "05/09/2012",
+      "avaliacao": {
+        "score": 38,
+        "motivos": [
+          "Grafica media (69%)",
+          "Fonetica media (75%)",
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.692,
+        "similaridade_fonetica": 0.75
+      }
+    },
+    {
+      "numero_processo": "820996211",
+      "nome_marca": "A AMSTERDAM",
+      "situacao": "Registro de marca extinto",
+      "titular": "AMSTERDAM INDÚSTRIA & COMÉRCIO DE CALÇADOS LTDA ME",
+      "classes": [
+        25
+      ],
+      "prioridade": "23/10/1998",
+      "avaliacao": {
+        "score": 36,
+        "motivos": [
+          "Grafica media (82%)",
+          "Fonetica alta (100%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.818,
+        "similaridade_fonetica": 1.0
+      }
+    },
+    {
+      "numero_processo": "829272828",
+      "nome_marca": "BOLS AMSTERDAM 1575",
+      "situacao": "Registro de marca em vigor",
+      "titular": "DELB B.V.",
+      "classes": [
+        33
+      ],
+      "prioridade": "30/07/2007",
+      "avaliacao": {
+        "score": 33,
+        "motivos": [
+          "Fonetica leve (53%)",
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.474,
+        "similaridade_fonetica": 0.529
+      }
+    },
+    {
+      "numero_processo": "840808240",
+      "nome_marca": "AMSTERDAMS BLAUW",
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "titular": "SCOTCH & SODA B.V.",
+      "classes": [
+        35
+      ],
+      "prioridade": "03/09/2013",
+      "avaliacao": {
+        "score": 33,
+        "motivos": [
+          "Grafica leve (56%)",
+          "Fonetica leve (60%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.562,
+        "similaridade_fonetica": 0.6
+      }
+    },
+    {
+      "numero_processo": "916700500",
+      "nome_marca": "Amsterdam Choice",
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "GUILHERME MELO PORCARO PESSO",
+      "classes": [
+        35
+      ],
+      "prioridade": "07/02/2019",
+      "avaliacao": {
+        "score": 33,
+        "motivos": [
+          "Grafica leve (56%)",
+          "Fonetica leve (64%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.562,
+        "similaridade_fonetica": 0.643
+      }
+    },
+    {
+      "numero_processo": "829139613",
+      "nome_marca": "AMSTERDAM CLUB",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM CLUB DE ARTIGOS DO VESTUARIO LTDA",
+      "classes": [
+        35
+      ],
+      "prioridade": "17/05/2007",
+      "avaliacao": {
+        "score": 31,
+        "motivos": [
+          "Grafica leve (64%)",
+          "Fonetica media (69%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.643,
+        "similaridade_fonetica": 0.692
+      }
+    },
+    {
+      "numero_processo": "936774835",
+      "nome_marca": "GREEN HOUSE AMSTERDAM",
+      "situacao": "Aguardando exame de mérito",
+      "titular": "GHSC TRADING B.V.",
+      "classes": [
+        25
+      ],
+      "prioridade": "25/10/2024",
+      "avaliacao": {
+        "score": 30,
+        "motivos": [
+          "Fonetica leve (53%)",
+          "Raiz comum"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.429,
+        "similaridade_fonetica": 0.529
+      }
+    },
+    {
+      "numero_processo": "936774908",
+      "nome_marca": "GREEN HOUSE AMSTERDAM",
+      "situacao": "Aguardando exame de mérito",
+      "titular": "GHSC TRADING B.V.",
+      "classes": [
+        34
+      ],
+      "prioridade": "25/10/2024",
+      "avaliacao": {
+        "score": 30,
+        "motivos": [
+          "Fonetica leve (53%)",
+          "Raiz comum"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.429,
+        "similaridade_fonetica": 0.529
+      }
+    },
+    {
+      "numero_processo": "830395644",
+      "nome_marca": "AJAX AMSTERDAM",
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "titular": "AFC AJAX NV",
+      "classes": [
+        25
+      ],
+      "prioridade": "02/10/2009",
+      "avaliacao": {
+        "score": 27,
+        "motivos": [
+          "Grafica leve (64%)",
+          "Fonetica media (69%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.643,
+        "similaridade_fonetica": 0.692
+      }
+    },
+    {
+      "numero_processo": "912405481",
+      "nome_marca": "THE BULLDOG AMSTERDAM",
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "titular": "Drs Administração de Estoques Eireli - Epp.",
+      "classes": [
+        35
+      ],
+      "prioridade": "10/03/2017",
+      "avaliacao": {
+        "score": 27,
+        "motivos": [
+          "Fonetica leve (53%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.429,
+        "similaridade_fonetica": 0.529
+      }
+    },
+    {
+      "numero_processo": "924875194",
+      "nome_marca": "AMSTERDAM 1934",
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "T & T PUBLICIDADE LTDA",
+      "classes": [
+        43
+      ],
+      "prioridade": "11/11/2021",
+      "avaliacao": {
+        "score": 27,
+        "motivos": [
+          "Grafica leve (64%)",
+          "Fonetica media (69%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.643,
+        "similaridade_fonetica": 0.692
+      }
+    },
+    {
+      "numero_processo": "819852040",
+      "nome_marca": "AMSTERDAM MARINER",
+      "situacao": "Extinto",
+      "titular": "GROLSCH EXPORT B.V. (DUTCH EXPORT BREWERIES)",
+      "classes": [
+        35
+      ],
+      "prioridade": "17/03/1997",
+      "avaliacao": {
+        "score": 26,
+        "motivos": [
+          "Grafica leve (53%)",
+          "Fonetica leve (60%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.529,
+        "similaridade_fonetica": 0.6
+      }
+    },
+    {
+      "numero_processo": "819852058",
+      "nome_marca": "AMSTERDAM MARINER",
+      "situacao": "Extinto",
+      "titular": "GROLSCH EXPORT B.V. (DUTCH EXPORT BREWERIES)",
+      "classes": [
+        35
+      ],
+      "prioridade": "17/03/1997",
+      "avaliacao": {
+        "score": 26,
+        "motivos": [
+          "Grafica leve (53%)",
+          "Fonetica leve (60%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.529,
+        "similaridade_fonetica": 0.6
+      }
+    },
+    {
+      "numero_processo": "814822754",
+      "nome_marca": "JANE AMSTERDAM",
+      "situacao": "Arquivado",
+      "titular": "INDUSTRIA DE MODAS JANFLA LTDA",
+      "classes": [
+        25
+      ],
+      "prioridade": "22/05/1989",
+      "avaliacao": {
+        "score": 21,
+        "motivos": [
+          "Grafica leve (64%)",
+          "Fonetica media (69%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.643,
+        "similaridade_fonetica": 0.692
+      }
+    },
+    {
+      "numero_processo": "829051392",
+      "nome_marca": "AMSTERDAM DOCEIRA",
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "titular": "ALIN COMÉRCIO DE ALIMENTOS LTDA - EPP",
+      "classes": [
+        43
+      ],
+      "prioridade": "11/04/2007",
+      "avaliacao": {
+        "score": 21,
+        "motivos": [
+          "Grafica leve (53%)",
+          "Fonetica leve (56%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.529,
+        "similaridade_fonetica": 0.562
+      }
+    },
+    {
+      "numero_processo": "908147856",
+      "nome_marca": "Amsterdam Produções",
+      "situacao": "Pedido definitivamente arquivado",
+      "titular": "amsterdam produçoes",
+      "classes": [
+        35
+      ],
+      "prioridade": "19/08/2014",
+      "avaliacao": {
+        "score": 21,
+        "motivos": [
+          "Fonetica leve (50%)",
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.474,
+        "similaridade_fonetica": 0.5
+      }
+    },
+    {
+      "numero_processo": "912180331",
+      "nome_marca": "MOTEL AMSTERDAM",
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "titular": "AMSTERDAM MOTEL LTDA - ME",
+      "classes": [
+        43
+      ],
+      "prioridade": "18/01/2017",
+      "avaliacao": {
+        "score": 21,
+        "motivos": [
+          "Grafica leve (60%)",
+          "Fonetica leve (64%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.6,
+        "similaridade_fonetica": 0.643
+      }
+    },
+    {
+      "numero_processo": "915878682",
+      "nome_marca": "CANNABIS STORE AMSTERDAM BRASIL ORIGINAL AMSTERDAM",
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "MARCELO CIPOLLA",
+      "classes": [
+        35
+      ],
+      "prioridade": "13/09/2018",
+      "avaliacao": {
+        "score": 21,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.18,
+        "similaridade_fonetica": 0.209
+      }
+    },
+    {
+      "numero_processo": "501525961",
+      "nome_marca": "CANNABIS STORE AMSTERDAM ORIGINAL AMSTERDAM",
+      "situacao": "Designação indeferida (mantida em grau de recurso)",
+      "titular": "SANTA CONTE",
+      "classes": [
+        35
+      ],
+      "prioridade": "16/04/2020",
+      "avaliacao": {
+        "score": 21,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.209,
+        "similaridade_fonetica": 0.243
+      }
+    },
+    {
+      "numero_processo": "921421443",
+      "nome_marca": "Amsterdam Suites",
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "titular": "CLEBER RENATO SANCHES",
+      "classes": [
+        43
+      ],
+      "prioridade": "25/11/2020",
+      "avaliacao": {
+        "score": 21,
+        "motivos": [
+          "Grafica leve (56%)",
+          "Fonetica leve (60%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.562,
+        "similaridade_fonetica": 0.6
+      }
+    },
+    {
+      "numero_processo": "922778302",
+      "nome_marca": "CANNABIS STORE AMSTERDAM ORIGINAL AMSTERDAM ORIGINAL AMSTERDAM",
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "SANTA CONTE",
+      "classes": [
+        35
+      ],
+      "prioridade": "28/04/2021",
+      "avaliacao": {
+        "score": 21,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [35]",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.145,
+        "similaridade_fonetica": 0.167
+      }
+    },
+    {
+      "numero_processo": "902196340",
+      "nome_marca": "HEINEKEN LAGAR BEER PREMIUM QUALITY DIPPLOME D'HONNEUR AMSTERDAM 1883 HORS CONCOURS MEMBRE DU JURY PARIS 1900 MEDAILLE D'OR PARIS 1875 GRAND PRIX PARIS 1889 EST. 1871 ORIGINAL RECIPE TRADE MARK",
+      "situacao": "Registro de marca em vigor",
+      "titular": "HEINEKEN BROUWERIJEN B.V.",
+      "classes": [
+        32
+      ],
+      "prioridade": "15/12/2009",
+      "avaliacao": {
+        "score": 19,
+        "motivos": [
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.047,
+        "similaridade_fonetica": 0.058
+      }
+    },
+    {
+      "numero_processo": "905645723",
+      "nome_marca": "OLYMPISCHE SPIELE - 1928 AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "COMITÉ INTERNATIONAL OLYMPIQUE",
+      "classes": [
+        25
+      ],
+      "prioridade": "15/11/2012",
+      "avaliacao": {
+        "score": 19,
+        "motivos": [
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.273,
+        "similaridade_fonetica": 0.321
+      }
+    },
+    {
+      "numero_processo": "910250243",
+      "nome_marca": "AMSTEL LAGER AMSTEL BROUWERIJ B.V. 1870 AMSTERDAM",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMSTEL BROUWERIJ B.V.",
+      "classes": [
+        32
+      ],
+      "prioridade": "10/11/2015",
+      "avaliacao": {
+        "score": 19,
+        "motivos": [
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.191,
+        "similaridade_fonetica": 0.225
+      }
+    },
+    {
+      "numero_processo": "918944996",
+      "nome_marca": "AMSTEL BIER EXTRA 1870 EUROPEAN QUALITY Born in Amsterdam",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMSTEL BROUWERIJ B.V.",
+      "classes": [
+        32
+      ],
+      "prioridade": "26/12/2019",
+      "avaliacao": {
+        "score": 19,
+        "motivos": [
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.158,
+        "similaridade_fonetica": 0.188
+      }
+    },
+    {
+      "numero_processo": "918945178",
+      "nome_marca": "AMSTEL BIER ULTRA 1870 EUROPEAN QUALITY Born in Amsterdam",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMSTEL BROUWERIJ B.V.",
+      "classes": [
+        32
+      ],
+      "prioridade": "26/12/2019",
+      "avaliacao": {
+        "score": 19,
+        "motivos": [
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.158,
+        "similaridade_fonetica": 0.188
+      }
+    },
+    {
+      "numero_processo": "920338267",
+      "nome_marca": "BALY AMSTERDAM LAGER BEER",
+      "situacao": "Registro de marca em vigor",
+      "titular": "BALY GESTÃO DE MARCAS LTDA",
+      "classes": [
+        32
+      ],
+      "prioridade": "03/08/2020",
+      "avaliacao": {
+        "score": 19,
+        "motivos": [
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.36,
+        "similaridade_fonetica": 0.429
+      }
+    },
+    {
+      "numero_processo": "922077983",
+      "nome_marca": "AMSTERDAM BURGERS & BEERS",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMSTERDAN SILVA DE SÁ",
+      "classes": [
+        43
+      ],
+      "prioridade": "14/02/2021",
+      "avaliacao": {
+        "score": 19,
+        "motivos": [
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.375,
+        "similaridade_fonetica": 0.45
+      }
+    },
+    {
+      "numero_processo": "926649124",
+      "nome_marca": "Amsterdam Imóveis & Associados",
+      "situacao": "Registro de marca em vigor",
+      "titular": "AMANCIO & AMANCIO CORRETORES LTDA",
+      "classes": [
+        36
+      ],
+      "prioridade": "16/05/2022",
+      "avaliacao": {
+        "score": 19,
+        "motivos": [
+          "Raiz comum",
+          "Marca em vigor (risco elevado)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.31,
+        "similaridade_fonetica": 0.36
+      }
+    },
+    {
+      "numero_processo": "929620550",
+      "nome_marca": "Distribuidora Amsterdam",
+      "situacao": "Aguardando fim de sobrestamento",
+      "titular": "RHAYNE RAVANNE NUNES DE OLIVEIRA",
+      "classes": [
+        32
+      ],
+      "prioridade": "02/03/2023",
+      "avaliacao": {
+        "score": 18,
+        "motivos": [
+          "Raiz comum"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.391,
+        "similaridade_fonetica": 0.429
+      }
+    },
+    {
+      "numero_processo": "935765530",
+      "nome_marca": "VAN GOGH MUSEUM AMSTERDAM",
+      "situacao": "Aguardando exame de mérito",
+      "titular": "STICHTING VAN GOGH MUSEUM",
+      "classes": [
+        28
+      ],
+      "prioridade": "12/08/2024",
+      "avaliacao": {
+        "score": 18,
+        "motivos": [
+          "Raiz comum"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.36,
+        "similaridade_fonetica": 0.409
+      }
+    },
+    {
+      "numero_processo": "800271297",
+      "nome_marca": "AMSTERDAM SAUER",
+      "situacao": "Extinto",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        14
+      ],
+      "prioridade": "23/09/1980",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Grafica leve (60%)",
+          "Fonetica leve (64%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.6,
+        "similaridade_fonetica": 0.643
+      }
+    },
+    {
+      "numero_processo": "817646930",
+      "nome_marca": "AMSTERDAM SAUER",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        40
+      ],
+      "prioridade": "06/12/1993",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Grafica leve (60%)",
+          "Fonetica leve (64%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.6,
+        "similaridade_fonetica": 0.643
+      }
+    },
+    {
+      "numero_processo": "817646981",
+      "nome_marca": "MUSEU AMSTERDAM SAUER",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        41
+      ],
+      "prioridade": "06/12/1993",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.429,
+        "similaridade_fonetica": 0.474
+      }
+    },
+    {
+      "numero_processo": "817646922",
+      "nome_marca": "AMSTERDAM SAUER",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        9
+      ],
+      "prioridade": "06/12/1993",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Grafica leve (60%)",
+          "Fonetica leve (64%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.6,
+        "similaridade_fonetica": 0.643
+      }
+    },
+    {
+      "numero_processo": "817646914",
+      "nome_marca": "AMSTERDAM SAUER",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        16
+      ],
+      "prioridade": "06/12/1993",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Grafica leve (60%)",
+          "Fonetica leve (64%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.6,
+        "similaridade_fonetica": 0.643
+      }
+    },
+    {
+      "numero_processo": "819370029",
+      "nome_marca": "AMSTERDAM-ROTTERDAM",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM-ROTTERDAM COMERCIAL IMPORTADORA E EXPORT LTDA",
+      "classes": [
+        5
+      ],
+      "prioridade": "22/08/1996",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Grafica leve (50%)",
+          "Fonetica leve (53%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.5,
+        "similaridade_fonetica": 0.529
+      }
+    },
+    {
+      "numero_processo": "828205116",
+      "nome_marca": "AMSTERDAM SAUER",
+      "situacao": "Arquivado",
+      "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+      "classes": [
+        14
+      ],
+      "prioridade": "02/03/2006",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Grafica leve (60%)",
+          "Fonetica leve (64%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.6,
+        "similaridade_fonetica": 0.643
+      }
+    },
+    {
+      "numero_processo": "830778420",
+      "nome_marca": "AMSTERDAMS BLAUW",
+      "situacao": "Registro de marca extinto",
+      "titular": "S&S BRAND HOLDINGS LLC",
+      "classes": [
+        25
+      ],
+      "prioridade": "03/05/2010",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Grafica leve (56%)",
+          "Fonetica leve (60%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.562,
+        "similaridade_fonetica": 0.6
+      }
+    },
+    {
+      "numero_processo": "840808267",
+      "nome_marca": "AMSTERDAMS BLAUW",
+      "situacao": "Pedido definitivamente arquivado",
+      "titular": "SCOTCH & SODA B.V.",
+      "classes": [
+        9
+      ],
+      "prioridade": "03/09/2013",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Grafica leve (56%)",
+          "Fonetica leve (60%)",
+          "Raiz comum",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.562,
+        "similaridade_fonetica": 0.6
+      }
+    },
+    {
+      "numero_processo": "912621877",
+      "nome_marca": "amsterdam - assessoria / eventos / festas",
+      "situacao": "Pedido definitivamente arquivado",
+      "titular": "Angelo Palma Contar - ME",
+      "classes": [
+        41
+      ],
+      "prioridade": "24/04/2017",
+      "avaliacao": {
+        "score": 16,
+        "motivos": [
+          "Raiz comum",
+          "Classes em comum: [41]",
+          "Marca extinta/arquivada (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.237,
+        "similaridade_fonetica": 0.3
+      }
+    },
+    {
+      "numero_processo": "907515398",
+      "nome_marca": "The Bulldog Amsterdam",
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "titular": "Alliance Comercio e representação ltda",
+      "classes": [
+        34
+      ],
+      "prioridade": "02/04/2014",
+      "avaliacao": {
+        "score": 15,
+        "motivos": [
+          "Fonetica leve (53%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.429,
+        "similaridade_fonetica": 0.529
+      }
+    },
+    {
+      "numero_processo": "924886951",
+      "nome_marca": "TABACARIA AMSTERDAM",
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "KIM RÔÇAS DE SOUZA ROBERTO",
+      "classes": [
+        34
+      ],
+      "prioridade": "11/11/2021",
+      "avaliacao": {
+        "score": 15,
+        "motivos": [
+          "Fonetica leve (53%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.474,
+        "similaridade_fonetica": 0.529
+      }
+    },
+    {
+      "numero_processo": "931798710",
+      "nome_marca": "Amsterdam Confecções",
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "GIOVANI DOS SANTOS UGHETTO",
+      "classes": [
+        40
+      ],
+      "prioridade": "05/09/2023",
+      "avaliacao": {
+        "score": 15,
+        "motivos": [
+          "Fonetica leve (50%)",
+          "Raiz comum",
+          "Marca indeferida (risco reduzido)"
+        ],
+        "recomendacao": "investigar",
+        "similaridade_grafica": 0.45,
+        "similaridade_fonetica": 0.5
+      }
+    }
+  ],
+  "protocolos_para_busca_detalhada": [
+    "827622775",
+    "830555765",
+    "905240472",
+    "911655611",
+    "915873028",
+    "924461470",
+    "935265694",
+    "935854002",
+    "937025984",
+    "825206049",
+    "826044735",
+    "906708788",
+    "920333788",
+    "941478220",
+    "828205132",
+    "830395636",
+    "905801695",
+    "916057364",
+    "936774983",
+    "913427373",
+    "913505200",
+    "913771767",
+    "917012640",
+    "007023464",
+    "905647254",
+    "905678095",
+    "908680465",
+    "908680732",
+    "924754273",
+    "501660404",
+    "934144745",
+    "934144885",
+    "926830708",
+    "936107626",
+    "938338293",
+    "007023448",
+    "800271319",
+    "811870561",
+    "815018037",
+    "815030460",
+    "815030495",
+    "816979774",
+    "817704590",
+    "818231637",
+    "819284670",
+    "821867482",
+    "822501767",
+    "823975762",
+    "824726871",
+    "828274800",
+    "901706019",
+    "901706035",
+    "904894010",
+    "917945689",
+    "840256540",
+    "820996211",
+    "829272828",
+    "840808240",
+    "916700500",
+    "829139613",
+    "936774835",
+    "936774908",
+    "830395644",
+    "912405481",
+    "924875194",
+    "819852040",
+    "819852058",
+    "814822754",
+    "829051392",
+    "908147856",
+    "912180331",
+    "915878682",
+    "501525961",
+    "921421443",
+    "922778302",
+    "902196340",
+    "905645723",
+    "910250243",
+    "918944996",
+    "918945178",
+    "920338267",
+    "922077983",
+    "926649124",
+    "929620550",
+    "935765530",
+    "800271297",
+    "817646930",
+    "817646981",
+    "817646922",
+    "817646914",
+    "819370029",
+    "828205116",
+    "830778420",
+    "840808267",
+    "912621877",
+    "907515398",
+    "924886951",
+    "931798710"
+  ]
+}

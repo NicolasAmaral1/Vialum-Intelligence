@@ -26,11 +26,67 @@ model CrmContact {
   aliases       ContactAlias[]
   integrations  CrmIntegration[]
   groupMappings WhatsAppGroupMapping[]
+  organizations ContactOrganization[]
 
   @@unique([accountId, vialumContactId])
   @@index([phone])
   @@index([email])
   @@map("crm_contacts")
+}
+
+// ════════════════════════════════════════════════════════════
+// CRM ORGANIZATIONS — Companies, PJ entities
+// ════════════════════════════════════════════════════════════
+
+model CrmOrganization {
+  id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId      String   @map("account_id") @db.Uuid
+  legalName      String?  @map("legal_name") @db.VarChar(500)
+  tradeName      String?  @map("trade_name") @db.VarChar(500)
+  cnpj           String?  @db.VarChar(20)
+  lifecycleStage String   @default("lead") @map("lifecycle_stage") @db.VarChar(50)
+  metadata       Json     @default("{}")
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt      DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  aliases  OrganizationAlias[]
+  contacts ContactOrganization[]
+
+  @@unique([accountId, cnpj])
+  @@index([accountId])
+  @@map("crm_organizations")
+}
+
+model OrganizationAlias {
+  id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  organizationId String   @map("organization_id") @db.Uuid
+  accountId      String   @map("account_id") @db.Uuid
+  type           String   @db.VarChar(30)    // cnpj | trade_name | ie
+  value          String   @db.VarChar(255)
+  isPrimary      Boolean  @default(false) @map("is_primary")
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  organization CrmOrganization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@unique([accountId, type, value])
+  @@index([accountId, value])
+  @@map("organization_aliases")
+}
+
+model ContactOrganization {
+  contactId      String   @map("contact_id") @db.Uuid
+  organizationId String   @map("organization_id") @db.Uuid
+  accountId      String   @map("account_id") @db.Uuid
+  role           String   @default("representante") @db.VarChar(100)
+  isPrimary      Boolean  @default(false) @map("is_primary")
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  contact      CrmContact      @relation(fields: [contactId], references: [id], onDelete: Cascade)
+  organization CrmOrganization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@id([contactId, organizationId])
+  @@index([organizationId])
+  @@map("contact_organizations")
 }
 
 // ════════════════════════════════════════════════════════════
@@ -141,4 +197,29 @@ model WhatsAppGroupMapping {
   @@unique([accountId, groupJid])
   @@index([crmContactId])
   @@map("whatsapp_group_mappings")
+}
+
+// ════════════════════════════════════════════════════════════
+// PROVIDER OPERATIONS — Audit trail for all write operations
+// ════════════════════════════════════════════════════════════
+
+model ProviderOperation {
+  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId  String   @map("account_id") @db.Uuid
+  provider   String   @db.VarChar(50)
+  category   String   @db.VarChar(30)      // tasks | crm | documents
+  operation  String   @db.VarChar(50)      // create_task, update_status, add_comment...
+  entityId   String?  @map("entity_id") @db.VarChar(255)
+  params     Json     @default("{}")
+  result     Json?
+  status     String   @db.VarChar(20)      // success | failed | rate_limited
+  error      String?  @db.Text
+  caller     String?  @db.VarChar(100)     // squad:protocolo, portal, media-service
+  durationMs Int?     @map("duration_ms")
+  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  @@index([accountId, createdAt(sort: Desc)])
+  @@index([accountId, provider, entityId])
+  @@index([accountId, caller, createdAt(sort: Desc)])
+  @@map("provider_operations")
 }

@@ -1,0 +1,50 @@
+[
+  {
+    "numero_processo": "750121017",
+    "nome_marca": "COMTE DE VALMONTE",
+    "situacao": "Extinto",
+    "titular": "BODEGAS CHANDON S.A.",
+    "classe": 32,
+    "prioridade": "01/07/1975"
+  },
+  {
+    "numero_processo": "811670759",
+    "nome_marca": "VALMONT CABERNET SAUVIGNON",
+    "situacao": "Extinto",
+    "titular": "BODEGAS CHANDON S.A.",
+    "classe": 32,
+    "prioridade": "17/08/1984"
+  },
+  {
+    "numero_processo": "821283766",
+    "nome_marca": "VALMONT COLECCIÓN VISTALBA",
+    "situacao": "Arquivado",
+    "titular": "BODEGAS CHANDON S.A.",
+    "classe": 32,
+    "prioridade": "03/12/1998"
+  },
+  {
+    "numero_processo": "913539848",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BODEGAS CHANDON S.A.",
+    "classe": 32,
+    "prioridade": "10/10/2017"
+  },
+  {
+    "numero_processo": "913539880",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BODEGAS CHANDON S.A.",
+    "classe": 32,
+    "prioridade": "10/10/2017"
+  },
+  {
+    "numero_processo": "913539910",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BODEGAS CHANDON S.A.",
+    "classe": 32,
+    "prioridade": "10/10/2017"
+  }
+]

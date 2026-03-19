@@ -84,21 +84,41 @@ model User {
 }
 
 model AccountUser {
-  id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  accountId    String   @map("account_id") @db.Uuid
-  userId       String   @map("user_id") @db.Uuid
-  role         String   @default("agent") @db.VarChar(50)
-  availability String   @default("online") @db.VarChar(50)
-  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
-  updatedAt    DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+  id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId     String   @map("account_id") @db.Uuid
+  userId        String   @map("user_id") @db.Uuid
+  role          String   @default("agent") @db.VarChar(50) // owner | admin | supervisor | agent
+  supervisorId  String?  @map("supervisor_id") @db.Uuid
+  availability  String   @default("online") @db.VarChar(50)
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt     DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
 
-  account Account @relation(fields: [accountId], references: [id], onDelete: Cascade)
-  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  account     Account       @relation(fields: [accountId], references: [id], onDelete: Cascade)
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  supervisor  AccountUser?  @relation("supervision", fields: [supervisorId], references: [id])
+  supervisees AccountUser[] @relation("supervision")
+  inboxAccess InboxMember[]
 
   @@unique([accountId, userId])
   @@index([accountId])
   @@index([userId])
+  @@index([supervisorId])
   @@map("account_users")
+}
+
+model InboxMember {
+  id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountUserId String   @map("account_user_id") @db.Uuid
+  inboxId       String   @map("inbox_id") @db.Uuid
+  createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  accountUser AccountUser @relation(fields: [accountUserId], references: [id], onDelete: Cascade)
+  inbox       Inbox       @relation(fields: [inboxId], references: [id], onDelete: Cascade)
+
+  @@unique([accountUserId, inboxId])
+  @@index([accountUserId])
+  @@index([inboxId])
+  @@map("inbox_members")
 }
 
 model RefreshToken {
@@ -139,6 +159,7 @@ model Inbox {
   messages       Message[]
   webhookEvents  WebhookEvent[]
   groups         Group[]
+  members        InboxMember[]
 
   @@index([accountId])
   @@map("inboxes")
@@ -151,7 +172,9 @@ model Inbox {
 model Contact {
   id               String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   accountId        String    @map("account_id") @db.Uuid
-  name             String    @db.VarChar(255)
+  name             String    @db.VarChar(255)             // pushName do WhatsApp (auto)
+  customName       String?   @map("custom_name") @db.VarChar(255)  // nome dado por vocês (sempre sobrescreve)
+  crmName          String?   @map("crm_name") @db.VarChar(255)     // nome vindo do CRM Hub
   phone            String?   @db.VarChar(50)
   email            String?   @db.VarChar(255)
   avatarUrl        String?   @map("avatar_url")
@@ -172,6 +195,7 @@ model Contact {
   @@index([accountId])
   @@index([phone])
   @@index([email])
+  @@index([accountId, phone]) // Compound: contact lookup by phone within account
   @@map("contacts")
 }
 
@@ -280,6 +304,8 @@ model Conversation {
   @@index([lastActivityAt(sort: Desc)])
   @@index([activeTalkId])
   @@index([groupId])
+  @@index([accountId, inboxId, status]) // Compound: filtered conversation lists
+  @@index([accountId, status, lastActivityAt(sort: Desc)]) // Compound: sorted filtered lists
   @@map("conversations")
 }
 

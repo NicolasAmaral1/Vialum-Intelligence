@@ -1,0 +1,122 @@
+[
+  {
+    "numero_processo": "002176181",
+    "nome_marca": "RADIUM",
+    "situacao": "Extinto",
+    "titular": "BOMBRIL S/A.",
+    "classe": 35,
+    "prioridade": "16/05/1933"
+  },
+  {
+    "numero_processo": "002894408",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca extinto",
+    "titular": "BOMBRIL MERCOSUL S/A.",
+    "classe": 35,
+    "prioridade": "03/07/1952"
+  },
+  {
+    "numero_processo": "003578941",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BRIL COSMÉTICOS S.A.",
+    "classe": 35,
+    "prioridade": "03/09/1957"
+  },
+  {
+    "numero_processo": "003600572",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BRIL COSMÉTICOS S.A.",
+    "classe": 35,
+    "prioridade": "22/01/1962"
+  },
+  {
+    "numero_processo": "750228989",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Extinto",
+    "titular": "BOMBRIL MERCOSUL S/A.",
+    "classe": 35,
+    "prioridade": "21/10/1975"
+  },
+  {
+    "numero_processo": "750228997",
+    "nome_marca": "SAPOLIO RADIUM",
+    "situacao": "Extinto",
+    "titular": "BOMBRIL S/A.",
+    "classe": 35,
+    "prioridade": "21/10/1975"
+  },
+  {
+    "numero_processo": "810901960",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BRIL COSMÉTICOS S.A.",
+    "classe": 35,
+    "prioridade": "01/07/1982"
+  },
+  {
+    "numero_processo": "811354890",
+    "nome_marca": "RADIUM",
+    "situacao": "Extinto",
+    "titular": "COOPERATIVA DOS CAF DA ZONA DE MOCOCA AGR PEC INDL LTDA",
+    "classe": 35,
+    "prioridade": "26/10/1983"
+  },
+  {
+    "numero_processo": "812107705",
+    "nome_marca": "CAFÉ TORRADO E MOÍDO RADIUM",
+    "situacao": "Extinto",
+    "titular": "COOPERATIVA DOS CAF DA ZONA DE MOCOCA AGR PEC INDL LTDA",
+    "classe": 35,
+    "prioridade": "25/07/1985"
+  },
+  {
+    "numero_processo": "815184034",
+    "nome_marca": "RADIUM",
+    "situacao": "Arquivado",
+    "titular": "ATRON EXPORTAÇÃO LTDA",
+    "classe": 35,
+    "prioridade": "04/10/1989"
+  },
+  {
+    "numero_processo": "815257589",
+    "nome_marca": "RADIUM",
+    "situacao": "Arquivado",
+    "titular": "INDÚSTRIA E COM. DE CONFECÇÕES ÁGUIA DO NORDESTE S.A",
+    "classe": 35,
+    "prioridade": "04/12/1989"
+  },
+  {
+    "numero_processo": "816697426",
+    "nome_marca": "SAPÓLIO RADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BRIL COSMÉTICOS S.A.",
+    "classe": 35,
+    "prioridade": "04/06/1992"
+  },
+  {
+    "numero_processo": "819581518",
+    "nome_marca": "RADIUM",
+    "situacao": "Registro de marca extinto",
+    "titular": "BRIL COSMÉTICOS S.A.",
+    "classe": 35,
+    "prioridade": "27/11/1996"
+  },
+  {
+    "numero_processo": "822607905",
+    "nome_marca": "RADIUM SYSTEMS.COM",
+    "situacao": "Arquivado",
+    "titular": "RADIUM SYSTEMS LTDA",
+    "classe": 35,
+    "prioridade": "04/04/2000"
+  },
+  {
+    "numero_processo": "934222134",
+    "nome_marca": "ONCORADIUM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CENTRO INTEGRADO DE TRATAMENTO ONCOLOGICO LTDA",
+    "classe": 35,
+    "prioridade": "15/04/2024"
+  }
+]

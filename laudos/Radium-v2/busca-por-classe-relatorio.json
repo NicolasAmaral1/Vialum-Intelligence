@@ -1,0 +1,34 @@
+{
+  "marca": "RADIUM",
+  "classes": [
+    5,
+    35,
+    44
+  ],
+  "por_classe": {
+    "5": {
+      "encontradas": 9,
+      "mantidas": 9,
+      "detalhadas": 9,
+      "falhas": []
+    },
+    "35": {
+      "encontradas": 15,
+      "mantidas": 15,
+      "detalhadas": 15,
+      "falhas": []
+    },
+    "44": {
+      "encontradas": 6,
+      "mantidas": 6,
+      "detalhadas": 6,
+      "falhas": []
+    }
+  },
+  "total_encontradas": 30,
+  "total_mantidas": 30,
+  "total_detalhadas": 30,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": []
+}

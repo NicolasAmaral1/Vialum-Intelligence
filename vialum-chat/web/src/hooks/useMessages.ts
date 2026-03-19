@@ -26,12 +26,13 @@ export function useMessages(conversationId: string | null) {
           limit: 30,
         });
         if (beforeId) {
+          // Older messages prepended (API returns chronological order)
           setMessages(conversationId, [
-            ...result.data.reverse(),
+            ...result.data,
             ...(useMessagesStore.getState().byConversation[conversationId] || []),
           ]);
         } else {
-          setMessages(conversationId, result.data.reverse());
+          setMessages(conversationId, result.data);
         }
         setHasMore(result.data.length === 30);
       } catch (err) {

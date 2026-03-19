@@ -1,0 +1,34 @@
+[
+  {
+    "numero_processo": "819293563",
+    "nome_marca": "ESSENZA DI VITA",
+    "situacao": "Arquivado",
+    "titular": "AGROPECUARIA CONVERGENTE LTDA",
+    "classe": 11,
+    "prioridade": "24/07/1996"
+  },
+  {
+    "numero_processo": "912045094",
+    "nome_marca": "Ona Essenza",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Julian Morales Alonso",
+    "classe": 11,
+    "prioridade": "13/12/2016"
+  },
+  {
+    "numero_processo": "918314593",
+    "nome_marca": "ESSENZA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "MULTILASER INDUSTRIAL S.A.",
+    "classe": 11,
+    "prioridade": "26/09/2019"
+  },
+  {
+    "numero_processo": "940169525",
+    "nome_marca": "THE ESSENZA PROJECT BY ANNA KOSSMAN",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ANNA LUZIA KOSSMANN DE MENEZES",
+    "classe": 11,
+    "prioridade": "24/07/2025"
+  }
+]

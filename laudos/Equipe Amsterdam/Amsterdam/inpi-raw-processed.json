@@ -1,21 +1,504 @@
 [
   {
-    "numero_processo": null,
-    "nome_marca": null,
-    "situacao": null,
-    "apresentacao": null,
-    "natureza": null,
-    "classes": [],
+    "numero_processo": "827622775",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 30",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "CHOCOLATES, CARAMELOS, DENTRE OUTROS DOCES INCLUÍDOS NESTA C..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "RIYEMI SALIM MAHMOUD LANCHONETE ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "PIENEGONDA, MOREIRA & ASSOCIADOS LTDA"
+    },
+    "datas": {
+      "deposito": "04/08/2005",
+      "concessao": "19/08/2008",
+      "vigencia": "19/08/2028"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "20/08/2027",
+      "ordinario_fim": "19/08/2028",
+      "extraordinario_inicio": "20/08/2027",
+      "extraordinario_fim": "19/08/2028"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2487",
+        "data_rpi": "04/09/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800180304510 (17/08/2018)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): RIYEMI SALIM MAHMOUD LANCHONETE ME\nProcurador: Jair Silva de Andrade"
+      },
+      {
+        "rpi": "2098",
+        "data_rpi": "22/03/2011",
+        "despacho": "565",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1963",
+        "data_rpi": "19/08/2008",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1947",
+        "data_rpi": "29/04/2008",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1809",
+        "data_rpi": "06/09/2005",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "830555765",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 31",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "ALIMENTOS PARA ANIMAIS, ALIMENTOS PARA ANIMAIS DE ESTIMAÇÃO,..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "TONDO S/A"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Wilson Pinheiro Jabur"
+    },
+    "datas": {
+      "deposito": "26/02/2010",
+      "concessao": "05/02/2013",
+      "vigencia": "05/02/2033"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "06/02/2032",
+      "ordinario_fim": "05/02/2033",
+      "extraordinario_inicio": "06/02/2032",
+      "extraordinario_fim": "05/02/2033"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2683",
+        "data_rpi": "07/06/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220206077 (17/05/2022)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: TONDO S/A\nProcurador: Wilson Pinheiro Jabur"
+      },
+      {
+        "rpi": "2683",
+        "data_rpi": "07/06/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220206077 (17/05/2022)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: TONDO S/A\nProcurador: Wilson Pinheiro Jabur"
+      },
+      {
+        "rpi": "2196",
+        "data_rpi": "05/02/2013",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2181",
+        "data_rpi": "23/10/2012",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2063",
+        "data_rpi": "20/07/2010",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "905240472",
+    "nome_marca": "Amsterdam",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 03",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Adesivos (Substâncias -) para uso cosmético; Banhos (Prepara..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "GDR CARVALHO COSMETICS LTDA - ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "CIDWAN UBERLÂNDIA LTDA ME"
+    },
+    "datas": {
+      "deposito": "05/09/2012",
+      "concessao": "01/09/2015",
+      "vigencia": "01/09/2025"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "02/09/2024",
+      "ordinario_fim": "01/09/2025",
+      "extraordinario_inicio": "02/09/2024",
+      "extraordinario_fim": "01/09/2025"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2330",
+        "data_rpi": "01/09/2015",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2318",
+        "data_rpi": "09/06/2015",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2198",
+        "data_rpi": "19/02/2013",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "911655611",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 34",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Tabaco"
+      }
+    ],
     "classificacao_viena": [],
-    "titulares": [],
+    "titulares": [
+      {
+        "nome": "HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA -ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "AUDITA ASSESSORIA EMPRESARIAL LTDA."
+    },
+    "datas": {
+      "deposito": "22/09/2016",
+      "concessao": "12/06/2018",
+      "vigencia": "12/06/2028"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "13/06/2027",
+      "ordinario_fim": "12/06/2028",
+      "extraordinario_inicio": "13/06/2027",
+      "extraordinario_fim": "12/06/2028"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2670",
+        "data_rpi": "08/03/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220042603 (01/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME\nProcurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.\nDetalhes do despacho:NOME E SEDE ALTERADOS."
+      },
+      {
+        "rpi": "2667",
+        "data_rpi": "15/02/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220010530 (11/01/2022)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: SAMUEL LEONARDO HOPPE\nProcurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.\nDetalhes do despacho:Nomeado procurador AUDITA ASSESSORIA EMPRESARIAL LTDA com poderes para representar o titular do processo perante o INPI."
+      },
+      {
+        "rpi": "2475",
+        "data_rpi": "12/06/2018",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2470",
+        "data_rpi": "08/05/2018",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2388",
+        "data_rpi": "11/10/2016",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "915873028",
+    "nome_marca": "Amsterdam Pub",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Produção de shows; Serviços de boates [entretenimento]; Serv..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "POWER EMPREENDIMENTOS LTDA"
+      }
+    ],
     "representante_legal": null,
     "datas": {
-      "deposito": null,
+      "deposito": "12/09/2018",
+      "concessao": "23/07/2019",
+      "vigencia": "23/07/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "24/07/2028",
+      "ordinario_fim": "23/07/2029",
+      "extraordinario_inicio": "24/07/2028",
+      "extraordinario_fim": "23/07/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2533",
+        "data_rpi": "23/07/2019",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2525",
+        "data_rpi": "28/05/2019",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2492",
+        "data_rpi": "09/10/2018",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "924461470",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 34",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Artigo para fumante;Bolsas para tabaco [fumo];Charutos;Cigar..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "10.1.1",
+        "descricao": "Tabaco"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.1.1",
+        "descricao": "Círculos"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.25",
+        "descricao": "Letras apresentando algum outro grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA -ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "AUDITA ASSESSORIA EMPRESARIAL LTDA."
+    },
+    "datas": {
+      "deposito": "30/09/2021",
+      "concessao": "10/01/2023",
+      "vigencia": "10/01/2033"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "11/01/2032",
+      "ordinario_fim": "10/01/2033",
+      "extraordinario_inicio": "11/01/2032",
+      "extraordinario_fim": "10/01/2033"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2714",
+        "data_rpi": "10/01/2023",
+        "despacho": "Concessão de registro",
+        "detalhes": "850220042603 (01/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME\nProcurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.\nDetalhes do despacho:NOME E SEDE ALTERADOS."
+      },
+      {
+        "rpi": "2710",
+        "data_rpi": "13/12/2022",
+        "despacho": "Deferimento do pedido",
+        "detalhes": "850220042603 (01/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME\nProcurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.\nDetalhes do despacho:NOME E SEDE ALTERADOS."
+      },
+      {
+        "rpi": "2670",
+        "data_rpi": "08/03/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220042603 (01/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: HOPPE INDUSTRIA E COMERCIO DE TABACOS LTDA - ME\nProcurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.\nDetalhes do despacho:NOME E SEDE ALTERADOS."
+      },
+      {
+        "rpi": "2667",
+        "data_rpi": "15/02/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220010548 (11/01/2022)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: SAMUEL LEONARDO HOPPE\nProcurador: AUDITA ASSESSORIA EMPRESARIAL LTDA.\nDetalhes do despacho:Nomeado procurador AUDITA ASSESSORIA EMPRESARIAL LTDA com poderes para representar o titular do processo perante o INPI."
+      },
+      {
+        "rpi": "2650",
+        "data_rpi": "19/10/2021",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "935265694",
+    "nome_marca": "AMSTERDAM AJU",
+    "situacao": "Aguardando processamento da concessão do registro de marca",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aluguel de salão de festas;Decoração de festas, cerimônias e..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "GDA RESTAURANTE E EVENTOS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "A Provincia Marcas e Patentes Ltda."
+    },
+    "datas": {
+      "deposito": "04/07/2024",
       "concessao": null,
       "vigencia": null
     },
     "prazos_prorrogacao": null,
-    "publicacoes": [],
+    "publicacoes": [
+      {
+        "rpi": "2875",
+        "data_rpi": "10/02/2026",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2794",
+        "data_rpi": "23/07/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "935854002",
+    "nome_marca": "Amsterdam",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Assessoria, consultoria e informação em estética capilar;Ass..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "29.1.8",
+        "descricao": "Preto"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "AMISTERDAN ROCHA DOS SANTOS FILHO"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "18/08/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2800",
+        "data_rpi": "03/09/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
     "detalhes_indeferimento": null
   },
   {
@@ -57,52 +540,227 @@
     "detalhes_indeferimento": null
   },
   {
-    "numero_processo": "913771767",
-    "nome_marca": "Amsterdam",
-    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "numero_processo": "825206049",
+    "nome_marca": "OLD AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
     "apresentacao": "Nominativa",
-    "natureza": "De Serviço",
+    "natureza": "De Produto",
     "classes": [
       {
-        "numero_classe": "NCL(11) 35",
+        "numero_classe": "NCL(8) 29",
         "situacao_classe": "Vide Situação do Processo",
-        "especificacao": "Comércio (através de qualquer meio) de bijuteria; Comércio (através de qualquer meio) de artigos de chapelaria; Comércio (através de qualquer meio) de artigos do vestuário; Comércio (através de qualquer meio) de artigos e produtos confeccionados de couro e imitações de couro; Comércio (através de qualquer meio) de produtos têxteis; Comércio (através de qualquer meio) de roupas"
+        "especificacao": "QUEIJO."
       }
     ],
     "classificacao_viena": [],
     "titulares": [
       {
-        "nome": "GUILHERME MELO PORCARO PESSO"
+        "nome": "WESTLAND CHEESE BRANDS B.V."
       }
     ],
     "representante_legal": {
-      "nome": "Consolide - Dr. Alan Marcos da Silva"
+      "nome": "MARCELLO DO NASCIMENTO"
     },
     "datas": {
-      "deposito": "23/11/2017",
-      "concessao": null,
-      "vigencia": null
+      "deposito": "29/01/2003",
+      "concessao": "22/01/2019",
+      "vigencia": "22/01/2029"
     },
-    "prazos_prorrogacao": null,
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "23/01/2028",
+      "ordinario_fim": "22/01/2029",
+      "extraordinario_inicio": "23/01/2028",
+      "extraordinario_fim": "22/01/2029"
+    },
     "publicacoes": [
       {
-        "rpi": "2500",
-        "data_rpi": "04/12/2018",
-        "despacho": "Indeferimento do pedido",
-        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 901706035 (AMSTERDAM) e Processo 828205132 (AMSTERDAM SAUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+        "rpi": "2507",
+        "data_rpi": "22/01/2019",
+        "despacho": "Concessão de registro",
+        "detalhes": "850170332521 (22/12/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): WESTLAND CHEESE BRANDS B.V.\nProcurador: David do Nascimento Advogados Associados\nDetalhes do despacho:Nome alterado."
       },
       {
-        "rpi": "2450",
-        "data_rpi": "19/12/2017",
+        "rpi": "2494",
+        "data_rpi": "23/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850170332521 (22/12/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): WESTLAND CHEESE BRANDS B.V.\nProcurador: David do Nascimento Advogados Associados\nDetalhes do despacho:Nome alterado."
+      },
+      {
+        "rpi": "2467",
+        "data_rpi": "17/04/2018",
+        "despacho": "Ato de prejudicar petição",
+        "detalhes": "850170321379 (13/12/2017)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nTitular: WESTLAND KAASSPECIALITEITEN B.V.\nProcurador: David do Nascimento Advogados Associados\nDetalhes do despacho:Solicitação já atendida pela petição 850170321367, de mesmo teor."
+      },
+      {
+        "rpi": "2467",
+        "data_rpi": "17/04/2018",
+        "despacho": "Petição de retificação atendida",
+        "detalhes": "850170321367 (13/12/2017)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nTitular: WESTLAND KAASSPECIALITEITEN B.V.\nProcurador: David do Nascimento Advogados Associados\nDetalhes do despacho:Vide publicação para o processo na RPI 2458 de 14/02/2018."
+      },
+      {
+        "rpi": "2458",
+        "data_rpi": "14/02/2018",
+        "despacho": "Recurso provido (decisão reformada para: Deferimento)",
+        "detalhes": "18070026587 (30/04/2007)\nPetição (tipo): Recurso (SINPI P04)\nRequerente: WESTLAND KAASSPECIALITEITEN B.V.\nProcurador: DAVID DO NASCIMENTO ADVOGADOS ASSOCIADOS\nDetalhes do despacho:DECIDO O RECURSO. NOS TERMOS E CONDIÇÕES CONSTANTES NO REFERIDO PARECER, RESSALVADO, CONFORME O CASO, A ADOÇÃO DO PADRÃO DE APOSTILA INSTITUÍDO POR MEIO DA RESOLUÇÃO 166/2016."
+      },
+      {
+        "rpi": "1950",
+        "data_rpi": "20/05/2008",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1886",
+        "data_rpi": "27/02/2007",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1680",
+        "data_rpi": "18/03/2003",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "826044735",
+    "nome_marca": "OLD AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 29",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "QUEIJO E PRODUTOS DE QUEIJO."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.7.25",
+        "descricao": "Outras combinações de figuras geométricas diferentes, justapostas, unidas ou entrecortadas"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "WESTLAND CHEESE BRANDS B.V."
+      }
+    ],
+    "representante_legal": {
+      "nome": "MARCELLO DO NASCIMENTO"
+    },
+    "datas": {
+      "deposito": "05/01/2004",
+      "concessao": "02/04/2019",
+      "vigencia": "02/04/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "03/04/2028",
+      "ordinario_fim": "02/04/2029",
+      "extraordinario_inicio": "03/04/2028",
+      "extraordinario_fim": "02/04/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2517",
+        "data_rpi": "02/04/2019",
+        "despacho": "Concessão de registro",
+        "detalhes": "850170332521 (22/12/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): WESTLAND CHEESE BRANDS B.V.\nProcurador: David do Nascimento Advogados Associados\nDetalhes do despacho:Nome alterado."
+      },
+      {
+        "rpi": "2511",
+        "data_rpi": "19/02/2019",
+        "despacho": "Deferimento do pedido",
+        "detalhes": "850170332521 (22/12/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): WESTLAND CHEESE BRANDS B.V.\nProcurador: David do Nascimento Advogados Associados\nDetalhes do despacho:Nome alterado."
+      },
+      {
+        "rpi": "2494",
+        "data_rpi": "23/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850170332521 (22/12/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): WESTLAND CHEESE BRANDS B.V.\nProcurador: David do Nascimento Advogados Associados\nDetalhes do despacho:Nome alterado."
+      },
+      {
+        "rpi": "1900",
+        "data_rpi": "05/06/2007",
+        "despacho": "241",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1726",
+        "data_rpi": "03/02/2004",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "906708788",
+    "nome_marca": "NEW AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 33",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Bebidas alcoólicas [exceto cerveja]"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "E. & J. GALLO WINERY"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Dannemann, Siemsen, Bigler & Ipanema Moreira"
+    },
+    "datas": {
+      "deposito": "02/09/2013",
+      "concessao": "24/05/2016",
+      "vigencia": "24/05/2036"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "25/05/2035",
+      "ordinario_fim": "24/05/2036",
+      "extraordinario_inicio": "25/05/2035",
+      "extraordinario_fim": "24/05/2036"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2867",
+        "data_rpi": "16/12/2025",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800250418767 (14/11/2025)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): E. & J. GALLO WINERY\nProcurador: Dannemann, Siemsen, Bigler & Ipanema Moreira"
+      },
+      {
+        "rpi": "2368",
+        "data_rpi": "24/05/2016",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2362",
+        "data_rpi": "12/04/2016",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2240",
+        "data_rpi": "10/12/2013",
         "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
         "detalhes": ""
       }
     ],
-    "detalhes_indeferimento": {
-      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 901706035 (AMSTERDAM) e Processo 828205132 (AMSTERDAM SAUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
-      "protocolos_conflitantes": [
-        "850170298364"
-      ]
-    }
+    "detalhes_indeferimento": null
   }
 ]

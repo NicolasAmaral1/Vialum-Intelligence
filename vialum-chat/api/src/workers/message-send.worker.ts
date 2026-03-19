@@ -16,7 +16,7 @@ import { Server as SocketIOServer } from 'socket.io';
 // ════════════════════════════════════════════════════════════
 
 const CONV_LOCK_PREFIX = 'msglock:';
-const CONV_LOCK_TTL = 30; // seconds — auto-expire safety net
+const CONV_LOCK_TTL = 120; // seconds — auto-expire safety net (increased to avoid out-of-order messages)
 
 export interface MessageSendJobData {
   accountId: string;
@@ -120,8 +120,28 @@ export function createMessageSendWorker(io: SocketIOServer): Worker {
     console.log(`[message:send] Job ${job.id} completed`);
   });
 
-  worker.on('failed', (job, err) => {
+  worker.on('failed', async (job, err) => {
     console.error(`[message:send] Job ${job?.id} failed:`, err.message);
+
+    // If all retries exhausted, mark message as 'failed'
+    if (job && job.attemptsMade >= (job.opts.attempts ?? 3)) {
+      try {
+        const prisma = getPrisma();
+        const { messageId, conversationId } = job.data;
+        if (messageId) {
+          await prisma.message.update({
+            where: { id: messageId },
+            data: { status: 'failed' },
+          });
+          // Emit failure event to connected clients
+          io.to(`conversation:${conversationId}`).emit('message:created', {
+            message: { id: messageId, conversationId, status: 'failed' },
+          });
+        }
+      } catch (updateErr) {
+        console.error(`[message:send] Failed to mark message as failed:`, updateErr);
+      }
+    }
   });
 
   return worker;
@@ -176,9 +196,14 @@ async function processMessageJob(
   const providerConfig = inbox.providerConfig as Record<string, any>;
 
   // For group conversations, send to the group JID; otherwise use contact sourceId/phone
-  const recipientId = (conversation.groupId && conversation.group)
+  const rawRecipient = (conversation.groupId && conversation.group)
     ? conversation.group.jid
     : (conversation.contactInbox?.sourceId ?? conversation.contact.phone);
+
+  // Ensure JID format for Evolution API (phone must end with @s.whatsapp.net)
+  const recipientId = rawRecipient && !rawRecipient.includes('@')
+    ? `${rawRecipient}@s.whatsapp.net`
+    : rawRecipient;
 
   if (!recipientId) {
     throw new Error(`No recipient ID for conversation ${conversationId}`);

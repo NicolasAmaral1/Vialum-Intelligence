@@ -1,0 +1,75 @@
+# Busca INPI: BASES — Classe 41
+
+## Página 1
+
+
+
+BRASIL
+Acesso à informação
+ParticipeServiçosLegislaçãoCanais
+Instituto Nacional da
+Propriedade Industrial
+Ministério da Economia
+Consulta à Base de Dados do INPI
+[ Início | Ajuda? ]
+
+» Consultar por: Pesquisa Básica | Marca | Titular | Cód. Figura ]
+
+
+RESULTADO DA PESQUISA (16/03/2026 às 17:06:41)
+Marca: "BASES" Classe Internacional: "41"
+Foram encontrados 42 processos que satisfazem à pesquisa. Mostrando página 1 de 1.
+
+Número	Prioridade	 	Marca	 	Situação	Titular	Classe
+815519613	04/06/1990		PNBE PENSAMENTO NACIONAL DAS BASES EMPRESARIAIS		Registro de marca em vigor	PNBE ? Pensamento Nacional das Bases Empresariais	41 : 50
+816296979	31/07/1991		ECOBASES		Arquivado	BRAIN TRUST CONSULTORES ASSOCIADOS LTDA.	38 : 10
+819297976	29/07/1996		THE BASES GROUP		Extinto	LPM LEVANTAMENTOS E PESQUISAS DE MARKETING LTDA	38 : 10
+820919250	21/09/1998		LPM BASES		Arquivado	LPM LEVANTAMENTOS E PESQUISAS DE MARKETING LTDA	38 : 10
+821485849	03/03/1999		PROJETO BASES AGRICULTURA FAMILIAR		Arquivado	SINODO ESPÍRITO SANTO A BELÉM - LECLB	41 : 50
+822966654	30/06/2000		B BASES CENTRO AVANÇADO DE ESTUDOS E DESENVOLVIMENTO PR		Arquivado	JMJ & ASSOCIADOS S//C LTDA	NCL(7) 41
+823361403	26/10/2000		M MERCADO BASE SUL		Arquivado	MERCADO BASE SUL CONS. TREINAMENTO PROM. E EVENTOS LTDA	NCL(7) 41
+824804449	04/09/2002		BASESETE		Registro de marca em vigor	BASE SETE PROJETOS CULTURAIS LTDA	NCL(8) 41
+824968069	13/09/2002		BASE SISTEMA EDUCACIONAL		Arquivado	BASE EDITORIAL LTDA.	NCL(8) 41
+826209238	18/03/2004		ESCOLA ENCONTRO BASES SOLIDAS PARA A VIDA		Pedido de registro de marca indeferido (sem interposição de recurso)	ESCOLA ENCONTRO LTDA	NCL(8) 41
+826476155	20/04/2004		BASE S/A		Pedido definitivamente arquivado	JOSÉ VIEIRA DE LIMA NETO	NCL(8) 41
+901855839	11/08/2009		BASE SISTEMA EDUCACIONAL		Registro de marca em vigor	BASE EDITORIAL LTDA.	NCL(9) 41
+906775876	18/09/2013		BASE SOCIEDADE COLABORATIVA		Pedido de registro de marca indeferido (sem interposição de recurso)	ASSOCIAÇÃO BASE COLABORATIVA	NCL(10) 41
+907155081	19/12/2013		S DE SAMBA SESSIONS		Registro de marca em vigor	ARTISTAS REUNIDOS CONTEÚDO E PRODUÇÕES FONOGRÁFICAS LTDA	NCL(10) 41
+908209509	01/09/2014		BASE SOCCER BRASIL		Pedido de registro de marca indeferido (sem interposição de recurso)	Unick Football Consultoria e Marketing Esportivo Ltda EPP	NCL(10) 41
+911173293	13/06/2016		BASE SPORTS CLUB		Pedido de registro de marca indeferido (sem interposição de recurso)	ALEXANDRE CARDOSO	NCL(10) 41
+914903225	21/06/2018		Base Studio Fitness		Pedido de registro de marca indeferido	EMERSON ALBERTON 03761306954	NCL(11) 41
+914959085	02/07/2018		Sob as Estrelas		Registro de marca em vigor	CAMILA ORNELLAS CAGGIANO	NCL(11) 41
+916387429	06/12/2018		BASE SOCIEDADE COLABORATIVA		Pedido de registro de marca indeferido	ASSOCIAÇÃO BASE COLABORATIVA	NCL(11) 41
+918784271	02/12/2019		LIGA RAPEL SUA BASE SOBRE O ESPORTE NA INTERNET		Pedido de registro de marca indeferido	GABRIEL FINELLI GOMES	NCL(11) 41
+920072259	05/07/2020		TEBAS ESPORTIVOS		Pedido de registro de marca indeferido	RUYDEGLAN PINHEIRO GUIMARAES 03695176369	NCL(11) 41
+921056656	19/10/2020		BSC BASE SPORTING CLUB		Registro de marca em vigor	ADEMILSON PRADO DE FREITAS	NCL(11) 41
+921596200	14/12/2020		As Cinco Bases Modelo de Alfabetização Contextualizado AOIUE CARLA RODRIGUES BARRETO MÁRCIA LANNES SAMPAIO		Pedido definitivamente arquivado	AS 5 BASES ALFABETIZACAO E TREINAMENTO LTDA - ME	NCL(11) 41
+921620179	16/12/2020		INSTITUTO BASES		Registro de marca em vigor	MARIO CESAR DA SILVA GOMES	NCL(11) 41
+922795312	29/04/2021		BRECARD BASES DAS RESPOSTAS ÀS EMERGÊNCIAS CARDIOLÓGICAS		Registro de marca em vigor	SCIENTIFICA TREINAMENTOS LTDA ME	NCL(11) 41
+925050954	29/11/2021		BREVAR Bases das Respostas às Emergências Ventilatórias e Respiratórias		Registro de marca em vigor	STOICUS TREINAMENTOS	NCL(11) 41
+926202715	31/03/2022		BASE STUDIO FITNESS		Registro de marca em vigor	BASE STUDIO FITNESS I LTDA	NCL(11) 41
+926632698	13/05/2022		4 Bases		Registro de marca em vigor	HIRBIS ROSENDO MONTEIRO GIROLLI	NCL(11) 41
+928219267	03/10/2022		ESCOLA BASE SUPREMA		Registro de marca em vigor	SILVA & DUTRA LTDA	NCL(11) 41
+928540898	03/11/2022		AS TRÊS BASES		Registro de marca em vigor	LIGA DE EVENTOS E MARKETING PROMOCIONAL LTDA EPP	NCL(11) 41
+928692485	18/11/2022		AS CINCO BASES Modelo de Alfabetização Contextualizado		Registro de marca em vigor	AS 5 BASES ALFABETIZACAO E TREINAMENTO LTDA	NCL(11) 41
+930548620	24/05/2023		BPM BASES DA PERÍCIA MÉDICA		Pedido de registro de marca indeferido	CAROLINE MACHADO DAITX	NCL(12) 41
+931431832	07/08/2023		WaBox Database Solutions		Registro de marca em vigor	GERARDO DO NASCIMENTO BARROS FILHO	NCL(12) 41
+932842585	05/12/2023		B.A.S.E SOM E LUZ		Pedido de registro de marca indeferido	FERNANDO CINTRA LOCAÇÃO DE MÁQUINAS E EQUIPAMENTOS LTDA - ME	NCL(12) 41
+934931968	10/06/2024		Forrozão Tá nas Bases		Registro de marca em vigor	35.696.718 EDINETE FERREIRA DE ASSUNCAO	NCL(12) 41
+935271325	04/07/2024		Las Lobas Escola de Mulheres		Aguardando processamento da concessão do registro de marca	MARILIA DUARTE LOPES SÁBER	NCL(12) 41
+935272291	04/07/2024		BASES		Aguardando processamento da concessão do registro de marca	MARIO CESAR DA SILVA GOMES	NCL(12) 41
+935706410	07/08/2024		BASES		Aguardando exame de mérito	MARIO CESAR DA SILVA GOMES	NCL(12) 41
+935977724	27/08/2024		Projeto BASES		Aguardando exame de mérito	MARIO CESAR DA SILVA GOMES	NCL(12) 41
+937197610	29/11/2024		INSTITUTO BASES		Aguardando exame de mérito	MARIO CESAR DA SILVA GOMES	NCL(12) 41
+941472108	03/10/2025		BASE STRONG PREPARAÇÃO FISICA		Aguardando exame de mérito	69 919 829 LUIS POLASTRI NETO	NCL(12) 41
+942275047	23/12/2025		Base Secreta		Aguardando prazo de apresentação de oposição	FERNANDO SANTANA	NCL(12) 41
+ 
+Páginas de Resultados:
+1
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+---
+

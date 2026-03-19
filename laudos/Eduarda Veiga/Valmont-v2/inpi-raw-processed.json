@@ -1,0 +1,1722 @@
+[
+  {
+    "numero_processo": "006045294",
+    "nome_marca": "VALMONT",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "VALMONT INC."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "16/09/1968",
+      "concessao": "10/02/1975",
+      "vigencia": "10/02/1995"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1144",
+        "data_rpi": "03/11/1992",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1124",
+        "data_rpi": "16/06/1992",
+        "despacho": "900",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1101",
+        "data_rpi": "07/01/1992",
+        "despacho": "550",
+        "detalhes": ""
+      },
+      {
+        "rpi": "739",
+        "data_rpi": "18/12/1984",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815862571",
+    "nome_marca": "V VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "24.9.1",
+        "descricao": "Coroas cuja parte superior é fechada (com cúpula ou casquete)"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "03",
+        "codigo": "20",
+        "descricao": "Produtos de perfumaria e de higiene, e artigos de ..."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "CVL COSMETICS S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "MOMSEN, LEONARDOS & CIA."
+    },
+    "datas": {
+      "deposito": "25/10/1990",
+      "concessao": "23/04/1996",
+      "vigencia": "23/04/2036"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "24/04/2035",
+      "ordinario_fim": "23/04/2036",
+      "extraordinario_inicio": "24/04/2035",
+      "extraordinario_fim": "23/04/2036"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2866",
+        "data_rpi": "09/12/2025",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800250415846 (12/11/2025)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): CVL COSMETICS S.A.\nProcurador: KASZNAR LEONARDOS PROPRIEDADE INTELECTUAL"
+      },
+      {
+        "rpi": "2395",
+        "data_rpi": "29/11/2016",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800150330889 (11/12/2015)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.1)\nTitular: CVL COSMETICS S.A.\nProcurador: Kasznar, Leonardos Advogados\nDetalhes do despacho:CONFORME ARTIGO 133 DA LPI."
+      },
+      {
+        "rpi": "1924",
+        "data_rpi": "20/11/2007",
+        "despacho": "560",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1900",
+        "data_rpi": "05/06/2007",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1325",
+        "data_rpi": "23/04/1996",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1314",
+        "data_rpi": "06/02/1996",
+        "despacho": "230",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1302",
+        "data_rpi": "14/11/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1270",
+        "data_rpi": "04/04/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1237",
+        "data_rpi": "16/08/1994",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1213",
+        "data_rpi": "01/03/1994",
+        "despacho": "261",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1095",
+        "data_rpi": "26/11/1991",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1071",
+        "data_rpi": "11/06/1991",
+        "despacho": "100",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819361925",
+    "nome_marca": "JACQUES VALMONT",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "25",
+        "codigo": "10",
+        "descricao": "Roupas e acessórios do vestuário de uso comum."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "PLANET FASHION INTERNATIONAL S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "ADVOCACIA PIETRO ARIBONI S/C"
+    },
+    "datas": {
+      "deposito": "14/08/1996",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1611",
+        "data_rpi": "20/11/2001",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1544",
+        "data_rpi": "08/08/2000",
+        "despacho": "353",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1432",
+        "data_rpi": "02/06/1998",
+        "despacho": "041",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1392",
+        "data_rpi": "05/08/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "900590955",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 44",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Assessoria consultoria e informação na área agrícola;Irrigaç..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.1.1",
+        "descricao": "Letras ou algarismos formando figuras geométricas, inscrições em perspectiva"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "VALMONT INDUSTRIES, INC."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Daniel Advogados (Alt.de Daniel & Cia)"
+    },
+    "datas": {
+      "deposito": "03/11/2007",
+      "concessao": "17/02/2010",
+      "vigencia": "17/02/2030"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "18/02/2029",
+      "ordinario_fim": "17/02/2030",
+      "extraordinario_inicio": "18/02/2029",
+      "extraordinario_fim": "17/02/2030"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2674",
+        "data_rpi": "05/04/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220082184 (24/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Endereço alterado."
+      },
+      {
+        "rpi": "2536",
+        "data_rpi": "13/08/2019",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800190240827 (27/06/2019)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)"
+      },
+      {
+        "rpi": "2492",
+        "data_rpi": "09/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850170284297 (08/11/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:SEDE ALTERADA."
+      },
+      {
+        "rpi": "2438",
+        "data_rpi": "26/09/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850160006242 (12/01/2016)\nPetição (tipo): Anotação de transferência de titularidade decorrente de cessão (349.1)\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nCessionário: VALMONT INDUSTRIES, INC."
+      },
+      {
+        "rpi": "2041",
+        "data_rpi": "17/02/2010",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2026",
+        "data_rpi": "03/11/2009",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1930",
+        "data_rpi": "02/01/2008",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "501581843",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor (Madri)",
+    "apresentacao": "Nominativa",
+    "natureza": "Madri Produto/Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 37",
+        "situacao_classe": "Deferida",
+        "especificacao": "Limpeza estrutural aérea e utilitários por meio de drones in... Serviços de pilotagem de drones civis para estruturas aéreas... Fotografia aérea para fins de inspeção. Serviços de inspeção visual de estruturas, iluminação esport..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "Valmont Industries, Inc."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Daniel Advogados (Alt.de Daniel & Cia)"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2745",
+        "data_rpi": "15/08/2023",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850230337560 (19/07/2023)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Nomeado procurador Daniel Advogados (Alt. de Daniel & Cia) com poderes para representar o titular do processo perante o INPI."
+      },
+      {
+        "rpi": "2687",
+        "data_rpi": "05/07/2022",
+        "despacho": "Concessão de registro em designação",
+        "detalhes": "Alterado o endereço do requerente de acordo com a petição nº 1517934601 (Madri), de 29/10/2021."
+      },
+      {
+        "rpi": "2670",
+        "data_rpi": "08/03/2022",
+        "despacho": "Deferimento de designação",
+        "detalhes": "Alterado o endereço do requerente de acordo com a petição nº 1517934601 (Madri), de 29/10/2021."
+      },
+      {
+        "rpi": "2634",
+        "data_rpi": "29/06/2021",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal de designação concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "941464741",
+    "nome_marca": "Lys Valmont",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Apresentação de canto;Apresentação de espetáculos ao vivo;Ap..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "HELLAINY DE AMORIM MENESES"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "02/10/2025",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2860",
+        "data_rpi": "28/10/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "750121017",
+    "nome_marca": "COMTE DE VALMONTE",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "24.9.1",
+        "descricao": "Coroas cuja parte superior é fechada (com cúpula ou casquete)"
+      },
+      {
+        "edicao": "35",
+        "codigo": "10",
+        "descricao": "Bebidas, xaropes e sucos concentrados."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BODEGAS CHANDON S.A."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "01/07/1975",
+      "concessao": "04/03/1992",
+      "vigencia": "04/03/2002"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1711",
+        "data_rpi": "21/10/2003",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1109",
+        "data_rpi": "03/03/1992",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1052",
+        "data_rpi": "29/01/1991",
+        "despacho": "025",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1041",
+        "data_rpi": "13/11/1990",
+        "despacho": "025",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1021",
+        "data_rpi": "05/06/1990",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "992",
+        "data_rpi": "24/10/1989",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "971",
+        "data_rpi": "30/05/1989",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "950",
+        "data_rpi": "03/01/1989",
+        "despacho": "090",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "811670759",
+    "nome_marca": "VALMONT CABERNET SAUVIGNON",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "24.9.1",
+        "descricao": "Coroas cuja parte superior é fechada (com cúpula ou casquete)"
+      },
+      {
+        "edicao": "4",
+        "codigo": "25.1.1",
+        "descricao": "Frontispícios como página de título ou sobre uma etiqueta"
+      },
+      {
+        "edicao": "35",
+        "codigo": "10",
+        "descricao": "VINHOS."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BODEGAS CHANDON S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "BHERING ASSESSORIA S/C LTDA."
+    },
+    "datas": {
+      "deposito": "17/08/1984",
+      "concessao": "24/06/1986",
+      "vigencia": "24/06/2006"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1946",
+        "data_rpi": "22/04/2008",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1862",
+        "data_rpi": "12/09/2006",
+        "despacho": "560",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1350",
+        "data_rpi": "15/10/1996",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "818",
+        "data_rpi": "24/06/1986",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "800",
+        "data_rpi": "18/02/1986",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "781",
+        "data_rpi": "08/10/1985",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "763",
+        "data_rpi": "04/06/1985",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "750",
+        "data_rpi": "05/03/1985",
+        "despacho": "090",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "821283766",
+    "nome_marca": "VALMONT COLECCIÓN VISTALBA",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "24.9.1",
+        "descricao": "Coroas cuja parte superior é fechada (com cúpula ou casquete)"
+      },
+      {
+        "edicao": "35",
+        "codigo": "10",
+        "descricao": "Bebidas, xaropes e sucos concentrados."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BODEGAS CHANDON S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "BHERING ASSESSORIA S/C LTDA"
+    },
+    "datas": {
+      "deposito": "03/12/1998",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1718",
+        "data_rpi": "09/12/2003",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1610",
+        "data_rpi": "13/11/2001",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1605",
+        "data_rpi": "09/10/2001",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1468",
+        "data_rpi": "23/02/1999",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "913539880",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 32",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Cervejas; águas minerais e outras bebidas não alcoólicas; be..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "24.9.2",
+        "descricao": "Coroas cuja parte superior é aberta"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.4.2",
+        "descricao": "Retângulos"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.11.13",
+        "descricao": "Linhas ou faixas onduladas, ou em ziguezague"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BODEGAS CHANDON S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Ariboni, Fabbri e Schmidt Sociedade de Advogados"
+    },
+    "datas": {
+      "deposito": "10/10/2017",
+      "concessao": "22/01/2019",
+      "vigencia": "22/01/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "23/01/2028",
+      "ordinario_fim": "22/01/2029",
+      "extraordinario_inicio": "23/01/2028",
+      "extraordinario_fim": "22/01/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2507",
+        "data_rpi": "22/01/2019",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2497",
+        "data_rpi": "13/11/2018",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2443",
+        "data_rpi": "31/10/2017",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "913539910",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 32",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Cervejas; águas minerais e outras bebidas não alcoólicas; be..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "24.9.2",
+        "descricao": "Coroas cuja parte superior é aberta"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.11.13",
+        "descricao": "Linhas ou faixas onduladas, ou em ziguezague"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BODEGAS CHANDON S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Ariboni, Fabbri e Schmidt Sociedade de Advogados"
+    },
+    "datas": {
+      "deposito": "10/10/2017",
+      "concessao": "22/01/2019",
+      "vigencia": "22/01/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "23/01/2028",
+      "ordinario_fim": "22/01/2029",
+      "extraordinario_inicio": "23/01/2028",
+      "extraordinario_fim": "22/01/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2507",
+        "data_rpi": "22/01/2019",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2497",
+        "data_rpi": "13/11/2018",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2443",
+        "data_rpi": "31/10/2017",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "006045294",
+    "nome_marca": "VALMONT",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "VALMONT INC."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "16/09/1968",
+      "concessao": "10/02/1975",
+      "vigencia": "10/02/1995"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1144",
+        "data_rpi": "03/11/1992",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1124",
+        "data_rpi": "16/06/1992",
+        "despacho": "900",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1101",
+        "data_rpi": "07/01/1992",
+        "despacho": "550",
+        "detalhes": ""
+      },
+      {
+        "rpi": "739",
+        "data_rpi": "18/12/1984",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "750121017",
+    "nome_marca": "COMTE DE VALMONTE",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "24.9.1",
+        "descricao": "Coroas cuja parte superior é fechada (com cúpula ou casquete)"
+      },
+      {
+        "edicao": "35",
+        "codigo": "10",
+        "descricao": "Bebidas, xaropes e sucos concentrados."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BODEGAS CHANDON S.A."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "01/07/1975",
+      "concessao": "04/03/1992",
+      "vigencia": "04/03/2002"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1711",
+        "data_rpi": "21/10/2003",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1109",
+        "data_rpi": "03/03/1992",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1052",
+        "data_rpi": "29/01/1991",
+        "despacho": "025",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1041",
+        "data_rpi": "13/11/1990",
+        "despacho": "025",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1021",
+        "data_rpi": "05/06/1990",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "992",
+        "data_rpi": "24/10/1989",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "971",
+        "data_rpi": "30/05/1989",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "950",
+        "data_rpi": "03/01/1989",
+        "despacho": "090",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "006995551",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "VALMONT INDUSTRIES, INC."
+      }
+    ],
+    "representante_legal": {
+      "nome": "DANIEL & CIA."
+    },
+    "datas": {
+      "deposito": "10/01/1978",
+      "concessao": "25/07/1979",
+      "vigencia": "25/07/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "26/07/2028",
+      "ordinario_fim": "25/07/2029",
+      "extraordinario_inicio": "26/07/2028",
+      "extraordinario_fim": "25/07/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2674",
+        "data_rpi": "05/04/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220082184 (24/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Endereço alterado."
+      },
+      {
+        "rpi": "2517",
+        "data_rpi": "02/04/2019",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800190041849 (01/02/2019)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)"
+      },
+      {
+        "rpi": "2492",
+        "data_rpi": "09/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850170284297 (08/11/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:SEDE ALTERADA."
+      },
+      {
+        "rpi": "2089",
+        "data_rpi": "18/01/2011",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1485",
+        "data_rpi": "22/06/1999",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1028",
+        "data_rpi": "14/08/1990",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "006995543",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "VALMONT INDUSTRIES, INC."
+      }
+    ],
+    "representante_legal": {
+      "nome": "DANIEL & CIA."
+    },
+    "datas": {
+      "deposito": "10/01/1978",
+      "concessao": "25/07/1979",
+      "vigencia": "25/07/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "26/07/2028",
+      "ordinario_fim": "25/07/2029",
+      "extraordinario_inicio": "26/07/2028",
+      "extraordinario_fim": "25/07/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2674",
+        "data_rpi": "05/04/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220082184 (24/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Endereço alterado."
+      },
+      {
+        "rpi": "2517",
+        "data_rpi": "02/04/2019",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800190041851 (01/02/2019)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)"
+      },
+      {
+        "rpi": "2492",
+        "data_rpi": "09/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850170284297 (08/11/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:SEDE ALTERADA."
+      },
+      {
+        "rpi": "2089",
+        "data_rpi": "18/01/2011",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1485",
+        "data_rpi": "22/06/1999",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1028",
+        "data_rpi": "14/08/1990",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "811670759",
+    "nome_marca": "VALMONT CABERNET SAUVIGNON",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "24.9.1",
+        "descricao": "Coroas cuja parte superior é fechada (com cúpula ou casquete)"
+      },
+      {
+        "edicao": "4",
+        "codigo": "25.1.1",
+        "descricao": "Frontispícios como página de título ou sobre uma etiqueta"
+      },
+      {
+        "edicao": "35",
+        "codigo": "10",
+        "descricao": "VINHOS."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BODEGAS CHANDON S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "BHERING ASSESSORIA S/C LTDA."
+    },
+    "datas": {
+      "deposito": "17/08/1984",
+      "concessao": "24/06/1986",
+      "vigencia": "24/06/2006"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1946",
+        "data_rpi": "22/04/2008",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1862",
+        "data_rpi": "12/09/2006",
+        "despacho": "560",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1350",
+        "data_rpi": "15/10/1996",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "818",
+        "data_rpi": "24/06/1986",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "800",
+        "data_rpi": "18/02/1986",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "781",
+        "data_rpi": "08/10/1985",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "763",
+        "data_rpi": "04/06/1985",
+        "despacho": "300",
+        "detalhes": ""
+      },
+      {
+        "rpi": "750",
+        "data_rpi": "05/03/1985",
+        "despacho": "090",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "818986980",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.7.1",
+        "descricao": "Círculos ou elipses com um ou mais segmentos e/ou setores de círculos ou elipses"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "07",
+        "codigo": "15",
+        "descricao": "SISTEMAS MECANIZADOS DE IRRIGAÇÃO."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "VALMONT INDUSTRIES, INC."
+      }
+    ],
+    "representante_legal": {
+      "nome": "DANIEL & CIA."
+    },
+    "datas": {
+      "deposito": "26/12/1995",
+      "concessao": "15/09/1998",
+      "vigencia": "15/09/2028"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "16/09/2027",
+      "ordinario_fim": "15/09/2028",
+      "extraordinario_inicio": "16/09/2027",
+      "extraordinario_fim": "15/09/2028"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2674",
+        "data_rpi": "05/04/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220082184 (24/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Endereço alterado."
+      },
+      {
+        "rpi": "2492",
+        "data_rpi": "09/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850170284297 (08/11/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:SEDE ALTERADA."
+      },
+      {
+        "rpi": "2491",
+        "data_rpi": "02/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800180388797 (14/09/2018)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)"
+      },
+      {
+        "rpi": "2426",
+        "data_rpi": "04/07/2017",
+        "despacho": "Petição de retificação não atendida",
+        "detalhes": "20130076892 (18/09/2013)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nTitular: NELLIE ANNE DANIEL SHORES\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Existem processos mais antigos, do mesmo titular, cadastrados nesse endereço."
+      },
+      {
+        "rpi": "2201",
+        "data_rpi": "12/03/2013",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1609",
+        "data_rpi": "06/11/2001",
+        "despacho": "821",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1486",
+        "data_rpi": "29/06/1999",
+        "despacho": "511",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1447",
+        "data_rpi": "15/09/1998",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1428",
+        "data_rpi": "05/05/1998",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1385",
+        "data_rpi": "17/06/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "818986972",
+    "nome_marca": "VALMONT",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.7.1",
+        "descricao": "Círculos ou elipses com um ou mais segmentos e/ou setores de círculos ou elipses"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "09",
+        "codigo": "20",
+        "descricao": "ESTRUTURAS PARA ILUMINAÇÃO E SINAL DE TRÂNSITO PA ..."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "VALMONT INDUSTRIES, INC."
+      }
+    ],
+    "representante_legal": {
+      "nome": "DANIEL & CIA."
+    },
+    "datas": {
+      "deposito": "26/12/1995",
+      "concessao": "15/09/1998",
+      "vigencia": "15/09/2028"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "16/09/2027",
+      "ordinario_fim": "15/09/2028",
+      "extraordinario_inicio": "16/09/2027",
+      "extraordinario_fim": "15/09/2028"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2674",
+        "data_rpi": "05/04/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220082184 (24/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Endereço alterado."
+      },
+      {
+        "rpi": "2492",
+        "data_rpi": "09/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850170284297 (08/11/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:SEDE ALTERADA."
+      },
+      {
+        "rpi": "2491",
+        "data_rpi": "02/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800180388798 (14/09/2018)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)"
+      },
+      {
+        "rpi": "2426",
+        "data_rpi": "04/07/2017",
+        "despacho": "Petição de retificação não atendida",
+        "detalhes": "20130076899 (18/09/2013)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nTitular: NELLIE ANNE DANIEL SHORES\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Existem processos mais antigos, do mesmo titular, cadastrados nesse endereço."
+      },
+      {
+        "rpi": "2201",
+        "data_rpi": "12/03/2013",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1609",
+        "data_rpi": "06/11/2001",
+        "despacho": "821",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1486",
+        "data_rpi": "29/06/1999",
+        "despacho": "511",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1447",
+        "data_rpi": "15/09/1998",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1428",
+        "data_rpi": "05/05/1998",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1385",
+        "data_rpi": "17/06/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819361925",
+    "nome_marca": "JACQUES VALMONT",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "25",
+        "codigo": "10",
+        "descricao": "Roupas e acessórios do vestuário de uso comum."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "PLANET FASHION INTERNATIONAL S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "ADVOCACIA PIETRO ARIBONI S/C"
+    },
+    "datas": {
+      "deposito": "14/08/1996",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1611",
+        "data_rpi": "20/11/2001",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1544",
+        "data_rpi": "08/08/2000",
+        "despacho": "353",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1432",
+        "data_rpi": "02/06/1998",
+        "despacho": "041",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1392",
+        "data_rpi": "05/08/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "821283766",
+    "nome_marca": "VALMONT COLECCIÓN VISTALBA",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "24.9.1",
+        "descricao": "Coroas cuja parte superior é fechada (com cúpula ou casquete)"
+      },
+      {
+        "edicao": "35",
+        "codigo": "10",
+        "descricao": "Bebidas, xaropes e sucos concentrados."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "BODEGAS CHANDON S.A."
+      }
+    ],
+    "representante_legal": {
+      "nome": "BHERING ASSESSORIA S/C LTDA"
+    },
+    "datas": {
+      "deposito": "03/12/1998",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1718",
+        "data_rpi": "09/12/2003",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1610",
+        "data_rpi": "13/11/2001",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1605",
+        "data_rpi": "09/10/2001",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1468",
+        "data_rpi": "23/02/1999",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "825430267",
+    "nome_marca": "VALMONT IRRIGATION",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "IMPORTAÇÃO E EXPORTAÇÃO, DISTRIBUIÇÃO DE PRODUTOS, ALUGUEL D..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.1.1",
+        "descricao": "Letras ou algarismos formando figuras geométricas, inscrições em perspectiva"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "VALMONT INDUSTRIES, INC."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Daniel Advogados (Alt.de Daniel & Cia)"
+    },
+    "datas": {
+      "deposito": "08/05/2003",
+      "concessao": "22/07/2008",
+      "vigencia": "22/07/2028"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "23/07/2027",
+      "ordinario_fim": "22/07/2028",
+      "extraordinario_inicio": "23/07/2027",
+      "extraordinario_fim": "22/07/2028"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2674",
+        "data_rpi": "05/04/2022",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850220082184 (24/02/2022)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Endereço alterado."
+      },
+      {
+        "rpi": "2492",
+        "data_rpi": "09/10/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850170284297 (08/11/2017)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:SEDE ALTERADA."
+      },
+      {
+        "rpi": "2482",
+        "data_rpi": "31/07/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800180255893 (12/07/2018)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)"
+      },
+      {
+        "rpi": "2438",
+        "data_rpi": "26/09/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850160006242 (12/01/2016)\nPetição (tipo): Anotação de transferência de titularidade decorrente de cessão (349.1)\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nCessionário: VALMONT INDUSTRIES, INC."
+      },
+      {
+        "rpi": "1959",
+        "data_rpi": "22/07/2008",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1900",
+        "data_rpi": "05/06/2007",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1692",
+        "data_rpi": "10/06/2003",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "501561822",
+    "nome_marca": "VALMONT SOLAR",
+    "situacao": "Registro de marca em vigor (Madri)",
+    "apresentacao": "Nominativa",
+    "natureza": "Madri Produto/Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 35",
+        "situacao_classe": "Deferida",
+        "especificacao": "Desenvolvimento de negócios, desenvolvimento de projetos de ... Instalação de sistemas de energia solar para uso agrícola, i... Concepção e engenharia de sistemas de energia solar; serviço..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "Valmont Industries, Inc."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Daniel Advogados (Alt.de Daniel & Cia)"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2833",
+        "data_rpi": "24/04/2025",
+        "despacho": "Anotação de cancelamento parcial de especificação em designação",
+        "detalhes": "1681540201 (10/02/2023)\nPetição (tipo): Protocolo de Madri - RESTRICT\nDetalhes do despacho:Anotado o cancelamento parcial relativo à especificação da classe NCL(11) 35 conforme comunicação da Secretaria Internacional da OMPI."
+      },
+      {
+        "rpi": "2745",
+        "data_rpi": "15/08/2023",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850230335798 (18/07/2023)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: VALMONT INDUSTRIES, INC.\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)\nDetalhes do despacho:Nomeado procurador Daniel Advogados (Alt. de Daniel & Cia) com poderes para representar o titular do processo perante o INPI."
+      },
+      {
+        "rpi": "2699",
+        "data_rpi": "27/09/2022",
+        "despacho": "Anotação de alteração de nome e/ou endereço em designação",
+        "detalhes": "1517934601 (29/10/2021)\nPetição (tipo): Protocolo de Madri - NEWNAME\nDetalhes do despacho:Sede alterada."
+      },
+      {
+        "rpi": "2663",
+        "data_rpi": "18/01/2022",
+        "despacho": "Concessão de registro em designação",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2651",
+        "data_rpi": "26/10/2021",
+        "despacho": "Deferimento de designação",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2613",
+        "data_rpi": "02/02/2021",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal de designação concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "936963778",
+    "nome_marca": "Valmont Joias Est 2024",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Comércio [através de qualquer meio] de artigos de joalheria;..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.12",
+        "descricao": "Duas cores predominantes"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "JOÃO FELIPE COELHO CASTRO DE AGUERO E FERREIRA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Victor Tales Carvalho Ildefonso"
+    },
+    "datas": {
+      "deposito": "08/11/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2813",
+        "data_rpi": "03/12/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": "Realizada a alteração do elemento nominativo, de acordo com a imagem da marca anexada no formulário, em conformidade com o item 4.2.4 do Manual de Marcas."
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "937531952",
+    "nome_marca": "VALMONT & CO",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Comércio [através de qualquer meio] de artigos de joalheria;..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "JOLAU COMÉRCIO IMPORTAÇÃO E REPRESENTAÇÃO LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "30/12/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2820",
+        "data_rpi": "21/01/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  }
+]

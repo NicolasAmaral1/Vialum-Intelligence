@@ -1,0 +1,26 @@
+[
+  {
+    "numero_processo": "815030495",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM COMERCIO DE PECAS LTDA",
+    "classe": 38,
+    "prioridade": "28/08/1989"
+  },
+  {
+    "numero_processo": "817646930",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 38,
+    "prioridade": "06/12/1993"
+  },
+  {
+    "numero_processo": "817704590",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "titular": "PONTA DO LEME COMERCIO E DISTRIBUICAO LTDA",
+    "classe": 38,
+    "prioridade": "25/02/1994"
+  }
+]

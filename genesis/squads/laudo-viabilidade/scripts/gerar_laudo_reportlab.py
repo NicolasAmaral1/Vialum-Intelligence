@@ -30,7 +30,7 @@ LEADING = 18
 def register_fonts():
     # Caminhos absolutos
     base_dir = Path(__file__).parent.parent.absolute()
-    font_dir = base_dir / "assets/fonts"
+    font_dir = base_dir / "resources/assets/fonts"
     sora_reg = font_dir / "Sora-Regular.ttf"
     sora_bold = font_dir / "Sora-Bold.ttf"
     
@@ -73,7 +73,7 @@ def header_first_page(canvas, doc):
     canvas.saveState()
     page_width, page_height = A4
     base_dir = Path(__file__).parent.parent.absolute()
-    logo_path = base_dir / "assets/imagens-fixas/logo-genesis.png"
+    logo_path = base_dir / "resources/assets/imagens-fixas/logo-genesis.png"
     # 1. Logo à ESQUERDA (Restaurada)
     if logo_path.exists():
         img_w = 7 * cm 
@@ -102,7 +102,7 @@ def header_later_pages(canvas, doc):
     canvas.saveState()
     page_width, page_height = A4
     base_dir = Path(__file__).parent.parent.absolute()
-    logo_path = base_dir / "assets/imagens-fixas/logo-genesis.png"
+    logo_path = base_dir / "resources/assets/imagens-fixas/logo-genesis.png"
     if logo_path.exists():
         img_w = 6 * cm
         img_h = 2 * cm 

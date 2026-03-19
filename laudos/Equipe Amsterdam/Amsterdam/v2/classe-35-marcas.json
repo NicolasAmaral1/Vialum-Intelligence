@@ -1,0 +1,338 @@
+[
+  {
+    "numero_processo": "007023448",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "12/09/1978"
+  },
+  {
+    "numero_processo": "007023464",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Registro de marca em vigor",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "12/09/1978"
+  },
+  {
+    "numero_processo": "800271319",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "23/09/1980"
+  },
+  {
+    "numero_processo": "800271297",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Extinto",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "23/09/1980"
+  },
+  {
+    "numero_processo": "811870561",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "titular": "AMSTERDAM INDUSTRAI E COMERCIO DE ROUPAS LTDA",
+    "classe": 35,
+    "prioridade": "21/01/1985"
+  },
+  {
+    "numero_processo": "814822754",
+    "nome_marca": "JANE AMSTERDAM",
+    "situacao": "Arquivado",
+    "titular": "INDUSTRIA DE MODAS JANFLA LTDA",
+    "classe": 35,
+    "prioridade": "22/05/1989"
+  },
+  {
+    "numero_processo": "815018037",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM INDUSTRIA DE BOLSAS LTDA",
+    "classe": 35,
+    "prioridade": "15/08/1989"
+  },
+  {
+    "numero_processo": "815030460",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM COMERCIO DE PECAS LTDA",
+    "classe": 35,
+    "prioridade": "28/08/1989"
+  },
+  {
+    "numero_processo": "815030495",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM COMERCIO DE PECAS LTDA",
+    "classe": 35,
+    "prioridade": "28/08/1989"
+  },
+  {
+    "numero_processo": "816979774",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM MARMORES E GRANITO S LTDA ME",
+    "classe": 35,
+    "prioridade": "03/12/1992"
+  },
+  {
+    "numero_processo": "817646930",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "06/12/1993"
+  },
+  {
+    "numero_processo": "817646973",
+    "nome_marca": "MUSEU AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "06/12/1993"
+  },
+  {
+    "numero_processo": "817646981",
+    "nome_marca": "MUSEU AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "06/12/1993"
+  },
+  {
+    "numero_processo": "817646922",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "06/12/1993"
+  },
+  {
+    "numero_processo": "817646990",
+    "nome_marca": "AMSTERDAM SAUER O PRAZER DA JOIA",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "06/12/1993"
+  },
+  {
+    "numero_processo": "817646914",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "06/12/1993"
+  },
+  {
+    "numero_processo": "817704590",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "titular": "PONTA DO LEME COMERCIO E DISTRIBUICAO LTDA",
+    "classe": 35,
+    "prioridade": "25/02/1994"
+  },
+  {
+    "numero_processo": "818231637",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "titular": "JOSEPH PETER HUBERT HORSCH ME",
+    "classe": 35,
+    "prioridade": "20/01/1995"
+  },
+  {
+    "numero_processo": "819284670",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "titular": "JOSE MARCO ANTONIO GHIRALDINI",
+    "classe": 35,
+    "prioridade": "15/07/1996"
+  },
+  {
+    "numero_processo": "819370029",
+    "nome_marca": "AMSTERDAM-ROTTERDAM",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM-ROTTERDAM COMERCIAL IMPORTADORA E EXPORT LTDA",
+    "classe": 35,
+    "prioridade": "22/08/1996"
+  },
+  {
+    "numero_processo": "819852040",
+    "nome_marca": "AMSTERDAM MARINER",
+    "situacao": "Extinto",
+    "titular": "GROLSCH EXPORT B.V. (DUTCH EXPORT BREWERIES)",
+    "classe": 35,
+    "prioridade": "17/03/1997"
+  },
+  {
+    "numero_processo": "819852058",
+    "nome_marca": "AMSTERDAM MARINER",
+    "situacao": "Extinto",
+    "titular": "GROLSCH EXPORT B.V. (DUTCH EXPORT BREWERIES)",
+    "classe": 35,
+    "prioridade": "17/03/1997"
+  },
+  {
+    "numero_processo": "828205132",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Registro de marca em vigor",
+    "titular": "AMSTERDAM SAUER JOALHEIROS LTDA.",
+    "classe": 35,
+    "prioridade": "02/03/2006"
+  },
+  {
+    "numero_processo": "829139613",
+    "nome_marca": "AMSTERDAM CLUB",
+    "situacao": "Arquivado",
+    "titular": "AMSTERDAM CLUB DE ARTIGOS DO VESTUARIO LTDA",
+    "classe": 35,
+    "prioridade": "17/05/2007"
+  },
+  {
+    "numero_processo": "901706035",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Registro de marca extinto",
+    "titular": "AMSTERDAM ROUPAS PARA CASA LTDA",
+    "classe": 35,
+    "prioridade": "04/06/2009"
+  },
+  {
+    "numero_processo": "905647254",
+    "nome_marca": "OLYMPISCHE SPIELE - 1928 AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "COMITÉ INTERNATIONAL OLYMPIQUE",
+    "classe": 35,
+    "prioridade": "15/11/2012"
+  },
+  {
+    "numero_processo": "840808240",
+    "nome_marca": "AMSTERDAMS BLAUW",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "SCOTCH & SODA B.V.",
+    "classe": 35,
+    "prioridade": "03/09/2013"
+  },
+  {
+    "numero_processo": "908147856",
+    "nome_marca": "Amsterdam Produções",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "amsterdam produçoes",
+    "classe": 35,
+    "prioridade": "19/08/2014"
+  },
+  {
+    "numero_processo": "908680465",
+    "nome_marca": "VAN GOGH MUSEUM AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Stichting Van Gogh Museum",
+    "classe": 35,
+    "prioridade": "28/11/2014"
+  },
+  {
+    "numero_processo": "912405481",
+    "nome_marca": "THE BULLDOG AMSTERDAM",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "Drs Administração de Estoques Eireli - Epp.",
+    "classe": 35,
+    "prioridade": "10/03/2017"
+  },
+  {
+    "numero_processo": "913771767",
+    "nome_marca": "Amsterdam",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "GUILHERME MELO PORCARO PESSO",
+    "classe": 35,
+    "prioridade": "23/11/2017"
+  },
+  {
+    "numero_processo": "915878682",
+    "nome_marca": "CANNABIS STORE AMSTERDAM BRASIL ORIGINAL AMSTERDAM",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "MARCELO CIPOLLA",
+    "classe": 35,
+    "prioridade": "13/09/2018"
+  },
+  {
+    "numero_processo": "916057364",
+    "nome_marca": "AMSTERDAM HEAD SHOP",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ANDRE WILLIAN MARQUES DOS SANTOS",
+    "classe": 35,
+    "prioridade": "10/10/2018"
+  },
+  {
+    "numero_processo": "916700500",
+    "nome_marca": "Amsterdam Choice",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "GUILHERME MELO PORCARO PESSO",
+    "classe": 35,
+    "prioridade": "07/02/2019"
+  },
+  {
+    "numero_processo": "501525961",
+    "nome_marca": "CANNABIS STORE AMSTERDAM ORIGINAL AMSTERDAM",
+    "situacao": "Designação indeferida (mantida em grau de recurso)",
+    "titular": "SANTA CONTE",
+    "classe": 35,
+    "prioridade": "16/04/2020"
+  },
+  {
+    "numero_processo": "922778302",
+    "nome_marca": "CANNABIS STORE AMSTERDAM ORIGINAL AMSTERDAM ORIGINAL AMSTERDAM",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SANTA CONTE",
+    "classe": 35,
+    "prioridade": "28/04/2021"
+  },
+  {
+    "numero_processo": "934144745",
+    "nome_marca": "AMSTERDAM CONVENIENCIA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "AMSTERDAM CONVENIENCIA",
+    "classe": 35,
+    "prioridade": "08/04/2024"
+  },
+  {
+    "numero_processo": "934144885",
+    "nome_marca": "AMSTERDAM CONVENIENCIA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "AMSTERDAM CONVENIENCIA",
+    "classe": 35,
+    "prioridade": "08/04/2024"
+  },
+  {
+    "numero_processo": "936107626",
+    "nome_marca": "AMSTERDÃ MOTOCICLETA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "JOSE AMSTERDA MACEDO DE OLIVEIRA",
+    "classe": 35,
+    "prioridade": "05/09/2024"
+  },
+  {
+    "numero_processo": "936774983",
+    "nome_marca": "GREEN HOUSE AMSTERDAM",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "GHSC TRADING B.V.",
+    "classe": 35,
+    "prioridade": "25/10/2024"
+  },
+  {
+    "numero_processo": "937025984",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "AMSTERDAM MOTEL LTDA - ME",
+    "classe": 35,
+    "prioridade": "14/11/2024"
+  },
+  {
+    "numero_processo": "938338293",
+    "nome_marca": "EDIFICIO RESIDENCIAL AMSTERDAM",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "SARY E ARAUJO INCORPORACAO E CONSTRUCAO LTDA",
+    "classe": 35,
+    "prioridade": "13/03/2025"
+  }
+]

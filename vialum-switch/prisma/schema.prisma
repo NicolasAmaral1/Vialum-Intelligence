@@ -1,0 +1,117 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model SwitchJob {
+  id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId    String   @map("account_id") @db.Uuid
+  processor    String   @db.VarChar(50)
+  provider     String?  @db.VarChar(50)
+  status       String   @default("pending") @db.VarChar(20)
+  inputType    String   @map("input_type") @db.VarChar(20)
+  inputRef     String?  @map("input_ref") @db.Text
+  inputMime    String?  @map("input_mime") @db.VarChar(100)
+  params       Json     @default("{}")
+  result       Json?
+  confidence   Float?
+  processingMs Int?     @map("processing_ms")
+  error        String?  @db.Text
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  @@index([accountId, createdAt(sort: Desc)])
+  @@index([accountId, processor, inputRef])
+  @@map("switch_jobs")
+}
+
+// ════════════════════════════════════════════════════════════
+// AUTO-RULES — When file arrives, what processors to run
+// ════════════════════════════════════════════════════════════
+
+model SwitchAutoRule {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId   String   @map("account_id") @db.Uuid
+  name        String   @db.VarChar(100)
+  source      String   @default("*") @db.VarChar(50)
+  event       String   @default("file.created") @db.VarChar(50)
+  mimePattern String   @map("mime_pattern") @db.VarChar(50)
+  processors  Json
+  active      Boolean  @default(true)
+  priority    Int      @default(0)
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@index([accountId, active])
+  @@map("switch_auto_rules")
+}
+
+// ════════════════════════════════════════════════════════════
+// CLASSIFIERS — Labels + keywords configurable per tenant
+// ════════════════════════════════════════════════════════════
+
+model SwitchClassifier {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId   String   @map("account_id") @db.Uuid
+  name        String   @db.VarChar(100)
+  description String?  @db.Text
+  labels      Json
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@unique([accountId, name])
+  @@map("switch_classifiers")
+}
+
+// ════════════════════════════════════════════════════════════
+// STRATEGIES — Provider chain per processor per tenant
+// ════════════════════════════════════════════════════════════
+
+model SwitchStrategy {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId   String   @map("account_id") @db.Uuid
+  processor   String   @db.VarChar(50)
+  strategy    Json
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt   DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@unique([accountId, processor])
+  @@map("switch_strategies")
+}
+
+// ════════════════════════════════════════════════════════════
+// PROVIDER CONFIGS — Credentials per tenant
+// ════════════════════════════════════════════════════════════
+
+model SwitchProviderConfig {
+  id          String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId   String   @map("account_id") @db.Uuid
+  provider    String   @db.VarChar(50)
+  credentials Json     @default("{}")
+  settings    Json     @default("{}")
+  active      Boolean  @default(true)
+  createdAt   DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  @@unique([accountId, provider])
+  @@map("switch_provider_configs")
+}
+
+// ════════════════════════════════════════════════════════════
+// WEBHOOK CONFIGS — Notify other services on events
+// ════════════════════════════════════════════════════════════
+
+model SwitchWebhookConfig {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId String   @map("account_id") @db.Uuid
+  events    String[]
+  url       String   @db.Text
+  secret    String?  @db.VarChar(255)
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  @@unique([accountId, url])
+  @@map("switch_webhook_configs")
+}

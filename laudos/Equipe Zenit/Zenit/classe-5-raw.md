@@ -1,0 +1,50 @@
+# Busca INPI: ZENIT — Classe 5
+
+## Página 1
+
+
+
+BRASIL
+Acesso à informação
+ParticipeServiçosLegislaçãoCanais
+Instituto Nacional da
+Propriedade Industrial
+Ministério da Economia
+Consulta à Base de Dados do INPI
+[ Início | Ajuda? ]
+
+» Consultar por: Pesquisa Básica | Marca | Titular | Cód. Figura ]
+
+
+RESULTADO DA PESQUISA (16/03/2026 às 19:45:29)
+Marca: "ZENIT" Classe Internacional: "5"
+Foram encontrados 17 processos que satisfazem à pesquisa. Mostrando página 1 de 1.
+
+Número	Prioridade	 	Marca	 	Situação	Titular	Classe
+002608626	26/12/1961		ZENITH		Extinto	REINALDO ROESCH S A COMERCIO IND E CULTURA DE ARROZ	29 : 30
+006778984	25/04/1972		ZENITAN		Extinto	ISOJUNX INDÚSTRIA DE TINTAS ESPECIAIS LTDA	01 : 35
+006778992	25/04/1972		ZENITAN		Extinto	ISOJUNX INDÚSTRIA DE TINTAS ESPECIAIS LTDA	01 : 35
+811315835	29/09/1983		LOÇÃO REFRIGERANTE ZENITH		Extinto	INDUSTRIAS QUIMICAS NOVIDEX LTDA	01 : 90
+813216834	17/12/1986		ZENITH		Arquivado	MORI SIMÕES COMERCIAL LTDA	03 : 10
+813389127	08/04/1987		ZÊNITE		Extinto	ZENITE IND E COMERCIO DE COMPUTADORES DEDICADOS LTDA	09 : 15
+814218296	02/05/1988		ZENITH		Extinto	IBRAS CBO INDS CIRURGICAS E OPTICAS S A COM IMP E EXP	09 : 15
+814422209	29/08/1988		ZENITH		Arquivado	WILLIBALDO LENZ CIA LTDA	03 : 10
+815415923	23/02/1990		ZENIT		Extinto	CIBA-GEIGY AG	01 : 50
+815697171	20/08/1990		TIA ZENITA		Arquivado	MERCEARIA YARA LTDA	32 : 10
+816107955	27/03/1991		ZENIT		Registro de marca extinto	ZENIT AUTO IMPORTADORA LTDA	NCL(8) 03
+817724508	18/02/1994		ZENITE		Registro de marca em vigor	TICONA LLC	01 : 90
+819244090	28/05/1996		ZENIT		Registro de marca extinto	SYNGENTA PARTICIPATIONS AG	01 : 45
+820386251	05/11/1997		ZENITH		Arquivado	LENZ RODRIGUES & CIA	03 : 10
+821476190	06/07/1999		ZÊNITE		Arquivado	ZÊNITE QUIMICA INDÚSTRIA E COMÉRCIO LTDA-ME	03 : 10
+828093652	30/01/2006		BODY SIZE NITRO ACTIVE NO2		Registro de marca extinto	INTEGRALMÉDICA SUPLEMENTOS NUTRICIONAIS S/A	NCL(8) 05
+903709554	02/06/2011		Zenitec		Pedido de registro de marca indeferido (mantido em grau de recurso)	ERIOCHEM ZENITEC LTDA. - ME	NCL(9) 05
+ 
+Páginas de Resultados:
+1
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+---
+

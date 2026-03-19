@@ -37,16 +37,16 @@ export async function labelRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // POST /
-  fastify.post('/', async (request: FastifyRequest<{ Params: AccountParams }>, reply: FastifyReply) => {
+  // POST / — admin only
+  fastify.post('/', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: AccountParams }>, reply: FastifyReply) => {
     const { accountId } = request.params;
     const body = createLabelSchema.parse(request.body);
     const label = await labelsService.create(accountId, body);
     return reply.status(201).send({ data: label });
   });
 
-  // PUT /:labelId
-  fastify.put('/:labelId', async (request: FastifyRequest<{ Params: LabelParams }>, reply: FastifyReply) => {
+  // PUT /:labelId — admin only
+  fastify.put('/:labelId', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: LabelParams }>, reply: FastifyReply) => {
     const { accountId, labelId } = request.params;
     const body = updateLabelSchema.parse(request.body);
     try {
@@ -58,8 +58,8 @@ export async function labelRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // DELETE /:labelId
-  fastify.delete('/:labelId', async (request: FastifyRequest<{ Params: LabelParams }>, reply: FastifyReply) => {
+  // DELETE /:labelId — admin only
+  fastify.delete('/:labelId', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: LabelParams }>, reply: FastifyReply) => {
     const { accountId, labelId } = request.params;
     try {
       await labelsService.remove(accountId, labelId);

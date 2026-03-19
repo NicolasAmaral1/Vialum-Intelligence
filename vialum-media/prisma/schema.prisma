@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model MediaFile {
+  id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId      String   @map("account_id") @db.Uuid
+  filename       String   @db.VarChar(500)
+  mimeType       String   @map("mime_type") @db.VarChar(100)
+  sizeBytes      BigInt   @map("size_bytes")
+  storageKey     String   @map("storage_key") @db.Text
+  bucket         String   @default("vialum-media") @db.VarChar(100)
+  contextType    String?  @map("context_type") @db.VarChar(50)   // conversation | task | deal | general
+  contextId      String?  @map("context_id") @db.VarChar(255)
+  tags           String[] @default([])
+  metadata       Json     @default("{}")
+  classification Json?                                             // filled by Classification Hub
+  uploadedBy     String?  @map("uploaded_by") @db.VarChar(255)    // user, system, webhook
+  createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz
+  deletedAt      DateTime? @map("deleted_at") @db.Timestamptz     // soft delete
+
+  @@index([accountId])
+  @@index([accountId, contextType, contextId])
+  @@index([accountId, createdAt(sort: Desc)])
+  @@map("media_files")
+}
+
+model MediaWebhookConfig {
+  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId String   @map("account_id") @db.Uuid
+  events    String[]                                                // ["file.created"]
+  url       String   @db.Text
+  secret    String?  @db.VarChar(255)
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  @@unique([accountId, url])
+  @@map("media_webhook_configs")
+}

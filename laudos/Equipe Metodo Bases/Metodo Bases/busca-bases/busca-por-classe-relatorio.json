@@ -1,0 +1,27 @@
+{
+  "marca": "BASES",
+  "classes": [
+    41,
+    44
+  ],
+  "por_classe": {
+    "41": {
+      "encontradas": 42,
+      "mantidas": 42,
+      "detalhadas": 42,
+      "falhas": []
+    },
+    "44": {
+      "encontradas": 9,
+      "mantidas": 9,
+      "detalhadas": 9,
+      "falhas": []
+    }
+  },
+  "total_encontradas": 51,
+  "total_mantidas": 51,
+  "total_detalhadas": 51,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": []
+}

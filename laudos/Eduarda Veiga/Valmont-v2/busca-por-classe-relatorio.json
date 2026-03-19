@@ -1,0 +1,52 @@
+{
+  "marca": "VALMONT",
+  "classes": [
+    25,
+    44,
+    41,
+    32,
+    35
+  ],
+  "por_classe": {
+    "25": {
+      "encontradas": 3,
+      "mantidas": 3,
+      "detalhadas": 3,
+      "falhas": []
+    },
+    "44": {
+      "encontradas": 1,
+      "mantidas": 1,
+      "detalhadas": 1,
+      "falhas": []
+    },
+    "41": {
+      "encontradas": 2,
+      "mantidas": 2,
+      "detalhadas": 2,
+      "falhas": []
+    },
+    "32": {
+      "encontradas": 6,
+      "mantidas": 6,
+      "detalhadas": 5,
+      "falhas": [
+        "913539848"
+      ]
+    },
+    "35": {
+      "encontradas": 14,
+      "mantidas": 14,
+      "detalhadas": 14,
+      "falhas": []
+    }
+  },
+  "total_encontradas": 26,
+  "total_mantidas": 26,
+  "total_detalhadas": 25,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": [
+    "913539848"
+  ]
+}

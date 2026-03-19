@@ -1,0 +1,174 @@
+# Busca INPI: ESSENZA — Classe 35
+
+## Página 1
+
+
+
+BRASIL
+Acesso à informação
+ParticipeServiçosLegislaçãoCanais
+Instituto Nacional da
+Propriedade Industrial
+Ministério da Economia
+Consulta à Base de Dados do INPI
+[ Início | Ajuda? ]
+
+» Consultar por: Pesquisa Básica | Marca | Titular | Cód. Figura ]
+
+
+RESULTADO DA PESQUISA (18/03/2026 às 17:31:43)
+Marca: "ESSENZA" Classe Internacional: "35"
+Foram encontrados 105 processos que satisfazem à pesquisa. Mostrando página 1 de 2.
+
+Número	Prioridade	 	Marca	 	Situação	Titular	Classe
+813591155	19/06/1987		ESSENZA		Arquivado	ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME	03 : 20
+815067763	03/08/1989		ESSENZA		Arquivado	ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME	03 : 20
+816417180	09/10/1991		ESSENZA		Extinto	ESSENZA REPRESENTACOES E CONSULTORIA EM MARKETING LTDA	40 : 15
+818469595	08/05/1995		ESSENZA		Registro de marca extinto	BEAUTY SHOP COMÉRCIO, IMPORTAÇÃO E EXPORTAÇÃO LTDA	03 : 20
+818491892	29/05/1995		ESSENZA		Registro de marca extinto	UNIQUE GESTÃO DE MARCAS E FRANQUIAS LTDA.	03 : 20
+818854650	27/10/1995		QUINT' ESSÈNZA		Arquivado	M AGIUFFRIDA COSMETICOS LTDA ME	03 : 20
+818975830	13/12/1995		ESSENZA		Registro de marca extinto	ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME	03 : 20
+818975849	13/12/1995		ESSENZA		Arquivado	ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME	33 : 10
+819293571	24/07/1996		ESSENZA DI VITA		Arquivado	AGROPECUARIA CONVERGENTE LTDA	03 : 20
+819293563	24/07/1996		ESSENZA DI VITA		Arquivado	AGROPECUARIA CONVERGENTE LTDA	04 : 30
+821436651	21/06/1999		ESSENZA		Arquivado	AKARI INDÚSTRIA, COMÉRCIO, IMPORTAÇÃO E EXPORTAÇÃO LTDA	03 : 20
+821868586	30/07/1999		ESSENZA LINGERIE		Arquivado	ESSENZA INDÚSTRIA E COMÉRCIO LTDA	25 : 10
+900607874	13/11/2007		ESSENZA		Registro de marca em vigor	ESSENZA COMÉRCIO INDÚSTRIA FARMACÊUTICA LTDA -ME	NCL(9) 35
+831302364	13/05/2008		ESSENZA		Pedido definitivamente arquivado	LEANDRO FERREIRA DE FREITAS	NCL(9) 35
+830406395	28/10/2009		ESSENZA		Arquivado	HONG YANG CLINICA ESTETICA LTDA	NCL(9) 35
+904259285	17/11/2011		CAFÉ ESSENZA		Registro de marca em vigor	ESSENZA CAFÉS E SOLÚVEIS EIRELI	NCL(9) 35
+906363276	11/06/2013		CHI ESSENZA		Registro de marca em vigor	CECÍLIA DE OLIVEIRA SIMÕES MARQUES	NCL(10) 35
+907017487	14/11/2013		ESSENZA DESIGN		Registro de marca em vigor	ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA	NCL(10) 35
+907036988	21/11/2013		Z ESSENZA		Registro de marca em vigor	'DIRCE AP. C. CHUBA COMERCIO DE CONFECÇÃO - ME'	NCL(10) 35
+907215734	14/01/2014		CYRELA ESSENZA		Pedido definitivamente arquivado	CYRELA BRAZIL REALTY S/A EMPREENDIMENTOS E PARTICIPAÇÕES	NCL(10) 35
+907324126	12/02/2014		ESSENZA DI FIORE		Pedido de registro de marca indeferido (sem interposição de recurso)	DENISE DE OLIVEIRA SOARES PIMENTEL-ME	NCL(10) 35
+910556067	26/01/2016		EQUIVALENZA ONLY ESSENZA		Registro de marca em vigor	Equivalenza Brasil Comércio de Produtos de Perfumaria e Afins Ltda.	NCL(10) 35
+910638209	17/02/2016		ESSENZA		Pedido de registro de marca indeferido (sem interposição de recurso)	ESSENZA INDÚSTRIA QUÍMICA EIRELI	NCL(10) 35
+912165880	16/01/2017		ESSENZA BEAUTY		Pedido definitivamente arquivado	PORTIER COSMÉTICOS LTDA	NCL(10) 35
+912649690	28/04/2017		E Essenza boutique		Registro de marca extinto	JCS COMÉRCIO DE ROUPAS E ACESSÓRIOS FEMININOS LTDA. - ME	NCL(11) 35
+913209031	14/08/2017		ESSENZA COSMÉTICOS		Pedido de registro de marca indeferido (sem interposição de recurso)	ESSENZA COSMETICOS EIRELI EPP	NCL(11) 35
+913613800	25/10/2017		ESSENZA AMBIENTES		Pedido de registro de marca indeferido (sem interposição de recurso)	J. CARLOS MODULADOS LTDA - ME	NCL(11) 35
+913785172	24/11/2017		ESSENZA COMERCIAL		Pedido de registro de marca indeferido (mantido em grau de recurso)	ESSENZA COMERCIAL LTDA ME	NCL(11) 35
+914054821	22/01/2018		ESSENZA		Pedido de registro de marca indeferido (mantido em grau de recurso)	ESSENZA INDÚSTRIA QUÍMICA EIRELI	NCL(11) 35
+915133326	31/07/2018		BIOESSENZA FARMÁCIA COM MANIPULAÇÃO		Pedido de registro de marca indeferido (mantido em grau de recurso)	A P DO AMARAL LEITE DE SENA MANIPULAÇÃO - ME	NCL(11) 35
+916592120	18/01/2019		essenza INTERIORES		Pedido de registro de marca indeferido (mantido em grau de recurso)	GS COMERCIO E INSTALACAO DE PAPEL DE PAREDE, CORTINAS E PERSIANAS LTDA	NCL(11) 35
+917255437	06/05/2019		ESSENZA FATALE LINGERIES E ACESSÓRIOS		Registro de marca em vigor	FATALE MODA INTIMA LTDA EPP	NCL(11) 35
+917270460	08/05/2019		ESSENZA DESIGN		Registro de marca em vigor	ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA	NCL(11) 35
+917531507	14/06/2019		Essenza Feito a mão		Registro de marca em vigor	GIOVANNA GIROTO DE OLIVEIRA RAMOS	NCL(11) 35
+917804392	24/07/2019		Essenza Di Fiori		Pedido de registro de marca indeferido	MARLY APARECIDA BREDA TOMASONI	NCL(11) 35
+919710379	15/05/2020		ESSENZA DI FIORI		Pedido de registro de marca indeferido	AME LACQUA COMÉRCIO DE COSMÉTICOS LTDA	NCL(11) 35
+921374160	20/11/2020		Essenza Joias		Registro de marca em vigor	MARIA TEREZA MARCELINO SILVA
+POLIANA CERQUEIRA BRAGA	NCL(11) 35
+921635168	17/12/2020		Espaço Essenza Mantikir		Registro de marca em vigor	ESSENZA AGROECOLOGICO LTDA - ME	NCL(11) 35
+922892474	09/05/2021		Benessenza		Registro de marca em vigor	BENESSENZA BELEZA NATURAL COMERCIO DE COSMETICOS LTDA	NCL(11) 35
+923127151	31/05/2021		-		Pedido considerado inexistente	SOLANGE MARIA ROCHA SILVA TROMBIM	NCL(11) 35
+923131892	31/05/2021		PRIMA ESSENZA		Registro de marca em vigor	ANNA PAULA BACK	NCL(11) 35
+923897330	10/08/2021		Essenza Vitale		Registro de marca em vigor	SOLANGE MARIA ROCHA SILVA TROMBIM	NCL(11) 35
+924160446	01/09/2021		ESSENZA NEGÓCIOS		Registro de marca em vigor	CAMILA CHIES	NCL(11) 35
+925070360	30/11/2021		ESSENZA		Pedido de registro de marca indeferido	ESSENZA COMERCIAL	NCL(11) 35
+925811360	21/02/2022		ESSENZA EMPREENDIMENTOS IMOBILIÁRIOS		Pedido de registro de marca indeferido	ESSENZA EMPREENDIMENTOS IMOBILIÁRIOS LTDA	NCL(11) 35
+925945137	08/03/2022		Essenza Decor		Pedido de registro de marca indeferido	CAROLINA NAVES PEREIRA	NCL(11) 35
+926204734	31/03/2022		ESSENZIALE EssenzAmino		Registro de marca em vigor	LAVORO AGRO HOLDING SA	NCL(11) 35
+929169581	13/01/2023		UNA ESSENZA MODA FEMININA		Registro de marca em vigor	ELAINE CHRISTINA ROCHA	NCL(11) 35
+929201280	18/01/2023		Essenza Di Pizzotti		Registro de marca em vigor	HUDSON PIZZOTTI FERNANDES	NCL(11) 35
+929746287	14/03/2023		Essenza Comercial		Aguardando apresentação e exame de recurso contra o indeferimento	ESSENZA COMERCIAL	NCL(12) 35
+929809556	20/03/2023		Essenza		Aguardando apresentação e exame de recurso contra o indeferimento	ESSENZA COMERCIAL	NCL(12) 35
+929906420	28/03/2023		essenza		Aguardando exame de mérito	ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA	NCL(12) 35
+930382692	10/05/2023		Essenza Clínica		Registro de marca em vigor	GTBONATTO CLINICA MEDICA E PSICOLOGICA LTDA	NCL(12) 35
+931234026	21/07/2023		ESSENZA SEMIJOIAS EM PEDRAS NATURAIS E ACESSÓRIOS		Pedido de registro de marca indeferido	LÍGIA CARDOSO RUBIN
+GABRIELA STEIN SIGNORE	NCL(12) 35
+931285704	26/07/2023		ESSENZA		Aguardando apresentação e exame de recurso contra o indeferimento	ESSENZA AGROECOLOGICO LTDA - ME	NCL(12) 35 - Deferida
+NCL(12) 35 - Excluída
+934423431	30/04/2024		Essenza		Aguardando exame de mérito	SIMONE CUPERTINO LUPORINI	NCL(12) 35
+934453942	02/05/2024		Tressenza Perfumaria & Cosméticos		Registro de marca em vigor	PERFUMARIA JWC LTDA	NCL(12) 35
+935683143	05/08/2024		HESSENZA		Aguardando exame de mérito	HESSENZA TOOLS COMERCIO E REPRESENTACAO LTDA	NCL(12) 35
+935750649	09/08/2024		Essenza Di Chef		Aguardando exame de mérito	BRIGIDE S STORE LTDA	NCL(12) 35
+936604778	14/10/2024		M MADRESSENZA		Aguardando exame de mérito	ABBOCCATO INDÚSTRIA E COMÉRCIO DE COSMÉTICOS LTDA ME	NCL(12) 35
+937243493	03/12/2024		QUINTESSENZA BY THAI TAFARELLO		Aguardando exame de mérito	58.185.772 THAIRINE TAFARELLO	NCL(12) 35
+937274852	05/12/2024		Maria Essenza		Para liberar para exame de mérito (pedido de registro sem oposição)	ARIADNE PEREIRA ALVES CARVALHO	NCL(12) 35
+937275042	05/12/2024		Maria Essenza		Para liberar para exame de mérito (pedido de registro sem oposição)	ARIADNE PEREIRA ALVES CARVALHO	NCL(12) 35
+937408735	16/12/2024		Essenza Squadra		Aguardando exame de mérito	SQD MATERIAL ESPORTIVO LTDA	NCL(12) 35
+937516104	27/12/2024		loreon essenza cosméticos		Aguardando exame de mérito	27.482.821 GESSICA LORENZINI ME	NCL(12) 35
+937605310	10/01/2025		ESSENZA D'OR		Aguardando exame de mérito	FRAN IMPORTADOS E E-COMMERCE LTDA	NCL(12) 35
+937941387	07/02/2025		NUVOLA DI ESSENZA		Aguardando exame de mérito	58.067.413 WAGNER CLETO	NCL(12) 35
+937984647	12/02/2025		EV ESSENZA VIVA		Aguardando exame de mérito	59.300.272 DEYVID ANDRADE NASCIMENTO	NCL(12) 35
+938022989	14/02/2025		ESSENZA MODA E ACESSÓRIOS		Aguardando exame de mérito	54.436.572 VALERIA PANTOJA MONTEIRO	NCL(12) 35
+938242121	05/03/2025		E T Essenza Per Tutti		Aguardando exame de mérito	LAURO MOREIRA DE PAULA NETO	NCL(12) 35
+938552147	28/03/2025		Essenza DItália		Aguardando exame de mérito	CASTAS COMÉRCIO E IMPORTAÇÃO DE BEBIDAS LTDA	NCL(12) 35
+938757997	14/04/2025		ESSENZA SUPERMERCADOS		Aguardando exame de mérito	PMS SUPERMERCADO LTDA	NCL(12) 35
+938944410	29/04/2025		Essenza Hub		Aguardando exame de mérito	58.528.855 ERIKA MANDU DA COSTA ABREU	NCL(12) 35
+938944584	29/04/2025		Essenza Hub		Aguardando exame de mérito	58.528.855 ERIKA MANDU DA COSTA ABREU	NCL(12) 35
+938980823	02/05/2025		ESSENZA HONEY BEAUTY		Aguardando exame de mérito	ESSENZA COMERCIO INDUSTRIA FARMACEUTICA LTDA.ME	NCL(12) 35
+939345390	28/05/2025		Essenza Company		Aguardando exame de mérito	50.771.677 BARBARA DOMINGOS GIUNTINI BIANCHI	NCL(12) 35
+939358247	29/05/2025		Essenza Zen		Aguardando exame de mérito	ARNALDO BONTEIN DA ROSA
+LUIS FERNANDO DE MENEZES VIEIRA	NCL(12) 35
+939527855	10/06/2025		Essenza		Aguardando exame de mérito	GOMES & FERNANDES TINTAS E REVESTIMENTOS LTDA	NCL(12) 35
+939538229	11/06/2025		TESSENZA BRAND		Aguardando exame de mérito	GARRAH DESENVOLVIMENTO IMOBILIARIO	NCL(12) 35
+939764776	27/06/2025		ESSENZA CLINIC		Aguardando exame de mérito	52.254.571 NICOLLY MENDONCA MUNDIM	NCL(12) 35
+939766000	27/06/2025		LUV'ESSENZA		Aguardando exame de mérito	LUIZA ZANINI TAMEIRÃO	NCL(12) 35
+939778874	30/06/2025		Essenza Femme		Aguardando exame de mérito	47.621.740 FLAVIA EULALIA FERREIRA DO CARMO	NCL(12) 35
+940401517	04/08/2025		ESSENZA DI SERENITÀ		Aguardando exame de mérito	MICHELLI APARECIDA RAMPINI	NCL(12) 35
+940482827	06/08/2025		LAUTO ESSENZA		Aguardando exame de mérito	LANA CARLA SOUZA LOPES DE CARVALHO	NCL(12) 35
+940527278	06/08/2025		Essenza Mobel		Aguardando exame de mérito	61.956.856 BARBARA TRINDADE DE ALMEIDA	NCL(12) 35
+940720264	22/08/2025		ESSENZA HOME CONCEPT		Aguardando exame de mérito	ADRIANA DA CONCEIÇÃO ALVES PROCHNOW	NCL(12) 35
+940852683	01/09/2025		Essenza Boutique		Aguardando exame de mérito	ANNA KAROLINE NUNES DE CAMARGO PIMENTEL	NCL(12) 35
+940943450	05/09/2025		PANESSENZA		Aguardando exame de mérito	FABIO FERA	NCL(12) 35
+940958058	07/09/2025		essenzavitta		Aguardando exame de mérito	AURA VITTA LTDA	NCL(12) 35
+941136450	17/09/2025		ESSENZA CESTAS		Aguardando manifestação sobre oposição	62.714.335 MICHELI TEDESCO	NCL(12) 35
+941314120	19/09/2025		l'essenza Vero		Aguardando exame de mérito	CLAUDINEI VECHINI 00428005950	NCL(12) 35
+941476316	03/10/2025		-		Pedido considerado inexistente	LILLIAM LEMOS LOPES	NCL(12) 35
+941483193	05/10/2025		ÁRIS ESSENZA		Aguardando manifestação sobre oposição	JOÃO CARLOS JUNGES	NCL(12) 35
+941507530	08/10/2025		Essenza Marmitas		Aguardando exame de mérito	JÚLIA CARVALHO ABDALLA SEMIÃO
+LUIZA DE SOUZA TEIXEIRA	NCL(12) 35
+941527492	09/10/2025		Essenza Alianças		Aguardando exame de mérito	ADALY COMERCIO DE BIJUTERIAS LTDA	NCL(12) 35
+942168984	12/12/2025		ESSENZA by Ro&Alvi		Aguardando exame de mérito	ROSINA MARIA CAMMAROTA LEITE	NCL(12) 35
+942169018	12/12/2025		ESSENZA CLUB by Ro&Alvi		Aguardando exame de mérito	ROSINA MARIA CAMMAROTA LEITE	NCL(12) 35
+942425103	15/01/2026		ESSENZA		Aguardando prazo de apresentação de oposição	ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA	NCL(13) 35
+942426606	15/01/2026		ESSENZA DESIGN COM EXPRESSÃO BRASILEIRA.		Aguardando prazo de apresentação de oposição	ESSENZA DESIGN INDUSTRIA DE MOVEIS LTDA	NCL(13) 35
+942436296	16/01/2026		ESSENZA DI GIO		Aguardando prazo de apresentação de oposição	GIOVANA SILVA DE SOUZA	NCL(13) 35
+ 
+Páginas de Resultados:
+1 |2-Próxima»
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+---
+
+## Página 2
+
+
+
+BRASIL
+Acesso à informação
+ParticipeServiçosLegislaçãoCanais
+Instituto Nacional da
+Propriedade Industrial
+Ministério da Economia
+Consulta à Base de Dados do INPI
+[ Início | Ajuda? ]
+
+» Consultar por: Pesquisa Básica | Marca | Titular | Cód. Figura ]
+
+
+RESULTADO DA PESQUISA (18/03/2026 às 17:31:53)
+Marca: "ESSENZA" Classe Internacional: "35"
+Foram encontrados 105 processos que satisfazem à pesquisa. Mostrando página 2 de 2.
+
+Número	Prioridade	 	Marca	 	Situação	Titular	Classe
+942494326	22/01/2026		Essenza Beauty		Aguardando prazo de apresentação de oposição	BISOTE COMERCIO DE ARTIGOS PARA PRESENTES LTDA	NCL(13) 35
+942635779	04/02/2026		ESSENZA ARTISAN PASTA		Aguardando prazo de apresentação de oposição	ESSENZA INDUSTRIA E COMERCIO DE MASSAS ARTESANAIS LTDA	NCL(13) 35
+942806905	23/02/2026		ESSENZA PROFESSIONAL beauty Ridics		Aguardando prazo de apresentação de oposição	ESSENZA SEDUCTION DISTRIBUIDORA LTDA	NCL(13) 35
+942812255	23/02/2026		Êssenza Hub Digital		Aguardando prazo de apresentação de oposição	ÊSSENZA HUB DIGITAL LTDA	NCL(13) 35
+942812484	23/02/2026		ESSENZA EYEWEAR		Aguardando prazo de apresentação de oposição	VISAO SAUDAVEL LTDA	NCL(13) 35
+ 
+Páginas de Resultados:
+«Anterior- 1 |2
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+---
+

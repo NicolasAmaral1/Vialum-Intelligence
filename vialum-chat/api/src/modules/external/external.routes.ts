@@ -41,7 +41,7 @@ export async function externalRoutes(fastify: FastifyInstance) {
     const accountId = request.apiKeyPayload!.accountId;
 
     try {
-      const io = (fastify as any).io;
+      const io = fastify.io;
       const result = await externalService.sendExternalMessage(accountId, {
         phone: body.phone as string,
         inboxId: body.inboxId as string,

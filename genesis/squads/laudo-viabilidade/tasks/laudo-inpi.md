@@ -32,8 +32,22 @@ sem tabelas, sem subcapítulos numerados. Aguardar aprovação do usuário antes
 
 ## Implementation Steps
 
-### Passo 1: Instruir busca no INPI
+### Passo 1: Verificar busca automática
 
+Se a Fase 2.5 (`laudo-busca-inpi.md`) foi executada com sucesso, o arquivo
+`inpi-raw.txt` já deve estar preenchido com os dados dos protocolos suspeitos.
+
+Verificar:
+```bash
+wc -l "laudos/{cliente}/{nome_marca}/inpi-raw.txt"
+```
+
+**Se o arquivo tem conteúdo:** Prosseguir direto para o Passo 2.
+
+**Se o arquivo está vazio (campo livre):** Informar ao usuário que não foram
+encontradas anterioridades relevantes e ajustar a PARTE 2 para refletir isso.
+
+**Se a Fase 2.5 não foi executada (fallback manual):**
 ```
 ⚖️ Mira — Hora da busca no INPI.
 
@@ -51,7 +65,7 @@ Siga estes passos:
 Quando terminar, confirme aqui: "ok, colei os dados"
 ```
 
-**AGUARDAR** confirmação do usuário.
+**AGUARDAR** confirmação do usuário (apenas no fallback manual).
 
 ---
 

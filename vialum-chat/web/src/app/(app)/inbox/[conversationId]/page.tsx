@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import { useAuthStore } from '@/stores/auth.store';
 import { useMessagesStore } from '@/stores/messages.store';
 import { useSuggestionsStore } from '@/stores/suggestions.store';
+import { useConversationsStore } from '@/stores/conversations.store';
 import { conversationsApi } from '@/lib/api/conversations';
 import { messagesApi } from '@/lib/api/messages';
 import { aiSuggestionsApi } from '@/lib/api/ai-suggestions';
@@ -15,7 +16,7 @@ import { MessageComposer } from '@/components/thread/MessageComposer';
 import { HITLBar } from '@/components/hitl/HITLBar';
 import { ContactSidebar } from '@/components/thread/ContactSidebar';
 import { LoadingSpinner } from '@/components/shared/LoadingSpinner';
-import type { Contact, Label, Conversation } from '@/types/api';
+import type { Contact, Label, Conversation, Group } from '@/types/api';
 
 interface ActiveTalkInfo {
   id: string;
@@ -31,9 +32,11 @@ export default function ConversationPage() {
   const currentAccount = useAuthStore((s) => s.currentAccount);
   const setMessages = useMessagesStore((s) => s.setMessages);
   const setSuggestions = useSuggestionsStore((s) => s.setSuggestions);
+  const markRead = useConversationsStore((s) => s.markRead);
 
   const [conversation, setConversation] = useState<Conversation | null>(null);
   const [contactData, setContactData] = useState<Contact | null>(null);
+  const [groupData, setGroupData] = useState<Group | null>(null);
   const [conversationLabels, setConversationLabels] = useState<Label[]>([]);
   const [activeTalk, setActiveTalk] = useState<ActiveTalkInfo | null>(null);
   const [pendingSuggestionsCount, setPendingSuggestionsCount] = useState(0);
@@ -51,6 +54,7 @@ export default function ConversationPage() {
       const conv = convResult.data as unknown as Record<string, unknown>;
       setConversation(convResult.data);
       setContactData((conv?.contact as Contact) ?? null);
+      setGroupData((conv?.group as Group) ?? null);
       setConversationLabels((conv?.labels as Label[]) ?? []);
       setActiveTalk((conv?.activeTalk as ActiveTalkInfo) ?? null);
       setPendingSuggestionsCount((conv?.pendingSuggestionsCount as number) ?? 0);
@@ -66,7 +70,9 @@ export default function ConversationPage() {
   useEffect(() => {
     setLoading(true);
     fetchData();
-  }, [fetchData]);
+    // Mark conversation as read when opening
+    markRead(conversationId);
+  }, [fetchData, conversationId, markRead]);
 
   // Socket subscription
   useEffect(() => {
@@ -105,10 +111,11 @@ export default function ConversationPage() {
         <MessageComposer conversationId={conversationId} />
       </div>
 
-      {/* Contact Sidebar */}
+      {/* Contact/Group Sidebar */}
       {sidebarOpen && contactData && (
         <ContactSidebar
           contact={contactData}
+          group={groupData}
           conversationStatus={conversationStatus}
           labels={conversationLabels}
           activeTalk={activeTalk}

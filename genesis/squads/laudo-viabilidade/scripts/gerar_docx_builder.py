@@ -110,8 +110,8 @@ def create_docx(dados, output_path):
     
     # Caminhos Absolutos
     base_dir = Path(__file__).parent.parent.absolute()
-    logo_path = base_dir / "assets/imagens-fixas/logo-genesis.png"
-    fluxo_img = base_dir / "assets/fluxograma_inpi.png"
+    logo_path = base_dir / "resources/assets/imagens-fixas/logo-genesis.png"
+    fluxo_img = base_dir / "resources/assets/imagens-fixas/fluxograma-inpi.png"
 
     # --- HEADER ---
     header_first = section.first_page_header
@@ -309,7 +309,7 @@ def create_docx(dados, output_path):
 
     # FLUXOGRAMA (Abs Path)
     base_dir = Path(__file__).parent.parent.absolute()
-    fluxo_img = base_dir / "assets/imagens-fixas/fluxograma-inpi.png"
+    fluxo_img = base_dir / "resources/assets/imagens-fixas/fluxograma-inpi.png"
 
     if fluxo_img.exists():
         p_img = doc.add_paragraph()

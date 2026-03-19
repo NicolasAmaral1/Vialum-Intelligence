@@ -1,0 +1,38 @@
+{
+  "marca": "ZENIT",
+  "classes": [
+    44,
+    10,
+    5
+  ],
+  "por_classe": {
+    "44": {
+      "encontradas": 29,
+      "mantidas": 29,
+      "detalhadas": 29,
+      "falhas": []
+    },
+    "10": {
+      "encontradas": 28,
+      "mantidas": 28,
+      "detalhadas": 27,
+      "falhas": [
+        "501868821"
+      ]
+    },
+    "5": {
+      "encontradas": 17,
+      "mantidas": 17,
+      "detalhadas": 17,
+      "falhas": []
+    }
+  },
+  "total_encontradas": 74,
+  "total_mantidas": 74,
+  "total_detalhadas": 73,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": [
+    "501868821"
+  ]
+}

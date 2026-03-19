@@ -3,6 +3,7 @@
 > Documento vivo. Nada sera implementado antes de aprovacao.
 > Data: 2026-03-11
 
+
 ---
 
 ## 1. Visao do Ecossistema
@@ -44,6 +45,7 @@
 
 **Principio:** O CRM Hub e o cerebro que conecta tudo. Nenhum sistema fala diretamente com outro — tudo passa pelo Hub.
 
+
 ---
 
 ## 2. Redesenho do ClickUp
@@ -51,8 +53,9 @@
 ### 2.1 Problema Atual
 
 Hoje o ClickUp tem 2 listas soltas:
-- Lista "Protocolo" (6 status) — onboarding pos-venda
-- Lista "Laudos" (3 status) — analise pre-venda
+
+* Lista "Protocolo" (6 status) — onboarding pos-venda
+* Lista "Laudos" (3 status) — analise pre-venda
 
 Isso nao reflete o ciclo completo do cliente e nao conversa com Pipedrive.
 
@@ -81,7 +84,7 @@ Workspace: Avelum
 ### 2.3 Mudancas Chave
 
 | Antes | Depois |
-|-------|--------|
+|----|----|
 | "solicitar dados" no Protocolo | Eliminado — dados ja vem do Pipedrive/TreeFlow |
 | "contrato + proc" como 2o status | Agora e o 1o status (contrato ja e pos-venda) |
 | Laudo com 3 status vagos | 4 status claros com "aprovado" antes de entregar |
@@ -91,8 +94,9 @@ Workspace: Avelum
 ### 2.4 Custom Fields Propostos (por lista)
 
 **LAUDOS DE VIABILIDADE:**
+
 | Campo | Tipo | Uso |
-|-------|------|-----|
+|----|----|----|
 | Deal ID (Pipedrive) | Texto | Link ao deal de origem |
 | Marca | Texto | Nome da marca analisada |
 | Classes NCL | Labels | Classes sugeridas |
@@ -100,8 +104,9 @@ Workspace: Avelum
 | Prioridade | Dropdown | Normal / Urgente |
 
 **REGISTRO DE MARCAS:**
+
 | Campo | Tipo | Uso |
-|-------|------|-----|
+|----|----|----|
 | Deal ID (Pipedrive) | Texto | Link ao deal de origem |
 | Cliente | Texto | Nome do contratante |
 | Marca | Texto | Nome da marca |
@@ -114,6 +119,7 @@ Workspace: Avelum
 | Link Procuracao | URL | PDF no Drive |
 | Numero Protocolo INPI | Texto | Apos protocolar |
 | Agencia Origem | Texto | Se veio de parceiro |
+
 
 ---
 
@@ -152,9 +158,10 @@ TreeFlow ativado (slug: 'sdr-registro-marca')
 ```
 
 **Integracao CRM Hub:**
-- No Step 2, TreeFlow chama `/identity/resolve` pra saber se o lead ja existe
-- No Step 4, TreeFlow chama webhook do CRM Hub pra criar deal no Pipedrive
-- Todo o contexto coletado (nome_marca, ramo, etc.) e salvo no deal
+
+* No Step 2, TreeFlow chama `/identity/resolve` pra saber se o lead ja existe
+* No Step 4, TreeFlow chama webhook do CRM Hub pra criar deal no Pipedrive
+* Todo o contexto coletado (nome_marca, ramo, etc.) e salvo no deal
 
 ### 3.2 Fluxo 2: Pipeline de Vendas (Pipedrive)
 
@@ -274,6 +281,7 @@ Operador ve na sidebar:
     └─────────────────────────────────┘
 ```
 
+
 ---
 
 ## 4. CRM Hub — O Que Precisa Ser Adicionado
@@ -310,7 +318,7 @@ interface ActionDefinition {
 Exemplos:
 
 | Trigger | Acoes |
-|---------|-------|
+|----|----|
 | Pipedrive deal → "Onboarding" | Criar card ClickUp em LAUDOS; Criar pasta Drive |
 | Pipedrive deal → WON | Criar card ClickUp em REGISTRO; Disparar @protocolo/TreeFlow |
 | ClickUp task → "completo" | Atualizar metadata no Pipedrive |
@@ -319,18 +327,20 @@ Exemplos:
 ### 4.3 ClickUp Provider — Evolucao
 
 O ClickUp provider atual so faz search por nome. Precisa ganhar:
-- `createTask(listId, data)` — criar card
-- `updateTaskStatus(taskId, status)` — mover status
-- `addComment(taskId, comment)` — comentar
-- `setCustomField(taskId, fieldId, value)` — preencher campos
+
+* `createTask(listId, data)` — criar card
+* `updateTaskStatus(taskId, status)` — mover status
+* `addComment(taskId, comment)` — comentar
+* `setCustomField(taskId, fieldId, value)` — preencher campos
 
 ### 4.4 Pipedrive Provider — Evolucao
 
 Precisa ganhar:
-- `createDeal(pipelineId, stageId, data)` — criar deal
-- `updateDeal(dealId, data)` — atualizar deal
-- `addNote(dealId, content)` — adicionar nota
-- Webhook verification (assinatura)
+
+* `createDeal(pipelineId, stageId, data)` — criar deal
+* `updateDeal(dealId, data)` — atualizar deal
+* `addNote(dealId, content)` — adicionar nota
+* Webhook verification (assinatura)
 
 ### 4.5 Integracao TreeFlow ↔ CRM Hub
 
@@ -352,21 +362,22 @@ TreeFlow Step (coleta de dados)
 
 Isso permite que a IA do TreeFlow saiba se o lead ja e cliente antes de fazer a proposta.
 
+
 ---
 
 ## 5. Multi-Tenant
 
 ### 5.1 O Que Ja Funciona
 
-- `account_id` em todas as tabelas do CRM Hub
-- Cada tenant configura seus proprios providers (`PUT /providers/:provider`)
-- JWT com `accountId` no payload
-- Isolamento por query (WHERE account_id = ?)
+* `account_id` em todas as tabelas do CRM Hub
+* Cada tenant configura seus proprios providers (`PUT /providers/:provider`)
+* JWT com `accountId` no payload
+* Isolamento por query (WHERE account_id = ?)
 
 ### 5.2 O Que Precisa Ser Adicionado
 
 | Item | Status | Acao |
-|------|--------|------|
+|----|----|----|
 | RLS no Postgres | Pendente | Adicionar policies em todas as tabelas |
 | Tenant onboarding | Pendente | API para criar nova conta + config inicial |
 | Billing/limits | Futuro | Rate limiting por tenant, quotas |
@@ -386,6 +397,7 @@ Isso permite que a IA do TreeFlow saiba se o lead ja e cliente antes de fazer a 
 5. Pronto — ecossistema funcional
 ```
 
+
 ---
 
 ## 6. Fases de Implementacao
@@ -393,6 +405,8 @@ Isso permite que a IA do TreeFlow saiba se o lead ja e cliente antes de fazer a 
 ### Fase A — Fundacao (CRM Hub pronto, ClickUp reorganizado)
 
 **Escopo:**
+
+
 1. Reorganizar ClickUp conforme secao 2
 2. Deploy CRM Hub v2 na VPS (migrations + codigo atual)
 3. Verificar todos os endpoints funcionando com dados reais
@@ -402,6 +416,8 @@ Isso permite que a IA do TreeFlow saiba se o lead ja e cliente antes de fazer a 
 ### Fase B — Webhooks + Actions (sistemas se conectam)
 
 **Escopo:**
+
+
 1. Webhook receiver no CRM Hub (Pipedrive + ClickUp)
 2. Action dispatcher (deal.won → criar card, criar pasta)
 3. Evoluir ClickUp provider (createTask, updateStatus, setCustomField)
@@ -412,33 +428,39 @@ Isso permite que a IA do TreeFlow saiba se o lead ja e cliente antes de fazer a 
 ### Fase C — TreeFlow Integration (SDR automatico)
 
 **Escopo:**
+
+
 1. TreeFlow chama CRM Hub durante conversa (identity/resolve, agent/query)
 2. TreeFlow cria deals no Pipedrive via CRM Hub
 3. CRM Hub dispara TreeFlows via webhook (ex: deal.won → ativar TreeFlow de coleta)
 4. Criar TreeFlows iniciais:
-   - `sdr-registro-marca` — qualificacao + agendamento
-   - `pagamento-follow-up` — cobranca de pagamento
-   - `pos-registro` — comunicacao pos-venda
+   * `sdr-registro-marca` — qualificacao + agendamento
+   * `pagamento-follow-up` — cobranca de pagamento
+   * `pos-registro` — comunicacao pos-venda
 
 **Resultado:** Lead chega no WhatsApp → IA qualifica → cria deal → fecha → gera contrato → acompanha pagamento, tudo automatico com HITL nos pontos criticos.
 
 ### Fase D — Pipeline Pipedrive (3 funis ativos)
 
 **Escopo:**
+
+
 1. Configurar os 3 pipelines no Pipedrive (Presenciais, Principal, Web)
 2. Campos customizados conforme doc de estrategia
 3. Webhooks de cada pipeline apontando pro CRM Hub
 4. Automacoes (AUTO-01 a AUTO-15) via CRM Hub action dispatcher
 5. TreeFlows especificos por pipeline:
-   - Pipeline 1: `nurturing-agencia` — E.Rs e follow-up
-   - Pipeline 2: `follow-up-reuniao` — pos-pitch
-   - Pipeline 3: `reativacao-agencia` — reengajamento
+   * Pipeline 1: `nurturing-agencia` — E.Rs e follow-up
+   * Pipeline 2: `follow-up-reuniao` — pos-pitch
+   * Pipeline 3: `reativacao-agencia` — reengajamento
 
 **Resultado:** Os 3 funis rodando com automacao, TreeFlow em cada estagio relevante.
 
 ### Fase E — RD Station (substituicao gradual)
 
 **Escopo:**
+
+
 1. Ativar OAuth do RD Station (app ja preparado no CRM Hub)
 2. Migrar Pipeline 2 (Principal) do Pipedrive → RD Station
 3. CRM Hub trata ambos transparentemente (provider abstraction)
@@ -449,6 +471,8 @@ Isso permite que a IA do TreeFlow saiba se o lead ja e cliente antes de fazer a 
 ### Fase F — Multi-Tenant (abrir pra outros)
 
 **Escopo:**
+
+
 1. RLS no Postgres
 2. API de onboarding de tenant
 3. Templates de TreeFlow (tenant copia e customiza)
@@ -457,18 +481,21 @@ Isso permite que a IA do TreeFlow saiba se o lead ja e cliente antes de fazer a 
 
 **Resultado:** Outros escritorios de PI podem usar o ecossistema Vialum.
 
+
 ---
 
 ## 7. Perguntas Pendentes (precisam de resposta antes de implementar)
 
 ### Sobre ClickUp:
 
+
 1. **A lista "Protocolo" atual tem cards?** Se sim, precisamos migrar antes de reorganizar.
 2. **A lista "Laudos" atual tem cards?** Idem.
-3. **Quer manter o Folder "Clientes" ou renomear pra "Operacoes"?**
+3. **Quer manter o Folder "Clientes" ou renomear pra "Operacoes"?** 
 4. **A lista "Oposicoes" faz sentido agora ou e futuro?** (depende do volume de oposicoes)
 
 ### Sobre Pipedrive:
+
 
 5. **Os 3 pipelines ja existem no Pipedrive ou precisa criar do zero?**
 6. **Ja tem deals no pipeline atual?** Se sim, como quer migrar?
@@ -476,24 +503,27 @@ Isso permite que a IA do TreeFlow saiba se o lead ja e cliente antes de fazer a 
 
 ### Sobre TreeFlow:
 
-8. **O TreeFlow ja esta implementado no Vialum Chat ou e so o PRD?**
-9. **Qual modelo de LLM vao usar?** (PRD menciona GPT-5.1-mini)
+
+ 8. **O TreeFlow ja esta implementado no Vialum Chat ou e so o PRD?**
+ 9. **Qual modelo de LLM vao usar?** (PRD menciona GPT-5.1-mini)
 10. **O Vialum Chat ja esta em producao ou em desenvolvimento?**
 
 ### Sobre prioridades:
 
+
 11. **Qual fluxo e mais urgente?**
-    - (A) Consulta de contexto (operador ve tudo na sidebar)
-    - (B) Automacao deal.won → ClickUp (eliminar trabalho manual)
-    - (C) SDR automatico com TreeFlow
-    - (D) Todos ao mesmo tempo
+    * (A) Consulta de contexto (operador ve tudo na sidebar)
+    * (B) Automacao deal.won → ClickUp (eliminar trabalho manual)
+    * (C) SDR automatico com TreeFlow
+    * (D) Todos ao mesmo tempo
+
 
 ---
 
 ## 8. Resumo Executivo
 
 | O Que | Onde | Pra Que |
-|-------|------|---------|
+|----|----|----|
 | **CRM Hub** | api.luminai.ia.br/crm | Ponte inteligente — conecta tudo |
 | **Vialum Chat** | Frontend | Interface unica — chat + contexto + HITL |
 | **TreeFlow** | Dentro do Vialum Chat | SDR automatico + atendimento inteligente |

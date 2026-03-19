@@ -52,6 +52,10 @@ export interface Contact {
   id: string;
   accountId: string;
   name: string;
+  customName: string | null;
+  crmName: string | null;
+  displayName: string;
+  formattedPhone: string;
   phone: string | null;
   email: string | null;
   avatarUrl: string | null;
@@ -322,6 +326,17 @@ export interface TalkMessage {
   routingConfidence: number | null;
   routedBy: 'ai' | 'manual' | 'system';
   createdAt: string;
+}
+
+export interface TeamMember {
+  id: string;
+  accountId: string;
+  userId: string;
+  role: string;
+  availability: string;
+  user: User;
+  createdAt: string;
+  updatedAt: string;
 }
 
 // ── Auth ──────────────────────────────────────────────────────

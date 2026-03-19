@@ -24,6 +24,7 @@ import { webhookRoutes } from './webhooks/webhook.routes.js';
 import { externalRoutes } from './modules/external/external.routes.js';
 import { apiKeyRoutes } from './modules/external/api-keys.routes.js';
 import { groupRoutes } from './modules/groups/groups.routes.js';
+import { userRoutes } from './modules/users/users.routes.js';
 
 export async function buildApp(): Promise<FastifyInstance> {
   const env = getEnv();
@@ -88,6 +89,7 @@ export async function buildApp(): Promise<FastifyInstance> {
     await instance.register(objectionRoutes, { prefix: '/chat/api/v1/accounts/:accountId/objections' });
     await instance.register(apiKeyRoutes, { prefix: '/chat/api/v1/accounts/:accountId/api-keys' });
     await instance.register(groupRoutes, { prefix: '/chat/api/v1/accounts/:accountId/groups' });
+    await instance.register(userRoutes, { prefix: '/chat/api/v1/accounts/:accountId/users' });
   });
 
   return app;

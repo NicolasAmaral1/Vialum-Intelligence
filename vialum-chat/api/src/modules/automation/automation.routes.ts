@@ -42,16 +42,16 @@ export async function automationRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // POST /
-  fastify.post('/', async (request: FastifyRequest<{ Params: AccountParams }>, reply: FastifyReply) => {
+  // POST / — admin only
+  fastify.post('/', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: AccountParams }>, reply: FastifyReply) => {
     const { accountId } = request.params;
     const body = createSchema.parse(request.body);
     const data = await automationService.create(accountId, body);
     return reply.status(201).send({ data });
   });
 
-  // PUT /:ruleId
-  fastify.put('/:ruleId', async (request: FastifyRequest<{ Params: RuleParams }>, reply: FastifyReply) => {
+  // PUT /:ruleId — admin only
+  fastify.put('/:ruleId', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: RuleParams }>, reply: FastifyReply) => {
     const { accountId, ruleId } = request.params;
     const body = updateSchema.parse(request.body);
     try {
@@ -63,8 +63,8 @@ export async function automationRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // POST /:ruleId/toggle
-  fastify.post('/:ruleId/toggle', async (request: FastifyRequest<{ Params: RuleParams }>, reply: FastifyReply) => {
+  // POST /:ruleId/toggle — admin only
+  fastify.post('/:ruleId/toggle', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: RuleParams }>, reply: FastifyReply) => {
     const { accountId, ruleId } = request.params;
     try {
       const data = await automationService.toggleActive(accountId, ruleId);
@@ -75,8 +75,8 @@ export async function automationRoutes(fastify: FastifyInstance) {
     }
   });
 
-  // DELETE /:ruleId
-  fastify.delete('/:ruleId', async (request: FastifyRequest<{ Params: RuleParams }>, reply: FastifyReply) => {
+  // DELETE /:ruleId — admin only
+  fastify.delete('/:ruleId', { onRequest: [(fastify as any).adminGuard] }, async (request: FastifyRequest<{ Params: RuleParams }>, reply: FastifyReply) => {
     const { accountId, ruleId } = request.params;
     try {
       await automationService.remove(accountId, ruleId);

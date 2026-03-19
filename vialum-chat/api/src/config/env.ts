@@ -10,6 +10,7 @@ const envSchema = z.object({
   CORS_ORIGIN: z.string().default('http://localhost:3000'),
   OPENAI_API_KEY: z.string().optional(),
   ANTHROPIC_API_KEY: z.string().optional(),
+  CRM_HUB_URL: z.string().optional(),
 });
 
 export type Env = z.infer<typeof envSchema>;

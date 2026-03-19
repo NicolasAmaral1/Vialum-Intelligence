@@ -1,0 +1,3591 @@
+[
+  {
+    "numero_processo": "007023448",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": {
+      "nome": "DANNEMANN SIEMSEN BIGLER & IPANEMA MOREIRA"
+    },
+    "datas": {
+      "deposito": "12/09/1978",
+      "concessao": "10/11/1979",
+      "vigencia": "10/11/2009"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2087",
+        "data_rpi": "04/01/2011",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1920",
+        "data_rpi": "23/10/2007",
+        "despacho": "560",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1608",
+        "data_rpi": "30/10/2001",
+        "despacho": "560",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1495",
+        "data_rpi": "31/08/1999",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1037",
+        "data_rpi": "16/10/1990",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "007023464",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": {
+      "nome": "DANNEMANN SIEMSEN BIGLER & IPANEMA MOREIRA"
+    },
+    "datas": {
+      "deposito": "12/09/1978",
+      "concessao": "10/11/1979",
+      "vigencia": "10/11/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "11/11/2028",
+      "ordinario_fim": "10/11/2029",
+      "extraordinario_inicio": "11/11/2028",
+      "extraordinario_fim": "10/11/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2527",
+        "data_rpi": "11/06/2019",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800190184590 (17/05/2019)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): AMSTERDAM SAUER JOALHEIROS LTDA.\nProcurador: Dannemann, Siemsen, Bigler & Ipanema Moreira"
+      },
+      {
+        "rpi": "2094",
+        "data_rpi": "22/02/2011",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1920",
+        "data_rpi": "23/10/2007",
+        "despacho": "560",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1495",
+        "data_rpi": "31/08/1999",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1037",
+        "data_rpi": "16/10/1990",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "800271319",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "14",
+        "codigo": "20",
+        "descricao": "Pedras preciosas, semi-preciosas e suas imitações."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": {
+      "nome": "VANDER PEDRA FERNANDES"
+    },
+    "datas": {
+      "deposito": "23/09/1980",
+      "concessao": "11/01/1983",
+      "vigencia": "11/01/2003"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1888",
+        "data_rpi": "13/03/2007",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1124",
+        "data_rpi": "16/06/1992",
+        "despacho": "990",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1124",
+        "data_rpi": "16/06/1992",
+        "despacho": "795",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1113",
+        "data_rpi": "31/03/1992",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "800271297",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "14",
+        "codigo": "20",
+        "descricao": "Pedras preciosas, semi-preciosas e suas imitações."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "23/09/1980",
+      "concessao": "24/05/1983",
+      "vigencia": "24/05/2003"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1800",
+        "data_rpi": "05/07/2005",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1196",
+        "data_rpi": "03/11/1993",
+        "despacho": "990",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "811870561",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM INDUSTRAI E COMERCIO DE ROUPAS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "21/01/1985",
+      "concessao": "15/04/1986",
+      "vigencia": "15/04/1996"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1395",
+        "data_rpi": "26/08/1997",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1098",
+        "data_rpi": "17/12/1991",
+        "despacho": "920",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1061",
+        "data_rpi": "02/04/1991",
+        "despacho": "910",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1037",
+        "data_rpi": "16/10/1990",
+        "despacho": "550",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1011",
+        "data_rpi": "27/03/1990",
+        "despacho": "565",
+        "detalhes": ""
+      },
+      {
+        "rpi": "808",
+        "data_rpi": "15/04/1986",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "800",
+        "data_rpi": "18/02/1986",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "780",
+        "data_rpi": "01/10/1985",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "761",
+        "data_rpi": "21/05/1985",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "814822754",
+    "nome_marca": "JANE AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "INDUSTRIA DE MODAS JANFLA LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "22/05/1989",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1166",
+        "data_rpi": "06/04/1993",
+        "despacho": "270",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1036",
+        "data_rpi": "09/10/1990",
+        "despacho": "210",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1018",
+        "data_rpi": "15/05/1990",
+        "despacho": "100",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815018037",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM INDUSTRIA DE BOLSAS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "15/08/1989",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1048",
+        "data_rpi": "02/01/1991",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1031",
+        "data_rpi": "04/09/1990",
+        "despacho": "100",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815030460",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM COMERCIO DE PECAS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "28/08/1989",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1067",
+        "data_rpi": "14/05/1991",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1052",
+        "data_rpi": "29/01/1991",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1035",
+        "data_rpi": "02/10/1990",
+        "despacho": "100",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815030495",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM COMERCIO DE PECAS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "28/08/1989",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1098",
+        "data_rpi": "17/12/1991",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1075",
+        "data_rpi": "09/07/1991",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1058",
+        "data_rpi": "12/03/1991",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1036",
+        "data_rpi": "09/10/1990",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "816979774",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM MARMORES E GRANITO S LTDA ME"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "03/12/1992",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1234",
+        "data_rpi": "26/07/1994",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1213",
+        "data_rpi": "01/03/1994",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1190",
+        "data_rpi": "21/09/1993",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1169",
+        "data_rpi": "27/04/1993",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817646930",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": {
+      "nome": "VANDER PEDRA FERNANDES"
+    },
+    "datas": {
+      "deposito": "06/12/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1338",
+        "data_rpi": "23/07/1996",
+        "despacho": "170",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1338",
+        "data_rpi": "23/07/1996",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1313",
+        "data_rpi": "30/01/1996",
+        "despacho": "025",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1287",
+        "data_rpi": "01/08/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1263",
+        "data_rpi": "14/02/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1233",
+        "data_rpi": "19/07/1994",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817646973",
+    "nome_marca": "MUSEU AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": {
+      "nome": "VANDER PEDRA FERNANDES"
+    },
+    "datas": {
+      "deposito": "06/12/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1309",
+        "data_rpi": "02/01/1996",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1287",
+        "data_rpi": "01/08/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1262",
+        "data_rpi": "07/02/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1233",
+        "data_rpi": "19/07/1994",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817646981",
+    "nome_marca": "MUSEU AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "06/12/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1265",
+        "data_rpi": "01/03/1995",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1233",
+        "data_rpi": "19/07/1994",
+        "despacho": "015",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817646922",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "06/12/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1263",
+        "data_rpi": "14/02/1995",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1233",
+        "data_rpi": "19/07/1994",
+        "despacho": "015",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817646990",
+    "nome_marca": "AMSTERDAM SAUER O PRAZER DA JOIA",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "06/12/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1261",
+        "data_rpi": "31/01/1995",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1233",
+        "data_rpi": "19/07/1994",
+        "despacho": "100",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817646914",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": {
+      "nome": "VANDER PEDRA FERNANDES"
+    },
+    "datas": {
+      "deposito": "06/12/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1311",
+        "data_rpi": "16/01/1996",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1290",
+        "data_rpi": "22/08/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1265",
+        "data_rpi": "01/03/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1233",
+        "data_rpi": "19/07/1994",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817704590",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "PONTA DO LEME COMERCIO E DISTRIBUICAO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "PAULO C. OLIVEIRA. & CIA."
+    },
+    "datas": {
+      "deposito": "25/02/1994",
+      "concessao": "26/03/1996",
+      "vigencia": "26/03/2006"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1898",
+        "data_rpi": "22/05/2007",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1321",
+        "data_rpi": "26/03/1996",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1298",
+        "data_rpi": "17/10/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1273",
+        "data_rpi": "25/04/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1240",
+        "data_rpi": "06/09/1994",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "818231637",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "7.1.25",
+        "descricao": "Outras habitações ou construções"
+      },
+      {
+        "edicao": "38",
+        "codigo": "60",
+        "descricao": "Serviços de alimentação."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "JOSEPH PETER HUBERT HORSCH ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "BEERRE ASSESSORIA EMPRESARIAL S/C LTDA"
+    },
+    "datas": {
+      "deposito": "20/01/1995",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1302",
+        "data_rpi": "14/11/1995",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819284670",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "JOSE MARCO ANTONIO GHIRALDINI"
+      }
+    ],
+    "representante_legal": {
+      "nome": "UNIVERSAL MARCAS E PATENTES S/C LTDA"
+    },
+    "datas": {
+      "deposito": "15/07/1996",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1488",
+        "data_rpi": "13/07/1999",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1450",
+        "data_rpi": "06/10/1998",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1391",
+        "data_rpi": "29/07/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819370029",
+    "nome_marca": "AMSTERDAM-ROTTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM-ROTTERDAM COMERCIAL IMPORTADORA E EXPORT LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "UNIÃO FEDERAL MARCAS E PATENTES S/C LTDA."
+    },
+    "datas": {
+      "deposito": "22/08/1996",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1831",
+        "data_rpi": "07/02/2006",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1795",
+        "data_rpi": "31/05/2005",
+        "despacho": "090",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1582",
+        "data_rpi": "02/05/2001",
+        "despacho": "004",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1453",
+        "data_rpi": "10/11/1998",
+        "despacho": "090",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1392",
+        "data_rpi": "05/08/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819852040",
+    "nome_marca": "AMSTERDAM MARINER",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "GROLSCH EXPORT B.V. (DUTCH EXPORT BREWERIES)"
+      }
+    ],
+    "representante_legal": {
+      "nome": "EMILIO COLLADO LOPEZ"
+    },
+    "datas": {
+      "deposito": "17/03/1997",
+      "concessao": "17/08/1999",
+      "vigencia": "17/08/2009"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2052",
+        "data_rpi": "04/05/2010",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1493",
+        "data_rpi": "17/08/1999",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1473",
+        "data_rpi": "30/03/1999",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1403",
+        "data_rpi": "21/10/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819852058",
+    "nome_marca": "AMSTERDAM MARINER",
+    "situacao": "Extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Produto",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "18.3.25",
+        "descricao": "Outros meios de transporte aquático"
+      },
+      {
+        "edicao": "4",
+        "codigo": "2.1.1",
+        "descricao": "Cabeças, bustos"
+      },
+      {
+        "edicao": "4",
+        "codigo": "25.5.1",
+        "descricao": "Fundos divididos em dois no sentido vertical"
+      },
+      {
+        "edicao": "35",
+        "codigo": "10",
+        "descricao": "Bebidas, xaropes e sucos concentrados."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "GROLSCH EXPORT B.V. (DUTCH EXPORT BREWERIES)"
+      }
+    ],
+    "representante_legal": {
+      "nome": "EMILIO COLLADO LOPEZ"
+    },
+    "datas": {
+      "deposito": "17/03/1997",
+      "concessao": "17/08/1999",
+      "vigencia": "17/08/2009"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2052",
+        "data_rpi": "04/05/2010",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1493",
+        "data_rpi": "17/08/1999",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1473",
+        "data_rpi": "30/03/1999",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1403",
+        "data_rpi": "21/10/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "828205132",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Serviços de venda/comércio de metais preciosos e suas ligas ..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": {
+      "nome": "DANNEMANN SIEMSEN BIGLER & IPANEMA MOREIRA"
+    },
+    "datas": {
+      "deposito": "02/03/2006",
+      "concessao": "18/03/2008",
+      "vigencia": "18/03/2028"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "19/03/2027",
+      "ordinario_fim": "18/03/2028",
+      "extraordinario_inicio": "19/03/2027",
+      "extraordinario_fim": "18/03/2028"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2440",
+        "data_rpi": "10/10/2017",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800170302043 (13/09/2017)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular: AMSTERDAM SAUER JOALHEIROS LTDA.\nProcurador: Dannemann, Siemsen, Bigler & Ipanema Moreira"
+      },
+      {
+        "rpi": "1941",
+        "data_rpi": "18/03/2008",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1935",
+        "data_rpi": "06/02/2008",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1841",
+        "data_rpi": "18/04/2006",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "829139613",
+    "nome_marca": "AMSTERDAM CLUB",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "COMÉRCIO DE ARTIGO DE VESTUARIO."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.13.25",
+        "descricao": "Outras figuras geométricas, desenhos indefiníveis"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM CLUB DE ARTIGOS DO VESTUARIO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "O PRÓPRIO."
+    },
+    "datas": {
+      "deposito": "17/05/2007",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2050",
+        "data_rpi": "20/04/2010",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2029",
+        "data_rpi": "24/11/2009",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1921",
+        "data_rpi": "30/10/2007",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "901706035",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(9) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Comércio (através de qualquer meio) de artigos de cama, mesa..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM ROUPAS PARA CASA LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "ANA PAULA ALMEIDA DE OLIVEIRA"
+    },
+    "datas": {
+      "deposito": "04/06/2009",
+      "concessao": "02/05/2012",
+      "vigencia": "02/05/2022"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "03/05/2021",
+      "ordinario_fim": "02/05/2022",
+      "extraordinario_inicio": "03/05/2021",
+      "extraordinario_fim": "02/05/2022"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2709",
+        "data_rpi": "06/12/2022",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2156",
+        "data_rpi": "02/05/2012",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2144",
+        "data_rpi": "07/02/2012",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2015",
+        "data_rpi": "18/08/2009",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "905647254",
+    "nome_marca": "OLYMPISCHE SPIELE - 1928 AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Propaganda; disseminação de propaganda através de todas as m..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.13.25",
+        "descricao": "Outras figuras geométricas, desenhos indefiníveis"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "2.1.8",
+        "descricao": "Acróbatas, atletas, dançarinos, malabaristas, homens nus, homens praticando esporte (exceto 2.1.2, 2.1.12, 2.1.14, 2.1.20 e 2.1.21)"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "COMITÉ INTERNATIONAL OLYMPIQUE"
+      }
+    ],
+    "representante_legal": {
+      "nome": "NASCIMENTO,ARARIPE & UCHIDA S/C LTDA."
+    },
+    "datas": {
+      "deposito": "07/12/2012",
+      "concessao": "13/10/2015",
+      "vigencia": "13/10/2035"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "14/10/2034",
+      "ordinario_fim": "13/10/2035",
+      "extraordinario_inicio": "14/10/2034",
+      "extraordinario_fim": "13/10/2035"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2852",
+        "data_rpi": "02/09/2025",
+        "despacho": "Deferimento da petição",
+        "detalhes": "800250322176 (04/08/2025)\nPetição (tipo): Prorrogação de registro de marca e expedição de certificado no prazo ordinário (374.5)\nTitular(es): COMITÉ INTERNATIONAL OLYMPIQUE\nProcurador: Araripe & Associados"
+      },
+      {
+        "rpi": "2336",
+        "data_rpi": "13/10/2015",
+        "despacho": "Concessão de registro",
+        "detalhes": "850140094922 (22/05/2014)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nRequerente: COMITÉ INTERNATIONAL OLYMPIQUE\nProcurador: Araripe & Associados\nDetalhes do despacho:POR INCORREÇÃO NA ESPECIFICAÇÃO."
+      },
+      {
+        "rpi": "2332",
+        "data_rpi": "15/09/2015",
+        "despacho": "Deferimento do pedido",
+        "detalhes": "850140094922 (22/05/2014)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nRequerente: COMITÉ INTERNATIONAL OLYMPIQUE\nProcurador: Araripe & Associados\nDetalhes do despacho:POR INCORREÇÃO NA ESPECIFICAÇÃO."
+      },
+      {
+        "rpi": "2274",
+        "data_rpi": "05/08/2014",
+        "despacho": "Petição de retificação atendida",
+        "detalhes": "850140094922 (22/05/2014)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nRequerente: COMITÉ INTERNATIONAL OLYMPIQUE\nProcurador: Araripe & Associados\nDetalhes do despacho:POR INCORREÇÃO NA ESPECIFICAÇÃO."
+      },
+      {
+        "rpi": "2274",
+        "data_rpi": "05/08/2014",
+        "despacho": "Republicação de pedido",
+        "detalhes": "POR INCORREÇÃO NA ESPECIFICAÇÃO."
+      },
+      {
+        "rpi": "2254",
+        "data_rpi": "18/03/2014",
+        "despacho": "Republicação de pedido",
+        "detalhes": "POR INCORREÇÃO NA ESPECIFICAÇÃO."
+      },
+      {
+        "rpi": "2254",
+        "data_rpi": "18/03/2014",
+        "despacho": "Petição de retificação atendida",
+        "detalhes": "850130229531 (26/11/2013)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nRequerente: COMITÉ INTERNATIONAL OLYMPIQUE\nProcurador: LUIZ DE ALENCAR ARARIPE JR.\nDetalhes do despacho:POR INCORREÇÃO NA ESPECIFICAÇÃO."
+      },
+      {
+        "rpi": "2231",
+        "data_rpi": "08/10/2013",
+        "despacho": "Petição de retificação atendida",
+        "detalhes": "850130142697 (22/07/2013)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nRequerente: COMITÉ INTERNATIONAL OLYMPIQUE\nProcurador: Araripe & Associados\nDetalhes do despacho:POR INCORREÇÃO NA ESPECIFICAÇÃO"
+      },
+      {
+        "rpi": "2231",
+        "data_rpi": "08/10/2013",
+        "despacho": "Republicação de pedido",
+        "detalhes": "POR INCORREÇÃO NA ESPECIFICAÇÃO"
+      },
+      {
+        "rpi": "2213",
+        "data_rpi": "04/06/2013",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "840808240",
+    "nome_marca": "AMSTERDAMS BLAUW",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Serviços varejistas na área de sabões, perfumaria, óleos ess..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "SCOTCH & SODA B.V."
+      }
+    ],
+    "representante_legal": {
+      "nome": "David do Nascimento Advogados Associados"
+    },
+    "datas": {
+      "deposito": "28/02/2014",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2382",
+        "data_rpi": "30/08/2016",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 901706035 (AMSTERDAM). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2266",
+        "data_rpi": "10/06/2014",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 901706035 (AMSTERDAM). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850140121174"
+      ]
+    }
+  },
+  {
+    "numero_processo": "908147856",
+    "nome_marca": "Amsterdam Produções",
+    "situacao": "Pedido definitivamente arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Promotor de eventos [se comerciais] - [Informação em]; Promo..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "16.1.15",
+        "descricao": "Toca discos"
+      },
+      {
+        "edicao": "4",
+        "codigo": "16.1.16",
+        "descricao": "Discos para gravação e reprodução de som, imagem e dados; capas e estojos para discos"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "amsterdam produçoes"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "19/08/2014",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2414",
+        "data_rpi": "11/04/2017",
+        "despacho": "Arquivamento definitivo de pedido de registro por falta de pagamento da concessão",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2397",
+        "data_rpi": "13/12/2016",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2279",
+        "data_rpi": "09/09/2014",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "908680465",
+    "nome_marca": "VAN GOGH MUSEUM AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Serviços de organização de feiras e exposições para fins com..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.4.1",
+        "descricao": "Quadrados"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "Stichting Van Gogh Museum"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Dannemann, Siemsen, Bigler & Ipanema Moreira"
+    },
+    "datas": {
+      "deposito": "28/11/2014",
+      "concessao": "27/06/2017",
+      "vigencia": "27/06/2027"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "28/06/2026",
+      "ordinario_fim": "27/06/2027",
+      "extraordinario_inicio": "28/06/2026",
+      "extraordinario_fim": "27/06/2027"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2425",
+        "data_rpi": "27/06/2017",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2414",
+        "data_rpi": "11/04/2017",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2297",
+        "data_rpi": "13/01/2015",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "912405481",
+    "nome_marca": "THE BULLDOG AMSTERDAM",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Comércio (através de qualquer meio) de produtos e insumos pa..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "18.2.18",
+        "descricao": "Correias e coleiras para cachorros e gatos"
+      },
+      {
+        "edicao": "4",
+        "codigo": "3.6.3",
+        "descricao": "Patas, pés, marcas de patas ou de pés"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.1.1",
+        "descricao": "Círculos"
+      },
+      {
+        "edicao": "4",
+        "codigo": "3.1.9",
+        "descricao": "Boxers, buldogues"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "Drs Administração de Estoques Eireli - Epp."
+      }
+    ],
+    "representante_legal": {
+      "nome": "Capital Marcas e Patentes Ltda"
+    },
+    "datas": {
+      "deposito": "10/03/2017",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2486",
+        "data_rpi": "28/08/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850180222648 (02/08/2018)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nTitular(es): DRS ADMINISTRAÇÃO DE ESTOQUES EIRELI - EPP.\nProcurador: Capital Marcas e Patentes Ltda\nDetalhes do despacho:Destituído o procurador Alexandre Luiz Carvalho de Sousa e nomeado novo representante Capital Marcas e Patentes Ltda com poderes para representar o titular do processo perante o INPI."
+      },
+      {
+        "rpi": "2483",
+        "data_rpi": "07/08/2018",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 906770009 (BULLDOG TABACARIA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2413",
+        "data_rpi": "04/04/2017",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 906770009 (BULLDOG TABACARIA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850180222648"
+      ]
+    }
+  },
+  {
+    "numero_processo": "913771767",
+    "nome_marca": "Amsterdam",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Comércio (através de qualquer meio) de bijuteria; Comércio (..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "GUILHERME MELO PORCARO PESSO"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Consolide - Dr. Alan Marcos da Silva"
+    },
+    "datas": {
+      "deposito": "23/11/2017",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2500",
+        "data_rpi": "04/12/2018",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 901706035 (AMSTERDAM) e Processo 828205132 (AMSTERDAM SAUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2450",
+        "data_rpi": "19/12/2017",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 901706035 (AMSTERDAM) e Processo 828205132 (AMSTERDAM SAUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850170298364"
+      ]
+    }
+  },
+  {
+    "numero_processo": "915878682",
+    "nome_marca": "CANNABIS STORE AMSTERDAM BRASIL ORIGINAL AMSTERDAM",
+    "situacao": "Pedido de registro de marca indeferido",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Comércio (através de qualquer meio) de artigos para ginástic..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.1.4",
+        "descricao": "Dois círculos, duas elipses, um dentro do outro"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "5.3.1",
+        "descricao": "Folhas de tabaco"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "MARCELO CIPOLLA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Landualdo de Sousa"
+    },
+    "datas": {
+      "deposito": "13/09/2018",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2529",
+        "data_rpi": "25/06/2019",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz denominação de droga ilícita, irregistrável de acordo com o inciso III do Art. 124 da LPI. Art. 124 - Não são registráveis como marca: III - expressão, figura, desenho ou qualquer outro sinal contrário à moral e aos bons costumes ou que ofenda a honra ou imagem de pessoas ou atente contra liberdade de consciência, crença, culto religioso ou ideia e sentimento dignos de respeito e veneração; A marca é constituida por falsa indicação de origem, irregistrável de acordo com o inciso X do Art. 124 da LPI. Art. 124 - Não são registráveis como marca: X - sinal que induza a falsa indicação quanto à origem, procedência, natureza, qualidade ou utilidade do produto ou serviço a que a marca se destina;"
+      },
+      {
+        "rpi": "2515",
+        "data_rpi": "19/03/2019",
+        "despacho": "Notificação de oposição",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2492",
+        "data_rpi": "09/10/2018",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz denominação de droga ilícita, irregistrável de acordo com o inciso III do Art. 124 da LPI. Art. 124 - Não são registráveis como marca: III - expressão, figura, desenho ou qualquer outro sinal contrário à moral e aos bons costumes ou que ofenda a honra ou imagem de pessoas ou atente contra liberdade de consciência, crença, culto religioso ou ideia e sentimento dignos de respeito e veneração; A marca é constituida por falsa indicação de origem, irregistrável de acordo com o inciso X do Art. 124 da LPI. Art. 124 - Não são registráveis como marca: X - sinal que induza a falsa indicação quanto à origem, procedência, natureza, qualidade ou utilidade do produto ou serviço a que a marca se destina;",
+      "protocolos_conflitantes": [
+        "850180397253"
+      ]
+    }
+  },
+  {
+    "numero_processo": "916057364",
+    "nome_marca": "AMSTERDAM HEAD SHOP",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Assessoria, consultoria e informação em gestão de negócios e..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "5.3.11",
+        "descricao": "Outras folhas"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ANDRE WILLIAN MARQUES DOS SANTOS"
+      }
+    ],
+    "representante_legal": {
+      "nome": "A Provincia Marcas e Patentes Ltda."
+    },
+    "datas": {
+      "deposito": "10/10/2018",
+      "concessao": "19/11/2019",
+      "vigencia": "19/11/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "20/11/2028",
+      "ordinario_fim": "19/11/2029",
+      "extraordinario_inicio": "20/11/2028",
+      "extraordinario_fim": "19/11/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2550",
+        "data_rpi": "19/11/2019",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2545",
+        "data_rpi": "15/10/2019",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2526",
+        "data_rpi": "04/06/2019",
+        "despacho": "Sobrestamento do exame de mérito",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2497",
+        "data_rpi": "13/11/2018",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "916700500",
+    "nome_marca": "Amsterdam Choice",
+    "situacao": "Pedido de registro de marca indeferido",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Comércio (através de qualquer meio) de bijuteria; Comércio (..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "GUILHERME MELO PORCARO PESSO"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Consolide - Dr. Alan Marcos da Silva"
+    },
+    "datas": {
+      "deposito": "07/02/2019",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2538",
+        "data_rpi": "27/08/2019",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 828205132 (AMSTERDAM SAUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2514",
+        "data_rpi": "12/03/2019",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 828205132 (AMSTERDAM SAUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850190034520"
+      ]
+    }
+  },
+  {
+    "numero_processo": "501525961",
+    "nome_marca": "CANNABIS STORE AMSTERDAM ORIGINAL AMSTERDAM",
+    "situacao": "Designação indeferida (mantida em grau de recurso)",
+    "apresentacao": "Mista",
+    "natureza": "Madri Produto/Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Serviços de assistência, gestão e administração de negócios."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "8",
+        "codigo": "5.3.11",
+        "descricao": "Outras folhas"
+      },
+      {
+        "edicao": "8",
+        "codigo": "5.3.13",
+        "descricao": "Folhas estilizadas"
+      },
+      {
+        "edicao": "8",
+        "codigo": "5.3.15",
+        "descricao": "Duas a quatro folhas"
+      },
+      {
+        "edicao": "8",
+        "codigo": "24.3.7",
+        "descricao": "Selos ou carimbos fixados circulares"
+      },
+      {
+        "edicao": "8",
+        "codigo": "29.1.13",
+        "descricao": "Três cores predominantes"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "SANTA CONTE"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Ariboni, Fabbri e Schmidt Sociedade de Advogados"
+    },
+    "datas": {
+      "deposito": null,
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2745",
+        "data_rpi": "15/08/2023",
+        "despacho": "Emissão de folha de rosto de cópia reprográfica simples",
+        "detalhes": "850230352721 (27/07/2023)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: ARIBONI, FABBRI & SCHMIDT SOCIEDADE DE ADVOGADOS\nProcurador: Ariboni, Fabbri e Schmidt Sociedade de Advogados"
+      },
+      {
+        "rpi": "2742",
+        "data_rpi": "25/07/2023",
+        "despacho": "Recurso não provido (decisão mantida)",
+        "detalhes": "850210175905 (03/05/2021)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: SANTA CONTE\nProcurador: Ariboni, Fabbri e Schmidt Sociedade de Advogados"
+      },
+      {
+        "rpi": "2634",
+        "data_rpi": "29/06/2021",
+        "despacho": "Notificação de recurso",
+        "detalhes": "850210175905 (03/05/2021)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: SANTA CONTE\nProcurador: Ariboni, Fabbri e Schmidt Sociedade de Advogados\nDetalhes do despacho:Recurso contra indeferimento"
+      },
+      {
+        "rpi": "2631",
+        "data_rpi": "08/06/2021",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850210171900 (29/04/2021)\nPetição (tipo): Nomeação, destituição ou substituição de procurador [em processo de registro] (385.1)\nRequerente: SANTA CONTE\nProcurador: Ariboni, Fabbri e Schmidt Sociedade de Advogados\nDetalhes do despacho:Nomeado procurador ARIBONI, FABBRI E SCMIDT SOCIEDADE DE ADVOGADOS com poderes para representar o titular do processo perante o INPI."
+      },
+      {
+        "rpi": "2617",
+        "data_rpi": "02/03/2021",
+        "despacho": "Indeferimento de designação",
+        "detalhes": "A marca é constituida por falsa indicação de origem (ou procedência) e natureza do serviço a que a marca se destina, irregistrável de acordo com o inciso X do Art. 124 da LPI na(s) classe(s) NCL(11)35. Art. 124 - Não são registráveis como marca: X - sinal que induza a falsa indicação quanto à origem, procedência, natureza, qualidade ou utilidade do produto ou serviço a que a marca se destina; Alterado endereço do titular conforme petição nº 1411375201."
+      },
+      {
+        "rpi": "2586",
+        "data_rpi": "28/07/2020",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal de designação concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca é constituida por falsa indicação de origem (ou procedência) e natureza do serviço a que a marca se destina, irregistrável de acordo com o inciso X do Art. 124 da LPI na(s) classe(s) NCL(11)35. Art. 124 - Não são registráveis como marca: X - sinal que induza a falsa indicação quanto à origem, procedência, natureza, qualidade ou utilidade do produto ou serviço a que a marca se destina; Alterado endereço do titular conforme petição nº 1411375201.",
+      "protocolos_conflitantes": [
+        "850230352721"
+      ]
+    }
+  },
+  {
+    "numero_processo": "922778302",
+    "nome_marca": "CANNABIS STORE AMSTERDAM ORIGINAL AMSTERDAM ORIGINAL AMSTERDAM",
+    "situacao": "Pedido de registro de marca indeferido",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Distribuição e Comércio de produtos de origem holandesa, nom..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "5.3.13",
+        "descricao": "Folhas estilizadas"
+      },
+      {
+        "edicao": "4",
+        "codigo": "5.3.14",
+        "descricao": "Uma folha"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.1.4",
+        "descricao": "Dois círculos, duas elipses, um dentro do outro"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.25",
+        "descricao": "Letras apresentando algum outro grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "SANTA CONTE"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Ariboni, Fabbri e Schmidt Sociedade de Advogados"
+    },
+    "datas": {
+      "deposito": "28/04/2021",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2745",
+        "data_rpi": "15/08/2023",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz sinal contrário à moral, irregistrável de acordo com o inciso III do Art. 124 da LPI. Art. 124 - Não são registráveis como marca: III - expressão, figura, desenho ou qualquer outro sinal contrário à moral e aos bons costumes ou que ofenda a honra ou imagem de pessoas ou atente contra liberdade de consciência, crença, culto religioso ou ideia e sentimento dignos de respeito e veneração; A marca é constituida por falsa indicação de origem, irregistrável de acordo com o inciso X do Art. 124 da LPI. Art. 124 - Não são registráveis como marca: X - sinal que induza a falsa indicação quanto à origem, procedência, natureza, qualidade ou utilidade do produto ou serviço a que a marca se destina;"
+      },
+      {
+        "rpi": "2666",
+        "data_rpi": "08/02/2022",
+        "despacho": "Sobrestamento do exame de mérito",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2628",
+        "data_rpi": "18/05/2021",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz sinal contrário à moral, irregistrável de acordo com o inciso III do Art. 124 da LPI. Art. 124 - Não são registráveis como marca: III - expressão, figura, desenho ou qualquer outro sinal contrário à moral e aos bons costumes ou que ofenda a honra ou imagem de pessoas ou atente contra liberdade de consciência, crença, culto religioso ou ideia e sentimento dignos de respeito e veneração; A marca é constituida por falsa indicação de origem, irregistrável de acordo com o inciso X do Art. 124 da LPI. Art. 124 - Não são registráveis como marca: X - sinal que induza a falsa indicação quanto à origem, procedência, natureza, qualidade ou utilidade do produto ou serviço a que a marca se destina;",
+      "protocolos_conflitantes": [
+        "850220147148"
+      ]
+    }
+  },
+  {
+    "numero_processo": "934144745",
+    "nome_marca": "AMSTERDAM CONVENIENCIA",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Supermercado [comércio de alimentos];COMÉRCIO alimentos COM..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "8.7.25",
+        "descricao": "Outros produtos alimentícios não classificados em 8.7.1 a 8.7.22"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM CONVENIENCIA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "08/04/2024",
+      "concessao": "27/01/2026",
+      "vigencia": "27/01/2036"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "28/01/2035",
+      "ordinario_fim": "27/01/2036",
+      "extraordinario_inicio": "28/01/2035",
+      "extraordinario_fim": "27/01/2036"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2873",
+        "data_rpi": "27/01/2026",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2860",
+        "data_rpi": "28/10/2025",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2782",
+        "data_rpi": "30/04/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815030495",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM COMERCIO DE PECAS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "28/08/1989",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1098",
+        "data_rpi": "17/12/1991",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1075",
+        "data_rpi": "09/07/1991",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1058",
+        "data_rpi": "12/03/1991",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1036",
+        "data_rpi": "09/10/1990",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817646930",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": {
+      "nome": "VANDER PEDRA FERNANDES"
+    },
+    "datas": {
+      "deposito": "06/12/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1338",
+        "data_rpi": "23/07/1996",
+        "despacho": "170",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1338",
+        "data_rpi": "23/07/1996",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1313",
+        "data_rpi": "30/01/1996",
+        "despacho": "025",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1287",
+        "data_rpi": "01/08/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1263",
+        "data_rpi": "14/02/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1233",
+        "data_rpi": "19/07/1994",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817704590",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "PONTA DO LEME COMERCIO E DISTRIBUICAO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "PAULO C. OLIVEIRA. & CIA."
+    },
+    "datas": {
+      "deposito": "25/02/1994",
+      "concessao": "26/03/1996",
+      "vigencia": "26/03/2006"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1898",
+        "data_rpi": "22/05/2007",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1321",
+        "data_rpi": "26/03/1996",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1298",
+        "data_rpi": "17/10/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1273",
+        "data_rpi": "25/04/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1240",
+        "data_rpi": "06/09/1994",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "818231637",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "7.1.25",
+        "descricao": "Outras habitações ou construções"
+      },
+      {
+        "edicao": "38",
+        "codigo": "60",
+        "descricao": "Serviços de alimentação."
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "JOSEPH PETER HUBERT HORSCH ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "BEERRE ASSESSORIA EMPRESARIAL S/C LTDA"
+    },
+    "datas": {
+      "deposito": "20/01/1995",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1302",
+        "data_rpi": "14/11/1995",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "821867482",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 42",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "DESENVOLVIMENTO DE SISTEMAS, SUPORTE TÉCNICOS A SISTEMAS."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "IRGB INFORMÁTICA LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "O PRÓPRIO."
+    },
+    "datas": {
+      "deposito": "29/07/1999",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1791",
+        "data_rpi": "03/05/2005",
+        "despacho": "150",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "823975762",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Registro de marca extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(7) 42",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "SERVIÇOS DE RESTAURANTE"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM ALIMENTOS LTDA-EPP"
+      }
+    ],
+    "representante_legal": {
+      "nome": "DIFUSÃO MARCAS E PATENTES S/C LTDA"
+    },
+    "datas": {
+      "deposito": "06/12/2001",
+      "concessao": "22/11/2011",
+      "vigencia": "22/11/2021"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "23/11/2020",
+      "ordinario_fim": "22/11/2021",
+      "extraordinario_inicio": "23/11/2020",
+      "extraordinario_fim": "22/11/2021"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2688",
+        "data_rpi": "12/07/2022",
+        "despacho": "Extinção de registro pela expiração do prazo de vigência",
+        "detalhes": "850160122511 (09/06/2016)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: AMSTERDAM ALIMENTOS LTDA-EPP\nProcurador: Difusão Marcas e Patentes Ltda.\nDetalhes do despacho:NOME ALTERADO."
+      },
+      {
+        "rpi": "2466",
+        "data_rpi": "10/04/2018",
+        "despacho": "Deferimento da petição",
+        "detalhes": "850160122511 (09/06/2016)\nPetição (tipo): Anotação de alteração de nome, sede ou endereço (348.3)\nRequerente: AMSTERDAM ALIMENTOS LTDA-EPP\nProcurador: Difusão Marcas e Patentes Ltda.\nDetalhes do despacho:NOME ALTERADO."
+      },
+      {
+        "rpi": "2133",
+        "data_rpi": "22/11/2011",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2074",
+        "data_rpi": "05/10/2010",
+        "despacho": "235",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2072",
+        "data_rpi": "21/09/2010",
+        "despacho": "165",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1988",
+        "data_rpi": "10/02/2009",
+        "despacho": "091",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1872",
+        "data_rpi": "21/11/2006",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1628",
+        "data_rpi": "19/03/2002",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "824726871",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(8) 43",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "SERVIÇOS DE BAR E RESTAURANTE (CAFÉS, LANCHONETES); HOTÉIS (..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.1.2",
+        "descricao": "Elipses"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.13.25",
+        "descricao": "Outras figuras geométricas, desenhos indefiníveis"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ROSEMARI T. DA SILVA HOTEL ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "NEW COMPANY MARCAS E PATENTES S/C LTDA"
+    },
+    "datas": {
+      "deposito": "07/08/2002",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1926",
+        "data_rpi": "04/12/2007",
+        "despacho": "145",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1882",
+        "data_rpi": "30/01/2007",
+        "despacho": "100",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1652",
+        "data_rpi": "03/09/2002",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817646981",
+    "nome_marca": "MUSEU AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "06/12/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1265",
+        "data_rpi": "01/03/1995",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1233",
+        "data_rpi": "19/07/1994",
+        "despacho": "015",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817704590",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "PONTA DO LEME COMERCIO E DISTRIBUICAO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "PAULO C. OLIVEIRA. & CIA."
+    },
+    "datas": {
+      "deposito": "25/02/1994",
+      "concessao": "26/03/1996",
+      "vigencia": "26/03/2006"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1898",
+        "data_rpi": "22/05/2007",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1321",
+        "data_rpi": "26/03/1996",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1298",
+        "data_rpi": "17/10/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1273",
+        "data_rpi": "25/04/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1240",
+        "data_rpi": "06/09/1994",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "819284670",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "JOSE MARCO ANTONIO GHIRALDINI"
+      }
+    ],
+    "representante_legal": {
+      "nome": "UNIVERSAL MARCAS E PATENTES S/C LTDA"
+    },
+    "datas": {
+      "deposito": "15/07/1996",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1488",
+        "data_rpi": "13/07/1999",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1450",
+        "data_rpi": "06/10/1998",
+        "despacho": "351",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1391",
+        "data_rpi": "29/07/1997",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "840256540",
+    "nome_marca": "AMSTERDAM PUB",
+    "situacao": "Pedido definitivamente arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "BOATE, DISCOTECA E SHOWS."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "POWER EMPREENDIMENTOS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "05/09/2012",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2483",
+        "data_rpi": "07/08/2018",
+        "despacho": "Arquivamento definitivo de pedido de registro por falta de pagamento da concessão",
+        "detalhes": "850150181277 (14/08/2015)\nPetição (tipo): Recurso contra decisão em processo de registro (333.17)\nRequerente: Power Empreendimentos Ltda\nDetalhes do despacho:DECIDO O RECURSO. NOS TERMOS E CONDIÇÕES CONSTANTES NO REFERIDO PARECER, RESSALVADO, CONFORME O CASO, A ADOÇÃO DO PADRÃO DE APOSTILA INSTITUÍDO POR MEIO DA RESOLUÇÃO 166/2016."
+      },
+      {
+        "rpi": "2458",
+        "data_rpi": "14/02/2018",
+        "despacho": "Recurso provido (decisão reformada para: Deferimento)",
+        "detalhes": "850150181277 (14/08/2015)\nPetição (tipo): Recurso contra decisão em processo de registro (333.17)\nRequerente: Power Empreendimentos Ltda\nDetalhes do despacho:DECIDO O RECURSO. NOS TERMOS E CONDIÇÕES CONSTANTES NO REFERIDO PARECER, RESSALVADO, CONFORME O CASO, A ADOÇÃO DO PADRÃO DE APOSTILA INSTITUÍDO POR MEIO DA RESOLUÇÃO 166/2016."
+      },
+      {
+        "rpi": "2336",
+        "data_rpi": "13/10/2015",
+        "despacho": "Notificação de recurso",
+        "detalhes": "850150181277 (14/08/2015)\nPetiÃ§Ã£o (tipo): Recurso contra decisão em processo de registro (333.17)\nRequerente: Power Empreendimentos Ltda\nDetalhes do despacho:Contra ato denegatório da Diretoria de Marcas."
+      },
+      {
+        "rpi": "2319",
+        "data_rpi": "16/06/2015",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 823975762 (AMSTERDAM). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;"
+      },
+      {
+        "rpi": "2207",
+        "data_rpi": "24/04/2013",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 823975762 (AMSTERDAM). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia;",
+      "protocolos_conflitantes": [
+        "850150181277"
+      ]
+    }
+  },
+  {
+    "numero_processo": "905678095",
+    "nome_marca": "OLYMPISCHE SPIELE - 1928 AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Educação; treinamento; entretenimento, atividades culturais ..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "2.1.8",
+        "descricao": "Acróbatas, atletas, dançarinos, malabaristas, homens nus, homens praticando esporte (exceto 2.1.2, 2.1.12, 2.1.14, 2.1.20 e 2.1.21)"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.13.25",
+        "descricao": "Outras figuras geométricas, desenhos indefiníveis"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "COMITÉ INTERNATIONAL OLYMPIQUE"
+      }
+    ],
+    "representante_legal": {
+      "nome": "NASCIMENTO,ARARIPE & UCHIDA S/C LTDA."
+    },
+    "datas": {
+      "deposito": "15/12/2012",
+      "concessao": "31/05/2016",
+      "vigencia": "31/05/2026"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "01/06/2025",
+      "ordinario_fim": "31/05/2026",
+      "extraordinario_inicio": "01/06/2025",
+      "extraordinario_fim": "31/05/2026"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2369",
+        "data_rpi": "31/05/2016",
+        "despacho": "Concessão de registro",
+        "detalhes": "Retirados da especificação os itens ?organização de loterias?; ?serviços de aposta e jogo relacionados ao ou em conjunto com o esporte?; ?serviços de apostas em linha? e ?fornecimento de serviços de rifas?, conforme solicitado na petição de cumprimento de exigência."
+      },
+      {
+        "rpi": "2364",
+        "data_rpi": "26/04/2016",
+        "despacho": "Deferimento do pedido",
+        "detalhes": "Retirados da especificação os itens ?organização de loterias?; ?serviços de aposta e jogo relacionados ao ou em conjunto com o esporte?; ?serviços de apostas em linha? e ?fornecimento de serviços de rifas?, conforme solicitado na petição de cumprimento de exigência."
+      },
+      {
+        "rpi": "2351",
+        "data_rpi": "26/01/2016",
+        "despacho": "Exigência de mérito",
+        "detalhes": "Preste esclarecimentos quanto aos serviços reivindicados à época do depósito, tendo em vista a legislação relativa à exploração de \"serviço de aposta relacionado ao ou em conjunto com o esporte\", ?serviços de apostas em linha? e ?fornecimento de serviços de rifas? em vigor no país, bem como o disposto no § 1º do art. 128 da LPI. Alternativamente, apresente especificação suprimindo o(s) item(s) mencionado(s) ou substituindo o(s) mesmo(s) por serviço(s) compatível(eis) com a classe reivindicada e considerado(s) lícito(s) pela legislação vigente na data desta exigência."
+      },
+      {
+        "rpi": "2233",
+        "data_rpi": "22/10/2013",
+        "despacho": "Republicação de pedido",
+        "detalhes": "POR INCORREÇÃO NA ESPECIFICAÇÃO."
+      },
+      {
+        "rpi": "2233",
+        "data_rpi": "22/10/2013",
+        "despacho": "Petição de retificação atendida",
+        "detalhes": "850130144703 (25/07/2013)\nPetição (tipo): Retificação por erro de publicação na RPI [em processo de registro] (366.3)\nRequerente: COMITÉ INTERNATIONAL OLYMPIQUE\nProcurador: Araripe & Associados\nDetalhes do despacho:POR INCORREÇÃO NA ESPECIFICAÇÃO."
+      },
+      {
+        "rpi": "2213",
+        "data_rpi": "04/06/2013",
+        "despacho": "003",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "908680732",
+    "nome_marca": "VAN GOGH MUSEUM AMSTERDAM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(10) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Serviços de educação e entretenimento; serviços prestados po..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "26.4.1",
+        "descricao": "Quadrados"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "Stichting Van Gogh Museum"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Dannemann, Siemsen, Bigler & Ipanema Moreira"
+    },
+    "datas": {
+      "deposito": "28/11/2014",
+      "concessao": "27/06/2017",
+      "vigencia": "27/06/2027"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "28/06/2026",
+      "ordinario_fim": "27/06/2027",
+      "extraordinario_inicio": "28/06/2026",
+      "extraordinario_fim": "27/06/2027"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2425",
+        "data_rpi": "27/06/2017",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2414",
+        "data_rpi": "11/04/2017",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2297",
+        "data_rpi": "13/01/2015",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "912621877",
+    "nome_marca": "amsterdam - assessoria / eventos / festas",
+    "situacao": "Pedido definitivamente arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Organização de competições [educação ou entretenimento] - [A..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "29.1.13",
+        "descricao": "Três cores predominantes"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "Angelo Palma Contar - ME"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "24/04/2017",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2518",
+        "data_rpi": "09/04/2019",
+        "despacho": "Arquivamento definitivo de pedido de registro por falta de pagamento da concessão",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2485",
+        "data_rpi": "21/08/2018",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2420",
+        "data_rpi": "23/05/2017",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "915873028",
+    "nome_marca": "Amsterdam Pub",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Produção de shows; Serviços de boates [entretenimento]; Serv..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "POWER EMPREENDIMENTOS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "12/09/2018",
+      "concessao": "23/07/2019",
+      "vigencia": "23/07/2029"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "24/07/2028",
+      "ordinario_fim": "23/07/2029",
+      "extraordinario_inicio": "24/07/2028",
+      "extraordinario_fim": "23/07/2029"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2533",
+        "data_rpi": "23/07/2019",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2525",
+        "data_rpi": "28/05/2019",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2492",
+        "data_rpi": "09/10/2018",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "917012640",
+    "nome_marca": "Amsterdam",
+    "situacao": "Pedido de registro de marca indeferido",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Elaboração de roteiros [roteirização]; Filmagem em vídeo; Fo..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "29.1.13",
+        "descricao": "Três cores predominantes"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "ANGELO PALMA CONTAR - ME"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "29/03/2019",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2542",
+        "data_rpi": "24/09/2019",
+        "despacho": "Indeferimento do pedido",
+        "detalhes": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 915873028 (Amsterdam Pub). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia; Elemento nominativo alterado de acordo com a imagem apresentada de \"Amsterdam Eventos\" para \"Amsterdam\"."
+      },
+      {
+        "rpi": "2521",
+        "data_rpi": "30/04/2019",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": {
+      "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 915873028 (Amsterdam Pub). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, semelhante ou afim, suscetível de causar confusão ou associação com marca alheia; Elemento nominativo alterado de acordo com a imagem apresentada de \"Amsterdam Eventos\" para \"Amsterdam\".",
+      "protocolos_conflitantes": [
+        "850190091340"
+      ]
+    }
+  },
+  {
+    "numero_processo": "924754273",
+    "nome_marca": "AMSTERDAM BARTENDERS BAR PREMIUM",
+    "situacao": "Registro de marca em vigor",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(11) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Banda de música [serviços de entretenimento];Organização de ..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.17",
+        "descricao": "Letras em caracteres cheios"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.13",
+        "descricao": "Três cores predominantes"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "JOSÉ MURILO TRAJANO SILVA 04854309164"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Kamarko Marcas e Patentes"
+    },
+    "datas": {
+      "deposito": "29/10/2021",
+      "concessao": "28/02/2023",
+      "vigencia": "28/02/2033"
+    },
+    "prazos_prorrogacao": {
+      "ordinario_inicio": "29/02/2032",
+      "ordinario_fim": "28/02/2033",
+      "extraordinario_inicio": "29/02/2032",
+      "extraordinario_fim": "28/02/2033"
+    },
+    "publicacoes": [
+      {
+        "rpi": "2721",
+        "data_rpi": "28/02/2023",
+        "despacho": "Concessão de registro",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2709",
+        "data_rpi": "06/12/2022",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2655",
+        "data_rpi": "23/11/2021",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "935265694",
+    "nome_marca": "AMSTERDAM AJU",
+    "situacao": "Aguardando processamento da concessão do registro de marca",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Aluguel de salão de festas;Decoração de festas, cerimônias e..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "GDA RESTAURANTE E EVENTOS LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "A Provincia Marcas e Patentes Ltda."
+    },
+    "datas": {
+      "deposito": "04/07/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2875",
+        "data_rpi": "10/02/2026",
+        "despacho": "Deferimento do pedido",
+        "detalhes": ""
+      },
+      {
+        "rpi": "2794",
+        "data_rpi": "23/07/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "941478220",
+    "nome_marca": "Nova Amsterdam",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 41",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Agência de modelos para artistas [modelos vivos];Agência de ..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "29.1.4",
+        "descricao": "Azul"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.3.12",
+        "descricao": "Triângulos contendo uma ou mais outras figuras geométricas"
+      },
+      {
+        "edicao": "4",
+        "codigo": "5.5.3",
+        "descricao": "Tulipas, magnólias"
+      },
+      {
+        "edicao": "4",
+        "codigo": "29.1.6",
+        "descricao": "Branco, cinza, prateado"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "RESENHA RENTAVEL LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "03/10/2025",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2859",
+        "data_rpi": "21/10/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "815030495",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Arquivado",
+    "apresentacao": "Mista",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM COMERCIO DE PECAS LTDA"
+      }
+    ],
+    "representante_legal": null,
+    "datas": {
+      "deposito": "28/08/1989",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1098",
+        "data_rpi": "17/12/1991",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1075",
+        "data_rpi": "09/07/1991",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1058",
+        "data_rpi": "12/03/1991",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1036",
+        "data_rpi": "09/10/1990",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817646930",
+    "nome_marca": "AMSTERDAM SAUER",
+    "situacao": "Arquivado",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM SAUER JOALHEIROS LTDA."
+      }
+    ],
+    "representante_legal": {
+      "nome": "VANDER PEDRA FERNANDES"
+    },
+    "datas": {
+      "deposito": "06/12/1993",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1338",
+        "data_rpi": "23/07/1996",
+        "despacho": "170",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1338",
+        "data_rpi": "23/07/1996",
+        "despacho": "150",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1313",
+        "data_rpi": "30/01/1996",
+        "despacho": "025",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1287",
+        "data_rpi": "01/08/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1263",
+        "data_rpi": "14/02/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1233",
+        "data_rpi": "19/07/1994",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "817704590",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Extinto",
+    "apresentacao": "Nominativa",
+    "natureza": "De Serviço",
+    "classes": [],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "PONTA DO LEME COMERCIO E DISTRIBUICAO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "PAULO C. OLIVEIRA. & CIA."
+    },
+    "datas": {
+      "deposito": "25/02/1994",
+      "concessao": "26/03/1996",
+      "vigencia": "26/03/2006"
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "1898",
+        "data_rpi": "22/05/2007",
+        "despacho": "700",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1321",
+        "data_rpi": "26/03/1996",
+        "despacho": "400",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1298",
+        "data_rpi": "17/10/1995",
+        "despacho": "250",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1273",
+        "data_rpi": "25/04/1995",
+        "despacho": "350",
+        "detalhes": ""
+      },
+      {
+        "rpi": "1240",
+        "data_rpi": "06/09/1994",
+        "despacho": "300",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "936107626",
+    "nome_marca": "AMSTERDÃ MOTOCICLETA",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Comércio [através de qualquer meio] de partes e componentes ..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "27.5.7",
+        "descricao": "Letras encimadas por um sinal de dimensão desproporcional"
+      },
+      {
+        "edicao": "4",
+        "codigo": "9.1.10",
+        "descricao": "Faixas, laços"
+      },
+      {
+        "edicao": "4",
+        "codigo": "18.1.5",
+        "descricao": "Bicicletas, motocicletas, lambretas, triciclos"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "JOSE AMSTERDA MACEDO DE OLIVEIRA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "IMPACTA MARCAS E PATENTES"
+    },
+    "datas": {
+      "deposito": "05/09/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2803",
+        "data_rpi": "24/09/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "936774983",
+    "nome_marca": "GREEN HOUSE AMSTERDAM",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Mista",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Administração comercial;Administração de empresa;Assessoria,..."
+      }
+    ],
+    "classificacao_viena": [
+      {
+        "edicao": "4",
+        "codigo": "27.5.1",
+        "descricao": "Letras apresentando um grafismo especial"
+      },
+      {
+        "edicao": "4",
+        "codigo": "26.3.23",
+        "descricao": "Linhas ou faixas formando um ângulo"
+      },
+      {
+        "edicao": "4",
+        "codigo": "5.3.11",
+        "descricao": "Outras folhas"
+      }
+    ],
+    "titulares": [
+      {
+        "nome": "GHSC TRADING B.V."
+      }
+    ],
+    "representante_legal": {
+      "nome": "PRISCILA CROITOR DA ROCHA"
+    },
+    "datas": {
+      "deposito": "25/10/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2810",
+        "data_rpi": "12/11/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "937025984",
+    "nome_marca": "AMSTERDAM",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Negócios de gestão hoteleira"
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "AMSTERDAM MOTEL LTDA - ME"
+      }
+    ],
+    "representante_legal": {
+      "nome": "GILBERTO LUIS DA SILVEIRA"
+    },
+    "datas": {
+      "deposito": "14/11/2024",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2814",
+        "data_rpi": "10/12/2024",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  },
+  {
+    "numero_processo": "938338293",
+    "nome_marca": "EDIFICIO RESIDENCIAL AMSTERDAM",
+    "situacao": "Aguardando exame de mérito",
+    "apresentacao": "Nominativa",
+    "natureza": "Produtos e/ou Serviço",
+    "classes": [
+      {
+        "numero_classe": "NCL(12) 35",
+        "situacao_classe": "Vide Situação do Processo",
+        "especificacao": "Consultoria em gestão de negócios;Serviços de assessoria em ..."
+      }
+    ],
+    "classificacao_viena": [],
+    "titulares": [
+      {
+        "nome": "SARY E ARAUJO INCORPORACAO E CONSTRUCAO LTDA"
+      }
+    ],
+    "representante_legal": {
+      "nome": "Alcion Bubniak"
+    },
+    "datas": {
+      "deposito": "13/03/2025",
+      "concessao": null,
+      "vigencia": null
+    },
+    "prazos_prorrogacao": null,
+    "publicacoes": [
+      {
+        "rpi": "2831",
+        "data_rpi": "08/04/2025",
+        "despacho": "Publicação de pedido de registro para oposição (exame formal concluído)",
+        "detalhes": ""
+      }
+    ],
+    "detalhes_indeferimento": null
+  }
+]
