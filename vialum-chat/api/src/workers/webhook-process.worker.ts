@@ -30,6 +30,7 @@ export interface WebhookProcessJobData {
 // Singleton queues to avoid per-job connection overhead
 let _automationQueue: Queue | null = null;
 let _talkRouteQueue: Queue | null = null;
+let _mediaPersistQueue: Queue | null = null;
 
 function getAutomationQueue(): Queue {
   if (!_automationQueue) {
@@ -43,6 +44,21 @@ function getTalkRouteQueue(): Queue {
     _talkRouteQueue = new Queue('talk-route-message', { connection: getRedis() as any });
   }
   return _talkRouteQueue;
+}
+
+function getMediaPersistQueue(): Queue {
+  if (!_mediaPersistQueue) {
+    _mediaPersistQueue = new Queue('media-persist', {
+      connection: getRedis() as any,
+      defaultJobOptions: {
+        attempts: 3,
+        backoff: { type: 'exponential', delay: 2000 },
+        removeOnComplete: 1000,
+        removeOnFail: 5000,
+      },
+    });
+  }
+  return _mediaPersistQueue;
 }
 
 export function createWebhookProcessWorker(io: SocketIOServer): Worker {
@@ -270,13 +286,33 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
         unreadCount: updatedConv?.unreadCount ?? 0,
       });
 
-      // ── 6. Trigger automation + talk routing ──
+      // ── 6. Enqueue media persist for non-text messages ──
+      if (normalized.contentType !== 'text' && !isOutgoing) {
+        const providerConfig = (inbox?.providerConfig ?? {}) as Record<string, any>;
+        await getMediaPersistQueue().add('persist', {
+          messageId: message.id,
+          conversationId: conversation!.id,
+          accountId,
+          inboxId,
+          provider,
+          contentType: normalized.contentType,
+          mediaUrl: (normalized.contentAttributes?.url as string) ?? undefined,
+          mediaId: (normalized.contentAttributes?.mediaId as string) ?? undefined,
+          accessToken: providerConfig.access_token ?? providerConfig.accessToken,
+          instanceName: providerConfig.instance_name ?? providerConfig.instanceName,
+          instanceBaseUrl: providerConfig.base_url ?? providerConfig.baseUrl,
+          mimeType: (normalized.contentAttributes?.mimetype as string) ?? undefined,
+          fileName: (normalized.contentAttributes?.fileName as string) ?? undefined,
+        }, { jobId: `media-${message.id}` });
+      }
+
+      // ── 7. Trigger automation + talk routing ──
       await getAutomationQueue().add('evaluate', {
         accountId,
         eventName: 'message_created',
         eventData: {
           messageId: message.id,
-          conversationId: conversation.id,
+          conversationId: conversation!.id,
           contactId,
           inboxId,
           content: normalized.content,
@@ -509,7 +545,31 @@ async function processGroupMessage(
     groupId: group.id,
   });
 
-  // ── 7. Trigger automation + talk routing ──
+  // ── 7. Enqueue media persist for non-text group messages ──
+  if (normalized.contentType !== 'text' && !isGroupOutgoing) {
+    const providerConfigGroup = (await prisma.inbox.findUnique({
+      where: { id: inboxId },
+      select: { providerConfig: true },
+    }))?.providerConfig as Record<string, any> ?? {};
+
+    await getMediaPersistQueue().add('persist', {
+      messageId: message.id,
+      conversationId: conversation!.id,
+      accountId,
+      inboxId,
+      provider: whatsappProvider.providerName,
+      contentType: normalized.contentType,
+      mediaUrl: (normalized.contentAttributes?.url as string) ?? undefined,
+      mediaId: (normalized.contentAttributes?.mediaId as string) ?? undefined,
+      accessToken: providerConfigGroup.access_token ?? providerConfigGroup.accessToken,
+      instanceName: providerConfigGroup.instance_name ?? providerConfigGroup.instanceName,
+      instanceBaseUrl: providerConfigGroup.base_url ?? providerConfigGroup.baseUrl,
+      mimeType: (normalized.contentAttributes?.mimetype as string) ?? undefined,
+      fileName: (normalized.contentAttributes?.fileName as string) ?? undefined,
+    }, { jobId: `media-${message.id}` });
+  }
+
+  // ── 8. Trigger automation + talk routing ──
   await getAutomationQueue().add('evaluate', {
     accountId,
     eventName: 'message_created',

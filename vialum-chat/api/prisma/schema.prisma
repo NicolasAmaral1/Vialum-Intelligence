@@ -323,6 +323,7 @@ model Message {
   contentAttributes Json     @default("{}") @map("content_attributes")
   status            String   @default("sent") @db.VarChar(50) // sending | sent | delivered | read | failed
   private           Boolean  @default(false) // true = internal note
+  textContent       String?  @map("text_content") // extracted text from media (OCR, transcription)
   externalMessageId String?  @map("external_message_id") @db.VarChar(255)
   createdAt         DateTime @default(now()) @map("created_at") @db.Timestamptz
   updatedAt         DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz

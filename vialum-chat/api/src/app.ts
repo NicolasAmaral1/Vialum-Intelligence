@@ -21,6 +21,7 @@ import { treeFlowRoutes } from './modules/treeflow/treeflow.routes.js';
 import { talkRoutes } from './modules/talks/talks.routes.js';
 import { objectionRoutes } from './modules/objections/objections.routes.js';
 import { webhookRoutes } from './webhooks/webhook.routes.js';
+import { switchWebhookRoutes } from './webhooks/switch.webhook.js';
 import { externalRoutes } from './modules/external/external.routes.js';
 import { apiKeyRoutes } from './modules/external/api-keys.routes.js';
 import { groupRoutes } from './modules/groups/groups.routes.js';
@@ -64,6 +65,7 @@ export async function buildApp(): Promise<FastifyInstance> {
 
   // Public webhook routes (no auth)
   await app.register(webhookRoutes, { prefix: '/chat/webhooks' });
+  await app.register(switchWebhookRoutes, { prefix: '/chat/webhooks' });
 
   // Auth routes
   await app.register(authRoutes, { prefix: '/chat/api/v1/auth' });

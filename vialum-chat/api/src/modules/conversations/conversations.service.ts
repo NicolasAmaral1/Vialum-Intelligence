@@ -195,6 +195,11 @@ export async function findById(accountId: string, conversationId: string) {
 
   return {
     ...conversation,
+    contact: conversation.contact ? {
+      ...conversation.contact,
+      displayName: getDisplayName(conversation.contact),
+      formattedPhone: formatPhoneBR(conversation.contact.phone),
+    } : conversation.contact,
     labels: conversation.conversationLabels.map((cl) => cl.label),
     pendingSuggestionsCount: conversation._count.aiSuggestions,
     conversationLabels: undefined,

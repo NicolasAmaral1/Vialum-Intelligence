@@ -1,11 +1,13 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { X, ExternalLink, Loader2, FolderOpen, BarChart3, CheckSquare, Phone, Mail, GitBranch, Users, RefreshCw, Shield } from 'lucide-react';
+import { useEffect, useState, useRef } from 'react';
+import { X, ExternalLink, Loader2, FolderOpen, BarChart3, CheckSquare, Phone, Mail, GitBranch, Users, RefreshCw, Shield, Pencil, Check } from 'lucide-react';
 import { crmApi } from '@/lib/api/crm';
 import { groupsApi, type GroupMember } from '@/lib/api/groups';
+import { contactsApi } from '@/lib/api/contacts';
 import { useAuthStore } from '@/stores/auth.store';
 import { ContactAvatar } from '@/components/shared/AvatarFallback';
+import { formatPhoneBR } from '@/lib/format-phone';
 import type { ContactCrmSummary, CrmIntegrationSummary } from '@/types/crm';
 import type { Contact, Label, Group } from '@/types/api';
 
@@ -42,6 +44,10 @@ export function ContactSidebar({
   const [groupMembers, setGroupMembers] = useState<GroupMember[]>([]);
   const [groupLoading, setGroupLoading] = useState(false);
   const [syncing, setSyncing] = useState(false);
+  const [editingName, setEditingName] = useState(false);
+  const [editNameValue, setEditNameValue] = useState('');
+  const [savingName, setSavingName] = useState(false);
+  const editInputRef = useRef<HTMLInputElement>(null);
 
   const isGroup = !!group;
 
@@ -104,6 +110,36 @@ export function ContactSidebar({
     }
   };
 
+  const startEditName = () => {
+    setEditNameValue(contact.customName || '');
+    setEditingName(true);
+    setTimeout(() => editInputRef.current?.focus(), 50);
+  };
+
+  const saveCustomName = async () => {
+    if (!currentAccount || savingName) return;
+    setSavingName(true);
+    try {
+      const trimmed = editNameValue.trim();
+      await contactsApi.update(currentAccount.accountId, contact.id, {
+        customName: trimmed || null, // null = clear custom name, fallback to CRM/pushName
+      });
+      // Update local contact state
+      contact.customName = trimmed || null;
+      contact.displayName = trimmed || contact.crmName || contact.name || contact.formattedPhone || contact.phone || 'Sem nome';
+      setEditingName(false);
+    } catch {
+      // silently fail
+    } finally {
+      setSavingName(false);
+    }
+  };
+
+  const handleEditKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') saveCustomName();
+    if (e.key === 'Escape') setEditingName(false);
+  };
+
   const displayName = isGroup ? (group?.name || 'Grupo sem nome') : (contact.displayName || contact.name);
   const initials = displayName?.slice(0, 2).toUpperCase() || '??';
 
@@ -163,10 +199,51 @@ export function ContactSidebar({
             {isGroup ? <Users className="h-7 w-7" /> : initials}
           </div>
         )}
-        <h4 className="mt-3 text-[16px] font-semibold text-text-1 flex items-center gap-1.5">
-          {isGroup && <span className="text-[13px]">👥</span>}
-          {displayName}
-        </h4>
+        {/* Editable name */}
+        {!isGroup && editingName ? (
+          <div className="mt-3 flex items-center gap-1.5 w-full max-w-[280px]">
+            <input
+              ref={editInputRef}
+              type="text"
+              value={editNameValue}
+              onChange={(e) => setEditNameValue(e.target.value)}
+              onKeyDown={handleEditKeyDown}
+              placeholder={contact.crmName || (!/^\d+$/.test(contact.name) ? contact.name : null) || formatPhoneBR(contact.phone) || 'Nome personalizado'}
+              className="flex-1 px-2.5 py-1.5 text-[14px] font-semibold text-text-1 bg-surface-custom border border-primary/50 rounded-lg focus:outline-none focus:border-primary text-center"
+            />
+            <button
+              onClick={saveCustomName}
+              disabled={savingName}
+              className="p-1.5 rounded-lg bg-primary/10 text-primary hover:bg-primary/20 transition-colors disabled:opacity-50"
+            >
+              <Check className="h-3.5 w-3.5" />
+            </button>
+            <button
+              onClick={() => setEditingName(false)}
+              className="p-1.5 rounded-lg hover:bg-white/[0.05] text-text-3 transition-colors"
+            >
+              <X className="h-3.5 w-3.5" />
+            </button>
+          </div>
+        ) : (
+          <h4
+            className="mt-3 text-[16px] font-semibold text-text-1 flex items-center gap-1.5 group cursor-pointer"
+            onClick={!isGroup ? startEditName : undefined}
+          >
+            {isGroup && <span className="text-[13px]">👥</span>}
+            {displayName}
+            {!isGroup && (
+              <Pencil className="h-3 w-3 text-text-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+            )}
+          </h4>
+        )}
+
+        {/* Name source indicator */}
+        {!isGroup && !editingName && (
+          <span className="text-[9px] text-text-4 mt-0.5">
+            {contact.customName ? 'Nome personalizado' : contact.crmName ? 'Nome do CRM' : /^\d+$/.test(contact.name) ? '' : 'Nome do WhatsApp'}
+          </span>
+        )}
 
         {isGroup ? (
           <>
