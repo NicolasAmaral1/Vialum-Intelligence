@@ -172,6 +172,7 @@ model Inbox {
 model Contact {
   id               String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   accountId        String    @map("account_id") @db.Uuid
+  hubContactId     String?   @map("hub_contact_id") @db.Uuid  // ID universal no Vialum Hub
   name             String    @db.VarChar(255)             // pushName do WhatsApp (auto)
   customName       String?   @map("custom_name") @db.VarChar(255)  // nome dado por vocês (sempre sobrescreve)
   crmName          String?   @map("crm_name") @db.VarChar(255)     // nome vindo do CRM Hub

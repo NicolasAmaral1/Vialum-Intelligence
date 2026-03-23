@@ -8,34 +8,38 @@ datasource db {
 }
 
 // ════════════════════════════════════════════════════════════
-// CRM CONTACTS — Links to Vialum Chat contacts
+// HUB CONTACTS — Universal identity, source-agnostic
 // ════════════════════════════════════════════════════════════
 
 model CrmContact {
-  id              String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  vialumContactId String   @map("vialum_contact_id") @db.Uuid
-  accountId       String   @map("account_id") @db.Uuid
-  phone           String?  @db.VarChar(50)
-  email           String?  @db.VarChar(255)
-  name            String?  @db.VarChar(255)
-  tags            String[] @default([])
-  metadata        Json     @default("{}")
-  createdAt       DateTime @default(now()) @map("created_at") @db.Timestamptz
-  updatedAt       DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+  id               String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  externalSourceId String?  @map("external_source_id") @db.VarChar(255) // ID in the source service (e.g., Chat contact UUID)
+  externalSource   String?  @map("external_source") @db.VarChar(50)     // Source service: vialum_chat, vialum_portal, etc.
+  accountId        String   @map("account_id") @db.Uuid
+  phone            String?  @db.VarChar(50)
+  email            String?  @db.VarChar(255)
+  name             String?  @db.VarChar(255)
+  nameSource       String   @default("unknown") @map("name_source") @db.VarChar(30) // whatsapp | chat | task | crm | manual
+  tags             String[] @default([])
+  metadata         Json     @default("{}")
+  createdAt        DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt        DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
 
   aliases       ContactAlias[]
   integrations  CrmIntegration[]
   groupMappings WhatsAppGroupMapping[]
   organizations ContactOrganization[]
 
-  @@unique([accountId, vialumContactId])
+  @@index([accountId])
   @@index([phone])
   @@index([email])
+  @@index([accountId, phone])
+  @@index([accountId, externalSourceId, externalSource])
   @@map("crm_contacts")
 }
 
 // ════════════════════════════════════════════════════════════
-// CRM ORGANIZATIONS — Companies, PJ entities
+// ORGANIZATIONS — Companies, PJ entities
 // ════════════════════════════════════════════════════════════
 
 model CrmOrganization {
@@ -61,7 +65,7 @@ model OrganizationAlias {
   id             String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   organizationId String   @map("organization_id") @db.Uuid
   accountId      String   @map("account_id") @db.Uuid
-  type           String   @db.VarChar(30)    // cnpj | trade_name | ie
+  type           String   @db.VarChar(30)
   value          String   @db.VarChar(255)
   isPrimary      Boolean  @default(false) @map("is_primary")
   createdAt      DateTime @default(now()) @map("created_at") @db.Timestamptz
@@ -90,15 +94,16 @@ model ContactOrganization {
 }
 
 // ════════════════════════════════════════════════════════════
-// CONTACT ALIASES — Multi-identifier lookup (N phones, emails, CPFs)
+// CONTACT ALIASES — Multi-identifier lookup
+// Types: phone, email, cpf, cnpj, pipedrive_person, rdstation_contact, clickup_member, source:*, custom:*
 // ════════════════════════════════════════════════════════════
 
 model ContactAlias {
   id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   crmContactId String   @map("crm_contact_id") @db.Uuid
   accountId    String   @map("account_id") @db.Uuid
-  type         String   @db.VarChar(30)   // phone | email | cpf | cnpj
-  value        String   @db.VarChar(255)  // normalized (phone: E.164, email: lowercase)
+  type         String   @db.VarChar(50)   // extensible — any known type or custom:* prefix
+  value        String   @db.VarChar(255)  // normalized (phone: E.164, email: lowercase, IDs: raw)
   isPrimary    Boolean  @default(false) @map("is_primary")
   createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
 
@@ -111,20 +116,21 @@ model ContactAlias {
 }
 
 // ════════════════════════════════════════════════════════════
-// CRM INTEGRATIONS — Links to external systems
+// INTEGRATIONS — Links to external systems (deals, tasks, folders)
 // ════════════════════════════════════════════════════════════
 
 model CrmIntegration {
   id            String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   crmContactId  String   @map("crm_contact_id") @db.Uuid
-  provider      String   @db.VarChar(50) // pipedrive | clickup | gdrive
+  provider      String   @db.VarChar(50)
   externalId    String   @map("external_id") @db.VarChar(255)
   externalUrl   String?  @map("external_url")
-  resourceType  String   @map("resource_type") @db.VarChar(50) // deal | person | task | folder
+  resourceType  String   @map("resource_type") @db.VarChar(50)
   resourceName  String?  @map("resource_name") @db.VarChar(255)
   status        String?  @db.VarChar(100)
   stage         String?  @db.VarChar(100)
   value         Decimal? @db.Decimal(12, 2)
+  active        Boolean  @default(true)  // false when provider is deactivated
   syncedAt      DateTime @default(now()) @map("synced_at") @db.Timestamptz
   rawData       Json     @default("{}") @map("raw_data")
   createdAt     DateTime @default(now()) @map("created_at") @db.Timestamptz
@@ -139,18 +145,19 @@ model CrmIntegration {
 }
 
 // ════════════════════════════════════════════════════════════
-// PROVIDER CONFIGS — API keys and tokens
+// PROVIDER CONFIGS — API keys, tokens, sync settings per tenant
 // ════════════════════════════════════════════════════════════
 
 model ProviderConfig {
-  id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  accountId  String   @map("account_id") @db.Uuid
-  provider   String   @db.VarChar(50) // pipedrive | hubspot | clickup | gdrive | ...
-  category   String   @default("crm") @db.VarChar(30) // crm | tasks | documents
-  config     Json     // { apiKey, apiToken, domain, ... }
-  active     Boolean  @default(true)
-  createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz
-  updatedAt  DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+  id         String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId  String    @map("account_id") @db.Uuid
+  provider   String    @db.VarChar(50)
+  category   String    @default("crm") @db.VarChar(30)
+  config     Json
+  active     Boolean   @default(true)
+  lastSyncAt DateTime? @map("last_sync_at") @db.Timestamptz
+  createdAt  DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt  DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
 
   @@unique([accountId, provider])
   @@index([accountId, category, active])
@@ -179,16 +186,16 @@ model OAuthToken {
 }
 
 // ════════════════════════════════════════════════════════════
-// WHATSAPP GROUP MAPPINGS — Links groups to CRM contacts
+// WHATSAPP GROUP MAPPINGS — Links groups to Hub contacts
 // ════════════════════════════════════════════════════════════
 
 model WhatsAppGroupMapping {
   id           String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   accountId    String   @map("account_id") @db.Uuid
   crmContactId String   @map("crm_contact_id") @db.Uuid
-  groupJid     String   @map("group_jid") @db.VarChar(100) // 120363XXXXX@g.us
+  groupJid     String   @map("group_jid") @db.VarChar(100)
   groupName    String?  @map("group_name") @db.VarChar(255)
-  groupType    String   @default("client") @map("group_type") @db.VarChar(30) // client | agency
+  groupType    String   @default("client") @map("group_type") @db.VarChar(30)
   createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
   updatedAt    DateTime @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
 
@@ -207,14 +214,14 @@ model ProviderOperation {
   id         String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   accountId  String   @map("account_id") @db.Uuid
   provider   String   @db.VarChar(50)
-  category   String   @db.VarChar(30)      // tasks | crm | documents
-  operation  String   @db.VarChar(50)      // create_task, update_status, add_comment...
+  category   String   @db.VarChar(30)
+  operation  String   @db.VarChar(50)
   entityId   String?  @map("entity_id") @db.VarChar(255)
   params     Json     @default("{}")
   result     Json?
-  status     String   @db.VarChar(20)      // success | failed | rate_limited
+  status     String   @db.VarChar(20)
   error      String?  @db.Text
-  caller     String?  @db.VarChar(100)     // squad:protocolo, portal, media-service
+  caller     String?  @db.VarChar(100)
   durationMs Int?     @map("duration_ms")
   createdAt  DateTime @default(now()) @map("created_at") @db.Timestamptz
 

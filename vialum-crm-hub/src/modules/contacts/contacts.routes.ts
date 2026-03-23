@@ -1,5 +1,6 @@
 import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
 import * as contactsService from './contacts.service.js';
+import { ensureContact } from './ensure.service.js';
 
 export async function contactRoutes(fastify: FastifyInstance) {
   // GET /:vialumContactId — full contact with integrations
@@ -46,6 +47,28 @@ export async function contactRoutes(fastify: FastifyInstance) {
     });
 
     return reply.status(200).send({ data: contact });
+  });
+
+  // POST /ensure — atomic find-or-create (used by Chat, Portal, etc.)
+  fastify.post('/ensure', async (request: FastifyRequest, reply: FastifyReply) => {
+    const { accountId } = request.jwtPayload!;
+    const body = request.body as Record<string, unknown>;
+
+    if (!body.phone && !body.sourceId) {
+      return reply.status(400).send({ error: 'phone or sourceId is required', code: 'MISSING_FIELD' });
+    }
+
+    const result = await ensureContact({
+      accountId,
+      phone: body.phone as string | undefined,
+      email: body.email as string | undefined,
+      name: body.name as string | undefined,
+      nameSource: body.nameSource as string | undefined,
+      sourceId: body.sourceId as string | undefined,
+      source: body.source as string | undefined,
+    });
+
+    return reply.status(result.isNew ? 201 : 200).send({ data: result });
   });
 
   // PATCH /:id — update tags/metadata

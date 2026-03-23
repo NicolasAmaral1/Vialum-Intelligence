@@ -7,6 +7,7 @@ import { createWebhookProcessWorker } from './webhook-process.worker.js';
 import { createAutomationWorker } from './automation.worker.js';
 import { createSnoozeWorker, scheduleSnoozeChecks } from './snooze.worker.js';
 import { createMediaPersistWorker } from './media-persist.worker.js';
+import { createHubEnsureWorker } from './hub-ensure.worker.js';
 import { Worker } from 'bullmq';
 
 // ════════════════════════════════════════════════════════════
@@ -23,6 +24,7 @@ export interface WorkerRegistry {
   automation: Worker;
   snooze: Worker;
   mediaPersist: Worker;
+  hubEnsure: Worker;
 }
 
 /**
@@ -41,6 +43,7 @@ export async function initializeWorkers(io: SocketIOServer): Promise<WorkerRegis
   const automation = createAutomationWorker(io);
   const snooze = createSnoozeWorker(io);
   const mediaPersist = createMediaPersistWorker();
+  const hubEnsure = createHubEnsureWorker();
 
   // Schedule repeating jobs
   await scheduleInactivityChecks();
@@ -76,6 +79,7 @@ export async function initializeWorkers(io: SocketIOServer): Promise<WorkerRegis
   console.log('  - automation-evaluate (concurrency: 5)');
   console.log('  - conversation-snooze-check (cron: * * * * *)');
   console.log('  - media-persist (concurrency: 5)');
+  console.log('  - hub-ensure (concurrency: 5)');
 
   return {
     talkRoute,
@@ -86,6 +90,7 @@ export async function initializeWorkers(io: SocketIOServer): Promise<WorkerRegis
     automation,
     snooze,
     mediaPersist,
+    hubEnsure,
   };
 }
 

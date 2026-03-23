@@ -31,6 +31,7 @@ export interface WebhookProcessJobData {
 let _automationQueue: Queue | null = null;
 let _talkRouteQueue: Queue | null = null;
 let _mediaPersistQueue: Queue | null = null;
+let _hubEnsureQueue: Queue | null = null;
 
 function getAutomationQueue(): Queue {
   if (!_automationQueue) {
@@ -44,6 +45,21 @@ function getTalkRouteQueue(): Queue {
     _talkRouteQueue = new Queue('talk-route-message', { connection: getRedis() as any });
   }
   return _talkRouteQueue;
+}
+
+function getHubEnsureQueue(): Queue {
+  if (!_hubEnsureQueue) {
+    _hubEnsureQueue = new Queue('hub-ensure', {
+      connection: getRedis() as any,
+      defaultJobOptions: {
+        attempts: 5,
+        backoff: { type: 'exponential', delay: 5000 },
+        removeOnComplete: 1000,
+        removeOnFail: 5000,
+      },
+    });
+  }
+  return _hubEnsureQueue;
 }
 
 function getMediaPersistQueue(): Queue {
@@ -149,14 +165,14 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
         if (isNew) {
           job.log(`Created new contact ${contact.id} (${normalized.senderPhone})`);
           fetchAndUpdateAvatar(contact.id, normalized.senderPhone, whatsappProvider, providerConfig);
-          syncContactNameFromCRM(contact.id, normalized.senderPhone, normalized.senderName);
+          getHubEnsureQueue().add('ensure', { contactId: contact.id, accountId, phone: normalized.senderPhone, name: normalized.senderName }, { jobId: `ensure:${accountId}:${normalized.senderPhone}` });
         } else {
           job.log(`Reusing existing contact ${contact.id} for new inbox`);
           if (!contact.avatarUrl) {
             fetchAndUpdateAvatar(contact.id, normalized.senderPhone, whatsappProvider, providerConfig);
           }
           if (contact.name === normalized.senderPhone || contact.name === normalized.senderName) {
-            syncContactNameFromCRM(contact.id, normalized.senderPhone, contact.name);
+            getHubEnsureQueue().add('ensure', { contactId: contact.id, accountId, phone: normalized.senderPhone, name: contact.name }, { jobId: `ensure:${accountId}:${normalized.senderPhone}` });
           }
         }
 
@@ -413,7 +429,7 @@ async function processGroupMessage(
     });
     job.log(`Created new contact ${contact.id} (${participantPhone})`);
     fetchAndUpdateAvatar(contact.id, participantPhone, whatsappProvider, providerConfig);
-    syncContactNameFromCRM(contact.id, participantPhone, normalized.senderName);
+    getHubEnsureQueue().add('ensure', { contactId: contact.id, accountId, phone: participantPhone, name: normalized.senderName }, { jobId: `ensure:${accountId}:${participantPhone}` });
   } else {
     if (normalized.senderName && contact.name === participantPhone) {
       await prisma.contact.update({
@@ -426,7 +442,7 @@ async function processGroupMessage(
     }
     // Sync name from CRM if still using pushName or phone
     if (contact.name === participantPhone || contact.name === normalized.senderName) {
-      syncContactNameFromCRM(contact.id, participantPhone, contact.name);
+      getHubEnsureQueue().add('ensure', { contactId: contact.id, accountId, phone: participantPhone, name: contact.name }, { jobId: `ensure:${accountId}:${participantPhone}` });
     }
   }
 
@@ -635,49 +651,8 @@ function fetchAndUpdateAvatar(
     .catch((err) => console.error("[background]", err.message || err));
 }
 
-// ── CRM Name Sync (fire-and-forget) ──
-// Calls the CRM Hub to resolve the contact's official name from Pipedrive/CRM
-// and updates the contact name in vialum-chat if found.
-
-function syncContactNameFromCRM(
-  contactId: string,
-  phone: string,
-  contactName: string | null,
-): void {
-  const crmUrl = process.env.CRM_HUB_URL;
-  if (!crmUrl) return;
-
-  // Call CRM Hub lookup endpoint
-  fetch(`${crmUrl}/api/v1/contacts/lookup`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      vialumContactId: contactId,
-      phone,
-      name: contactName,
-    }),
-  })
-    .then((res) => res.ok ? res.json() : null)
-    .then((data: any) => {
-      const crmName = data?.data?.name;
-      if (!crmName || crmName === contactName) return;
-
-      // Also check integrations for Pipedrive person name
-      const integrations = data?.data?.integrations ?? [];
-      const pipedrivePersonName = integrations.find(
-        (i: any) => i.provider === 'pipedrive' && i.resourceType === 'person',
-      )?.resourceName;
-
-      const officialName = pipedrivePersonName || crmName;
-      if (!officialName) return;
-
-      return getPrisma().contact.update({
-        where: { id: contactId },
-        data: { crmName: officialName },
-      });
-    })
-    .catch((err) => console.error("[background]", err.message || err));
-}
+// syncContactNameFromCRM REMOVED — replaced by hub-ensure worker (Story 2.6.1)
+// The hub-ensure worker calls POST /contacts/ensure which returns the name from Hub.
 
 function fetchAndUpdateGroupName(
   groupId: string,

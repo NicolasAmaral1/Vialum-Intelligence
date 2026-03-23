@@ -2,6 +2,7 @@ import { Worker, Job } from 'bullmq';
 import { getRedis } from '../config/redis.js';
 import { getPrisma } from '../config/database.js';
 import { getEnv } from '../config/env.js';
+import { getWhatsAppProvider } from '../providers/factory.js';
 import crypto from 'node:crypto';
 
 // ════════════════════════════════════════════════════════════
@@ -24,6 +25,7 @@ export interface MediaPersistJobData {
   inboxId: string;
   provider: string;
   contentType: string;
+  externalMessageId?: string;
   // Evolution API
   mediaUrl?: string;
   // Cloud API
@@ -81,37 +83,70 @@ export function createMediaPersistWorker(): Worker {
         return { skipped: true, reason: 'already_persisted' };
       }
 
-      // Build request to Media Service
-      const body: Record<string, unknown> = {
-        provider,
-        context_type: 'message',
-        context_id: messageId,
-        mimeType: job.data.mimeType,
-        filename: job.data.fileName,
-        tags: ['whatsapp', contentType],
+      // Try adapter's downloadMedia first (decrypts WhatsApp media)
+      const whatsappProvider = getWhatsAppProvider(provider);
+      const adapterConfig = {
+        base_url: job.data.instanceBaseUrl,
+        api_key: job.data.accessToken,
+        instance_name: job.data.instanceName,
+        // Cloud API fields
+        access_token: job.data.accessToken,
+        phone_number_id: job.data.mediaId,
       };
 
-      if (provider === 'evolution_api') {
-        body.mediaUrl = job.data.mediaUrl;
-        body.instanceName = job.data.instanceName;
-        body.instanceBaseUrl = job.data.instanceBaseUrl;
-      } else if (provider === 'cloud_api') {
-        body.mediaId = job.data.mediaId;
-        body.accessToken = job.data.accessToken;
-      }
-
-      // Call Media Service
+      let response: Response;
       const token = generateServiceToken(accountId);
-      const mediaUrl = `${env.MEDIA_SERVICE_URL}/api/v1/files/from-whatsapp`;
 
-      const response = await fetch(mediaUrl, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify(body),
-      });
+      if (whatsappProvider.downloadMedia && job.data.externalMessageId) {
+        // Use adapter to download decrypted media
+        const media = await whatsappProvider.downloadMedia(
+          adapterConfig as Record<string, unknown>,
+          job.data.externalMessageId,
+        );
+
+        if (media) {
+          // Upload base64 directly to Media Service
+          const buffer = Buffer.from(media.base64, 'base64');
+          const boundary = `----formdata${Date.now()}`;
+          const filename = job.data.fileName || `wa_${Date.now()}`;
+          const mimeType = media.mimeType || job.data.mimeType || 'application/octet-stream';
+
+          // Build multipart form data manually
+          const parts: Buffer[] = [];
+          // File part
+          parts.push(Buffer.from(`--${boundary}\r\nContent-Disposition: form-data; name="file"; filename="${filename}"\r\nContent-Type: ${mimeType}\r\n\r\n`));
+          parts.push(buffer);
+          parts.push(Buffer.from('\r\n'));
+          // context_type
+          parts.push(Buffer.from(`--${boundary}\r\nContent-Disposition: form-data; name="context_type"\r\n\r\nmessage\r\n`));
+          // context_id
+          parts.push(Buffer.from(`--${boundary}\r\nContent-Disposition: form-data; name="context_id"\r\n\r\n${messageId}\r\n`));
+          // tags
+          parts.push(Buffer.from(`--${boundary}\r\nContent-Disposition: form-data; name="tags"\r\n\r\nwhatsapp,${contentType}\r\n`));
+          parts.push(Buffer.from(`--${boundary}--\r\n`));
+
+          const bodyBuffer = Buffer.concat(parts);
+
+          response = await fetch(`${env.MEDIA_SERVICE_URL}/api/v1/files`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': `multipart/form-data; boundary=${boundary}`,
+              Authorization: `Bearer ${token}`,
+              'Content-Length': String(bodyBuffer.length),
+            },
+            body: bodyBuffer,
+          });
+
+          job.log(`Uploaded decrypted media (${mimeType}, ${buffer.length} bytes)`);
+        } else {
+          // Fallback to URL-based upload
+          job.log('downloadMedia returned null, falling back to URL upload');
+          response = await fallbackUrlUpload(env, token, job.data, messageId, contentType);
+        }
+      } else {
+        // Provider doesn't support downloadMedia, use URL-based upload
+        response = await fallbackUrlUpload(env, token, job.data, messageId, contentType);
+      }
 
       if (!response.ok) {
         const errorText = await response.text().catch(() => 'Unknown error');
@@ -163,4 +198,40 @@ export function createMediaPersistWorker(): Worker {
   });
 
   return worker;
+}
+
+// Fallback: upload via URL (used when downloadMedia is not available)
+async function fallbackUrlUpload(
+  env: ReturnType<typeof getEnv>,
+  token: string,
+  data: MediaPersistJobData,
+  messageId: string,
+  contentType: string,
+): Promise<Response> {
+  const body: Record<string, unknown> = {
+    provider: data.provider,
+    context_type: 'message',
+    context_id: messageId,
+    mimeType: data.mimeType,
+    filename: data.fileName,
+    tags: ['whatsapp', contentType],
+  };
+
+  if (data.provider === 'evolution_api') {
+    body.mediaUrl = data.mediaUrl;
+    body.instanceName = data.instanceName;
+    body.instanceBaseUrl = data.instanceBaseUrl;
+  } else if (data.provider === 'cloud_api') {
+    body.mediaId = data.mediaId;
+    body.accessToken = data.accessToken;
+  }
+
+  return fetch(`${env.MEDIA_SERVICE_URL}/api/v1/files/from-whatsapp`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify(body),
+  });
 }
