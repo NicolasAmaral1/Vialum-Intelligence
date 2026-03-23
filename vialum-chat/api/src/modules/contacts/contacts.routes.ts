@@ -71,6 +71,24 @@ export async function contactRoutes(fastify: FastifyInstance) {
     }
   });
 
+  // PATCH /:contactId/channel — Set active conversation and linked group (per-inbox)
+  fastify.patch('/:contactId/channel', async (request: FastifyRequest<{ Params: { accountId: string; contactId: string } }>, reply: FastifyReply) => {
+    const { accountId, contactId } = request.params;
+    const body = z.object({
+      inboxId: z.string().uuid(),
+      activeConversationId: z.string().uuid().nullish(),
+      linkedGroupId: z.string().uuid().nullish(),
+    }).parse(request.body);
+
+    try {
+      const result = await contactsService.updateChannel(accountId, contactId, body);
+      return reply.status(200).send({ data: result });
+    } catch (err: any) {
+      if (err.statusCode) return reply.status(err.statusCode).send({ error: err.message, code: err.code });
+      throw err;
+    }
+  });
+
   // DELETE /:contactId (soft delete)
   fastify.delete('/:contactId', async (request: FastifyRequest<{ Params: { accountId: string; contactId: string } }>, reply: FastifyReply) => {
     const { accountId, contactId } = request.params;

@@ -201,15 +201,19 @@ model Contact {
 }
 
 model ContactInbox {
-  id        String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
-  contactId String   @map("contact_id") @db.Uuid
-  inboxId   String   @map("inbox_id") @db.Uuid
-  sourceId  String   @map("source_id") @db.VarChar(255) // WA number: 5511999999999@s.whatsapp.net
-  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+  id                   String        @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  contactId            String        @map("contact_id") @db.Uuid
+  inboxId              String        @map("inbox_id") @db.Uuid
+  sourceId             String        @map("source_id") @db.VarChar(255)
+  activeConversationId String?       @map("active_conversation_id") @db.Uuid
+  linkedGroupId        String?       @map("linked_group_id") @db.Uuid
+  createdAt            DateTime      @default(now()) @map("created_at") @db.Timestamptz
 
-  contact       Contact        @relation(fields: [contactId], references: [id], onDelete: Cascade)
-  inbox         Inbox          @relation(fields: [inboxId], references: [id], onDelete: Cascade)
-  conversations Conversation[]
+  contact            Contact        @relation(fields: [contactId], references: [id], onDelete: Cascade)
+  inbox              Inbox          @relation(fields: [inboxId], references: [id], onDelete: Cascade)
+  activeConversation Conversation?  @relation("activeConversation", fields: [activeConversationId], references: [id])
+  linkedGroup        Group?         @relation(fields: [linkedGroupId], references: [id])
+  conversations      Conversation[]
 
   @@unique([inboxId, sourceId])
   @@index([contactId])
@@ -236,8 +240,9 @@ model Group {
 
   account       Account        @relation(fields: [accountId], references: [id], onDelete: Cascade)
   inbox         Inbox          @relation(fields: [inboxId], references: [id])
-  members       GroupMember[]
-  conversations Conversation[]
+  members              GroupMember[]
+  conversations        Conversation[]
+  linkedContactInboxes ContactInbox[]
 
   @@unique([inboxId, jid])
   @@index([accountId])
@@ -292,10 +297,11 @@ model Conversation {
   assignee     User?         @relation("assignee", fields: [assigneeId], references: [id])
   activeTalk   Talk?         @relation("activeTalk", fields: [activeTalkId], references: [id])
 
-  messages           Message[]
-  conversationLabels ConversationLabel[]
-  aiSuggestions      AISuggestion[]
-  talks              Talk[]
+  messages                  Message[]
+  conversationLabels        ConversationLabel[]
+  aiSuggestions             AISuggestion[]
+  talks                     Talk[]
+  activeForContactInboxes   ContactInbox[] @relation("activeConversation")
 
   @@index([accountId])
   @@index([inboxId])

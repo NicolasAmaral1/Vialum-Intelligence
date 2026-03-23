@@ -1,6 +1,7 @@
 import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
 import { z } from 'zod';
 import * as conversationsService from './conversations.service.js';
+import * as contextService from './context.service.js';
 
 const listQuerySchema = z.object({
   status: z.enum(['open', 'pending', 'resolved', 'snoozed']).optional(),
@@ -56,6 +57,26 @@ export async function conversationRoutes(fastify: FastifyInstance) {
     const body = createConversationSchema.parse(request.body);
     const conversation = await conversationsService.create(accountId, body);
     return reply.status(201).send({ data: conversation });
+  });
+
+  // GET /:conversationId/context — Full conversation context for AI/operators
+  fastify.get('/:conversationId/context', async (request: FastifyRequest<{ Params: ConversationParams; Querystring: Record<string, string> }>, reply: FastifyReply) => {
+    const { accountId, conversationId } = request.params;
+    const query = z.object({
+      limit: z.coerce.number().int().min(1).max(100).optional(),
+      includeTextContent: z.enum(['true', 'false']).transform((v) => v === 'true').optional(),
+    }).parse(request.query);
+
+    try {
+      const context = await contextService.getConversationContext(accountId, conversationId, request.jwtPayload.userId, {
+        limit: query.limit,
+        includeTextContent: query.includeTextContent,
+      });
+      return reply.status(200).send({ data: context });
+    } catch (err: any) {
+      if (err.statusCode) return reply.status(err.statusCode).send({ error: err.message, code: err.code });
+      throw err;
+    }
   });
 
   // GET /:conversationId

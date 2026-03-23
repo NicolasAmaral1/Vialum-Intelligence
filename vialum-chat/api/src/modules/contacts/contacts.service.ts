@@ -148,6 +148,54 @@ export async function softDelete(accountId: string, contactId: string) {
   });
 }
 
+export async function updateChannel(
+  accountId: string,
+  contactId: string,
+  data: { inboxId: string; activeConversationId?: string | null; linkedGroupId?: string | null },
+) {
+  const prisma = getPrisma();
+
+  // Verify contact belongs to account
+  const contact = await prisma.contact.findFirst({
+    where: { id: contactId, accountId, deletedAt: null },
+  });
+  if (!contact) {
+    throw { statusCode: 404, message: 'Contact not found', code: 'CONTACT_NOT_FOUND' };
+  }
+
+  // Find ContactInbox
+  const contactInbox = await prisma.contactInbox.findFirst({
+    where: { contactId, inboxId: data.inboxId },
+  });
+  if (!contactInbox) {
+    throw { statusCode: 404, message: 'ContactInbox not found', code: 'CONTACT_INBOX_NOT_FOUND' };
+  }
+
+  // Validate activeConversationId belongs to same account + inbox
+  if (data.activeConversationId) {
+    const conv = await prisma.conversation.findFirst({
+      where: { id: data.activeConversationId, accountId, inboxId: data.inboxId, deletedAt: null },
+    });
+    if (!conv) throw { statusCode: 400, message: 'Invalid activeConversationId', code: 'INVALID_CONVERSATION' };
+  }
+
+  // Validate linkedGroupId belongs to same account + inbox
+  if (data.linkedGroupId) {
+    const group = await prisma.group.findFirst({
+      where: { id: data.linkedGroupId, accountId, inboxId: data.inboxId },
+    });
+    if (!group) throw { statusCode: 400, message: 'Invalid linkedGroupId', code: 'INVALID_GROUP' };
+  }
+
+  return prisma.contactInbox.update({
+    where: { id: contactInbox.id },
+    data: {
+      ...(data.activeConversationId !== undefined && { activeConversationId: data.activeConversationId }),
+      ...(data.linkedGroupId !== undefined && { linkedGroupId: data.linkedGroupId }),
+    },
+  });
+}
+
 // Enrich contact with displayName and formattedPhone
 function enrichContact<T extends { name: string; customName?: string | null; crmName?: string | null; phone?: string | null }>(contact: T): T & { displayName: string; formattedPhone: string } {
   return {
