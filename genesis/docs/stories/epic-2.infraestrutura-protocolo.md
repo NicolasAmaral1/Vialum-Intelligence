@@ -29,7 +29,11 @@ incluindo object storage (MinIO), servicos de media, classificacao, e evolucoes 
 | 2.5.2 | Vialum Chat — RBAC por Inbox | Done | @dev |
 | 2.5.3 | Vialum Chat — Provider Abstraction Cleanup | Done | @dev |
 | 2.5.4 | Vialum Chat — Hierarquia de Nomes de Contato | Done | @dev |
-| 2.6 | CRM Hub — Webhook Receiver + Action Dispatcher | Draft | @dev |
+| 2.6.0 | **Foundation — Infrastructure Hardening** | Ready | @dev |
+| 2.6.1 | **Vialum Hub — Identity Foundation** | Ready | @dev |
+| 2.6.2 | Vialum Chat — Context API + Active Channels | Draft | @dev |
+| 2.6.3 | Vialum Hub — Proactive Sync + External ID Aliases | Draft | @dev |
+| 2.6.4 | Rename CRM Hub → Vialum Hub | Draft | @dev |
 | 2.7 | Portal Engine — Projeto base | Draft | @dev |
 | 2.8 | Squads — Scripts compartilhados + @qualificacao | Draft | @dev |
 | 2.9 | Squads — @contrato + @verificador + @documentos | Draft | @dev |
