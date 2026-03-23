@@ -116,19 +116,20 @@ export function MessageBubble({ message, isFirst = true }: MessageBubbleProps) {
   );
 }
 
-function MediaPlaceholder({ contentType, attributes }: { contentType: string; attributes: Record<string, unknown> }) {
+function MediaPlaceholder({ contentType, attributes }: { contentType: string; attributes?: Record<string, unknown> }) {
+  const attrs = attributes ?? {};
   const config: Record<string, { icon: React.ReactNode; label: string }> = {
-    audio: { icon: <Mic className="w-4 h-4" />, label: attributes.ptt ? 'Mensagem de voz' : 'Áudio' },
+    audio: { icon: <Mic className="w-4 h-4" />, label: attrs.ptt ? 'Mensagem de voz' : 'Áudio' },
     image: { icon: <Image className="w-4 h-4" />, label: 'Imagem' },
     video: { icon: <Video className="w-4 h-4" />, label: 'Vídeo' },
-    document: { icon: <FileText className="w-4 h-4" />, label: (attributes.fileName as string) || 'Documento' },
+    document: { icon: <FileText className="w-4 h-4" />, label: (attrs.fileName as string) || 'Documento' },
     location: { icon: <MapPin className="w-4 h-4" />, label: 'Localização' },
     sticker: { icon: <Sticker className="w-4 h-4" />, label: 'Figurinha' },
   };
 
   const { icon, label } = config[contentType] ?? { icon: null, label: contentType };
 
-  const duration = attributes.seconds ? ` (${Math.floor(attributes.seconds as number / 60)}:${String((attributes.seconds as number) % 60).padStart(2, '0')})` : '';
+  const duration = attrs.seconds ? ` (${Math.floor(attrs.seconds as number / 60)}:${String((attrs.seconds as number) % 60).padStart(2, '0')})` : '';
 
   return (
     <div className="flex items-center gap-2 text-text-3 italic text-[12px]">

@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState, useCallback } from 'react';
+import { useRouter } from 'next/navigation';
 import { useAuthStore } from '@/stores/auth.store';
 import { aiSuggestionsApi } from '@/lib/api/ai-suggestions';
 import { messagesApi } from '@/lib/api/messages';
@@ -11,11 +12,13 @@ import { LoadingSpinner } from '@/components/shared/LoadingSpinner';
 import { EmptyState } from '@/components/shared/EmptyState';
 import { RelativeTime } from '@/components/shared/RelativeTime';
 import { useToast } from '@/hooks/use-toast';
-import { Sparkles, Check, X, Loader2 } from 'lucide-react';
+import { Sparkles, Check, X, Loader2, ExternalLink } from 'lucide-react';
+import { formatPhoneBR } from '@/lib/format-phone';
 import type { AISuggestion } from '@/types/api';
 
 export default function AIQueuePage() {
   const currentAccount = useAuthStore((s) => s.currentAccount);
+  const router = useRouter();
   const { toast } = useToast();
   const [suggestions, setSuggestions] = useState<AISuggestion[]>([]);
   const [loading, setLoading] = useState(true);
@@ -146,6 +149,7 @@ export default function AIQueuePage() {
                     onCheckedChange={toggleAll}
                   />
                 </th>
+                <th className="p-3 w-48">Destinatário</th>
                 <th className="p-3">Conteúdo</th>
                 <th className="p-3 w-32">Confiança</th>
                 <th className="p-3 w-40">Criada</th>
@@ -163,6 +167,21 @@ export default function AIQueuePage() {
                       checked={selected.has(s.id)}
                       onCheckedChange={() => toggleSelect(s.id)}
                     />
+                  </td>
+                  <td className="p-3">
+                    <button
+                      type="button"
+                      onClick={(e) => { e.stopPropagation(); router.push(`/inbox/${s.conversationId}`); }}
+                      className="flex items-center gap-1.5 hover:text-primary transition-colors group"
+                    >
+                      <p className="text-sm font-medium truncate group-hover:underline">
+                        {s.conversation?.group?.name
+                          ?? s.conversation?.contact?.displayName
+                          ?? s.conversation?.contact?.name
+                          ?? (s.conversation?.contact?.phone ? formatPhoneBR(s.conversation.contact.phone) : '—')}
+                      </p>
+                      <ExternalLink className="h-3 w-3 opacity-0 group-hover:opacity-100 text-text-4" />
+                    </button>
                   </td>
                   <td className="p-3">
                     <p className="text-sm line-clamp-2">{s.content}</p>

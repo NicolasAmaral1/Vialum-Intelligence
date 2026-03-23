@@ -55,7 +55,6 @@ async function processSync(job: Job<ProviderSyncJobData>) {
     phone: phone ?? undefined,
     email: email ?? undefined,
     name: name ?? undefined,
-    providers: providersToSync,
   });
 
   // Update lastSyncAt for each synced provider

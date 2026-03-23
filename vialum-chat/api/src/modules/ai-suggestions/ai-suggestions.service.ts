@@ -79,6 +79,7 @@ export async function findAll(accountId: string, filters: AISuggestionFilters) {
             id: true,
             inboxId: true,
             contact: { select: { id: true, name: true, phone: true } },
+            group: { select: { id: true, name: true, jid: true } },
           },
         },
         talk: { select: { id: true, status: true, treeFlowId: true } },

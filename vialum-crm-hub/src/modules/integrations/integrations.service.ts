@@ -12,30 +12,34 @@ export interface CreateIntegrationInput {
   rawData?: Record<string, unknown>;
 }
 
-export async function listByContact(accountId: string, vialumContactId: string) {
+export async function listByContact(accountId: string, externalSourceId: string) {
   const prisma = getPrisma();
 
-  const contact = await prisma.crmContact.findUnique({
-    where: { accountId_vialumContactId: { accountId, vialumContactId } },
+  const contact = await prisma.crmContact.findFirst({
+    where: { accountId, externalSourceId },
   });
 
   if (!contact) return [];
 
   return prisma.crmIntegration.findMany({
-    where: { crmContactId: contact.id },
+    where: { crmContactId: contact.id, active: true },
     orderBy: { createdAt: 'desc' },
   });
 }
 
-export async function create(accountId: string, vialumContactId: string, data: CreateIntegrationInput) {
+export async function create(accountId: string, externalSourceId: string, data: CreateIntegrationInput) {
   const prisma = getPrisma();
 
-  // Ensure CrmContact exists
-  const contact = await prisma.crmContact.upsert({
-    where: { accountId_vialumContactId: { accountId, vialumContactId } },
-    create: { accountId, vialumContactId },
-    update: {},
+  // Find or create CrmContact
+  let contact = await prisma.crmContact.findFirst({
+    where: { accountId, externalSourceId },
   });
+
+  if (!contact) {
+    contact = await prisma.crmContact.create({
+      data: { accountId, externalSourceId },
+    });
+  }
 
   // Upsert integration (unique on contact + provider + externalId)
   return prisma.crmIntegration.upsert({
@@ -66,6 +70,7 @@ export async function create(accountId: string, vialumContactId: string, data: C
       value: data.value ?? undefined,
       rawData: data.rawData ? (data.rawData as any) : undefined,
       syncedAt: new Date(),
+      active: true, // reactivate if was inactive
     },
   });
 }

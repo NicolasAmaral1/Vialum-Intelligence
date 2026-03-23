@@ -369,6 +369,28 @@ export class EvolutionAdapter implements IWhatsAppProvider, IGroupProvider {
     };
   }
 
+  async downloadMedia(config: ProviderConfig, externalMessageId: string): Promise<{ base64: string; mimeType: string } | null> {
+    const evoConfig = config as EvolutionConfig;
+    try {
+      const response = await fetch(
+        `${evoConfig.base_url.replace(/\/$/, '')}/chat/getBase64FromMediaMessage/${evoConfig.instance_name}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', apikey: evoConfig.api_key },
+          body: JSON.stringify({ message: { key: { id: externalMessageId } }, convertToMp4: false }),
+        },
+      );
+      if (!response.ok) return null;
+      const data = await response.json() as Record<string, unknown>;
+      const base64 = (data.base64 as string) ?? null;
+      const mimeType = (data.mimetype as string) ?? 'application/octet-stream';
+      if (!base64) return null;
+      return { base64, mimeType };
+    } catch {
+      return null;
+    }
+  }
+
   async fetchProfilePicture(config: ProviderConfig, phone: string): Promise<string | null> {
     const evoConfig = config as EvolutionConfig;
     try {

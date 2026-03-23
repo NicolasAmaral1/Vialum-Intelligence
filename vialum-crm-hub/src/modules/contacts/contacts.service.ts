@@ -1,93 +1,67 @@
 import { getPrisma } from '../../config/database.js';
-import { syncProviders, isStale } from '../../lib/sync.js';
 
-export async function findByVialumContactId(accountId: string, vialumContactId: string) {
+export async function findByVialumContactId(accountId: string, externalSourceId: string) {
   const prisma = getPrisma();
 
-  return prisma.crmContact.findUnique({
-    where: { accountId_vialumContactId: { accountId, vialumContactId } },
-    include: { integrations: { orderBy: { createdAt: 'desc' } } },
+  return prisma.crmContact.findFirst({
+    where: { accountId, externalSourceId },
+    include: { integrations: { where: { active: true }, orderBy: { createdAt: 'desc' } } },
   });
 }
 
 export async function getSummary(
   accountId: string,
-  vialumContactId: string,
+  externalSourceId: string,
   opts?: { phone?: string; name?: string; email?: string },
 ) {
   const prisma = getPrisma();
 
-  // Upsert CrmContact so we always have a record
-  const contact = await prisma.crmContact.upsert({
-    where: { accountId_vialumContactId: { accountId, vialumContactId } },
-    create: {
-      accountId,
-      vialumContactId,
-      phone: opts?.phone ?? null,
-      email: opts?.email ?? null,
-      name: opts?.name ?? null,
-    },
-    update: {
-      ...(opts?.phone && { phone: opts.phone }),
-      ...(opts?.email && { email: opts.email }),
-      ...(opts?.name && { name: opts.name }),
-    },
+  // Find or create contact
+  let contact = await prisma.crmContact.findFirst({
+    where: { accountId, externalSourceId },
     include: {
       integrations: {
+        where: { active: true },
         select: {
-          id: true,
-          provider: true,
-          externalId: true,
-          resourceType: true,
-          resourceName: true,
-          externalUrl: true,
-          status: true,
-          stage: true,
-          value: true,
-          syncedAt: true,
-          rawData: true,
+          id: true, provider: true, externalId: true, resourceType: true,
+          resourceName: true, externalUrl: true, status: true, stage: true,
+          value: true, syncedAt: true, rawData: true,
         },
         orderBy: { createdAt: 'desc' },
       },
     },
   });
 
-  // Check if we need auto-sync (no integrations or stale)
-  const needsSync = contact.integrations.length === 0 || isStale(contact.integrations);
-
-  if (needsSync && (opts?.phone || opts?.name || opts?.email)) {
-    const synced = await syncProviders(accountId, contact.id, {
-      phone: opts?.phone,
-      name: opts?.name,
-      email: opts?.email,
-    });
-    if (synced.length > 0) {
-      // Re-fetch integrations after sync
-      const updated = await prisma.crmIntegration.findMany({
-        where: { crmContactId: contact.id },
-        select: {
-          id: true,
-          provider: true,
-          externalId: true,
-          resourceType: true,
-          resourceName: true,
-          externalUrl: true,
-          status: true,
-          stage: true,
-          value: true,
-          syncedAt: true,
-          rawData: true,
+  if (!contact) {
+    contact = await prisma.crmContact.create({
+      data: {
+        accountId,
+        externalSourceId,
+        phone: opts?.phone ?? null,
+        email: opts?.email ?? null,
+        name: opts?.name ?? null,
+      },
+      include: {
+        integrations: {
+          where: { active: true },
+          select: {
+            id: true, provider: true, externalId: true, resourceType: true,
+            resourceName: true, externalUrl: true, status: true, stage: true,
+            value: true, syncedAt: true, rawData: true,
+          },
+          orderBy: { createdAt: 'desc' },
         },
-        orderBy: { createdAt: 'desc' },
-      });
-
-      return {
-        crmContactId: contact.id,
-        tags: contact.tags,
-        metadata: contact.metadata,
-        integrations: updated,
-      };
-    }
+      },
+    });
+  } else if (opts?.phone || opts?.email || opts?.name) {
+    await prisma.crmContact.update({
+      where: { id: contact.id },
+      data: {
+        ...(opts?.phone && { phone: opts.phone }),
+        ...(opts?.email && { email: opts.email }),
+        ...(opts?.name && { name: opts.name }),
+      },
+    });
   }
 
   return {
@@ -98,26 +72,37 @@ export async function getSummary(
   };
 }
 
-export async function lookup(accountId: string, data: { vialumContactId: string; phone?: string; email?: string; name?: string }) {
+export async function lookup(accountId: string, data: { externalSourceId: string; phone?: string; email?: string; name?: string }) {
   const prisma = getPrisma();
 
-  // Upsert: find or create CrmContact
-  return prisma.crmContact.upsert({
-    where: { accountId_vialumContactId: { accountId, vialumContactId: data.vialumContactId } },
-    create: {
-      accountId,
-      vialumContactId: data.vialumContactId,
-      phone: data.phone ?? null,
-      email: data.email ?? null,
-      name: data.name ?? null,
-    },
-    update: {
-      ...(data.phone && { phone: data.phone }),
-      ...(data.email && { email: data.email }),
-      ...(data.name && { name: data.name }),
-    },
-    include: { integrations: true },
+  let contact = await prisma.crmContact.findFirst({
+    where: { accountId, externalSourceId: data.externalSourceId },
+    include: { integrations: { where: { active: true } } },
   });
+
+  if (!contact) {
+    contact = await prisma.crmContact.create({
+      data: {
+        accountId,
+        externalSourceId: data.externalSourceId,
+        phone: data.phone ?? null,
+        email: data.email ?? null,
+        name: data.name ?? null,
+      },
+      include: { integrations: { where: { active: true } } },
+    });
+  } else {
+    await prisma.crmContact.update({
+      where: { id: contact.id },
+      data: {
+        ...(data.phone && { phone: data.phone }),
+        ...(data.email && { email: data.email }),
+        ...(data.name && { name: data.name }),
+      },
+    });
+  }
+
+  return contact;
 }
 
 export async function update(accountId: string, id: string, data: { tags?: string[]; metadata?: Record<string, unknown> }) {
@@ -137,6 +122,6 @@ export async function update(accountId: string, id: string, data: { tags?: strin
       ...(data.tags !== undefined && { tags: data.tags }),
       ...(data.metadata !== undefined && { metadata: data.metadata as any }),
     },
-    include: { integrations: true },
+    include: { integrations: { where: { active: true } } },
   });
 }

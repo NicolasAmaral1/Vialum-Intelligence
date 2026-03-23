@@ -50,6 +50,10 @@ async function start() {
 
   await fastify.listen({ port: env.PORT, host: '0.0.0.0' });
   console.log(`CRM Hub running on port ${env.PORT}`);
+
+  // Initialize BullMQ workers
+  const { initializeWorkers } = await import('./workers/index.js');
+  await initializeWorkers();
 }
 
 start().catch((err) => {

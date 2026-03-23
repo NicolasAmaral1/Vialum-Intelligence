@@ -1,0 +1,77 @@
+# Busca INPI (similaridade): Bases — Classe 44
+
+## Página 1
+
+
+
+BRASIL
+Acesso à informação
+ParticipeServiçosLegislaçãoCanais
+Instituto Nacional da
+Propriedade Industrial
+Ministério da Economia
+Consulta à Base de Dados do INPI
+[ Início | Ajuda? ]
+
+» Consultar por: Pesquisa Básica | Marca | Titular | Cód. Figura ]
+
+
+RESULTADO DA PESQUISA (19/03/2026 às 17:14:47)
+Marca: "Bases" Classe Internacional: "44"
+Foram encontrados 42 processos que satisfazem à pesquisa. Mostrando página 1 de 1.
+
+%	Número	Prioridade	 	Marca	 	Situação	Titular	Classe
+100	821485849	03/03/1999		PROJETO BASES AGRICULTURA FAMILIAR		Arquivado	SINODO ESPÍRITO SANTO A BELÉM - LECLB	41 : 50
+100	916964205	22/03/2019		PROJETO BASES		Registro de marca em vigor	MARIO CESAR DA SILVA GOMES	NCL(11) 44
+100	819297976	29/07/1996		THE BASES GROUP		Extinto	LPM LEVANTAMENTOS E PESQUISAS DE MARKETING LTDA	38 : 10
+100	921619189	16/12/2020		INSTITUTO BASES		Registro de marca em vigor	MARIO CESAR DA SILVA GOMES	NCL(11) 44
+100	815519613	04/06/1990		PNBE PENSAMENTO NACIONAL DAS BASES EMPRESARIAIS		Registro de marca em vigor	PNBE ? Pensamento Nacional das Bases Empresariais	41 : 50
+100	820919250	21/09/1998		LPM BASES		Arquivado	LPM LEVANTAMENTOS E PESQUISAS DE MARKETING LTDA	38 : 10
+99	935080708	20/06/2024		MÉTODO DE EMAGRECIMENTO EM FASES		Aguardando exame de mérito	NATHÉRCIA PERCEGONI	NCL(12) 44
+99	936658959	17/10/2024		Fases		Aguardando exame de mérito	FASES-CIRURGIA PLASTICA LTDA	NCL(12) 44
+99	940167417	24/07/2025		EMAGRE-INJECTION 4 FASES		Aguardando exame de mérito	MULTIFRANQUIAS FRANCHISING LTDA	NCL(12) 44
+99	930176200	20/04/2023		GO PLANET Reducción de gases de efecto invernadero		Registro de marca em vigor	DSM IP ASSETS B.V.	NCL(12) 44
+99	929998502	04/04/2023		GO PLANET Redução dos gases de efeito estufa		Registro de marca em vigor	DSM IP ASSETS B.V.	NCL(12) 44
+99	501681970	11/02/2022		Celljuvant Study Cell-Based Adjuvant Technology		Registro de marca em vigor (Madri)	Seqirus Inc.	NCL(11) 42 - Deferida
+NCL(11) 44 - Deferida
+99	929000994	21/12/2022		Rafaela Alves PLANT-BASED NUTRITION		Pedido definitivamente arquivado	ANA RAFAELA DA SILVA ALVES	NCL(11) 44
+99	930460464	17/05/2023		CLINIC BASED		Registro de marca em vigor	ODONTOTOP FRANCHISING LTDA	NCL(12) 44
+99	931617162	21/08/2023		Mulher de Fases		Pedido definitivamente arquivado	GABRIELA FIGUEIREDO	NCL(12) 44
+99	938016237	13/02/2025		HR GASES		Aguardando exame de mérito	HR GASES COMERCIO E SERVIÇOS LTDA	NCL(12) 44
+99	921598068	14/12/2020		SYN BIOTEC PLANT BASED		Registro de marca em vigor	SYN BIOTEC LTDA	NCL(11) 44
+99	814495028	17/10/1988		TED BATES		Extinto	BATES WORLDWIDE, INC.	38 : 10
+99	917972597	15/08/2019		Yases estética e relaxamento		Pedido definitivamente arquivado	JAQUELINE COSTA SILVA SANTOS 12670247717	NCL(11) 44
+99	917405447	27/05/2019		VIDAS & FASES CASA DE REPOUSO		Registro de marca em vigor	NODARI CASA DE REPOUSO EIRELI	NCL(11) 44
+99	915081130	23/07/2018		PB PLANT - BASED BRASIL		Pedido definitivamente arquivado	CLINICA ESTAR LTDA	NCL(11) 44
+99	914926608	26/06/2018		EMAGRECIMENTO 3 FASES		Pedido definitivamente arquivado	GREICE PEREIRA GARCIA ANTUNES 11395385785	NCL(11) 44
+99	913401340	16/09/2017		MÉTODO 4 FASES EMAGRECIMENTO CIENTÍFICO		Registro de marca em vigor	MULTIFRANQUIAS FRANCHISING LTDA	NCL(11) 44
+99	905965124	11/03/2013		NFASES nutrição para todas as fases da vida		Pedido de registro de marca indeferido (sem interposição de recurso)	MONICA TREBILCOCK MAROFA	NCL(10) 44
+99	903900009	28/07/2011		FASES		Registro de marca em vigor	FASES-CIRURGIA PLASTICA LTDA	NCL(9) 44
+99	900736860	13/02/2008		FASES		Arquivado	JÚLIO DANTE BONETTI	NCL(9) 44
+99	924373644	22/09/2021		BR GASES		Registro de marca em vigor	FACE GASES COMÉRCIO	NCL(11) 44
+99	924998512	24/11/2021		FASES ESPAÇO DE DESENVOLVIMENTO MULTIDISCIPLINAR		Registro de marca em vigor	CM PSICOLOGIA E PSICANALISE LTDA	NCL(11) 44
+99	932478964	01/11/2023		PIRATEM GASES		Registro de marca em vigor	COMERCIAL PIRATEM LTDA.	NCL(12) 44
+99	819004316	16/01/1996		T-BASIS		Registro de marca extinto	DEUTSCHE TELEKOM AG	38 : 10
+99	819004219	16/01/1996		T-BASIS		Registro de marca extinto	DEUTSCHE TELEKOM AG	40 : 20
+99	819004197	16/01/1996		T BASIS		Registro de marca extinto	DEUTSCHE TELEKOM AG	40 : 20
+99	819004189	16/01/1996		T BASIS		Registro de marca extinto	DEUTSCHE TELEKOM AG	38 : 10
+99	819199672	13/05/1996		BATES		Registro de marca extinto	BATES WORLDWIDE, INC.	38 : 10
+99	925344923	30/12/2021		EVA EVIDENCE AND VALUE-BASED ASSISTANCE		Registro de marca em vigor	CENTRO PAULISTA DE MEDICINA FETAL S/S LTDA.	NCL(11) 44
+99	814495036	17/10/1988		BACKER SPIELVOGEL BATES		Extinto	BATES WORLDWIDE, INC.	38 : 10
+99	820947377	31/07/1998		UNIVERSITE A WEB BASED TRAINING SOFTWARE		Arquivado	MODERN HIGH TECH WEB LTDA.	38 : 10
+99	928526380	01/11/2022		Sistema FASES da Saúde Bucal		Registro de marca em vigor	MARCELO SILVEIRA LOPES - LIMITADA	NCL(11) 44
+99	933386818	01/02/2024		FASES CENTRO DE TERAPIA E REABILITAÇÃO DO BEBÊ AO IDOSO		Aguardando apresentação e exame de recurso contra o indeferimento	ADRIANE GERHARDT MAGARINOS	NCL(12) 44 - Deferida
+NCL(12) 44 - Excluída
+99	939343053	28/05/2025		Mulher de Fases		Aguardando exame de mérito	FLÁVIA CRISTINA AVELAR	NCL(12) 44
+99	941374882	22/09/2025		Éfrata CENTRO CLÍNICO ESPECIALIZADO CUIDANDO DE TODAS AS FASES DA VIDA		Aguardando prazo de apresentação de oposição	R.J.R. DE OLIVEIRA ODONTOLOGIA	NCL(12) 44
+99	942652754	05/02/2026		OXICAS GASES ATMOSFÉRICOS		Aguardando prazo de apresentação de oposição	BRUNO RAFAEL SOARES	NCL(13) 44
+ 
+Páginas de Resultados:
+1
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+---
+

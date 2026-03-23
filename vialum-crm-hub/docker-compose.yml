@@ -11,6 +11,7 @@ services:
       - PORT=3100
       - CORS_ORIGIN=${CORS_ORIGIN:-*}
       - NODE_ENV=production
+      - REDIS_URL=${REDIS_URL:-redis://:506hys0hQ7j7q9k8PD9Nva7G2Bg0SyAZ@vialumchat-redis:6379}
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.crm-hub.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/crm`)"

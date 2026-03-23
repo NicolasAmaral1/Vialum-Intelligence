@@ -167,4 +167,11 @@ export interface IWhatsAppProvider {
    * Returns null if not available.
    */
   fetchProfilePicture(config: ProviderConfig, phone: string): Promise<string | null>;
+
+  /**
+   * Download decrypted media from a message.
+   * WhatsApp encrypts media — this returns the decrypted base64 or buffer.
+   * Returns null if not supported or unavailable.
+   */
+  downloadMedia?(config: ProviderConfig, externalMessageId: string): Promise<{ base64: string; mimeType: string } | null>;
 }

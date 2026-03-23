@@ -3,10 +3,10 @@ import * as contactsService from './contacts.service.js';
 import { ensureContact } from './ensure.service.js';
 
 export async function contactRoutes(fastify: FastifyInstance) {
-  // GET /:vialumContactId — full contact with integrations
-  fastify.get('/:vialumContactId', async (request: FastifyRequest<{ Params: { vialumContactId: string } }>, reply: FastifyReply) => {
+  // GET /:externalSourceId — full contact with integrations
+  fastify.get('/:externalSourceId', async (request: FastifyRequest<{ Params: { externalSourceId: string } }>, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload!;
-    const contact = await contactsService.findByVialumContactId(accountId, request.params.vialumContactId);
+    const contact = await contactsService.findByVialumContactId(accountId, request.params.externalSourceId);
 
     if (!contact) {
       return reply.status(404).send({ error: 'CRM contact not found', code: 'CRM_CONTACT_NOT_FOUND' });
@@ -15,14 +15,14 @@ export async function contactRoutes(fastify: FastifyInstance) {
     return reply.send({ data: contact });
   });
 
-  // GET /:vialumContactId/summary — compact for sidebar (auto-syncs providers)
-  fastify.get('/:vialumContactId/summary', async (request: FastifyRequest<{
-    Params: { vialumContactId: string };
+  // GET /:externalSourceId/summary — compact for sidebar (auto-syncs providers)
+  fastify.get('/:externalSourceId/summary', async (request: FastifyRequest<{
+    Params: { externalSourceId: string };
     Querystring: { phone?: string; name?: string; email?: string };
   }>, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload!;
     const query = request.query as Record<string, string | undefined>;
-    const summary = await contactsService.getSummary(accountId, request.params.vialumContactId, {
+    const summary = await contactsService.getSummary(accountId, request.params.externalSourceId, {
       phone: query.phone,
       name: query.name,
       email: query.email,
@@ -31,16 +31,16 @@ export async function contactRoutes(fastify: FastifyInstance) {
   });
 
   // POST /lookup — find or create CRM contact
-  fastify.post('/lookup', async (request: FastifyRequest<{ Body: { vialumContactId: string; phone?: string; email?: string; name?: string } }>, reply: FastifyReply) => {
+  fastify.post('/lookup', async (request: FastifyRequest<{ Body: { externalSourceId: string; phone?: string; email?: string; name?: string } }>, reply: FastifyReply) => {
     const { accountId } = request.jwtPayload!;
     const body = request.body as Record<string, unknown>;
 
-    if (!body.vialumContactId) {
-      return reply.status(400).send({ error: 'vialumContactId is required', code: 'MISSING_FIELD' });
+    if (!body.externalSourceId) {
+      return reply.status(400).send({ error: 'externalSourceId is required', code: 'MISSING_FIELD' });
     }
 
     const contact = await contactsService.lookup(accountId, {
-      vialumContactId: body.vialumContactId as string,
+      externalSourceId: body.externalSourceId as string,
       phone: body.phone as string | undefined,
       email: body.email as string | undefined,
       name: body.name as string | undefined,

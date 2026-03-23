@@ -1,0 +1,49 @@
+# Busca INPI (similaridade): TRIUM — Classe 17
+
+## Página 1
+
+
+
+BRASIL
+Acesso à informação
+ParticipeServiçosLegislaçãoCanais
+Instituto Nacional da
+Propriedade Industrial
+Ministério da Economia
+Consulta à Base de Dados do INPI
+[ Início | Ajuda? ]
+
+» Consultar por: Pesquisa Básica | Marca | Titular | Cód. Figura ]
+
+
+RESULTADO DA PESQUISA (23/03/2026 às 15:42:26)
+Marca: "TRIUM" Classe Internacional: "17"
+Foram encontrados 16 processos que satisfazem à pesquisa. Mostrando página 1 de 1.
+
+%	Número	Prioridade	 	Marca	 	Situação	Titular	Classe
+100	811534383	24/04/1984		TRIUM		Extinto	LABORATORIO OKOCHI LTDA	01 : 25
+99	815191588	23/10/1989		TRIAM		Extinto	TRIAM INDUSTRIA AUTOMOTIVA DE MAQUINAS LTDA	07 : 20
+99	819993204	29/07/1997		ORIUM		Registro de marca extinto	RENAULT S.A.S.	02 : 10
+83	812260970	22/10/1985		ATRIUM		Registro de marca extinto	ATRIUM NEGÓCIOS E PARTICIPAÇÕES LTDA.	20 : 10
+83	817167870	02/04/1993		ATRIUM		Registro de marca extinto	ROCA BRASIL LTDA.	19 : 10
+83	815229771	29/11/1989		ATRIUM		Arquivado	ATRIUM PRODUTOS QUIMICOS INDUSTRIAIS LTDA	02 : 10
+83	816787891	07/08/1992		ATRIUM		Arquivado	ATRIUM PRODUTOS QUIMICOS INDUSTRIAIS LTDA	01 : 35
+83	815229860	29/11/1989		ATRIUM		Arquivado	ATRIUM PRODUTOS QUIMICOS INDUSTRIAIS LTDA	01 : 10
+83	815396201	02/02/1990		ATRIUM		Arquivado	ATRIUM COMERCIAL LTDA ME.	19 : 10
+71	810773937	03/03/1982		TA TRIUMPH-ADLER		Extinto	TA TRIUMPH-ADLER AKTIENGESELLSCHAFT	09 : 10
+71	817036750	12/01/1993		TRIUMPH		Arquivado	INDUSTRIA E COMERCIO DE TELAS S/A - NORTELAS	07 : 60
+71	821472119	02/07/1999		TRIUMPH		Registro de marca em vigor	NEOVIA NUTRIÇÃO E SAÚDE ANIMAL LTDA	NCL(8) 31
+71	780189345	27/06/1978		TRIUMPH		Registro de marca extinto	WINDMÖLLER & HÖLSCHER	07 : 10
+71	002083604	31/12/1947		TRIUMPH		Registro de marca em vigor	INLAS HOLDING S.À.R.L.	16 : 30
+71	822121247	20/10/1999		TRIUMPH HEAVY DUTY		Arquivado	CUSTOM ASSESSORIA E CONSULTORIA EMPRESARIAL LTDA	07 : 60
+71	822486768	28/02/2000		TRIUMPH		Arquivado	CUSTOM ASSESSORIA E CONSULTORIA EMPRESARIAL LTDA	NCL(7) 17
+ 
+Páginas de Resultados:
+1
+
+
+
+Rua Mayrink Veiga, 9 - Centro - RJ - CEP: 20090-910
+
+---
+

@@ -145,7 +145,7 @@ export async function resolve(accountId: string, req: ResolveRequest): Promise<R
     const newContact = await prisma.crmContact.create({
       data: {
         accountId,
-        vialumContactId: crypto.randomUUID(), // generate placeholder until linked
+        // No phantom UUID — externalSourceId set when a service calls /contacts/ensure
         phone: normalizedPhone ?? null,
         email: normalizedEmail ?? null,
         name: req.name ?? null,
