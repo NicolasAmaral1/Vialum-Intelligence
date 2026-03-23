@@ -23,13 +23,14 @@ import { getEnv } from '../config/env.js';
 
 interface SwitchWebhookPayload {
   event: string;
+  accountId?: string;
   data: {
     jobId: string;
-    fileId: string;
     processor: string;
-    status: string;
+    provider?: string;
     result: Record<string, unknown>;
-    accountId?: string;
+    confidence?: number;
+    input?: { fileId: string; mimeType?: string };
   };
 }
 
@@ -59,10 +60,16 @@ export async function switchWebhookRoutes(fastify: FastifyInstance) {
       return reply.status(200).send({ status: 'ignored', reason: 'not job.completed' });
     }
 
-    const { fileId, processor, status, result } = payload.data;
+    const { processor, result, confidence, input } = payload.data;
+    const fileId = input?.fileId;
 
-    if (status !== 'completed' || !result) {
-      return reply.status(200).send({ status: 'ignored', reason: 'job not completed or no result' });
+    if (!fileId || !result) {
+      return reply.status(200).send({ status: 'ignored', reason: 'no fileId or result' });
+    }
+
+    // Skip failed processing (confidence 0 = error in result)
+    if ((confidence ?? 0) === 0 && result.error) {
+      return reply.status(200).send({ status: 'ignored', reason: 'processing failed' });
     }
 
     const extractedText = (result.text as string) ?? (result.content as string) ?? null;

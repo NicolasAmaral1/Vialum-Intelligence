@@ -46,6 +46,26 @@ export async function initializeWorkers(io: SocketIOServer): Promise<WorkerRegis
   await scheduleInactivityChecks();
   await scheduleSnoozeChecks();
 
+  // Redis memory monitor (every 5 min)
+  const redis = (await import('../config/redis.js')).getRedis();
+  setInterval(async () => {
+    try {
+      const info = await redis.info('memory');
+      const usedMatch = info.match(/used_memory:(\d+)/);
+      const maxMatch = info.match(/maxmemory:(\d+)/);
+      if (usedMatch && maxMatch) {
+        const used = parseInt(usedMatch[1], 10);
+        const max = parseInt(maxMatch[1], 10);
+        if (max > 0) {
+          const pct = Math.round((used / max) * 100);
+          if (pct > 80) {
+            console.warn(`[redis:alert] Memory usage at ${pct}% (${Math.round(used / 1024 / 1024)}MB / ${Math.round(max / 1024 / 1024)}MB)`);
+          }
+        }
+      }
+    } catch { /* non-critical */ }
+  }, 5 * 60 * 1000);
+
   console.log('[workers] All workers initialized successfully');
   console.log('[workers] Active queues:');
   console.log('  - talk-route-message (concurrency: 5)');
