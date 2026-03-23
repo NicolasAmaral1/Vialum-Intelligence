@@ -12,6 +12,7 @@ services:
       - MEDIA_SERVICE_URL=http://vialum-media:3002
       - TRANSCRIBER_URL=http://transcriber-api:8000
       - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - WEBHOOK_SECRET=${WEBHOOK_SECRET}
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.switch.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/switch`)"
@@ -21,7 +22,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 256M
+          memory: 512M
     networks:
       - proxy
       - vialumchat-internal

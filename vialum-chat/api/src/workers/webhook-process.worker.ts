@@ -129,20 +129,24 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
       let contactId: string;
 
       if (!contactInbox) {
-        // Try to find existing contact by phone (supports provider migration:
-        // same person, different inbox/provider → reuse existing contact)
-        let contact = await prisma.contact.findFirst({
-          where: { accountId, phone: normalized.senderPhone },
-        });
+        // Atomic find-or-create contact (prevents duplicate contacts from concurrent webhooks)
+        const { contact, isNew } = await prisma.$transaction(async (tx) => {
+          let existing = await tx.contact.findFirst({
+            where: { accountId, phone: normalized.senderPhone },
+          });
+          if (existing) return { contact: existing, isNew: false };
 
-        if (!contact) {
-          contact = await prisma.contact.create({
+          const created = await tx.contact.create({
             data: {
               accountId,
               name: normalized.senderName ?? normalized.senderPhone,
               phone: normalized.senderPhone,
             },
           });
+          return { contact: created, isNew: true };
+        });
+
+        if (isNew) {
           job.log(`Created new contact ${contact.id} (${normalized.senderPhone})`);
           fetchAndUpdateAvatar(contact.id, normalized.senderPhone, whatsappProvider, providerConfig);
           syncContactNameFromCRM(contact.id, normalized.senderPhone, normalized.senderName);
@@ -151,7 +155,6 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
           if (!contact.avatarUrl) {
             fetchAndUpdateAvatar(contact.id, normalized.senderPhone, whatsappProvider, providerConfig);
           }
-          // Sync name from CRM if contact still has phone as name
           if (contact.name === normalized.senderPhone || contact.name === normalized.senderName) {
             syncContactNameFromCRM(contact.id, normalized.senderPhone, contact.name);
           }
@@ -288,7 +291,7 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
 
       // ── 6. Enqueue media persist for non-text messages ──
       if (normalized.contentType !== 'text' && !isOutgoing) {
-        const providerConfig = (inbox?.providerConfig ?? {}) as Record<string, any>;
+        const pc = (inbox?.providerConfig ?? {}) as Record<string, any>;
         await getMediaPersistQueue().add('persist', {
           messageId: message.id,
           conversationId: conversation!.id,
@@ -296,11 +299,12 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
           inboxId,
           provider,
           contentType: normalized.contentType,
+          externalMessageId: normalized.externalMessageId,
           mediaUrl: (normalized.contentAttributes?.url as string) ?? undefined,
           mediaId: (normalized.contentAttributes?.mediaId as string) ?? undefined,
-          accessToken: providerConfig.access_token ?? providerConfig.accessToken,
-          instanceName: providerConfig.instance_name ?? providerConfig.instanceName,
-          instanceBaseUrl: providerConfig.base_url ?? providerConfig.baseUrl,
+          accessToken: pc.access_token ?? pc.accessToken ?? pc.api_key ?? pc.apiKey,
+          instanceName: pc.instance_name ?? pc.instanceName,
+          instanceBaseUrl: pc.base_url ?? pc.baseUrl,
           mimeType: (normalized.contentAttributes?.mimetype as string) ?? undefined,
           fileName: (normalized.contentAttributes?.fileName as string) ?? undefined,
         }, { jobId: `media-${message.id}` });
@@ -547,7 +551,7 @@ async function processGroupMessage(
 
   // ── 7. Enqueue media persist for non-text group messages ──
   if (normalized.contentType !== 'text' && !isGroupOutgoing) {
-    const providerConfigGroup = (await prisma.inbox.findUnique({
+    const pcGroup = (await prisma.inbox.findUnique({
       where: { id: inboxId },
       select: { providerConfig: true },
     }))?.providerConfig as Record<string, any> ?? {};
@@ -559,11 +563,12 @@ async function processGroupMessage(
       inboxId,
       provider: whatsappProvider.providerName,
       contentType: normalized.contentType,
+      externalMessageId: normalized.externalMessageId,
       mediaUrl: (normalized.contentAttributes?.url as string) ?? undefined,
       mediaId: (normalized.contentAttributes?.mediaId as string) ?? undefined,
-      accessToken: providerConfigGroup.access_token ?? providerConfigGroup.accessToken,
-      instanceName: providerConfigGroup.instance_name ?? providerConfigGroup.instanceName,
-      instanceBaseUrl: providerConfigGroup.base_url ?? providerConfigGroup.baseUrl,
+      accessToken: pcGroup.access_token ?? pcGroup.accessToken ?? pcGroup.api_key ?? pcGroup.apiKey,
+      instanceName: pcGroup.instance_name ?? pcGroup.instanceName,
+      instanceBaseUrl: pcGroup.base_url ?? pcGroup.baseUrl,
       mimeType: (normalized.contentAttributes?.mimetype as string) ?? undefined,
       fileName: (normalized.contentAttributes?.fileName as string) ?? undefined,
     }, { jobId: `media-${message.id}` });
@@ -668,7 +673,7 @@ function syncContactNameFromCRM(
 
       return getPrisma().contact.update({
         where: { id: contactId },
-        data: { name: officialName },
+        data: { crmName: officialName },
       });
     })
     .catch((err) => console.error("[background]", err.message || err));
