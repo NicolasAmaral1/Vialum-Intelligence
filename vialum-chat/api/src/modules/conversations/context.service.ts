@@ -191,7 +191,7 @@ async function fetchCrmData(
 
   try {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 500);
+    const timeout = setTimeout(() => controller.abort(), 2000);
 
     const token = generateServiceToken(accountId);
     const response = await fetch(`${hubUrl}/api/v1/agent/query`, {
