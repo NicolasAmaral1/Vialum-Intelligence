@@ -1,0 +1,44 @@
+services:
+  tasks:
+    build: .
+    container_name: vialum-tasks
+    restart: unless-stopped
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - JWT_SECRET=${JWT_SECRET}
+      - PORT=3005
+      - CORS_ORIGIN=${CORS_ORIGIN:-*}
+      - NODE_ENV=production
+      - HUB_SERVICE_URL=http://vialum-crm-hub:3100
+      - CHAT_SERVICE_URL=http://vialumchat-api:4000
+      - MEDIA_SERVICE_URL=http://vialum-media:3002
+      - SWITCH_SERVICE_URL=http://vialum-switch:3004
+      - WEBHOOK_SECRET=${WEBHOOK_SECRET}
+      - WORKSPACE_PATH=/root/genesis
+      - REDIS_URL=${REDIS_URL:-}
+    volumes:
+      - /root/.claude:/root/.claude
+      - /root/genesis:/root/genesis:ro
+      - task-outputs:/app/outputs
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.tasks.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/tasks`)"
+      - "traefik.http.routers.tasks.entrypoints=websecure"
+      - "traefik.http.routers.tasks.tls.certresolver=le"
+      - "traefik.http.services.tasks.loadbalancer.server.port=3005"
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+    networks:
+      - proxy
+      - vialumchat-internal
+
+volumes:
+  task-outputs:
+
+networks:
+  proxy:
+    external: true
+  vialumchat-internal:
+    external: true

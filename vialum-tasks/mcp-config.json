@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "aprovacao": {
+      "command": "node",
+      "args": ["/app/mcp-aprovacao/dist/index.js"],
+      "env": {
+        "TASKS_API_URL": "http://localhost:3005",
+        "JWT_SECRET": "${JWT_SECRET}",
+        "VIALUM_ACCOUNT_ID": "${VIALUM_ACCOUNT_ID}"
+      }
+    }
+  }
+}

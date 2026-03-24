@@ -1,0 +1,23 @@
+services:
+  tasks-web:
+    build: .
+    container_name: vialum-tasks-web
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_API_URL=https://api.luminai.ia.br
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.tasks-web.rule=Host(`tasks.luminai.ia.br`)"
+      - "traefik.http.routers.tasks-web.entrypoints=websecure"
+      - "traefik.http.routers.tasks-web.tls.certresolver=le"
+      - "traefik.http.services.tasks-web.loadbalancer.server.port=3006"
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

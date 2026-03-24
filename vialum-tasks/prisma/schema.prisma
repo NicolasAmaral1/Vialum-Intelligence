@@ -1,0 +1,126 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model WorkflowDefinition {
+  id              String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String     @map("account_id") @db.Uuid
+  slug            String     @db.VarChar(100)
+  name            String     @db.VarChar(255)
+  description     String?    @db.Text
+  squad           String?    @db.VarChar(100)
+  stages          Json
+  commands        Json       @default("[]")
+  dataSchema      Json       @default("{}") @map("data_schema")
+  hitlSteps       Json       @default("[]") @map("hitl_steps")
+  promptTemplate  String?    @map("prompt_template") @db.Text
+  cwd             String?    @db.Text
+  active          Boolean    @default(true)
+  createdAt       DateTime   @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime   @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  workflows       Workflow[]
+
+  @@unique([accountId, slug])
+  @@index([accountId])
+  @@map("task_workflow_definitions")
+}
+
+model Workflow {
+  id              String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String     @map("account_id") @db.Uuid
+  definitionId    String     @map("definition_id") @db.Uuid
+  sessionId       String?    @map("session_id") @db.VarChar(255)
+  idempotencyKey  String?    @unique @map("idempotency_key") @db.VarChar(255)
+  stage           String     @db.VarChar(100)
+  status          String     @default("idle") @db.VarChar(30)
+  clientData      Json       @default("{}") @map("client_data")
+  context         Json       @default("{}")
+  errorMessage    String?    @map("error_message") @db.Text
+
+  // External links — connect workflow to entities in other services
+  contactPhone    String?    @map("contact_phone") @db.VarChar(30)
+  conversationId  String?    @map("conversation_id") @db.VarChar(255)
+  externalTaskId  String?    @map("external_task_id") @db.VarChar(255)
+  externalTaskUrl String?    @map("external_task_url") @db.Text
+  hubContactId    String?    @map("hub_contact_id") @db.Uuid
+
+  startedAt       DateTime?  @map("started_at") @db.Timestamptz
+  completedAt     DateTime?  @map("completed_at") @db.Timestamptz
+  deletedAt       DateTime?  @map("deleted_at") @db.Timestamptz
+  createdAt       DateTime   @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime   @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  definition      WorkflowDefinition @relation(fields: [definitionId], references: [id])
+  events          WorkflowEvent[]
+  approvals       Approval[]
+  commands        Command[]
+
+  @@index([accountId, status])
+  @@index([accountId, createdAt(sort: Desc)])
+  @@index([definitionId])
+  @@index([sessionId])
+  @@index([conversationId])
+  @@index([contactPhone])
+  @@index([externalTaskId])
+  @@map("task_workflows")
+}
+
+model WorkflowEvent {
+  id              String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String     @map("account_id") @db.Uuid
+  workflowId      String     @map("workflow_id") @db.Uuid
+  eventType       String     @map("event_type") @db.VarChar(50)
+  toolName        String?    @map("tool_name") @db.VarChar(100)
+  payload         Json?
+  createdAt       DateTime   @default(now()) @map("created_at") @db.Timestamptz
+
+  workflow        Workflow   @relation(fields: [workflowId], references: [id])
+
+  @@index([workflowId, createdAt(sort: Desc)])
+  @@index([accountId, createdAt(sort: Desc)])
+  @@map("task_workflow_events")
+}
+
+model Approval {
+  id              String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String     @map("account_id") @db.Uuid
+  workflowId      String     @map("workflow_id") @db.Uuid
+  step            String     @db.VarChar(100)
+  title           String     @db.VarChar(255)
+  description     String?    @db.Text
+  attachments     Json       @default("[]")
+  formSchema      Json?      @map("form_schema")
+  formData        Json?      @map("form_data")
+  status          String     @default("pending") @db.VarChar(30)
+  decidedBy       String?    @map("decided_by") @db.VarChar(255)
+  reason          String?    @db.Text
+  createdAt       DateTime   @default(now()) @map("created_at") @db.Timestamptz
+  decidedAt       DateTime?  @map("decided_at") @db.Timestamptz
+
+  workflow        Workflow   @relation(fields: [workflowId], references: [id])
+
+  @@unique([workflowId, step, status], map: "uq_approval_pending")
+  @@index([accountId, status])
+  @@index([workflowId])
+  @@map("task_approvals")
+}
+
+model Command {
+  id              String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String     @map("account_id") @db.Uuid
+  workflowId      String     @map("workflow_id") @db.Uuid
+  command         String     @db.Text
+  sentBy          String?    @map("sent_by") @db.VarChar(255)
+  createdAt       DateTime   @default(now()) @map("created_at") @db.Timestamptz
+
+  workflow        Workflow   @relation(fields: [workflowId], references: [id])
+
+  @@index([workflowId, createdAt(sort: Desc)])
+  @@map("task_commands")
+}

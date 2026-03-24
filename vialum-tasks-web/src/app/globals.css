@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 2.7%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 2.7%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 2.7%;
+    --primary: 84 87% 50%;
+    --primary-foreground: 0 0% 2.7%;
+    --secondary: 80 20% 94%;
+    --secondary-foreground: 0 0% 2.7%;
+    --muted: 80 10% 95%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 80 20% 94%;
+    --accent-foreground: 0 0% 2.7%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 84 87% 50%;
+    --radius: 0.625rem;
+    --sidebar: 0 0% 98%;
+  }
+
+  .dark {
+    /* Vialum Tasks — Genesis dark theme (220° blue undertone + lime accent) */
+    --background: 220 14% 12%;
+    --foreground: 220 15% 93%;
+    --card: 220 13% 15%;
+    --card-foreground: 220 15% 93%;
+    --popover: 220 11% 22%;
+    --popover-foreground: 220 15% 93%;
+    --primary: 84 87% 50%;
+    --primary-foreground: 220 16% 10%;
+    --secondary: 84 30% 10%;
+    --secondary-foreground: 220 15% 93%;
+    --muted: 220 12% 18%;
+    --muted-foreground: 220 10% 60%;
+    --accent: 84 40% 12%;
+    --accent-foreground: 84 87% 50%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 12% 19%;
+    --input: 220 12% 19%;
+    --ring: 84 87% 50%;
+    --sidebar: 220 16% 10%;
+
+    /* Surface hierarchy */
+    --nav: 220 16% 10%;
+    --raised: 220 13% 15%;
+    --surface: 220 12% 18%;
+    --overlay: 220 11% 22%;
+
+    /* Text hierarchy */
+    --text-1: 220 15% 93%;
+    --text-2: 220 10% 60%;
+    --text-3: 220 8% 40%;
+
+    /* Semantic */
+    --success: 160 67% 52%;
+    --warning: 38 92% 56%;
+    --danger: 0 94% 71%;
+
+    /* Shadows */
+    --shadow-glow: 0 0 60px rgba(159, 236, 20, 0.08);
+    --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
+    --shadow-elevated: 0 8px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Sora', system-ui, sans-serif;
+  }
+}
