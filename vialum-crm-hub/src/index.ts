@@ -14,6 +14,7 @@ import { agentRoutes } from './modules/agent/agent.routes.js';
 import { groupRoutes } from './modules/groups/groups.routes.js';
 import { taskRoutes } from './modules/tasks/tasks.routes.js';
 import { organizationRoutes } from './modules/organizations/organizations.routes.js';
+import { adminRoutes } from './modules/admin/admin.routes.js';
 import { initProviders } from './providers/index.js';
 
 const fastify = Fastify({ logger: true });
@@ -46,6 +47,7 @@ async function start() {
     app.register(groupRoutes, { prefix: '/groups' });
     app.register(taskRoutes, { prefix: '/tasks' });
     app.register(organizationRoutes, { prefix: '/organizations' });
+    app.register(adminRoutes, { prefix: '/admin' });
   }, { prefix: '/crm/api/v1' });
 
   await fastify.listen({ port: env.PORT, host: '0.0.0.0' });

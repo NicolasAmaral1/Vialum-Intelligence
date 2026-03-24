@@ -154,9 +154,10 @@ model ProviderConfig {
   provider   String    @db.VarChar(50)
   category   String    @default("crm") @db.VarChar(30)
   config     Json
-  active     Boolean   @default(true)
-  lastSyncAt DateTime? @map("last_sync_at") @db.Timestamptz
-  createdAt  DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  active               Boolean   @default(true)
+  lastSyncAt           DateTime? @map("last_sync_at") @db.Timestamptz
+  syncIntervalMinutes  Int       @default(240) @map("sync_interval_minutes") // 0 = disabled
+  createdAt            DateTime  @default(now()) @map("created_at") @db.Timestamptz
   updatedAt  DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
 
   @@unique([accountId, provider])
