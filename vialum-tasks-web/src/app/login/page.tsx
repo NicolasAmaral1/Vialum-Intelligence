@@ -20,16 +20,18 @@ export default function LoginPage() {
 
     // Validate token by making a test API call
     try {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3005';
       const res = await fetch(
-        `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3005'}/tasks/api/v1/definitions`,
+        `${apiUrl}/tasks/api/v1/definitions`,
         { headers: { Authorization: `Bearer ${token.trim()}` } }
       );
-      if (!res.ok) throw new Error('Token inválido');
+      if (!res.ok) throw new Error(`API retornou ${res.status}: ${res.statusText}`);
 
       login(token.trim());
       router.push('/inbox');
-    } catch {
-      setError('Token inválido ou expirado');
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'Erro desconhecido';
+      setError(`Falha: ${message}`);
     }
   };
 
