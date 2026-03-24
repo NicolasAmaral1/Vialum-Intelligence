@@ -18,16 +18,19 @@ export default function LoginPage() {
       return;
     }
 
+    // Clean token: remove whitespace, newlines, quotes
+    const cleanToken = token.replace(/[\s\n\r"']+/g, '');
+
     // Validate token by making a test API call
     try {
       const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3005';
       const res = await fetch(
         `${apiUrl}/tasks/api/v1/definitions`,
-        { headers: { Authorization: `Bearer ${token.trim()}` } }
+        { headers: { Authorization: `Bearer ${cleanToken}` } }
       );
       if (!res.ok) throw new Error(`API retornou ${res.status}: ${res.statusText}`);
 
-      login(token.trim());
+      login(cleanToken);
       router.push('/inbox');
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Erro desconhecido';
