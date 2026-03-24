@@ -87,4 +87,53 @@ export async function contactRoutes(fastify: FastifyInstance) {
       throw err;
     }
   });
+
+  // POST /:id/group-mapping — Link WhatsApp group to Hub contact
+  fastify.post('/:id/group-mapping', async (request: FastifyRequest<{ Params: { id: string } }>, reply: FastifyReply) => {
+    const { accountId } = request.jwtPayload!;
+    const { id } = request.params;
+    const body = request.body as Record<string, unknown>;
+
+    if (!body.groupJid) {
+      return reply.status(400).send({ error: 'groupJid is required', code: 'MISSING_FIELD' });
+    }
+
+    const prisma = (await import('../../config/database.js')).getPrisma();
+
+    // Verify contact belongs to account
+    const contact = await prisma.crmContact.findFirst({ where: { id, accountId } });
+    if (!contact) {
+      return reply.status(404).send({ error: 'Contact not found', code: 'NOT_FOUND' });
+    }
+
+    const mapping = await prisma.whatsAppGroupMapping.upsert({
+      where: { accountId_groupJid: { accountId, groupJid: body.groupJid as string } },
+      create: {
+        accountId,
+        crmContactId: id,
+        groupJid: body.groupJid as string,
+        groupName: (body.groupName as string) ?? null,
+        groupType: (body.groupType as string) ?? 'client',
+      },
+      update: {
+        crmContactId: id,
+        groupName: (body.groupName as string) ?? undefined,
+        groupType: (body.groupType as string) ?? undefined,
+      },
+    });
+
+    return reply.status(200).send({ data: mapping });
+  });
+
+  // DELETE /:id/group-mapping/:groupJid — Unlink group
+  fastify.delete('/:id/group-mapping/:groupJid', async (request: FastifyRequest<{ Params: { id: string; groupJid: string } }>, reply: FastifyReply) => {
+    const { accountId } = request.jwtPayload!;
+    const prisma = (await import('../../config/database.js')).getPrisma();
+
+    await prisma.whatsAppGroupMapping.deleteMany({
+      where: { accountId, crmContactId: request.params.id, groupJid: request.params.groupJid },
+    });
+
+    return reply.status(204).send();
+  });
 }

@@ -442,6 +442,18 @@ export function ContactSidebar({
         )}
       </div>
 
+      {/* Channel section — show linked group info for individual contacts */}
+      {!isGroup && (
+        <div className="px-4 py-4 space-y-2 border-b border-border">
+          <h5 className="text-[11px] font-semibold uppercase tracking-wider text-text-4">Canal</h5>
+          <div className="rounded-xl p-3 bg-surface-custom">
+            <span className="text-[11px] text-text-3">
+              Grupo vinculado e canal ativo podem ser configurados via API
+            </span>
+          </div>
+        </div>
+      )}
+
       {/* CRM section — only for individual contacts */}
       {!isGroup && (
         <>

@@ -1,4 +1,5 @@
 import { getPrisma } from '../../config/database.js';
+import { getEnv } from '../../config/env.js';
 import { Prisma } from '@prisma/client';
 import { getDisplayName, formatPhoneBR } from '../../lib/contact-utils.js';
 
@@ -187,13 +188,43 @@ export async function updateChannel(
     if (!group) throw { statusCode: 400, message: 'Invalid linkedGroupId', code: 'INVALID_GROUP' };
   }
 
-  return prisma.contactInbox.update({
+  const result = await prisma.contactInbox.update({
     where: { id: contactInbox.id },
     data: {
       ...(data.activeConversationId !== undefined && { activeConversationId: data.activeConversationId }),
       ...(data.linkedGroupId !== undefined && { linkedGroupId: data.linkedGroupId }),
     },
   });
+
+  // Sync group mapping to Hub (fire-and-forget)
+  if (data.linkedGroupId && contact.hubContactId) {
+    const group = await prisma.group.findUnique({
+      where: { id: data.linkedGroupId },
+      select: { jid: true, name: true, groupType: true },
+    });
+    if (group) {
+      const env = getEnv();
+      const hubUrl = env.CRM_HUB_URL;
+      if (hubUrl) {
+        import('node:crypto').then(({ createHmac }) => {
+          const secret = env.MEDIA_JWT_SECRET ?? '';
+          const header = Buffer.from(JSON.stringify({ alg: 'HS256', typ: 'JWT' })).toString('base64url');
+          const now = Math.floor(Date.now() / 1000);
+          const payload = Buffer.from(JSON.stringify({ userId: 'chat-service', accountId, role: 'service', iat: now, exp: now + 300 })).toString('base64url');
+          const sig = createHmac('sha256', secret).update(`${header}.${payload}`).digest('base64url');
+          const token = `${header}.${payload}.${sig}`;
+
+          fetch(`${hubUrl}/api/v1/contacts/${contact.hubContactId}/group-mapping`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+            body: JSON.stringify({ groupJid: group.jid, groupName: group.name, groupType: group.groupType }),
+          }).catch((err) => console.error('[channel] Hub group-mapping failed:', err.message));
+        });
+      }
+    }
+  }
+
+  return result;
 }
 
 // Enrich contact with displayName and formattedPhone
