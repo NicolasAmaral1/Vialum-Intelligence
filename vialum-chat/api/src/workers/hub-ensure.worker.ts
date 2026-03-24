@@ -42,7 +42,7 @@ export function createHubEnsureWorker(): Worker {
       const env = getEnv();
       const { contactId, accountId, phone, name } = job.data;
 
-      const hubUrl = env.CRM_HUB_URL;
+      const hubUrl = env.HUB_URL ?? env.CRM_HUB_URL;
       if (!hubUrl) {
         job.log('CRM_HUB_URL not configured, skipping');
         return { skipped: true };

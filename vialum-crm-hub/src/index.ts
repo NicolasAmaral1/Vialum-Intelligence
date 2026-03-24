@@ -26,16 +26,35 @@ async function start() {
   // CORS
   await fastify.register(cors, { origin: env.CORS_ORIGIN === '*' ? true : env.CORS_ORIGIN.split(',') });
 
-  // Health check (no auth)
-  fastify.get('/crm/health', async () => ({ status: 'ok', service: 'vialum-crm-hub' }));
+  // Health check (no auth) — dual route: /hub and /crm (backward compat)
+  fastify.get('/hub/health', async () => ({ status: 'ok', service: 'vialum-hub' }));
+  fastify.get('/crm/health', async () => ({ status: 'ok', service: 'vialum-hub' }));
 
   // OAuth routes (callback needs no auth — external redirect)
+  fastify.register(oauthRoutes, { prefix: '/hub/api/v1/oauth' });
   fastify.register(oauthRoutes, { prefix: '/crm/api/v1/oauth' });
 
   // All API routes require JWT auth
   fastify.register(async (app) => {
     app.addHook('onRequest', jwtAuth);
 
+    app.register(contactRoutes, { prefix: '/contacts' });
+    app.register(integrationRoutes, { prefix: '/' });
+    app.register(providerRoutes, { prefix: '/providers' });
+    app.register(pipedriveRoutes, { prefix: '/pipedrive' });
+    app.register(clickupRoutes, { prefix: '/clickup' });
+    app.register(gdriveRoutes, { prefix: '/gdrive' });
+    app.register(identityRoutes, { prefix: '/identity' });
+    app.register(agentRoutes, { prefix: '/agent' });
+    app.register(groupRoutes, { prefix: '/groups' });
+    app.register(taskRoutes, { prefix: '/tasks' });
+    app.register(organizationRoutes, { prefix: '/organizations' });
+    app.register(adminRoutes, { prefix: '/admin' });
+  }, { prefix: '/hub/api/v1' });
+
+  // Backward compatibility: /crm routes alias → same handlers
+  fastify.register(async (app) => {
+    app.addHook('onRequest', jwtAuth);
     app.register(contactRoutes, { prefix: '/contacts' });
     app.register(integrationRoutes, { prefix: '/' });
     app.register(providerRoutes, { prefix: '/providers' });

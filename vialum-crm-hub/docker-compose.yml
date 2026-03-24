@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
   crm-hub:
     build: .
-    container_name: vialum-crm-hub
+    container_name: vialum-hub
     restart: unless-stopped
     environment:
       - DATABASE_URL=${DATABASE_URL}
@@ -14,10 +12,16 @@ services:
       - REDIS_URL=${REDIS_URL:-redis://:506hys0hQ7j7q9k8PD9Nva7G2Bg0SyAZ@vialumchat-redis:6379}
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.crm-hub.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/crm`)"
-      - "traefik.http.routers.crm-hub.entrypoints=websecure"
-      - "traefik.http.routers.crm-hub.tls.certresolver=letsencrypt"
-      - "traefik.http.services.crm-hub.loadbalancer.server.port=3100"
+      # Primary route: /hub
+      - "traefik.http.routers.hub.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/hub`)"
+      - "traefik.http.routers.hub.entrypoints=websecure"
+      - "traefik.http.routers.hub.tls.certresolver=letsencrypt"
+      - "traefik.http.services.hub.loadbalancer.server.port=3100"
+      # Backward compatibility: /crm (same service)
+      - "traefik.http.routers.crm-compat.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/crm`)"
+      - "traefik.http.routers.crm-compat.entrypoints=websecure"
+      - "traefik.http.routers.crm-compat.tls.certresolver=letsencrypt"
+      - "traefik.http.services.crm-compat.loadbalancer.server.port=3100"
     networks:
       - proxy
       - vialumchat-internal

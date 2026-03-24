@@ -10,7 +10,8 @@ const envSchema = z.object({
   CORS_ORIGIN: z.string().default('http://localhost:3000'),
   OPENAI_API_KEY: z.string().optional(),
   ANTHROPIC_API_KEY: z.string().optional(),
-  CRM_HUB_URL: z.string().optional(),
+  HUB_URL: z.string().optional(),
+  CRM_HUB_URL: z.string().optional(), // backward compat — use HUB_URL
   MEDIA_SERVICE_URL: z.string().default('http://vialum-media:3002/media'),
   MEDIA_JWT_SECRET: z.string().optional(),
   SWITCH_WEBHOOK_SECRET: z.string().optional(),

@@ -186,7 +186,7 @@ async function fetchCrmData(
   }
 
   // 2. Call Hub
-  const hubUrl = env.CRM_HUB_URL;
+  const hubUrl = env.HUB_URL ?? env.CRM_HUB_URL;
   if (!hubUrl) return { data: null, error: 'hub_not_configured' };
 
   try {

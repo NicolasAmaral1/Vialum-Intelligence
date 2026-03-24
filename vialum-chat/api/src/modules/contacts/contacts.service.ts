@@ -204,7 +204,7 @@ export async function updateChannel(
     });
     if (group) {
       const env = getEnv();
-      const hubUrl = env.CRM_HUB_URL;
+      const hubUrl = env.HUB_URL ?? env.CRM_HUB_URL;
       if (hubUrl) {
         import('node:crypto').then(({ createHmac }) => {
           const secret = env.MEDIA_JWT_SECRET ?? '';
