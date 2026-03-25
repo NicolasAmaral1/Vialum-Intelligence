@@ -17,8 +17,8 @@ services:
       - WORKSPACE_PATH=/home/vialum/genesis
       - REDIS_URL=${REDIS_URL:-}
     volumes:
-      - /root/.claude:/home/vialum/.claude
-      - /root/.claude.json:/home/vialum/.claude.json
+      - /root/.claude:/root/.claude:ro
+      - /root/.claude.json:/root/.claude.json:ro
       - /root/genesis:/home/vialum/genesis:ro
       - task-outputs:/app/outputs
     labels:

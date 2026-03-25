@@ -23,8 +23,9 @@ FROM node:20-alpine
 RUN apk add --no-cache python3 py3-pip bash git
 RUN npm install -g @anthropic-ai/claude-code
 
-# Create non-root user for Claude CLI (--dangerously-skip-permissions requires non-root)
+# Create non-root user for Claude CLI
 RUN adduser -D -h /home/vialum vialum
+RUN mkdir -p /home/vialum/.claude && chown -R vialum:vialum /home/vialum
 
 WORKDIR /app
 COPY --from=builder /app/dist ./dist
@@ -34,14 +35,10 @@ COPY --from=builder /app/mcp-aprovacao/dist ./mcp-aprovacao/dist
 COPY --from=builder /app/mcp-aprovacao/node_modules ./mcp-aprovacao/node_modules
 COPY hooks ./hooks
 COPY mcp-config.json ./
-
-# Make hooks executable
-RUN chmod +x hooks/*.cjs
-
 COPY package*.json ./
+COPY entrypoint.sh ./
+RUN chmod +x entrypoint.sh hooks/*.cjs
 RUN chown -R vialum:vialum /app
 
 EXPOSE 3005
-
-# Prisma migrate runs as root, then app runs as non-root (required for Claude CLI --dangerously-skip-permissions)
-CMD ["sh", "-c", "npx prisma migrate deploy && su -s /bin/sh vialum -c 'HOME=/home/vialum node /app/dist/index.js'"]
+CMD ["./entrypoint.sh"]
