@@ -11,7 +11,8 @@ if [ -f /root/.claude.json ]; then
 fi
 
 if [ -d /root/.claude ]; then
-  cp -r /root/.claude/* /home/vialum/.claude/ 2>/dev/null || true
+  # Copy all files including dotfiles (.credentials.json)
+  cp -a /root/.claude/. /home/vialum/.claude/
   chown -R vialum:vialum /home/vialum/.claude
 fi
 
