@@ -181,10 +181,13 @@ function getMcpConfigPath(): string {
 }
 
 function spawnClaude(args: string[], cwd: string, accountId: string): ChildProcess {
-  return spawn('claude', args, {
+  const claudeBin = process.env.CLAUDE_BIN || '/usr/local/bin/claude';
+  return spawn(claudeBin, args, {
     cwd,
     env: {
       ...process.env,
+      HOME: process.env.HOME || '/home/vialum',
+      PATH: `/usr/local/bin:/usr/bin:/bin:${process.env.PATH || ''}`,
       // Passed to MCP server via env interpolation in mcp-config.json
       VIALUM_ACCOUNT_ID: accountId,
       JWT_SECRET: env.JWT_SECRET,
