@@ -14,11 +14,12 @@ services:
       - MEDIA_SERVICE_URL=http://vialum-media:3002
       - SWITCH_SERVICE_URL=http://vialum-switch:3004
       - WEBHOOK_SECRET=${WEBHOOK_SECRET}
-      - WORKSPACE_PATH=/root/genesis
+      - WORKSPACE_PATH=/home/vialum/genesis
       - REDIS_URL=${REDIS_URL:-}
     volumes:
-      - /root/.claude:/root/.claude
-      - /root/genesis:/root/genesis:ro
+      - /root/.claude:/home/vialum/.claude
+      - /root/.claude.json:/home/vialum/.claude.json
+      - /root/genesis:/home/vialum/genesis:ro
       - task-outputs:/app/outputs
     labels:
       - "traefik.enable=true"
