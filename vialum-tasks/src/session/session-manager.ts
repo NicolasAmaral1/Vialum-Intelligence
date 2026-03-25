@@ -157,7 +157,8 @@ function buildArgs(prompt: string, sessionId: string, isResume: boolean, workflo
   const args = [
     '-p', prompt,
     '--output-format', 'stream-json',
-    '--dangerously-skip-permissions',
+    '--permission-mode', 'auto',
+    '--allowedTools', 'Bash,Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Agent,mcp__aprovacao__request_approval,mcp__aprovacao__check_approval_status',
     '--mcp-config', getMcpConfigPath(),
   ];
 
