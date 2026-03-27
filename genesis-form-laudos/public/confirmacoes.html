@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmações — Genesis</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <a href="/" class="logo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L2 22H22L12 2Z" fill="#9FEC14"/>
+      </svg>
+      GENESIS <span>LAUDOS</span>
+    </a>
+    <nav>
+      <a href="/">Novo Pedido</a>
+      <a href="/acompanhamento.html">Acompanhamento</a>
+      <a href="/confirmacoes.html" class="active">Confirmações</a>
+      <a href="/admin.html" id="adminLink">Usuários</a>
+      <button type="button" class="nav-button" id="logoutBtn">Sair</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-meta">
+      <div>
+        <h1 class="page-title">Iniciar Protocolo</h1>
+        <p class="page-subtitle">Selecione um cliente com laudo concluído e inicie o fluxo de registro no ClickUp.</p>
+      </div>
+      <div class="user-pill" id="userPill">Carregando...</div>
+    </section>
+
+    <div id="alertBox" class="alert"></div>
+
+    <div class="card">
+      <form id="protocoloForm">
+        <div class="form-group">
+          <label for="laudoSelect">Cliente (laudo concluído)</label>
+          <select id="laudoSelect" required>
+            <option value="">Carregando laudos...</option>
+          </select>
+          <small class="field-hint">Somente laudos com status "feito" aparecem aqui.</small>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nomeMarca">Nome da Marca</label>
+            <input type="text" id="nomeMarca" name="nomeMarca" placeholder="Preenchido automaticamente" required>
+          </div>
+          <div class="form-group">
+            <label for="nomeCliente">Nome do Cliente</label>
+            <input type="text" id="nomeCliente" name="nomeCliente" placeholder="Preenchido automaticamente" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="valorContrato">Valor do Contrato (R$)</label>
+            <input type="number" id="valorContrato" name="valorContrato" placeholder="Ex: 2900" step="0.01" min="0" required>
+          </div>
+          <div class="form-group">
+            <label for="parcelas">Parcelas</label>
+            <input type="number" id="parcelas" name="parcelas" placeholder="Ex: 10" min="1" max="24" value="1" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="classes">Classes NCL</label>
+            <input type="text" id="classes" name="classes" placeholder="Ex: 35, 42 ou 2 classes" required>
+            <small class="field-hint">Informe as classes específicas ou a quantidade.</small>
+          </div>
+          <div class="form-group">
+            <label for="formaPagamento">Forma de Pagamento</label>
+            <select id="formaPagamento" name="formaPagamento" required>
+              <option value="">Selecione...</option>
+              <option value="PIX">PIX</option>
+              <option value="CARTAO">Cartão</option>
+              <option value="BOLETO">Boleto</option>
+              <option value="PERMUTA">Permuta</option>
+              <option value="OUTRO">Outro</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="tipoMarca">Tipo de Marca</label>
+          <div class="radio-group">
+            <label class="radio-label">
+              <input type="radio" name="tipoMarca" value="NOMINATIVA" checked>
+              <span>Nominativa</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="tipoMarca" value="MISTA">
+              <span>Mista</span>
+            </label>
+            <label class="radio-label">
+              <input type="radio" name="tipoMarca" value="FIGURATIVA">
+              <span>Figurativa</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="notaAdicional">Nota Adicional</label>
+          <textarea id="notaAdicional" name="notaAdicional" placeholder="Observações extras sobre o cliente ou o caso..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary" id="submitBtn">
+          <span class="text">Iniciar Protocolo no ClickUp</span>
+          <div class="loader"></div>
+        </button>
+      </form>
+    </div>
+  </main>
+
+  <script>
+    async function loadSession() {
+      const response = await fetch('/api/auth/session');
+      const data = await response.json();
+
+      if (!data.authenticated) {
+        window.location.href = '/login';
+        return null;
+      }
+
+      if (data.user.mustChangePassword) {
+        window.location.href = '/senha';
+        return null;
+      }
+
+      if (data.user.role !== 'admin') {
+        window.location.href = '/';
+        return null;
+      }
+
+      return data.user;
+    }
+
+    function showAlert(message, type = 'error') {
+      const box = document.getElementById('alertBox');
+      box.textContent = message;
+      box.className = `alert alert-${type} alert-visible`;
+      setTimeout(() => { box.className = 'alert'; }, 6000);
+    }
+
+    async function loadLaudosConcluidos() {
+      const select = document.getElementById('laudoSelect');
+      try {
+        const response = await fetch('/api/laudos-concluidos');
+        const data = await response.json();
+
+        if (!data.success || !data.laudos.length) {
+          select.innerHTML = '<option value="">Nenhum laudo concluído encontrado</option>';
+          return;
+        }
+
+        select.innerHTML = '<option value="">Selecione um cliente...</option>';
+        data.laudos.forEach(laudo => {
+          const option = document.createElement('option');
+          option.value = JSON.stringify(laudo);
+          option.textContent = `${laudo.name} — ${laudo.cliente || 'Cliente não informado'}`;
+          select.appendChild(option);
+        });
+      } catch (err) {
+        select.innerHTML = '<option value="">Erro ao carregar laudos</option>';
+      }
+    }
+
+    function onLaudoSelect() {
+      const select = document.getElementById('laudoSelect');
+      if (!select.value) return;
+
+      try {
+        const laudo = JSON.parse(select.value);
+        document.getElementById('nomeMarca').value = laudo.name || '';
+        document.getElementById('nomeCliente').value = laudo.cliente || '';
+      } catch (e) {
+        // ignore parse errors
+      }
+    }
+
+    async function handleSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      btn.classList.add('loading');
+      btn.disabled = true;
+
+      const laudoSelect = document.getElementById('laudoSelect');
+      let laudoData = {};
+      try { laudoData = JSON.parse(laudoSelect.value); } catch (e) { /* ok */ }
+
+      const payload = {
+        nomeMarca: document.getElementById('nomeMarca').value.trim(),
+        nomeCliente: document.getElementById('nomeCliente').value.trim(),
+        valorContrato: parseFloat(document.getElementById('valorContrato').value),
+        parcelas: parseInt(document.getElementById('parcelas').value, 10),
+        classes: document.getElementById('classes').value.trim(),
+        formaPagamento: document.getElementById('formaPagamento').value,
+        tipoMarca: document.querySelector('input[name="tipoMarca"]:checked')?.value || 'NOMINATIVA',
+        notaAdicional: document.getElementById('notaAdicional').value.trim(),
+        laudoTaskId: laudoData.id || null,
+      };
+
+      try {
+        const response = await fetch('/api/protocolo', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          showAlert(data.error || 'Erro ao criar protocolo.', 'error');
+          return;
+        }
+
+        showAlert('Protocolo criado com sucesso no ClickUp!', 'success');
+        document.getElementById('protocoloForm').reset();
+        document.getElementById('laudoSelect').selectedIndex = 0;
+      } catch (err) {
+        showAlert('Erro de conexão. Tente novamente.', 'error');
+      } finally {
+        btn.classList.remove('loading');
+        btn.disabled = false;
+      }
+    }
+
+    (async () => {
+      const user = await loadSession();
+      if (!user) return;
+
+      document.getElementById('userPill').textContent = user.displayName || user.username;
+      document.getElementById('laudoSelect').addEventListener('change', onLaudoSelect);
+      document.getElementById('protocoloForm').addEventListener('submit', handleSubmit);
+      document.getElementById('logoutBtn').addEventListener('click', async () => {
+        await fetch('/api/auth/logout', { method: 'POST' });
+        window.location.href = '/login';
+      });
+
+      await loadLaudosConcluidos();
+    })();
+  </script>
+</body>
+</html>

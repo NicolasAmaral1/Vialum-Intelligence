@@ -17,6 +17,7 @@
     <nav>
       <a href="/" class="active">Novo Pedido</a>
       <a href="/acompanhamento.html">Acompanhamento</a>
+      <a href="/confirmacoes.html" id="confirmLink" class="hidden">Confirmações</a>
       <a href="/admin.html" id="adminLink" class="hidden">Usuários</a>
       <button type="button" class="nav-button" id="logoutBtn">Sair</button>
     </nav>
@@ -83,6 +84,7 @@
 
       if (data.user.role === 'admin') {
         document.getElementById('adminLink').classList.remove('hidden');
+        document.getElementById('confirmLink').classList.remove('hidden');
       }
 
       return data.user;

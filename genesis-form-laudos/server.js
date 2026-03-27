@@ -12,6 +12,7 @@ const app = express();
 const PORT = Number(process.env.PORT || 3000);
 const CLICKUP_API_TOKEN = process.env.CLICKUP_API_TOKEN;
 const LIST_ID = '901324787605';
+const PROTOCOLO_LIST_ID = '901322069698';
 const SESSION_COOKIE = 'genesis_form_session';
 const SESSION_TTL_MS = 12 * 60 * 60 * 1000;
 const DATA_DIR = path.join(__dirname, 'data');
@@ -321,6 +322,10 @@ app.get('/login', (req, res) => {
 app.get('/senha', requireAuth, sendPage('senha.html'));
 app.get('/', requireAuth, sendPage('index.html'));
 app.get('/acompanhamento.html', requireAuth, sendPage('acompanhamento.html'));
+app.get('/confirmacoes.html', requireAuth, (req, res, next) => {
+  if (req.currentUser.role !== 'admin') return res.redirect('/');
+  return next();
+}, sendPage('confirmacoes.html'));
 app.get('/admin.html', requireAuth, (req, res, next) => {
   if (req.currentUser.role !== 'admin') return res.redirect('/');
   return next();
@@ -542,6 +547,108 @@ app.get('/api/laudos', requireAuth, async (req, res) => {
   } catch (error) {
     console.error('Erro ClickUp GET tasks:', error.response?.data || error.message);
     return res.status(500).json({ error: 'Falha ao buscar laudos do ClickUp.' });
+  }
+});
+
+// GET laudos with status "feito" — for the confirmacoes page
+app.get('/api/laudos-concluidos', requireAuth, requireAdmin, async (req, res) => {
+  try {
+    if (!CLICKUP_API_TOKEN) {
+      return res.status(500).json({ error: 'CLICKUP_API_TOKEN não configurado.' });
+    }
+
+    const response = await axios.get(
+      `https://api.clickup.com/api/v2/list/${LIST_ID}/task?statuses[]=feito&include_closed=false`,
+      { headers: { Authorization: CLICKUP_API_TOKEN } }
+    );
+
+    const laudos = response.data.tasks.map((task) => {
+      // Extract client name from description (format: **Cliente:** Name)
+      const clienteMatch = (task.description || '').match(/\*\*Cliente:\*\*\s*(.+)/);
+      return {
+        id: task.id,
+        name: task.name,
+        cliente: clienteMatch ? clienteMatch[1].trim() : '',
+        status: task.status.status,
+        date_created: task.date_created,
+      };
+    });
+
+    return res.status(200).json({ success: true, laudos });
+  } catch (error) {
+    console.error('Erro ClickUp GET laudos concluídos:', error.response?.data || error.message);
+    return res.status(500).json({ error: 'Falha ao buscar laudos concluídos.' });
+  }
+});
+
+// POST create protocolo task in ClickUp
+app.post('/api/protocolo', requireAuth, requireAdmin, async (req, res) => {
+  try {
+    const {
+      nomeMarca,
+      nomeCliente,
+      valorContrato,
+      parcelas,
+      classes,
+      formaPagamento,
+      tipoMarca,
+      notaAdicional,
+      laudoTaskId,
+    } = req.body;
+
+    if (!nomeMarca || !nomeCliente || !valorContrato || !classes || !formaPagamento) {
+      return res.status(400).json({ error: 'Campos obrigatórios: marca, cliente, valor, classes, forma de pagamento.' });
+    }
+
+    if (!CLICKUP_API_TOKEN) {
+      return res.status(500).json({ error: 'CLICKUP_API_TOKEN não configurado.' });
+    }
+
+    const description = [
+      `**Cliente:** ${String(nomeCliente).trim()}`,
+      `**Valor:** R$ ${Number(valorContrato).toLocaleString('pt-BR', { minimumFractionDigits: 2 })}`,
+      `**Parcelas:** ${parcelas || 1}x`,
+      `**Forma de Pagamento:** ${formaPagamento}`,
+      `**Classes:** ${String(classes).trim()}`,
+      `**Tipo de Marca:** ${tipoMarca || 'NOMINATIVA'}`,
+      notaAdicional ? `**Nota:** ${String(notaAdicional).trim()}` : null,
+      laudoTaskId ? `**Laudo vinculado:** https://app.clickup.com/t/${laudoTaskId}` : null,
+      `**Iniciado por:** ${buildRequesterLabel(req.currentUser)}`,
+    ].filter(Boolean).join('\n');
+
+    // Custom field IDs from the Protocolo list
+    const customFields = [
+      { id: '28f75c34-1027-436b-a242-730a32e1ec75', value: String(classes).trim() },       // Classes
+      { id: 'd660b997-4bd3-4393-878b-265676c08c8b', value: Number(valorContrato) },         // Valor
+      { id: 'c833a0a0-95f7-4625-800c-128a5675a8ab', value: formaPagamento },                // Forma de pagamento
+      { id: '91595fd2-67b4-47b5-912f-fc1afc82fc15', value: Number(parcelas) || 1 },         // Parcelas
+    ];
+
+    const response = await axios.post(
+      `https://api.clickup.com/api/v2/list/${PROTOCOLO_LIST_ID}/task`,
+      {
+        name: String(nomeMarca).trim(),
+        description,
+        status: 'solicitar dados',
+        custom_fields: customFields,
+      },
+      {
+        headers: {
+          Authorization: CLICKUP_API_TOKEN,
+          'Content-Type': 'application/json',
+        },
+      }
+    );
+
+    return res.status(201).json({
+      success: true,
+      taskId: response.data.id,
+      taskUrl: response.data.url,
+      message: 'Protocolo criado com sucesso no ClickUp.',
+    });
+  } catch (error) {
+    console.error('Erro ClickUp POST protocolo:', error.response?.data || error.message);
+    return res.status(500).json({ error: 'Falha ao criar protocolo no ClickUp.' });
   }
 });
 
