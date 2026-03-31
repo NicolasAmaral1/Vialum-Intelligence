@@ -7,6 +7,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+// ═══════════════════════════════════════════════════════════
+// LEGACY TABLES (unchanged — backward compat for legacy definitions)
+// ═══════════════════════════════════════════════════════════
+
 model WorkflowDefinition {
   id              String     @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   accountId       String     @map("account_id") @db.Uuid
@@ -24,7 +28,13 @@ model WorkflowDefinition {
   createdAt       DateTime   @default(now()) @map("created_at") @db.Timestamptz
   updatedAt       DateTime   @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
 
+  // v2 fields
+  definitionFormat String    @default("legacy") @map("definition_format") @db.VarChar(20)
+  definitionYaml   String?   @map("definition_yaml") @db.Text
+  version          Int       @default(1)
+
   workflows       Workflow[]
+  triggers        WorkflowTrigger[]
 
   @@unique([accountId, slug])
   @@index([accountId])
@@ -43,7 +53,7 @@ model Workflow {
   context         Json       @default("{}")
   errorMessage    String?    @map("error_message") @db.Text
 
-  // External links — connect workflow to entities in other services
+  // External links
   contactPhone    String?    @map("contact_phone") @db.VarChar(30)
   conversationId  String?    @map("conversation_id") @db.VarChar(255)
   externalTaskId  String?    @map("external_task_id") @db.VarChar(255)
@@ -56,10 +66,22 @@ model Workflow {
   createdAt       DateTime   @default(now()) @map("created_at") @db.Timestamptz
   updatedAt       DateTime   @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
 
+  // v2 fields
+  currentStageId    String?  @map("current_stage_id") @db.Uuid
+  currentStepId     String?  @map("current_step_id") @db.Uuid
+  definitionVersion Int      @default(1) @map("definition_version")
+  totalCostUsd      Decimal  @default(0) @map("total_cost_usd") @db.Decimal(10, 6)
+  lastActivityAt    DateTime @default(now()) @map("last_activity_at") @db.Timestamptz
+
   definition      WorkflowDefinition @relation(fields: [definitionId], references: [id])
   events          WorkflowEvent[]
   approvals       Approval[]
   commands        Command[]
+
+  // v2 relations
+  wfStages        WorkflowStage[]
+  wfTasks         WorkflowTask[]
+  wfSteps         WorkflowStep[]
 
   @@index([accountId, status])
   @@index([accountId, createdAt(sort: Desc)])
@@ -123,4 +145,311 @@ model Command {
 
   @@index([workflowId, createdAt(sort: Desc)])
   @@map("task_commands")
+}
+
+// ═══════════════════════════════════════════════════════════
+// V2 TABLES — Taxonomy: Workflow > Stage > Task > Step
+// ═══════════════════════════════════════════════════════════
+
+model WorkflowStage {
+  id                String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId         String    @map("account_id") @db.Uuid
+  workflowId        String    @map("workflow_id") @db.Uuid
+  definitionStageId String    @map("definition_stage_id") @db.VarChar(100)
+  name              String    @db.VarChar(255)
+  position          Int
+  status            String    @default("pending") @db.VarChar(30)
+  // pending | active | completed | skipped
+  startedAt         DateTime? @map("started_at") @db.Timestamptz
+  completedAt       DateTime? @map("completed_at") @db.Timestamptz
+  createdAt         DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt         DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  workflow          Workflow       @relation(fields: [workflowId], references: [id])
+  tasks             WorkflowTask[]
+
+  @@index([workflowId, position])
+  @@map("task_workflow_stages")
+}
+
+model WorkflowTask {
+  id                String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId         String    @map("account_id") @db.Uuid
+  workflowId        String    @map("workflow_id") @db.Uuid
+  stageId           String    @map("stage_id") @db.Uuid
+  definitionTaskId  String    @map("definition_task_id") @db.VarChar(100)
+  name              String    @db.VarChar(255)
+  position          Int
+  status            String    @default("pending") @db.VarChar(30)
+  // pending | active | completed | skipped
+  startedAt         DateTime? @map("started_at") @db.Timestamptz
+  completedAt       DateTime? @map("completed_at") @db.Timestamptz
+  createdAt         DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt         DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  stage             WorkflowStage  @relation(fields: [stageId], references: [id])
+  workflow          Workflow       @relation(fields: [workflowId], references: [id])
+  steps             WorkflowStep[]
+
+  @@index([stageId, position])
+  @@index([workflowId])
+  @@map("task_workflow_tasks")
+}
+
+model WorkflowStep {
+  id                String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId         String    @map("account_id") @db.Uuid
+  workflowId        String    @map("workflow_id") @db.Uuid
+  taskId            String    @map("task_id") @db.Uuid
+  definitionStepId  String    @map("definition_step_id") @db.VarChar(100)
+  name              String    @db.VarChar(255)
+  position          Int
+  executor          String    @db.VarChar(20)
+  // ai | human | system | client
+  adapterType       String    @default("squad") @map("adapter_type") @db.VarChar(30)
+  // ai: squad | sdk | langchain
+  // human: human
+  // system: script
+  // client: wait
+  status            String    @default("pending") @db.VarChar(30)
+  // pending | running | awaiting_human | awaiting_client | completed | failed | skipped
+  assigneeRole      String?   @map("assignee_role") @db.VarChar(50)
+  isGate            Boolean   @default(false) @map("is_gate")
+  condition         String?   @db.Text
+  inputSchema       Json?     @map("input_schema")
+  outputSchema      Json?     @map("output_schema")
+  promptTemplate    String?   @map("prompt_template") @db.Text
+  waitConfig        Json?     @map("wait_config")
+  // for executor: client — { channel, treeFlowSlug, followUp: { intervals, message } }
+  transitions       Json?
+  // [{ condition?: string, target: string, default?: boolean }]
+  // if null → linear (next by position). if set → graph (evaluate conditions)
+
+  // Checkpoint: squad can request dynamic human input mid-step
+  allowCheckpoints  Boolean   @default(false) @map("allow_checkpoints")
+
+  // Post-completion variable updates: [{ set: "key", value: "expression" }]
+  onComplete        Json?     @map("on_complete")
+
+  // Timeout: max wait time for human/client steps
+  timeoutMs         Int?      @map("timeout_ms")
+  onTimeout         String?   @map("on_timeout") @db.VarChar(100)
+  // definitionStepId to jump to on timeout (null = fail workflow)
+
+  // Failure: where to go if step fails after all retries
+  onFailure         String?   @map("on_failure") @db.VarChar(100)
+  // definitionStepId to jump to on failure (null = fail workflow)
+
+  // Follow-up config for human/client steps
+  // { intervals: number[], message?: string, escalateTo?: string, businessHours?: {...} }
+  followUp          Json?     @map("follow_up")
+
+  output            Json?
+  errorMessage      String?   @map("error_message") @db.Text
+  retryCount        Int       @default(0) @map("retry_count")
+  maxRetries        Int       @default(3) @map("max_retries")
+  startedAt         DateTime? @map("started_at") @db.Timestamptz
+  completedAt       DateTime? @map("completed_at") @db.Timestamptz
+  createdAt         DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt         DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  task              WorkflowTask    @relation(fields: [taskId], references: [id])
+  workflow          Workflow        @relation(fields: [workflowId], references: [id])
+  executions        StepExecution[]
+
+  @@index([taskId, position])
+  @@index([workflowId, status])
+  @@map("task_workflow_steps")
+}
+
+// ═══════════════════════════════════════════════════════════
+// EXECUTION & SESSION
+// ═══════════════════════════════════════════════════════════
+
+model StepExecution {
+  id              String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String    @map("account_id") @db.Uuid
+  workflowId      String    @map("workflow_id") @db.Uuid
+  stepId          String    @map("step_id") @db.Uuid
+  attemptNumber   Int       @default(1) @map("attempt_number")
+  adapterType     String    @map("adapter_type") @db.VarChar(50)
+  status          String    @default("running") @db.VarChar(30)
+  // running | completed | failed | cancelled | timeout
+  inputContext    Json      @map("input_context")
+  outputContext   Json?     @map("output_context")
+  sessionId       String?   @map("session_id") @db.Uuid
+  errorMessage    String?   @map("error_message") @db.Text
+  durationMs      Int?      @map("duration_ms")
+  inputTokens     Int?      @map("input_tokens")
+  outputTokens    Int?      @map("output_tokens")
+  costUsd         Decimal?  @map("cost_usd") @db.Decimal(10, 6)
+  modelId         String?   @map("model_id") @db.VarChar(100)
+  createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  completedAt     DateTime? @map("completed_at") @db.Timestamptz
+
+  step            WorkflowStep @relation(fields: [stepId], references: [id])
+
+  @@index([stepId, attemptNumber])
+  @@index([workflowId])
+  @@map("task_step_executions")
+}
+
+model TaskSession {
+  id                String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId         String    @map("account_id") @db.Uuid
+  workflowId        String    @map("workflow_id") @db.Uuid
+  taskId            String?   @map("task_id") @db.Uuid
+  adapterType       String    @map("adapter_type") @db.VarChar(50)
+  adapterSessionId  String?   @map("adapter_session_id") @db.VarChar(255)
+  // opaque ID from adapter (e.g., Claude CLI session UUID)
+  status            String    @default("active") @db.VarChar(30)
+  // active | paused | completed | failed | orphaned
+  nodeId            String?   @map("node_id") @db.VarChar(100)
+  // which server instance owns this session (horizontal scaling)
+  pid               Int?
+  heartbeatAt       DateTime  @default(now()) @map("heartbeat_at") @db.Timestamptz
+  sessionData       Json      @default("{}") @map("session_data")
+  createdAt         DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt         DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@index([workflowId, status])
+  @@index([nodeId, status])
+  @@map("task_sessions")
+}
+
+// ═══════════════════════════════════════════════════════════
+// INBOX — Unified HITL queue
+// ═══════════════════════════════════════════════════════════
+
+model InboxItem {
+  id              String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String    @map("account_id") @db.Uuid
+  type            String    @db.VarChar(30)
+  // human_step: step with executor:human (from Tasks engine)
+  // ai_suggestion: message suggestion (from Chat)
+  sourceService   String    @map("source_service") @db.VarChar(30)
+  // tasks | chat
+  sourceId        String    @map("source_id") @db.VarChar(255)
+  // human_step: workflowStepId | ai_suggestion: aiSuggestionId
+  workflowId      String?   @map("workflow_id") @db.Uuid
+  stepId          String?   @map("step_id") @db.Uuid
+  title           String    @db.VarChar(500)
+  description     String?   @db.Text
+  assigneeRole    String?   @map("assignee_role") @db.VarChar(50)
+  assigneeId      String?   @map("assignee_id") @db.VarChar(255)
+  priority        String    @default("normal") @db.VarChar(20)
+  // low | normal | high | urgent
+  status          String    @default("pending") @db.VarChar(30)
+  // pending | in_progress | completed | dismissed
+  inputData       Json?     @map("input_data")
+  // data from previous step for the human to review
+  outputSchema    Json?     @map("output_schema")
+  // JSON Schema of what the human needs to produce
+  outputData      Json?     @map("output_data")
+  // human's response, validated against outputSchema
+  attachments     Json?     @default("[]")
+  context         Json?     @default("{}")
+  // extra metadata (workflow name, stage, conversation summary, etc.)
+  completedBy     String?   @map("completed_by") @db.VarChar(255)
+  completedAt     DateTime? @map("completed_at") @db.Timestamptz
+  readBy          String[]  @default([]) @map("read_by")
+  dismissedBy     String[]  @default([]) @map("dismissed_by")
+  createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@index([accountId, status, assigneeRole])
+  @@index([accountId, assigneeId, status])
+  @@index([workflowId])
+  @@index([sourceService, sourceId])
+  @@map("task_inbox_items")
+}
+
+// ═══════════════════════════════════════════════════════════
+// COST TRACKING
+// ═══════════════════════════════════════════════════════════
+
+model CostEvent {
+  id              String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String    @map("account_id") @db.Uuid
+  workflowId      String?   @map("workflow_id") @db.Uuid
+  stepId          String?   @map("step_id") @db.Uuid
+  executionId     String?   @map("execution_id") @db.Uuid
+  adapterType     String    @map("adapter_type") @db.VarChar(50)
+  modelId         String?   @map("model_id") @db.VarChar(100)
+  billingType     String    @map("billing_type") @db.VarChar(30)
+  // token | minute | request | flat
+  inputTokens     Int?      @map("input_tokens")
+  outputTokens    Int?      @map("output_tokens")
+  costUsd         Decimal   @map("cost_usd") @db.Decimal(10, 6)
+  createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz
+
+  @@index([accountId, createdAt(sort: Desc)])
+  @@index([workflowId])
+  @@map("task_cost_events")
+}
+
+// ═══════════════════════════════════════════════════════════
+// ADAPTER CONFIG — per-tenant adapter settings
+// ═══════════════════════════════════════════════════════════
+
+model AdapterConfig {
+  id              String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String    @map("account_id") @db.Uuid
+  slug            String    @db.VarChar(100)
+  adapterType     String    @map("adapter_type") @db.VarChar(50)
+  // squad | sdk | langchain | script | human | wait
+  name            String    @db.VarChar(255)
+  config          Json
+  isDefault       Boolean   @default(false) @map("is_default")
+  active          Boolean   @default(true)
+  createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt       DateTime  @default(now()) @updatedAt @map("updated_at") @db.Timestamptz
+
+  @@unique([accountId, slug])
+  @@map("task_adapter_configs")
+}
+
+// ═══════════════════════════════════════════════════════════
+// TRIGGERS — event → workflow creation mapping
+// ═══════════════════════════════════════════════════════════
+
+model WorkflowTrigger {
+  id                String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId         String    @map("account_id") @db.Uuid
+  definitionId      String    @map("definition_id") @db.Uuid
+  triggerType       String    @map("trigger_type") @db.VarChar(50)
+  // talk_completed | hub_event | schedule | manual
+  triggerConfig     Json      @map("trigger_config")
+  clientDataMapping Json      @default("{}") @map("client_data_mapping")
+  active            Boolean   @default(true)
+  createdAt         DateTime  @default(now()) @map("created_at") @db.Timestamptz
+
+  definition        WorkflowDefinition @relation(fields: [definitionId], references: [id])
+
+  @@index([accountId, triggerType])
+  @@map("task_workflow_triggers")
+}
+
+// ═══════════════════════════════════════════════════════════
+// SCHEDULED JOBS — follow-ups, timeouts, reminders
+// ═══════════════════════════════════════════════════════════
+
+model ScheduledJob {
+  id              String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  accountId       String    @map("account_id") @db.Uuid
+  workflowId      String    @map("workflow_id") @db.Uuid
+  stepId          String    @map("step_id") @db.Uuid
+  type            String    @db.VarChar(30)
+  // follow_up_client | follow_up_human | timeout | escalation
+  scheduledAt     DateTime  @map("scheduled_at") @db.Timestamptz
+  executedAt      DateTime? @map("executed_at") @db.Timestamptz
+  cancelledAt     DateTime? @map("cancelled_at") @db.Timestamptz
+  payload         Json      @default("{}")
+  // { message?, channel?, attemptNumber?, escalateTo?, businessHours? }
+  createdAt       DateTime  @default(now()) @map("created_at") @db.Timestamptz
+
+  @@index([scheduledAt, executedAt, cancelledAt])
+  @@index([stepId])
+  @@index([accountId])
+  @@map("task_scheduled_jobs")
 }

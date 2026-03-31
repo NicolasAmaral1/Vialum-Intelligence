@@ -1,28 +1,41 @@
 import Fastify from 'fastify';
 import cors from '@fastify/cors';
-import { createServer } from 'http';
 import { env } from './config/env.js';
 import { getPrisma } from './config/database.js';
 import { jwtAuth } from './lib/jwt-auth.js';
 import { initSocketIO } from './plugins/websocket.js';
 import { stopAllSessions } from './session/session-manager.js';
+import { stopAllSquadSessions } from './adapters/squad/squad.adapter.js';
+import { registerAdapter } from './adapters/adapter.registry.js';
+import { SquadAdapter } from './adapters/squad/squad.adapter.js';
+import { recoverStaleSteps } from './engine/execution-engine.js';
 import { definitionRoutes } from './modules/definitions/definitions.routes.js';
 import { workflowRoutes } from './modules/workflows/workflows.routes.js';
 import { approvalRoutes } from './modules/approvals/approvals.routes.js';
 import { eventRoutes } from './modules/events/events.routes.js';
 import { commandRoutes } from './modules/commands/commands.routes.js';
+import { inboxRoutes } from './modules/inbox/inbox.routes.js';
+import { stepRoutes } from './modules/steps/steps.routes.js';
 
 const fastify = Fastify({ logger: true });
 
+// ═══ Register adapters ═══
+registerAdapter(new SquadAdapter());
+
 async function recoverStaleWorkflows() {
   const prisma = getPrisma();
+
+  // Legacy recovery: mark running/hitl workflows as paused
   const stale = await prisma.workflow.updateMany({
-    where: { status: { in: ['running', 'hitl'] }, deletedAt: null },
+    where: { status: { in: ['running', 'hitl'] }, deletedAt: null, definitionVersion: 0 },
     data: { status: 'paused' },
   });
   if (stale.count > 0) {
-    fastify.log.warn(`Recovered ${stale.count} stale workflow(s) → paused`);
+    fastify.log.warn(`Recovered ${stale.count} stale legacy workflow(s) → paused`);
   }
+
+  // v2 recovery: recover engine steps and sessions
+  await recoverStaleSteps();
 }
 
 async function start() {
@@ -41,10 +54,16 @@ async function start() {
   // API routes (JWT auth required)
   fastify.register(async (app) => {
     app.addHook('onRequest', jwtAuth);
+
+    // Legacy + shared
     app.register(definitionRoutes, { prefix: '/definitions' });
     app.register(workflowRoutes, { prefix: '/workflows' });
     app.register(approvalRoutes, { prefix: '/approvals' });
     app.register(commandRoutes, { prefix: '/commands' });
+
+    // v2: inbox + steps
+    app.register(inboxRoutes, { prefix: '/inbox' });
+    app.register(stepRoutes, { prefix: '/workflows' });
   }, { prefix: '/tasks/api/v1' });
 
   // Recover stale workflows from previous crash
@@ -63,8 +82,10 @@ async function start() {
 async function shutdown(signal: string) {
   fastify.log.info(`${signal} received — shutting down`);
 
-  // Stop all active Claude sessions
+  // Stop legacy sessions
   await stopAllSessions();
+  // Stop v2 squad sessions
+  await stopAllSquadSessions();
 
   await fastify.close();
 

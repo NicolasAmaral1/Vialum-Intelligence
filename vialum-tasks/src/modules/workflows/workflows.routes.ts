@@ -2,6 +2,7 @@ import { FastifyInstance } from 'fastify';
 import { getPrisma } from '../../config/database.js';
 import { parsePagination, paginatedResponse } from '../../lib/pagination.js';
 import { startSession, stopSession } from '../../session/session-manager.js';
+import * as engine from '../../engine/execution-engine.js';
 
 export async function workflowRoutes(fastify: FastifyInstance) {
   const prisma = getPrisma();
@@ -44,6 +45,34 @@ export async function workflowRoutes(fastify: FastifyInstance) {
     });
     if (!definition) return reply.status(404).send({ error: 'Definition not found', code: 'NOT_FOUND' });
 
+    // ═══ V2 PATH: new engine ═══
+    if (definition.definitionFormat === 'v2') {
+      try {
+        const workflow = await engine.createWorkflow({
+          definitionId: definition.id,
+          accountId,
+          clientData: (body.client_data as Record<string, unknown>) || {},
+          contactPhone: (body.contact_phone as string) || undefined,
+          conversationId: (body.conversation_id as string) || undefined,
+          hubContactId: (body.hub_contact_id as string) || undefined,
+          idempotencyKey: idempotencyKey || undefined,
+        });
+
+        // Auto-start unless explicitly told not to
+        if (body.auto_start !== false) {
+          await engine.startWorkflow(workflow.id);
+        }
+
+        const updated = await prisma.workflow.findUnique({ where: { id: workflow.id } });
+        return reply.status(201).send({ data: updated });
+      } catch (err) {
+        const message = (err as Error).message;
+        const status = message.includes('already exists') ? 409 : 400;
+        return reply.status(status).send({ error: message, code: 'ENGINE_ERROR' });
+      }
+    }
+
+    // ═══ LEGACY PATH: old session manager ═══
     const stages = definition.stages as Array<{ id: string; position: number }>;
     const firstStage = [...stages].sort((a, b) => a.position - b.position)[0];
 
@@ -64,7 +93,6 @@ export async function workflowRoutes(fastify: FastifyInstance) {
       },
     });
 
-    // Auto-start session if prompt provided or definition has prompt template
     const prompt = body.prompt as string | undefined;
     const autoPrompt = prompt || renderPrompt(definition.promptTemplate, body.client_data as Record<string, unknown> | undefined);
 
@@ -77,12 +105,10 @@ export async function workflowRoutes(fastify: FastifyInstance) {
           cwd: definition.cwd || undefined,
         });
       } catch (err) {
-        // Session failed to start — workflow created but idle
         fastify.log.error({ err, workflowId: workflow.id }, 'Failed to auto-start session');
       }
     }
 
-    // Reload to get updated status
     const updated = await prisma.workflow.findUnique({ where: { id: workflow.id } });
     return reply.status(201).send({ data: updated });
   });
@@ -95,6 +121,18 @@ export async function workflowRoutes(fastify: FastifyInstance) {
       include: {
         definition: true,
         approvals: { where: { status: 'pending' }, orderBy: { createdAt: 'desc' } },
+        // v2: include full hierarchy
+        wfStages: {
+          orderBy: { position: 'asc' },
+          include: {
+            tasks: {
+              orderBy: { position: 'asc' },
+              include: {
+                steps: { orderBy: { position: 'asc' } },
+              },
+            },
+          },
+        },
       },
     });
     if (!workflow) return reply.status(404).send({ error: 'Not found', code: 'NOT_FOUND' });
