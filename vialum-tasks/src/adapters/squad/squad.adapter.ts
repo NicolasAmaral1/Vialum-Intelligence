@@ -314,6 +314,7 @@ function buildArgs(prompt: string, sessionId: string, isResume: boolean, workflo
   const args = [
     '-p', prompt,
     '--output-format', 'stream-json',
+    '--verbose',
     '--permission-mode', 'auto',
     '--allowedTools', getAllowedTools(),
   ];

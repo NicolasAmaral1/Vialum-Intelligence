@@ -326,9 +326,17 @@ async function runAiStep(workflowId: string, step: StepRow, bus: ContextBus): Pr
         accountId: step.accountId, adapterConfig: {}, cwd: '',
       });
       sessionHandles.set(sKey, handle);
-    } else if (!handle.pid) {
-      // Session paused — resume. Inject catch-up context if other steps ran.
+    } else if (!handle.pid && handle.adapterSessionId) {
+      // Session paused with valid adapterSessionId — resume
       handle = await (adapter as SessionAwareAdapter).resumeSession(handle, {
+        workflowId, taskId: step.taskId,
+        accountId: step.accountId, adapterConfig: {}, cwd: '',
+      });
+      sessionHandles.set(sKey, handle);
+    } else if (!handle.pid) {
+      // Session exists but no adapterSessionId (failed before init) — start fresh
+      sessionHandles.delete(sKey);
+      handle = await (adapter as SessionAwareAdapter).startSession({
         workflowId, taskId: step.taskId,
         accountId: step.accountId, adapterConfig: {}, cwd: '',
       });
