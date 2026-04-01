@@ -16,6 +16,9 @@ services:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
       - CORS_ORIGIN=*
+      # Vialum Tasks webhook (notify when client message arrives)
+      - TASKS_WEBHOOK_URL=http://vialum-tasks:3005
+      - TASKS_WEBHOOK_SECRET=${WEBHOOK_SECRET:-vialum-switch-internal-2026}
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=proxy"
