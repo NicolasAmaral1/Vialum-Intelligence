@@ -1,6 +1,7 @@
 import { FastifyInstance } from 'fastify';
 import { getPrisma } from '../../config/database.js';
 import { env } from '../../config/env.js';
+import { onClientResponded } from '../../engine/execution-engine.js';
 
 export async function eventRoutes(fastify: FastifyInstance) {
   const prisma = getPrisma();
@@ -96,12 +97,28 @@ export async function eventRoutes(fastify: FastifyInstance) {
       },
     });
 
-    // If workflow is paused/waiting, it can be resumed
-    // TODO (Story 2): Session Manager — resume with message context
-    // The session would be resumed with: "O cliente respondeu: {content}"
+    // Check if workflow has a step awaiting client response
+    const awaitingStep = await prisma.workflowStep.findFirst({
+      where: { workflowId: workflow.id, status: 'awaiting_client' },
+    });
 
-    // TODO: Broadcast via Socket.IO
-    return { ok: true, matched: true, workflowId: workflow.id };
+    if (awaitingStep) {
+      // Resume the step with client's message
+      try {
+        await onClientResponded(workflow.id, awaitingStep.id, {
+          message: String(data.content ?? ''),
+          contentType: String(data.contentType ?? 'text'),
+          messageId: String(data.messageId ?? ''),
+          conversationId: conversationId ?? '',
+          contactPhone: contactPhone ?? '',
+        });
+      } catch (err) {
+        // Log but don't fail — message is already saved as event
+        console.error(`[events] Failed to resume step ${awaitingStep.id}:`, (err as Error).message);
+      }
+    }
+
+    return { ok: true, matched: true, workflowId: workflow.id, resumed: !!awaitingStep };
   });
 
   // Hub webhook receiver (no JWT — auth via webhook secret)

@@ -326,7 +326,13 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
         }, { jobId: `media-${message.id}` });
       }
 
-      // ── 7. Trigger automation + talk routing ──
+      // ── 7. Notify Vialum Tasks (fire-and-forget) ──
+      if (!isOutgoing && process.env.TASKS_WEBHOOK_URL) {
+        notifyTasks(accountId, conversation.id, contactInbox!.contact.phone, message.id, normalized.content ?? '', normalized.contentType)
+          .catch((err) => console.error('[webhook:process] Tasks notification failed (non-blocking):', err.message));
+      }
+
+      // ── 8. Trigger automation + talk routing ──
       await getAutomationQueue().add('evaluate', {
         accountId,
         eventName: 'message_created',
@@ -653,6 +659,52 @@ function fetchAndUpdateAvatar(
 
 // syncContactNameFromCRM REMOVED — replaced by hub-ensure worker (Story 2.6.1)
 // The hub-ensure worker calls POST /contacts/ensure which returns the name from Hub.
+
+/**
+ * Notify Vialum Tasks that a client message arrived.
+ * Fire-and-forget — failure doesn't affect message processing.
+ * Tasks uses this to resume workflows with awaiting_client steps.
+ */
+async function notifyTasks(
+  accountId: string,
+  conversationId: string,
+  contactPhone: string | null,
+  messageId: string,
+  content: string,
+  contentType: string,
+): Promise<void> {
+  const url = process.env.TASKS_WEBHOOK_URL;
+  const secret = process.env.TASKS_WEBHOOK_SECRET;
+  if (!url || !secret) return;
+
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 3000); // 3s timeout
+
+  try {
+    await fetch(`${url}/tasks/api/v1/events/chat`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Webhook-Secret': secret,
+      },
+      body: JSON.stringify({
+        event: 'message.created',
+        accountId,
+        data: {
+          conversationId,
+          contactPhone,
+          messageId,
+          content,
+          contentType,
+          messageType: 'incoming',
+        },
+      }),
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timeout);
+  }
+}
 
 function fetchAndUpdateGroupName(
   groupId: string,
