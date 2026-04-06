@@ -5,7 +5,7 @@ import { RelativeTime } from '@/components/shared/RelativeTime';
 import { ContactAvatar } from '@/components/shared/AvatarFallback';
 import { ReadReceipts } from './ReadReceipts';
 import { Lock, Image, Mic, Video, FileText, MapPin, Sticker, Download, Loader2, Play, CornerUpRight } from 'lucide-react';
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useAuthStore } from '@/stores/auth.store';
 import { mediaApi } from '@/lib/api/media';
 import type { Message } from '@/types/api';
@@ -143,7 +143,7 @@ function MediaContent({ message }: { message: Message }) {
   const [error, setError] = useState(false);
 
   const fetchMediaUrl = useCallback(async () => {
-    if (!currentAccount || !hasMediaFile || loading) return;
+    if (!currentAccount || !hasMediaFile || loading || mediaUrl) return;
     setLoading(true);
     setError(false);
     try {
@@ -154,27 +154,42 @@ function MediaContent({ message }: { message: Message }) {
     } finally {
       setLoading(false);
     }
-  }, [currentAccount, message.id, message.conversationId, hasMediaFile, loading]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentAccount, message.id, message.conversationId, hasMediaFile]);
+
+  // Auto-load preview for images, audio, and video
+  useEffect(() => {
+    if (hasMediaFile && !mediaUrl && !loading) {
+      fetchMediaUrl();
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hasMediaFile]);
 
   const contentType = message.contentType;
   const duration = attrs.seconds
     ? `${Math.floor(Number(attrs.seconds) / 60)}:${String(Math.floor(Number(attrs.seconds) % 60)).padStart(2, '0')}`
     : null;
 
-  // Image — show inline preview
+  // Loading state for auto-fetch
+  const loadingPlaceholder = (icon: React.ReactNode, label: string) => (
+    <div className="flex items-center gap-2 text-text-3 text-[12px] min-w-[180px]">
+      {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : icon}
+      <span>{error ? 'Erro ao carregar' : label}</span>
+      {error && hasMediaFile && (
+        <button onClick={fetchMediaUrl} className="text-accent text-[10px] ml-auto hover:underline">Tentar novamente</button>
+      )}
+    </div>
+  );
+
+  // Image
   if (contentType === 'image') {
     if (mediaUrl) {
       return <img src={mediaUrl} alt="Imagem" className="rounded-lg max-w-full max-h-[300px] cursor-pointer" onClick={() => window.open(mediaUrl, '_blank')} />;
     }
-    return (
-      <button onClick={fetchMediaUrl} disabled={loading} className="flex items-center gap-2 text-text-3 text-[12px] hover:text-text-1 transition-colors">
-        {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Image className="w-4 h-4" />}
-        <span>{error ? 'Erro ao carregar' : hasMediaFile ? 'Carregar imagem' : 'Imagem'}</span>
-      </button>
-    );
+    return loadingPlaceholder(<Image className="w-4 h-4" />, 'Imagem');
   }
 
-  // Audio — inline player
+  // Audio
   if (contentType === 'audio') {
     if (mediaUrl) {
       return (
@@ -183,48 +198,30 @@ function MediaContent({ message }: { message: Message }) {
         </div>
       );
     }
-    return (
-      <button onClick={fetchMediaUrl} disabled={loading} className="flex items-center gap-2 text-text-3 text-[12px] hover:text-text-1 transition-colors min-w-[180px]">
-        {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Mic className="w-4 h-4" />}
-        <span>{attrs.ptt ? 'Mensagem de voz' : 'Audio'}{duration ? ` (${duration})` : ''}</span>
-        {hasMediaFile && !loading && <Play className="w-3 h-3 ml-auto" />}
-      </button>
-    );
+    return loadingPlaceholder(<Mic className="w-4 h-4" />, `${attrs.ptt ? 'Mensagem de voz' : 'Audio'}${duration ? ` (${duration})` : ''}`);
   }
 
-  // Video — inline player
+  // Video
   if (contentType === 'video') {
     if (mediaUrl) {
       return <video controls src={mediaUrl} className="rounded-lg max-w-full max-h-[300px]" preload="none" />;
     }
-    return (
-      <button onClick={fetchMediaUrl} disabled={loading} className="flex items-center gap-2 text-text-3 text-[12px] hover:text-text-1 transition-colors">
-        {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Video className="w-4 h-4" />}
-        <span>Video{duration ? ` (${duration})` : ''}</span>
-        {hasMediaFile && !loading && <Play className="w-3 h-3 ml-auto" />}
-      </button>
-    );
+    return loadingPlaceholder(<Video className="w-4 h-4" />, `Video${duration ? ` (${duration})` : ''}`);
   }
 
-  // Document — download link
+  // Document
   if (contentType === 'document') {
     const fileName = (attrs.fileName as string) || 'Documento';
     if (mediaUrl) {
       return (
         <a href={mediaUrl} target="_blank" rel="noopener noreferrer" download={fileName} className="flex items-center gap-2 text-accent text-[12px] hover:underline">
           <FileText className="w-4 h-4" />
-          <span>{fileName}</span>
-          <Download className="w-3 h-3 ml-auto" />
+          <span className="truncate max-w-[200px]">{fileName}</span>
+          <Download className="w-3 h-3 shrink-0 ml-auto" />
         </a>
       );
     }
-    return (
-      <button onClick={fetchMediaUrl} disabled={loading} className="flex items-center gap-2 text-text-3 text-[12px] hover:text-text-1 transition-colors">
-        {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <FileText className="w-4 h-4" />}
-        <span>{fileName}</span>
-        {hasMediaFile && !loading && <Download className="w-3 h-3 ml-auto" />}
-      </button>
-    );
+    return loadingPlaceholder(<FileText className="w-4 h-4" />, fileName);
   }
 
   // Sticker / Location / fallback — placeholder only
