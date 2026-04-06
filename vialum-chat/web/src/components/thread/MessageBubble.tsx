@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import { RelativeTime } from '@/components/shared/RelativeTime';
 import { ContactAvatar } from '@/components/shared/AvatarFallback';
 import { ReadReceipts } from './ReadReceipts';
-import { Lock, Image, Mic, Video, FileText, MapPin, Sticker, Download, Loader2, Play, CornerUpRight } from 'lucide-react';
+import { Lock, Image, Mic, Video, FileText, MapPin, Sticker, Download, Loader2, CornerUpRight } from 'lucide-react';
 import { useState, useCallback, useEffect } from 'react';
 import { useAuthStore } from '@/stores/auth.store';
 import { mediaApi } from '@/lib/api/media';
