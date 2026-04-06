@@ -429,20 +429,34 @@ export class EvolutionAdapter implements IWhatsAppProvider, IGroupProvider {
   private extractContent(msg: Record<string, unknown>): { content: string | null; contentType: string; contentAttributes: Record<string, unknown> } {
     const contentAttributes: Record<string, unknown> = {};
 
+    // Extract forwarded info from contextInfo (present in all message types)
+    const extractForwardedInfo = (msgObj: Record<string, unknown>) => {
+      const ctx = msgObj?.contextInfo as Record<string, unknown> | undefined;
+      if (ctx?.isForwarded) {
+        contentAttributes.isForwarded = true;
+        const score = Number(ctx.forwardingScore ?? 0);
+        contentAttributes.forwardingScore = score;
+        if (score >= 4) contentAttributes.isFrequentlyForwarded = true;
+      }
+    };
+
     if (msg.conversation) {
       return { content: msg.conversation as string, contentType: 'text', contentAttributes };
     }
     if ((msg.extendedTextMessage as Record<string, unknown>)?.text) {
+      extractForwardedInfo(msg.extendedTextMessage as Record<string, unknown>);
       return { content: (msg.extendedTextMessage as Record<string, unknown>).text as string, contentType: 'text', contentAttributes };
     }
     if (msg.imageMessage) {
       const im = msg.imageMessage as Record<string, unknown>;
+      extractForwardedInfo(im);
       contentAttributes.mimetype = im.mimetype;
       contentAttributes.url = im.url;
       return { content: (im.caption as string) ?? null, contentType: 'image', contentAttributes };
     }
     if (msg.audioMessage) {
       const am = msg.audioMessage as Record<string, unknown>;
+      extractForwardedInfo(am);
       contentAttributes.mimetype = am.mimetype;
       contentAttributes.url = am.url;
       contentAttributes.seconds = am.seconds;
@@ -451,12 +465,14 @@ export class EvolutionAdapter implements IWhatsAppProvider, IGroupProvider {
     }
     if (msg.videoMessage) {
       const vm = msg.videoMessage as Record<string, unknown>;
+      extractForwardedInfo(vm);
       contentAttributes.mimetype = vm.mimetype;
       contentAttributes.url = vm.url;
       return { content: (vm.caption as string) ?? null, contentType: 'video', contentAttributes };
     }
     if (msg.documentMessage) {
       const dm = msg.documentMessage as Record<string, unknown>;
+      extractForwardedInfo(dm);
       contentAttributes.mimetype = dm.mimetype;
       contentAttributes.url = dm.url;
       contentAttributes.fileName = dm.fileName;

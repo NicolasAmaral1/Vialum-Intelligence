@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import { RelativeTime } from '@/components/shared/RelativeTime';
 import { ContactAvatar } from '@/components/shared/AvatarFallback';
 import { ReadReceipts } from './ReadReceipts';
-import { Lock, Image, Mic, Video, FileText, MapPin, Sticker, Download, Loader2, Play } from 'lucide-react';
+import { Lock, Image, Mic, Video, FileText, MapPin, Sticker, Download, Loader2, Play, CornerUpRight } from 'lucide-react';
 import { useState, useCallback } from 'react';
 import { useAuthStore } from '@/stores/auth.store';
 import { mediaApi } from '@/lib/api/media';
@@ -102,6 +102,18 @@ export function MessageBubble({ message, isFirst = true }: MessageBubbleProps) {
             style={{ color: senderColor(senderName) }}
           >
             {senderName}
+          </div>
+        )}
+
+        {/* Forwarded label */}
+        {!!(message.contentAttributes as Record<string, unknown>)?.isForwarded && (
+          <div className="flex items-center gap-1 text-[10.5px] text-text-4 italic mb-1">
+            <CornerUpRight className="w-3 h-3" />
+            <span>
+              {(message.contentAttributes as Record<string, unknown>)?.isFrequentlyForwarded
+                ? 'Encaminhada com frequencia'
+                : 'Encaminhada'}
+            </span>
           </div>
         )}
 
