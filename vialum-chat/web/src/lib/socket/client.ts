@@ -27,8 +27,10 @@ export function initSocket(
   }) as TypedSocket;
 
   // Refresh token before each reconnection attempt (manager-level event)
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const mgr = socket.io as any;
   if (onTokenRefresh) {
-    socket.io.on('reconnect_attempt' as any, async () => {
+    mgr.on('reconnect_attempt', async () => {
       const freshToken = await onTokenRefresh().catch(() => null);
       if (freshToken && socket) {
         (socket.auth as Record<string, string>).token = freshToken;
@@ -37,13 +39,13 @@ export function initSocket(
   }
 
   // Connection status tracking
-  socket.on('connect' as any, () => useConnectionStore.getState().setStatus('connected'));
-  socket.on('disconnect' as any, () => useConnectionStore.getState().setStatus('disconnected'));
-  socket.io.on('reconnect_attempt' as any, () => useConnectionStore.getState().setStatus('connecting'));
-  socket.io.on('reconnect' as any, () => useConnectionStore.getState().setStatus('connected'));
+  socket.on('connect', () => useConnectionStore.getState().setStatus('connected'));
+  socket.on('disconnect', () => useConnectionStore.getState().setStatus('disconnected'));
+  mgr.on('reconnect_attempt', () => useConnectionStore.getState().setStatus('connecting'));
+  mgr.on('reconnect', () => useConnectionStore.getState().setStatus('connected'));
 
   // Redirect to login on permanent auth failure (debounced)
-  socket.on('connect_error' as any, (err: Error) => {
+  socket.on('connect_error', (err: Error) => {
     const msg = err.message ?? '';
     if ((msg.includes('Authentication') || msg.includes('jwt') || msg.includes('Unauthorized')) && !authRedirected) {
       authRedirected = true;

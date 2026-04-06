@@ -6,8 +6,8 @@ import { useAuthStore } from '@/stores/auth.store';
 import { useConversationsStore } from '@/stores/conversations.store';
 import { useSuggestionsStore } from '@/stores/suggestions.store';
 import { useMessagesStore } from '@/stores/messages.store';
-import { getAccessToken, isTokenExpired, getRefreshToken, setAccessToken, setRefreshToken, clearTokens } from '@/lib/auth/tokens';
-import { initSocket, disconnectSocket, getSocket } from '@/lib/socket/client';
+import { getAccessToken, isTokenExpired, getRefreshToken, setAccessToken, setRefreshToken } from '@/lib/auth/tokens';
+import { initSocket, disconnectSocket } from '@/lib/socket/client';
 import { useConnectionStore } from '@/stores/connection.store';
 import { AppShell } from '@/components/layout/AppShell';
 import { LoadingSpinner } from '@/components/shared/LoadingSpinner';
@@ -24,9 +24,6 @@ import type { Conversation } from '@/types/api';
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const { isAuthenticated, currentAccount } = useAuthStore();
-  const upsertConversation = useConversationsStore((s) => s.upsertConversation);
-  const addMessage = useMessagesStore((s) => s.addMessage);
-  const addSuggestion = useSuggestionsStore((s) => s.addSuggestion);
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -79,7 +76,9 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       socket.emit('subscribe:account', accountId);
     };
     socket.on('connect', onConnect);
-    socket.io.on('reconnect' as any, onConnect);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const mgr = socket.io as any;
+    mgr.on('reconnect', onConnect);
 
     // Use getState() to avoid stale closures — store actions are stable
     const onMessageCreated = (data: MessageCreatedEvent) => {
@@ -141,7 +140,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
     return () => {
       socket.off('connect', onConnect);
-      socket.io.off('reconnect' as any, onConnect);
+      mgr.off('reconnect', onConnect);
       socket.off('message:created', onMessageCreated);
       socket.off('conversation:updated', onConversationUpdated);
       socket.off('conversation:status_changed', onStatusChanged);
