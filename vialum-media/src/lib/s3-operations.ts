@@ -29,10 +29,15 @@ export async function uploadBuffer(storageKey: string, buffer: Buffer, contentTy
 
 export async function getPresignedUrl(storageKey: string, expiresIn: number = 3600): Promise<{ url: string; expiresAt: string }> {
   const s3 = getS3();
-  const url = await getSignedUrl(s3,
+  let url = await getSignedUrl(s3,
     new GetObjectCommand({ Bucket: env.S3_BUCKET, Key: storageKey }),
     { expiresIn },
   );
+
+  // Replace internal S3 endpoint with public URL if configured
+  if (env.S3_PUBLIC_URL && env.S3_ENDPOINT) {
+    url = url.replace(env.S3_ENDPOINT, env.S3_PUBLIC_URL);
+  }
 
   const expiresAt = new Date(Date.now() + expiresIn * 1000).toISOString();
   return { url, expiresAt };

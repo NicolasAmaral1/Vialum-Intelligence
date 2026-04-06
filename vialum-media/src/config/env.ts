@@ -14,6 +14,7 @@ export const env = {
   S3_REGION: process.env.S3_REGION ?? 'us-east-1',
   S3_FORCE_PATH_STYLE: process.env.S3_FORCE_PATH_STYLE === 'true',
   S3_BUCKET: process.env.S3_BUCKET ?? 'vialum-media',
+  S3_PUBLIC_URL: process.env.S3_PUBLIC_URL ?? '', // Public URL for presigned URLs (e.g. https://s3.domain.com)
 };
 
 const required = ['DATABASE_URL', 'JWT_SECRET', 'S3_ACCESS_KEY', 'S3_SECRET_KEY'] as const;

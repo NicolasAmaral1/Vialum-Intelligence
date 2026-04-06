@@ -15,6 +15,7 @@ services:
       - S3_REGION=us-east-1
       - S3_FORCE_PATH_STYLE=true
       - S3_BUCKET=vialum-media
+      - S3_PUBLIC_URL=http://76.13.172.17:9000
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.media.rule=Host(`api.luminai.ia.br`) && PathPrefix(`/media`)"
