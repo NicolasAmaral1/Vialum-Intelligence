@@ -4,7 +4,7 @@
 
 import { PutObjectCommand, GetObjectCommand, DeleteObjectCommand, HeadObjectCommand } from '@aws-sdk/client-s3';
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner';
-import { getS3 } from '../config/s3.js';
+import { getS3, getS3Public } from '../config/s3.js';
 import { env } from '../config/env.js';
 import { randomUUID } from 'crypto';
 
@@ -28,16 +28,12 @@ export async function uploadBuffer(storageKey: string, buffer: Buffer, contentTy
 }
 
 export async function getPresignedUrl(storageKey: string, expiresIn: number = 3600): Promise<{ url: string; expiresAt: string }> {
-  const s3 = getS3();
-  let url = await getSignedUrl(s3,
+  // Use public S3 client so presigned URLs have the correct host for browser access
+  const s3 = getS3Public();
+  const url = await getSignedUrl(s3,
     new GetObjectCommand({ Bucket: env.S3_BUCKET, Key: storageKey }),
     { expiresIn },
   );
-
-  // Replace internal S3 endpoint with public URL if configured
-  if (env.S3_PUBLIC_URL && env.S3_ENDPOINT) {
-    url = url.replace(env.S3_ENDPOINT, env.S3_PUBLIC_URL);
-  }
 
   const expiresAt = new Date(Date.now() + expiresIn * 1000).toISOString();
   return { url, expiresAt };
