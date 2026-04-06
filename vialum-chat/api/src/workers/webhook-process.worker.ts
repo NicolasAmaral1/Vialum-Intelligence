@@ -35,14 +35,30 @@ let _hubEnsureQueue: Queue | null = null;
 
 function getAutomationQueue(): Queue {
   if (!_automationQueue) {
-    _automationQueue = new Queue('automation-evaluate', { connection: getRedis() as any });
+    _automationQueue = new Queue('automation-evaluate', {
+      connection: getRedis() as any,
+      defaultJobOptions: {
+        attempts: 3,
+        backoff: { type: 'exponential', delay: 1000 },
+        removeOnComplete: 1000,
+        removeOnFail: 5000,
+      },
+    });
   }
   return _automationQueue;
 }
 
 function getTalkRouteQueue(): Queue {
   if (!_talkRouteQueue) {
-    _talkRouteQueue = new Queue('talk-route-message', { connection: getRedis() as any });
+    _talkRouteQueue = new Queue('talk-route-message', {
+      connection: getRedis() as any,
+      defaultJobOptions: {
+        attempts: 3,
+        backoff: { type: 'exponential', delay: 2000 },
+        removeOnComplete: 1000,
+        removeOnFail: 5000,
+      },
+    });
   }
   return _talkRouteQueue;
 }
@@ -75,6 +91,16 @@ function getMediaPersistQueue(): Queue {
     });
   }
   return _mediaPersistQueue;
+}
+
+export async function closeSingletonQueues(): Promise<void> {
+  await Promise.allSettled([
+    _automationQueue?.close(),
+    _talkRouteQueue?.close(),
+    _mediaPersistQueue?.close(),
+    _hubEnsureQueue?.close(),
+  ]);
+  _automationQueue = _talkRouteQueue = _mediaPersistQueue = _hubEnsureQueue = null;
 }
 
 export function createWebhookProcessWorker(io: SocketIOServer): Worker {
@@ -145,22 +171,35 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
       let contactId: string;
 
       if (!contactInbox) {
-        // Atomic find-or-create contact (prevents duplicate contacts from concurrent webhooks)
-        const { contact, isNew } = await prisma.$transaction(async (tx) => {
+        // Atomic find-or-create contact + contactInbox in single transaction
+        const { contact, ci, isNew } = await prisma.$transaction(async (tx) => {
           let existing = await tx.contact.findFirst({
             where: { accountId, phone: normalized.senderPhone },
           });
-          if (existing) return { contact: existing, isNew: false };
+          const isNew = !existing;
+          if (!existing) {
+            existing = await tx.contact.create({
+              data: {
+                accountId,
+                name: normalized.senderName ?? normalized.senderPhone,
+                phone: normalized.senderPhone,
+              },
+            });
+          }
 
-          const created = await tx.contact.create({
+          const ci = await tx.contactInbox.create({
             data: {
-              accountId,
-              name: normalized.senderName ?? normalized.senderPhone,
-              phone: normalized.senderPhone,
+              contactId: existing.id,
+              inboxId,
+              sourceId,
             },
+            include: { contact: true },
           });
-          return { contact: created, isNew: true };
+
+          return { contact: existing, ci, isNew };
         });
+
+        contactInbox = ci;
 
         if (isNew) {
           job.log(`Created new contact ${contact.id} (${normalized.senderPhone})`);
@@ -175,15 +214,6 @@ export function createWebhookProcessWorker(io: SocketIOServer): Worker {
             getHubEnsureQueue().add('ensure', { contactId: contact.id, accountId, phone: normalized.senderPhone, name: contact.name }, { jobId: `ensure:${accountId}:${normalized.senderPhone}` });
           }
         }
-
-        contactInbox = await prisma.contactInbox.create({
-          data: {
-            contactId: contact.id,
-            inboxId,
-            sourceId,
-          },
-          include: { contact: true },
-        });
 
         contactId = contact.id;
       } else {
@@ -420,23 +450,37 @@ async function processGroupMessage(
     fetchAndUpdateGroupName(group.id, groupJid, whatsappProvider.providerName, providerConfig);
   }
 
-  // ── 2. Find or create sender Contact ──
+  // ── 2. Find or create sender Contact (race-safe with unique constraint) ──
   let contact = await prisma.contact.findFirst({
     where: { accountId, phone: participantPhone },
   });
 
+  const isNewContact = !contact;
   if (!contact) {
-    contact = await prisma.contact.create({
-      data: {
-        accountId,
-        name: normalized.senderName ?? participantPhone,
-        phone: participantPhone,
-      },
-    });
+    try {
+      contact = await prisma.contact.create({
+        data: {
+          accountId,
+          name: normalized.senderName ?? participantPhone,
+          phone: participantPhone,
+        },
+      });
+    } catch (err: any) {
+      // Handle unique constraint violation from concurrent webhook (P2002)
+      if (err?.code === 'P2002') {
+        contact = await prisma.contact.findFirst({ where: { accountId, phone: participantPhone } });
+        if (!contact) throw err; // should never happen
+      } else {
+        throw err;
+      }
+    }
+  }
+
+  if (isNewContact && contact) {
     job.log(`Created new contact ${contact.id} (${participantPhone})`);
     fetchAndUpdateAvatar(contact.id, participantPhone, whatsappProvider, providerConfig);
     getHubEnsureQueue().add('ensure', { contactId: contact.id, accountId, phone: participantPhone, name: normalized.senderName }, { jobId: `ensure:${accountId}:${participantPhone}` });
-  } else {
+  } else if (contact) {
     if (normalized.senderName && contact.name === participantPhone) {
       await prisma.contact.update({
         where: { id: contact.id },
@@ -446,7 +490,6 @@ async function processGroupMessage(
     if (!contact.avatarUrl) {
       fetchAndUpdateAvatar(contact.id, participantPhone, whatsappProvider, providerConfig);
     }
-    // Sync name from CRM if still using pushName or phone
     if (contact.name === participantPhone || contact.name === normalized.senderName) {
       getHubEnsureQueue().add('ensure', { contactId: contact.id, accountId, phone: participantPhone, name: contact.name }, { jobId: `ensure:${accountId}:${participantPhone}` });
     }

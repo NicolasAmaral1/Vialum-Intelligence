@@ -1,8 +1,11 @@
 import { create } from 'zustand';
 import type { AISuggestion } from '@/types/api';
 
+const MAX_CACHED_CONVERSATIONS = 20;
+
 interface SuggestionsState {
   byConversation: Record<string, AISuggestion[]>;
+  _accessOrder: string[];
   pendingTotal: number;
 }
 
@@ -15,25 +18,41 @@ interface SuggestionsActions {
   decrementPending: (count?: number) => void;
 }
 
+function touchAndEvict(
+  byConversation: Record<string, AISuggestion[]>,
+  accessOrder: string[],
+  conversationId: string,
+): { byConversation: Record<string, AISuggestion[]>; _accessOrder: string[] } {
+  const newOrder = accessOrder.filter((id) => id !== conversationId);
+  newOrder.push(conversationId);
+
+  const newByConv = { ...byConversation };
+  while (newOrder.length > MAX_CACHED_CONVERSATIONS) {
+    const evicted = newOrder.shift()!;
+    delete newByConv[evicted];
+  }
+
+  return { byConversation: newByConv, _accessOrder: newOrder };
+}
+
 export const useSuggestionsStore = create<SuggestionsState & SuggestionsActions>()((set) => ({
   byConversation: {},
+  _accessOrder: [],
   pendingTotal: 0,
 
   setSuggestions: (conversationId, suggestions) =>
-    set((s) => ({
-      byConversation: { ...s.byConversation, [conversationId]: suggestions },
-    })),
+    set((s) => {
+      const { byConversation, _accessOrder } = touchAndEvict(s.byConversation, s._accessOrder, conversationId);
+      byConversation[conversationId] = suggestions;
+      return { byConversation, _accessOrder };
+    }),
 
   addSuggestion: (conversationId, suggestion) =>
     set((s) => {
       const existing = s.byConversation[conversationId] || [];
-      return {
-        byConversation: {
-          ...s.byConversation,
-          [conversationId]: [...existing, suggestion as AISuggestion],
-        },
-        pendingTotal: s.pendingTotal + 1,
-      };
+      const { byConversation, _accessOrder } = touchAndEvict(s.byConversation, s._accessOrder, conversationId);
+      byConversation[conversationId] = [...(byConversation[conversationId] || existing), suggestion as AISuggestion];
+      return { byConversation, _accessOrder, pendingTotal: s.pendingTotal + 1 };
     }),
 
   updateSuggestion: (conversationId, id, patch) =>
@@ -41,9 +60,7 @@ export const useSuggestionsStore = create<SuggestionsState & SuggestionsActions>
       const suggestions = (s.byConversation[conversationId] || []).map((sug) =>
         sug.id === id ? { ...sug, ...patch } : sug,
       );
-      return {
-        byConversation: { ...s.byConversation, [conversationId]: suggestions },
-      };
+      return { byConversation: { ...s.byConversation, [conversationId]: suggestions } };
     }),
 
   removeSuggestion: (id) =>

@@ -358,7 +358,7 @@ export class EvolutionAdapter implements IWhatsAppProvider, IGroupProvider {
     return {
       externalMessageId: String(key?.id ?? `evo_${Date.now()}`),
       senderPhone,
-      senderName: (data.pushName as string) ?? null,
+      senderName: this.sanitizePushName(data.pushName as string | undefined, config as EvolutionConfig),
       content,
       contentType,
       contentAttributes,
@@ -412,6 +412,20 @@ export class EvolutionAdapter implements IWhatsAppProvider, IGroupProvider {
 
   // ── Private helpers ──
 
+  /** Discard pushName when it matches or contains the instance name (Evolution API bug) */
+  private sanitizePushName(pushName: string | undefined, config: EvolutionConfig): string | null {
+    if (!pushName) return null;
+    const instanceName = config.instance_name;
+    if (instanceName) {
+      const pn = pushName.trim().toLowerCase();
+      const inst = instanceName.trim().toLowerCase();
+      if (pn === inst || pn.includes(inst) || inst.includes(pn)) {
+        return null;
+      }
+    }
+    return pushName;
+  }
+
   private extractContent(msg: Record<string, unknown>): { content: string | null; contentType: string; contentAttributes: Record<string, unknown> } {
     const contentAttributes: Record<string, unknown> = {};
 
@@ -430,6 +444,7 @@ export class EvolutionAdapter implements IWhatsAppProvider, IGroupProvider {
     if (msg.audioMessage) {
       const am = msg.audioMessage as Record<string, unknown>;
       contentAttributes.mimetype = am.mimetype;
+      contentAttributes.url = am.url;
       contentAttributes.seconds = am.seconds;
       contentAttributes.ptt = am.ptt;
       return { content: null, contentType: 'audio', contentAttributes };
@@ -437,11 +452,13 @@ export class EvolutionAdapter implements IWhatsAppProvider, IGroupProvider {
     if (msg.videoMessage) {
       const vm = msg.videoMessage as Record<string, unknown>;
       contentAttributes.mimetype = vm.mimetype;
+      contentAttributes.url = vm.url;
       return { content: (vm.caption as string) ?? null, contentType: 'video', contentAttributes };
     }
     if (msg.documentMessage) {
       const dm = msg.documentMessage as Record<string, unknown>;
       contentAttributes.mimetype = dm.mimetype;
+      contentAttributes.url = dm.url;
       contentAttributes.fileName = dm.fileName;
       return { content: (dm.fileName as string) ?? null, contentType: 'document', contentAttributes };
     }

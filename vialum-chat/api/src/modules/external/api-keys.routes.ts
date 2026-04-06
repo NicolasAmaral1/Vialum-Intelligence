@@ -2,8 +2,8 @@ import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
 import * as apiKeysService from './api-keys.service.js';
 
 export async function apiKeyRoutes(fastify: FastifyInstance) {
-  // List API keys
-  fastify.get('/', async (
+  // List API keys — admin only
+  fastify.get('/', { onRequest: [(fastify as any).adminGuard] }, async (
     request: FastifyRequest<{ Params: { accountId: string } }>,
     reply: FastifyReply,
   ) => {

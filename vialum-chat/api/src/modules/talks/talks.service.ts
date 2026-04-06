@@ -177,7 +177,7 @@ export async function pauseTalk(accountId: string, talkId: string, actorId?: str
     // Remove from active talk on conversation if this is the active one
     await tx.conversation.updateMany({
       where: { id: talk.conversationId, activeTalkId: talkId },
-      data: { activeTalkId: null },
+      data: { activeTalkId: null, updatedAt: new Date() },
     });
 
     await tx.talkEvent.create({
@@ -275,7 +275,7 @@ export async function closeTalk(accountId: string, talkId: string, reason: strin
     // Remove from active talk on conversation
     await tx.conversation.updateMany({
       where: { id: talk.conversationId, activeTalkId: talkId },
-      data: { activeTalkId: null },
+      data: { activeTalkId: null, updatedAt: new Date() },
     });
 
     // If this talk has a parent, resume the parent

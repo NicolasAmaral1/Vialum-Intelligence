@@ -3,6 +3,20 @@ import { getRedis } from '../config/redis.js';
 import { getPrisma } from '../config/database.js';
 import { Server as SocketIOServer } from 'socket.io';
 
+// Singleton queue for message-send (avoids per-job connection overhead)
+let _messageSendQueue: Queue | null = null;
+function getMessageSendQueue(): Queue {
+  if (!_messageSendQueue) {
+    _messageSendQueue = new Queue('message-send', { connection: getRedis() as any });
+  }
+  return _messageSendQueue;
+}
+
+export async function closeSingletonQueues(): Promise<void> {
+  await _messageSendQueue?.close();
+  _messageSendQueue = null;
+}
+
 // ════════════════════════════════════════════════════════════
 // Automation Worker
 // Queue: automation:evaluate
@@ -193,14 +207,12 @@ async function executeAction(
       const content = action.params.content;
       if (!content || !conversationId) return;
 
-      const sendQueue = new Queue('message-send', { connection: getRedis() as any });
-      await sendQueue.add('automation-message', {
+      await getMessageSendQueue().add('automation-message', {
         accountId,
         conversationId,
         content,
         senderType: 'bot',
       });
-      await sendQueue.close();
       break;
     }
 
@@ -251,6 +263,8 @@ async function executeAction(
       const webhookUrl = action.params.url;
       if (!webhookUrl) return;
 
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 5000);
       try {
         await fetch(webhookUrl, {
           method: 'POST',
@@ -261,9 +275,12 @@ async function executeAction(
             data: eventData,
             timestamp: new Date().toISOString(),
           }),
+          signal: controller.signal,
         });
       } catch (err) {
         console.error(`[automation] Failed to send webhook to ${webhookUrl}:`, err);
+      } finally {
+        clearTimeout(timeout);
       }
       break;
     }

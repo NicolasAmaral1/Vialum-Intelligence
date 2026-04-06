@@ -185,12 +185,15 @@ export async function webhookRoutes(fastify: FastifyInstance) {
 
     if (appSecret) {
       const signature = request.headers['x-hub-signature-256'] as string | undefined;
-      if (signature) {
-        const rawBody = JSON.stringify(payload);
-        const expectedSig = 'sha256=' + crypto.createHmac('sha256', appSecret).update(rawBody).digest('hex');
-        if (signature !== expectedSig) {
-          return reply.status(401).send({ error: 'Invalid signature' });
-        }
+      if (!signature) {
+        return reply.status(401).send({ error: 'Missing webhook signature' });
+      }
+      const rawBody = JSON.stringify(payload);
+      const expectedSig = 'sha256=' + crypto.createHmac('sha256', appSecret).update(rawBody).digest('hex');
+      const sigBuf = Buffer.from(signature);
+      const expectedBuf = Buffer.from(expectedSig);
+      if (sigBuf.length !== expectedBuf.length || !crypto.timingSafeEqual(sigBuf, expectedBuf)) {
+        return reply.status(401).send({ error: 'Invalid signature' });
       }
     }
 

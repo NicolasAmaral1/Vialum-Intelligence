@@ -59,8 +59,10 @@ export function createHubEnsureWorker(): Worker {
         return { skipped: true, hubContactId: contact.hubContactId };
       }
 
-      // Call Hub POST /contacts/ensure
+      // Call Hub POST /contacts/ensure (5s timeout)
       const token = generateHubToken(accountId);
+      const controller = new AbortController();
+      const hubTimeout = setTimeout(() => controller.abort(), 5000);
       const response = await fetch(`${hubUrl}/api/v1/contacts/ensure`, {
         method: 'POST',
         headers: {
@@ -74,7 +76,8 @@ export function createHubEnsureWorker(): Worker {
           sourceId: contactId,
           source: 'vialum_chat',
         }),
-      });
+        signal: controller.signal,
+      }).finally(() => clearTimeout(hubTimeout));
 
       if (!response.ok) {
         const errorText = await response.text().catch(() => 'Unknown error');

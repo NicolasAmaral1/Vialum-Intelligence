@@ -212,54 +212,55 @@ async function processMessageJob(
   });
   const externalMessageId = sendResult.externalMessageId || null;
 
-  // ── Create or Update Message record ──
-  let message;
-  if (messageId) {
-    message = await prisma.message.update({
-      where: { id: messageId },
-      data: { status: 'sent', externalMessageId },
-    });
-  } else {
-    message = await prisma.message.create({
-      data: {
-        accountId,
-        conversationId,
-        inboxId: inbox.id,
-        senderType,
-        content,
-        messageType: 'outgoing',
-        contentType,
-        status: 'sent',
-        externalMessageId,
-      },
-    });
-    messageId = message.id;
-  }
+  // ── Persist all DB changes atomically ──
+  const message = await prisma.$transaction(async (tx) => {
+    let msg;
+    if (messageId) {
+      msg = await tx.message.update({
+        where: { id: messageId },
+        data: { status: 'sent', externalMessageId },
+      });
+    } else {
+      msg = await tx.message.create({
+        data: {
+          accountId,
+          conversationId,
+          inboxId: inbox.id,
+          senderType,
+          content,
+          messageType: 'outgoing',
+          contentType,
+          status: 'sent',
+          externalMessageId,
+        },
+      });
+      messageId = msg.id;
+    }
 
-  // ── Link to Talk if applicable ──
-  if (talkId) {
-    await prisma.talkMessage.create({
-      data: {
-        talkId,
-        messageId: message.id,
-        routingConfidence: 1.0,
-        routedBy: 'system',
-      },
-    });
-  }
+    if (talkId) {
+      await tx.talkMessage.create({
+        data: {
+          talkId,
+          messageId: msg.id,
+          routingConfidence: 1.0,
+          routedBy: 'system',
+        },
+      });
+    }
 
-  // ── Update suggestion status if applicable ──
-  if (suggestionId) {
-    await prisma.aISuggestion.update({
-      where: { id: suggestionId },
-      data: { status: 'sent', sentAt: new Date() },
-    });
-  }
+    if (suggestionId) {
+      await tx.aISuggestion.update({
+        where: { id: suggestionId },
+        data: { status: 'sent', sentAt: new Date() },
+      });
+    }
 
-  // ── Update conversation ──
-  await prisma.conversation.update({
-    where: { id: conversationId },
-    data: { lastActivityAt: new Date() },
+    await tx.conversation.update({
+      where: { id: conversationId },
+      data: { lastActivityAt: new Date() },
+    });
+
+    return msg;
   });
 
   // ── Stop typing presence after sending (anti-ban) ──

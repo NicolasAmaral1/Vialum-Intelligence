@@ -39,8 +39,8 @@ export async function groupRoutes(app: FastifyInstance) {
     return reply.send(result);
   });
 
-  // POST / — Create group
-  app.post('/', async (request, reply) => {
+  // POST / — Create group (admin only)
+  app.post('/', { onRequest: [(app as any).adminGuard] }, async (request, reply) => {
     const { accountId } = request.params as { accountId: string };
     const body = request.body as {
       inboxId?: string;
@@ -77,8 +77,8 @@ export async function groupRoutes(app: FastifyInstance) {
     return reply.send({ data: group });
   });
 
-  // PATCH /:groupId — Update group
-  app.patch('/:groupId', async (request, reply) => {
+  // PATCH /:groupId — Update group (admin only)
+  app.patch('/:groupId', { onRequest: [(app as any).adminGuard] }, async (request, reply) => {
     const { accountId, groupId } = request.params as { accountId: string; groupId: string };
     const body = request.body as {
       name?: string;
@@ -98,15 +98,15 @@ export async function groupRoutes(app: FastifyInstance) {
     return reply.send({ data: group });
   });
 
-  // POST /:groupId/sync — Sync from WhatsApp
-  app.post('/:groupId/sync', async (request, reply) => {
+  // POST /:groupId/sync — Sync from WhatsApp (admin only)
+  app.post('/:groupId/sync', { onRequest: [(app as any).adminGuard] }, async (request, reply) => {
     const { accountId, groupId } = request.params as { accountId: string; groupId: string };
     const info = await groupsService.syncFromWhatsApp(accountId, groupId);
     return reply.send({ data: info });
   });
 
-  // POST /:groupId/participants — Add participants
-  app.post('/:groupId/participants', async (request, reply) => {
+  // POST /:groupId/participants — Add participants (admin only)
+  app.post('/:groupId/participants', { onRequest: [(app as any).adminGuard] }, async (request, reply) => {
     const { accountId, groupId } = request.params as { accountId: string; groupId: string };
     const body = request.body as { phones?: string[] };
 
@@ -118,8 +118,8 @@ export async function groupRoutes(app: FastifyInstance) {
     return reply.status(201).send({ data: added });
   });
 
-  // DELETE /:groupId/participants/:contactId — Remove participant
-  app.delete('/:groupId/participants/:contactId', async (request, reply) => {
+  // DELETE /:groupId/participants/:contactId — Remove participant (admin only)
+  app.delete('/:groupId/participants/:contactId', { onRequest: [(app as any).adminGuard] }, async (request, reply) => {
     const { accountId, groupId, contactId } = request.params as {
       accountId: string;
       groupId: string;

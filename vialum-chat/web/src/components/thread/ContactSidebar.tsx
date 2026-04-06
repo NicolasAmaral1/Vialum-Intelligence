@@ -47,6 +47,7 @@ export function ContactSidebar({
   const [editingName, setEditingName] = useState(false);
   const [editNameValue, setEditNameValue] = useState('');
   const [savingName, setSavingName] = useState(false);
+  const [localCustomName, setLocalCustomName] = useState<string | null>(contact.customName ?? null);
   const editInputRef = useRef<HTMLInputElement>(null);
 
   const isGroup = !!group;
@@ -111,7 +112,7 @@ export function ContactSidebar({
   };
 
   const startEditName = () => {
-    setEditNameValue(contact.customName || '');
+    setEditNameValue(localCustomName || '');
     setEditingName(true);
     setTimeout(() => editInputRef.current?.focus(), 50);
   };
@@ -124,9 +125,7 @@ export function ContactSidebar({
       await contactsApi.update(currentAccount.accountId, contact.id, {
         customName: trimmed || null, // null = clear custom name, fallback to CRM/pushName
       });
-      // Update local contact state
-      contact.customName = trimmed || null;
-      contact.displayName = trimmed || contact.crmName || contact.name || contact.formattedPhone || contact.phone || 'Sem nome';
+      setLocalCustomName(trimmed || null);
       setEditingName(false);
     } catch {
       // silently fail
@@ -140,7 +139,9 @@ export function ContactSidebar({
     if (e.key === 'Escape') setEditingName(false);
   };
 
-  const displayName = isGroup ? (group?.name || 'Grupo sem nome') : (contact.displayName || contact.name);
+  const displayName = isGroup
+    ? (group?.name || 'Grupo sem nome')
+    : (localCustomName || contact.crmName || contact.name || contact.formattedPhone || contact.phone || 'Sem nome');
   const initials = displayName?.slice(0, 2).toUpperCase() || '??';
 
   const statusLabel = {

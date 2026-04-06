@@ -108,54 +108,77 @@ export async function refresh(refreshTokenValue: string): Promise<TokenPair> {
 
   const hash = crypto.createHash('sha256').update(refreshTokenValue).digest('hex');
 
-  const storedToken = await prisma.refreshToken.findUnique({
-    where: { tokenHash: hash },
-    include: {
-      user: {
-        include: {
-          accountUsers: { take: 1 },
+  // Atomic check-and-revoke in a serializable transaction to prevent TOCTOU race
+  const result = await prisma.$transaction(async (tx) => {
+    // Atomically revoke the token — only succeeds if not already revoked
+    const revoked = await tx.refreshToken.updateMany({
+      where: { tokenHash: hash, revoked: false, expiresAt: { gt: new Date() } },
+      data: { revoked: true },
+    });
+
+    if (revoked.count === 0) {
+      // Token was already revoked, expired, or doesn't exist
+      // Check if it exists and was revoked (replay attack → revoke entire family)
+      const existing = await tx.refreshToken.findUnique({
+        where: { tokenHash: hash },
+        select: { userId: true, revoked: true },
+      });
+
+      if (existing?.revoked) {
+        // Replay detected — revoke all tokens for this user
+        await tx.refreshToken.updateMany({
+          where: { userId: existing.userId },
+          data: { revoked: true },
+        });
+      }
+
+      return null; // signal failure
+    }
+
+    // Token was valid and now revoked — load user data
+    const storedToken = await tx.refreshToken.findUnique({
+      where: { tokenHash: hash },
+      include: {
+        user: {
+          include: { accountUsers: { take: 1 } },
         },
       },
-    },
+    });
+
+    if (!storedToken) return null;
+
+    const accountUser = storedToken.user.accountUsers[0];
+    if (!accountUser) {
+      throw { statusCode: 403, message: 'User has no associated accounts', code: 'NO_ACCOUNTS' };
+    }
+
+    // Issue new refresh token within the same transaction
+    const newRefresh = generateRefreshToken(storedToken.userId);
+    await tx.refreshToken.create({
+      data: {
+        userId: storedToken.userId,
+        tokenHash: newRefresh.hash,
+        expiresAt: newRefresh.expiresAt,
+      },
+    });
+
+    return {
+      userId: storedToken.userId,
+      accountId: accountUser.accountId,
+      role: accountUser.role,
+      newRefreshToken: newRefresh.token,
+    };
   });
 
-  if (!storedToken || storedToken.revoked || storedToken.expiresAt < new Date()) {
-    // Revoke all tokens for this family if token was already used (rotation detection)
-    if (storedToken && storedToken.revoked) {
-      await prisma.refreshToken.updateMany({
-        where: { userId: storedToken.userId },
-        data: { revoked: true },
-      });
-    }
+  if (!result) {
     throw { statusCode: 401, message: 'Invalid or expired refresh token', code: 'INVALID_REFRESH_TOKEN' };
   }
 
-  // Revoke old token
-  await prisma.refreshToken.update({
-    where: { id: storedToken.id },
-    data: { revoked: true },
-  });
-
-  const accountUser = storedToken.user.accountUsers[0];
-  if (!accountUser) {
-    throw { statusCode: 403, message: 'User has no associated accounts', code: 'NO_ACCOUNTS' };
-  }
-
-  const accessToken = generateAccessToken(storedToken.userId, accountUser.accountId, accountUser.role);
-
-  // Issue new refresh token (rotation)
-  const newRefresh = generateRefreshToken(storedToken.userId);
-  await prisma.refreshToken.create({
-    data: {
-      userId: storedToken.userId,
-      tokenHash: newRefresh.hash,
-      expiresAt: newRefresh.expiresAt,
-    },
-  });
+  const accessToken = generateAccessToken(result.userId, result.accountId, result.role);
 
   return {
     accessToken,
-    refreshToken: newRefresh.token,
+    refreshToken: result.newRefreshToken,
   };
 }
 

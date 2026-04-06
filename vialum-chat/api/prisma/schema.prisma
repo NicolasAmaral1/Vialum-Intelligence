@@ -196,7 +196,7 @@ model Contact {
   @@index([accountId])
   @@index([phone])
   @@index([email])
-  @@index([accountId, phone]) // Compound: contact lookup by phone within account
+  @@unique([accountId, phone]) // Unique: one contact per phone per account
   @@map("contacts")
 }
 
@@ -346,6 +346,8 @@ model Message {
   @@index([inboxId])
   @@index([externalMessageId])
   @@index([createdAt(sort: Desc)])
+  @@index([senderContactId])
+  @@unique([conversationId, externalMessageId]) // Dedup: one external message per conversation
   @@map("messages")
 }
 

@@ -127,6 +127,8 @@ export function createMediaPersistWorker(): Worker {
 
           const bodyBuffer = Buffer.concat(parts);
 
+          const uploadCtrl = new AbortController();
+          const uploadTimeout = setTimeout(() => uploadCtrl.abort(), 30000);
           response = await fetch(`${env.MEDIA_SERVICE_URL}/api/v1/files`, {
             method: 'POST',
             headers: {
@@ -135,7 +137,8 @@ export function createMediaPersistWorker(): Worker {
               'Content-Length': String(bodyBuffer.length),
             },
             body: bodyBuffer,
-          });
+            signal: uploadCtrl.signal,
+          }).finally(() => clearTimeout(uploadTimeout));
 
           job.log(`Uploaded decrypted media (${mimeType}, ${buffer.length} bytes)`);
         } else {
@@ -184,7 +187,7 @@ export function createMediaPersistWorker(): Worker {
     },
     {
       connection: getRedis() as any,
-      concurrency: 5,
+      concurrency: 2, // Reduced from 5 to limit memory usage with large media files
       limiter: { max: 50, duration: 1000 },
     },
   );
@@ -226,12 +229,19 @@ async function fallbackUrlUpload(
     body.accessToken = data.accessToken;
   }
 
-  return fetch(`${env.MEDIA_SERVICE_URL}/api/v1/files/from-whatsapp`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${token}`,
-    },
-    body: JSON.stringify(body),
-  });
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 30000);
+  try {
+    return await fetch(`${env.MEDIA_SERVICE_URL}/api/v1/files/from-whatsapp`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify(body),
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timeout);
+  }
 }

@@ -83,6 +83,14 @@ export function useMessages(conversationId: string | null) {
         updatedAt: new Date().toISOString(),
       });
 
+      let settled = false;
+      const timeoutId = setTimeout(() => {
+        if (!settled) {
+          settled = true;
+          failOptimistic(conversationId, tempId);
+        }
+      }, 15000);
+
       try {
         const result = await messagesApi.create(currentAccount.accountId, conversationId, {
           content,
@@ -90,9 +98,17 @@ export function useMessages(conversationId: string | null) {
           contentType: 'text',
           private: isPrivate,
         });
-        confirmOptimistic(conversationId, tempId, result.data);
+        clearTimeout(timeoutId);
+        if (!settled) {
+          settled = true;
+          confirmOptimistic(conversationId, tempId, result.data);
+        }
       } catch {
-        failOptimistic(conversationId, tempId);
+        clearTimeout(timeoutId);
+        if (!settled) {
+          settled = true;
+          failOptimistic(conversationId, tempId);
+        }
       }
     },
     [currentAccount, conversationId, optimisticAdd, confirmOptimistic, failOptimistic]

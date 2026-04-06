@@ -31,17 +31,22 @@ async function authPlugin(fastify: FastifyInstance) {
       const decoded = await request.jwtVerify<JwtPayload>();
       request.jwtPayload = decoded;
     } catch (err) {
-      reply.status(401).send({ error: 'Unauthorized', code: 'INVALID_TOKEN' });
+      return reply.status(401).send({ error: 'Unauthorized', code: 'INVALID_TOKEN' });
     }
   });
 
-  // Multi-tenant guard: extracts accountId from JWT and makes it available
+  // Multi-tenant guard: validates JWT accountId matches URL param
   fastify.decorate('tenantGuard', async function (
     request: FastifyRequest,
     reply: FastifyReply,
   ) {
-    if (!request.jwtPayload?.accountId) {
-      reply.status(403).send({ error: 'Forbidden', code: 'NO_ACCOUNT' });
+    const jwtAccountId = request.jwtPayload?.accountId;
+    if (!jwtAccountId) {
+      return reply.status(403).send({ error: 'Forbidden', code: 'NO_ACCOUNT' });
+    }
+    const urlAccountId = (request.params as Record<string, string>).accountId;
+    if (urlAccountId && urlAccountId !== jwtAccountId) {
+      return reply.status(403).send({ error: 'Forbidden', code: 'ACCOUNT_MISMATCH' });
     }
   });
 
@@ -52,7 +57,7 @@ async function authPlugin(fastify: FastifyInstance) {
   ) {
     const role = request.jwtPayload?.role;
     if (role !== 'admin' && role !== 'owner') {
-      reply.status(403).send({ error: 'Forbidden', code: 'ADMIN_REQUIRED' });
+      return reply.status(403).send({ error: 'Forbidden', code: 'ADMIN_REQUIRED' });
     }
   });
 }

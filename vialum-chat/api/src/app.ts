@@ -39,9 +39,12 @@ export async function buildApp(): Promise<FastifyInstance> {
     },
   });
 
-  // CORS
+  // CORS — parse comma-separated origins
+  const corsOrigin = env.CORS_ORIGIN.includes(',')
+    ? env.CORS_ORIGIN.split(',').map((s) => s.trim())
+    : env.CORS_ORIGIN;
   await app.register(cors, {
-    origin: env.CORS_ORIGIN,
+    origin: corsOrigin,
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     credentials: true,
   });

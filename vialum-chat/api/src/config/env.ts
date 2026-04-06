@@ -13,7 +13,7 @@ const envSchema = z.object({
   HUB_URL: z.string().optional(),
   CRM_HUB_URL: z.string().optional(), // backward compat — use HUB_URL
   MEDIA_SERVICE_URL: z.string().default('http://vialum-media:3002/media'),
-  MEDIA_JWT_SECRET: z.string().optional(),
+  MEDIA_JWT_SECRET: z.string().min(32),
   SWITCH_WEBHOOK_SECRET: z.string().optional(),
 });
 

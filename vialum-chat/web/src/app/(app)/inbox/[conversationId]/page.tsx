@@ -9,7 +9,6 @@ import { useConversationsStore } from '@/stores/conversations.store';
 import { conversationsApi } from '@/lib/api/conversations';
 import { messagesApi } from '@/lib/api/messages';
 import { aiSuggestionsApi } from '@/lib/api/ai-suggestions';
-import { getSocket } from '@/lib/socket/client';
 import { ConversationHeader } from '@/components/thread/ConversationHeader';
 import { MessageThread } from '@/components/thread/MessageThread';
 import { MessageComposer } from '@/components/thread/MessageComposer';
@@ -74,15 +73,7 @@ export default function ConversationPage() {
     markRead(conversationId);
   }, [fetchData, conversationId, markRead]);
 
-  // Socket subscription
-  useEffect(() => {
-    const socket = getSocket();
-    if (!socket || !conversationId) return;
-    socket.emit('subscribe:conversation', conversationId);
-    return () => {
-      socket.emit('unsubscribe:conversation', conversationId);
-    };
-  }, [conversationId]);
+  // Socket subscription handled by useMessages hook — no duplicate needed here
 
   if (loading || !conversation) {
     return (

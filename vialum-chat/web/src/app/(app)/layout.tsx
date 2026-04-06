@@ -6,8 +6,9 @@ import { useAuthStore } from '@/stores/auth.store';
 import { useConversationsStore } from '@/stores/conversations.store';
 import { useSuggestionsStore } from '@/stores/suggestions.store';
 import { useMessagesStore } from '@/stores/messages.store';
-import { getAccessToken } from '@/lib/auth/tokens';
-import { initSocket, disconnectSocket } from '@/lib/socket/client';
+import { getAccessToken, isTokenExpired, getRefreshToken, setAccessToken, setRefreshToken, clearTokens } from '@/lib/auth/tokens';
+import { initSocket, disconnectSocket, getSocket } from '@/lib/socket/client';
+import { useConnectionStore } from '@/stores/connection.store';
 import { AppShell } from '@/components/layout/AppShell';
 import { LoadingSpinner } from '@/components/shared/LoadingSpinner';
 import type {
@@ -47,40 +48,64 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
     const token = getAccessToken();
     if (!token) return;
 
-    const socket = initSocket(token);
+    // Token refresh callback for socket reconnection
+    const refreshTokenForSocket = async (): Promise<string | null> => {
+      const current = getAccessToken();
+      if (current && !isTokenExpired(current)) return current;
+      const rt = getRefreshToken();
+      if (!rt) return null;
+      try {
+        const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/chat';
+        const res = await fetch(`${API_BASE}/api/v1/auth/refresh`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ refreshToken: rt }),
+        });
+        if (!res.ok) return null;
+        const data = await res.json();
+        setAccessToken(data.accessToken);
+        setRefreshToken(data.refreshToken);
+        return data.accessToken;
+      } catch {
+        return null;
+      }
+    };
 
-    socket.on('connect', () => {
-      socket.emit('subscribe:account', currentAccount.accountId);
-    });
+    const socket = initSocket(token, refreshTokenForSocket);
+    const accountId = currentAccount.accountId;
 
-    socket.on('message:created', (data: MessageCreatedEvent) => {
-      addMessage(data.message.conversationId, data.message);
-    });
+    // Subscribe to account room on connect and reconnect
+    const onConnect = () => {
+      socket.emit('subscribe:account', accountId);
+    };
+    socket.on('connect', onConnect);
+    socket.io.on('reconnect' as any, onConnect);
 
-    socket.on('conversation:updated', (data: ConversationUpdatedEvent) => {
-      upsertConversation({
+    // Use getState() to avoid stale closures — store actions are stable
+    const onMessageCreated = (data: MessageCreatedEvent) => {
+      useMessagesStore.getState().addMessage(data.message.conversationId, data.message);
+    };
+    const onConversationUpdated = (data: ConversationUpdatedEvent) => {
+      useConversationsStore.getState().upsertConversation({
         id: data.conversationId,
         lastActivityAt: data.lastActivityAt,
         unreadCount: data.unreadCount,
       });
-    });
-
-    socket.on('conversation:status_changed', (data: ConversationStatusChangedEvent) => {
-      upsertConversation({
+    };
+    const onStatusChanged = (data: ConversationStatusChangedEvent) => {
+      useConversationsStore.getState().upsertConversation({
         id: data.conversationId,
         status: data.status as Conversation['status'],
       });
-    });
-
-    socket.on('conversation:reopened', (data: ConversationReopenedEvent) => {
-      upsertConversation({
+    };
+    const onReopened = (data: ConversationReopenedEvent) => {
+      useConversationsStore.getState().upsertConversation({
         id: data.conversationId,
         status: 'open',
       });
-    });
-
-    socket.on('talk:hitl_queued', (data: TalkHitlQueuedEvent) => {
-      addSuggestion(data.conversationId, {
+    };
+    const onHitlQueued = (data: TalkHitlQueuedEvent) => {
+      useSuggestionsStore.getState().addSuggestion(data.conversationId, {
         id: data.suggestionId,
         conversationId: data.conversationId,
         talkId: data.talkId,
@@ -90,12 +115,11 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         context: {},
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString(),
-        accountId: currentAccount.accountId,
+        accountId,
       });
-    });
-
-    socket.on('suggestion:created', (data: SuggestionCreatedEvent) => {
-      addSuggestion(data.conversationId, {
+    };
+    const onSuggestionCreated = (data: SuggestionCreatedEvent) => {
+      useSuggestionsStore.getState().addSuggestion(data.conversationId, {
         id: data.suggestionId,
         conversationId: data.conversationId,
         content: data.content,
@@ -104,14 +128,29 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         context: data.context,
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString(),
-        accountId: currentAccount.accountId,
+        accountId,
       });
-    });
+    };
+
+    socket.on('message:created', onMessageCreated);
+    socket.on('conversation:updated', onConversationUpdated);
+    socket.on('conversation:status_changed', onStatusChanged);
+    socket.on('conversation:reopened', onReopened);
+    socket.on('talk:hitl_queued', onHitlQueued);
+    socket.on('suggestion:created', onSuggestionCreated);
 
     return () => {
+      socket.off('connect', onConnect);
+      socket.io.off('reconnect' as any, onConnect);
+      socket.off('message:created', onMessageCreated);
+      socket.off('conversation:updated', onConversationUpdated);
+      socket.off('conversation:status_changed', onStatusChanged);
+      socket.off('conversation:reopened', onReopened);
+      socket.off('talk:hitl_queued', onHitlQueued);
+      socket.off('suggestion:created', onSuggestionCreated);
       disconnectSocket();
     };
-  }, [ready, currentAccount, addMessage, upsertConversation, addSuggestion]);
+  }, [ready, currentAccount]);
 
   if (!ready) {
     return (
@@ -123,8 +162,23 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
   return (
     <DebugErrorBoundary>
+      <ConnectionBanner />
       <AppShell>{children}</AppShell>
     </DebugErrorBoundary>
+  );
+}
+
+function ConnectionBanner() {
+  const status = useConnectionStore((s) => s.status);
+  if (status === 'connected') return null;
+  return (
+    <div className={`fixed top-0 left-0 right-0 z-50 px-4 py-1.5 text-center text-xs font-medium ${
+      status === 'disconnected'
+        ? 'bg-red-600 text-white'
+        : 'bg-yellow-500 text-black'
+    }`}>
+      {status === 'disconnected' ? 'Conexao perdida. Reconectando...' : 'Reconectando...'}
+    </div>
   );
 }
 

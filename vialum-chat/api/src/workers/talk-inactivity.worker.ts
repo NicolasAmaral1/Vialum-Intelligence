@@ -22,29 +22,27 @@ export function createTalkInactivityWorker(io: SocketIOServer): Worker {
 
       job.log('Checking for inactive talks...');
 
-      // Find all active talks that have exceeded their inactivity timeout
+      // Find only expired active talks (filter in SQL, not JS)
       const now = new Date();
-      const inactiveTalks = await prisma.talk.findMany({
-        where: {
-          status: 'active',
-        },
-        select: {
-          id: true,
-          accountId: true,
-          conversationId: true,
-          parentTalkId: true,
-          lastActivityAt: true,
-          inactivityTimeoutMinutes: true,
-        },
-      });
+      const inactiveTalks = await prisma.$queryRaw<Array<{
+        id: string;
+        accountId: string;
+        conversationId: string;
+        parentTalkId: string | null;
+        lastActivityAt: Date;
+        inactivityTimeoutMinutes: number;
+      }>>`
+        SELECT id, account_id AS "accountId", conversation_id AS "conversationId",
+               parent_talk_id AS "parentTalkId", last_activity_at AS "lastActivityAt",
+               inactivity_timeout_minutes AS "inactivityTimeoutMinutes"
+        FROM "Talk"
+        WHERE status = 'active'
+          AND last_activity_at + make_interval(mins => inactivity_timeout_minutes) < ${now}
+      `;
 
       let closedCount = 0;
 
       for (const talk of inactiveTalks) {
-        const timeoutMs = talk.inactivityTimeoutMinutes * 60 * 1000;
-        const expiresAt = new Date(talk.lastActivityAt.getTime() + timeoutMs);
-
-        if (now < expiresAt) continue;
 
         job.log(`Closing inactive talk ${talk.id} (last activity: ${talk.lastActivityAt.toISOString()})`);
 
@@ -83,7 +81,7 @@ export function createTalkInactivityWorker(io: SocketIOServer): Worker {
             // Clear active talk from conversation
             await tx.conversation.updateMany({
               where: { id: talk.conversationId, activeTalkId: talk.id },
-              data: { activeTalkId: null },
+              data: { activeTalkId: null, updatedAt: new Date() },
             });
 
             await tx.talkEvent.create({

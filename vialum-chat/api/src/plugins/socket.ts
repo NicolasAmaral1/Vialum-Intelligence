@@ -2,6 +2,7 @@ import { FastifyInstance } from 'fastify';
 import fp from 'fastify-plugin';
 import { Server as SocketIOServer } from 'socket.io';
 import type { JwtPayload } from './auth.js';
+import { getEnv } from '../config/env.js';
 
 declare module 'fastify' {
   interface FastifyInstance {
@@ -10,9 +11,11 @@ declare module 'fastify' {
 }
 
 async function socketPlugin(fastify: FastifyInstance) {
+  const env = getEnv();
+  const corsOrigin = env.CORS_ORIGIN.includes(',') ? env.CORS_ORIGIN.split(',').map((s) => s.trim()) : env.CORS_ORIGIN;
   const io = new SocketIOServer(fastify.server, {
     cors: {
-      origin: process.env.CORS_ORIGIN || 'http://localhost:3000',
+      origin: corsOrigin,
       methods: ['GET', 'POST'],
     },
     path: '/chat/ws',

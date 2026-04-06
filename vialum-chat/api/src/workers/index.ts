@@ -3,11 +3,13 @@ import { createTalkRouteWorker } from './talk-route.worker.js';
 import { createTalkAnalyzeWorker } from './talk-analyze.worker.js';
 import { createTalkInactivityWorker, scheduleInactivityChecks } from './talk-inactivity.worker.js';
 import { createMessageSendWorker } from './message-send.worker.js';
-import { createWebhookProcessWorker } from './webhook-process.worker.js';
-import { createAutomationWorker } from './automation.worker.js';
+import { createWebhookProcessWorker, closeSingletonQueues as closeWebhookQueues } from './webhook-process.worker.js';
+import { createAutomationWorker, closeSingletonQueues as closeAutomationQueues } from './automation.worker.js';
 import { createSnoozeWorker, scheduleSnoozeChecks } from './snooze.worker.js';
 import { createMediaPersistWorker } from './media-persist.worker.js';
 import { createHubEnsureWorker } from './hub-ensure.worker.js';
+import { createHitlTimeoutWorker, scheduleHitlTimeoutChecks } from './hitl-timeout.worker.js';
+import { createWebhookCleanupWorker, scheduleWebhookCleanup } from './webhook-cleanup.worker.js';
 import { Worker } from 'bullmq';
 
 // ════════════════════════════════════════════════════════════
@@ -25,6 +27,8 @@ export interface WorkerRegistry {
   snooze: Worker;
   mediaPersist: Worker;
   hubEnsure: Worker;
+  hitlTimeout: Worker;
+  webhookCleanup: Worker;
 }
 
 /**
@@ -44,10 +48,14 @@ export async function initializeWorkers(io: SocketIOServer): Promise<WorkerRegis
   const snooze = createSnoozeWorker(io);
   const mediaPersist = createMediaPersistWorker();
   const hubEnsure = createHubEnsureWorker();
+  const hitlTimeout = createHitlTimeoutWorker(io);
+  const webhookCleanup = createWebhookCleanupWorker();
 
   // Schedule repeating jobs
   await scheduleInactivityChecks();
   await scheduleSnoozeChecks();
+  await scheduleHitlTimeoutChecks();
+  await scheduleWebhookCleanup();
 
   // Redis memory monitor (every 5 min)
   const redis = (await import('../config/redis.js')).getRedis();
@@ -80,6 +88,8 @@ export async function initializeWorkers(io: SocketIOServer): Promise<WorkerRegis
   console.log('  - conversation-snooze-check (cron: * * * * *)');
   console.log('  - media-persist (concurrency: 5)');
   console.log('  - hub-ensure (concurrency: 5)');
+  console.log('  - hitl-timeout-check (cron: */2 * * * *)');
+  console.log('  - webhook-cleanup (cron: 0 3 * * *)');
 
   return {
     talkRoute,
@@ -91,6 +101,8 @@ export async function initializeWorkers(io: SocketIOServer): Promise<WorkerRegis
     snooze,
     mediaPersist,
     hubEnsure,
+    hitlTimeout,
+    webhookCleanup,
   };
 }
 
@@ -102,6 +114,9 @@ export async function shutdownWorkers(registry: WorkerRegistry): Promise<void> {
 
   const workers = Object.values(registry);
   await Promise.allSettled(workers.map((w) => w.close()));
+
+  // Close singleton Queue instances (Redis connections)
+  await Promise.allSettled([closeWebhookQueues(), closeAutomationQueues()]);
 
   console.log('[workers] All workers shut down');
 }

@@ -37,22 +37,47 @@ async function performRefresh(): Promise<{ accessToken: string; refreshToken: st
   return data;
 }
 
+function delay(ms: number): Promise<void> {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
 export async function apiClient<T>(
   path: string,
   options: RequestInit = {},
   _retried = false,
+  _retryCount = 0,
 ): Promise<T> {
   const token = getAccessToken();
   const url = `${API_BASE}${path}`;
 
-  const res = await fetch(url, {
-    ...options,
-    headers: {
-      'Content-Type': 'application/json',
-      ...(token ? { Authorization: `Bearer ${token}` } : {}),
-      ...options.headers,
-    },
-  });
+  let res: Response;
+  try {
+    res = await fetch(url, {
+      ...options,
+      headers: {
+        'Content-Type': 'application/json',
+        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+        ...options.headers,
+      },
+    });
+  } catch {
+    // Network error — only retry idempotent methods (GET, DELETE, HEAD, OPTIONS)
+    const method = (options.method ?? 'GET').toUpperCase();
+    const isIdempotent = ['GET', 'DELETE', 'HEAD', 'OPTIONS', 'PUT'].includes(method);
+    if (isIdempotent && _retryCount < 3) {
+      await delay(Math.pow(2, _retryCount) * 1000);
+      return apiClient<T>(path, options, _retried, _retryCount + 1);
+    }
+    throw new ApiError(0, 'Erro de rede', 'NETWORK_ERROR');
+  }
+
+  // 5xx server errors — only retry idempotent methods
+  const method = (options.method ?? 'GET').toUpperCase();
+  const isIdempotent = ['GET', 'DELETE', 'HEAD', 'OPTIONS', 'PUT'].includes(method);
+  if (isIdempotent && res.status >= 500 && _retryCount < 3) {
+    await delay(Math.pow(2, _retryCount) * 1000);
+    return apiClient<T>(path, options, _retried, _retryCount + 1);
+  }
 
   if (res.status === 401 && !_retried) {
     if (!refreshPromise) {

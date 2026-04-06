@@ -10,12 +10,16 @@
 
 import { getPrisma, disconnectPrisma } from '../config/database.js';
 
-// ── Config ──
-const EVOLUTION_BASE_URL = 'http://76.13.172.17:8080';
-const EVOLUTION_API_KEY = 'AEC3F57670E5-463C-ADB7-0845A1AD329F';
-const EVOLUTION_INSTANCE = 'Luan';
-const INBOX_ID = 'a990ae98-e2ed-4c02-8d6b-2640853dbfa2';
-const ACCOUNT_ID = 'ee28092e-bd02-4d50-a920-b419e01adc8a';
+// ── Config (from environment) ──
+if (!process.env.EVOLUTION_BASE_URL || !process.env.EVOLUTION_API_KEY || !process.env.EVOLUTION_INSTANCE || !process.env.INGEST_INBOX_ID || !process.env.INGEST_ACCOUNT_ID) {
+  console.error('Missing required env vars: EVOLUTION_BASE_URL, EVOLUTION_API_KEY, EVOLUTION_INSTANCE, INGEST_INBOX_ID, INGEST_ACCOUNT_ID');
+  process.exit(1);
+}
+const EVOLUTION_BASE_URL = process.env.EVOLUTION_BASE_URL as string;
+const EVOLUTION_API_KEY = process.env.EVOLUTION_API_KEY as string;
+const EVOLUTION_INSTANCE = process.env.EVOLUTION_INSTANCE as string;
+const INBOX_ID = process.env.INGEST_INBOX_ID as string;
+const ACCOUNT_ID = process.env.INGEST_ACCOUNT_ID as string;
 
 // ── Types ──
 interface EvoChat {
