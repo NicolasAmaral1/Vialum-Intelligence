@@ -140,16 +140,41 @@ export default function WorkflowDetailPage() {
         </div>
 
         <div className="flex-1 min-w-0 flex flex-col p-4 gap-4">
-          {inboxItems.map((item) => (
-            <InboxItemDetail
-              key={item.id}
-              item={item}
-              onCompleted={() => {
-                setInboxItems((prev) => prev.filter((i) => i.id !== item.id));
-                fetch(workflow.id);
-              }}
-            />
-          ))}
+          {inboxItems.map((item) => {
+            const ctx = workflow.context as Record<string, unknown> | undefined;
+            const allOutputs = (ctx?.stepOutputs || {}) as Record<string, Record<string, unknown>>;
+            const wfStages = (workflow as unknown as Record<string, unknown>).wfStages as Array<{tasks: Array<{steps: Array<{id: string; definitionStepId: string; status: string}>}>}> | undefined;
+            let previousOutput: Record<string, unknown> | undefined;
+            if (wfStages) {
+              for (const stage of wfStages) {
+                for (const task of stage.tasks || []) {
+                  const steps = task.steps || [];
+                  const itemIdx = steps.findIndex((s) => s.id === item.stepId);
+                  if (itemIdx > 0) {
+                    const prevStep = steps[itemIdx - 1];
+                    previousOutput = allOutputs[prevStep.definitionStepId];
+                  }
+                }
+              }
+            }
+            if (!previousOutput) {
+              const outputKeys = Object.keys(allOutputs);
+              if (outputKeys.length > 0) {
+                previousOutput = allOutputs[outputKeys[outputKeys.length - 1]];
+              }
+            }
+            return (
+              <InboxItemDetail
+                key={item.id}
+                item={item}
+                stepOutputs={previousOutput}
+                onCompleted={() => {
+                  setInboxItems((prev) => prev.filter((i) => i.id !== item.id));
+                  fetch(workflow.id);
+                }}
+              />
+            );
+          })}
 
           <div className="flex-1 min-h-0">
             <TerminalPanel workflowId={workflow.id} commands={commands} />

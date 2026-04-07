@@ -5,6 +5,7 @@ import { cn } from '@/lib/utils';
 
 interface Props {
   item: InboxItem;
+  stepOutputs?: Record<string, unknown>;
   onCompleted: () => void;
 }
 
@@ -14,7 +15,7 @@ interface SchemaProperty {
   description?: string;
 }
 
-export function InboxItemDetail({ item, onCompleted }: Props) {
+export function InboxItemDetail({ item, stepOutputs, onCompleted }: Props) {
   const schema = item.outputSchema as {
     type?: string;
     required?: string[];
@@ -50,7 +51,9 @@ export function InboxItemDetail({ item, onCompleted }: Props) {
     }
   };
 
-  const inputData = item.inputData as Record<string, unknown> | undefined;
+  const rawInput = item.inputData as Record<string, unknown> | undefined;
+  const hasInput = rawInput && Object.keys(rawInput).length > 0;
+  const inputData = hasInput ? rawInput : stepOutputs;
 
   return (
     <div className="rounded-lg border border-warning/30 bg-warning/5 p-4 space-y-4">
@@ -70,7 +73,7 @@ export function InboxItemDetail({ item, onCompleted }: Props) {
 
       {inputData && Object.keys(inputData).length > 0 && (
         <div className="p-3 rounded-md bg-muted/50 space-y-1">
-          <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground mb-2">Dados do step anterior</p>
+          <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground mb-2">Resultado da IA</p>
           {Object.entries(inputData).map(([key, value]) => (
             <div key={key} className="flex gap-2 text-xs">
               <span className="text-muted-foreground font-medium">{key}:</span>
