@@ -26,10 +26,10 @@ interface Props {
 }
 
 export function ProgressPanel({ workflow }: Props) {
-  const wfStages = (workflow as Record<string, unknown>).wfStages as WfStage[] | undefined;
+  const wfStages = (workflow as unknown as Record<string, unknown>).wfStages as WfStage[] | undefined;
 
   if (wfStages && wfStages.length > 0) {
-    return <V2Progress stages={wfStages} currentStageId={(workflow as Record<string, unknown>).currentStageId as string} />;
+    return <V2Progress stages={wfStages} currentStageId={(workflow as unknown as Record<string, unknown>).currentStageId as string} />;
   }
 
   const raw = workflow.definition?.stages;
