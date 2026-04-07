@@ -79,8 +79,8 @@ export function WorkflowItem({ workflow, onClick }: WorkflowItemProps) {
   };
 
   const status = statusConfig[workflow.status] || statusConfig.idle;
-  const stageLabel = (workflow.definition?.stages as Array<{ id: string; label: string }> | undefined)
-    ?.find((s) => s.id === workflow.stage)?.label || workflow.stage;
+  const stages = Array.isArray(workflow.definition?.stages) ? workflow.definition.stages as Array<{ id: string; label: string }> : [];
+  const stageLabel = stages.find((s) => s.id === workflow.stage)?.label || workflow.stage;
 
   return (
     <div
