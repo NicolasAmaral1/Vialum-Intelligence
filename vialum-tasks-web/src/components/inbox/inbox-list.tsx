@@ -15,8 +15,14 @@ export function InboxList() {
     fetch();
 
     // Socket.IO real-time
-    connectSocket();
-    const socket = getSocket();
+    let socket: ReturnType<typeof getSocket> | null = null;
+    try {
+      connectSocket();
+      socket = getSocket();
+    } catch (err) {
+      console.warn('Socket.IO connection failed:', err);
+      return;
+    }
 
     socket.on('approval:created', (data: Approval) => {
       addApproval(data);
@@ -31,8 +37,8 @@ export function InboxList() {
     });
 
     return () => {
-      socket.off('approval:created');
-      socket.off('workflow:updated');
+      socket?.off('approval:created');
+      socket?.off('workflow:updated');
     };
   }, []);
 
