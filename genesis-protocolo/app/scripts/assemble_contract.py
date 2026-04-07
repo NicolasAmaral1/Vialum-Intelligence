@@ -26,6 +26,12 @@ from reportlab.lib.units import cm, mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
+from docx import Document
+from docx.shared import Pt, Cm, Inches, RGBColor
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
+from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
+
 # ── Paths ──────────────────────────────────────────────────────────────
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 AGENT_DIR   = os.path.dirname(SCRIPT_DIR)                  # .agent
@@ -235,6 +241,143 @@ def replace_all(text, data):
     result = md_bold(result)
     return result
 
+# ── DOCX Builder ──────────────────────────────────────────────────────
+def _docx_add_logo_header(doc):
+    """Add Genesis logo to header (all sections)."""
+    for section in doc.sections:
+        header = section.header
+        header.is_linked_to_previous = False
+        p = header.paragraphs[0] if header.paragraphs else header.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        if os.path.exists(LOGO_PATH):
+            run = p.add_run()
+            run.add_picture(LOGO_PATH, width=Cm(4))
+
+def _docx_add_footer(doc):
+    """Add Genesis footer to all sections."""
+    footer_text = 'Rua Pará, 945   |   Centro   |   Londrina/PR   |   CEP 86010-450   |   @genesisregistro'
+    for section in doc.sections:
+        footer = section.footer
+        footer.is_linked_to_previous = False
+        p = footer.paragraphs[0] if footer.paragraphs else footer.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        run = p.add_run(footer_text)
+        run.font.size = Pt(10)
+        run.font.color.rgb = RGBColor(128, 128, 128)
+        _docx_set_font(run, 'Sora')
+
+def _docx_set_font(run, font_name='Sora'):
+    """Set font on a run, ensuring Word picks it up correctly."""
+    run.font.name = font_name
+    rPr = run._element.get_or_add_rPr()
+    rFonts = rPr.get_or_add_rFonts()
+    rFonts.set(qn('w:ascii'), font_name)
+    rFonts.set(qn('w:hAnsi'), font_name)
+    rFonts.set(qn('w:eastAsia'), font_name)
+    rFonts.set(qn('w:cs'), font_name)
+
+def _docx_add_bold_text(paragraph, text, font_name='Sora', font_size=12, color=None, underline=False):
+    """Parse **bold** markdown and add runs to paragraph."""
+    parts = text.split('**')
+    for i, part in enumerate(parts):
+        if not part:
+            continue
+        run = paragraph.add_run(part)
+        run.font.size = Pt(font_size)
+        run.bold = (i % 2 == 1)
+        if underline and (i % 2 == 1):
+            run.underline = True
+        if color:
+            run.font.color.rgb = color
+        _docx_set_font(run, font_name)
+
+def _docx_strip_html(text):
+    """Strip HTML tags (<b>, <u>, etc.) and convert to **bold** markdown for DOCX."""
+    text = re.sub(r'<b><u>(.*?)</u></b>', r'**\1**', text)
+    text = re.sub(r'<b>(.*?)</b>', r'**\1**', text)
+    text = re.sub(r'<u>(.*?)</u>', r'**\1**', text)
+    text = text.replace('[NO_INDENT]', '')
+    return text
+
+def build_docx(content, filename, is_proc=False):
+    """Build a DOCX document from the same markdown content used for PDF."""
+    doc = Document()
+
+    # Page setup
+    section = doc.sections[0]
+    section.left_margin = Cm(2)
+    section.right_margin = Cm(2)
+    section.top_margin = Cm(4.5) if not is_proc else Cm(3.5)
+    section.bottom_margin = Cm(2.5)
+
+    # Header & footer
+    _docx_add_logo_header(doc)
+    _docx_add_footer(doc)
+
+    font_size = 11 if is_proc else 12
+    line_spacing = 1.5
+
+    # Check if Sora font files exist (DOCX embeds by name, user needs font installed)
+    sora_r = os.path.join(ASSETS_DIR, 'Sora-Regular.ttf')
+    font_name = 'Sora' if os.path.exists(sora_r) else 'Calibri'
+
+    for line in content.split('\n'):
+        s = line.strip()
+
+        if not s:
+            doc.add_paragraph()
+            continue
+
+        # Strip HTML tags from content (qualifications use <b><u>)
+        s = _docx_strip_html(s)
+
+        # Headers
+        if s.startswith('# '):
+            if not is_proc:
+                p = doc.add_paragraph()
+                p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+                p.paragraph_format.space_after = Pt(12)
+                run = p.add_run(s[2:])
+                run.bold = True
+                run.font.size = Pt(16)
+                _docx_set_font(run, font_name)
+            continue
+
+        if s.startswith('## '):
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.LEFT
+            p.paragraph_format.space_before = Pt(8)
+            p.paragraph_format.space_after = Pt(2)
+            run = p.add_run(s[3:])
+            run.bold = True
+            run.font.size = Pt(12)
+            _docx_set_font(run, font_name)
+            continue
+
+        # Signature lines
+        if s.startswith('__'):
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.space_before = Pt(24)
+            _docx_add_bold_text(p, s, font_name, 11)
+            continue
+
+        # Regular paragraph
+        p = doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+        p.paragraph_format.line_spacing_rule = WD_LINE_SPACING.MULTIPLE
+        p.paragraph_format.line_spacing = line_spacing
+        p.paragraph_format.space_after = Pt(6 if not is_proc else 4)
+
+        # First-line indent (like PDF)
+        if not _is_no_indent(s) and not s.startswith('- '):
+            p.paragraph_format.first_line_indent = Cm(2)
+
+        _docx_add_bold_text(p, s, font_name, font_size)
+
+    doc.save(filename)
+    print(f"Generated DOCX: {filename}")
+
 # ── Main ───────────────────────────────────────────────────────────────
 def main():
     if len(sys.argv) < 2:
@@ -282,14 +425,22 @@ def main():
     generated_files = []
 
     if data.get('gerar_contrato', True):
-        fname = f"Contrato_{sfx}.pdf"
-        build_pdf(assemble('contrato.md'), fname, styles, is_proc=False)
-        generated_files.append(fname)
+        content = assemble('contrato.md')
+        fname_pdf = f"Contrato_{sfx}.pdf"
+        fname_docx = f"Contrato_{sfx}.docx"
+        build_pdf(content, fname_pdf, styles, is_proc=False)
+        build_docx(content, fname_docx, is_proc=False)
+        generated_files.append(fname_pdf)
+        generated_files.append(fname_docx)
 
     if data.get('gerar_procuracao', True):
-        fname = f"Procuracao_{sfx}.pdf"
-        build_pdf(assemble('procuracao.md'), fname, styles, is_proc=True)
-        generated_files.append(fname)
+        content = assemble('procuracao.md')
+        fname_pdf = f"Procuracao_{sfx}.pdf"
+        fname_docx = f"Procuracao_{sfx}.docx"
+        build_pdf(content, fname_pdf, styles, is_proc=True)
+        build_docx(content, fname_docx, is_proc=True)
+        generated_files.append(fname_pdf)
+        generated_files.append(fname_docx)
 
     # ── Google Drive Upload ──────────────────────────────────────────
     if data.get('upload_drive', True):

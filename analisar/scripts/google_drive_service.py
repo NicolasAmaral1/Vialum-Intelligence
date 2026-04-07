@@ -68,10 +68,10 @@ def get_or_create_folder(service, folder_name, parent_id=None):
 def archive_old_files(service, target_folder_id, file_name_prefix):
     """
     Lista arquivos na pasta destino que começam com o prefixo (ex: 'Essenza - LAUDO DE VIABILIDADE')
-    e os move para a subpasta 'arquivados'.
+    e os move para a subpasta 'antigos'.
     """
-    # 1. Encontrar a pasta 'arquivados' dentro da target_folder, ou criar se não existir
-    archive_folder_id = get_or_create_folder(service, "arquivados", parent_id=target_folder_id)
+    # 1. Encontrar a pasta 'antigos' dentro da target_folder, ou criar se não existir
+    archive_folder_id = get_or_create_folder(service, "antigos", parent_id=target_folder_id)
     
     # 2. Buscar arquivos que correspondam ao prefixo na target_folder (ignorando a própria pasta arquivados)
     # A query busca arquivos cujo nome contenha o prefixo.
@@ -94,8 +94,48 @@ def archive_old_files(service, target_folder_id, file_name_prefix):
     except HttpError as error:
         print(f"⚠️ Erro ao arquivar arquivos antigos no Drive: {error}")
 
+def count_existing_versions(service, target_folder_id, base_name):
+    """
+    Conta quantas versões de um documento já existem na pasta (fora da pasta 'antigos').
+    Procura por arquivos que contenham o base_name (ex: 'ZENIT - ANÁLISE DE VIABILIDADE').
+    Retorna o número da próxima versão.
+    """
+    try:
+        escaped_name = escape_drive_query(base_name)
+        query = f"'{target_folder_id}' in parents and name contains '{escaped_name}' and mimeType != 'application/vnd.google-apps.folder' and trashed = false"
+        results = service.files().list(q=query, spaces='drive', fields='files(id, name)').execute()
+        items = results.get('files', [])
+        return len(items)
+    except HttpError:
+        return 0
+
+
+def versioned_name(original_name, version_number):
+    """
+    Adiciona número de versão na frente do nome do arquivo.
+    Primeira versão: sem número. A partir da segunda: '2 - Nome', '3 - Nome', etc.
+
+    Ex:
+      version 1: 'ZENIT - ANÁLISE DE VIABILIDADE.pdf'
+      version 2: '2 - ZENIT - ANÁLISE DE VIABILIDADE.pdf'
+      version 3: '3 - ZENIT - ANÁLISE DE VIABILIDADE.pdf'
+    """
+    if version_number <= 1:
+        return original_name
+
+    # Remove número de versão existente se houver (ex: '2 - NOME.pdf' -> 'NOME.pdf')
+    import re
+    clean_name = re.sub(r'^\d+\s*-\s*', '', original_name)
+    return f"{version_number} - {clean_name}"
+
+
 def upload_file(local_path, marca, cliente=None):
-    """Uploads a file to Google Drive under 'Possiveis Clientes/[marca] - [cliente]'."""
+    """Uploads a file to Google Drive under 'Possiveis Clientes/[marca] - [cliente]'.
+
+    Versiona automaticamente: primeira versão sem número,
+    segunda em diante com '2 - ', '3 - ', etc.
+    Versões anteriores vão para pasta 'antigos'.
+    """
     print(f"🚀 Iniciando upload para o Google Drive: {os.path.basename(local_path)}")
     service = get_service()
     if not service:
@@ -105,30 +145,41 @@ def upload_file(local_path, marca, cliente=None):
     try:
         # 1. Garantir pasta principal
         root_folder_id = get_or_create_folder(service, "Possiveis Clientes")
-        
+
         # 2. Formatar nome da pasta do cliente
         folder_name = marca
         if cliente and cliente.strip():
             folder_name = f"{marca} - {cliente}"
-            
+
         target_folder_id = get_or_create_folder(service, folder_name, parent_id=root_folder_id)
 
-        # 3. Arquivar versões anteriores (baseado no nome base, ex: 'Essenza - LAUDO')
-        # Pega a primeira parte do nome do arquivo para servir de prefixo de busca
-        base_prefix = os.path.basename(local_path).split('.')[0]
-        # Para evitar mover coisas erradas, limitamos a busca ao nome da marca + traço
+        # 3. Contar versões existentes para determinar número da versão
+        original_name = os.path.basename(local_path)
+        # Extrair nome base sem extensão e sem número de versão
+        import re
+        clean_base = re.sub(r'^\d+\s*-\s*', '', original_name.rsplit('.', 1)[0])
+        version_count = count_existing_versions(service, target_folder_id, clean_base)
+        next_version = version_count + 1
+
+        # 4. Arquivar versões anteriores para pasta 'antigos'
         safe_prefix = f"{marca} - "
         archive_old_files(service, target_folder_id, safe_prefix)
 
-        # 4. Upload do arquivo novo
+        # 5. Gerar nome versionado
+        upload_name = versioned_name(original_name, next_version)
+
+        # 6. Upload do arquivo novo
         file_metadata = {
-            'name': os.path.basename(local_path),
+            'name': upload_name,
             'parents': [target_folder_id]
         }
         media = MediaFileUpload(local_path, resumable=True)
         file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
-        
-        print(f"✅ Upload concluído! ID do arquivo: {file.get('id')}")
+
+        if next_version > 1:
+            print(f"✅ Upload concluído (versão {next_version})! Arquivo: {upload_name} | ID: {file.get('id')}")
+        else:
+            print(f"✅ Upload concluído! Arquivo: {upload_name} | ID: {file.get('id')}")
         return file.get('id')
 
     except HttpError as error:

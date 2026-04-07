@@ -1,0 +1,38 @@
+{
+  "marca": "Venero",
+  "classes": [
+    25,
+    35,
+    40
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "similaridade_minima": 20,
+  "max_paginas": 10,
+  "por_classe": {
+    "25": {
+      "encontradas": 100
+    },
+    "35": {
+      "encontradas": 0
+    },
+    "40": {
+      "encontradas": 0
+    }
+  },
+  "busca_geral": {
+    "encontradas": 0,
+    "novas_unicas": 0
+  },
+  "total_coletadas": 100,
+  "total_unicas": 100,
+  "buckets": {
+    "A": 36,
+    "B": 10,
+    "C": 54
+  },
+  "sucesso": true,
+  "erro": null,
+  "inicio": "2026-03-31T18:07:48.081468+00:00",
+  "fim": "2026-03-31T18:23:45.791160+00:00",
+  "duracao_segundos": 957.7
+}

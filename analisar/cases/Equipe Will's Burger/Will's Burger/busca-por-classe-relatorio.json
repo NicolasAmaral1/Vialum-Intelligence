@@ -1,0 +1,38 @@
+{
+  "marca": "Will's Burger",
+  "classes": [
+    43,
+    30,
+    35,
+    29
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "por_classe": {
+    "43": {
+      "encontradas": 0,
+      "mantidas": 0
+    },
+    "30": {
+      "encontradas": 0,
+      "mantidas": 0
+    },
+    "35": {
+      "encontradas": 0,
+      "mantidas": 0
+    },
+    "29": {
+      "encontradas": 0,
+      "mantidas": 0
+    }
+  },
+  "busca_geral": {
+    "encontradas": 0,
+    "novas_unicas": 0
+  },
+  "total_encontradas": 0,
+  "total_mantidas": 0,
+  "total_detalhadas": 0,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": []
+}

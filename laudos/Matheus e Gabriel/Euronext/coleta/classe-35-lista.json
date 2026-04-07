@@ -1,0 +1,65 @@
+[
+  {
+    "numero_processo": "829904506",
+    "nome_marca": "NYSE EURONEXT",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "NYSE GROUP, INC.",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-35-pagina-1"
+  },
+  {
+    "numero_processo": "829904476",
+    "nome_marca": "NYSE EURONEXT",
+    "situacao": "Arquivado",
+    "titular": "NYSE GROUP, INC.",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-35-pagina-1"
+  },
+  {
+    "numero_processo": "824191935",
+    "nome_marca": "EURONET",
+    "situacao": "Registro de marca extinto",
+    "titular": "EDITORA EUROPA LTDA",
+    "classe": 35,
+    "similaridade_pct": 87,
+    "fonte": "classe-35-pagina-1"
+  },
+  {
+    "numero_processo": "819986461",
+    "nome_marca": "EURONET",
+    "situacao": "Arquivado",
+    "titular": "EURONET COMERCIO LTDA",
+    "classe": 9,
+    "similaridade_pct": 87,
+    "fonte": "classe-35-pagina-1"
+  },
+  {
+    "numero_processo": "200022970",
+    "nome_marca": "EURONET",
+    "situacao": "Registro de marca extinto",
+    "titular": "EDITORA EUROPA LTDA",
+    "classe": 35,
+    "similaridade_pct": 87,
+    "fonte": "classe-35-pagina-1"
+  },
+  {
+    "numero_processo": "927139570",
+    "nome_marca": "PETRONEXT",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "F1T TECNOLOGIA LTDA.",
+    "classe": 35,
+    "similaridade_pct": 72,
+    "fonte": "classe-35-pagina-1"
+  },
+  {
+    "numero_processo": "840079770",
+    "nome_marca": "CONTEXTURE TECIDOS E LAMINADOS",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "A.DANIEL FERRARO - EPP",
+    "classe": 35,
+    "similaridade_pct": 70,
+    "fonte": "classe-35-pagina-1"
+  }
+]

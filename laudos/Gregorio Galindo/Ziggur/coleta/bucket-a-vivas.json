@@ -1,0 +1,90 @@
+[
+  {
+    "numero_processo": "911761500",
+    "nome_marca": "ZIGURAT DENIM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "classe": 35,
+    "similaridade_pct": 71,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T18:09:48.236453+00:00"
+  },
+  {
+    "numero_processo": "934651108",
+    "nome_marca": "ZIGURAT DENIM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "classe": 35,
+    "similaridade_pct": 71,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T18:09:48.236454+00:00"
+  },
+  {
+    "numero_processo": "909556040",
+    "nome_marca": "ZIGURAT",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONSULTORIA DE FORMACIÓN TÉCNICA, S.L.",
+    "classe": 41,
+    "similaridade_pct": 71,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T18:09:48.236456+00:00"
+  },
+  {
+    "numero_processo": "917963407",
+    "nome_marca": "ZIGGER",
+    "situacao": "Registro de marca em vigor",
+    "titular": "DENNER CÉZAR PIRES",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "geral-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T18:09:48.236459+00:00"
+  },
+  {
+    "numero_processo": "911761284",
+    "nome_marca": "ZIGURAT DENIM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "classe": 25,
+    "similaridade_pct": 71,
+    "fonte": "geral-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T18:09:48.236463+00:00"
+  },
+  {
+    "numero_processo": "927817624",
+    "nome_marca": "ZIGURAT",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INQUIMA LTDA",
+    "classe": 5,
+    "similaridade_pct": 71,
+    "fonte": "geral-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T18:09:48.236464+00:00"
+  },
+  {
+    "numero_processo": "926581198",
+    "nome_marca": "ZIGURAT",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INQUIMA LTDA",
+    "classe": 5,
+    "similaridade_pct": 71,
+    "fonte": "geral-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T18:09:48.236467+00:00"
+  },
+  {
+    "numero_processo": "934650586",
+    "nome_marca": "ZIGURAT DENIM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "classe": 25,
+    "similaridade_pct": 71,
+    "fonte": "geral-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T18:09:48.236468+00:00"
+  }
+]

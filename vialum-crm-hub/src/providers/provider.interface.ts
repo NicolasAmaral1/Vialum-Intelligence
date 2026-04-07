@@ -1,6 +1,11 @@
 // ════════════════════════════════════════════════════════════
 // Provider Abstraction — Interface & Types
-// Every CRM/task/document provider implements CrmProvider.
+// Base interface for all external integrations.
+// Category defines what the provider does:
+//   crm: Pipedrive, HubSpot (deals, contacts)
+//   tasks: ClickUp, Linear, Asana (task management)
+//   documents: Google Drive, OneDrive (file storage)
+//   marketing: RD Station (leads, campaigns)
 // ════════════════════════════════════════════════════════════
 
 export interface ProviderSearchParams {
@@ -37,7 +42,12 @@ export interface ProviderCapabilities {
   category: 'crm' | 'tasks' | 'documents' | 'marketing';
 }
 
-export interface CrmProvider {
+/**
+ * @deprecated Use IntegrationProvider instead. CrmProvider kept as alias for backward compat.
+ */
+export type CrmProvider = IntegrationProvider;
+
+export interface IntegrationProvider {
   readonly name: string;
   readonly capabilities: ProviderCapabilities;
 

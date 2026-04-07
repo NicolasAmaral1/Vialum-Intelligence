@@ -1,0 +1,252 @@
+{
+  "marca_analisada": "Plenya",
+  "data_analise": "2026-03-31T15:45:00-03:00",
+  "versao": "1.0",
+
+  "padroes_por_classe": [
+    {
+      "classe": 44,
+      "radical_analisado": "plen-",
+      "nivel_risco": "ALTO",
+      "decisoes": [
+        {
+          "processo": "840787820",
+          "nome": "PLENNA & BELLA INSTITUTO DE BELEZA",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — imitação de marca anterior",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "BAIXO",
+          "bloqueador_processo": "826617891",
+          "bloqueador_nome": "MULHER PLENA"
+        },
+        {
+          "processo": "931478162",
+          "nome": "Plenna Podologia Barueri",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — imitação de marca anterior",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "MÉDIO",
+          "bloqueador_processo": "917826612",
+          "bloqueador_nome": "PLENA PODOLOGIA"
+        },
+        {
+          "processo": "914399489",
+          "nome": "PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE DO PARANÁ",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — imitação de CLÍNICA PLENA",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "MÉDIO",
+          "bloqueador_processo": "826669220",
+          "bloqueador_nome": "CLÍNICA PLENA"
+        },
+        {
+          "processo": "907558720",
+          "nome": "PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — imitação de Clínica Plena",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "BAIXO",
+          "bloqueador_processo": "906893399",
+          "bloqueador_nome": "Clínica Plena"
+        },
+        {
+          "processo": "902464361",
+          "nome": "Plenna Cirurgia Plástica",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — imitação de CLÍNICA PLENA",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "BAIXO",
+          "bloqueador_processo": "826669220",
+          "bloqueador_nome": "CLÍNICA PLENA"
+        },
+        {
+          "processo": "900036524",
+          "nome": "LASER & ESTÉTICA PLENNA",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — imitação de CLÍNICA PLENA",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "BAIXO",
+          "bloqueador_processo": "826669220",
+          "bloqueador_nome": "CLÍNICA PLENA"
+        },
+        {
+          "processo": "914597892",
+          "nome": "Plenna Estética e Emagrecimento",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_mantido",
+          "fundamento": "art. 124, XIX — imitação mantida em 2ª instância",
+          "instancia_final": "2ª instância",
+          "data_decisao_final": "2021-04-20",
+          "peso_recencia": "ALTO",
+          "bloqueador_processo": "826669220 e 906893399",
+          "bloqueador_nome": "CLÍNICA PLENA (ambas versões do mesmo titular)",
+          "nota": "DECISÃO MAIS RELEVANTE DO CASO. Recurso negado confirma que o INPI considera plen-/plenn- colidível com plena na classe 44 com specs de saúde/estética. Porém: anterioridade de Plenna Farmácia (906171075) foi AFASTADA neste mesmo julgamento."
+        },
+        {
+          "processo": "930911687",
+          "nome": "Serenah Plenna Studio de Beleza",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — imitação de Beauty Center Serena Spa",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "MÉDIO",
+          "bloqueador_processo": "904504050",
+          "bloqueador_nome": "Beauty Center Serena Spa",
+          "nota": "Bloqueio pelo elemento 'Serena/Serenah', NÃO pelo radical plen-. Peso menor para isonomia plen-."
+        }
+      ],
+      "padrao_identificado": "CLÍNICA PLENA (826669220 e 906893399, mesmo titular: Clínica de Urologia e Ginecologia de Toledo Ltda) é o bloqueador recorrente na classe 44, responsável por indeferir 4+ pedidos com radical plen-/plenn-. Specs do bloqueador cobrem 'serviços diagnósticos médicos, análises clínicas, clínicas médicas, serviços de saúde' — núcleo da atividade de Plenya. O único recurso julgado (914597892) foi MANTIDO em 2ª instância (20/04/2021), consolidando a jurisprudência administrativa. PORÉM: 2 marcas obtiveram registro com radical plenn- na mesma classe (924464372 PLENNA SAÚDE MENTAL INTEGRADA e 906171075 Plenna Farmácia), demonstrando que o INPI aceita convivência quando as specs são ultra-restritas a subnichos.",
+      "isonomia": {
+        "direcao": "DESFAVORÁVEL",
+        "favoravel": "PLENNA SAÚDE MENTAL INTEGRADA (924464372) e Plenna Farmácia de Manipulação (906171075) obtiveram registro — prova de que specs ultra-restritas passam. No julgamento do recurso 914597892, a anterioridade de Plenna Farmácia foi AFASTADA pelo INPI, reconhecendo que nichos distintos podem conviver.",
+        "desfavoravel": "7 indeferimentos por art. 124 XIX, 1 mantido em 2ª instância (914597892, 20/04/2021). CLÍNICA PLENA bloqueia sistematicamente. Se Plenna Estética (specs em estética/SPA, menos sobrepostas) foi barrada, Plenya com spec genérica de saúde/nutrição/psicologia tem probabilidade AINDA MAIOR de indeferimento.",
+        "aplicacao_plenya": "Risco ALTO para specs genéricas (serviços médicos, clínicas médicas, serviços de saúde). Risco MODERADO para specs cirúrgicas de subnicho (ex: apoio psicológico online, nutrição esportiva). Monitorar prorrogação de CLÍNICA PLENA 826669220 — vencimento estimado 29/11/2026. Se não renovar, campo abre significativamente."
+      },
+      "recomendacao": "Especificação cirúrgica por subnicho: evitar 'serviços médicos', 'clínicas médicas', 'serviços de saúde' genéricos. Preferir specs como 'aconselhamento em nutrição esportiva', 'apoio psicológico', 'serviços de bem-estar integrativo', 'terapia ocupacional' — que são aceitas pelo INPI mesmo com plen- (como PLENNA SAÚDE MENTAL conseguiu). Monitorar renovação de CLÍNICA PLENA (826669220) em 29/11/2026."
+    },
+    {
+      "classe": 41,
+      "radical_analisado": "plen-",
+      "nivel_risco": "MODERADO",
+      "decisoes": [
+        {
+          "processo": "914614916",
+          "nome": "PLENNA TRANSFORMAÇÃO",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — imitação de Plena (Eleva Educacional)",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "MÉDIO",
+          "bloqueador_processo": "912121360",
+          "bloqueador_nome": "Plena (Eleva Educacional Ltda - ME)",
+          "nota": "Specs do bloqueador cobrem educação formal, instrução, ensino — sobreposição ALTA com treinamento, BAIXA com esporte/bem-estar"
+        },
+        {
+          "processo": "934906696",
+          "nome": "PLENNA TREINAMENTOS",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_pendente",
+          "fundamento": "bloqueador não identificado",
+          "instancia_final": "recurso em andamento",
+          "peso_recencia": "BAIXO (resultado incerto)",
+          "nota": "Recurso pendente — resultado desconhecido. Pedido de caducidade contra bloqueador em andamento desde 24/03/2026."
+        }
+      ],
+      "padrao_identificado": "Base limitada (2 indeferimentos). Bloqueador principal é 'Plena' (912121360, Eleva Educacional) com spec em educação/ensino formal. PLENNA TRANSFORMAÇÃO foi barrada por colisão com 'Plena' em contexto de treinamento. Para atividades esportivas e de bem-estar (não ensino formal), o risco é menor. Pedido de caducidade contra o bloqueador em andamento pode alterar o cenário.",
+      "isonomia": {
+        "direcao": "MISTA",
+        "favoravel": "Bloqueador 'Plena' (912121360) focado em educação formal (escolas, instrução). Plenya com spec em atividade física/coaching esportivo/bem-estar é nicho distinto. Pedido de caducidade em andamento pode eliminar o bloqueador.",
+        "desfavoravel": "PLENNA TRANSFORMAÇÃO (treinamento) foi barrada por 'Plena' (educação). O examinador demonstrou leitura estrita: plenna ≈ plena no contexto educacional. Se Plenya incluir 'coaching' ou 'treinamento', o mesmo examinador pode bloquear.",
+        "aplicacao_plenya": "Risco MODERADO. Evitar specs com 'serviços de educação', 'serviços de ensino', 'cursos livres'. Preferir 'organização de eventos de bem-estar esportivo', 'serviços de personal trainer', 'atividades físicas supervisionadas'."
+      },
+      "recomendacao": "Spec focada em atividade esportiva e bem-estar, evitando educação/ensino formal. Monitorar resultado do pedido de caducidade contra Plena (912121360) — se caducar, campo abre."
+    },
+    {
+      "classe": 42,
+      "radical_analisado": "plen-",
+      "nivel_risco": "BAIXO",
+      "decisoes": [],
+      "padrao_identificado": "Nenhuma decisão de indeferimento para radical plen- na classe 42. Campo aberto. PLENART (824107268) é registro vigente com radical distinto (plenar-) em locação de equipamentos — sem sobreposição. Plenna.psi e Plenna.ia (940390132 e 940389827, PLENNA SOFTWARE E TECNOLOGIA LTDA) aguardam exame — pipeline, não precedente.",
+      "isonomia": {
+        "direcao": "NEUTRA",
+        "favoravel": "Ausência de indeferimentos = campo sem oposição histórica. Nenhum bloqueador ativo identificado.",
+        "desfavoravel": "Ausência de precedentes não garante deferimento — pode ser porque ninguém tentou antes no nicho exato.",
+        "aplicacao_plenya": "Risco BAIXO. Classe mais favorável para registro de plataforma digital de saúde/bem-estar. Monitorar resultado dos pedidos Plenna Software (mesmo radical plenn-)."
+      },
+      "recomendacao": "Depositar com confiança. Spec focada em tecnologia/SaaS de saúde. Monitorar pedidos Plenna Software."
+    },
+    {
+      "classe": 35,
+      "radical_analisado": "plen-",
+      "nivel_risco": "BAIXO a MODERADO",
+      "decisoes": [
+        {
+          "processo": "906938236",
+          "nome": "PLENNA Contabilidade e Consultorias",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — bloqueador PLENA CONTABILIDADE (821800728, EXTINTO)",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "BAIXO",
+          "nota": "Bloqueador extinto — sem peso atual"
+        },
+        {
+          "processo": "917565339",
+          "nome": "SAÚDE PLENNA AUDIÇÃO E VISÃO",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_mantido",
+          "fundamento": "art. 124, VI — expressão descritiva/genérica (NÃO colidência)",
+          "instancia_final": "2ª instância",
+          "peso_recencia": "MÉDIO",
+          "nota": "Indeferimento por caráter descritivo de 'SAÚDE PLENNA', não por colidência com outra marca. Não se aplica a Plenya (palavra fantasiosa)."
+        },
+        {
+          "processo": "924926996",
+          "nome": "SAÚDE PLENNA TINITUS OTOSYS",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_mantido",
+          "fundamento": "art. 124, VI — expressão descritiva/genérica",
+          "instancia_final": "2ª instância",
+          "peso_recencia": "MÉDIO",
+          "nota": "Mesmo fundamento e mesmo titular que 917565339. SAÚDE PLENNA considerado descritivo para ótica/audição."
+        },
+        {
+          "processo": "902298135",
+          "nome": "plenna comunicação",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — bloqueador PLENA COMUNICAÇÃO (900117451, EXTINTO)",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "BAIXO",
+          "nota": "Bloqueador extinto. Plenna Comunicação (921333790) registrada posteriormente — campo aberto."
+        },
+        {
+          "processo": "900235853",
+          "nome": "PLENNA SOLUÇÃO EM COMUNICAÇÃO",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — bloqueador PLENA COMUNICAÇÃO (EXTINTO)",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "BAIXO"
+        },
+        {
+          "processo": "900389753",
+          "nome": "Plenna,sim comunicação e marketing estratégico",
+          "tipo_decisao": "indeferimento",
+          "resultado_final": "indeferido_sem_recurso",
+          "fundamento": "art. 124, XIX — bloqueador PLENA COMUNICAÇÃO (EXTINTO)",
+          "instancia_final": "1ª instância",
+          "peso_recencia": "BAIXO"
+        }
+      ],
+      "padrao_identificado": "6 indeferimentos históricos na classe 35, mas cenário atual é FAVORÁVEL: todos os 3 bloqueadores por art. 124 XIX estão EXTINTOS (PLENA CONTABILIDADE, PLENA COMUNICAÇÃO). Os 2 indeferimentos mantidos em recurso foram por art. 124 VI (descritivo, não colidência) — 'SAÚDE PLENNA' considerado expressão descritiva. 3 registros vigentes com plen- de titulares distintos (PLENNA 825607604, Plenna Alimentação Saudável 921025912, Plenna Comunicação 921333790) demonstram campo aberto. Prova concreta: Plenna Comunicação obteve registro APÓS extinção do bloqueador PLENA COMUNICAÇÃO.",
+      "isonomia": {
+        "direcao": "FAVORÁVEL",
+        "favoravel": "3 registros vigentes com plen- de titulares distintos. Bloqueadores históricos extintos. Plenna Comunicação registrada após morte do bloqueador = prova de que campo reabriu. Os 2 indeferimentos por art. 124 VI (descritivo) não se aplicam a Plenya (fantasiosa, não descritiva).",
+        "desfavoravel": "PLENNA (825607604, PLENNA ESPECIALIDADES LTDA) tem spec genérica de 'propaganda; gestão de negócios; administração de negócios' — pode bloquear pedido Plenya com spec ampla de gestão na classe 35.",
+        "aplicacao_plenya": "Risco BAIXO a MODERADO. Classe favorável. Spec deve ser focada no nicho de Plenya (comércio de produtos de nutrição/bem-estar, franquias de clínicas) — evitar spec genérica de 'gestão de negócios' que colide com PLENNA 825607604."
+      },
+      "recomendacao": "Spec de nicho: 'comércio de produtos de nutrição e suplementação', 'franquias de clínicas de bem-estar', 'organização de feiras de saúde'. Evitar 'propaganda; gestão de negócios' genérico."
+    }
+  ],
+
+  "isonomia_global": {
+    "direcao": "MISTA",
+    "resumo": "Classe 44: DESFAVORÁVEL — CLÍNICA PLENA bloqueia sistematicamente, recurso mantido em 2ª instância. Classe 41: MISTA — bloqueador em educação, possível caducidade. Classe 42: NEUTRA — campo aberto, sem precedentes. Classe 35: FAVORÁVEL — bloqueadores extintos, 3 registros vigentes.",
+    "peso_decisao_mais_relevante": {
+      "processo": "914597892",
+      "nome": "Plenna Estética e Emagrecimento",
+      "decisao": "indeferido_mantido em 2ª instância",
+      "data": "2021-04-20",
+      "classe": 44,
+      "porque_relevante": "Único recurso julgado para radical plen-/plenn- na classe 44. Mantido = INPI em 2ª instância confirmou que plenn- colide com plena em serviços de saúde/estética. Se Plenna Estética (specs de estética/SPA, MENOS sobrepostas com CLÍNICA PLENA) foi barrada, Plenya com spec genérica de saúde tem probabilidade MAIOR de indeferimento. Porém: no mesmo julgamento, anterioridade de Plenna Farmácia (906171075) foi AFASTADA — indicando que o INPI reconhece que subnichos diferentes podem conviver."
+    },
+    "nota_estrategica": "A chave para Plenya é a ESPECIFICAÇÃO. O INPI não bloqueia o radical plen- em si — bloqueia quando o conjunto marcário (radical + spec) se sobrepõe a uma anterioridade. Specs ultra-restritas passam (PLENNA SAÚDE MENTAL, Plenna Farmácia). Specs genéricas são barradas (Plenna Centro de Especialidades, Plenna Cirurgia Plástica). Plenya como palavra FANTASIOSA (não descritiva como 'PLENNA + descriptor') tem vantagem argumentativa, mas precisa de spec cirúrgica."
+  }
+}

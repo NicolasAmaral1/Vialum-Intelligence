@@ -1,13 +1,13 @@
 import { getPrisma } from '../config/database.js';
 import type {
-  CrmProvider,
+  IntegrationProvider,
   ProviderCapabilities,
   ProviderSearchParams,
   ProviderResource,
   ProviderSyncResult,
 } from './provider.interface.js';
 
-export abstract class BaseProvider<TConfig> implements CrmProvider {
+export abstract class BaseProvider<TConfig> implements IntegrationProvider {
   abstract readonly name: string;
   abstract readonly capabilities: ProviderCapabilities;
 

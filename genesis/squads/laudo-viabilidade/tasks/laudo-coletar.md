@@ -4,6 +4,7 @@
 > **Agente:** @laudo (Mira)
 > **Fase:** 1 — Coleta de Dados
 
+
 ---
 
 ## Purpose
@@ -11,18 +12,21 @@
 Ler o card do ClickUp escolhido, extrair ou coletar os dados necessários para a análise
 (marca, cliente, atividade), e criar a estrutura de pastas em `laudos/`.
 
+
 ---
 
 ## Prerequisites
 
-- `task_id` disponível (da sessão ou passado como argumento)
-- Card está em status "em processo"
+* `task_id` disponível (da sessão ou passado como argumento)
+* Card está em status "em processo"
+
 
 ---
 
 ## Execution Mode
 
 **Semi-interativo** — lê o card automaticamente; pede complemento ao usuário somente se dados essenciais estiverem ausentes.
+
 
 ---
 
@@ -36,8 +40,10 @@ curl -s -H "Authorization: {CLICKUP_API_TOKEN}" \
 ```
 
 Extrair:
-- `name` → `nome_marca` (nome do card = nome da marca)
-- `description` → texto livre com dados do cliente (atividade, nome do cliente, etc.)
+
+* `name` → `nome_marca` (nome do card = nome da marca)
+* `description` → texto livre com dados do cliente (atividade, nome do cliente, etc.)
+
 
 ---
 
@@ -46,13 +52,14 @@ Extrair:
 Analisar o texto da description para identificar:
 
 | Campo | Marcadores comuns | Obrigatório |
-|---|---|---|
+|----|----|----|
 | Nome do cliente | "Cliente:", "Empresa:", "Solicitante:" | ✅ |
 | Atividade | "Atividade:", "Negócio:", "Serviços:", "Produtos:" | ✅ |
 | Marcas alternativas | "Alternativas:", "Variações:", "Também:" | ❌ |
 
 **Regra de nomeação:**
 SE cliente não informado → usar `Equipe {nome_marca}` (ex: "Equipe Frescor do Mar")
+
 
 ---
 
@@ -71,6 +78,7 @@ Por favor, descreva:
 
 **AGUARDAR** resposta do usuário.
 
+
 ---
 
 ### Passo 4: Criar estrutura de pastas
@@ -80,13 +88,16 @@ mkdir -p "laudos/{cliente}/{nome_marca}"
 ```
 
 Normalizar nomes de pasta:
-- Remover caracteres especiais problemáticos para bash: `/ \ : * ? " < > |`
-- Manter acentos e espaços (são válidos em paths macOS)
+
+* Remover caracteres especiais problemáticos para bash: `/ \ : * ? " < > |`
+* Manter acentos e espaços (são válidos em paths macOS)
 
 Criar também o arquivo vazio para dados INPI (para uso na Fase 3):
+
 ```bash
 touch "laudos/{cliente}/{nome_marca}/inpi-raw.txt"
 ```
+
 
 ---
 
@@ -109,6 +120,7 @@ Exibir resumo:
 ```
 
 Retornar para o workflow:
+
 ```json
 {
   "task_id": "...",
@@ -120,12 +132,14 @@ Retornar para o workflow:
 }
 ```
 
+
 ---
 
 ## Veto Conditions
 
-- **Card não encontrado no ClickUp:** VETO — "Task {task_id} não encontrada."
-- **Marca em branco (name do card vazio):** VETO — impossível continuar sem o nome da marca.
+* **Card não encontrado no ClickUp:** VETO — "Task {task_id} não encontrada."
+* **Marca em branco (name do card vazio):** VETO — impossível continuar sem o nome da marca.
+
 
 ---
 
@@ -138,6 +152,7 @@ Retornar para o workflow:
 ➡️ Prosseguindo com *preliminar...
 ```
 
+
 ---
 
 ```yaml
@@ -149,3 +164,5 @@ metadata:
   tags: [coletar, dados, clickup, pasta, marca]
   updated_at: 2026-02-27
 ```
+
+

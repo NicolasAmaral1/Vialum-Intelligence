@@ -1,16 +1,16 @@
-import type { CrmProvider } from './provider.interface.js';
+import type { IntegrationProvider } from './provider.interface.js';
 
-const registry = new Map<string, CrmProvider>();
+const registry = new Map<string, IntegrationProvider>();
 
-export function registerProvider(provider: CrmProvider): void {
+export function registerProvider(provider: IntegrationProvider): void {
   registry.set(provider.name, provider);
 }
 
-export function getProvider(name: string): CrmProvider | undefined {
+export function getProvider(name: string): IntegrationProvider | undefined {
   return registry.get(name);
 }
 
-export function getAllProviders(): CrmProvider[] {
+export function getAllProviders(): IntegrationProvider[] {
   return Array.from(registry.values());
 }
 

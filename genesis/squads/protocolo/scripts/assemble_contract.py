@@ -49,6 +49,7 @@ CLAUSES = {
     },
     "condicoes": {
         "vista": 'O valor acima descrito deverá ser quitado **à vista**, no ato da contratação.',
+        "vista_parcelavel": 'O valor acima descrito deverá ser quitado **à vista**, no ato da contratação.\n\nCaso o CONTRATANTE opte pelo parcelamento, este poderá ser realizado exclusivamente por meio da operadora de pagamento, ficando sujeito às taxas e condições praticadas pela mesma, sem qualquer responsabilidade do CONTRATADO.',
         "parcelado": 'O valor acima descrito poderá ser parcelado em até **{{NUM_PARCELAS}} vezes**, sem juros, na opção Cartão de Crédito.',
         "permuta": 'Eventuais outras avenças entre as partes poderão ser definidas em **termo aditivo** ao presente instrumento.',
     },

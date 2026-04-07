@@ -1,0 +1,593 @@
+{
+  "marca_analisada": "Plenya",
+  "radical_principal": "plen-",
+  "data_analise": "2026-03-31T00:00:00-03:00",
+  "versao": "2.0",
+  "nota_metodologica": "Versão 2.0 — Diretrizes reforçadas: (1) Somente marcas com 'Registro de marca em vigor' ou status 'Registro' contam como prova de coexistência — marcas aguardando exame, em oposição ou recurso são listadas separadamente como pipeline, não como prova. (2) Especificações completas copiadas integralmente do fonte-bruta.json sem truncamento. (3) Análise de sobreposição real de specs entre marcas julgadas para determinar se a coexistência é substantiva ou apenas formal. Titulares distintos contados por CNPJ/nome diferente. Marcas com radical 'splend-' incluídas apenas quando presentes no banco de dados fonte. Marcas 'Registro de marca nulo', 'extinto' e 'arquivado' excluídas de ambas as seções.",
+  "clusters": [
+    {
+      "classe": 44,
+      "descricao_nice": "Serviços médicos, estéticos, farmacêuticos, de saúde e de higiene para seres humanos ou animais",
+      "relevancia_para_plenya": "DIRETA — núcleo do negócio Plenya (serviços médicos, bem-estar, nutrição, saúde, apoio psicológico, esportivo)",
+      "marcas_julgadas": [
+        {
+          "processo": "924464372",
+          "nome": "PLENNA SAÚDE MENTAL INTEGRADA",
+          "titular": "PLENNA CLINICA PSICOLOGICA INTEGRADA LTDA",
+          "classe": 44,
+          "situacao": "Registro de marca em vigor",
+          "especificacao_completa": "Aconselhamento em questões de saúde;Assessoria, consultoria e informação em assistência médica, prestada por médicos e outros especialistas da área médica;Assessoria, consultoria e informação médica;Assessoria, consultoria e informação na área médica;Assessoria, consultoria e informação no campo da saúde e da medicina;Assessoria, consultoria e informação sobre cuidados médicos;Assessoria, consultoria e informação sobre doenças mentais;Assistência médica;Consultas médicas [serviços médicos];Grupos de autoajuda [terapia em grupo];Orientação psicológica;Psicoterapia;Psicroterapia [terapia que se vale do frio, empregando-o de modos diversos];Psiquiatria;Serviços de centros médicos;Serviços de clínica médica;Serviços de psicólogos;Serviços de saúde;Serviços de terapia;Serviços de terapia;Serviços médicos prestados a título de assistência social;Serviços psicológicos prestados a título de assistência social;Terapia ocupacional [serviços psicológicos];Tratamento médico"
+        },
+        {
+          "processo": "906171075",
+          "nome": "Plenna Farmácia de Manipulação",
+          "titular": "FARMÁCIA ATELIER DE SAÚDE LTDA",
+          "classe": 44,
+          "situacao": "Registro de marca em vigor",
+          "especificacao_completa": "Serviços médicos; serviços veterinários; serviços de higiene e beleza para seres humanos ou animais; serviços de agricultura, de horticultura e de silvicultura."
+        }
+      ],
+      "titulares_distintos_julgados": 2,
+      "marcas_em_processo": [
+        {
+          "processo": "940215020",
+          "nome": "Plenna Harmonização Orofacial e Corporal",
+          "titular": "INSTITUTO DE SAUDE E ESTETICA ADRIANA LOBO LTDA",
+          "classe": 44,
+          "situacao": "Aguardando exame de mérito"
+        },
+        {
+          "processo": "941984567",
+          "nome": "PLENNA OBSTETRÍCIA E SAÚDE DA MULHER",
+          "titular": "VANESSA SOARES DE MELO SILVA",
+          "classe": 44,
+          "situacao": "Aguardando exame de mérito"
+        },
+        {
+          "processo": "936580372",
+          "nome": "Star Plenna Saúde Integrativa - Cicatrização - Tecnologias",
+          "titular": "MIRNAFONTENELE SAUDEINTEGRATIVA",
+          "classe": 44,
+          "situacao": "Aguardando exame de mérito"
+        },
+        {
+          "processo": "939315980",
+          "nome": "Plenna Odontologia",
+          "titular": "PLENNA CLINICA ODONTOLOGICA LTDA",
+          "classe": 44,
+          "situacao": "Aguardando exame de mérito"
+        },
+        {
+          "processo": "942425871",
+          "nome": "PLENNY VITA - SAÚDE INTEGRADA",
+          "titular": "JOSÉ RICARDO COSTA DE OLIVEIRA",
+          "classe": 44,
+          "situacao": "Aguardando prazo de apresentação de oposição"
+        },
+        {
+          "processo": "934570710",
+          "nome": "Áurea Splenda - Estética e Bronzeamento Avançado",
+          "titular": "SPLENDA ESTETICA LTDA",
+          "classe": 44,
+          "situacao": "Aguardando exame de mérito"
+        }
+      ],
+      "marcas_indeferidas": [
+        {
+          "processo": "840787820",
+          "nome": "PLENNA & BELLA INSTITUTO DE BELEZA",
+          "titular": "ADELITA DE LIMA CRUZ - ME",
+          "resultado": "Pedido de registro de marca indeferido",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "826617891",
+          "bloqueador_nome": "MULHER PLENA",
+          "bloqueador_titular": "SALÃO DE BELEZA MULHER PLENA LTDA - ME",
+          "bloqueador_situacao": "Registro de marca em vigor",
+          "bloqueador_especificacao": "- Salão de beleza; - Salão de Cabeleireiro; - Manicure; - Massagem.",
+          "especificacao_indeferido": "Serviços médicos; serviços veterinários; serviços de higiene e beleza para seres humanos ou animais; serviços de agricultura, de horticultura e de silvicultura.",
+          "nota": "Bloqueador é marca de salão de beleza focado em serviços de estética/cabelo, sem sobreposição direta com serviços médicos/saúde core de Plenya"
+        },
+        {
+          "processo": "931478162",
+          "nome": "Plenna Podologia Barueri",
+          "titular": "SOLANGE MANTOVANI",
+          "resultado": "Pedido de registro de marca indeferido",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "917826612",
+          "bloqueador_nome": "PLENA PODOLOGIA",
+          "bloqueador_titular": "MARIA DIVINA PEREIRA BATISTA 81750706172 ME",
+          "bloqueador_situacao": "Registro de marca em vigor",
+          "bloqueador_especificacao": "Serviços de salões de beleza; Serviços de saúde; Estética facial e corporal; Manicure e pedicure; SPA [serviços médicos ou estéticos]; Tratamento médico; Assessoria, consultoria e informação em estética pessoal [tratamento de pele e cabelo]",
+          "especificacao_indeferido": "Manicure e pedicure;Serviços de saúde;Spa [serviços médicos ou estéticos]",
+          "nota": "Bloqueador PLENA PODOLOGIA tem spec em saúde, estética e SPA. Sobreposição parcial com nicho de bem-estar de Plenya"
+        },
+        {
+          "processo": "914399489",
+          "nome": "PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE DO PARANÁ",
+          "titular": "LIBARDI & LIBARDI LTDA - ME",
+          "resultado": "Pedido de registro de marca indeferido",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "826669220",
+          "bloqueador_nome": "CLÍNICA PLENA",
+          "bloqueador_titular": "CLÍNICA DE UROLOGIA E GINECOLOGIA DE TOLEDO LTDA",
+          "bloqueador_situacao": "Registro de marca em vigor",
+          "bloqueador_especificacao": "PRESTAÇÃO DE SERVIÇOS DIAGNÓSTICOS MÉDICOS; SERVIÇOS ANÁLISES CLÍNICAS; CLÍNICAS MÉDICAS; SERVIÇOS DE SAÚDE.",
+          "especificacao_indeferido": "Serviços de clínica médica - [Informação em]; Serviços de clínica médica - [Consultoria em]; Serviços de clínica médica - [Assessoria em]; Serviços de clínica médica",
+          "nota": "CLÍNICA PLENA (826669220) é bloqueador recorrente na classe 44 — aparece bloqueando múltiplos pedidos similares. Specs: diagnósticos médicos, análises clínicas, clínicas médicas, serviços de saúde — sobreposição ALTA com escopo Plenya"
+        },
+        {
+          "processo": "907558720",
+          "nome": "PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE",
+          "titular": "LIBARDI & LIBARDI",
+          "resultado": "Pedido de registro de marca indeferido",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "906893399",
+          "bloqueador_nome": "Clínica Plena",
+          "bloqueador_titular": "Clínica De Urologia E Ginecologia De Toledo Ltda",
+          "bloqueador_situacao": "Registro de marca em vigor",
+          "bloqueador_especificacao": "Centro médico; Médica (Serviços de clínica-); Saúde (Serviços de -); Assessoria, consultoria e informação em assistência médica, prestada por médicos e outros especialistas da área médica; Cirurgias médicas [serviços médicos]; Consultas médicas [serviços médicos]; Exame bacteriológico [análise clínica]",
+          "especificacao_indeferido": "Centro médico; Fisioterapia; Médica (Serviços de clínica-); Assessoria, consultoria e informação sobre cuidados médicos; Assessoria, consultoria e informação sobre suplementos dietéticos e nutrição; Assessoria, consultoria e informações sobre medicina, assistência médica e odontológica; Nutricionista [serviço de -]; Odontologia [cirurgião-dentista]; Orientação nutricional; Orientação psicológica; Psicoterapia; Terapia ocupacional (serviços psicológicos); Ortofonia [articulação correta das palavras] (serviço de -); Serviços ortodônticos",
+          "nota": "Versão renovada de Clínica Plena — mesmo titular, também ativo. Specs cobrem centro médico, psicologia, nutrição, odontologia — sobreposição ALTA com Plenya"
+        },
+        {
+          "processo": "902464361",
+          "nome": "Plenna Cirurgia Plástica",
+          "titular": "CLÍNICA PLENNA CIRURGIA PLÁSTICA",
+          "resultado": "Pedido de registro de marca indeferido",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "826669220",
+          "bloqueador_nome": "CLÍNICA PLENA",
+          "bloqueador_titular": "CLÍNICA DE UROLOGIA E GINECOLOGIA DE TOLEDO LTDA",
+          "bloqueador_situacao": "Registro de marca em vigor",
+          "bloqueador_especificacao": "PRESTAÇÃO DE SERVIÇOS DIAGNÓSTICOS MÉDICOS; SERVIÇOS ANÁLISES CLÍNICAS; CLÍNICAS MÉDICAS; SERVIÇOS DE SAÚDE.",
+          "especificacao_indeferido": "Cirurgia plástica;Clínicas médicas;Assessoria, consultoria e informação na área médica;Estética [tratamento da pele e cabelo];Assessoria, consultoria e informação médica;Serviços de saúde em spa;Assessoria, consultoria e informação no campo da saúde e da medicina;Tratamento médico;Consultas médicas [serviços médicos];Serviços médicos prestados a título de assistência social;Assessoria, consultoria e informação em assistência médica, prestada por médicos e outros especialistas da área médica;Saúde (Serviços de -);Assessoria, consultoria e informação sobre cuidados médicos;SPA [serviços médicos ou estéticos];Assessoria, consultoria e informação sobre beleza;Assistência médica;Cirurgias médicas [serviços médicos];Estética facial e corporal",
+          "nota": "CLÍNICA PLENA (826669220) bloqueou pedido com escopo amplo em saúde/estética. Sobreposição ALTA com Plenya"
+        },
+        {
+          "processo": "900036524",
+          "nome": "LASER & ESTÉTICA PLENNA",
+          "titular": "GS COMERCIAL E SERVIÇOS DE ESTÉTICA LTDA ME",
+          "resultado": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "826669220",
+          "bloqueador_nome": "CLÍNICA PLENA",
+          "bloqueador_titular": "CLÍNICA DE UROLOGIA E GINECOLOGIA DE TOLEDO LTDA",
+          "bloqueador_situacao": "Registro de marca em vigor",
+          "bloqueador_especificacao": "PRESTAÇÃO DE SERVIÇOS DIAGNÓSTICOS MÉDICOS; SERVIÇOS ANÁLISES CLÍNICAS; CLÍNICAS MÉDICAS; SERVIÇOS DE SAÚDE.",
+          "especificacao_indeferido": "Assessoria, consultoria e informação em assistência médica, prestada por médicos e outros especialistas da área médica;Assessoria, consultoria e informação em estética capilar;Assessoria, consultoria e informação sobre beleza;Assessoria, consultoria e informação em massagem;Aromaterapia;Assessoria, consultoria e informação em estética pessoal [tratamento de pele e cabelo];Manicure e pedicure;Análise e prognóstico nutricional;Assessoria, consultoria e informação sobre suplementos dietéticos e nutrição;Cirurgia plástica;Assessoria, consultoria e informação em nutrição;Assessoria, consultoria e informação na área médica;Depilação;Bronzeamento artificial;Estética facial e corporal",
+          "nota": "Terceiro indeferimento bloqueado por CLÍNICA PLENA (826669220). Confirma padrão recorrente de bloqueio"
+        },
+        {
+          "processo": "914597892",
+          "nome": "Plenna Estética e Emagrecimento",
+          "titular": "PLENNA ESTETICA E EMAGRECIMENTO LTDA - ME",
+          "resultado": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+          "artigo_lpi": "nao_identificado",
+          "bloqueador_processo": "906893399_e_826669220",
+          "bloqueador_nome": "Clínica Plena / CLÍNICA PLENA",
+          "bloqueador_titular": "Clínica De Urologia E Ginecologia De Toledo Ltda",
+          "bloqueador_situacao": "Registro de marca em vigor",
+          "bloqueador_especificacao": "Centro médico; Médica (Serviços de clínica-); Saúde (Serviços de -); Assessoria, consultoria e informação em assistência médica, prestada por médicos e outros especialistas da área médica; Cirurgias médicas [serviços médicos]; Consultas médicas [serviços médicos]; Exame bacteriológico [análise clínica]",
+          "especificacao_indeferido": "Fisioterapia; Massagem; Estética [tratamento da pele e cabelo]; Estética facial e corporal; SPA [serviços médicos ou estéticos]; Assessoria, consultoria e informação em massagem; Assessoria, consultoria e informação sobre beleza",
+          "nota": "Indeferimento MANTIDO em recurso. Recurso não provido confirma consolidação da jurisprudência administrativa contrária ao registro com elemento PLENN- em saúde/estética na classe 44"
+        },
+        {
+          "processo": "930911687",
+          "nome": "Serenah Plenna Studio de Beleza",
+          "titular": "TAMARA TEIXEIRA",
+          "resultado": "Pedido de registro de marca indeferido",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "904504050",
+          "bloqueador_nome": "Beauty Center Serena Spa",
+          "bloqueador_titular": "SERENA CENTRO DE ESTÉTICA LTDA. - ME",
+          "bloqueador_situacao": "Registro de marca em vigor",
+          "bloqueador_especificacao": "Beleza (Salões de -); Cabeleireiro (Salões de -); Manicure; Massagem; Salões de beleza; Salões de cabeleireiro; Serviços de saúde em spa; Assessoria, consultoria e informação em estética capilar; Assessoria, consultoria e informação em estética pessoal [tratamento de pele e cabelo]; Assessoria, consultoria e informação em massagem; Assessoria, consultoria e informação sobre beleza; Barbearia e salões de beleza (aluguel de aparelhos e equipamentos de uso em -); Barbeiro (serviços de - ); Bronzeamento artificial; Depilação; Estética [tratamento da pele e cabelo]; Estética facial e corporal; Manicure e pedicure; SPA [serviços médicos ou estéticos].",
+          "especificacao_indeferido": "Serviços médicos; serviços veterinários; serviços de higiene e beleza para seres humanos ou animais; serviços de agricultura, de horticultura e de silvicultura.",
+          "nota": "Bloqueador é Beauty Center Serena Spa, não relacionado ao radical plen-. Indeferimento por semelhança com 'Serena', não com 'Plenna'. Peso menor para análise de coexistência plen-"
+        }
+      ],
+      "analise_specs": {
+        "sobreposicao_entre_julgadas": "PARCIAL — As duas marcas julgadas (PLENNA SAÚDE MENTAL INTEGRADA e Plenna Farmácia de Manipulação) têm specs com algum overlap em 'Serviços de saúde' e 'Serviços médicos', mas atuam em nichos distintos: a primeira é focada em saúde mental/psicologia/psiquiatria, a segunda em farmácia de manipulação. Coexistência formal — o INPI concedeu a ambas sem conflito entre si.",
+        "coexistencia_real_entre_si": false,
+        "justificativa_coexistencia_real": "Specs não se sobrepõem substantivamente: saúde mental (924464372) vs farmácia de manipulação (906171075) — são nichos funcionalmente distintos dentro da classe 44. Não configuram dois titulares com specs idênticas coexistindo, o que seria o sinal mais forte de abertura do campo.",
+        "relevancia_bloqueadores": "CRÍTICA — CLÍNICA PLENA (826669220 e 906893399) bloqueou repetidamente pedidos PLENN- na classe 44, incluindo pedido com recurso mantido (914597892). Essa marca cobre 'clínicas médicas, diagnósticos, serviços de saúde' — spec que se sobrepõe diretamente ao escopo de Plenya (saúde, medicina, bem-estar). Enquanto CLÍNICA PLENA estiver vigente, o risco de indeferimento na classe 44 é ALTO para qualquer pedido PLENYA com spec em serviços médicos gerais.",
+        "bloqueador_critico_classe_44": {
+          "processo": "826669220_e_906893399",
+          "nome": "CLÍNICA PLENA (duas versões do mesmo titular)",
+          "titular": "Clínica De Urologia E Ginecologia De Toledo Ltda",
+          "situacao": "Registro de marca em vigor",
+          "nivel_risco": "ALTO",
+          "justificativa": "Bloqueou 4 pedidos distintos na classe 44. Spec cobre serviços de saúde, clínicas médicas e diagnósticos — núcleo da atividade Plenya. Recurso mantido em 914597892 confirma que o INPI considera 'Plenn-' colidível com 'Plena' nesse contexto."
+        }
+      },
+      "parecer_desgaste": "PARCIAL",
+      "justificativa_parecer": "Existem 2 registros concedidos com elemento PLENN- na classe 44 (2 titulares distintos), mas ambos em nichos restritos (saúde mental e farmácia de manipulação). O campo não está aberto para serviços médicos gerais: CLÍNICA PLENA bloqueou repetidamente pedidos similares e teve indeferimento mantido em recurso. O desgaste é real mas incompleto — a coexistência formal existe, mas as specs das julgadas não cobrem o espectro amplo que Plenya precisaria registrar.",
+      "impacto_para_plenya": {
+        "nivel_risco": "ALTO",
+        "janela_possivel": "Registros focados em subnichos específicos têm chance maior — ex: 'apoio psicológico online' (spec restrita, não ampla 'serviços médicos'). Specs genéricas como 'Serviços de saúde; Serviços médicos' serão bloqueadas por CLÍNICA PLENA.",
+        "recomendacao_spec": "Especificação cirúrgica por atividade específica de Plenya — ex: bem-estar integrativo, nutrição esportiva, coaching de saúde — evitando termos genéricos 'serviços médicos' ou 'clínicas médicas' que são o ponto de ataque de CLÍNICA PLENA.",
+        "ameaca_principal": "CLÍNICA PLENA (826669220 / 906893399) — registro em vigor, titular ativo, historicamente acionado pelo INPI como bloqueador na classe 44 para marcas com radical plen-"
+      }
+    },
+    {
+      "classe": 41,
+      "descricao_nice": "Educação, formação, entretenimento, atividades esportivas e culturais",
+      "relevancia_para_plenya": "RELEVANTE — apoio psicológico, treinamento esportivo e programas de bem-estar podem se enquadrar na classe 41",
+      "marcas_julgadas": [
+        {
+          "processo": "911446745",
+          "nome": "splenda CONSULTING",
+          "titular": "Liliam Monteiro Cunha Jacob",
+          "classe": 41,
+          "situacao": "Registro de marca em vigor",
+          "especificacao_completa": "Orientação [Treinamento]; Reciclagem profissional; Assessoria, consultoria e informação em treinamento [demonstração][ensino]; Cursos livres [ensino]",
+          "nota": "Radical 'splend-', não 'plen-'. Registro em treinamento e educação profissional. Relevância limitada para análise de coexistência do radical plen-"
+        }
+      ],
+      "titulares_distintos_julgados": 1,
+      "marcas_em_processo": [
+        {
+          "processo": "934907358",
+          "nome": "PLENNA DESENVOLVIMENTO HUMANO",
+          "titular": "FABIO ANDRE WEBER WILCHEN",
+          "classe": 41,
+          "situacao": "Em exame de mérito"
+        },
+        {
+          "processo": "937304131",
+          "nome": "ARTE PLENNA MULTICULTURAL",
+          "titular": "GERMANA XAVIER NÓBREGA",
+          "classe": 41,
+          "situacao": "Aguardando exame de mérito"
+        }
+      ],
+      "marcas_indeferidas": [
+        {
+          "processo": "934906696",
+          "nome": "PLENNA TREINAMENTOS",
+          "titular": "FABIO ANDRE WEBER WILCHEN",
+          "resultado": "Pedido de registro de marca indeferido (com recurso pendente de julgamento)",
+          "artigo_lpi": "nao_identificado",
+          "bloqueador_processo": "bloqueador_nao_identificado",
+          "bloqueador_nome": "nao_disponivel",
+          "bloqueador_especificacao": "spec_nao_coletada",
+          "especificacao_indeferido": "Assessoria, consultoria e informação em educação [instrução];Assessoria, consultoria e informação em treinamento [demonstração][ensino];Assessoria, consultoria e informação ensino;Coaching [treinamento];Cursos livres [ensino];Organização e apresentação de colóquios;Organização e apresentação de conferências;Organização e apresentação de congressos;Organização e apresentação de seminários;Organização e apresentação de simpósios;Organização e e condução de fóruns educacionais presenciais;Organização e realização de eventos de entretenimento;Orientação [treinamento];Serviços de educação;Serviços de ensino;Transferência de know-how [treinamento]",
+          "nota": "Recurso pendente — resultado ainda desconhecido. Mesmo titular tem 'PLENNA DESENVOLVIMENTO HUMANO' em exame (934907358)"
+        },
+        {
+          "processo": "914614916",
+          "nome": "PLENNA TRANSFORMAÇÃO",
+          "titular": "INSTITUTO PLENNA TREINAMENTO E DESENVOLVIMENTO LTDA- ME",
+          "resultado": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "912121360",
+          "bloqueador_nome": "Plena",
+          "bloqueador_titular": "Eleva Educacional Ltda - ME",
+          "bloqueador_situacao": "Registro de marca em vigor",
+          "bloqueador_especificacao": "Informações sobre educação [instrução] - [Informação em]; Informações sobre educação [instrução]; Organização de exposições para fins culturais ou educativos - [Informação em]; Organização de exposições para fins culturais ou educativos; Serviços de educação - [Informação em]; Serviços de educação; Serviços de ensino - [Informação em]; Serviços de ensino; Serviços de instrução - [Informação em]; Serviços de instrução; serviços de escolas [educação] - [Informação em]; serviços de escolas [educação]; serviços relativos ao cerimonial de eventos - [Informação em]; serviços relativos ao cerimonial de eventos; Serviços de entretenimento - [Informação em]; Serviços de entretenimento; Serviços de divertimento - [Informação em]; Serviços de divertimento",
+          "especificacao_indeferido": "Organização e apresentação de colóquios; Organização e apresentação de congressos; Organização e apresentação de seminários; Organização e apresentação de simpósios; Organização e e condução de fóruns educacionais presenciais; Orientação [treinamento]; Treinamento prático [demonstração]; Serviços educacionais prestados por escolas; Assessoria, consultoria e informação em educação [instrução]; Assessoria, consultoria e informação em treinamento [demonstração][ensino]; Curso técnico de formação; Cursos livres [ensino]",
+          "nota": "Bloqueador 'Plena' (Eleva Educacional) cobre educação, ensino e entretenimento — sobreposição ALTA com specs de treinamento. Para Plenya com spec em atividades esportivas/coaching, o risco é menor mas existe"
+        }
+      ],
+      "analise_specs": {
+        "sobreposicao_entre_julgadas": "NÃO APLICÁVEL — apenas 1 marca julgada com radical plen- na classe 41, e esta é 'splenda CONSULTING' (radical distinto). Não há base para aferir coexistência real de marcas plen- nessa classe.",
+        "coexistencia_real_entre_si": false,
+        "justificativa_coexistencia_real": "Com apenas 1 registro vigente (radical splend-, não plen-), não existe evidência de coexistência entre titulares distintos com radical plen- na classe 41.",
+        "relevancia_bloqueadores": "MODERADA — 'Plena' (912121360, Eleva Educacional) bloqueou pedido com specs em educação/treinamento. Para Plenya com spec restrita a atividades de bem-estar esportivo (não ensino formal), o risco é menor. Para spec ampla em 'serviços de educação', o bloqueio seria provável.",
+        "bloqueador_critico_classe_41": {
+          "processo": "912121360",
+          "nome": "Plena",
+          "titular": "Eleva Educacional Ltda - ME",
+          "situacao": "Registro de marca em vigor",
+          "nivel_risco": "MODERADO",
+          "justificativa": "Spec focada em educação formal (escolas, instrução, ensino). Plenya com spec em atividade física/coaching/bem-estar não necessariamente colidirá, desde que a spec seja cuidadosamente delimitada."
+        }
+      },
+      "parecer_desgaste": "INCONCLUSIVO",
+      "justificativa_parecer": "Base insuficiente de marcas plen- julgadas e concedidas na classe 41. O único registro vigente tem radical diferente (splend-). Há indeferimentos, mas sem confirmação de registro concedido com plen- nessa classe, não há prova de que o INPI aceita coexistência.",
+      "impacto_para_plenya": {
+        "nivel_risco": "MODERADO",
+        "janela_possivel": "Spec focada em atividade física, coaching esportivo e eventos de bem-estar — distante de 'serviços de educação' que é o core do bloqueador Plena/Eleva.",
+        "recomendacao_spec": "Evitar termos como 'serviços de educação', 'serviços de ensino', 'cursos livres'. Preferir 'organização de eventos de bem-estar esportivo', 'coaching de saúde', 'atividades físicas supervisionadas'.",
+        "ameaca_principal": "Plena (912121360, Eleva Educacional) — se spec de Plenya incluir educação/ensino formal"
+      }
+    },
+    {
+      "classe": 42,
+      "descricao_nice": "Serviços científicos e tecnológicos; pesquisa e design; serviços de software",
+      "relevancia_para_plenya": "SECUNDÁRIA — plataforma digital de saúde pode se enquadrar, mas não é o core do negócio",
+      "marcas_julgadas": [
+        {
+          "processo": "824107268",
+          "nome": "PLENART",
+          "titular": "PLENART LOCAÇÃO DE EQUIPAMENTOS LTDA",
+          "classe": 42,
+          "situacao": "Registro de marca em vigor",
+          "especificacao_completa": "Restaurantes (alimentação e bebidas); alojamento temporário; cuidados médicos, higiênicos e de beleza; serviços veterinários e de agricultura; serviços jurídicos; pesquisa científica e industrial; programação para computadores; serviços que não podem ser incluídos em outras classes.",
+          "nota": "Radical 'plenar-', não plen- stricto sensu. Registro antigo (processo 824...) com spec muito ampla e genérica — formatação da classificação Nice anterior à versão atual. Titular é empresa de locação de equipamentos. Relevância baixa para análise de coexistência direta com Plenya."
+        }
+      ],
+      "titulares_distintos_julgados": 1,
+      "marcas_em_processo": [
+        {
+          "processo": "940390132",
+          "nome": "Plenna.psi",
+          "titular": "PLENNA SOFTWARE E TECNOLOGIA LTDA",
+          "classe": 42,
+          "situacao": "Aguardando exame de mérito"
+        },
+        {
+          "processo": "940389827",
+          "nome": "Plenna.ia",
+          "titular": "PLENNA SOFTWARE E TECNOLOGIA LTDA",
+          "classe": 42,
+          "situacao": "Aguardando exame de mérito"
+        }
+      ],
+      "marcas_indeferidas": [],
+      "analise_specs": {
+        "sobreposicao_entre_julgadas": "NÃO APLICÁVEL — apenas 1 registro vigente de radical similar (plenar-). Sem base para análise de coexistência.",
+        "coexistencia_real_entre_si": false,
+        "justificativa_coexistencia_real": "Um único registro não demonstra coexistência. PLENART tem spec antiga e ampla, radical diferente (plenar-), e atuação em locação de equipamentos — nicho sem sobreposição com software/plataforma digital de saúde.",
+        "relevancia_bloqueadores": "BAIXA — nenhum indeferimento mapeado na classe 42 para o radical plen-. Campo relativamente aberto, mas com dois pedidos em processo do mesmo titular (Plenna Software), o que indica que o mercado percebe esse campo.",
+        "bloqueador_critico_classe_42": null
+      },
+      "parecer_desgaste": "INCONCLUSIVO",
+      "justificativa_parecer": "Base insuficiente. PLENART é registro de radical e nicho distintos. Nenhum indeferimento registrado. Dois pedidos em processo do mesmo titular são pipeline, não prova. O INPI ainda não julgou pedidos plen- nessa classe no contexto atual.",
+      "impacto_para_plenya": {
+        "nivel_risco": "BAIXO a MODERADO",
+        "janela_possivel": "Classe 42 aparenta ter campo mais aberto para plen-. Oportunidade para registrar plataforma digital de saúde/bem-estar com spec tecnológica específica.",
+        "recomendacao_spec": "Focar em 'desenvolvimento de software para gestão de saúde', 'plataforma digital de bem-estar', 'serviços de SaaS para clínicas' — spec técnica, não clínica.",
+        "ameaca_principal": "Nenhuma ameaça crítica identificada na base atual. Monitorar resultado dos pedidos 940390132 e 940389827 (Plenna Software)."
+      }
+    },
+    {
+      "classe": 35,
+      "descricao_nice": "Publicidade, gestão de negócios, administração de negócios, funções de escritório",
+      "relevancia_para_plenya": "RELEVANTE — gestão de negócios, franquias, comercialização de produtos de saúde/nutrição",
+      "marcas_julgadas": [
+        {
+          "processo": "921025912",
+          "nome": "Plenna Alimentação Saudável",
+          "titular": "SOLANGE SCHERER",
+          "classe": 35,
+          "situacao": "Registro de marca em vigor",
+          "especificacao_completa": "Comércio [através de qualquer meio] de produtos alimentícios [aves e ovos];Comércio [através de qualquer meio] de produtos alimentícios [biscoitos];Comércio [através de qualquer meio] de produtos alimentícios [bolos];Comércio [através de qualquer meio] de produtos alimentícios [carnes vermelhas];Comércio [através de qualquer meio] de produtos alimentícios [cereais];Comércio [através de qualquer meio] de produtos alimentícios [chocolates];Comércio [através de qualquer meio] de produtos alimentícios [doces];Comércio [através de qualquer meio] de produtos alimentícios [frutas, verduras e legumes];Comércio [através de qualquer meio] de produtos alimentícios [grãos];Comércio [através de qualquer meio] de produtos alimentícios [laticínios];Comércio [através de qualquer meio] de produtos alimentícios [massas];Comércio [através de qualquer meio] de produtos alimentícios [pães];Comércio [através de qualquer meio] de produtos alimentícios [peixes];Comércio [através de qualquer meio] de produtos alimentícios [refeições congeladas];Comércio [através de qualquer meio] de produtos alimentícios [salgadinhos];Comércio [através de qualquer meio] de produtos alimentícios [sanduíches];Comércio [através de qualquer meio] de produtos alimentícios [sorvetes];Comércio [através de qualquer meio] de produtos alimentícios [sucos];Franchising [sistema pelo qual empresa detentora de uma marca registrada, processo patenteado de produção ou direitos similares concede a outras empresas licença de utilização dessas marcas ou processos, sob certas condições — administração de negócios]"
+        },
+        {
+          "processo": "921333790",
+          "nome": "Plenna Comunicação",
+          "titular": "PLENNA PUBLICIDADE E MARKETING LTDA-ME",
+          "classe": 35,
+          "situacao": "Registro de marca em vigor",
+          "especificacao_completa": "Aluguel de espaço publicitário;Aluguel de tempo de publicidade em meios de comunicação;Anúncio;Apresentação de produtos em meios de comunicação para fins de comércio varejista;Assessoria, consultoria e informações sobre marketing;Comerciais de rádio;Comerciais de televisão;Concepção de material publicitário;Consultoria referente a estratégias de comunicação em publicidade;Desenvolvimento de conceitos de campanha publicitária;Marketing;Pesquisa de marketing;Propaganda;Serviços de agências de propaganda;Serviços de agências de publicidade;Serviços de comunicação corporativa;Serviços de layout para fins publicitários"
+        },
+        {
+          "processo": "825607604",
+          "nome": "PLENNA",
+          "titular": "PLENNA ESPECIALIDADES LTDA",
+          "classe": 35,
+          "situacao": "Registro de marca em vigor",
+          "especificacao_completa": "Propaganda; gestão de negócios; administração de negócios; funções de escritório."
+        },
+        {
+          "processo": "921871422",
+          "nome": "SPLENDA",
+          "titular": "AMERISUL PLÁSTICOS TÉCNICOS LTDA ME",
+          "classe": 35,
+          "situacao": "Registro de marca em vigor",
+          "especificacao_completa": "Propaganda; gestão de negócios; administração de negócios; funções de escritório.",
+          "nota": "Radical splend-, não plen-. Titular em setor de plásticos técnicos. Relevância reduzida para análise plen-"
+        }
+      ],
+      "titulares_distintos_julgados": 4,
+      "marcas_em_processo": [
+        {
+          "processo": "942537050",
+          "nome": "Plenna store",
+          "titular": "JANAINA KNIESS FELDHAUSEN LEMBECK",
+          "classe": 35,
+          "situacao": "Aguardando prazo de apresentação de oposição"
+        },
+        {
+          "processo": "936079240",
+          "nome": "PLENNA DERMOCOSMÉTICOS",
+          "titular": "KELLY DE CASSIA FORMIGONI DAL COLETO",
+          "classe": 35,
+          "situacao": "Aguardando exame de mérito"
+        },
+        {
+          "processo": "938361708",
+          "nome": "Plenna",
+          "titular": "MIX MAT COMÉRCIO ATACADISTA LTDA",
+          "classe": 35,
+          "situacao": "Aguardando exame de mérito"
+        },
+        {
+          "processo": "939215055",
+          "nome": "PLENAX CONTABIL",
+          "titular": "JAQUELINE DO CARMO SILVA COSTA",
+          "classe": 35,
+          "situacao": "Aguardando exame de mérito"
+        },
+        {
+          "processo": "936214686",
+          "nome": "PLENAR SERVIÇOS TERCEIRIZADOS",
+          "titular": "PLENAR SERVICOS LTDA",
+          "classe": 35,
+          "situacao": "Aguardando exame de mérito"
+        },
+        {
+          "processo": "941139875",
+          "nome": "SPLENDA",
+          "titular": "DALTON DE ASSIS MELO",
+          "classe": 35,
+          "situacao": "Aguardando exame de mérito"
+        }
+      ],
+      "marcas_indeferidas": [
+        {
+          "processo": "906938236",
+          "nome": "PLENNA Contabilidade e Consultorias",
+          "titular": "PLENNA GESTÃO DE NEGOCIOS LTDA",
+          "resultado": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "821800728",
+          "bloqueador_nome": "PLENA CONTABILIDADE E ASSESSORIA",
+          "bloqueador_titular": "PLENA CONSULTORIA CONTABILIDADE E SISTEMA S/C LTDA",
+          "bloqueador_situacao": "Registro de marca extinto",
+          "bloqueador_especificacao": "Propaganda; gestão de negócios; administração de negócios; funções de escritório.",
+          "especificacao_indeferido": "Assessoria em gestão de negócios; Gestão (Consultoria em -) de negócios; Negócios (Consultoria em gestão e organização de -); Apoio administrativo e secretariado; Assessoria, consultoria e informação em contabilidade; Assessoria, consultoria e informação empresarial; Organização e administração de empresa.",
+          "nota": "Bloqueador (821800728) está EXTINTO — já não está em vigor. Indeferimento histórico sem bloqueador ativo no mesmo nicho. Reduz o peso deste indeferimento como precedente futuro."
+        },
+        {
+          "processo": "917565339",
+          "nome": "SAÚDE PLENNA AUDIÇÃO E VISÃO",
+          "titular": "OTICAS RCA 19 LTDA",
+          "resultado": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+          "artigo_lpi": "124, VI",
+          "bloqueador_processo": "nao_identificado",
+          "bloqueador_nome": "nao_disponivel",
+          "bloqueador_especificacao": "spec_nao_coletada",
+          "especificacao_indeferido": "Propaganda; gestão de negócios; administração de negócios; funções de escritório.",
+          "nota": "Indeferimento por art. 124, VI (expressão descritiva/genérica), não por colidência. Recurso mantido. Causa: 'SAÚDE PLENNA' considerado descritivo para ótica na classe 35. Não é precedente de colidência plen- vs outra marca"
+        },
+        {
+          "processo": "924926996",
+          "nome": "SAÚDE PLENNA TINITUS OTOSYS",
+          "titular": "OTICAS RCA 19 LTDA",
+          "resultado": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+          "artigo_lpi": "124, VI",
+          "bloqueador_processo": "nao_identificado",
+          "bloqueador_nome": "nao_disponivel",
+          "bloqueador_especificacao": "spec_nao_coletada",
+          "especificacao_indeferido": "Comércio (através de qualquer meio) de aparelhos ópticos [Serviço]; Comércio (através de qualquer meio) de aparelhos auditivos.",
+          "nota": "Mesmo titular e mesmo motivo que 917565339. Indeferimento por caráter descritivo (art. 124, VI), não colidência com marca anterior. Dois recursos mantidos pelo mesmo titular no mesmo nicho de ótica/audição reforçam que 'SAÚDE PLENNA' é considerado descritivo para esse segmento"
+        },
+        {
+          "processo": "902298135",
+          "nome": "plenna comunicação",
+          "titular": "D A MEDINA PUBLICIDADE E PROPAGANDA",
+          "resultado": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "900117451",
+          "bloqueador_nome": "PLENA COMUNICAÇÃO",
+          "bloqueador_titular": "PLENA COMUNICAÇÃO LTDA",
+          "bloqueador_situacao": "Registro de marca extinto",
+          "bloqueador_especificacao": "Agências de propaganda;Agências de publicidade;Espaço publicitário (Aluguel de -);Atualização de material publicitário;Material publicitário (Distribuição de -);Relações públicas;Marketing (Estudos de -);Publicação de textos publicitários;Modelos (Agências de -) para publicidade ou promoção de vendas;Publicidade;Propaganda",
+          "especificacao_indeferido": "Agências de publicidade;Aluguel de tempo de publicidade em meios de comunicação;Publicação de textos publicitários;Publicidade de rádio;Propaganda;Publicidade de televisão;Distribuição de material publicitário;Publicidade externa [letreiros, outdoors];Aluguel de espaço publicitário;Publicidade on-line em rede de computadores;Edição de texto publicitário;Comerciais de rádio;Publicidade;Agências de propaganda;Demonstração de produtos;Anúncio",
+          "nota": "Bloqueador (900117451) está EXTINTO. Indeferimento histórico sem relevância de bloqueador ativo. 'Plenna Comunicação' (921333790) foi registrado pelo INPI posteriormente ao mesmo extinto, confirmando que o campo de comunicação/publicidade está aberto"
+        },
+        {
+          "processo": "900235853",
+          "nome": "PLENNA SOLUÇÃO EM COMUNICAÇÃO",
+          "titular": "BWS MARKETING E PROMOÇÕES LTDA",
+          "resultado": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "900117451",
+          "bloqueador_nome": "PLENA COMUNICAÇÃO",
+          "bloqueador_titular": "PLENA COMUNICAÇÃO LTDA",
+          "bloqueador_situacao": "Registro de marca extinto",
+          "bloqueador_especificacao": "Agências de propaganda;Agências de publicidade;Espaço publicitário (Aluguel de -);Atualização de material publicitário;Material publicitário (Distribuição de -);Relações públicas;Marketing (Estudos de -);Publicação de textos publicitários;Modelos (Agências de -) para publicidade ou promoção de vendas;Publicidade;Propaganda",
+          "especificacao_indeferido": "Pesquisa de marketing;Comerciais de rádio;Publicidade de rádio;Publicidade por catálogos de vendas;Promoção de venda para terceiros [publicidade];Publicidade de televisão;Assessoria, consultoria e informação sobre publicidade através de mala direta;Agências de publicidade;Publicidade por qualquer meio;Agências de propaganda;Aluguel de espaço publicitário;Publicidade externa [letreiros, outdoors];Publicidade on-line em rede de computadores;Assessoria, consultoria e informação em publicidade e propaganda através de qualquer meio;Assessoria promocional, consultoria e informação sobre propaganda;Atualização de material publicitário;Comerciais de televisão;Marketing (Estudos de -);Material publicitário (Atualização de -);Propaganda;Relações públicas;Corretor de publicidade (serviço de -);Assessoria, consultoria e informação em marketing",
+          "nota": "Mesmo bloqueador extinto (900117451). Indeferimento sem peso atual — a extinção do bloqueador e o posterior registro de 'Plenna Comunicação' demonstram que o campo de publicidade está aberto agora"
+        },
+        {
+          "processo": "900389753",
+          "nome": "Plenna,sim comunicação e marketing estratégico",
+          "titular": "INSERÇÃO MARKETING E PLANEJAMENTO LTDA.",
+          "resultado": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+          "artigo_lpi": "124, XIX",
+          "bloqueador_processo": "900117451",
+          "bloqueador_nome": "PLENA COMUNICAÇÃO",
+          "bloqueador_titular": "PLENA COMUNICAÇÃO LTDA",
+          "bloqueador_situacao": "Registro de marca extinto",
+          "bloqueador_especificacao": "Agências de propaganda;Agências de publicidade;Espaço publicitário (Aluguel de -);Atualização de material publicitário;Material publicitário (Distribuição de -);Relações públicas;Marketing (Estudos de -);Publicação de textos publicitários;Modelos (Agências de -) para publicidade ou promoção de vendas;Publicidade;Propaganda",
+          "especificacao_indeferido": "Publicidade de rádio;Publicidade de televisão;Análise de conteúdo de jornais e revistas e preparo de relatório comparando o conteúdo dos diversos veículos de comunicação;Publicidade por qualquer meio;Agências de propaganda;Mala direta (Publicidade por -);Propaganda;Publicidade por catálogos de vendas;Assessoria promocional, consultoria e informação sobre propaganda;Assessoria, consultoria e informação em publicidade e propaganda através de qualquer meio;Agências de publicidade;Externa (Publicidade -) [letreiros, outdoors];Publicidade externa [letreiros, outdoors];Publicidade;Publicidade on-line em rede de computadores",
+          "nota": "Terceiro indeferimento pelo mesmo bloqueador extinto. Padrão histórico superado pelo posterior registro de 'Plenna Comunicação'. Sem impacto atual"
+        }
+      ],
+      "analise_specs": {
+        "sobreposicao_entre_julgadas": "BAIXA a MODERADA — as 3 marcas plen- julgadas na classe 35 têm specs em nichos distintos: (1) Plenna Alimentação Saudável (921025912): comércio de alimentos e franchising — nicho alimentar; (2) Plenna Comunicação (921333790): publicidade e marketing — nicho comunicação; (3) PLENNA (825607604): propaganda, gestão e administração — spec genérica da Nice antiga. Não há sobreposição real de specs entre as três. São marcas em nichos funcionalmente separados dentro da classe 35.",
+        "coexistencia_real_entre_si": false,
+        "justificativa_coexistencia_real": "As três marcas plen- vigentes na classe 35 não coexistem em specs sobrepostas — cada uma opera em nicho distinto (alimentos, publicidade, gestão). Isso confirma que o INPI aceita múltiplas plen- na classe 35 desde que as specs sejam diferenciadas. A coexistência é formal (todos registrados na mesma classe) mas não substancial (specs distintas). Para Plenya, o sinal é positivo: o campo está aberto para nichos específicos.",
+        "relevancia_bloqueadores": "BAIXA — os 3 principais bloqueadores históricos na classe 35 estão EXTINTOS (PLENA CONTABILIDADE: 821800728; PLENA COMUNICAÇÃO: 900117451). Os indeferimentos por art. 124, VI são por caráter descritivo do elemento 'SAÚDE PLENNA' — não colidência de marca. O campo está consideravelmente mais aberto hoje do que na época dos indeferimentos históricos.",
+        "bloqueador_critico_classe_35": null,
+        "observacao": "PLENNA (825607604, Plenna Especialidades Ltda) com spec 'propaganda; gestão de negócios; administração de negócios; funções de escritório' é o único potencial bloqueador ativo com spec genérica de gestão. Qualquer pedido Plenya com spec em gestão de negócios na classe 35 pode colidir com esta marca."
+      },
+      "parecer_desgaste": "FAVORÁVEL (com ressalva)",
+      "justificativa_parecer": "Três titulares distintos com registro concedido com elemento plen- na classe 35 (desconsiderando SPLENDA de radical diferente). Os indeferimentos históricos tiveram bloqueadores que hoje estão extintos, reduzindo o peso desses precedentes. Ressalva: PLENNA (825607604) com spec genérica de gestão pode bloquear pedido Plenya com escopo similar.",
+      "impacto_para_plenya": {
+        "nivel_risco": "BAIXO a MODERADO",
+        "janela_possivel": "Spec focada no nicho específico de Plenya na classe 35 — ex: 'comercialização de produtos de suplementação e nutrição esportiva', 'franchising de clínicas de bem-estar' — diferenciada das specs existentes de PLENNA (825607604, gestão genérica) e Plenna Comunicação (publicidade).",
+        "recomendacao_spec": "Evitar spec genérica 'propaganda; gestão de negócios; administração de negócios' que colide diretamente com PLENNA (825607604). Focar em nicho específico de saúde/nutrição/bem-estar dentro da classe 35.",
+        "ameaca_principal": "PLENNA (825607604, Plenna Especialidades Ltda) — se spec for ampla em gestão de negócios. Risco gerenciável com spec cirúrgica."
+      }
+    }
+  ],
+  "resumo_executivo": {
+    "classes_analisadas": [44, 41, 42, 35],
+    "total_marcas_julgadas_base": {
+      "classe_44": 2,
+      "classe_41": 1,
+      "classe_42": 1,
+      "classe_35": 4
+    },
+    "total_indeferimentos_mapeados": {
+      "classe_44": 8,
+      "classe_41": 2,
+      "classe_42": 0,
+      "classe_35": 6
+    },
+    "bloqueadores_criticos_ativos": [
+      {
+        "processo": "826669220",
+        "nome": "CLÍNICA PLENA",
+        "titular": "CLÍNICA DE UROLOGIA E GINECOLOGIA DE TOLEDO LTDA",
+        "classe_afetada": 44,
+        "situacao": "Registro de marca em vigor",
+        "nivel_risco": "ALTO",
+        "motivo": "Bloqueou 4+ pedidos PLENN- na classe 44, incluindo recurso mantido. Spec em clínicas médicas e serviços de saúde cobre o núcleo da atividade Plenya"
+      },
+      {
+        "processo": "906893399",
+        "nome": "Clínica Plena",
+        "titular": "Clínica De Urologia E Ginecologia De Toledo Ltda",
+        "classe_afetada": 44,
+        "situacao": "Registro de marca em vigor",
+        "nivel_risco": "ALTO",
+        "motivo": "Versão renovada do mesmo titular. Spec expandida cobre centro médico, psicologia, nutrição — sobreposição direta com Plenya"
+      },
+      {
+        "processo": "825607604",
+        "nome": "PLENNA",
+        "titular": "PLENNA ESPECIALIDADES LTDA",
+        "classe_afetada": 35,
+        "situacao": "Registro de marca em vigor",
+        "nivel_risco": "MODERADO",
+        "motivo": "Spec genérica de gestão de negócios pode bloquear pedido Plenya amplo na classe 35"
+      },
+      {
+        "processo": "912121360",
+        "nome": "Plena",
+        "titular": "Eleva Educacional Ltda - ME",
+        "classe_afetada": 41,
+        "situacao": "Registro de marca em vigor",
+        "nivel_risco": "MODERADO",
+        "motivo": "Spec em educação e ensino pode bloquear pedido Plenya com spec em treinamento formal"
+      }
+    ],
+    "bloqueadores_extintos_sem_peso_atual": [
+      {"processo": "821800728", "nome": "PLENA CONTABILIDADE E ASSESSORIA", "classe": 35, "situacao": "Extinto"},
+      {"processo": "900117451", "nome": "PLENA COMUNICAÇÃO", "classe": 35, "situacao": "Extinto"},
+      {"processo": "829543830", "nome": "PLENA", "classe": 5, "situacao": "Extinto"}
+    ],
+    "pareceres_por_classe": {
+      "classe_44": "PARCIAL — 2 registros vigentes em nichos restritos; CLÍNICA PLENA bloqueia serviços médicos genéricos",
+      "classe_41": "INCONCLUSIVO — base insuficiente de marcas plen- julgadas",
+      "classe_42": "INCONCLUSIVO — campo relativamente aberto mas sem precedentes conclusivos",
+      "classe_35": "FAVORÁVEL com ressalva — 3 registros vigentes em nichos distintos; bloqueadores históricos extintos"
+    },
+    "conclusao_geral": "O radical plen-/plenn- convive no INPI em nichos diferenciados, mas a classe 44 (núcleo do negócio Plenya) tem o maior risco: CLÍNICA PLENA está vigente, ativa, e provou bloquear pedidos similares repetidamente, inclusive com recurso mantido. A estratégia viável para Plenya é spec cirúrgica por subnicho específico — evitar qualquer formulação genérica de 'serviços médicos', 'clínicas médicas' ou 'assistência médica' que sobreponha diretamente com CLÍNICA PLENA. A classe 35 é a mais favorável para registro ampliado. A classe 41 exige spec cuidadosa evitando educação formal. A classe 42 apresenta o campo mais aberto."
+  }
+}

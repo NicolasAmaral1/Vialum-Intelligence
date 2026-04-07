@@ -123,6 +123,16 @@ async function processTask(task_id) {
   // 8. Gera documentos via Python
   await generateDocs(task_id, contratoJSON);
 
+  // 8.5. Anexa documentos ao card no ClickUp
+  const generatedFiles = (await fs.readdir(outDir)).filter(f => f.endsWith('.pdf') || f.endsWith('.docx'));
+  for (const file of generatedFiles) {
+    try {
+      await clickup.uploadAttachment(task_id, path.join(outDir, file));
+    } catch (err) {
+      console.warn(`⚠️ Falha ao anexar ${file} no ClickUp: ${err.message}`);
+    }
+  }
+
   // 9. Atualiza status → pending_approval
   await fs.writeFile(
     path.join(outDir, 'status.json'),

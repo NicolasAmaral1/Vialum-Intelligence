@@ -1,0 +1,29 @@
+[
+  {
+    "numero_processo": "829904492",
+    "nome_marca": "NYSE EURONEXT",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "NYSE GROUP, INC.",
+    "classe": 9,
+    "similaridade_pct": 100,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "829904484",
+    "nome_marca": "NYSE EURONEXT",
+    "situacao": "Em exame de mérito",
+    "titular": "NYSE GROUP, INC.",
+    "classe": 9,
+    "similaridade_pct": 100,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "819986461",
+    "nome_marca": "EURONET",
+    "situacao": "Arquivado",
+    "titular": "EURONET COMERCIO LTDA",
+    "classe": 9,
+    "similaridade_pct": 87,
+    "fonte": "classe-9-pagina-1"
+  }
+]

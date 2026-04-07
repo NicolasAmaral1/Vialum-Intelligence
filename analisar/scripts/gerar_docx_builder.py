@@ -369,22 +369,23 @@ def main():
         output = plano_path.parent / f"{marca} - LAUDO DE VIABILIDADE.docx"
         
     # --- ARQUIVAMENTO LOCAL ---
-    # Move todos os arquivos anteriores que comecem com o prefixo da marca e terminem com extensões de saída
+    # Move versões ANTERIORES do LAUDO (pdf/docx) para pasta arquivados.
+    # NÃO arquiva documentos de auditoria (RADAR, CONFRONTO, PLANO DE ANÁLISE).
     arquivados_dir = plano_path.parent / "arquivados"
     prefixo_busca = f"{marca} -"
+    nomes_protegidos = ['RADAR', 'CONFRONTO', 'PLANO DE ANÁLISE', 'PANORAMA']
     extensoes_alvo = ['.docx', '.pdf', '.md']
-    
-    # Busca arquivos que correspondam ao padrão, mas exclui o próprio plano de análise fonte
+
     try:
         if not arquivados_dir.exists():
             arquivados_dir.mkdir(parents=True)
-            
+
         for file_path in plano_path.parent.iterdir():
             if file_path.is_file() and file_path.name.startswith(prefixo_busca):
-                # Não arquivar o próprio plano de análise fonte que estamos lendo agora
                 if file_path.name == plano_path.name:
                     continue
-                # Arquivar laudos antigos (docx/pdf) e metadados antigos
+                if any(p in file_path.name.upper() for p in nomes_protegidos):
+                    continue
                 if any(file_path.name.endswith(ext) for ext in extensoes_alvo):
                     dest_path = arquivados_dir / file_path.name
                     print(f"📦 Arquivando versão local antiga: {file_path.name}")

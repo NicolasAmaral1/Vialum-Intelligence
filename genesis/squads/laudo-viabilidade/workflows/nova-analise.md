@@ -83,7 +83,13 @@ claude -p "@laudo *nova-analise 86XXXXXXX" --dangerously-skip-permissions
 │  FASE 4 ──► laudo-gerar.md                                      │
 │             gerar_laudo_reportlab.py → PDF                       │
 │             gerar_docx_builder.py → DOCX                         │
-│             Upload Google Drive                                  │
+│             Upload Google Drive (automático, versionado)         │
+│             ↓                                                    │
+│         ┌── CHECKPOINT 3 ── Usuário abre documento local ────┐  │
+│         │   "Abra o PDF no computador e confirme"            │  │
+│         │   Aguardar: aprovação explícita                    │  │
+│         └────────────────────────────────────────────────────┘  │
+│             ↓ (só após aprovação)                                │
 │             Comentar no ClickUp + mover para "feito"            │
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
@@ -120,6 +126,8 @@ claude -p "@laudo *nova-analise 86XXXXXXX" --dangerously-skip-permissions
 3. **Erro em qualquer fase** → reportar ao usuário, não abortar silenciosamente
 4. **Scripts Python** → sempre executados a partir da raiz do workspace (`/Users/nicolasamaral/Vialum-Intelligence`)
 5. **HITL é inegociável:** Nenhum documento final é gerado sem aprovação humana
+6. **Drive antes, ClickUp depois:** Google Drive recebe o documento imediatamente (permite revisão). ClickUp só é atualizado APÓS o usuário abrir o documento localmente e aprovar explicitamente.
+7. **Versionamento:** Versões anteriores no Drive vão para pasta "antigos". Nome: 1ª sem número, 2ª em diante com "2 - ", "3 - ", etc.
 6. **Fase 2.5 (busca automática)** → se falhar, cair em fallback manual (fluxo v1) na Fase 3
 7. **Playwright** → requer `pip install playwright && playwright install chromium` na primeira execução
 

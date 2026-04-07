@@ -1,0 +1,29 @@
+[
+  {
+    "numero_processo": "904761380",
+    "nome_marca": "EURONEMA AMBIENTAL",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ADELFO PINTO NETO",
+    "classe": 42,
+    "similaridade_pct": 75,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "917187318",
+    "nome_marca": "PETRONEXT LAB",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PROCUREMENT NEGÓCIOS ELETRÔNICOS S.A",
+    "classe": 42,
+    "similaridade_pct": 72,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "917339347",
+    "nome_marca": "PETRONEXT LAB",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PROCUREMENT NEGÓCIOS ELETRÔNICOS S.A",
+    "classe": 42,
+    "similaridade_pct": 72,
+    "fonte": "classe-42-pagina-1"
+  }
+]

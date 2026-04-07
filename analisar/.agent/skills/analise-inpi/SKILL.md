@@ -1,18 +1,22 @@
-
+---
+name: Narrativa Jurídica de Colidências
+description: Fase 3 — gera a PARTE 2 do laudo com narrativa jurídica focada APENAS nas colidências reais identificadas pelo Radar + Confronto de Especificações
 ---
 
-## name: Análise de Colidências INPI
-description: Analisa marcas anterioridades do INPI e gera vereditos narrativos com análise de coexistência e estratégias de mitigação seguindo templates jurídicos estritos
-
-# SKILL: Análise de Colidências INPI (V6 - Padrão Gemini Flash)
+# SKILL: Narrativa Jurídica de Colidências (V7 - Funil de 3 Fases)
 
 ## Propósito
 
-Você é um **especialista em Propriedade Intelectual e Direito Marcário**. Esta SKILL processa o JSON gerado a partir do `inpi-raw.txt` e gera a **PARTE 2** do Laudo de Viabilidade. O foco mudou de tópicos pontuais para uma **análise narrativa e contextual**, focada em precedentes e coexistência.
+Você é um **especialista em Propriedade Intelectual e Direito Marcário**. Esta SKILL é a **Fase 3** do funil de análise. Ela recebe APENAS as marcas que sobreviveram ao Radar (Fase 1) e ao Confronto de Especificações (Fase 2) e gera a **PARTE 2** do Laudo de Viabilidade em formato de narrativa jurídica.
+
+### ⚠️ DIFERENÇA FUNDAMENTAL DA V6
+Na versão anterior, esta SKILL analisava TODAS as marcas do JSON. Agora ela analisa **APENAS as candidatas com risco real** — as que passaram pelo Radar E tiveram sobreposição de especificações confirmada no Confronto. Isso significa menos marcas, mas análise muito mais profunda e focada.
 
 ## Input
 
-* `cases/[Cliente]/[Marca]/inpi-raw-processed.json`
+* `cases/[Cliente]/[Marca]/[Marca] - RADAR.md` — Triagem com candidatas identificadas
+* `cases/[Cliente]/[Marca]/[Marca] - CONFRONTO.md` — Mapa de sobreposição de specs
+* `cases/[Cliente]/[Marca]/inpi-raw-processed.json` — JSON para dados complementares (despachos, publicações)
 * `[Marca] - PLANO DE ANÁLISE.md` (Parte 1 já existente)
 
 
@@ -117,12 +121,19 @@ Feche a análise com um parágrafo que:
 ## Execução Passo a Passo
 
 
-1. **Leia o JSON Integralmente**: Localize os maiores riscos, leia absolutamente todas as especificações e identifique se há notas de indeferimentos ou recursos ("jurisprudência").
-2. **Avalie a "Densidade" Marcária**: O termo é comum na base? Dezenas de pessoas o possuem?
-3. **Planeje em Lotes**: Se houverem muitos retornos, anuncie ao sistema que você fará a análise em lotes de 5 processos por vez para garantir densidade técnica absoluta.
-4. **Redija a Análise INLINE**: Para **cada** marca (nome, proc, titular e especificação completa), elabore um parágrafo argumentativo sobre a possibilidade de convivência ou o grau de periculosidade. (NÃO USE LISTAS).
-5. **Estipule o Escudo Visual**: Dedique espaço na conclusão para definir o limite criativo do logo do cliente baseando-se no que os dominantes da base INPI já usam, pedindo distância estilística.
-6. **Veredito Perfeito**: Conclua de forma contínua com seu veredito, reforçando a estratégia.
-7. **Append**: Insira todo esse conteúdo gerado na PARTE 2 do documento `.md` (onde havia o placeholder "AGUARDANDO PROCESSAMENTO").
+1. **Leia o RADAR.md e CONFRONTO.md**: Identifique APENAS as marcas com risco real (candidatas com sobreposição de especificações confirmada). Marcas neutralizadas no confronto NÃO entram na narrativa.
+2. **Leia o JSON para dados complementares**: Para cada marca com risco real, consulte o JSON para extrair despachos, publicações, indeferimentos, recursos — tudo que possa servir como precedente jurídico.
+3. **Avalie a "Densidade" Marcária**: Use os dados do RADAR.md (total de marcas vs candidatas) para fundamentar a tese de marca fraca/diluída.
+4. **Incorpore o Confronto de Especificações**: Cada parágrafo de análise DEVE referenciar as especificações confrontadas — quais se sobrepõem, quais não, e por que a coexistência é viável ou não. Use os dados do CONFRONTO.md.
+5. **Redija a Análise INLINE**: Para **cada** marca com risco real (nome, proc, titular e especificação completa), elabore um parágrafo argumentativo. (NÃO USE LISTAS).
+6. **Referencie o Território Seguro**: Na conclusão, cite as especificações que sobreviveram ao confronto como fundamentação da viabilidade.
+7. **Estipule o Escudo Visual**: Dedique espaço na conclusão para definir o limite criativo do logo do cliente.
+8. **Veredito com Specs**: Conclua com o veredito E as especificações recomendadas finais (do CONFRONTO.md).
+9. **Append**: Insira todo esse conteúdo na PARTE 2 do `.md` (onde havia o placeholder "AGUARDANDO PROCESSAMENTO").
+
+### ⚠️ AUDITABILIDADE NA NARRATIVA
+- Mencione quantas marcas foram encontradas no total, quantas passaram o Radar, e quantas sobreviveram ao Confronto
+- Isso demonstra ao leitor que o universo completo foi avaliado, mesmo que a narrativa foque nas ameaças reais
+- Exemplo: "Dentre as [N] marcas identificadas na base do INPI, [X] apresentaram similaridade suficiente para análise aprofundada, das quais [Y] revelaram sobreposição efetiva de especificações com o território pretendido pelo requerente."
 
 

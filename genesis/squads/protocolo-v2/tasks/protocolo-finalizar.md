@@ -86,6 +86,23 @@ SE a atualização falhar:
 
 ---
 
+### Passo 3.5: Atribuir card ao responsável
+
+Após mover o card, atribuir como dono da task o **Luan Mendes** (ClickUp user ID: `224517211`).
+
+Usar a API ClickUp para adicionar o assignee:
+
+```
+POST /api/v2/task/{task_id}/assignee
+Body: {"assignees": {"add": [224517211]}}
+```
+
+SE a atribuição falhar:
+- Registrar o erro
+- Não é bloqueante — os documentos já foram entregues
+
+---
+
 ### Passo 4: Registrar conclusão na sessão
 
 ```json
@@ -95,6 +112,7 @@ SE a atualização falhar:
   "upload_clickup_procuracao": true,
   "comentario_adicionado": true,
   "status_atualizado": "pagamento & assinatura",
+  "assignee_atribuido": "Luan Mendes (224517211)",
   "processamento_concluido": true,
   "timestamp": "{data e hora}"
 }
@@ -137,6 +155,7 @@ SE a atualização falhar:
 📎 Procuracao_{sfx}.pdf → anexado ao card ClickUp
 💬 Comentário publicado no card
 🔄 Card movido: "contrato + proc" → "pagamento & assinatura"
+👤 Atribuído a: Luan Mendes
 ☁️  Google Drive: {status}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

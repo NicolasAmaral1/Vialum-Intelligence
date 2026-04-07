@@ -1,0 +1,29 @@
+{
+  "nivel_1_candidatas": ["829904484", "829904506", "829904476", "829904492"],
+  "nivel_2_zona_atencao": ["824191935", "819986461", "200022970"],
+  "nivel_3_descartadas": ["904761380", "917187318", "917339347", "927139570", "840079770"],
+  "precedentes_nivel_1": ["829904506", "829904476", "829904492"],
+  "precedentes_nivel_2": ["824191935", "819986461", "200022970"],
+  "precedentes_nivel_3": ["927139570", "840079770"],
+  "estatisticas": {
+    "bucket_a_total": 4,
+    "bucket_b_total": 0,
+    "bucket_c_total": 8,
+    "nivel_1_vivas": 1,
+    "nivel_2_vivas": 0,
+    "nivel_3_vivas": 3,
+    "nivel_1_precedentes": 3,
+    "nivel_2_precedentes": 3,
+    "nivel_3_precedentes": 2
+  },
+  "notas": [
+    "NYSE EURONEXT (829904484) está EM EXAME na classe 9 — titular NYSE GROUP, INC. (bolsa de valores). Fator de risco dominante.",
+    "3 pedidos NYSE EURONEXT (classes 9, 35) foram arquivados definitivamente — possível abandono pelo titular.",
+    "EURONET (3 registros) todos extintos/arquivados — precedente de convivência do radical 'euro+net'.",
+    "Volume total muito baixo (12 marcas) — campo relativamente livre."
+  ],
+  "gerado_em": "2026-03-31T15:55:00Z",
+  "modelo": "peneira-manual",
+  "marca_analisada": "EURONEXT",
+  "classes": [42, 35, 9]
+}

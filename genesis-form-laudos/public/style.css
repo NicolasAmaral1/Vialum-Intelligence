@@ -364,18 +364,52 @@ textarea {
 }
 
 .auth-main {
-    width: min(1080px, 100%);
+    width: 100%;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 4rem 5%;
+    padding: 0 8%;
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 2rem;
+    grid-template-columns: 1fr 480px;
+    gap: 10rem;
     align-items: center;
     min-height: 100vh;
 }
 
+.auth-hero .page-title {
+    font-size: clamp(2.8rem, 5vw, 4rem);
+    margin-bottom: 1.5rem;
+    line-height: 1.05;
+}
+
+.auth-hero .page-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 440px;
+}
+
 .auth-card {
     width: 100%;
+    padding: 3.5rem;
+}
+
+.auth-card .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.auth-card .form-group {
+    margin-bottom: 2rem;
+}
+
+.auth-card input {
+    padding: 1.25rem 1.5rem;
+    font-size: 1.05rem;
+}
+
+.auth-card .btn-primary {
+    padding: 1.25rem 2rem;
+    font-size: 1.1rem;
+    margin-top: 2rem;
 }
 
 .admin-layout {

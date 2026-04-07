@@ -99,9 +99,40 @@ async def buscar_protocolo_individual(
                     await link.click()
                     await page.wait_for_load_state("networkidle")
                     await asyncio.sleep(delay_base)
-                    page_text = await page.evaluate("() => document.body.innerText")
 
-                # 7. Limpar header do site
+                # 7. CRÍTICO: Expandir especificações ocultas
+                # O INPI esconde o texto completo em divs com id="especificacaoN"
+                # (visibility:hidden). Os links truncados mostram "..." no final.
+                # Solução: extrair innerHTML dos divs ocultos e substituir no DOM.
+                await page.evaluate("""() => {
+                    // Método 1: Links com onmouseover showMe
+                    const links = document.querySelectorAll('a[onmouseover*="showMe"]');
+                    for (const a of links) {
+                        const onmouse = a.getAttribute('onmouseover') || '';
+                        const match = onmouse.match(/showMe\\(['"](.+?)['"]\\)/);
+                        if (!match) continue;
+                        const div = document.getElementById(match[1]);
+                        if (!div) continue;
+                        const temp = document.createElement('div');
+                        temp.innerHTML = div.innerHTML;
+                        let fullText = temp.innerText.trim();
+                        fullText = fullText.replace(/^\\s*Especificação\\s*/i, '').trim();
+                        if (fullText && fullText.length > 5) {
+                            a.innerText = fullText;
+                        }
+                    }
+                    // Método 2: Divs ocultos com id contendo "especificacao"
+                    const hiddenDivs = document.querySelectorAll('div[id*="especificacao"], div[id*="Especificacao"]');
+                    for (const div of hiddenDivs) {
+                        div.style.display = 'block';
+                        div.style.visibility = 'visible';
+                    }
+                }""")
+                await asyncio.sleep(0.5)
+
+                page_text = await page.evaluate("() => document.body.innerText")
+
+                # 8. Limpar header do site
                 clean_text = page_text.strip()
                 header_end = re.search(
                     r"(?:Consulta à Base de Dados do INPI|Início \| Ajuda)",

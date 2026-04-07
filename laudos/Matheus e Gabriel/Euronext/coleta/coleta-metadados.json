@@ -1,0 +1,38 @@
+{
+  "marca": "EURONEXT",
+  "classes": [
+    42,
+    35,
+    9
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "similaridade_minima": 20,
+  "max_paginas": 10,
+  "por_classe": {
+    "42": {
+      "encontradas": 3
+    },
+    "35": {
+      "encontradas": 7
+    },
+    "9": {
+      "encontradas": 3
+    }
+  },
+  "busca_geral": {
+    "encontradas": 0,
+    "novas_unicas": 0
+  },
+  "total_coletadas": 13,
+  "total_unicas": 12,
+  "buckets": {
+    "A": 4,
+    "B": 0,
+    "C": 8
+  },
+  "sucesso": true,
+  "erro": null,
+  "inicio": "2026-03-31T15:54:32.197461+00:00",
+  "fim": "2026-03-31T15:55:11.041398+00:00",
+  "duracao_segundos": 38.8
+}

@@ -1,0 +1,154 @@
+{
+  "826397921": {
+    "nome_marca": "ZIGGURAT",
+    "classe": 42,
+    "situacao": "Arquivado",
+    "titular": "MARIA DAS GRAÇAS FERREIRA",
+    "similaridade_pct": 75,
+    "bucket": "C",
+    "fonte": "classe-42-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236105+00:00"
+  },
+  "819646709": {
+    "nome_marca": "ZIGGURAT",
+    "classe": 7,
+    "situacao": "Arquivado",
+    "titular": "TDA LOGÍSTICA E TRANSPORTES LTDA",
+    "similaridade_pct": 75,
+    "bucket": "C",
+    "fonte": "classe-9-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236448+00:00"
+  },
+  "826078923": {
+    "nome_marca": "ZIGURAT",
+    "classe": 35,
+    "situacao": "Registro de marca extinto",
+    "titular": "ZIGURAT CONFECÇÕES LTDA-ME",
+    "similaridade_pct": 71,
+    "bucket": "C",
+    "fonte": "classe-35-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236450+00:00"
+  },
+  "911761500": {
+    "nome_marca": "ZIGURAT DENIM",
+    "classe": 35,
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "similaridade_pct": 71,
+    "bucket": "A",
+    "fonte": "classe-35-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236453+00:00",
+    "especificacao_completa": "Comércio (através de qualquer meio) de artigos de joalheria; Comércio (através de qualquer meio) de artigos de relojoaria; Comércio (através de qualquer meio) de artigos do vestuário; Comércio (através de qualquer meio) de bijuteria; Comércio (através de qualquer meio) de roupas",
+    "natureza": "De Serviço",
+    "apresentacao": "Mista",
+    "specs_coletado_em": "2026-03-31T18:34:12.732322+00:00"
+  },
+  "934651108": {
+    "nome_marca": "ZIGURAT DENIM",
+    "classe": 35,
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "similaridade_pct": 71,
+    "bucket": "A",
+    "fonte": "classe-35-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236454+00:00",
+    "especificacao_completa": "Administração comercial;Administração comercial de shopping center;Administração de empresa;Assessoria, consultoria e informação em promoção de vendas;Comércio [através de qualquer meio] de artigos de cama, mesa e banho;Comércio [através de qualquer meio] de artigos do vestuário;Comércio [através de qualquer meio] de artigos para ginástica;Comércio [através de qualquer meio] de artigos para prática de esportes;Comércio [através de qualquer meio] de calçados;Comércio [através de qualquer meio] de imitações de couro;Comércio [através de qualquer meio] de matérias têxteis fibrosas em bruto;Comércio [através de qualquer meio] de roupas;Comércio [através de qualquer meio] de tecidos;Comércio on-line, no varejo, de vestuário virtual baixável;Processamento administrativo de pedidos de compra;Promoção de vendas para terceiros;Prospecção de venda para terceiros;Publicidade por catálogos de vendas;Serviços de compras para terceiros [compra de produtos e serviços para outras empresas]",
+    "natureza": "Produtos e/ou Serviço",
+    "apresentacao": "Mista",
+    "specs_coletado_em": "2026-03-31T18:34:18.740821+00:00"
+  },
+  "909556040": {
+    "nome_marca": "ZIGURAT",
+    "classe": 41,
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONSULTORIA DE FORMACIÓN TÉCNICA, S.L.",
+    "similaridade_pct": 71,
+    "bucket": "A",
+    "fonte": "classe-41-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236456+00:00",
+    "especificacao_completa": "Assessoria, consultoria e informação em treinamento [demonstração][ensino]; Assessoria, consultoria e informação ensino; Curso técnico de formação; Cursos livres [ensino]; Serviços de instrução",
+    "natureza": "De Serviço",
+    "apresentacao": "Mista",
+    "specs_coletado_em": "2026-03-31T18:36:05.459373+00:00"
+  },
+  "909019100": {
+    "nome_marca": "-",
+    "classe": 36,
+    "situacao": "Pedido considerado inexistente",
+    "titular": "wellington lima da silva",
+    "similaridade_pct": 99,
+    "bucket": "C",
+    "fonte": "geral-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236458+00:00"
+  },
+  "917963407": {
+    "nome_marca": "ZIGGER",
+    "classe": 25,
+    "situacao": "Registro de marca em vigor",
+    "titular": "DENNER CÉZAR PIRES",
+    "similaridade_pct": 99,
+    "bucket": "A",
+    "fonte": "geral-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236459+00:00"
+  },
+  "909480931": {
+    "nome_marca": "WIENINGER BIER MIT REINEM QUELLWASSER WÜRZIG GEBRANT SEIT 1666",
+    "classe": 43,
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "BIER & TRADION COMERCIO LTDA",
+    "similaridade_pct": 75,
+    "bucket": "C",
+    "fonte": "geral-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236461+00:00"
+  },
+  "911761284": {
+    "nome_marca": "ZIGURAT DENIM",
+    "classe": 25,
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "similaridade_pct": 71,
+    "bucket": "A",
+    "fonte": "geral-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236463+00:00"
+  },
+  "927817624": {
+    "nome_marca": "ZIGURAT",
+    "classe": 5,
+    "situacao": "Registro de marca em vigor",
+    "titular": "INQUIMA LTDA",
+    "similaridade_pct": 71,
+    "bucket": "A",
+    "fonte": "geral-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236464+00:00"
+  },
+  "825273617": {
+    "nome_marca": "ZIGURAT",
+    "classe": 25,
+    "situacao": "Registro de marca extinto",
+    "titular": "ZIGURAT CONFECÇÕES LTDA-ME",
+    "similaridade_pct": 71,
+    "bucket": "C",
+    "fonte": "geral-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236465+00:00"
+  },
+  "926581198": {
+    "nome_marca": "ZIGURAT",
+    "classe": 5,
+    "situacao": "Registro de marca em vigor",
+    "titular": "INQUIMA LTDA",
+    "similaridade_pct": 71,
+    "bucket": "A",
+    "fonte": "geral-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236467+00:00"
+  },
+  "934650586": {
+    "nome_marca": "ZIGURAT DENIM",
+    "classe": 25,
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "similaridade_pct": 71,
+    "bucket": "A",
+    "fonte": "geral-pagina-1",
+    "coletado_em": "2026-03-31T18:09:48.236468+00:00"
+  }
+}

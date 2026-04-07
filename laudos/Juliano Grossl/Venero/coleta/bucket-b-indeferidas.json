@@ -1,0 +1,112 @@
+[
+  {
+    "numero_processo": "925085154",
+    "nome_marca": "venere",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "YASMIN",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.786990+00:00"
+  },
+  {
+    "numero_processo": "924740710",
+    "nome_marca": "DOCE VENENO",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "KBS INDÚSTRIA E COM. DE CONFECÇÕES LTDA",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.786999+00:00"
+  },
+  {
+    "numero_processo": "921917767",
+    "nome_marca": "vènere",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "MONARA FABRES SCHIAVO 13202749781",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.787001+00:00"
+  },
+  {
+    "numero_processo": "921732562",
+    "nome_marca": "Mina Veneno Lingerie",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "EGLLYS EMMELLYS MARIA DA SILVA",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.787002+00:00"
+  },
+  {
+    "numero_processo": "920566456",
+    "nome_marca": "CAMALEÃO MODA SEM GÊNERO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SANTINA FERREIRA RODRIGUES EIRELI",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.787007+00:00"
+  },
+  {
+    "numero_processo": "917613309",
+    "nome_marca": "VENERE",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "LOZEMAR CONFECÇÕES LTDA.",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.787017+00:00"
+  },
+  {
+    "numero_processo": "914134337",
+    "nome_marca": "Vêneto Birrificio",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "SHANADU INDUSTRIA E COMERCIO DE BEBIDAS LTDA - ME",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.787032+00:00"
+  },
+  {
+    "numero_processo": "840573170",
+    "nome_marca": "GAROTA VENENO",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "Prissilla Laiz Guimarães do Nascimento",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.787043+00:00"
+  },
+  {
+    "numero_processo": "905516915",
+    "nome_marca": "SUAVE VENENO",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ARILDO PASTI DE OLIVEIRA",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.787044+00:00"
+  },
+  {
+    "numero_processo": "921373759",
+    "nome_marca": "VELERO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "PAULO MATHEUS GIRÃO DE ANDRADE",
+    "classe": 25,
+    "similaridade_pct": 99,
+    "fonte": "classe-25-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-03-31T18:23:45.787053+00:00"
+  }
+]

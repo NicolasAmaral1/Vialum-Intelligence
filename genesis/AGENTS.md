@@ -79,6 +79,7 @@ Interprete os atalhos abaixo carregando o arquivo correspondente em `.aios-core/
 
 <!-- Squad laudo-viabilidade — Análise de Viabilidade de Marcas (INPI/PI) -->
 * `@laudo`, `/laudo`, `/laudo.md` -> `squads/laudo-viabilidade/agents/laudo.md`
+* `@laudo-v3`, `/laudo-v3`, `/laudo-v3.md` -> `squads/laudo-viabilidade/agents/laudo-v3.md`
   <!-- AIOS-MANAGED-END: shortcuts -->
 
 

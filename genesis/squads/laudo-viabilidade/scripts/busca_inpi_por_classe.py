@@ -2,15 +2,19 @@
 """
 Busca no INPI por classe NCL via Playwright.
 
-Faz uma busca fuzzy (radical) para cada classe aprovada, separadamente.
-Percorre TODAS as paginas de resultados, devagar.
+Usa a Pesquisa Avançada com análise por similaridade (fuzzy) para cada classe
+aprovada, separadamente, e também executa busca geral (sem classe) para
+capturar anterioridades em classes adjacentes.
+
+Busca detalhada dos protocolos usa 4 browsers paralelos para performance
+sem rate limit, com relogin entre cada busca.
 
 Estrutura do INPI:
 - Login: /pePI/servlet/LoginController?action=login
-- Form: /pePI/jsp/marcas/Pesquisa_classe_basica.jsp
+- Form Avançado: /pePI/jsp/marcas/Pesquisa_classe_avancada.jsp
+  - input[name="precisao"][value="sim"] = análise por similaridade (fuzzy)
   - input[name="marca"] = nome
-  - input[name="classeInter"] = numero da classe NCL
-  - input[name="buscaExata"][value="nao"] = radical/fuzzy
+  - input[name="classeInter"] = numero da classe NCL (vazio = todas)
   - select[name="registerPerPage"] = 100
 - Paginacao: /pePI/servlet/MarcasServletController?Action=nextPageMarca&page=N
 - Detalhe: /pePI/servlet/MarcasServletController?Action=detail&CodPedido=XXXXX
@@ -40,35 +44,50 @@ def log(msg: str):
 async def buscar_fuzzy_classe(
     page,
     nome_marca: str,
-    classe: int,
+    classe: Optional[int] = None,
     delay_pagina: float = 5.0,
 ) -> List[str]:
     """
-    Busca fuzzy por uma classe especifica.
+    Busca por similaridade (fuzzy) na Pesquisa Avançada do INPI.
+    Se classe=None, busca em TODAS as classes.
     Retorna lista de textos de todas as paginas.
     """
-    log(f"  Buscando '{nome_marca}' na classe {classe}...")
+    label = f"classe {classe}" if classe else "todas as classes"
+    log(f"  Buscando '{nome_marca}' em {label} (Pesquisa Avançada — similaridade)...")
 
-    # Ir pro formulario
+    # Ir pro formulario avançado
     await page.goto(
-        "https://busca.inpi.gov.br/pePI/jsp/marcas/Pesquisa_classe_basica.jsp",
+        "https://busca.inpi.gov.br/pePI/jsp/marcas/Pesquisa_classe_avancada.jsp",
         wait_until="networkidle",
     )
     await asyncio.sleep(2)
 
-    # Preencher
-    await page.locator('input[name="buscaExata"][value="nao"]').click()
+    # Selecionar análise por similaridade (Fuzzy)
+    await page.locator('input[name="precisao"][value="sim"]').click()
+    # Preencher marca
     await page.locator('input[name="marca"]').fill(nome_marca)
-    await page.locator('input[name="classeInter"]').fill(str(classe))
+    # Classe (se especificada)
+    if classe:
+        await page.locator('input[name="classeInter"]').fill(str(classe))
+    # 100 resultados por pagina
     await page.locator('select[name="registerPerPage"]').select_option("100")
 
-    # Submeter
-    await page.locator('input[name="botao"]').click()
-    await page.wait_for_load_state("networkidle")
-    await asyncio.sleep(3)
+    # Submeter: click via JS + aguardar resposta (pode demorar >60s para termos genéricos)
+    try:
+        await page.evaluate("() => document.querySelector('input[name=\"botao\"]').click()")
+    except Exception:
+        pass  # "Execution context destroyed" = navegação iniciou, OK
 
-    # Checar resultados
-    page_text = await page.evaluate("() => document.body.innerText")
+    # Aguardar a página de resultados carregar (retry robusto)
+    page_text = ""
+    for _wait_attempt in range(12):  # até 120s (12 x 10s)
+        await asyncio.sleep(10)
+        try:
+            page_text = await page.evaluate("() => document.body.innerText")
+            if "processos" in page_text.lower() or "nenhum" in page_text.lower() or "resultado" in page_text.lower():
+                break
+        except Exception:
+            continue  # página ainda navegando
 
     if "nenhum" in page_text.lower() or "0 processos" in page_text.lower():
         log(f"  Classe {classe}: 0 resultados")
@@ -128,8 +147,18 @@ def extrair_marcas_tabela(textos_paginas: List[str], classe: int) -> List[Dict]:
             if len(partes_limpas) < 3:
                 continue
 
-            # Primeira parte deve ser numero de processo (6-9 digitos)
-            numero = partes_limpas[0]
+            # A Pesquisa Avançada inclui coluna % (similaridade) como primeira coluna.
+            # Detectar e pular se presente.
+            idx_start = 0
+            if re.match(r"^\d{1,3}$", partes_limpas[0]) and len(partes_limpas[0]) <= 3:
+                # É um percentual de similaridade (1-100), pular
+                idx_start = 1
+
+            if idx_start >= len(partes_limpas):
+                continue
+
+            # Primeira parte (após %) deve ser numero de processo (6-9 digitos)
+            numero = partes_limpas[idx_start]
             if not re.match(r"^\d{6,9}$", numero):
                 continue
 
@@ -147,7 +176,7 @@ def extrair_marcas_tabela(textos_paginas: List[str], classe: int) -> List[Dict]:
                 "prioridade": None,
             }
 
-            idx = 1
+            idx = idx_start + 1
 
             # Data prioridade
             if idx < len(partes_limpas) and re.match(r"\d{2}/\d{2}/\d{4}", partes_limpas[idx]):
@@ -371,6 +400,108 @@ async def buscar_detalhes_em_lotes(
     return resultados, falhas
 
 
+async def _worker_detalhes(
+    worker_id: int,
+    protocolos: List[str],
+    resultados: Dict[str, str],
+    headless: bool = True,
+    delay: float = 6.0,
+):
+    """
+    Worker paralelo: abre browser independente com cookies zerados,
+    busca detalhes de protocolos com relogin a cada 2 buscas.
+    """
+    try:
+        from playwright.async_api import async_playwright
+    except ImportError:
+        return
+
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=headless)
+        context = await browser.new_context(
+            viewport={"width": 1280, "height": 900},
+            user_agent=(
+                f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                f"AppleWebKit/537.36 Chrome/{120 + worker_id}.0.0.0"
+            ),
+        )
+        page = await context.new_page()
+        page.set_default_timeout(60000)
+
+        # Login inicial
+        await page.goto(
+            "https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login",
+            wait_until="networkidle",
+        )
+        await asyncio.sleep(3)
+        log(f"  [Worker {worker_id}] Login OK — {len(protocolos)} protocolos")
+
+        for i, proto in enumerate(protocolos):
+            # Relogin a cada 2 buscas para evitar rate limit
+            if i > 0 and i % 2 == 0:
+                await page.goto(
+                    "https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login",
+                    wait_until="networkidle",
+                )
+                await asyncio.sleep(3)
+
+            texto = await buscar_detalhe_protocolo(page, proto, delay)
+            if texto:
+                resultados[proto] = texto
+            await asyncio.sleep(delay)
+
+        await browser.close()
+        log(f"  [Worker {worker_id}] Finalizado")
+
+
+async def buscar_detalhes_paralelo(
+    protocolos: List[str],
+    num_workers: int = 4,
+    headless: bool = True,
+    delay: float = 6.0,
+    stagger: float = 5.0,
+) -> tuple:
+    """
+    Busca detalhes usando N browsers paralelos com cookies zerados.
+    Cada worker recebe um subconjunto de protocolos e opera de forma independente.
+
+    Returns:
+        (resultados_dict, falhas_list)
+    """
+    if not protocolos:
+        return {}, []
+
+    # Distribuir protocolos round-robin entre workers
+    chunks = [[] for _ in range(num_workers)]
+    for i, proto in enumerate(protocolos):
+        chunks[i % num_workers].append(proto)
+
+    # Remover chunks vazios
+    chunks = [c for c in chunks if c]
+    actual_workers = len(chunks)
+
+    log(f"  Buscando detalhes de {len(protocolos)} protocolos com {actual_workers} browsers paralelos")
+
+    resultados: Dict[str, str] = {}
+    tasks = []
+    for i, chunk in enumerate(chunks):
+        # Stagger: cada worker começa com um atraso
+        await asyncio.sleep(stagger)
+        tasks.append(
+            asyncio.create_task(
+                _worker_detalhes(i + 1, chunk, resultados, headless, delay)
+            )
+        )
+
+    await asyncio.gather(*tasks)
+
+    falhas = [p for p in protocolos if p not in resultados]
+    if falhas:
+        log(f"  ⚠ {len(falhas)} protocolos falharam: {falhas}")
+
+    return resultados, falhas
+
+
 # ─────────────────────────────────────────────
 # PIPELINE PRINCIPAL
 # ─────────────────────────────────────────────
@@ -381,14 +512,18 @@ async def executar_pipeline(
     pasta: Path,
     headless: bool = True,
     delay_pagina: float = 5.0,
-    delay_protocolo: float = 5.0,
+    delay_protocolo: float = 6.0,
     delay_entre_lotes: float = 15.0,
     delay_entre_classes: float = 10.0,
     tamanho_lote: int = 5,
+    num_workers: int = 4,
 ) -> Dict:
     """
-    Pipeline completo: busca fuzzy por classe → limpeza → detalhe → dossiê.
-    UMA sessão de browser, UMA aba, tudo sequencial.
+    Pipeline completo:
+    1. Pesquisa Avançada por similaridade (fuzzy) por classe + busca geral
+    2. Limpeza conservadora (sem filtro)
+    3. Busca detalhada com N browsers paralelos (cookies zerados)
+    4. Consolidação em inpi-raw.txt
     """
     try:
         from playwright.async_api import async_playwright
@@ -402,7 +537,9 @@ async def executar_pipeline(
     resultado = {
         "marca": nome_marca,
         "classes": classes,
+        "metodo": "Pesquisa Avançada — análise por similaridade",
         "por_classe": {},
+        "busca_geral": {},
         "total_encontradas": 0,
         "total_mantidas": 0,
         "total_detalhadas": 0,
@@ -410,8 +547,8 @@ async def executar_pipeline(
         "erro": None,
     }
 
-    todos_detalhes = []
-    falhas_detalhe = []  # Protocolos que falharam na busca detalhada
+    todas_marcas: List[Dict] = []
+    protocolos_vistos = set()
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=headless)
@@ -424,7 +561,7 @@ async def executar_pipeline(
             ),
         )
         page = await context.new_page()
-        page.set_default_timeout(45000)
+        page.set_default_timeout(90000)
 
         try:
             # Login anonimo (uma vez)
@@ -447,78 +584,96 @@ async def executar_pipeline(
             await asyncio.sleep(2)
             log("Login OK.\n")
 
-            # Para cada classe
+            # ─── ETAPA 1: Busca por similaridade em cada classe ───
             for i, classe in enumerate(classes):
                 log(f"{'='*60}")
                 log(f"CLASSE {classe} ({i+1}/{len(classes)})")
                 log(f"{'='*60}")
 
-                # Relogin antes de cada classe (sessao pode ter expirado)
+                # Relogin antes de cada classe
                 if i > 0:
                     await recuperar_sessao(page, 3)
 
-                # 1. Busca fuzzy
                 paginas = await buscar_fuzzy_classe(page, nome_marca, classe, delay_pagina)
 
                 if not paginas:
                     resultado["por_classe"][classe] = {
                         "encontradas": 0,
                         "mantidas": 0,
-                        "detalhadas": 0,
                     }
                     log(f"  Classe {classe}: campo livre\n")
                     if i < len(classes) - 1:
                         await asyncio.sleep(delay_entre_classes)
                     continue
 
-                # 2. Limpeza conservadora
                 marcas = extrair_marcas_tabela(paginas, classe)
-                log(f"  Extraídas: {len(marcas)} marcas")
-
                 marcas_filtradas = filtro_conservador(marcas, nome_marca)
-                log(f"  Após filtro: {len(marcas_filtradas)} marcas")
 
-                # Salvar texto bruto como backup (se o parser falhar, dado nao se perde)
+                # Salvar backup e JSON por classe
                 classe_raw = pasta / f"classe-{classe}-raw.md"
                 with open(classe_raw, "w", encoding="utf-8") as f:
-                    f.write(f"# Busca INPI: {nome_marca} — Classe {classe}\n\n")
+                    f.write(f"# Busca INPI (similaridade): {nome_marca} — Classe {classe}\n\n")
                     for pi, pg in enumerate(paginas, 1):
                         f.write(f"## Página {pi}\n\n{pg}\n\n---\n\n")
 
-                # Salvar JSON intermediário por classe
                 classe_json = pasta / f"classe-{classe}-marcas.json"
                 with open(classe_json, "w", encoding="utf-8") as f:
                     json.dump(marcas_filtradas, f, ensure_ascii=False, indent=2)
 
                 resultado["total_encontradas"] += len(marcas)
                 resultado["total_mantidas"] += len(marcas_filtradas)
-
-                # 3. Busca detalhada
-                detalhes_classe = []
-                falhas_classe = []
-                if marcas_filtradas:
-                    log(f"  Buscando detalhes...")
-                    detalhes_classe, falhas_classe = await buscar_detalhes_em_lotes(
-                        page, marcas_filtradas,
-                        delay_protocolo, delay_entre_lotes, tamanho_lote,
-                    )
-                    todos_detalhes.extend(detalhes_classe)
-                    falhas_detalhe.extend(falhas_classe)
-                    resultado["total_detalhadas"] += len(detalhes_classe)
-
                 resultado["por_classe"][classe] = {
                     "encontradas": len(marcas),
                     "mantidas": len(marcas_filtradas),
-                    "detalhadas": len(detalhes_classe),
-                    "falhas": falhas_classe,
                 }
 
-                log(f"  Classe {classe} concluída: {len(marcas_filtradas)} marcas, {len(detalhes_classe)} detalhadas" + (f", {len(falhas_classe)} falhas" if falhas_classe else "") + "\n")
+                # Acumular marcas (deduplicar por protocolo)
+                for m in marcas_filtradas:
+                    if m["numero_processo"] not in protocolos_vistos:
+                        protocolos_vistos.add(m["numero_processo"])
+                        todas_marcas.append(m)
 
-                # Pausa entre classes
+                log(f"  Classe {classe}: {len(marcas_filtradas)} marcas\n")
                 if i < len(classes) - 1:
-                    log(f"  Pausa de {delay_entre_classes}s antes da próxima classe...")
                     await asyncio.sleep(delay_entre_classes)
+
+            # ─── ETAPA 2: Busca geral (todas as classes) ───
+            log(f"{'='*60}")
+            log(f"BUSCA GERAL (todas as classes)")
+            log(f"{'='*60}")
+            await recuperar_sessao(page, 3)
+
+            paginas_geral = await buscar_fuzzy_classe(page, nome_marca, None, delay_pagina)
+            if paginas_geral:
+                marcas_geral = extrair_marcas_tabela(paginas_geral, 0)
+                log(f"  Geral: {len(marcas_geral)} marcas")
+
+                geral_raw = pasta / "geral-raw.md"
+                with open(geral_raw, "w", encoding="utf-8") as f:
+                    f.write(f"# Busca INPI (similaridade): {nome_marca} — Todas as classes\n\n")
+                    for pi, pg in enumerate(paginas_geral, 1):
+                        f.write(f"## Página {pi}\n\n{pg}\n\n---\n\n")
+
+                geral_json = pasta / "geral-marcas.json"
+                with open(geral_json, "w", encoding="utf-8") as f:
+                    json.dump(marcas_geral, f, ensure_ascii=False, indent=2)
+
+                # Acumular marcas novas
+                novas = 0
+                for m in marcas_geral:
+                    if m["numero_processo"] not in protocolos_vistos:
+                        protocolos_vistos.add(m["numero_processo"])
+                        todas_marcas.append(m)
+                        novas += 1
+
+                resultado["busca_geral"] = {
+                    "encontradas": len(marcas_geral),
+                    "novas_unicas": novas,
+                }
+                log(f"  {novas} marcas novas não vistas nas buscas por classe\n")
+            else:
+                resultado["busca_geral"] = {"encontradas": 0, "novas_unicas": 0}
+                log(f"  Busca geral: 0 resultados\n")
 
         except Exception as e:
             resultado["erro"] = str(e)
@@ -527,17 +682,39 @@ async def executar_pipeline(
                 await page.screenshot(path=str(pasta / "debug-erro.png"))
             except Exception:
                 pass
-
         finally:
             await browser.close()
 
-    # Registrar falhas no resultado
-    resultado["falhas_detalhe"] = falhas_detalhe
+    # ─── ETAPA 3: Busca detalhada com browsers paralelos ───
+    log(f"{'='*60}")
+    log(f"BUSCA DETALHADA — {len(todas_marcas)} protocolos com {num_workers} browsers")
+    log(f"{'='*60}")
 
-    # Consolidar em inpi-raw.txt
+    todos_protocolos = [m["numero_processo"] for m in todas_marcas]
+
+    if todos_protocolos:
+        resultados_detalhes, falhas_detalhe = await buscar_detalhes_paralelo(
+            todos_protocolos,
+            num_workers=num_workers,
+            headless=headless,
+            delay=delay_protocolo,
+        )
+        resultado["total_detalhadas"] = len(resultados_detalhes)
+        resultado["falhas_detalhe"] = falhas_detalhe
+    else:
+        resultados_detalhes = {}
+        falhas_detalhe = []
+        resultado["falhas_detalhe"] = []
+
+    # Consolidar em inpi-raw.txt (na ordem original dos protocolos)
     inpi_raw_path = pasta / "inpi-raw.txt"
-    if todos_detalhes:
-        inpi_raw_path.write_text("\n\n".join(todos_detalhes), encoding="utf-8")
+    detalhes_ordenados = []
+    for proto in todos_protocolos:
+        if proto in resultados_detalhes:
+            detalhes_ordenados.append(resultados_detalhes[proto])
+
+    if detalhes_ordenados:
+        inpi_raw_path.write_text("\n\n".join(detalhes_ordenados), encoding="utf-8")
         resultado["sucesso"] = True
         log(f"Arquivo gerado: {inpi_raw_path}")
     else:
@@ -547,8 +724,6 @@ async def executar_pipeline(
 
     if falhas_detalhe:
         log(f"⚠ ATENÇÃO: {len(falhas_detalhe)} protocolos não puderam ser detalhados: {falhas_detalhe}")
-        log(f"  Esses protocolos estão nos arquivos classe-XX-marcas.json mas NÃO no inpi-raw.txt")
-        log(f"  Considere buscar manualmente ou rodar novamente.")
 
     # Salvar relatório
     relatorio_path = pasta / "busca-por-classe-relatorio.json"
@@ -556,20 +731,20 @@ async def executar_pipeline(
         json.dump(resultado, f, ensure_ascii=False, indent=2)
 
     log(f"Relatório: {relatorio_path}")
-
     return resultado
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Busca INPI por classe NCL (fuzzy + detalhe, sequencial e devagar)",
+        description="Busca INPI por similaridade (Pesquisa Avançada) + detalhes com browsers paralelos",
     )
     parser.add_argument("marca", help="Nome da marca")
     parser.add_argument("--classes", required=True, help="Classes NCL (ex: 35,42,41)")
     parser.add_argument("--pasta", required=True, help="Pasta do caso")
     parser.add_argument("--visible", action="store_true", help="Mostrar browser")
+    parser.add_argument("--workers", type=int, default=4, help="Browsers paralelos para detalhes (default: 4)")
     parser.add_argument("--delay-pagina", type=float, default=5.0)
-    parser.add_argument("--delay-protocolo", type=float, default=5.0)
+    parser.add_argument("--delay-protocolo", type=float, default=6.0)
     parser.add_argument("--delay-lote", type=float, default=15.0)
     parser.add_argument("--delay-classe", type=float, default=10.0)
     parser.add_argument("--lote", type=int, default=5)
@@ -588,6 +763,7 @@ def main():
             delay_entre_lotes=args.delay_lote,
             delay_entre_classes=args.delay_classe,
             tamanho_lote=args.lote,
+            num_workers=args.workers,
         )
     )
 
@@ -596,7 +772,7 @@ def main():
     log(f"RESUMO FINAL — {args.marca}")
     log(f"{'='*60}")
     for classe, info in resultado["por_classe"].items():
-        log(f"  Classe {classe}: {info['encontradas']} encontradas → {info['mantidas']} mantidas → {info['detalhadas']} detalhadas")
+        log(f"  Classe {classe}: {info['encontradas']} encontradas → {info['mantidas']} mantidas")
     log(f"  Total detalhadas: {resultado['total_detalhadas']}")
     log(f"  Status: {'OK' if resultado['sucesso'] else 'FALHA'}")
 

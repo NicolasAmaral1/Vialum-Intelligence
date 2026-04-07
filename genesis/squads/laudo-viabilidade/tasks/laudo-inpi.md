@@ -4,6 +4,7 @@
 > **Agente:** @laudo (Mira)
 > **Fase:** 3 — Processamento INPI + Análise de Colidências
 
+
 ---
 
 ## Purpose
@@ -13,20 +14,23 @@ via `processar_inpi.py` para gerar JSON estruturado. Executar a SKILL `analise-i
 para produzir a PARTE 2 do laudo: narrativa jurídica exaustiva de colidências, sem bullets,
 sem tabelas, sem subcapítulos numerados. Aguardar aprovação do usuário antes de prosseguir.
 
+
 ---
 
 ## Prerequisites
 
-- PARTE 1 aprovada (Checkpoint 1 concluído)
-- `classes_aprovadas` disponíveis na sessão
-- `plano_md` disponível na sessão
-- Pasta `laudos/{cliente}/{nome_marca}/` existe com `inpi-raw.txt` criado
+* PARTE 1 aprovada (Checkpoint 1 concluído)
+* `classes_aprovadas` disponíveis na sessão
+* `plano_md` disponível na sessão
+* Pasta `laudos/{cliente}/{nome_marca}/` existe com `inpi-raw.txt` criado
+
 
 ---
 
 ## Execution Mode
 
 **Semi-interativo** — aguarda dois inputs do usuário: (1) confirmação de dados colados no INPI; (2) aprovação da análise gerada.
+
 
 ---
 
@@ -38,6 +42,7 @@ Se a Fase 2.5 (`laudo-busca-inpi.md`) foi executada com sucesso, o arquivo
 `inpi-raw.txt` já deve estar preenchido com os dados dos protocolos suspeitos.
 
 Verificar:
+
 ```bash
 wc -l "laudos/{cliente}/{nome_marca}/inpi-raw.txt"
 ```
@@ -48,6 +53,7 @@ wc -l "laudos/{cliente}/{nome_marca}/inpi-raw.txt"
 encontradas anterioridades relevantes e ajustar a PARTE 2 para refletir isso.
 
 **Se a Fase 2.5 não foi executada (fallback manual):**
+
 ```
 ⚖️ Mira — Hora da busca no INPI.
 
@@ -67,6 +73,7 @@ Quando terminar, confirme aqui: "ok, colei os dados"
 
 **AGUARDAR** confirmação do usuário (apenas no fallback manual).
 
+
 ---
 
 ### Passo 2: Processar dados do INPI
@@ -82,16 +89,19 @@ python3 genesis/squads/laudo-viabilidade/scripts/processar_inpi.py \
 O script gera: `laudos/{cliente}/{nome_marca}/inpi-raw-processed.json`
 
 Verificar que o arquivo foi criado:
+
 ```bash
 head -n 20 "laudos/{cliente}/{nome_marca}/inpi-raw-processed.json"
 ```
 
 SE arquivo vazio ou erro:
+
 ```
 ⚠️ O processamento retornou dados vazios.
 Verifique se o conteúdo do inpi-raw.txt contém dados válidos do INPI.
 Cole novamente e confirme.
 ```
+
 
 ---
 
@@ -102,14 +112,26 @@ Ler o conteúdo completo de `inpi-raw-processed.json`.
 A sinapse `.synapse/analise-inpi` está ativa. Seguir RIGOROSAMENTE todas as regras:
 
 **PROIBIÇÕES ABSOLUTAS (falha grave se descumpridas):**
-- ❌ Subcapítulos numerados (### 1., ### 2.)
-- ❌ Relatório separado de colidências ao final
-- ❌ Conclusão com título próprio (## CONCLUSÃO)
-- ❌ Estratégia em tópicos numerados
-- ❌ Separadores `---` na Parte 2
-- ❌ Bullet points (`* item` ou `- item`)
+
+* ❌ Subcapítulos numerados (### 1., ### 2.)
+* ❌ Relatório separado de colidências ao final
+* ❌ Conclusão com título próprio (## CONCLUSÃO)
+* ❌ Estratégia em tópicos numerados
+* ❌ Separadores `---` na Parte 2
+* ❌ Bullet points (`* item` ou `- item`)
+* ❌ Mencionar "fuzzy", "algoritmo", "algoritmo do INPI", "percentual de similaridade fuzzy"
+* ❌ Especificações truncadas (com "...") — SEMPRE citar a especificação completa expandida
+
+**LINGUAGEM OBRIGATÓRIA:**
+
+* ✅ "análise por similaridade fonética, gráfica e conceitual" (em vez de "busca fuzzy")
+* ✅ "grau de similaridade segundo o INPI" (sem citar percentuais internos)
+* ✅ Citar TODAS as especificações de CADA anterioridade por extenso no parágrafo
+* ✅ Tom de parecer técnico-jurídico — advogado sênior, nunca relatório de sistema
 
 **Estrutura obrigatória:**
+
+
 1. Parágrafo 1: Contexto de Saturação (densidade marcária, sem subtítulo)
 2. Parágrafos 2-N: Análise de cada anterioridade INLINE (dados citados no próprio parágrafo)
 3. Parágrafo Final: Conclusão corrida (veredito + estratégia em texto contínuo)
@@ -118,11 +140,13 @@ A sinapse `.synapse/analise-inpi` está ativa. Seguir RIGOROSAMENTE todas as reg
 
 **Título da seção:** `## PARTE 2: ANÁLISE DE COLIDÊNCIAS E ANTERIORIDADES`
 
+
 ---
 
 ### Passo 4: Substituir placeholder no PLANO DE ANÁLISE
 
 Localizar no arquivo `plano_md` a linha:
+
 ```
 ⚠️ **AGUARDANDO PROCESSAMENTO DOS DADOS DO INPI**
 ```
@@ -130,10 +154,12 @@ Localizar no arquivo `plano_md` a linha:
 Substituir pelo conteúdo completo da PARTE 2 gerada.
 
 Garantir:
-- Nenhum lixo do JSON colou no .md
-- Sem bullets na PARTE 2
-- Sem `---` na PARTE 2
-- Sem tabelas de colidências ao final
+
+* Nenhum lixo do JSON colou no .md
+* Sem bullets na PARTE 2
+* Sem `---` na PARTE 2
+* Sem tabelas de colidências ao final
+
 
 ---
 
@@ -156,11 +182,13 @@ Se precisar de ajustes, descreva o que mudar.
 
 **AGUARDAR** aprovação do usuário.
 
+
 ---
 
 ### Passo 6: Registrar aprovação
 
 Retornar para o workflow:
+
 ```json
 {
   "plano_md": "laudos/{cliente}/{nome_marca}/{nome_marca} - PLANO DE ANÁLISE.md",
@@ -168,12 +196,14 @@ Retornar para o workflow:
 }
 ```
 
+
 ---
 
 ## Veto Conditions
 
-- **`inpi-raw.txt` vazio após 2 tentativas:** VETO — "Não consigo processar dados INPI vazios. Verifique o arquivo e tente novamente."
-- **JSON processado sem nenhum processo encontrado:** Informar ao usuário e oferecer continuar sem anterioridades (análise intrínseca apenas).
+* `inpi-raw.txt` vazio após 2 tentativas: VETO — "Não consigo processar dados INPI vazios. Verifique o arquivo e tente novamente."
+* **JSON processado sem nenhum processo encontrado:** Informar ao usuário e oferecer continuar sem anterioridades (análise intrínseca apenas).
+
 
 ---
 
@@ -185,6 +215,7 @@ Retornar para o workflow:
    Veredito: {muito provável / provável / possível com estratégia / pouco provável}
 ➡️ Prosseguindo com *gerar — documentos finais...
 ```
+
 
 ---
 
@@ -199,3 +230,5 @@ metadata:
   tags: [inpi, colidencias, anterioridades, parte2, narrativa, juridica]
   updated_at: 2026-02-27
 ```
+
+

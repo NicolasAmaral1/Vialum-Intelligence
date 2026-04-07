@@ -1,0 +1,25 @@
+{
+  "analise_isonomia": {
+    "processos_analisados": 7,
+    "indeferimentos_encontrados": 0,
+    "deferimentos_encontrados": 0,
+    "padroes_identificados": [],
+    "parecer_geral": "Nenhuma decisão de mérito encontrada. Os 3 arquivamentos de NYSE EURONEXT não refletem recusa pelo INPI — indicam abandono pelo titular (não pagamento ou não resposta). O processo 829904484 (classe 9, em exame) é o fator dominante: se deferido, a NYSE GROUP terá registro ativo de 'NYSE EURONEXT' na classe 9."
+  },
+  "riscos_identificados": [
+    {
+      "tipo": "oposicao_terceiro",
+      "descricao": "NYSE GROUP / Euronext N.V. pode opor-se ao pedido EURONEXT invocando art. 124 XIX (imitação) e art. 125/126 (marca notória/alto renome). Euronext N.V. é a maior bolsa de valores da Europa.",
+      "probabilidade": "ALTA",
+      "impacto": "Pode inviabilizar o registro mesmo em classes distintas"
+    },
+    {
+      "tipo": "exigencia_oficio",
+      "descricao": "Examinador do INPI pode emitir exigência de ofício por identificar que EURONEXT é marca notória no mercado financeiro global.",
+      "probabilidade": "MÉDIA-ALTA",
+      "impacto": "Exigência de diferenciação ou recusa direta"
+    }
+  ],
+  "isonomia_aplicavel": "NEUTRA — sem precedentes de mérito para extrair padrão",
+  "gerado_em": "2026-03-31T16:00:00Z"
+}

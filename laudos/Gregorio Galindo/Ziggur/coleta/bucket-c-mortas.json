@@ -1,0 +1,68 @@
+[
+  {
+    "numero_processo": "826397921",
+    "nome_marca": "ZIGGURAT",
+    "situacao": "Arquivado",
+    "titular": "MARIA DAS GRAÇAS FERREIRA",
+    "classe": 42,
+    "similaridade_pct": 75,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "C",
+    "coletado_em": "2026-03-31T18:09:48.236105+00:00"
+  },
+  {
+    "numero_processo": "819646709",
+    "nome_marca": "ZIGGURAT",
+    "situacao": "Arquivado",
+    "titular": "TDA LOGÍSTICA E TRANSPORTES LTDA",
+    "classe": 7,
+    "similaridade_pct": 75,
+    "fonte": "classe-9-pagina-1",
+    "bucket": "C",
+    "coletado_em": "2026-03-31T18:09:48.236448+00:00"
+  },
+  {
+    "numero_processo": "826078923",
+    "nome_marca": "ZIGURAT",
+    "situacao": "Registro de marca extinto",
+    "titular": "ZIGURAT CONFECÇÕES LTDA-ME",
+    "classe": 35,
+    "similaridade_pct": 71,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "C",
+    "coletado_em": "2026-03-31T18:09:48.236450+00:00"
+  },
+  {
+    "numero_processo": "909019100",
+    "nome_marca": "-",
+    "situacao": "Pedido considerado inexistente",
+    "titular": "wellington lima da silva",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "geral-pagina-1",
+    "bucket": "C",
+    "coletado_em": "2026-03-31T18:09:48.236458+00:00"
+  },
+  {
+    "numero_processo": "909480931",
+    "nome_marca": "WIENINGER BIER MIT REINEM QUELLWASSER WÜRZIG GEBRANT SEIT 1666",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "BIER & TRADION COMERCIO LTDA",
+    "classe": 43,
+    "similaridade_pct": 75,
+    "fonte": "geral-pagina-1",
+    "bucket": "C",
+    "coletado_em": "2026-03-31T18:09:48.236461+00:00"
+  },
+  {
+    "numero_processo": "825273617",
+    "nome_marca": "ZIGURAT",
+    "situacao": "Registro de marca extinto",
+    "titular": "ZIGURAT CONFECÇÕES LTDA-ME",
+    "classe": 25,
+    "similaridade_pct": 71,
+    "fonte": "geral-pagina-1",
+    "bucket": "C",
+    "coletado_em": "2026-03-31T18:09:48.236465+00:00"
+  }
+]

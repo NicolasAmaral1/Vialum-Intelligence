@@ -23,8 +23,14 @@ export default function WorkflowDetailPage() {
   // Socket.IO: subscribe to workflow events
   useEffect(() => {
     if (!id) return;
-    connectSocket();
-    const socket = getSocket();
+    let socket: ReturnType<typeof getSocket> | null = null;
+    try {
+      connectSocket();
+      socket = getSocket();
+    } catch (err) {
+      console.warn('Socket.IO connection failed:', err);
+      return;
+    }
 
     socket.emit('workflow:subscribe', id);
 
@@ -41,9 +47,9 @@ export default function WorkflowDetailPage() {
     });
 
     return () => {
-      socket.emit('workflow:unsubscribe', id);
-      socket.off('workflow:event');
-      socket.off('workflow:updated');
+      socket?.emit('workflow:unsubscribe', id);
+      socket?.off('workflow:event');
+      socket?.off('workflow:updated');
     };
   }, [id]);
 

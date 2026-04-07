@@ -1,0 +1,46 @@
+[
+  {
+    "numero_processo": "904761380",
+    "nome_marca": "EURONEMA AMBIENTAL",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ADELFO PINTO NETO",
+    "classe": 42,
+    "similaridade_pct": 75,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T15:55:11.040688+00:00"
+  },
+  {
+    "numero_processo": "917187318",
+    "nome_marca": "PETRONEXT LAB",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PROCUREMENT NEGÓCIOS ELETRÔNICOS S.A",
+    "classe": 42,
+    "similaridade_pct": 72,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T15:55:11.040713+00:00"
+  },
+  {
+    "numero_processo": "917339347",
+    "nome_marca": "PETRONEXT LAB",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PROCUREMENT NEGÓCIOS ELETRÔNICOS S.A",
+    "classe": 42,
+    "similaridade_pct": 72,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T15:55:11.040716+00:00"
+  },
+  {
+    "numero_processo": "829904484",
+    "nome_marca": "NYSE EURONEXT",
+    "situacao": "Em exame de mérito",
+    "titular": "NYSE GROUP, INC.",
+    "classe": 9,
+    "similaridade_pct": 100,
+    "fonte": "classe-9-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-03-31T15:55:11.040734+00:00"
+  }
+]

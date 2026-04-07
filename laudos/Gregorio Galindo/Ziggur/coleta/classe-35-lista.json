@@ -1,0 +1,38 @@
+[
+  {
+    "numero_processo": "819646709",
+    "nome_marca": "ZIGGURAT",
+    "situacao": "Arquivado",
+    "titular": "TDA LOGÍSTICA E TRANSPORTES LTDA",
+    "classe": 7,
+    "similaridade_pct": 75,
+    "fonte": "classe-35-pagina-1"
+  },
+  {
+    "numero_processo": "826078923",
+    "nome_marca": "ZIGURAT",
+    "situacao": "Registro de marca extinto",
+    "titular": "ZIGURAT CONFECÇÕES LTDA-ME",
+    "classe": 35,
+    "similaridade_pct": 71,
+    "fonte": "classe-35-pagina-1"
+  },
+  {
+    "numero_processo": "911761500",
+    "nome_marca": "ZIGURAT DENIM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "classe": 35,
+    "similaridade_pct": 71,
+    "fonte": "classe-35-pagina-1"
+  },
+  {
+    "numero_processo": "934651108",
+    "nome_marca": "ZIGURAT DENIM",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ZIGURAT CONFECÇÕES LTDA ME",
+    "classe": 35,
+    "similaridade_pct": 71,
+    "fonte": "classe-35-pagina-1"
+  }
+]

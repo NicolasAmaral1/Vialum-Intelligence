@@ -1,0 +1,162 @@
+[
+  {
+    "processo": "826617891",
+    "nome": "MULHER PLENA",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 840787820 (PLENNA & BELLA INSTITUTO DE BELEZA) na classe 44",
+    "relevancia_para_caso": "Se MULHER PLENA bloqueou PLENNA & BELLA INSTITUTO DE BELEZA, pode bloquear Plenya na mesma classe",
+    "processo_origem": "840787820",
+    "nome_origem": "PLENNA & BELLA INSTITUTO DE BELEZA",
+    "classe_origem": 44,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "917826612",
+    "nome": "PLENA PODOLOGIA",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 931478162 (Plenna Podologia Barueri) na classe 44",
+    "relevancia_para_caso": "Se PLENA PODOLOGIA bloqueou Plenna Podologia Barueri, pode bloquear Plenya na mesma classe",
+    "processo_origem": "931478162",
+    "nome_origem": "Plenna Podologia Barueri",
+    "classe_origem": 44,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "826669220",
+    "nome": "CLÍNICA PLENA",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 914399489 (PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE DO PARANÁ) na classe 44; também bloqueou 902464361 (Plenna Cirurgia Plástica); também bloqueou 900036524 (LASER & ESTÉTICA PLENNA)",
+    "relevancia_para_caso": "Se CLÍNICA PLENA bloqueou PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE DO PARANÁ, pode bloquear Plenya na mesma classe",
+    "processo_origem": "914399489",
+    "nome_origem": "PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE DO PARANÁ",
+    "classe_origem": 44,
+    "bloqueou_quantos": 3
+  },
+  {
+    "processo": "906893399",
+    "nome": "Clínica Plena",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 907558720 (PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE) na classe 44",
+    "relevancia_para_caso": "Se Clínica Plena bloqueou PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE, pode bloquear Plenya na mesma classe",
+    "processo_origem": "907558720",
+    "nome_origem": "PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE",
+    "classe_origem": 44,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "904504050",
+    "nome": "Beauty Center Serena Spa",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 930911687 (Serenah Plenna Studio de Beleza) na classe 44",
+    "relevancia_para_caso": "Se Beauty Center Serena Spa bloqueou Serenah Plenna Studio de Beleza, pode bloquear Plenya na mesma classe",
+    "processo_origem": "930911687",
+    "nome_origem": "Serenah Plenna Studio de Beleza",
+    "classe_origem": 44,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "912121360",
+    "nome": "Plena",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 914614916 (PLENNA TRANSFORMAÇÃO) na classe 41",
+    "relevancia_para_caso": "Se Plena bloqueou PLENNA TRANSFORMAÇÃO, pode bloquear Plenya na mesma classe",
+    "processo_origem": "914614916",
+    "nome_origem": "PLENNA TRANSFORMAÇÃO",
+    "classe_origem": 41,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "821800728",
+    "nome": "PLENA CONTABILIDADE E ASSESSORIA",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 906938236 (PLENNA Contabilidade e Consultorias) na classe 35",
+    "relevancia_para_caso": "Se PLENA CONTABILIDADE E ASSESSORIA bloqueou PLENNA Contabilidade e Consultorias, pode bloquear Plenya na mesma classe",
+    "processo_origem": "906938236",
+    "nome_origem": "PLENNA Contabilidade e Consultorias",
+    "classe_origem": 35,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "900117451",
+    "nome": "PLENA COMUNICAÇÃO",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 902298135 (plenna comunicação) na classe 35; também bloqueou 900235853 (PLENNA SOLUÇÃO EM COMUNICAÇÃO); também bloqueou 900389753 (Plenna,sim comunicação e marketing estratégico)",
+    "relevancia_para_caso": "Se PLENA COMUNICAÇÃO bloqueou plenna comunicação, pode bloquear Plenya na mesma classe",
+    "processo_origem": "902298135",
+    "nome_origem": "plenna comunicação",
+    "classe_origem": 35,
+    "bloqueou_quantos": 3
+  },
+  {
+    "processo": "913593397",
+    "nome": "PLENA ENGENHARIA ESTRUTURAL",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 934660930 (PLENNA CONSTRUTORA E ENGENHARIA) na classe 37",
+    "relevancia_para_caso": "Se PLENA ENGENHARIA ESTRUTURAL bloqueou PLENNA CONSTRUTORA E ENGENHARIA, pode bloquear Plenya na mesma classe",
+    "processo_origem": "934660930",
+    "nome_origem": "PLENNA CONSTRUTORA E ENGENHARIA",
+    "classe_origem": 37,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "820096776",
+    "nome": "formato_antigo_sem_nome",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 829314741 (PLENNA) na classe 29",
+    "relevancia_para_caso": "Se formato_antigo_sem_nome bloqueou PLENNA, pode bloquear Plenya na mesma classe",
+    "processo_origem": "829314741",
+    "nome_origem": "PLENNA",
+    "classe_origem": 29,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "904669408",
+    "nome": "PLENO",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 915801655 (PLENNA SAÚDE CORRETORA DE SEGUROS E BENEFÍCIOS) na classe 36",
+    "relevancia_para_caso": "Se PLENO bloqueou PLENNA SAÚDE CORRETORA DE SEGUROS E BENEFÍCIOS, pode bloquear Plenya na mesma classe",
+    "processo_origem": "915801655",
+    "nome_origem": "PLENNA SAÚDE CORRETORA DE SEGUROS E BENEFÍCIOS",
+    "classe_origem": 36,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "824897293",
+    "nome": "PLENA ASSISTENCIAL",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 902852655 (PLENNA) na classe 36",
+    "relevancia_para_caso": "Se PLENA ASSISTENCIAL bloqueou PLENNA, pode bloquear Plenya na mesma classe",
+    "processo_origem": "902852655",
+    "nome_origem": "PLENNA",
+    "classe_origem": 36,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "829543830",
+    "nome": "PLENA",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 902814150 (Plenna farma) na classe 5",
+    "relevancia_para_caso": "Se PLENA bloqueou Plenna farma, pode bloquear Plenya na mesma classe",
+    "processo_origem": "902814150",
+    "nome_origem": "Plenna farma",
+    "classe_origem": 5,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "902642820",
+    "nome": "PLENO",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 830649794 (PLENNA) na classe 31",
+    "relevancia_para_caso": "Se PLENO bloqueou PLENNA, pode bloquear Plenya na mesma classe",
+    "processo_origem": "830649794",
+    "nome_origem": "PLENNA",
+    "classe_origem": 31,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "900158662",
+    "nome": "formato_antigo_sem_nome",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 902380125 (Plenna) na classe 16",
+    "relevancia_para_caso": "Se formato_antigo_sem_nome bloqueou Plenna, pode bloquear Plenya na mesma classe",
+    "processo_origem": "902380125",
+    "nome_origem": "Plenna",
+    "classe_origem": 16,
+    "bloqueou_quantos": 1
+  },
+  {
+    "processo": "914917684",
+    "nome": "PLENI",
+    "buscado_porque": "Citado como anterioridade no indeferimento do processo 924137053 (PLENY) na classe 30",
+    "relevancia_para_caso": "Se PLENI bloqueou PLENY, pode bloquear Plenya na mesma classe",
+    "processo_origem": "924137053",
+    "nome_origem": "PLENY",
+    "classe_origem": 30,
+    "bloqueou_quantos": 1
+  }
+]

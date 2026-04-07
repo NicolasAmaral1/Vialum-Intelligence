@@ -1,0 +1,1490 @@
+{
+  "marca_cliente": "Will's Burger",
+  "data_analise": "30/03/2026",
+  "jurisprudencia": {
+    "total_cadeias": 55,
+    "desfavoraveis": 8,
+    "atencao": 17,
+    "favoraveis": 0,
+    "neutros": 30,
+    "ameacas_indiretas": [
+      "913624292",
+      "902889427",
+      "907805795",
+      "916925706",
+      "916490823",
+      "924895071",
+      "911787372",
+      "912094478",
+      "822015293",
+      "916168417",
+      "919734138",
+      "913662410",
+      "926240560",
+      "916865959",
+      "901916684"
+    ],
+    "cadeias": [
+      {
+        "marca_indeferida": "WILLS",
+        "processo": "924763361",
+        "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+        "score_radar": 65,
+        "recurso": "mantido",
+        "motivo": "850230047813 (02/02/2023)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: VICTORIA O M T LOBO LTDA\nProcurador: Excel Marcas e Patentes Ltda ME",
+        "classificacao": "DESFAVORÁVEL",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "BILLI'S BURGER PG",
+        "processo": "927225719",
+        "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+        "score_radar": 59,
+        "recurso": "mantido",
+        "motivo": "850230467018 (27/09/2023)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: BILLIS BURGUER LTDA ME\nProcurador: MANOEL ALEXANDRE MAIORQUIN",
+        "classificacao": "DESFAVORÁVEL",
+        "marcas_conflitantes": [
+          {
+            "nome": "BILLY'S BURGER",
+            "processo": "926240560",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Administração comercial;Administração de empresa;Apresentação de produtos em meios de comunicação para fins de comércio varejista;Assessoria, consultoria e informação ao consumidor sobre produtos e respectivos preços, através de websites, em conexão com comércio realizado pela internet;Comércio [atr",
+            "titular": "GLENDA GOMES FERREIRA",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "MEISTER WILLI PADARIA & CONFEITARIA",
+        "processo": "922893993",
+        "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+        "score_radar": 40,
+        "recurso": "mantido",
+        "motivo": "850220169630 (25/04/2022)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: MEISTER WILLI PADARIA E CONFEITARIA LTDA - ME\nProcurador: Rogério de Souza",
+        "classificacao": "DESFAVORÁVEL",
+        "marcas_conflitantes": [
+          {
+            "nome": "MEISTER",
+            "processo": "816189951",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "",
+            "titular": "MEISTER S/A",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "MEISTER",
+            "processo": "816189960",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "",
+            "titular": "MEISTER S/A",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "Big Wylli",
+            "processo": "914869434",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Bebidas à base de chocolate; Bebidas de cacau com leite; Bebidas de chocolate com leite; Iogurte gelado",
+            "titular": "LATICINIO FONTE VERDE LTDA ME",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "WILL",
+            "processo": "816590419",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "",
+            "titular": "ALIMENTOS WILSON LTDA",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "MEISTER WILLI PADARIA & CONFEITARIA",
+        "processo": "913182664",
+        "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+        "score_radar": 40,
+        "recurso": "mantido",
+        "motivo": "850180414278 (10/12/2018)\nPetição (tipo): Recurso contra decisão em processo de registro (333.17)\nTitular(es): MEISTER WILLI PADARIA E CONFEITARIA LTDA - ME\nProcurador: Rogério de Souza\nDetalhes do despacho:Mantido o indeferimento do pedido de registro face às anterioridades 815002696, 902968092, 81",
+        "classificacao": "DESFAVORÁVEL",
+        "marcas_conflitantes": [
+          {
+            "nome": "MEISTERWEIN",
+            "processo": "812772881",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "",
+            "titular": "IRMAOS MOLON LTDA",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "MEISTER",
+            "processo": "816189951",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "",
+            "titular": "MEISTER S/A",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "MEISTER",
+            "processo": "816189960",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "",
+            "titular": "MEISTER S/A",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "BRAUMEISTER",
+            "processo": "825714346",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "VINAGRES, MOLHOS EM GERAL, CONDIMENTOS, ESPECIARIAS E TEMPEROS INCLUÍDOS NESTA CLASSE.",
+            "titular": "MARCEL STEINLE LIMA - ME",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "MEISTER",
+            "processo": "815002696",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "",
+            "titular": "BRF S.A.",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "WILL",
+            "processo": "816590419",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "",
+            "titular": "ALIMENTOS WILSON LTDA",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "BRAUMEISTER",
+            "processo": "825714397",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "LATICÍNIOS EM GERAL, ÓLEOS, AZEITES E QUEIJOS, INCLUÍDOS NESTA CLASSE.",
+            "titular": "MARCEL STEINLE LIMA - ME",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "WILSO",
+        "processo": "924157526",
+        "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+        "score_radar": 40,
+        "recurso": "mantido",
+        "motivo": "850230280640 (16/06/2023)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: WILSO CERAIS LTAD- EPP\nProcurador: RICARDO CARLOS MACHADO BERGAMIN",
+        "classificacao": "DESFAVORÁVEL",
+        "marcas_conflitantes": [
+          {
+            "nome": "WILSU'S SANDUICHERIA",
+            "processo": "917895185",
+            "situacao": "Pedido de registro de marca indeferido",
+            "especificacao": "Comerciais de rádio - [Informação em]; Comerciais de televisão - [Informação em]; Consultoria em gestão de negócios - [Informação em]; Consultoria em gestão de negócios - [Consultoria em]; Consultoria em gestão de negócios - [Assessoria em]; Consultoria em gestão de negócios; Consultoria em gestão d",
+            "titular": "MACIEL DA SILVA MULUNGU",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "Bananas Wilson",
+            "processo": "905673239",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Comércio (através de qualquer meio) de produtos alimentícios.",
+            "titular": "WR BEZZUTI - COMÉRCIO DE FRUTAS E TRANSPORTES LTDA - EPP",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "Owl Burger",
+        "processo": "925497452",
+        "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+        "score_radar": 37,
+        "recurso": "mantido",
+        "motivo": "850230158732 (06/04/2023)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: MIREIA DOS SANTOS AMORIM 06242232138\nProcurador: Julio Guidi Lima da Rocha",
+        "classificacao": "DESFAVORÁVEL",
+        "marcas_conflitantes": [
+          {
+            "nome": "BIG OWL .br Bar & Restaurant",
+            "processo": "907805795",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Bar (Serviços de -); Cafés [bares]; Restaurantes; Restaurantes de auto-serviço; Cyber-café [restaurante]",
+            "titular": "LAIZ ELENA BRASIL MARZANO",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "VILELA'S BURGER",
+        "processo": "926001272",
+        "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+        "score_radar": 37,
+        "recurso": "mantido",
+        "motivo": "850230377175 (09/08/2023)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: VANIEL FERREIRA VILELA 04876661359\nProcurador: Julio Guidi Lima da Rocha",
+        "classificacao": "DESFAVORÁVEL",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "OLLI´S BURGER",
+        "processo": "927422689",
+        "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+        "score_radar": 36,
+        "recurso": "mantido",
+        "motivo": "850230528101 (30/10/2023)\nPetição (tipo): Recurso contra indeferimento de pedido de registro de marca (3000.1)\nRequerente: OLLIS COMERCIO E DISTRIBUIÇÃO DE ALIMENTO LTDA\nProcurador: Jodiel de Lima",
+        "classificacao": "DESFAVORÁVEL",
+        "marcas_conflitantes": [
+          {
+            "nome": "OLIS",
+            "processo": "913538116",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Azeite de oliva para uso alimentar; Azeite de oliva extra virgem; Óleos para uso alimentar",
+            "titular": "CENTRAL DE MATERIAIS, REPRESENTAÇÕES E COMERCIO LTDA ME",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "VILLA'S BURGER",
+        "processo": "921413947",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 62,
+        "recurso": "sem recurso",
+        "motivo": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 916841693 (LA VILLA HAMBURGUERIA GOURMET), 921186070 (VILLA PUB BURGER). A marca reproduz ou imita os seguintes ",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "[Proc. 902889427]",
+            "processo": "902889427",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Lanchonetes;Restaurantes de auto-serviço;Bar (Serviços de -)",
+            "titular": "QUEIROZ DE SOUZA LANCHONETE LTDA ME",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "LA VILLA HAMBURGUERIA GOURMET",
+            "processo": "916841693",
+            "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+            "especificacao": "Hamburgueria gourmet",
+            "titular": "DIEGO BONIZIOLI BROMATTI EIRELI",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "Villa HAMBURGUERIA GOURMET",
+            "processo": "912094478",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Serviço de alimentação, restaurante, lanchonetes e hamburgueria.",
+            "titular": "BRUNO CHIARANDA SANCHEZ HAMBURGUERIA ME",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "VILLA'S CHURRASCARIA",
+            "processo": "826322484",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "CHURRASCARIA E RESTAURANTES.",
+            "titular": "VILLA'S CHURRASCARIA LTDA",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "Villa´s Home Hamburgueria Delivery",
+            "processo": "916865959",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Serviços de lanchonetes; Serviços de restaurantes; Serviços de restaurantes de auto-serviço; Padaria [fornecimento de comidas e bebidas para consumo imediato]; Churrascaria [restaurante]; Cyber café [fornecimento de comida e bebida]",
+            "titular": "CAIO VINICIUS SILVA DE OLIVEIRA PRETO 36953611820",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "VILLA'S EVENTOS",
+            "processo": "901916684",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Bufê (Serviço de -);Restaurantes",
+            "titular": "MARCELO TAKENAKA CORREA",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "Willa's Burger DELIVERY",
+        "processo": "917415604",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 61,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 902889427 (VILLA BURGUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de ",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "[Proc. 902889427]",
+            "processo": "902889427",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Lanchonetes;Restaurantes de auto-serviço;Bar (Serviços de -)",
+            "titular": "QUEIROZ DE SOUZA LANCHONETE LTDA ME",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "Kill Burger",
+        "processo": "929729455",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 61,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 913624292 (KILLER BURGER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de ",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "[Proc. 913624292]",
+            "processo": "913624292",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Serviço de bufê - [Informação em]; Serviço de bufê - [Consultoria em]; Serviço de bufê - [Assessoria em]; Serviço de bufê; Serviços de bar - [Informação em]; Serviços de bar - [Consultoria em]; Serviços de bar - [Assessoria em]; Serviços de bar; Serviços de cafés [bares] - [Informação em]; Serviços ",
+            "titular": "KBS BAR E RESTAURANTE LTDA",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "BILL EST.1994 PIZZA & BURGER",
+        "processo": "905795350",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 53,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 822185148 (BILL BAR). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "BILL'S BAR & BURGER",
+            "processo": "840301677",
+            "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+            "especificacao": "SERVIÇOS DE RESTAURANTE, BAR E CAFETERIA; SERVIÇOS DE FORNECIMENTO DE COMIDA (CATERING).",
+            "titular": "BRG INTELLECTUAL PROPERTY, LLC",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "BILL BAR",
+            "processo": "822185148",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "",
+            "titular": "SUNIZETE ADRIANA BERTOLUCI",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "WILSU´S SANDUICHERIA",
+        "processo": "916357775",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 41,
+        "recurso": "sem recurso",
+        "motivo": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 830902112 (WILSON). A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistráve",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "WILSON",
+            "processo": "822015293",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "MASSAS ALIMENTÍCIAS, ALIMENTOS A BASE DE AVEIA, BISCOITOS, BOLOS, MASSA PARA BOLO, PÓ PARA BOLO, BRIOCHES, CARAMELOS, TORTAS DE CARNES, TORTAS SALGADAS, PREPARAÇÕES FEITAS COM CEREAIS, FLOCOS DE CEREAIS SECOS, COMIDA A BASE DE FARINHA, COOKIES, DOCES, EMPADAS, ESPAGUETE, FARINHA DE MILHO, FARINHAS A",
+            "titular": "SEARA ALIMENTOS LTDA.",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "LL BURGER",
+        "processo": "926960946",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 39,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 916490823 (LL). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alhei",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "LL",
+            "processo": "916490823",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Serviços de hotéis; serviços de restaurante (fornecimento de comida e bebida); acomodação temporária; hotéis; cafetarias, salões de chá, serviços de bares (exceto clubes); serviços de agência de viagens, a saber, reservas de hotéis e reservas de acomodação temporária para viajantes; serviços de agên",
+            "titular": "ACCOR",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "LS BURGER",
+        "processo": "924089806",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 37,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 911787372 (LS Tapiocaria & Complementos). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "LS Tapiocaria & Complementos",
+            "processo": "911787372",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Churrascaria [restaurante] - [Informação em]; Churrascaria [restaurante] - [Consultoria em]; Churrascaria [restaurante] - [Assessoria em]; Churrascaria [restaurante]; Cyber-café [restaurante] - [Informação em]; Cyber-café [restaurante] - [Consultoria em]; Cyber-café [restaurante] - [Assessoria em]; ",
+            "titular": "LEANDRO ARRUDA PRUDENTE ME",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "VILLAA'S BURGER",
+        "processo": "901490156",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 37,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 826322484 (VILLA'S CHURRASCARIA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acrésci",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "VILLA'S CHURRASCARIA",
+            "processo": "826322484",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "CHURRASCARIA E RESTAURANTES.",
+            "titular": "VILLA'S CHURRASCARIA LTDA",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "VILLA'S RESTAURANTE",
+            "processo": "826966047",
+            "situacao": "Pedido definitivamente arquivado",
+            "especificacao": "BAR (SERVIÇOS DE -); LANCHONETES; RESTAURANTE; RESTAURANTES DE AUTO-SERVIÇO.",
+            "titular": "VILLAREJO RESTAURANTE LTDA ME",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "GORILLA'S BURGER",
+        "processo": "925878219",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 904182150 (GORILLAS) e Processo 924895071 (Gorilla Burguer). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em p",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "Gorilla Burguer",
+            "processo": "924895071",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Serviços de lanchonetes",
+            "titular": "GORILLA BURGUER",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "GORILLA'S BURGER",
+        "processo": "930463366",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 904182150 (GORILLAS) e Processo 924895071 (Gorilla Burguer). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em p",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "Gorilla Burguer",
+            "processo": "924895071",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Serviços de lanchonetes",
+            "titular": "GORILLA BURGUER",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "Gulla's BURGER",
+        "processo": "924659556",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 916168417 (GULOSO BURGUER) e Processo 916925706 (SR. GULA HAMBURGUERIA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no ",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "GULOSO BURGUER",
+            "processo": "916168417",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Serviços de restaurantes; Serviços de restaurantes de auto-serviço; Assessoria, consultoria e informação relativa à produção de alimento; Assessoria, consultoria e informação técnica em serviço de alimentação",
+            "titular": "WILLIAN ISRAEL MARTINS",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "SR. GULA HAMBURGUERIA",
+            "processo": "916925706",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Serviços de lanchonetes; Serviços de restaurantes",
+            "titular": "M F DE ALMEIDA SILVA - LANCHES DELIVERY",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "Wings Burger",
+        "processo": "908841175",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 905432711 e 905433246 . A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregist",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "WINGS",
+            "processo": "905432711",
+            "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+            "especificacao": "Acomodações temporárias (Aluguel de -); Acomodações temporárias (Reservas de -); Bar (Serviços de -); Restaurantes; Assessoria, consultoria e informação técnica em serviço de alimentação",
+            "titular": "IP INTERNATIONAL HOLDINGS LTD.",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "WINGS",
+            "processo": "905433246",
+            "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+            "especificacao": "Acomodações temporárias (Aluguel de -); Acomodações temporárias (Reservas de -); Bar (Serviços de -); Restaurantes; Assessoria, consultoria e informação técnica em serviço de alimentação",
+            "titular": "IP INTERNATIONAL HOLDINGS LTD.",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "WING",
+            "processo": "901686840",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "Cestas de café da manhã (fornecimento de -) [serviços de alimentação];Auto-serviço (Restaurantes de -);Bufê (Serviço de -);Lanchonetes;Cafeterias;Restaurantes;Cyber-café [restaurante];Churrascaria [restaurante];Alimentação natural, macrobiótica [preparação de alimentos para consumo];Bar (Serviços de",
+            "titular": "CASA DE SUCOS WING LTDA EPP",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "Xis Burger",
+        "processo": "927598515",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 904208028 (BURGUERX) e Processo 907792545 (X BURGUERS XISBURGUERS). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "BURGUERX",
+            "processo": "904208028",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "Lanchonetes - [Serviço];Restaurantes - [Serviço]",
+            "titular": "BURGUERX LTDA",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "West Burger",
+        "processo": "926889451",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 35,
+        "recurso": "sem recurso",
+        "motivo": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 920260705 (West Burger Premium Quality). A marca reproduz ou imita os seguintes registros de terceiros, sendo, p",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "WEST BURGER",
+            "processo": "923308318",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Beneficiamento de alimentos;Congelamento de alimentos;Conservação de alimentos e bebidas",
+            "titular": "ANDERSON ERDMANN ME",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "[Proc. 920260705]",
+            "processo": "920260705",
+            "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+            "especificacao": "Serviços de lanchonetes;Serviços de restaurantes",
+            "titular": "FERNANDO COLANGELO VIEGAS",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "Jow's BURGER",
+        "processo": "924408944",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 35,
+        "recurso": "sem recurso",
+        "motivo": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 922107874 (JAPA JHOW). A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistr",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "JAPA JHOW",
+            "processo": "922107874",
+            "situacao": "Pedido de registro de marca indeferido",
+            "especificacao": "Alimentação natural e macrobiótica [serviços de fornecimento de comida e bebida];Assessoria, consultoria e informação relativa à produção de alimento;Assessoria, consultoria e informação técnica em serviço de alimentação;Assessoria, consultoria e informações sobre restaurante;Churrascaria [restauran",
+            "titular": "AMANDA BOMFIM LOPES",
+            "conflita_conosco": true
+          },
+          {
+            "nome": "Jhowww! Lanches",
+            "processo": "905177096",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "Cafés [bares]; Cafeterias; Cantinas; Lanchonetes",
+            "titular": "TATIANA DE ANDRADE FERREIRA LANCHES ME",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "rólli burger",
+        "processo": "921908180",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 35,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 919734286 (Rolling Burger) e Processo 919734138 (Rolling Burger). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "[Proc. 919734138]",
+            "processo": "919734138",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Assessoria, consultoria e informação em culinária;Assessoria, consultoria e informação relativa à produção de alimento;Assessoria, consultoria e informação técnica em serviço de alimentação;Assessoria, consultoria e informações sobre restaurante;Serviços de bar;Serviços de cantinas;Serviços de lanch",
+            "titular": "LEANDRO N ONSARI",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "MARIELLA'S BURGER",
+        "processo": "922631212",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 35,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 828835306 (MARINELA), Processo 904284697 (MARINELA 3L-CH´S), Processo 819912131 (MARINELA), Processo 828835039 (MARINELA), Processo 818665467 (MARINEL",
+        "classificacao": "ATENÇÃO",
+        "marcas_conflitantes": [
+          {
+            "nome": "MARINELA",
+            "processo": "828835063",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Cerveja; malte (cerveja); bebidas à base de soro de leite; águas (bebidas); sucos vegetais (bebidas); sucos de frutas; Bebidas à base de sorvetes; sucos de fruta; bebidas não-alcoólicas; água gasosa; leite de soja; chá com leite; preparações para fabricar bebida; xaropes para bebidas.",
+            "titular": "GRUPO BIMBO, S.A.B. DE C.V.",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "MARIELA",
+            "processo": "922460914",
+            "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+            "especificacao": "Coalho de queijo;Laticínios;Nata [laticínios];Quark [queijo];Queijo cottage;Queijos",
+            "titular": "LATICINIOS VALE DO URUGUAI EIRELI",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "MARINELA",
+            "processo": "913662410",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Ajvar [pimentão em conserva]; Albumina para uso culinário; Alcachofras em conserva; Alginatos para uso culinário; Alho em conserva; Alimento à base de vegetais fermentados (alimento à base de .) [kimchi]; Alimentos à base de peixe; Aloe vera [babosa] para alimentação humana; Amêndoas moídas; Amendoi",
+            "titular": "GRUPO BIMBO, S.A.B. DE C.V.",
+            "conflita_conosco": true
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "WILLS",
+        "processo": "924763060",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 65,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 816590419 (WILL), Processo 902968092 (WILL) e Processo 902967827 (WILL). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no ",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "WILL",
+            "processo": "816590419",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "",
+            "titular": "ALIMENTOS WILSON LTDA",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "Hills Burger",
+        "processo": "910829705",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 63,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 907093213 (BURGER HILL). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de ma",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "BILL'S BAR & BURGER",
+        "processo": "840301677",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 59,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 822185148 (BILL BAR). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "BILL BAR",
+            "processo": "822185148",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "",
+            "titular": "SUNIZETE ADRIANA BERTOLUCI",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "WILLIS TOWERS WATSON WTW",
+        "processo": "919134718",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 55,
+        "recurso": "sem recurso",
+        "motivo": "850200293121 (03/09/2020)\nPetição (tipo): Cópia reprográfica simples (824.3)\nRequerente: WILLIS GROUP LIMITED\nProcurador: Daniel Advogados (Alt.de Daniel & Cia)",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "BUFFALO BILL BURGER & BEER",
+        "processo": "916820572",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 51,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 914743791 (STEAK HOUSE BUFFALLO BIIL). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com ac",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "HILLS BURGER GOOD FOOD AND COLD BEER EST. 2016",
+        "processo": "916462242",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 48,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 907093213 (BURGER HILL). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de ma",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "WILLY",
+        "processo": "928671887",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 45,
+        "recurso": "sem recurso",
+        "motivo": "A marca é constituida por reprodução do título de obra artística de terceiro, irregistrável de acordo com o inciso XVII do Art 124 da LPI. Art. 124 - Não são registráveis como marca: XVII - obra literária, artística ou científica, assim como os títulos que estejam protegidos pelo direito autoral e s",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "Willy Pepper",
+            "processo": "926812335",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Condimentos;Especiarias;Pimenta;Pimenta-da-jamaica [tempero];Temperos",
+            "titular": "WILLY PEPPER LTDA.",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "Big Wylli",
+            "processo": "914869434",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Bebidas à base de chocolate; Bebidas de cacau com leite; Bebidas de chocolate com leite; Iogurte gelado",
+            "titular": "LATICINIO FONTE VERDE LTDA ME",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "89 Kills Burger A HORA DE MATAR A FOME KILLSBURGER.COM.BR",
+        "processo": "909979065",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 45,
+        "recurso": "sem recurso",
+        "motivo": "A marca é constituida por sinal ou expressão de propaganda, irregistrável de acordo com o inciso VII do Art 124 da LPI. Art. 124 - Não são registráveis como marca: VII - sinal ou expressão empregada apenas como meio de propaganda;",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "WILSU'S SANDUICHERIA",
+        "processo": "917895185",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 41,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 826481418 (WILSON) e Processo 905673239 (Bananas Wilson). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em part",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "Bananas Wilson",
+            "processo": "905673239",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Comércio (através de qualquer meio) de produtos alimentícios.",
+            "titular": "WR BEZZUTI - COMÉRCIO DE FRUTAS E TRANSPORTES LTDA - EPP",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "MILLS",
+        "processo": "905212614",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 40,
+        "recurso": "sem recurso",
+        "motivo": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 823574865. A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acor",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "MILL ALIMENTOS",
+            "processo": "823574865",
+            "situacao": "Pedido de registro de marca indeferido",
+            "especificacao": "amêndoas (bolinhos ou biscoitos feitos de -) alimentares (massas -) amido (produtos de -) para uso alimentar biscoitos bolos cereais secos (flocos de -) cuscuz [sêmola] milho para pipoca",
+            "titular": "MILL INDUSTRIA DE ALIMENTOS LTDA",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "MILLS",
+            "processo": "822800381",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "CEREAIS, CEREAIS SECOS, PREPARAÇÕES FEITAS COM CEREAIS, FLOCOS DE AVEIA, FARINHA DE AVEIA, ALIMENTOS A BASE DE AVEIA, FARINHAS ALIMENTARES, FARINHA MOÍDA, FARINHA DE MILHO, FLOCOS DE MILHO, FARINHA DE TRIGO, FLOCOS DE TRIGO",
+            "titular": "SL CEREAIS E ALIMENTOS LTDA",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "HILLS",
+        "processo": "840500718",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 40,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 828033714 (TENNIS HILLS). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de m",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "RILLS",
+        "processo": "927607131",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 40,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 925580210 (HEELS). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca al",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "HEELS",
+            "processo": "925580210",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Comércio (através de qualquer meio) de artigos do vestuário;Comércio [através de qualquer meio] de calçados",
+            "titular": "HEELS COMÉRCIO DE CALÇADOS E ACESSÓRIOS EIRELI",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "LL BURGER",
+        "processo": "926960814",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 39,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 840890990 (L&L SALGADOS CONGELADOS). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acré",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "HILLS FASHION STORE",
+        "processo": "920395813",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 39,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 902071327 (HILL ORIGINAL BRAND). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscim",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "HILLS CREATIVE MEDIA",
+        "processo": "927636298",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 38,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 927086590 (HILLS). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca al",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "HILLS",
+            "processo": "927086590",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Agenciamento de mão-de-obra;Apoio administrativo e secretariado;Assessoria e consultoria em gestão organizacional para terceiros para fins de \"compliance\";Assessoria e consultoria em governança corporativa para terceiros [gestão organizacional];Assessoria e consultoria em marketing relativas a desen",
+            "titular": "HILLS CONSULTORIA LTDA",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "HILLS OF THE STREETS",
+        "processo": "923715533",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 38,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 902071327 (HILL ORIGINAL BRAND). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscim",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "WILSO CEREAIS ATACADISTA",
+        "processo": "907812856",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 37,
+        "recurso": "sem recurso",
+        "motivo": "850180063408 (08/03/2018)\nPetição (tipo): Recurso contra decisão em petição (333.18)\nRequerente: WILSO CERAIS LTAD- EPP\nProcurador: Realize & Salvatto Marcas e Patentes Ltda.\nDetalhes do despacho:Petição prejudicada por falta de objeto. O presente processo de marca encontra-se INDEFERIDO.",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "Bananas Wilson",
+            "processo": "905673239",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Comércio (através de qualquer meio) de produtos alimentícios.",
+            "titular": "WR BEZZUTI - COMÉRCIO DE FRUTAS E TRANSPORTES LTDA - EPP",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "WINGS BURGER",
+        "processo": "932733085",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 911379401 (WINGS CLUB) e Processo 911379320 (WINGS HOUSE). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em par",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "MILHAS BURGER",
+        "processo": "925692840",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 830527796 (BURGER KING). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de ma",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "DALLAS BURGER",
+        "processo": "925150002",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 924261129 (DALLAS CHOPERIA E PETISCARIA). A marca reproduz ou imita os seguintes registros de terceiros, sendo, ",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "CHURRASCARIA DALLAS",
+            "processo": "820135550",
+            "situacao": "Registro de marca extinto",
+            "especificacao": "",
+            "titular": "CHURRASCARIA DALLAS LTDA",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "WINGS BURGER",
+        "processo": "925106623",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 911379401 (WINGS CLUB) e Processo 911379320 (WINGS HOUSE). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em par",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "BIS BURGER",
+        "processo": "901251380",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 821953648 (BIS), Processo 824291255 (BIS), Processo 002826526 (BIS), Processo 824291263 (BIS) e Processo 824294629 (BIS). Art. 124 - Não são registráv",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "BIS",
+            "processo": "821953648",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "SORVETES ALIMENTARES; PASTA DE AMÊNDOAS; AMÊNDOAS CONFEITADAS; CONFEITOS A BASE DE AMENDOINS; DOCES PARA DECORAÇÃO DE ÁRVORE DE NATAL; BEBIDAS À BASE DE CACAU; BEBIDAS À BASE DE CAFÉ; BEBIDAS À BASE DE CHOCOLATE; BOLOS; DECORAÇÕES COMESTÍVEIS PARA BOLOS; MASSAS PARA BOLOS; PÓ PARA BOLOS; BOMBONS OU ",
+            "titular": "MONDELEZ BRASIL LTDA",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "BIS",
+            "processo": "002826526",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "",
+            "titular": "MONDELEZ BRASIL LTDA",
+            "conflita_conosco": false
+          },
+          {
+            "nome": "BIS",
+            "processo": "824291255",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Sorvetes Alimentares; Amêndoas confeitadas; Confeitos à base de amendoins; Doces para decoração de árvore de natal; Bebidas à base de cacau; Bebidas à base de café; Bebidas à base de chocolate; Bolos; Bombons; Balas: Bombons ou balas com hortelã-pimenta; Cacau; Produtos de cacau; Café; Caramelos [bo",
+            "titular": "MONDELEZ BRASIL LTDA",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "GORILLA´S BURGER",
+        "processo": "931030714",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 920396461 (GORILLAS CERVEJARIA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscim",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "Bills Contabilidade Digital",
+        "processo": "929644468",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 902846523 (Contas On-line) e Processo 900530413 (CONTAS CONTABILIDADE). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no t",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "WELLS CO. Simp!ify",
+        "processo": "923917748",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 923870695 (WELLS CO.). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marc",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": [
+          {
+            "nome": "WELLS CO.",
+            "processo": "923870695",
+            "situacao": "Registro de marca em vigor",
+            "especificacao": "Apoio administrativo e secretariado;Assessoria, consultoria e informação em contabilidade;Assessoria, consultoria e informação em gestão de negócios e comercialização de produtos sob contrato de franquia;Assessoria, consultoria e informação em gestão de negócios para companhias industriais ou comerc",
+            "titular": "WELLSCO. CONSULTORIA EMPRESARIAL LTDA",
+            "conflita_conosco": false
+          }
+        ]
+      },
+      {
+        "marca_indeferida": "It's Burger",
+        "processo": "913819441",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca é constituida por ?IT?S BURGER?, sinal descritivo com relação direta com os produtos que visa assinalar, sem suficiente forma distintiva, irregistrável de acordo com o inciso VI do Art 124 da LPI. Art. 124 - Não são registráveis como marca: VI - sinal de caráter genérico, necessário, comum, ",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "We Burger",
+        "processo": "920506429",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 36,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 912269367 (WE LOVE BURGUER) e Processo 912172134 (WE BURGUER). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "Canil Burger",
+        "processo": "928231232",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 35,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 819683655 (CANIL LANCHES). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de ",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "ETIQUETA HILLS",
+        "processo": "907488986",
+        "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+        "score_radar": 35,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 828033714 (TENNIS HILLS). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de m",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      },
+      {
+        "marca_indeferida": "SWIFT BURGER",
+        "processo": "920558682",
+        "situacao": "Pedido de registro de marca indeferido",
+        "score_radar": 35,
+        "recurso": "sem recurso",
+        "motivo": "A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 824486609 (SWIFT CONVENIENCE). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo,",
+        "classificacao": "NEUTRO",
+        "marcas_conflitantes": []
+      }
+    ]
+  },
+  "coexistencia": {
+    "total_burger_vigor": 1801,
+    "pares": [
+      {
+        "marca_a": "IT BURGER",
+        "processo_a": "906222010",
+        "marca_b": "Kit Burger",
+        "processo_b": "921743203",
+        "similaridade": 0.95
+      },
+      {
+        "marca_a": "IT BURGER",
+        "processo_a": "906222010",
+        "marca_b": "MIT BURGER",
+        "processo_b": "920452183",
+        "similaridade": 0.95
+      },
+      {
+        "marca_a": "US Burger",
+        "processo_a": "905811321",
+        "marca_b": "AUS BURGER",
+        "processo_b": "916846385",
+        "similaridade": 0.95
+      },
+      {
+        "marca_a": "DI BURGER",
+        "processo_a": "934393850",
+        "marca_b": "d. burger",
+        "processo_b": "922284377",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "DI BURGER",
+        "processo_a": "934393850",
+        "marca_b": "D2 BURGER",
+        "processo_b": "919458238",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "SK8 BURGER",
+        "processo_a": "921604971",
+        "marca_b": "K-BURGER",
+        "processo_b": "933956720",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "SK8 BURGER",
+        "processo_a": "921604971",
+        "marca_b": "K-BURGER",
+        "processo_b": "933956673",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "BR BURGER",
+        "processo_a": "905970322",
+        "marca_b": "3B BURGER",
+        "processo_b": "919641024",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "QB Burger",
+        "processo_a": "929097599",
+        "marca_b": "3B BURGER",
+        "processo_b": "919641024",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "QB Burger",
+        "processo_a": "929097599",
+        "marca_b": "Q-BURGER",
+        "processo_b": "907165877",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "HB BURGER",
+        "processo_a": "922817987",
+        "marca_b": "3B BURGER",
+        "processo_b": "919641024",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "M2 BURGER",
+        "processo_a": "901848875",
+        "marca_b": "MR. BURGER",
+        "processo_b": "840464266",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "M2 BURGER",
+        "processo_a": "901848875",
+        "marca_b": "Om Burger",
+        "processo_b": "928509591",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "M2 BURGER",
+        "processo_a": "901848875",
+        "marca_b": "MR. BURGER",
+        "processo_b": "840464258",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "M2 BURGER",
+        "processo_a": "901848875",
+        "marca_b": "MR. BURGER",
+        "processo_b": "829558039",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "d. burger",
+        "processo_a": "922284377",
+        "marca_b": "DD BURGER",
+        "processo_b": "928649741",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "3B BURGER",
+        "processo_a": "919641024",
+        "marca_b": "TB Burger",
+        "processo_b": "934951314",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "K-BURGER",
+        "processo_a": "933956720",
+        "marca_b": "KG BURGER",
+        "processo_b": "933342950",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "K-BURGER",
+        "processo_a": "933956720",
+        "marca_b": "KG BURGER",
+        "processo_b": "933343124",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "JG-BURGER",
+        "processo_a": "926296418",
+        "marca_b": "J.BURGER",
+        "processo_b": "918911575",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "KG BURGER",
+        "processo_a": "933342950",
+        "marca_b": "K-BURGER",
+        "processo_b": "933956673",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "J. BURGERS",
+        "processo_a": "919234879",
+        "marca_b": "J.BURGER",
+        "processo_b": "918911575",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "K-BURGER",
+        "processo_a": "933956673",
+        "marca_b": "KG BURGER",
+        "processo_b": "933343124",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "JG-BURGER",
+        "processo_a": "926296396",
+        "marca_b": "J.BURGER",
+        "processo_b": "918911575",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "DD BURGER",
+        "processo_a": "928649741",
+        "marca_b": "D2 BURGER",
+        "processo_b": "919458238",
+        "similaridade": 0.94
+      },
+      {
+        "marca_a": "YELL BURGER",
+        "processo_a": "920782388",
+        "marca_b": "YELLOW BURGER",
+        "processo_b": "933821484",
+        "similaridade": 0.92
+      },
+      {
+        "marca_a": "LUCA´S BURGER",
+        "processo_a": "930999878",
+        "marca_b": "LUGA'S BURGER",
+        "processo_b": "925155284",
+        "similaridade": 0.92
+      },
+      {
+        "marca_a": "Walt Burger",
+        "processo_a": "933472390",
+        "marca_b": "WALK BURGER",
+        "processo_b": "923654461",
+        "similaridade": 0.91
+      },
+      {
+        "marca_a": "DI BURGER",
+        "processo_a": "934393850",
+        "marca_b": "DELI BURGER",
+        "processo_b": "925148300",
+        "similaridade": 0.9
+      },
+      {
+        "marca_a": "LE BURGER",
+        "processo_a": "920273696",
+        "marca_b": "SLEY BURGER",
+        "processo_b": "929507029",
+        "similaridade": 0.9
+      }
+    ]
+  },
+  "titulares": {
+    "total": 187,
+    "tubaroes": [
+      {
+        "nome": "MILLS LOCAÇÃO, SERVIÇOS E LOGÍSTICA S.A.",
+        "count": 15,
+        "marcas": [
+          "MILLS RENTAL",
+          "Mills",
+          "Mills",
+          "Mills SOLARIS",
+          "MILLS",
+          "MILLS",
+          "MILLS",
+          "MILLS",
+          "MILLS",
+          "MILLS",
+          "MILLS",
+          "MILLS",
+          "MILLS",
+          "MILLS RENTAL LEVES",
+          "MILLS FORMAS E ESCORAMENTOS"
+        ]
+      },
+      {
+        "nome": "Torand Productions Inc.",
+        "count": 5,
+        "marcas": [
+          "BEVERLY HILLS 90210",
+          "BEVERLY HILLS 90210",
+          "BEVERLY HILLS 90210",
+          "BEVERLY HILLS 90210",
+          "BEVERLY HILLS 90210"
+        ]
+      },
+      {
+        "nome": "JACK WILLS IP LIMITED",
+        "count": 4,
+        "marcas": [
+          "JACK WILLS",
+          "JACK WILLS",
+          "JACK WILLS",
+          "JACK WILLS"
+        ]
+      },
+      {
+        "nome": "MEISTER WILLI PADARIA E CONFEITARIA LTDA - ME",
+        "count": 4,
+        "marcas": [
+          "MEISTER WILLI PADARIA & CONFEITARIA",
+          "MEISTER WILLI PADARIA & CONFEITARIA",
+          "MEISTER WILLI PADARIA & CONFEITARIA",
+          "MEISTER WILLI PADARIA & CONFEITARIA"
+        ]
+      },
+      {
+        "nome": "49.590.590 LORENA TAYSE MACHADO REZENDE",
+        "count": 2,
+        "marcas": [
+          "WILL SMASH BURGER",
+          "WILL SMASH BURGER"
+        ]
+      },
+      {
+        "nome": "VICTORIA O M T LOBO LTDA",
+        "count": 2,
+        "marcas": [
+          "WILLS",
+          "WILLS"
+        ]
+      },
+      {
+        "nome": "WILLIS GROUP LIMITED",
+        "count": 2,
+        "marcas": [
+          "WILLIS TOWERS WATSON",
+          "WILLIS TOWERS WATSON WTW"
+        ]
+      },
+      {
+        "nome": "CARSALE TECNOLOGIA E COMÉRCIO DE VEÍCULOS LTDA",
+        "count": 2,
+        "marcas": [
+          "WILLZ",
+          "WILLZ"
+        ]
+      },
+      {
+        "nome": "WELLS FARGO & COMPANY",
+        "count": 2,
+        "marcas": [
+          "WELLS FARGO",
+          "WELLS FARGO"
+        ]
+      },
+      {
+        "nome": "NATULAB LABORATORIO S.A",
+        "count": 2,
+        "marcas": [
+          "Wilds C",
+          "WILDS"
+        ]
+      },
+      {
+        "nome": "L L BURGER LANCHES FRANQUEADORA LTDA ME",
+        "count": 2,
+        "marcas": [
+          "LL BURGER",
+          "LL BURGER"
+        ]
+      },
+      {
+        "nome": "INTERCONTINENTAL GREAT BRANDS LLC",
+        "count": 2,
+        "marcas": [
+          "JOY FILLS",
+          "joy fills"
+        ]
+      },
+      {
+        "nome": "A.S. Création Tapeten AG",
+        "count": 2,
+        "marcas": [
+          "New Walls.",
+          "new walls."
+        ]
+      },
+      {
+        "nome": "OLLIS COMERCIO E DISTRIBUIÇÃO DE ALIMENTO LTDA",
+        "count": 2,
+        "marcas": [
+          "OLLI´S BURGER",
+          "OLLI´S BURGER"
+        ]
+      },
+      {
+        "nome": "HAPPY PILLS, S.L.",
+        "count": 2,
+        "marcas": [
+          "HAPPY PILLS",
+          "HAPPY PILLS"
+        ]
+      },
+      {
+        "nome": "BOX, INC.",
+        "count": 2,
+        "marcas": [
+          "BOX WITHOUT WALLS",
+          "BOX WITHOUT WALLS"
+        ]
+      },
+      {
+        "nome": "GENERAL MILLS, INC",
+        "count": 2,
+        "marcas": [
+          "GENERAL MILLS",
+          "GENERAL MILLS"
+        ]
+      }
+    ]
+  },
+  "saturacao": {
+    "por_ano_total": {},
+    "por_ano_burger": {}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "marca": "Plenya",
+  "classes": [
+    44,
+    41,
+    42,
+    35
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "por_classe": {
+    "44": {
+      "encontradas": 26,
+      "mantidas": 26
+    },
+    "41": {
+      "encontradas": 6,
+      "mantidas": 6
+    },
+    "42": {
+      "encontradas": 17,
+      "mantidas": 17
+    },
+    "35": {
+      "encontradas": 48,
+      "mantidas": 48
+    }
+  },
+  "busca_geral": {
+    "encontradas": 161,
+    "novas_unicas": 79
+  },
+  "total_encontradas": 97,
+  "total_mantidas": 97,
+  "total_detalhadas": 160,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": [
+    "927214598"
+  ]
+}

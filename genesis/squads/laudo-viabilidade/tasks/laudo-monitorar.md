@@ -4,6 +4,7 @@
 > **Agente:** @laudo (Mira)
 > **Fase:** 0 — Monitoramento
 
+
 ---
 
 ## Purpose
@@ -12,18 +13,21 @@ Escanear a lista "Fluxo de Laudos" no ClickUp (id: 901324787605), listar todos o
 status "para fazer", apresentar ao usuário humano para que ele escolha qual análise iniciar,
 e mover o card escolhido para "em processo".
 
+
 ---
 
 ## Prerequisites
 
-- API ClickUp acessível (token configurado)
-- Lista 901324787605 existe e tem cards em "para fazer"
+* API ClickUp acessível (token configurado)
+* Lista 901324787605 existe e tem cards em "para fazer"
+
 
 ---
 
 ## Execution Mode
 
 **Interativo** — apresenta lista e aguarda escolha do usuário.
+
 
 ---
 
@@ -39,22 +43,27 @@ curl -s -H "Authorization: {CLICKUP_API_TOKEN}" \
 ```
 
 Extrair de cada task:
-- `id` → `task_id`
-- `name` → `nome_marca`
-- `description` → `descricao` (pode conter atividade do cliente)
+
+* `id` → `task_id`
+* `name` → `nome_marca`
+* `description` → `descricao` (pode conter atividade do cliente)
+
 
 ---
 
 ### Passo 2: Apresentar lista ao usuário
 
 SE nenhum card encontrado:
+
 ```
 ⚖️ Mira — Fila limpa.
 Não há laudos aguardando em "para fazer". Nada a fazer por ora.
 ```
+
 PARAR.
 
 SE há cards:
+
 ```
 ⚖️ Mira — Laudos aguardando análise:
 
@@ -68,6 +77,7 @@ Qual você deseja iniciar? (informe o número ou o task_id)
 ```
 
 **AGUARDAR** escolha do usuário.
+
 
 ---
 
@@ -85,6 +95,7 @@ curl -s -X PUT \
 
 Verificar resposta: status retornado deve ser "em processo".
 
+
 ---
 
 ### Passo 4: Confirmar e retornar
@@ -97,16 +108,19 @@ Card movido para "em processo".
 ```
 
 Retornar para o workflow:
+
 ```json
 {"task_id": "...", "nome_marca": "..."}
 ```
+
 
 ---
 
 ## Veto Conditions
 
-- **API ClickUp inacessível:** VETO — "Não consigo acessar o ClickUp. Verifique o token e a conexão."
-- **Usuário informa task_id inválido:** Solicitar novamente.
+* **API ClickUp inacessível:** VETO — "Não consigo acessar o ClickUp. Verifique o token e a conexão."
+* **Usuário informa task_id inválido:** Solicitar novamente.
+
 
 ---
 
@@ -120,6 +134,7 @@ Retornar para o workflow:
 
 ➡️ Iniciando coleta de dados...
 ```
+
 
 ---
 
@@ -135,3 +150,5 @@ metadata:
   tags: [monitorar, clickup, fila, laudo]
   updated_at: 2026-02-27
 ```
+
+

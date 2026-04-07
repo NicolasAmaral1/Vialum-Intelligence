@@ -1,0 +1,101 @@
+{
+  "marca_analisada": "EURONEXT",
+  "atividade": "Software e CRM, gestão de lojas de carro e setor automobilístico",
+  "tipo_marca": "EVOCATIVO",
+  "classes_pretendidas": [42, 35, 9],
+  "vereditos": {
+    "829904484": {
+      "marca": "NYSE EURONEXT",
+      "classe": 9,
+      "situacao": "Em exame de mérito",
+      "titular": "NYSE GROUP, INC.",
+      "cotejo": {
+        "fonetico": "ALTA",
+        "grafico": "ALTA",
+        "ideologico": "ALTA"
+      },
+      "afinidade": "DIRETA",
+      "sobreposicao_specs": "INDIRETA",
+      "isonomia": "NEUTRA",
+      "desgaste_cluster": "INEXISTENTE",
+      "veredito": "COLIDÊNCIA PROVÁVEL",
+      "fundamentacao": "Reprodução integral do elemento dominante 'EURONEXT'. Art. 124 XIX LPI. Marca em exame ativo — se deferida, bloqueia pedido idêntico na mesma classe. Agravante: marca de alto renome global (bolsa de valores europeia).",
+      "estrategia_defesa": "Argumentar princípio da especialidade: software financeiro vs software automotivo. Contudo, a reprodução integral do sinal é o principal obstáculo — difícil superar.",
+      "atenuantes": ["Especificações em nichos distintos (financeiro vs automotivo)", "Prefixo NYSE diferenciador na marca anterioridade"],
+      "agravantes": ["Reprodução integral do elemento EURONEXT", "Marca notória/alto renome global (Euronext N.V.)", "Mesma classe (9)", "Pedido ainda em exame — pode ser deferido"]
+    },
+    "829904506": {
+      "marca": "NYSE EURONEXT",
+      "classe": 35,
+      "situacao": "Pedido definitivamente arquivado",
+      "titular": "NYSE GROUP, INC.",
+      "veredito": "COLIDÊNCIA REMOTA",
+      "fundamentacao": "Marca arquivada sem efeito direto. Porém, sinaliza interesse do titular NYSE GROUP na classe 35."
+    },
+    "829904476": {
+      "marca": "NYSE EURONEXT",
+      "classe": 35,
+      "situacao": "Arquivado",
+      "titular": "NYSE GROUP, INC.",
+      "veredito": "COLIDÊNCIA REMOTA",
+      "fundamentacao": "Arquivado. Sem efeito direto."
+    },
+    "829904492": {
+      "marca": "NYSE EURONEXT",
+      "classe": 9,
+      "situacao": "Pedido definitivamente arquivado",
+      "titular": "NYSE GROUP, INC.",
+      "veredito": "COLIDÊNCIA REMOTA",
+      "fundamentacao": "Arquivado na classe 9. Porém, o processo 829904484 (mesma marca, mesma classe) ainda está em exame — este é o que importa."
+    },
+    "824191935": {
+      "marca": "EURONET",
+      "classe": 35,
+      "situacao": "Registro de marca extinto",
+      "titular": "EDITORA EUROPA LTDA",
+      "cotejo": {
+        "fonetico": "MÉDIA",
+        "grafico": "MÉDIA",
+        "ideologico": "MÉDIA"
+      },
+      "veredito": "SEM COLIDÊNCIA",
+      "fundamentacao": "Marca extinta. Diferença fonética e gráfica suficiente (EURONET vs EURONEXT — adição do 'X'). Sem efeito."
+    },
+    "819986461": {
+      "marca": "EURONET",
+      "classe": 9,
+      "situacao": "Arquivado",
+      "titular": "EURONET COMERCIO LTDA",
+      "veredito": "SEM COLIDÊNCIA",
+      "fundamentacao": "Arquivada. Mesma análise."
+    },
+    "200022970": {
+      "marca": "EURONET",
+      "classe": 35,
+      "situacao": "Registro de marca extinto",
+      "titular": "EDITORA EUROPA LTDA",
+      "veredito": "SEM COLIDÊNCIA",
+      "fundamentacao": "Extinta. Mesma análise."
+    }
+  },
+  "veredito_por_classe": {
+    "9": {
+      "veredito": "REGISTRO POSSÍVEL COM RISCO ELEVADO",
+      "risco_principal": "NYSE EURONEXT (829904484) em exame ativo na mesma classe. Se deferida, bloqueia EURONEXT.",
+      "risco_secundario": "Oposição da Euronext N.V. invocando art. 125/126 (notoriedade)."
+    },
+    "35": {
+      "veredito": "REGISTRO POSSÍVEL COM RISCO MODERADO",
+      "risco_principal": "Nenhuma marca viva na classe 35. Porém, oposição da Euronext N.V. é provável.",
+      "risco_secundario": "NYSE GROUP já tentou registrar na classe 35 (abandonou). Pode retomar."
+    },
+    "42": {
+      "veredito": "REGISTRO POSSÍVEL COM RISCO MODERADO",
+      "risco_principal": "Nenhuma marca similar viva na classe 42. Risco vem exclusivamente de oposição por notoriedade.",
+      "risco_secundario": "Campo limpo — marcas existentes (EURONEMA, PETRONEXT) são distintas."
+    }
+  },
+  "veredito_global": "POUCO PROVÁVEL",
+  "fundamentacao_global": "O termo EURONEXT é a marca da principal bolsa de valores da Europa (Euronext N.V., subsidiária do grupo NYSE/ICE). Embora o campo esteja relativamente limpo nas classes 42 e 35, o risco dominante não vem das anterioridades no INPI — vem da notoriedade da marca Euronext N.V. no mercado global. A probabilidade de oposição é alta, e o INPI pode recusar de ofício por art. 124 XIX + 125/126 LPI. Recomendação: considerar marca alternativa.",
+  "gerado_em": "2026-03-31T16:05:00Z"
+}

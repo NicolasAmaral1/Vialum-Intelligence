@@ -7,7 +7,8 @@ interface Props {
 }
 
 export function ProgressPanel({ workflow }: Props) {
-  const stages = (workflow.definition?.stages || []) as Array<{ id: string; label: string; position: number }>;
+  const raw = workflow.definition?.stages;
+  const stages = (Array.isArray(raw) ? raw : []) as Array<{ id: string; label: string; position: number }>;
   const sorted = [...stages].sort((a, b) => a.position - b.position);
   const currentIndex = sorted.findIndex((s) => s.id === workflow.stage);
 

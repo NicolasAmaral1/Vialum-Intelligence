@@ -1,0 +1,912 @@
+{
+  "marca_analisada": "Plenya",
+  "total_analisados": 30,
+  "cadeias": [
+    {
+      "processo": "840787820",
+      "nome_marca": "PLENNA & BELLA INSTITUTO DE BELEZA",
+      "classe": 44,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 826617891 (MULHER PLENA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idênt",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "826617891",
+        "nome": "MULHER PLENA",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "25/06/2019",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        },
+        {
+          "data": "09/08/2016",
+          "descricao": "Sobrestamento do exame de mérito",
+          "tipo": "sobrestamento"
+        }
+      ]
+    },
+    {
+      "processo": "931478162",
+      "nome_marca": "Plenna Podologia Barueri",
+      "classe": 44,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 917826612 (PLENA PODOLOGIA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço id",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "917826612",
+        "nome": "PLENA PODOLOGIA",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "25/02/2025",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "914399489",
+      "nome_marca": "PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE DO PARANÁ",
+      "classe": 44,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 908741839. A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 826669220 (CLÍNICA PLENA). Ar",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "826669220",
+        "nome": "CLÍNICA PLENA",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "02/06/2020",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        },
+        {
+          "data": "26/02/2019",
+          "descricao": "Sobrestamento do exame de mérito",
+          "tipo": "sobrestamento"
+        }
+      ]
+    },
+    {
+      "processo": "907558720",
+      "nome_marca": "PLENNA CENTRO DE ESPECIALIDADES EM SAÚDE",
+      "classe": 44,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 906893399 (Clínica Plena), Processo 826669220 (CLÍNICA PLENA) e Processo 901264750 (INSTITUTO SAÚDE PLENA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, ",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "906893399",
+        "nome": "Clínica Plena",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "13/08/2019",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        },
+        {
+          "data": "16/01/2018",
+          "descricao": "Sobrestamento do exame de mérito",
+          "tipo": "sobrestamento"
+        }
+      ]
+    },
+    {
+      "processo": "902464361",
+      "nome_marca": "Plenna Cirurgia Plástica",
+      "classe": 44,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 826669220 (CLÍNICA PLENA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idên",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "826669220",
+        "nome": "CLÍNICA PLENA",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "19/03/2019",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "900036524",
+      "nome_marca": "LASER & ESTÉTICA PLENNA",
+      "classe": 44,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 826669220 (CLÍNICA PLENA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idên",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "826669220",
+        "nome": "CLÍNICA PLENA",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "19/12/2017",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "914597892",
+      "nome_marca": "Plenna Estética e Emagrecimento",
+      "classe": 44,
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "motivo_indeferimento": "motivo_nao_disponivel",
+      "motivo_detalhado": "Mantida a aplicabilidade em relação aos registros 906893399 e 826669220, e afastada em relação ao registro 906171075.",
+      "artigo_lpi": "nao_identificado",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "mantido",
+        "evidencia": "Recurso não provido (decisão mantida)"
+      },
+      "resultado_final": "indeferido_mantido",
+      "despachos_relevantes": [
+        {
+          "data": "20/04/2021",
+          "descricao": "Recurso não provido (decisão mantida)",
+          "tipo": "recurso"
+        },
+        {
+          "data": "30/07/2019",
+          "descricao": "Notificação de recurso",
+          "tipo": "recurso"
+        },
+        {
+          "data": "06/03/2019",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "930911687",
+      "nome_marca": "Serenah Plenna Studio de Beleza",
+      "classe": 44,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 904504050 (Beauty Center Serena Spa). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou s",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "904504050",
+        "nome": "Beauty Center Serena Spa",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "17/12/2024",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "934906696",
+      "nome_marca": "PLENNA TREINAMENTOS",
+      "classe": 41,
+      "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+      "motivo_indeferimento": "motivo_nao_disponivel",
+      "motivo_detalhado": "Recurso contra o indeferimento.",
+      "artigo_lpi": "nao_identificado",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "pendente",
+        "evidencia": "Recurso interposto, aguardando julgamento"
+      },
+      "resultado_final": "indeferido_pendente",
+      "despachos_relevantes": [
+        {
+          "data": "31/03/2026",
+          "descricao": "Notificação de recurso",
+          "tipo": "recurso"
+        },
+        {
+          "data": "30/12/2025",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "914614916",
+      "nome_marca": "PLENNA TRANSFORMAÇÃO",
+      "classe": 41,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 912121360 (Plena). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, se",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "912121360",
+        "nome": "Plena",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "06/03/2019",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "906938236",
+      "nome_marca": "PLENNA Contabilidade e Consultorias",
+      "classe": 35,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 821800728 (PLENA CONTABILIDADE E ASSESSORIA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar prod",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "821800728",
+        "nome": "PLENA CONTABILIDADE E ASSESSORIA",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "31/05/2016",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "917565339",
+      "nome_marca": "SAÚDE PLENNA AUDIÇÃO E VISÃO",
+      "classe": 35,
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "motivo_indeferimento": "art. 124, VI - expressao descritiva/generica sem suficiente forma distintiva",
+      "motivo_detalhado": "Expressao descritiva sem suficiente forma distintiva - art. 124, VI LPI",
+      "artigo_lpi": "124, VI",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "mantido",
+        "evidencia": "Recurso não provido (decisão mantida)"
+      },
+      "resultado_final": "indeferido_mantido",
+      "despachos_relevantes": [
+        {
+          "data": "05/10/2021",
+          "descricao": "Recurso não provido (decisão mantida)",
+          "tipo": "recurso"
+        },
+        {
+          "data": "30/06/2020",
+          "descricao": "Notificação de recurso",
+          "tipo": "recurso"
+        },
+        {
+          "data": "17/12/2019",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "924926996",
+      "nome_marca": "SAÚDE PLENNA TINITUS OTOSYS",
+      "classe": 35,
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "motivo_indeferimento": "art. 124, VI - expressao descritiva/generica sem suficiente forma distintiva",
+      "motivo_detalhado": "Expressao descritiva sem suficiente forma distintiva - art. 124, VI LPI",
+      "artigo_lpi": "124, VI",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "mantido",
+        "evidencia": "Recurso não provido (decisão mantida)"
+      },
+      "resultado_final": "indeferido_mantido",
+      "despachos_relevantes": [
+        {
+          "data": "01/10/2024",
+          "descricao": "Recurso não provido (decisão mantida)",
+          "tipo": "recurso"
+        },
+        {
+          "data": "18/04/2023",
+          "descricao": "Notificação de recurso",
+          "tipo": "recurso"
+        },
+        {
+          "data": "27/12/2022",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "902298135",
+      "nome_marca": "plenna comunicação",
+      "classe": 35,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 900117451 (PLENA COMUNICAÇÃO). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço ",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "900117451",
+        "nome": "PLENA COMUNICAÇÃO",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "06/03/2018",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "900235853",
+      "nome_marca": "PLENNA SOLUÇÃO EM COMUNICAÇÃO",
+      "classe": 35,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 900117451 (PLENA COMUNICAÇÃO). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço ",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "900117451",
+        "nome": "PLENA COMUNICAÇÃO",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "22/08/2017",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "900389753",
+      "nome_marca": "Plenna,sim comunicação e marketing estratégico",
+      "classe": 35,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 900117451 (PLENA COMUNICAÇÃO). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço ",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "900117451",
+        "nome": "PLENA COMUNICAÇÃO",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "28/11/2017",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "934660930",
+      "nome_marca": "PLENNA CONSTRUTORA E ENGENHARIA",
+      "classe": 37,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 934362807 (P PLENA CONSTRUTORA). A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 9135933",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "913593397",
+        "nome": "PLENA ENGENHARIA ESTRUTURAL",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "09/12/2025",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "829314741",
+      "nome_marca": "PLENNA",
+      "classe": 29,
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "INDEFERIDO - INCISO XIX DO ART. 124 DA LPI, REG. 820096776",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "820096776",
+        "nome": "formato_antigo_sem_nome",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "mantido",
+        "evidencia": "Recurso não provido (decisão mantida)"
+      },
+      "resultado_final": "indeferido_mantido",
+      "despachos_relevantes": [
+        {
+          "data": "08/08/2017",
+          "descricao": "Recurso não provido (decisão mantida)",
+          "tipo": "recurso"
+        }
+      ]
+    },
+    {
+      "processo": "917565150",
+      "nome_marca": "SAÚDE PLENNA AUDIÇÃO & VISÃO",
+      "classe": 9,
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "motivo_indeferimento": "art. 124, VI - expressao descritiva/generica sem suficiente forma distintiva",
+      "motivo_detalhado": "Expressao descritiva sem suficiente forma distintiva - art. 124, VI LPI",
+      "artigo_lpi": "124, VI",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "mantido",
+        "evidencia": "Recurso não provido (decisão mantida)"
+      },
+      "resultado_final": "indeferido_mantido",
+      "despachos_relevantes": [
+        {
+          "data": "05/10/2021",
+          "descricao": "Recurso não provido (decisão mantida)",
+          "tipo": "recurso"
+        },
+        {
+          "data": "30/06/2020",
+          "descricao": "Notificação de recurso",
+          "tipo": "recurso"
+        },
+        {
+          "data": "17/12/2019",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "930714717",
+      "nome_marca": "PLENNA COBRANÇAS E RECUPERAÇÃO CONDOMINIAL",
+      "classe": 36,
+      "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+      "motivo_indeferimento": "motivo_nao_disponivel",
+      "motivo_detalhado": "Recurso contra o indeferimento.",
+      "artigo_lpi": "nao_identificado",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "pendente",
+        "evidencia": "Recurso interposto, aguardando julgamento"
+      },
+      "resultado_final": "indeferido_pendente",
+      "despachos_relevantes": [
+        {
+          "data": "11/03/2025",
+          "descricao": "Notificação de recurso",
+          "tipo": "recurso"
+        },
+        {
+          "data": "26/11/2024",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "925720470",
+      "nome_marca": "PLENNA AUDIÇÃO CENTRO AUDITIVO",
+      "classe": 10,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, VI - expressao descritiva/generica sem suficiente forma distintiva",
+      "motivo_detalhado": "A marca é constituida por expressão descritiva (quanto à finalidade dos produtos) sem suficiente forma distintiva, irregistrável de acordo com o inciso VI do Art 124 da LPI. Art. 124 - Não são registráveis como marca: VI - sinal de caráter genérico, necessário, comum, vulgar ou simplesmente descritivo, quando tiver relação com o produto ou serviço a distinguir, ou aquele empregado comumente para d",
+      "artigo_lpi": "124, VI",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "21/03/2023",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "924926694",
+      "nome_marca": "SAÚDE PLENNA TINITUS OTOSYS",
+      "classe": 9,
+      "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+      "motivo_indeferimento": "motivo_nao_disponivel",
+      "motivo_detalhado": "Recurso contra indeferimento.",
+      "artigo_lpi": "nao_identificado",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "pendente",
+        "evidencia": "Recurso interposto, aguardando julgamento"
+      },
+      "resultado_final": "indeferido_pendente",
+      "despachos_relevantes": [
+        {
+          "data": "03/06/2025",
+          "descricao": "Notificação de recurso",
+          "tipo": "recurso"
+        },
+        {
+          "data": "11/02/2025",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        },
+        {
+          "data": "27/12/2022",
+          "descricao": "Sobrestamento do exame de mérito",
+          "tipo": "sobrestamento"
+        }
+      ]
+    },
+    {
+      "processo": "920730116",
+      "nome_marca": "PLENNA INVESTIMENTOS",
+      "classe": 36,
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "motivo_indeferimento": "motivo_nao_disponivel",
+      "motivo_detalhado": "Recurso contra o indeferimento",
+      "artigo_lpi": "nao_identificado",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "mantido",
+        "evidencia": "Recurso não provido (decisão mantida)"
+      },
+      "resultado_final": "indeferido_mantido",
+      "despachos_relevantes": [
+        {
+          "data": "11/04/2023",
+          "descricao": "Recurso não provido (decisão mantida)",
+          "tipo": "recurso"
+        },
+        {
+          "data": "29/11/2022",
+          "descricao": "Notificação de recurso",
+          "tipo": "recurso"
+        },
+        {
+          "data": "25/05/2021",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "915801655",
+      "nome_marca": "PLENNA SAÚDE CORRETORA DE SEGUROS E BENEFÍCIOS",
+      "classe": 36,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: Fica ainda consignada, a título de subsídio a eventual recurso, a identificação das seguintes anterioridades, ainda não decididas, consideradas igualmente colidentes com o presente sinal: 909610134 e 910679371. A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 904669408 (PLENO)",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "904669408",
+        "nome": "PLENO",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "30/07/2019",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "902852655",
+      "nome_marca": "PLENNA",
+      "classe": 36,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 824897293 (PLENA ASSISTENCIAL). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "824897293",
+        "nome": "PLENA ASSISTENCIAL",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "21/07/2015",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "902814150",
+      "nome_marca": "Plenna farma",
+      "classe": 5,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 829543830 (PLENA). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, se",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "829543830",
+        "nome": "PLENA",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "21/11/2017",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        },
+        {
+          "data": "13/08/2013",
+          "descricao": "Sobrestamento do exame de mérito",
+          "tipo": "sobrestamento"
+        }
+      ]
+    },
+    {
+      "processo": "830649794",
+      "nome_marca": "PLENNA",
+      "classe": 31,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 902642820 (PLENO). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, se",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "902642820",
+        "nome": "PLENO",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "02/06/2015",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "902380125",
+      "nome_marca": "Plenna",
+      "classe": 16,
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "INDEFERIDO - INCISO XIX DO ART. 124 DA LPI, REG. 900158662",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "900158662",
+        "nome": "formato_antigo_sem_nome",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "mantido",
+        "evidencia": "Recurso não provido (decisão mantida)"
+      },
+      "resultado_final": "indeferido_mantido",
+      "despachos_relevantes": [
+        {
+          "data": "10/10/2017",
+          "descricao": "Recurso não provido (decisão mantida)",
+          "tipo": "recurso"
+        }
+      ]
+    },
+    {
+      "processo": "924137053",
+      "nome_marca": "PLENY",
+      "classe": 30,
+      "situacao": "Pedido de registro de marca indeferido",
+      "motivo_indeferimento": "art. 124, XIX - reproducao ou imitacao de marca anterior registrada",
+      "motivo_detalhado": "Detalhes do despacho: A marca reproduz ou imita os seguintes registros de terceiros, sendo, portanto, irregistrável de acordo com o inciso XIX do Art. 124 da LPI: Processo 914917684 (PLENI). Art. 124 - Não são registráveis como marca: XIX - reprodução ou imitação, no todo ou em parte, ainda que com acréscimo, de marca alheia registrada, para distinguir ou certificar produto ou serviço idêntico, se",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processo": "914917684",
+        "nome": "PLENI",
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "11/10/2022",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        }
+      ]
+    },
+    {
+      "processo": "905854802",
+      "nome_marca": "Splenda",
+      "classe": 3,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "motivo_indeferimento": "motivo_nao_disponivel",
+      "motivo_detalhado": "Informamos que o processo nº 905854802 já se encontra atualizado no cadastro de Marcas.",
+      "artigo_lpi": "nao_identificado",
+      "bloqueador": {
+        "processo": "bloqueador_nao_identificado",
+        "nome": "nao_disponivel",
+        "identificado": false
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": "nao_houve",
+        "evidencia": "nao_disponivel"
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "despachos_relevantes": [
+        {
+          "data": "20/03/2018",
+          "descricao": "Indeferimento do pedido",
+          "tipo": "indeferimento"
+        },
+        {
+          "data": "01/08/2017",
+          "descricao": "Sobrestamento do exame de mérito",
+          "tipo": "sobrestamento"
+        }
+      ]
+    }
+  ],
+  "sem_despachos_detalhados": []
+}

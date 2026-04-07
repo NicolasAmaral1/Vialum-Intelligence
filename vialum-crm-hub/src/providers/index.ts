@@ -7,12 +7,12 @@ import { RDStationProvider } from './rdstation/rdstation.provider.js';
 import { ClickUpTaskProvider } from './clickup/clickup.task-provider.js';
 
 export function initProviders(): void {
-  // Legacy read-only providers (CrmProvider interface)
-  registerProvider(new PipedriveProvider());
-  registerProvider(new ClickUpProvider());
-  registerProvider(new GDriveProvider());
-  registerProvider(new RDStationProvider());
+  // Read-only integration providers (IntegrationProvider interface)
+  registerProvider(new PipedriveProvider());   // category: crm
+  registerProvider(new ClickUpProvider());     // category: tasks
+  registerProvider(new GDriveProvider());      // category: documents
+  registerProvider(new RDStationProvider());   // category: marketing
 
-  // Agnostic write-capable providers (TaskProvider interface)
+  // Write-capable task providers (TaskProvider interface)
   registerTaskProvider(new ClickUpTaskProvider());
 }

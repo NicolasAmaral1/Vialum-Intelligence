@@ -1,0 +1,670 @@
+{
+  "marca_cliente": "Will's Burger",
+  "data_analise": "29/03/2026",
+  "colidencias_reais": 113,
+  "candidatas_neutralizadas": 111,
+  "territorio_preservado_pct": 17,
+  "territorio": [
+    {
+      "classe": 43,
+      "especificacoes": [
+        {
+          "codigo": "430102",
+          "descricao": "Serviços de restaurantes",
+          "status": "RISCO",
+          "conflitos": [
+            "WILL SMASH BURGER (Proc. 930621026)",
+            "WELL'S BURGER (Proc. 828851182)",
+            "WOLLTS BURGER (Proc. 939215985)",
+            "Villas Burger (Proc. 942629914)",
+            "Kill Burger (Proc. 929729455)",
+            "BILL'S BAR & BURGER (Proc. 840301677)",
+            "Wild West Burger (Proc. 937316296)",
+            "Wild West Burger (Proc. 931320879)",
+            "OLD WILD BURGER (Proc. 918438900)",
+            "BILL EST.1994 PIZZA & BURGER (Proc. 905795350)",
+            "BUFFALO BILL BURGER & BEER (Proc. 916820572)",
+            "HILLS BURGER GOOD FOOD AND COLD BEER EST. 2016 (Proc. 916462242)",
+            "WALL BURGER HAMBÚRGUER ARTESANAL (Proc. 933921365)",
+            "Bug'Burger Bill (Proc. 937219932)",
+            "LL BURGER (Proc. 926960946)",
+            "LS BURGER (Proc. 924089806)",
+            "WS BURGER (Proc. 942654978)",
+            "WOOLL BURGER (Proc. 927918668)",
+            "Billy Burger (Proc. 923454136)",
+            "VILELA'S BURGER (Proc. 926001272)",
+            "VILLAA'S BURGER (Proc. 901490156)",
+            "WORLD'S BURGER (Proc. 939354683)",
+            "HILB BURGER (Proc. 941614344)",
+            "ITS BURGER (Proc. 938848267)",
+            "TALLUS BURGER (Proc. 937782580)",
+            "CALL BURGER (Proc. 911170936)",
+            "ALL BURGER'S (Proc. 939309742)",
+            "CHELLS BURGER (Proc. 929252241)",
+            "WINGS BURGER (Proc. 932733085)",
+            "BULL BURGER (Proc. 907751814)",
+            "GORILLA'S BURGER (Proc. 930463366)",
+            "Walt Burger (Proc. 933472390)",
+            "MILHAS BURGER (Proc. 925692840)",
+            "DALLAS BURGER (Proc. 925150002)",
+            "WINGS BURGER (Proc. 925106623)",
+            "WALK BURGER (Proc. 923654461)",
+            "BIS BURGER (Proc. 901251380)",
+            "Wings Burger (Proc. 908841175)",
+            "MILLIANS BURGER (Proc. 916799433)",
+            "BELLS BURGER (Proc. 924071486)",
+            "IT BURGER (Proc. 906222010)",
+            "KWAI BURGER (Proc. 906632277)",
+            "We Burger (Proc. 920506429)",
+            "Xis Burger (Proc. 927598515)",
+            "FIDEL BURGER (Proc. 932206239)",
+            "MARIELLA'S BURGER (Proc. 935173471)",
+            "VIT´S BURGER (Proc. 940210339)",
+            "VIRAL BURGER (Proc. 931650038)",
+            "BOLS BURGER (Proc. 939692554)",
+            "West Burger (Proc. 926889451)",
+            "WORLD BURGER (Proc. 922495483)",
+            "VIK´S BURGER (Proc. 921601620)",
+            "Reis Burger (Proc. 928902870)",
+            "rólli burger (Proc. 921908180)",
+            "ARIEL BURGER (Proc. 930853105)",
+            "BISE BURGER (Proc. 922931739)"
+          ]
+        },
+        {
+          "codigo": "430107",
+          "descricao": "Serviços de restaurantes de autosserviço",
+          "status": "RISCO",
+          "conflitos": [
+            "WELL'S BURGER (Proc. 828851182)",
+            "WOLLTS BURGER (Proc. 939215985)",
+            "Villas Burger (Proc. 942629914)",
+            "Kill Burger (Proc. 929729455)",
+            "Wild West Burger (Proc. 937316296)",
+            "OLD WILD BURGER (Proc. 918438900)",
+            "WALL BURGER HAMBÚRGUER ARTESANAL (Proc. 933921365)",
+            "Bug'Burger Bill (Proc. 937219932)",
+            "LL BURGER (Proc. 926960946)",
+            "WOOLL BURGER (Proc. 927918668)",
+            "BULL BURGER (Proc. 907751814)",
+            "Walt Burger (Proc. 933472390)",
+            "DALLAS BURGER (Proc. 925150002)",
+            "WINGS BURGER (Proc. 925106623)",
+            "IT BURGER (Proc. 906222010)",
+            "BOLS BURGER (Proc. 939692554)",
+            "West Burger (Proc. 926889451)",
+            "BISE BURGER (Proc. 922931739)"
+          ]
+        },
+        {
+          "codigo": "430108",
+          "descricao": "Serviços de lanchonetes",
+          "status": "RISCO",
+          "conflitos": [
+            "WILL SMASH BURGER (Proc. 930621026)",
+            "SMOKED BURGER: WILLIAM?S BURGERY & SMOKEHOUSE (Proc. 937377392)",
+            "Hills Burger (Proc. 910829705)",
+            "WELL'S BURGER (Proc. 828851182)",
+            "WOLLTS BURGER (Proc. 939215985)",
+            "Villas Burger (Proc. 942629914)",
+            "VILLA'S BURGER (Proc. 921413947)",
+            "Willa's Burger DELIVERY (Proc. 917415604)",
+            "Kill Burger (Proc. 929729455)",
+            "Wild West Burger (Proc. 937316296)",
+            "Wild West Burger (Proc. 931320879)",
+            "OLD WILD BURGER (Proc. 918438900)",
+            "BILL EST.1994 PIZZA & BURGER (Proc. 905795350)",
+            "BUFFALO BILL BURGER & BEER (Proc. 916820572)",
+            "WALL BURGER HAMBÚRGUER ARTESANAL (Proc. 933921365)",
+            "Bug'Burger Bill (Proc. 937219932)",
+            "LL BURGER (Proc. 926960946)",
+            "LS BURGER (Proc. 924089806)",
+            "Owl Burger (Proc. 925497452)",
+            "WS BURGER (Proc. 942654978)",
+            "WOOLL BURGER (Proc. 927918668)",
+            "Billy Burger (Proc. 923454136)",
+            "ALL_BURGER (Proc. 925589012)",
+            "VILLAA'S BURGER (Proc. 901490156)",
+            "WORLD'S BURGER (Proc. 939354683)",
+            "ITS BURGER (Proc. 938848267)",
+            "TALLUS BURGER (Proc. 937782580)",
+            "CALL BURGER (Proc. 911170936)",
+            "ALL BURGER'S (Proc. 939309742)",
+            "OLLI´S BURGER (Proc. 935336583)",
+            "CHELLS BURGER (Proc. 929252241)",
+            "WINGS BURGER (Proc. 932733085)",
+            "BULL BURGER (Proc. 907751814)",
+            "Walt Burger (Proc. 933472390)",
+            "MILHAS BURGER (Proc. 925692840)",
+            "DALLAS BURGER (Proc. 925150002)",
+            "WINGS BURGER (Proc. 925106623)",
+            "Gulla's BURGER (Proc. 924659556)",
+            "VILLAGE BURGER (Proc. 923892290)",
+            "WALK BURGER (Proc. 923654461)",
+            "BIS BURGER (Proc. 901251380)",
+            "Wings Burger (Proc. 908841175)",
+            "MILLIANS BURGER (Proc. 916799433)",
+            "BELLS BURGER (Proc. 924071486)",
+            "IT BURGER (Proc. 906222010)",
+            "KWAI BURGER (Proc. 906632277)",
+            "We Burger (Proc. 920506429)",
+            "Xis Burger (Proc. 927598515)",
+            "FIDEL BURGER (Proc. 932206239)",
+            "MARIELLA'S BURGER (Proc. 935173471)",
+            "VIT´S BURGER (Proc. 940210339)",
+            "VIRAL BURGER (Proc. 931650038)",
+            "BOLS BURGER (Proc. 939692554)",
+            "WORLD BURGER (Proc. 922495483)",
+            "VIK´S BURGER (Proc. 921601620)",
+            "Reis Burger (Proc. 928902870)",
+            "Canil Burger (Proc. 928231232)",
+            "PIT'S BURGER (Proc. 909201536)",
+            "Jow's BURGER (Proc. 924408944)",
+            "rólli burger (Proc. 921908180)",
+            "ARIEL BURGER (Proc. 930853105)",
+            "BISE BURGER (Proc. 922931739)",
+            "SWIFT BURGER (Proc. 920558682)",
+            "Los Burger's (Proc. 919534619)"
+          ]
+        },
+        {
+          "codigo": "430010",
+          "descricao": "Serviço de bufê",
+          "status": "RISCO",
+          "conflitos": [
+            "WELL'S BURGER (Proc. 828851182)",
+            "Kill Burger (Proc. 929729455)",
+            "VILLAA'S BURGER (Proc. 901490156)",
+            "DALLAS BURGER (Proc. 925150002)",
+            "WINGS BURGER (Proc. 925106623)",
+            "BIS BURGER (Proc. 901251380)",
+            "KWAI BURGER (Proc. 906632277)",
+            "Xis Burger (Proc. 927598515)",
+            "FIDEL BURGER (Proc. 932206239)",
+            "BISE BURGER (Proc. 922931739)"
+          ]
+        },
+        {
+          "codigo": "430024",
+          "descricao": "Serviços de cafés [bares]",
+          "status": "RISCO",
+          "conflitos": [
+            "WILL SMASH BURGER (Proc. 930621026)",
+            "WELL'S BURGER (Proc. 828851182)",
+            "WOLLTS BURGER (Proc. 939215985)",
+            "Kill Burger (Proc. 929729455)",
+            "BILL'S BAR & BURGER (Proc. 840301677)",
+            "Wild West Burger (Proc. 937316296)",
+            "Wild West Burger (Proc. 931320879)",
+            "OLD WILD BURGER (Proc. 918438900)",
+            "BILL EST.1994 PIZZA & BURGER (Proc. 905795350)",
+            "BUFFALO BILL BURGER & BEER (Proc. 916820572)",
+            "WALL BURGER HAMBÚRGUER ARTESANAL (Proc. 933921365)",
+            "LL BURGER (Proc. 926960946)",
+            "WOOLL BURGER (Proc. 927918668)",
+            "Billy Burger (Proc. 923454136)",
+            "VILLAA'S BURGER (Proc. 901490156)",
+            "HILB BURGER (Proc. 941614344)",
+            "ITS BURGER (Proc. 938848267)",
+            "CALL BURGER (Proc. 911170936)",
+            "ALL BURGER'S (Proc. 939309742)",
+            "WINGS BURGER (Proc. 932733085)",
+            "BULL BURGER (Proc. 907751814)",
+            "DALLAS BURGER (Proc. 925150002)",
+            "WINGS BURGER (Proc. 925106623)",
+            "WALK BURGER (Proc. 923654461)",
+            "BIS BURGER (Proc. 901251380)",
+            "IT BURGER (Proc. 906222010)",
+            "KWAI BURGER (Proc. 906632277)",
+            "We Burger (Proc. 920506429)",
+            "Xis Burger (Proc. 927598515)",
+            "MARIELLA'S BURGER (Proc. 935173471)",
+            "VIT´S BURGER (Proc. 940210339)",
+            "BOLS BURGER (Proc. 939692554)",
+            "VIK´S BURGER (Proc. 921601620)",
+            "Reis Burger (Proc. 928902870)",
+            "rólli burger (Proc. 921908180)",
+            "BISE BURGER (Proc. 922931739)",
+            "Los Burger's (Proc. 919534619)"
+          ]
+        },
+        {
+          "codigo": "430025",
+          "descricao": "Serviços de cafeteria",
+          "status": "RISCO",
+          "conflitos": [
+            "WELL'S BURGER (Proc. 828851182)",
+            "Kill Burger (Proc. 929729455)",
+            "BILL'S BAR & BURGER (Proc. 840301677)",
+            "Wild West Burger (Proc. 931320879)",
+            "OLD WILD BURGER (Proc. 918438900)",
+            "VILLAA'S BURGER (Proc. 901490156)",
+            "DALLAS BURGER (Proc. 925150002)",
+            "WINGS BURGER (Proc. 925106623)",
+            "BIS BURGER (Proc. 901251380)",
+            "KWAI BURGER (Proc. 906632277)",
+            "VIK´S BURGER (Proc. 921601620)",
+            "BISE BURGER (Proc. 922931739)"
+          ]
+        },
+        {
+          "codigo": "430027",
+          "descricao": "Serviços de cantinas",
+          "status": "RISCO",
+          "conflitos": [
+            "WELL'S BURGER (Proc. 828851182)",
+            "Kill Burger (Proc. 929729455)",
+            "Wild West Burger (Proc. 937316296)",
+            "WOOLL BURGER (Proc. 927918668)",
+            "VILLAA'S BURGER (Proc. 901490156)",
+            "WINGS BURGER (Proc. 932733085)",
+            "DALLAS BURGER (Proc. 925150002)",
+            "WINGS BURGER (Proc. 925106623)",
+            "WALK BURGER (Proc. 923654461)",
+            "BIS BURGER (Proc. 901251380)",
+            "BISE BURGER (Proc. 922931739)"
+          ]
+        },
+        {
+          "codigo": "430138",
+          "descricao": "Serviços de bar",
+          "status": "RISCO",
+          "conflitos": [
+            "WILL SMASH BURGER (Proc. 930621026)",
+            "WELL'S BURGER (Proc. 828851182)",
+            "WOLLTS BURGER (Proc. 939215985)",
+            "Kill Burger (Proc. 929729455)",
+            "BILL'S BAR & BURGER (Proc. 840301677)",
+            "Wild West Burger (Proc. 937316296)",
+            "Wild West Burger (Proc. 931320879)",
+            "OLD WILD BURGER (Proc. 918438900)",
+            "BILL EST.1994 PIZZA & BURGER (Proc. 905795350)",
+            "BUFFALO BILL BURGER & BEER (Proc. 916820572)",
+            "WALL BURGER HAMBÚRGUER ARTESANAL (Proc. 933921365)",
+            "LL BURGER (Proc. 926960946)",
+            "WOOLL BURGER (Proc. 927918668)",
+            "Billy Burger (Proc. 923454136)",
+            "VILLAA'S BURGER (Proc. 901490156)",
+            "HILB BURGER (Proc. 941614344)",
+            "ITS BURGER (Proc. 938848267)",
+            "CALL BURGER (Proc. 911170936)",
+            "WINGS BURGER (Proc. 932733085)",
+            "BULL BURGER (Proc. 907751814)",
+            "DALLAS BURGER (Proc. 925150002)",
+            "WINGS BURGER (Proc. 925106623)",
+            "WALK BURGER (Proc. 923654461)",
+            "BIS BURGER (Proc. 901251380)",
+            "IT BURGER (Proc. 906222010)",
+            "KWAI BURGER (Proc. 906632277)",
+            "We Burger (Proc. 920506429)",
+            "Xis Burger (Proc. 927598515)",
+            "MARIELLA'S BURGER (Proc. 935173471)",
+            "VIT´S BURGER (Proc. 940210339)",
+            "BOLS BURGER (Proc. 939692554)",
+            "VIK´S BURGER (Proc. 921601620)",
+            "Reis Burger (Proc. 928902870)",
+            "rólli burger (Proc. 921908180)",
+            "BISE BURGER (Proc. 922931739)",
+            "Los Burger's (Proc. 919534619)"
+          ]
+        },
+        {
+          "codigo": "430208",
+          "descricao": "Serviços de restaurantes para retirada",
+          "status": "RISCO",
+          "conflitos": [
+            "WOLLTS BURGER (Proc. 939215985)",
+            "Villas Burger (Proc. 942629914)",
+            "Kill Burger (Proc. 929729455)",
+            "Wild West Burger (Proc. 937316296)",
+            "Wild West Burger (Proc. 931320879)",
+            "WALL BURGER HAMBÚRGUER ARTESANAL (Proc. 933921365)",
+            "Bug'Burger Bill (Proc. 937219932)",
+            "LL BURGER (Proc. 926960946)",
+            "WS BURGER (Proc. 942654978)",
+            "WOOLL BURGER (Proc. 927918668)",
+            "ITS BURGER (Proc. 938848267)",
+            "WINGS BURGER (Proc. 932733085)",
+            "Walt Burger (Proc. 933472390)",
+            "FIDEL BURGER (Proc. 932206239)",
+            "VIT´S BURGER (Proc. 940210339)",
+            "VIRAL BURGER (Proc. 931650038)",
+            "BOLS BURGER (Proc. 939692554)",
+            "West Burger (Proc. 926889451)",
+            "ARIEL BURGER (Proc. 930853105)"
+          ]
+        },
+        {
+          "codigo": "430213",
+          "descricao": "Serviços de cozinha fantasma / ghost kitchen",
+          "status": "RISCO",
+          "conflitos": [
+            "Villas Burger (Proc. 942629914)",
+            "BOLS BURGER (Proc. 939692554)"
+          ]
+        },
+        {
+          "codigo": "430199",
+          "descricao": "Provimento de informações sobre preparação de refeições",
+          "status": "RISCO",
+          "conflitos": [
+            "WINGS BURGER (Proc. 925106623)"
+          ]
+        },
+        {
+          "codigo": "430200",
+          "descricao": "Serviços de personal chef",
+          "status": "RISCO",
+          "conflitos": [
+            "Kill Burger (Proc. 929729455)",
+            "Wild West Burger (Proc. 937316296)",
+            "Wild West Burger (Proc. 931320879)",
+            "WINGS BURGER (Proc. 925106623)",
+            "FIDEL BURGER (Proc. 932206239)",
+            "VIRAL BURGER (Proc. 931650038)",
+            "BOLS BURGER (Proc. 939692554)",
+            "BISE BURGER (Proc. 922931739)"
+          ]
+        }
+      ]
+    },
+    {
+      "classe": 30,
+      "especificacoes": [
+        {
+          "codigo": "300106",
+          "descricao": "Sanduíches",
+          "status": "RISCO",
+          "conflitos": [
+            "WILSU´S SANDUICHERIA (Proc. 916357775)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 922893993)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 913182664)",
+            "ANDREW'S MILLS (Proc. 501655611)",
+            "Dixie Mills (Proc. 501641837)"
+          ]
+        },
+        {
+          "codigo": "300208",
+          "descricao": "Cheeseburgers [sanduíches]",
+          "status": "RISCO",
+          "conflitos": [
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 922893993)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 913182664)",
+            "ANDREW'S MILLS (Proc. 501655611)",
+            "Dixie Mills (Proc. 501641837)"
+          ]
+        },
+        {
+          "codigo": "300253",
+          "descricao": "Cachorro-quente",
+          "status": "RISCO",
+          "conflitos": [
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 922893993)",
+            "ANDREW'S MILLS (Proc. 501655611)",
+            "Dixie Mills (Proc. 501641837)"
+          ]
+        },
+        {
+          "codigo": "300122",
+          "descricao": "Molhos [condimentos]",
+          "status": "RISCO",
+          "conflitos": [
+            "Willy Pepper (Proc. 926812335)",
+            "WILLY (Proc. 928671887)"
+          ]
+        },
+        {
+          "codigo": "300082",
+          "descricao": "Ketchup [molho]",
+          "status": "RISCO",
+          "conflitos": [
+            "ANDREW'S MILLS (Proc. 501655611)"
+          ]
+        },
+        {
+          "codigo": "300172",
+          "descricao": "Maionese",
+          "status": "SEGURO",
+          "conflitos": []
+        },
+        {
+          "codigo": "300101",
+          "descricao": "Mostarda",
+          "status": "RISCO",
+          "conflitos": [
+            "WILLY (Proc. 928671887)"
+          ]
+        },
+        {
+          "codigo": "300171",
+          "descricao": "Molho de tomate",
+          "status": "SEGURO",
+          "conflitos": []
+        },
+        {
+          "codigo": "300093",
+          "descricao": "Pão",
+          "status": "RISCO",
+          "conflitos": [
+            "HILLS (Proc. 824637917)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 922893993)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 913182664)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 933006780)",
+            "ILHA BURGER (Proc. 934441049)",
+            "ARDENT MILLS (Proc. 910045895)"
+          ]
+        },
+        {
+          "codigo": "300110",
+          "descricao": "Pãezinhos",
+          "status": "RISCO",
+          "conflitos": [
+            "WILSU´S SANDUICHERIA (Proc. 916357775)",
+            "HILLS (Proc. 824637917)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 922893993)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 913182664)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 933006780)"
+          ]
+        },
+        {
+          "codigo": "300046",
+          "descricao": "Sorvetes",
+          "status": "RISCO",
+          "conflitos": [
+            "WILLY (Proc. 928671887)",
+            "WILSU´S SANDUICHERIA (Proc. 916357775)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 922893993)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 913182664)",
+            "HAPPY PILLS (Proc. 907673201)"
+          ]
+        },
+        {
+          "codigo": "300136",
+          "descricao": "Gelados comestíveis",
+          "status": "RISCO",
+          "conflitos": [
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 922893993)",
+            "MEISTER WILLI PADARIA & CONFEITARIA (Proc. 913182664)"
+          ]
+        },
+        {
+          "codigo": "300288",
+          "descricao": "Picolés",
+          "status": "SEGURO",
+          "conflitos": []
+        },
+        {
+          "codigo": "300044",
+          "descricao": "Pipoca",
+          "status": "SEGURO",
+          "conflitos": []
+        }
+      ]
+    },
+    {
+      "classe": 35,
+      "especificacoes": [
+        {
+          "codigo": "350177",
+          "descricao": "Serviços de pedidos on-line na área de retirada e entrega por restaurantes",
+          "status": "RISCO",
+          "conflitos": [
+            "DU WILL BURGER (Proc. 921976836)",
+            "HILLS BURGERS (Proc. 921356692)",
+            "MILLS BREWERY (Proc. 928163296)",
+            "YELL BURGER (Proc. 920782388)",
+            "IO BURGER (Proc. 923779019)"
+          ]
+        },
+        {
+          "codigo": "350071",
+          "descricao": "Promoção de vendas para terceiros",
+          "status": "RISCO",
+          "conflitos": [
+            "WILLS (Proc. 924763361)",
+            "WILLA MAYA (Proc. 934343756)",
+            "MILLS BREWERY (Proc. 928163296)",
+            "MW4 MÉTODO WILLY 4 PILARES (Proc. 923403914)",
+            "HAPPY PILLS (Proc. 907765971)",
+            "HELENA HILLS (Proc. 926952633)",
+            "ROCKING WALLS (Proc. 919782981)",
+            "Eusebily Hills (Proc. 942823540)"
+          ]
+        },
+        {
+          "codigo": "350106",
+          "descricao": "Marketing",
+          "status": "RISCO",
+          "conflitos": [
+            "WILLIS TOWERS WATSON (Proc. 909770360)",
+            "WILLA MAYA (Proc. 934343756)",
+            "WILLIS TOWERS WATSON WTW (Proc. 919134718)",
+            "WELLS CO. (Proc. 923870695)",
+            "WILSU'S SANDUICHERIA (Proc. 917895185)",
+            "Óticas Willy (Proc. 926106457)",
+            "BILLS (Proc. 937660310)",
+            "HILLS (Proc. 927086590)",
+            "ALLVA HILLS BOARDS (Proc. 940449986)",
+            "HILLS CREATIVE MEDIA (Proc. 927636298)",
+            "NO WALLS (Proc. 919189083)",
+            "BLUE HILLS. (Proc. 942101588)",
+            "OVER PILLS (Proc. 930340981)",
+            "Fashion Pills (Proc. 942587987)",
+            "ROCKING WALLS (Proc. 919782981)",
+            "Eusebily Hills (Proc. 942823540)"
+          ]
+        },
+        {
+          "codigo": "350084",
+          "descricao": "Publicidade on-line em rede de computadores",
+          "status": "RISCO",
+          "conflitos": [
+            "WILSU'S SANDUICHERIA (Proc. 917895185)",
+            "HILLS CREATIVE MEDIA (Proc. 927636298)",
+            "ROCKING WALLS (Proc. 919782981)",
+            "Eusebily Hills (Proc. 942823540)"
+          ]
+        },
+        {
+          "codigo": "350092",
+          "descricao": "Apresentação de produtos em meios de comunicação",
+          "status": "RISCO",
+          "conflitos": [
+            "BILLY'S BURGER (Proc. 926240560)",
+            "HILLS CREATIVE MEDIA (Proc. 927636298)",
+            "NO WALLS (Proc. 919189083)",
+            "HAPPY PILLS (Proc. 907765971)",
+            "ROCKING WALLS (Proc. 919782981)"
+          ]
+        },
+        {
+          "codigo": "350039",
+          "descricao": "Propaganda / Publicidade",
+          "status": "RISCO",
+          "conflitos": [
+            "BILLY'S BURGER (Proc. 926240560)",
+            "WILLA MAYA (Proc. 934343756)",
+            "MW4 MÉTODO WILLY 4 PILARES (Proc. 923403914)",
+            "WILSU'S SANDUICHERIA (Proc. 917895185)",
+            "Óticas Willy (Proc. 926106457)",
+            "ALLVA HILLS BOARDS (Proc. 940449986)",
+            "HILLS CREATIVE MEDIA (Proc. 927636298)",
+            "HAPPY PILLS (Proc. 907765971)",
+            "BLUE HILLS. (Proc. 942101588)",
+            "OVER PILLS (Proc. 930340981)",
+            "ROCKING WALLS (Proc. 919782981)",
+            "Eusebily Hills (Proc. 942823540)"
+          ]
+        },
+        {
+          "codigo": "350180",
+          "descricao": "Marketing por influenciadores",
+          "status": "RISCO",
+          "conflitos": [
+            "WILLA MAYA (Proc. 934343756)",
+            "Fashion Pills (Proc. 942587987)"
+          ]
+        }
+      ]
+    },
+    {
+      "classe": 29,
+      "especificacoes": [
+        {
+          "codigo": "290019",
+          "descricao": "Batatas em lâminas finas fritas",
+          "status": "RISCO",
+          "conflitos": [
+            "OLLI´S BURGER (Proc. 927422689)",
+            "MARIELLA'S BURGER (Proc. 922631212)",
+            "Silva BURGER (Proc. 942417810)",
+            "FISH BURGER (Proc. 911822577)"
+          ]
+        },
+        {
+          "codigo": "290018",
+          "descricao": "Charcutaria",
+          "status": "RISCO",
+          "conflitos": [
+            "DISH BURGER (Proc. 940840669)"
+          ]
+        },
+        {
+          "codigo": "290034",
+          "descricao": "Queijos",
+          "status": "RISCO",
+          "conflitos": [
+            "DISH BURGER (Proc. 940840669)",
+            "Silva BURGER (Proc. 942417810)"
+          ]
+        },
+        {
+          "codigo": "290030",
+          "descricao": "Legumes e verduras cozidos",
+          "status": "SEGURO",
+          "conflitos": []
+        },
+        {
+          "codigo": "290029",
+          "descricao": "Legumes e verduras em conserva",
+          "status": "SEGURO",
+          "conflitos": []
+        },
+        {
+          "codigo": "290005",
+          "descricao": "Gorduras comestíveis",
+          "status": "RISCO",
+          "conflitos": [
+            "Silva BURGER (Proc. 942417810)"
+          ]
+        },
+        {
+          "codigo": "290032",
+          "descricao": "Óleos para uso alimentar",
+          "status": "SEGURO",
+          "conflitos": []
+        }
+      ]
+    }
+  ]
+}

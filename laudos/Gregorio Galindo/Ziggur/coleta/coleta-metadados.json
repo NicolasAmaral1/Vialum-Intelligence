@@ -1,0 +1,42 @@
+{
+  "marca": "Ziggur",
+  "classes": [
+    42,
+    9,
+    35,
+    41
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "similaridade_minima": 20,
+  "max_paginas": 10,
+  "por_classe": {
+    "42": {
+      "encontradas": 1
+    },
+    "9": {
+      "encontradas": 1
+    },
+    "35": {
+      "encontradas": 4
+    },
+    "41": {
+      "encontradas": 1
+    }
+  },
+  "busca_geral": {
+    "encontradas": 14,
+    "novas_unicas": 8
+  },
+  "total_coletadas": 21,
+  "total_unicas": 14,
+  "buckets": {
+    "A": 8,
+    "B": 0,
+    "C": 6
+  },
+  "sucesso": true,
+  "erro": null,
+  "inicio": "2026-03-31T18:07:43.628661+00:00",
+  "fim": "2026-03-31T18:09:48.237199+00:00",
+  "duracao_segundos": 124.6
+}

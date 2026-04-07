@@ -1,0 +1,578 @@
+[
+  {
+    "numero_processo": "007193980",
+    "nome_marca": "EPX",
+    "situacao": "Extinto",
+    "titular": "ISOJUNX INDÚSTRIA DE TINTAS ESPECIAIS LTDA",
+    "classe": 9,
+    "prioridade": "12/06/1979"
+  },
+  {
+    "numero_processo": "007547579",
+    "nome_marca": "EXX",
+    "situacao": "Extinto",
+    "titular": "EXXON MOBIL CORPORATION",
+    "classe": 9,
+    "prioridade": "12/12/1974"
+  },
+  {
+    "numero_processo": "007547609",
+    "nome_marca": "EXX",
+    "situacao": "Extinto",
+    "titular": "EXXON MOBIL CORPORATION",
+    "classe": 9,
+    "prioridade": "12/12/1974"
+  },
+  {
+    "numero_processo": "740234200",
+    "nome_marca": "EXX",
+    "situacao": "Extinto",
+    "titular": "EXXON MOBIL CORPORATION",
+    "classe": 9,
+    "prioridade": "12/12/1974"
+  },
+  {
+    "numero_processo": "740234226",
+    "nome_marca": "EXX",
+    "situacao": "Extinto",
+    "titular": "EXXON MOBIL CORPORATION",
+    "classe": 9,
+    "prioridade": "12/12/1974"
+  },
+  {
+    "numero_processo": "740234250",
+    "nome_marca": "EXX",
+    "situacao": "Extinto",
+    "titular": "EXXON MOBIL CORPORATION",
+    "classe": 9,
+    "prioridade": "12/12/1974"
+  },
+  {
+    "numero_processo": "750014679",
+    "nome_marca": "EXX",
+    "situacao": "Extinto",
+    "titular": "EXXON MOBIL CORPORATION",
+    "classe": 9,
+    "prioridade": "28/01/1975"
+  },
+  {
+    "numero_processo": "750020202",
+    "nome_marca": "ALTER EGO",
+    "situacao": "Extinto",
+    "titular": "MALARD-PORET STYLE-PROMOTION.",
+    "classe": 9,
+    "prioridade": "29/08/1974"
+  },
+  {
+    "numero_processo": "790334585",
+    "nome_marca": "EGO",
+    "situacao": "Extinto",
+    "titular": "EGO EDITORIAL E SERVICOS GRAFICOS LIMITADA",
+    "classe": 9,
+    "prioridade": "13/11/1979"
+  },
+  {
+    "numero_processo": "790378710",
+    "nome_marca": "EGO-PAK",
+    "situacao": "Extinto",
+    "titular": "OTTO NIEDERER SONS INC",
+    "classe": 9,
+    "prioridade": "21/12/1979"
+  },
+  {
+    "numero_processo": "800110447",
+    "nome_marca": "EGA",
+    "situacao": "Extinto",
+    "titular": "DINIZ & DINIZ LTDA",
+    "classe": 9,
+    "prioridade": "28/04/1980"
+  },
+  {
+    "numero_processo": "811590232",
+    "nome_marca": "E-EGG",
+    "situacao": "Extinto",
+    "titular": "B.K. CONTROLES ELETRONICOS S/A",
+    "classe": 9,
+    "prioridade": "05/06/1984"
+  },
+  {
+    "numero_processo": "812011279",
+    "nome_marca": "EBX",
+    "situacao": "Extinto",
+    "titular": "KONINKLIJKE PHILIPS ELECTRONICS N.V.",
+    "classe": 9,
+    "prioridade": "29/05/1985"
+  },
+  {
+    "numero_processo": "812250273",
+    "nome_marca": "SISTEMA SIEMENS EDX",
+    "situacao": "Extinto",
+    "titular": "SIEMENS AKTIENGESELLSCHAFT",
+    "classe": 9,
+    "prioridade": "29/10/1985"
+  },
+  {
+    "numero_processo": "812689780",
+    "nome_marca": "SUPER-EGO",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ROTHENBERGER,S.A.",
+    "classe": 9,
+    "prioridade": "08/07/1986"
+  },
+  {
+    "numero_processo": "812747186",
+    "nome_marca": "EGG'S",
+    "situacao": "Extinto",
+    "titular": "TADEM CONFECCOES LTDA",
+    "classe": 9,
+    "prioridade": "15/07/1986"
+  },
+  {
+    "numero_processo": "812761987",
+    "nome_marca": "EGO-AT",
+    "situacao": "Arquivado",
+    "titular": "HN PARTICIPACAO E SERVICOS LTDA.",
+    "classe": 9,
+    "prioridade": "04/08/1986"
+  },
+  {
+    "numero_processo": "812889150",
+    "nome_marca": "DEANDÊ LEVANTA O EGO",
+    "situacao": "Arquivado",
+    "titular": "LOJAS DE CONFECCOES DEANDE LTDA",
+    "classe": 9,
+    "prioridade": "26/09/1986"
+  },
+  {
+    "numero_processo": "812891538",
+    "nome_marca": "DEANDÊ LEVANTA O EGO",
+    "situacao": "Arquivado",
+    "titular": "LOJAS DE CONFECCOES DEANDE LTDA",
+    "classe": 9,
+    "prioridade": "29/09/1986"
+  },
+  {
+    "numero_processo": "813783488",
+    "nome_marca": "EGO",
+    "situacao": "Arquivado",
+    "titular": "IN WEAR INDUSTRIA E COMERCIO LTDA",
+    "classe": 9,
+    "prioridade": "16/10/1987"
+  },
+  {
+    "numero_processo": "814138187",
+    "nome_marca": "EGO S P",
+    "situacao": "Extinto",
+    "titular": "EGO MOTO CENTER LTDA",
+    "classe": 9,
+    "prioridade": "29/03/1988"
+  },
+  {
+    "numero_processo": "814143946",
+    "nome_marca": "EGO S P",
+    "situacao": "Extinto",
+    "titular": "EGO MOTO CENTER LTDA",
+    "classe": 9,
+    "prioridade": "30/03/1988"
+  },
+  {
+    "numero_processo": "814197728",
+    "nome_marca": "EXX-PRINT",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Exxon Mobil Corporation",
+    "classe": 9,
+    "prioridade": "11/04/1988"
+  },
+  {
+    "numero_processo": "814250025",
+    "nome_marca": "EGO'S JEANS",
+    "situacao": "Arquivado",
+    "titular": "PALMIRA DE OLIVEIRA MAZZETTI",
+    "classe": 9,
+    "prioridade": "29/04/1988"
+  },
+  {
+    "numero_processo": "814278612",
+    "nome_marca": "EGO",
+    "situacao": "Arquivado",
+    "titular": "CALÇADOS BIBI LTDA.",
+    "classe": 9,
+    "prioridade": "03/06/1988"
+  },
+  {
+    "numero_processo": "814418511",
+    "nome_marca": "EGO",
+    "situacao": "Arquivado",
+    "titular": "EGO VEICULOS LTDA",
+    "classe": 9,
+    "prioridade": "30/08/1988"
+  },
+  {
+    "numero_processo": "815106360",
+    "nome_marca": "EGO",
+    "situacao": "Arquivado",
+    "titular": "PAVANNI CONFECCOES LTDA ME",
+    "classe": 9,
+    "prioridade": "04/10/1989"
+  },
+  {
+    "numero_processo": "815389949",
+    "nome_marca": "EGA",
+    "situacao": "Arquivado",
+    "titular": "EGA ENGENHARIA E AUTOMACAO LTDA",
+    "classe": 9,
+    "prioridade": "12/03/1990"
+  },
+  {
+    "numero_processo": "815389973",
+    "nome_marca": "EGA",
+    "situacao": "Arquivado",
+    "titular": "EGA ENGENHARIA E AUTOMACAO LTDA",
+    "classe": 9,
+    "prioridade": "12/03/1990"
+  },
+  {
+    "numero_processo": "815475284",
+    "nome_marca": "EGC",
+    "situacao": "Extinto",
+    "titular": "C.G.E.IND.E COM.DE AUTO PECAS LTDA",
+    "classe": 9,
+    "prioridade": "17/05/1990"
+  },
+  {
+    "numero_processo": "815581270",
+    "nome_marca": "EGA INFORMATICA",
+    "situacao": "Arquivado",
+    "titular": "EGA COMERCIO E INFORMATICA LTDA ME",
+    "classe": 9,
+    "prioridade": "11/07/1990"
+  },
+  {
+    "numero_processo": "815942494",
+    "nome_marca": "EGO",
+    "situacao": "Arquivado",
+    "titular": "RIO VELHO S A INDUSTRIAS GRAFICAS",
+    "classe": 9,
+    "prioridade": "30/11/1990"
+  },
+  {
+    "numero_processo": "816646473",
+    "nome_marca": "EPX/AP",
+    "situacao": "Extinto",
+    "titular": "FUJITSU LIMITED",
+    "classe": 9,
+    "prioridade": "19/03/1992"
+  },
+  {
+    "numero_processo": "816657807",
+    "nome_marca": "EGT",
+    "situacao": "Extinto",
+    "titular": "EUROPEAN GAS TURBINES NV",
+    "classe": 9,
+    "prioridade": "09/10/1991"
+  },
+  {
+    "numero_processo": "816657815",
+    "nome_marca": "EGT",
+    "situacao": "Extinto",
+    "titular": "EUROPEAN GAS TURBINES NV",
+    "classe": 9,
+    "prioridade": "09/10/1991"
+  },
+  {
+    "numero_processo": "816997462",
+    "nome_marca": "VICFLEX EZX",
+    "situacao": "Extinto",
+    "titular": "VIC TRANSMISSOES LTDA",
+    "classe": 9,
+    "prioridade": "07/01/1993"
+  },
+  {
+    "numero_processo": "817178848",
+    "nome_marca": "EGM",
+    "situacao": "Extinto",
+    "titular": "CALCADOS E G M LTDA ME",
+    "classe": 9,
+    "prioridade": "19/04/1993"
+  },
+  {
+    "numero_processo": "817609679",
+    "nome_marca": "ELX",
+    "situacao": "Registro de marca extinto",
+    "titular": "FIAT AUTOMÓVEIS S.A.",
+    "classe": 9,
+    "prioridade": "22/12/1993"
+  },
+  {
+    "numero_processo": "817789782",
+    "nome_marca": "EGO",
+    "situacao": "Arquivado",
+    "titular": "RIO VELHO S A INDUSTRIAS GRAFICAS",
+    "classe": 9,
+    "prioridade": "20/04/1994"
+  },
+  {
+    "numero_processo": "818418540",
+    "nome_marca": "EGU",
+    "situacao": "Arquivado",
+    "titular": "HUBTEX SULAMERICANA MÁQUINAS LTDA",
+    "classe": 9,
+    "prioridade": "25/04/1995"
+  },
+  {
+    "numero_processo": "818418559",
+    "nome_marca": "EGG",
+    "situacao": "Arquivado",
+    "titular": "HUBTEX SULAMERICANA MÁQUINAS LTDA",
+    "classe": 9,
+    "prioridade": "25/04/1995"
+  },
+  {
+    "numero_processo": "818418583",
+    "nome_marca": "EGV",
+    "situacao": "Arquivado",
+    "titular": "HUBTEX SULAMERICANA MÁQUINAS LTDA",
+    "classe": 9,
+    "prioridade": "25/04/1995"
+  },
+  {
+    "numero_processo": "818671904",
+    "nome_marca": "EDX",
+    "situacao": "Registro de marca extinto",
+    "titular": "FCA FIAT CHRYSLER AUTOMÓVEIS BRASIL LTDA.",
+    "classe": 9,
+    "prioridade": "31/07/1995"
+  },
+  {
+    "numero_processo": "819090735",
+    "nome_marca": "EGK MOTOPARTS",
+    "situacao": "Registro de marca extinto",
+    "titular": "COMERCIAL 2G COMÉRCIO DE PEÇAS PARA MOTOS LTDA",
+    "classe": 9,
+    "prioridade": "09/04/1996"
+  },
+  {
+    "numero_processo": "819376990",
+    "nome_marca": "EGR",
+    "situacao": "Extinto",
+    "titular": "OAKMOORE PTY LTD.",
+    "classe": 9,
+    "prioridade": "29/08/1996"
+  },
+  {
+    "numero_processo": "819609064",
+    "nome_marca": "PALIO EDX",
+    "situacao": "Arquivado",
+    "titular": "FIAT AUTO PARTECIPAZIONE S.p.A.",
+    "classe": 9,
+    "prioridade": "30/12/1996"
+  },
+  {
+    "numero_processo": "819812196",
+    "nome_marca": "EG3",
+    "situacao": "Extinto",
+    "titular": "EG3 S.A.",
+    "classe": 9,
+    "prioridade": "07/02/1997"
+  },
+  {
+    "numero_processo": "820091510",
+    "nome_marca": "MOLAÇO EGG",
+    "situacao": "Extinto",
+    "titular": "INDÚSTRIA DE MOLAS AÇO LTDA",
+    "classe": 9,
+    "prioridade": "17/06/1997"
+  },
+  {
+    "numero_processo": "820350001",
+    "nome_marca": "EGP EUCALYPTUS GLUED PANEL",
+    "situacao": "Arquivado",
+    "titular": "FLOSUL INDUSTRIA E COMERCIO DE MADEIRAS LTDA",
+    "classe": 9,
+    "prioridade": "11/11/1997"
+  },
+  {
+    "numero_processo": "820944858",
+    "nome_marca": "EAX",
+    "situacao": "Arquivado",
+    "titular": "CREATIVE TECHNOLOGY LTD.",
+    "classe": 9,
+    "prioridade": "28/07/1998"
+  },
+  {
+    "numero_processo": "821009893",
+    "nome_marca": "GEX",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BMK INDUSTRIAL LTDA",
+    "classe": 9,
+    "prioridade": "07/08/1998"
+  },
+  {
+    "numero_processo": "821226789",
+    "nome_marca": "EGO",
+    "situacao": "Registro de marca em vigor",
+    "titular": "E.G.O. ELEKTRO-GERAETEBAU GMBH",
+    "classe": 9,
+    "prioridade": "20/11/1998"
+  },
+  {
+    "numero_processo": "822900173",
+    "nome_marca": "EFX",
+    "situacao": "Arquivado",
+    "titular": "EFX COMÉRCIO PARTICIPAÇÕES E EMPREENDIMENTOS LTDA",
+    "classe": 9,
+    "prioridade": "28/06/2000"
+  },
+  {
+    "numero_processo": "823664759",
+    "nome_marca": "EGM INFORMÁTICA",
+    "situacao": "Arquivado",
+    "titular": "E.G.M. INFORMÁTICA LTDA",
+    "classe": 9,
+    "prioridade": "16/01/2001"
+  },
+  {
+    "numero_processo": "824004795",
+    "nome_marca": "EGO",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "TC LICENSE, LTD.",
+    "classe": 9,
+    "prioridade": "13/06/2001"
+  },
+  {
+    "numero_processo": "824004825",
+    "nome_marca": "EGO",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "TC LICENSE, LTD.",
+    "classe": 9,
+    "prioridade": "13/06/2001"
+  },
+  {
+    "numero_processo": "823493458",
+    "nome_marca": "EGA EMPÓRIO GIUSEPPE ANTONIO",
+    "situacao": "Registro de marca extinto",
+    "titular": "THYROP INDUSTRIAL LTDA",
+    "classe": 9,
+    "prioridade": "06/08/2001"
+  },
+  {
+    "numero_processo": "824201167",
+    "nome_marca": "EAX",
+    "situacao": "Arquivado",
+    "titular": "CREATIVE TECHNOLOGY LTD.",
+    "classe": 9,
+    "prioridade": "26/12/2001"
+  },
+  {
+    "numero_processo": "824616596",
+    "nome_marca": "EBX NET",
+    "situacao": "Arquivado",
+    "titular": "CIA eBX EXPRESS BRASIL",
+    "classe": 9,
+    "prioridade": "20/06/2002"
+  },
+  {
+    "numero_processo": "825275806",
+    "nome_marca": "EGO",
+    "situacao": "Registro de marca em vigor",
+    "titular": "EGO ÓTICA LTDA.",
+    "classe": 9,
+    "prioridade": "17/01/2003"
+  },
+  {
+    "numero_processo": "825520320",
+    "nome_marca": "EGO",
+    "situacao": "Registro de marca em vigor",
+    "titular": "IT GAMES COMÉRCIO E SERVIÇOS DE INFORMATICA LTDA",
+    "classe": 9,
+    "prioridade": "10/06/2003"
+  },
+  {
+    "numero_processo": "825532523",
+    "nome_marca": "AGX TECNOLOGIA",
+    "situacao": "Registro de marca extinto",
+    "titular": "AGX TECNOLOGIA LTDA.",
+    "classe": 9,
+    "prioridade": "23/06/2003"
+  },
+  {
+    "numero_processo": "825954649",
+    "nome_marca": "EDX",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BVX IMPORTAÇÃO E EXPORTAÇÃO EIRELI",
+    "classe": 9,
+    "prioridade": "21/11/2003"
+  },
+  {
+    "numero_processo": "827624964",
+    "nome_marca": "EGG REMOVER",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "EMBREX, INC",
+    "classe": 9,
+    "prioridade": "05/08/2005"
+  },
+  {
+    "numero_processo": "828204209",
+    "nome_marca": "SGX PHARMACEUTICALS",
+    "situacao": "Registro de marca extinto",
+    "titular": "SGX PHARMACEUTICALS, INC.",
+    "classe": 9,
+    "prioridade": "29/08/2005"
+  },
+  {
+    "numero_processo": "900280115",
+    "nome_marca": "EMX",
+    "situacao": "Registro de marca extinto",
+    "titular": "LYRIO & RIBEIRO INDUSTRIA E TECNOLOGIA LTDA",
+    "classe": 9,
+    "prioridade": "17/04/2007"
+  },
+  {
+    "numero_processo": "829821139",
+    "nome_marca": "I - EGG",
+    "situacao": "Arquivado",
+    "titular": "JUSTER CO., LTD",
+    "classe": 9,
+    "prioridade": "19/08/2008"
+  },
+  {
+    "numero_processo": "902135481",
+    "nome_marca": "HGX CONTROLLS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "HGX CONTROLLS SISTEMAS INTELIGENTES LTDA",
+    "classe": 9,
+    "prioridade": "20/11/2009"
+  },
+  {
+    "numero_processo": "902222970",
+    "nome_marca": "EGO",
+    "situacao": "Registro de marca extinto",
+    "titular": "IT GAMES COMÉRCIO E SERVIÇOS DE INFORMATICA LTDA",
+    "classe": 9,
+    "prioridade": "23/12/2009"
+  },
+  {
+    "numero_processo": "901722758",
+    "nome_marca": "EFX",
+    "situacao": "Arquivado",
+    "titular": "POWER BALANCE.INC",
+    "classe": 9,
+    "prioridade": "15/06/2009"
+  },
+  {
+    "numero_processo": "831236310",
+    "nome_marca": "E4X",
+    "situacao": "Registro de marca extinto",
+    "titular": "FIFTYONE, INC.",
+    "classe": 9,
+    "prioridade": "04/10/2011"
+  },
+  {
+    "numero_processo": "831247746",
+    "nome_marca": "EXG",
+    "situacao": "Registro de marca em vigor",
+    "titular": "KEYSIGHT TECHNOLOGIES, INC.",
+    "classe": 9,
+    "prioridade": "25/10/2011"
+  }
+]

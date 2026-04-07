@@ -16,15 +16,15 @@ async function uploadToDrive(task_id, contratoJSON) {
 
   // Localiza PDFs gerados
   const files    = await fs.readdir(outDir);
-  const pdfFiles = files.filter(f => f.endsWith('.pdf'));
+  const pdfFiles = files.filter(f => f.endsWith('.pdf') || f.endsWith('.docx'));
 
   if (pdfFiles.length === 0) {
-    throw new Error(`Nenhum PDF encontrado em ${outDir}`);
+    throw new Error(`Nenhum documento (PDF/DOCX) encontrado em ${outDir}`);
   }
 
   for (const pdfFile of pdfFiles) {
     const pdfPath = path.join(outDir, pdfFile);
-    console.log(`📤 Enviando ${pdfFile} para o Drive...`);
+    console.log(`📤 Enviando ${pdfFile} para o Drive (${pdfFile.endsWith('.docx') ? 'DOCX' : 'PDF'})...`);
 
     const { stdout, stderr } = await execFileAsync(
       'python3',

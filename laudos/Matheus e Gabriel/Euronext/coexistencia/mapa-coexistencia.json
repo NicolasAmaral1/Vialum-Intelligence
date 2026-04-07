@@ -1,0 +1,36 @@
+{
+  "clusters": {
+    "euronext": {
+      "marcas_vivas": ["829904484"],
+      "marcas_mortas": ["829904506", "829904476", "829904492"],
+      "titulares_distintos": 1,
+      "titulares": ["NYSE GROUP, INC."],
+      "indeferimentos": 0,
+      "desgaste": "INEXISTENTE",
+      "parecer": "Termo monopolizado por único titular (NYSE GROUP, INC. — bolsa de valores). Zero convivência com terceiros. Processo 829904484 em exame ativo na classe 9."
+    },
+    "euronet": {
+      "marcas_vivas": [],
+      "marcas_mortas": ["824191935", "819986461", "200022970"],
+      "titulares_distintos": 2,
+      "titulares": ["EDITORA EUROPA LTDA", "EURONET COMERCIO LTDA"],
+      "indeferimentos": 0,
+      "desgaste": "INEXISTENTE",
+      "parecer": "Todas extintas/arquivadas. Radical próximo mas sem convivência atual."
+    },
+    "euro_prefixo": {
+      "marcas_vivas": ["904761380"],
+      "titulares_distintos": 1,
+      "desgaste": "PARCIAL",
+      "parecer": "Prefixo 'EURO' desgastado no comércio brasileiro em geral, mas com poucos registros nas classes pesquisadas."
+    },
+    "next_sufixo": {
+      "marcas_vivas": ["917187318", "917339347"],
+      "titulares_distintos": 1,
+      "desgaste": "PARCIAL",
+      "parecer": "Sufixo 'NEXT' produtivo (PETRONEXT LAB), mas poucos registros."
+    }
+  },
+  "parecer_geral": "Campo com baixíssima densidade. O termo EURONEXT não é desgastado — é associado a um único titular global (NYSE/Euronext N.V.). Os componentes EURO e NEXT são desgastados individualmente, mas a combinação é fortemente associada à bolsa de valores europeia.",
+  "gerado_em": "2026-03-31T15:58:00Z"
+}

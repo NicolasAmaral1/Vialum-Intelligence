@@ -1,0 +1,155 @@
+[
+  {
+    "numero_processo": "900026731",
+    "nome_marca": "PLENNA VITA",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "CELIA PERDOMO",
+    "classe": 44,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "900036524",
+    "nome_marca": "LASER & ESTÉTICA PLENNA",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "GS COMERCIAL E SERVIÇOS DE ESTÉTICA LTDA ME",
+    "classe": 44,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "821307550",
+    "nome_marca": "PLENNA MED-DENTAL",
+    "situacao": "Arquivado",
+    "titular": "PLENNA DENTAL LTDA.",
+    "classe": 39,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "940390132",
+    "nome_marca": "Plenna.psi",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "PLENNA SOFTWARE E TECNOLOGIA LTDA",
+    "classe": 42,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "940389827",
+    "nome_marca": "Plenna.ia",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "PLENNA SOFTWARE E TECNOLOGIA LTDA",
+    "classe": 42,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "822688964",
+    "nome_marca": "P PLENNA",
+    "situacao": "Registro de marca extinto",
+    "titular": "PLENNA MATERIAIS DE CONSTRUCAO LTDA - EPP",
+    "classe": 35,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "821789040",
+    "nome_marca": "PLENNA SAÚDE DENTAL",
+    "situacao": "Arquivado",
+    "titular": "PLENNA DENTAL LTDA.",
+    "classe": 39,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "821305042",
+    "nome_marca": "PLENNA SAUDE DENTAL",
+    "situacao": "Extinto",
+    "titular": "PLENNA DENTAL LTDA.",
+    "classe": 44,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "821307541",
+    "nome_marca": "PLENNA MED",
+    "situacao": "Arquivado",
+    "titular": "PLENNA DENTAL LTDA.",
+    "classe": 39,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "821305050",
+    "nome_marca": "PLENNA MEDICAL",
+    "situacao": "Arquivado",
+    "titular": "PLENNA DENTAL LTDA.",
+    "classe": 39,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "823677494",
+    "nome_marca": "PLENNA COMUNICAÇÃO INTEGRADA",
+    "situacao": "Registro de marca extinto",
+    "titular": "UNIGRÁFICA INDÚSTRIA GRÁFICA LTDA",
+    "classe": 42,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "821088211",
+    "nome_marca": "PLENNA",
+    "situacao": "Extinto",
+    "titular": "PLENNA DENTAL LTDA.",
+    "classe": 42,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "940977877",
+    "nome_marca": "-",
+    "situacao": "Pedido considerado inexistente",
+    "titular": "REGIANE APARECIDA GALVÃO CORDEIRO",
+    "classe": 42,
+    "similaridade_pct": 99,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "825438659",
+    "nome_marca": "PLENYTA",
+    "situacao": "Arquivado",
+    "titular": "PLENYTA CLINICA ESTETICA LTDA",
+    "classe": 44,
+    "similaridade_pct": 85,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "816772711",
+    "nome_marca": "PLENAR",
+    "situacao": "Arquivado",
+    "titular": "PLENAR PLANEJAMENTO ENGENHARIA E CONSTRUÇÕES LTDA",
+    "classe": 37,
+    "similaridade_pct": 83,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "824107268",
+    "nome_marca": "PLENART",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PLENART LOCAÇÃO DE EQUIPAMENTOS LTDA",
+    "classe": 42,
+    "similaridade_pct": 71,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "902499599",
+    "nome_marca": "SPLENDA",
+    "situacao": "Registro de marca extinto",
+    "titular": "SPLENDA ENGENHARIA CONSTRUÇOES E EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "classe": 42,
+    "similaridade_pct": 71,
+    "fonte": "classe-42-pagina-1"
+  }
+]

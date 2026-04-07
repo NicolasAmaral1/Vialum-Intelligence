@@ -372,19 +372,19 @@ def main():
     # Move todos os arquivos anteriores que comecem com o prefixo da marca e terminem com extensões de saída
     arquivados_dir = plano_path.parent / "arquivados"
     prefixo_busca = f"{marca} -"
-    extensoes_alvo = ['.docx', '.pdf', '.md']
-    
+    extensoes_alvo = ['.docx']  # Só arquiva DOCX antigo — não toca no PDF
+
     # Busca arquivos que correspondam ao padrão, mas exclui o próprio plano de análise fonte
     try:
         if not arquivados_dir.exists():
             arquivados_dir.mkdir(parents=True)
-            
+
         for file_path in plano_path.parent.iterdir():
             if file_path.is_file() and file_path.name.startswith(prefixo_busca):
                 # Não arquivar o próprio plano de análise fonte que estamos lendo agora
                 if file_path.name == plano_path.name:
                     continue
-                # Arquivar laudos antigos (docx/pdf) e metadados antigos
+                # Arquivar apenas DOCX antigos deste script
                 if any(file_path.name.endswith(ext) for ext in extensoes_alvo):
                     dest_path = arquivados_dir / file_path.name
                     print(f"📦 Arquivando versão local antiga: {file_path.name}")

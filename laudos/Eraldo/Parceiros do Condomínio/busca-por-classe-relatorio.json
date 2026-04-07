@@ -1,0 +1,41 @@
+{
+  "marca": "PARCEIROS",
+  "classes": [
+    35,
+    36,
+    42,
+    38
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "por_classe": {
+    "35": {
+      "encontradas": 373,
+      "mantidas": 373
+    },
+    "36": {
+      "encontradas": 85,
+      "mantidas": 85
+    },
+    "42": {
+      "encontradas": 81,
+      "mantidas": 81
+    },
+    "38": {
+      "encontradas": 27,
+      "mantidas": 27
+    }
+  },
+  "busca_geral": {
+    "encontradas": 1000,
+    "novas_unicas": 560
+  },
+  "total_encontradas": 566,
+  "total_mantidas": 566,
+  "total_detalhadas": 1082,
+  "sucesso": true,
+  "erro": null,
+  "falhas_detalhe": [
+    "823985121",
+    "916108783"
+  ]
+}

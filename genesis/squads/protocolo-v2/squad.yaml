@@ -75,6 +75,9 @@ integration:
     list_path: "Avelum > Genesis > Clientes > Protocolo"
     status_entrada: "contrato + proc"
     status_saida: "pagamento & assinatura"
+    assignee_padrao:
+      nome: "Luan Mendes"
+      user_id: 224517211
     custom_fields:
       valor: "d660b997"
       forma_pagamento: "c833a0a0"

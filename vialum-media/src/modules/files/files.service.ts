@@ -53,16 +53,21 @@ export async function uploadFile(params: CreateFileParams) {
   return file;
 }
 
-export async function uploadFromUrl(params: CreateFromUrlParams) {
+export async function uploadFromUrl(params: CreateFromUrlParams & { mimeTypeOverride?: string }) {
   const { buffer, contentType, filename: inferredFilename } = await s3.downloadFromUrl(
     params.url,
     params.headers,
   );
 
+  // Use override if provided (e.g. WhatsApp sends octet-stream but we know the real type)
+  const finalMimeType = params.mimeTypeOverride && params.mimeTypeOverride !== 'application/octet-stream'
+    ? params.mimeTypeOverride
+    : contentType;
+
   return uploadFile({
     accountId: params.accountId,
     filename: params.filename ?? inferredFilename,
-    mimeType: contentType,
+    mimeType: finalMimeType,
     buffer,
     contextType: params.contextType,
     contextId: params.contextId,
@@ -111,6 +116,7 @@ export async function uploadFromWhatsApp(params: {
     url: downloadUrl,
     filename: params.filename ?? `wa_${Date.now()}`,
     headers: downloadHeaders,
+    mimeTypeOverride: params.mimeType, // WhatsApp URLs often return octet-stream
     contextType: params.contextType,
     contextId: params.contextId,
     tags: [...(params.tags ?? []), 'whatsapp', params.provider],

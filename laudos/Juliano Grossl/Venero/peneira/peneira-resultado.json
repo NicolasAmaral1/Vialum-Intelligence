@@ -1,0 +1,109 @@
+{
+  "marca_analisada": "VÉNERO",
+  "nivel_1_candidatas": [
+    {
+      "numero_processo": "916003884",
+      "nome_marca": "VENERA",
+      "classe": 25,
+      "situacao": "Registro de marca em vigor",
+      "titular": "HTA COMÉRCIO DE VESTUÁRIO LTDA - ME",
+      "similaridade_pct": 99,
+      "bucket": "A"
+    },
+    {
+      "numero_processo": "934647704",
+      "nome_marca": "VENERE",
+      "classe": 25,
+      "situacao": "Aguardando fim de sobrestamento",
+      "titular": "LOZEMAR CONFECÇÕES LTDA.",
+      "similaridade_pct": 99,
+      "bucket": "A"
+    },
+    {
+      "numero_processo": "936089130",
+      "nome_marca": "VENERI",
+      "classe": 25,
+      "situacao": "Aguardando exame de mérito",
+      "titular": "VENERI INDÚSTRIA E COMÉRCIO TÊXTIL E DE CONFECÇÕES LTDA",
+      "similaridade_pct": 99,
+      "bucket": "A"
+    },
+    {
+      "numero_processo": "921917767",
+      "nome_marca": "vènere",
+      "classe": 25,
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "MONARA FABRES SCHIAVO 13202749781",
+      "similaridade_pct": 99,
+      "bucket": "B"
+    },
+    {
+      "numero_processo": "925085154",
+      "nome_marca": "venere",
+      "classe": 25,
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "YASMIN",
+      "similaridade_pct": 99,
+      "bucket": "B"
+    },
+    {
+      "numero_processo": "917613309",
+      "nome_marca": "VENERE",
+      "classe": 25,
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "LOZEMAR CONFECÇÕES LTDA.",
+      "similaridade_pct": 99,
+      "bucket": "B"
+    }
+  ],
+  "nivel_2_zona_atencao": [
+    {
+      "numero_processo": "913584150",
+      "nome_marca": "V VENERE",
+      "classe": 25,
+      "situacao": "Registro de marca em vigor",
+      "titular": "TAJU CONFECÇÕES E COMÉRCIO DE ROUPAS LTDA. ME.",
+      "similaridade_pct": 99,
+      "bucket": "A"
+    },
+    {
+      "numero_processo": "937636711",
+      "nome_marca": "Venus Venera",
+      "classe": 25,
+      "situacao": "Aguardando exame de mérito",
+      "titular": "LILIAN PARADELLA DE SOUZA COSTA",
+      "similaridade_pct": 99,
+      "bucket": "A"
+    },
+    {
+      "numero_processo": "921373759",
+      "nome_marca": "VELERO",
+      "classe": 25,
+      "situacao": "Pedido de registro de marca indeferido",
+      "titular": "PAULO MATHEUS GIRÃO DE ANDRADE",
+      "similaridade_pct": 99,
+      "bucket": "B"
+    }
+  ],
+  "nivel_3_descartadas": [
+    {
+      "numero_processo": "907111521",
+      "nome_marca": "MENINA VENENO",
+      "classe": 25,
+      "bucket": "A"
+    },
+    {
+      "numero_processo": "831057734",
+      "nome_marca": "VV VIA VENETO",
+      "classe": 25,
+      "bucket": "A"
+    },
+    {
+      "numero_processo": "829377190",
+      "nome_marca": "VIA VENETO",
+      "classe": 25,
+      "bucket": "A"
+    }
+  ],
+  "gerado_em": "2026-03-31T00:00:00Z"
+}

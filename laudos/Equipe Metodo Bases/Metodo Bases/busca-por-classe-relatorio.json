@@ -1,26 +1,28 @@
 {
-  "marca": "METODO BASES",
+  "marca": "Bases",
   "classes": [
     41,
     44,
     16
   ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
   "por_classe": {
     "41": {
       "encontradas": 0,
-      "mantidas": 0,
-      "detalhadas": 0
+      "mantidas": 0
     },
     "44": {
       "encontradas": 0,
-      "mantidas": 0,
-      "detalhadas": 0
+      "mantidas": 0
     },
     "16": {
       "encontradas": 0,
-      "mantidas": 0,
-      "detalhadas": 0
+      "mantidas": 0
     }
+  },
+  "busca_geral": {
+    "encontradas": 0,
+    "novas_unicas": 0
   },
   "total_encontradas": 0,
   "total_mantidas": 0,
