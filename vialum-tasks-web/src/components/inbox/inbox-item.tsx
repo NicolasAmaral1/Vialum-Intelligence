@@ -2,58 +2,55 @@
 import { cn } from '@/lib/utils';
 import { formatDistanceToNow } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
-import type { Approval, Workflow } from '@/lib/api';
+import type { InboxItem, Workflow } from '@/lib/api';
 
-interface ApprovalItemProps {
-  approval: Approval;
-  onApprove: (id: string) => void;
-  onReject: (id: string) => void;
+interface InboxItemCardProps {
+  item: InboxItem;
   onClick: () => void;
 }
 
-export function ApprovalItem({ approval, onApprove, onReject, onClick }: ApprovalItemProps) {
-  const timeAgo = formatDistanceToNow(new Date(approval.createdAt), { addSuffix: true, locale: ptBR });
-  const workflowName = approval.workflow?.definition?.name || 'Workflow';
-  const clientData = approval.workflow?.clientData as Record<string, unknown> | undefined;
-  const clientName = clientData?.nome_marca || clientData?.nome || clientData?.razao_social || '';
+const priorityDot: Record<string, string> = {
+  urgent: 'bg-danger shadow-[0_0_8px_hsl(var(--danger)/0.4)]',
+  high: 'bg-danger',
+  normal: 'bg-warning shadow-[0_0_8px_hsl(var(--warning)/0.4)]',
+  low: 'bg-muted-foreground',
+};
+
+export function InboxItemCard({ item, onClick }: InboxItemCardProps) {
+  const timeAgo = formatDistanceToNow(new Date(item.createdAt), { addSuffix: true, locale: ptBR });
+  const dot = priorityDot[item.priority] || priorityDot.normal;
+  const workflowName = (item.context as Record<string, unknown>)?.workflowName
+    || (item.context as Record<string, unknown>)?.stageName
+    || '';
 
   return (
     <div
       className="group flex items-start gap-4 p-4 rounded-lg border border-border bg-card hover:bg-muted/50 hover:shadow-card transition-all cursor-pointer"
       onClick={onClick}
     >
-      {/* Priority dot */}
-      <div className="mt-1 w-2.5 h-2.5 rounded-full bg-danger flex-shrink-0 shadow-[0_0_8px_hsl(var(--danger)/0.4)]" />
+      <div className={cn('mt-1 w-2.5 h-2.5 rounded-full flex-shrink-0', dot)} />
 
-      {/* Content */}
       <div className="flex-1 min-w-0">
         <div className="flex items-baseline gap-2">
-          <h3 className="text-sm font-semibold text-foreground truncate">{approval.title}</h3>
+          <h3 className="text-sm font-semibold text-foreground truncate">{item.title}</h3>
           <span className="text-xs text-muted-foreground flex-shrink-0">{timeAgo}</span>
         </div>
-        <p className="text-xs text-muted-foreground mt-0.5">
-          {workflowName}{clientName ? ` — ${clientName}` : ''}
-        </p>
-        {approval.description && (
-          <p className="text-xs text-muted-foreground/70 mt-1 line-clamp-2">{approval.description}</p>
+        {workflowName && (
+          <p className="text-xs text-muted-foreground mt-0.5">{String(workflowName)}</p>
+        )}
+        {item.description && (
+          <p className="text-xs text-muted-foreground/70 mt-1 line-clamp-2">{item.description}</p>
+        )}
+        {item.assigneeRole && (
+          <span className="inline-block mt-1.5 px-2 py-0.5 text-[10px] font-medium rounded-full bg-primary/10 text-primary">
+            {item.assigneeRole}
+          </span>
         )}
       </div>
 
-      {/* Actions */}
-      <div className="flex gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0">
-        <button
-          onClick={(e) => { e.stopPropagation(); onApprove(approval.id); }}
-          className="px-3 py-1.5 text-xs font-medium rounded-md bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
-        >
-          Aprovar
-        </button>
-        <button
-          onClick={(e) => { e.stopPropagation(); onReject(approval.id); }}
-          className="px-3 py-1.5 text-xs font-medium rounded-md bg-danger/10 text-danger hover:bg-danger/20 transition-colors"
-        >
-          Rejeitar
-        </button>
-      </div>
+      <svg className="w-4 h-4 text-muted-foreground/40 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
     </div>
   );
 }
@@ -66,7 +63,7 @@ interface WorkflowItemProps {
 export function WorkflowItem({ workflow, onClick }: WorkflowItemProps) {
   const timeAgo = formatDistanceToNow(new Date(workflow.updatedAt), { addSuffix: true, locale: ptBR });
   const defName = workflow.definition?.name || 'Workflow';
-  const clientData = workflow.clientData as Record<string, unknown>;
+  const clientData = (workflow.clientData || {}) as Record<string, unknown>;
   const clientName = clientData?.nome_marca || clientData?.nome || '';
 
   const statusConfig: Record<string, { dot: string; label: string }> = {
@@ -79,7 +76,8 @@ export function WorkflowItem({ workflow, onClick }: WorkflowItemProps) {
   };
 
   const status = statusConfig[workflow.status] || statusConfig.idle;
-  const stages = Array.isArray(workflow.definition?.stages) ? workflow.definition.stages as Array<{ id: string; label: string }> : [];
+  const raw = workflow.definition?.stages;
+  const stages = Array.isArray(raw) ? raw as Array<{ id: string; label: string }> : [];
   const stageLabel = stages.find((s) => s.id === workflow.stage)?.label || workflow.stage;
 
   return (

@@ -1,20 +1,21 @@
 'use client';
 import { create } from 'zustand';
-import { api, type Approval, type Workflow } from '@/lib/api';
+import { api, type InboxItem, type Workflow } from '@/lib/api';
 
 interface InboxState {
-  approvals: Approval[];
+  items: InboxItem[];
   workflows: Workflow[];
   loading: boolean;
   error: string | null;
   fetch: () => Promise<void>;
-  addApproval: (approval: Approval) => void;
-  removeApproval: (id: string) => void;
+  addItem: (item: InboxItem) => void;
+  removeItem: (id: string) => void;
+  completeItem: (id: string, outputData: Record<string, unknown>) => Promise<void>;
   updateWorkflow: (id: string, data: Partial<Workflow>) => void;
 }
 
 export const useInbox = create<InboxState>((set, get) => ({
-  approvals: [],
+  items: [],
   workflows: [],
   loading: false,
   error: null,
@@ -22,12 +23,12 @@ export const useInbox = create<InboxState>((set, get) => ({
   fetch: async () => {
     set({ loading: true, error: null });
     try {
-      const [approvalsRes, workflowsRes] = await Promise.all([
-        api.getApprovals('status=pending'),
+      const [inboxRes, workflowsRes] = await Promise.all([
+        api.getInbox('status=pending'),
         api.getWorkflows('limit=50'),
       ]);
       set({
-        approvals: approvalsRes.data,
+        items: inboxRes.data,
         workflows: workflowsRes.data,
         loading: false,
       });
@@ -36,14 +37,19 @@ export const useInbox = create<InboxState>((set, get) => ({
     }
   },
 
-  addApproval: (approval) => {
+  addItem: (item) => {
     set((s) => ({
-      approvals: [approval, ...s.approvals.filter((a) => a.id !== approval.id)],
+      items: [item, ...s.items.filter((i) => i.id !== item.id)],
     }));
   },
 
-  removeApproval: (id) => {
-    set((s) => ({ approvals: s.approvals.filter((a) => a.id !== id) }));
+  removeItem: (id) => {
+    set((s) => ({ items: s.items.filter((i) => i.id !== id) }));
+  },
+
+  completeItem: async (id, outputData) => {
+    await api.completeInboxItem(id, outputData);
+    set((s) => ({ items: s.items.filter((i) => i.id !== id) }));
   },
 
   updateWorkflow: (id, data) => {

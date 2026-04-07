@@ -2,19 +2,17 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useInbox } from '@/stores/inbox';
-import { api } from '@/lib/api';
 import { getSocket, connectSocket } from '@/lib/socket';
-import { ApprovalItem, WorkflowItem } from './inbox-item';
-import type { Approval, Workflow } from '@/lib/api';
+import { InboxItemCard, WorkflowItem } from './inbox-item';
+import type { InboxItem } from '@/lib/api';
 
 export function InboxList() {
   const router = useRouter();
-  const { approvals, workflows, loading, error, fetch, addApproval, removeApproval, updateWorkflow } = useInbox();
+  const { items, workflows, loading, error, fetch, addItem, removeItem, updateWorkflow } = useInbox();
 
   useEffect(() => {
     fetch();
 
-    // Socket.IO real-time
     let socket: ReturnType<typeof getSocket> | null = null;
     try {
       connectSocket();
@@ -24,52 +22,33 @@ export function InboxList() {
       return;
     }
 
-    socket.on('approval:created', (data: Approval) => {
-      addApproval(data);
+    socket.on('inbox:item_created', (data: InboxItem) => {
+      addItem(data);
+    });
+
+    socket.on('inbox:item_completed', (data: { id: string }) => {
+      removeItem(data.id);
     });
 
     socket.on('workflow:updated', (data: { workflowId: string; status: string }) => {
       updateWorkflow(data.workflowId, { status: data.status });
-      // If approval was decided, refresh approvals
-      if (data.status === 'running') {
-        fetch();
-      }
     });
 
     return () => {
-      socket?.off('approval:created');
+      socket?.off('inbox:item_created');
+      socket?.off('inbox:item_completed');
       socket?.off('workflow:updated');
     };
   }, []);
 
-  const handleApprove = async (id: string) => {
-    try {
-      await api.decideApproval(id, { status: 'approved' });
-      removeApproval(id);
-    } catch (err) {
-      console.error('Failed to approve:', err);
-    }
-  };
-
-  const handleReject = async (id: string) => {
-    const reason = prompt('Motivo da rejeição:');
-    if (reason === null) return;
-    try {
-      await api.decideApproval(id, { status: 'rejected', reason });
-      removeApproval(id);
-    } catch (err) {
-      console.error('Failed to reject:', err);
-    }
-  };
-
-  // Split workflows into categories
+  const pendingItems = items.filter((i) => i.status === 'pending');
   const activeWorkflows = workflows.filter((w) =>
     ['running', 'hitl', 'paused', 'idle'].includes(w.status) && !w.completedAt
   );
-  const hasHitl = approvals.length > 0;
+  const hasPending = pendingItems.length > 0;
   const hasActive = activeWorkflows.length > 0;
 
-  if (loading && !approvals.length && !workflows.length) {
+  if (loading && !items.length && !workflows.length) {
     return (
       <div className="flex items-center justify-center h-64">
         <div className="w-5 h-5 border-2 border-primary border-t-transparent rounded-full animate-spin" />
@@ -89,28 +68,24 @@ export function InboxList() {
 
   return (
     <div className="space-y-6">
-      {/* HITL Section */}
-      {hasHitl && (
+      {hasPending && (
         <section>
           <h2 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3 flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-danger" />
-            Precisam de você ({approvals.length})
+            Precisam de voce ({pendingItems.length})
           </h2>
           <div className="space-y-2">
-            {approvals.map((a) => (
-              <ApprovalItem
-                key={a.id}
-                approval={a}
-                onApprove={handleApprove}
-                onReject={handleReject}
-                onClick={() => router.push(`/workflows/${a.workflowId}`)}
+            {pendingItems.map((item) => (
+              <InboxItemCard
+                key={item.id}
+                item={item}
+                onClick={() => router.push(`/workflows/${item.workflowId}`)}
               />
             ))}
           </div>
         </section>
       )}
 
-      {/* Active workflows */}
       {hasActive && (
         <section>
           <h2 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3 flex items-center gap-2">
@@ -129,8 +104,7 @@ export function InboxList() {
         </section>
       )}
 
-      {/* Empty state */}
-      {!hasHitl && !hasActive && (
+      {!hasPending && !hasActive && (
         <div className="flex flex-col items-center justify-center h-64 text-center">
           <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
             <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
@@ -138,7 +112,7 @@ export function InboxList() {
             </svg>
           </div>
           <p className="text-sm font-medium text-foreground">Tudo em dia</p>
-          <p className="text-xs text-muted-foreground mt-1">Nenhuma pendência no momento</p>
+          <p className="text-xs text-muted-foreground mt-1">Nenhuma pendencia no momento</p>
         </div>
       )}
     </div>

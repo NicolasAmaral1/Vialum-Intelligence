@@ -1,13 +1,14 @@
 'use client';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { useWorkflowDetail } from '@/stores/workflow';
+import { api, type InboxItem } from '@/lib/api';
 import { getSocket, connectSocket } from '@/lib/socket';
 import { ProgressPanel } from '@/components/workflow/progress-panel';
 import { TerminalPanel } from '@/components/workflow/terminal-panel';
 import { DataEditor } from '@/components/workflow/data-editor';
 import { FilesPanel } from '@/components/workflow/files-panel';
-import { ApprovalCard } from '@/components/workflow/approval-card';
+import { InboxItemDetail } from '@/components/workflow/inbox-item-detail';
 import { cn } from '@/lib/utils';
 import type { WorkflowEvent } from '@/lib/api';
 
@@ -15,12 +16,17 @@ export default function WorkflowDetailPage() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
   const { workflow, events, loading, error, fetch, setWorkflow, addEvent } = useWorkflowDetail();
+  const [inboxItems, setInboxItems] = useState<InboxItem[]>([]);
 
   useEffect(() => {
-    if (id) fetch(id);
+    if (id) {
+      fetch(id);
+      api.getInbox(`workflowId=${id}&status=pending`).then((res) => {
+        setInboxItems(res.data);
+      }).catch(() => {});
+    }
   }, [id]);
 
-  // Socket.IO: subscribe to workflow events
   useEffect(() => {
     if (!id) return;
     let socket: ReturnType<typeof getSocket> | null = null;
@@ -46,10 +52,22 @@ export default function WorkflowDetailPage() {
       }
     });
 
+    socket.on('inbox:item_created', (data: InboxItem) => {
+      if (data.workflowId === id) {
+        setInboxItems((prev) => [data, ...prev]);
+      }
+    });
+
+    socket.on('inbox:item_completed', (data: { id: string }) => {
+      setInboxItems((prev) => prev.filter((i) => i.id !== data.id));
+    });
+
     return () => {
       socket?.emit('workflow:unsubscribe', id);
       socket?.off('workflow:event');
       socket?.off('workflow:updated');
+      socket?.off('inbox:item_created');
+      socket?.off('inbox:item_completed');
     };
   }, [id]);
 
@@ -65,13 +83,12 @@ export default function WorkflowDetailPage() {
     return (
       <div className="p-6">
         <div className="p-4 rounded-lg bg-danger/10 border border-danger/20 text-sm text-danger">
-          {error || 'Workflow não encontrado'}
+          {error || 'Workflow nao encontrado'}
         </div>
       </div>
     );
   }
 
-  const pendingApprovals = workflow.approvals?.filter((a) => a.status === 'pending') || [];
   const commands = (workflow.definition?.commands || []) as Array<{ label: string; command: string; icon?: string }>;
   const statusLabel: Record<string, { text: string; color: string }> = {
     running: { text: 'IA trabalhando', color: 'bg-success' },
@@ -82,15 +99,16 @@ export default function WorkflowDetailPage() {
     completed: { text: 'Completo', color: 'bg-success' },
     cancelled: { text: 'Cancelado', color: 'bg-muted-foreground' },
   };
-  const status = statusLabel[workflow.status] || statusLabel.idle;
+
+  const hasHumanStep = inboxItems.length > 0;
+  const effectiveStatus = hasHumanStep ? 'hitl' : workflow.status;
+  const status = statusLabel[effectiveStatus] || statusLabel.idle;
   const defName = workflow.definition?.name || 'Workflow';
-  const clientName = (workflow.clientData as Record<string, unknown>)?.nome_marca
-    || (workflow.clientData as Record<string, unknown>)?.nome
-    || '';
+  const clientData = (workflow.clientData || {}) as Record<string, unknown>;
+  const clientName = clientData?.nome_marca || clientData?.nome || '';
 
   return (
     <div className="h-full flex flex-col">
-      {/* Header */}
       <header className="flex-shrink-0 h-14 flex items-center gap-4 px-6 border-b border-border">
         <button onClick={() => router.push('/inbox')} className="text-muted-foreground hover:text-foreground transition-colors">
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
@@ -108,9 +126,7 @@ export default function WorkflowDetailPage() {
         </div>
       </header>
 
-      {/* Content: 2-column layout */}
       <div className="flex-1 min-h-0 flex">
-        {/* Left column: Progress + Data + Files */}
         <div className="w-72 flex-shrink-0 border-r border-border overflow-y-auto p-4 space-y-6">
           <ProgressPanel workflow={workflow} />
 
@@ -123,18 +139,18 @@ export default function WorkflowDetailPage() {
           <FilesPanel events={events} />
         </div>
 
-        {/* Right column: Terminal + Approval */}
         <div className="flex-1 min-w-0 flex flex-col p-4 gap-4">
-          {/* Pending approvals */}
-          {pendingApprovals.map((a) => (
-            <ApprovalCard
-              key={a.id}
-              approval={a}
-              onDecided={() => fetch(workflow.id)}
+          {inboxItems.map((item) => (
+            <InboxItemDetail
+              key={item.id}
+              item={item}
+              onCompleted={() => {
+                setInboxItems((prev) => prev.filter((i) => i.id !== item.id));
+                fetch(workflow.id);
+              }}
             />
           ))}
 
-          {/* Terminal */}
           <div className="flex-1 min-h-0">
             <TerminalPanel workflowId={workflow.id} commands={commands} />
           </div>

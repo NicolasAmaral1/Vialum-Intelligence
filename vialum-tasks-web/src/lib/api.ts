@@ -40,7 +40,12 @@ export const api = {
   deleteWorkflow: (id: string) => apiFetch(`/tasks/api/v1/workflows/${id}`, { method: 'DELETE' }),
   getWorkflowEvents: (id: string, limit = 100) => apiFetch<{ data: WorkflowEvent[] }>(`/tasks/api/v1/workflows/${id}/events?limit=${limit}`),
 
-  // Approvals
+  // Inbox (v2)
+  getInbox: (params?: string) => apiFetch<PaginatedResponse<InboxItem>>(`/tasks/api/v1/inbox${params ? `?${params}` : ''}`),
+  getInboxItem: (id: string) => apiFetch<{ data: InboxItem }>(`/tasks/api/v1/inbox/${id}`),
+  completeInboxItem: (id: string, outputData: Record<string, unknown>) => apiFetch<{ data: InboxItem }>(`/tasks/api/v1/inbox/${id}/complete`, { method: 'POST', body: JSON.stringify({ outputData }) }),
+
+  // Approvals (legacy v1)
   getApprovals: (params?: string) => apiFetch<PaginatedResponse<Approval>>(`/tasks/api/v1/approvals${params ? `?${params}` : ''}`),
   decideApproval: (id: string, body: Record<string, unknown>) => apiFetch<{ data: Approval }>(`/tasks/api/v1/approvals/${id}`, { method: 'PATCH', body: JSON.stringify(body) }),
 
@@ -111,6 +116,33 @@ export interface Command {
   command: string;
   sentBy: string | null;
   createdAt: string;
+}
+
+export interface InboxItem {
+  id: string;
+  accountId: string;
+  type: string;
+  sourceService: string;
+  sourceId: string;
+  workflowId?: string;
+  stepId?: string;
+  title: string;
+  description?: string;
+  assigneeRole?: string;
+  assigneeId?: string;
+  priority: string;
+  status: string;
+  inputData?: Record<string, unknown>;
+  outputSchema?: Record<string, unknown>;
+  outputData?: Record<string, unknown>;
+  attachments: Array<{ name: string; url: string; type: string }>;
+  context?: Record<string, unknown>;
+  completedBy?: string;
+  completedAt?: string;
+  readBy: string[];
+  dismissedBy: string[];
+  createdAt: string;
+  updatedAt: string;
 }
 
 export interface PaginatedResponse<T> {
