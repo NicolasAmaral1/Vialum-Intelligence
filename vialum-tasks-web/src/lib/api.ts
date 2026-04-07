@@ -43,7 +43,7 @@ export const api = {
   // Inbox (v2)
   getInbox: (params?: string) => apiFetch<PaginatedResponse<InboxItem>>(`/tasks/api/v1/inbox${params ? `?${params}` : ''}`),
   getInboxItem: (id: string) => apiFetch<{ data: InboxItem }>(`/tasks/api/v1/inbox/${id}`),
-  completeInboxItem: (id: string, outputData: Record<string, unknown>) => apiFetch<{ data: InboxItem }>(`/tasks/api/v1/inbox/${id}/complete`, { method: 'POST', body: JSON.stringify({ outputData }) }),
+  completeInboxItem: (id: string, outputData: Record<string, unknown>) => apiFetch<{ data: InboxItem }>(`/tasks/api/v1/inbox/${id}/complete`, { method: 'POST', body: JSON.stringify({ output_data: outputData }) }),
 
   // Approvals (legacy v1)
   getApprovals: (params?: string) => apiFetch<PaginatedResponse<Approval>>(`/tasks/api/v1/approvals${params ? `?${params}` : ''}`),
