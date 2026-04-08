@@ -438,7 +438,17 @@ async function runHumanStep(workflowId: string, step: StepRow, bus: ContextBus):
   // Pause squad session if active (ball leaving AI)
   await pauseSessionIfActive(step.taskId);
 
-  const inputData = bus.resolveInput(step.inputSchema as Record<string, unknown> | null);
+  let inputData = bus.resolveInput(step.inputSchema as Record<string, unknown> | null);
+
+  // If no inputSchema defined, pass previous step's output as context for the reviewer
+  if (!step.inputSchema || Object.keys(inputData).length === 0) {
+    const snapshot = bus.getSnapshot();
+    const stepOutputs = (snapshot.stepOutputs || {}) as Record<string, unknown>;
+    const outputKeys = Object.keys(stepOutputs);
+    if (outputKeys.length > 0) {
+      inputData = stepOutputs[outputKeys[outputKeys.length - 1]] as Record<string, unknown> ?? {};
+    }
+  }
 
   // FIX #6: Check for existing pending inbox item
   const existing = await prisma.inboxItem.findFirst({
