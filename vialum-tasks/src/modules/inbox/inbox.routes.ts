@@ -38,6 +38,9 @@ export async function inboxRoutes(fastify: FastifyInstance) {
       ];
     }
 
+    // Workflow filter
+    if (query.workflowId) where.workflowId = query.workflowId;
+
     // Exclude dismissed by this user
     where.NOT = { dismissedBy: { has: userId } };
 
