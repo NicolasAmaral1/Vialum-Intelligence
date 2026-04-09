@@ -299,7 +299,9 @@ async function runAiStep(workflowId: string, step: StepRow, bus: ContextBus): Pr
   const prompt = step.promptTemplate ? bus.renderPrompt(step.promptTemplate) : '';
 
   const onLog: LogCallback = (entry: TranscriptEntry) => {
-    broadcastToWorkflow(workflowId, 'step:transcript', { workflowId, stepId: step.id, entry });
+    const payload = { workflowId, stepId: step.id, entry };
+    broadcastToWorkflow(workflowId, 'step:transcript', payload);
+    broadcastToAccount(step.accountId, 'step:transcript', payload);
   };
 
   const execution = await prisma.stepExecution.create({
