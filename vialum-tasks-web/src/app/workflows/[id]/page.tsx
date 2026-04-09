@@ -137,7 +137,7 @@ export default function WorkflowDetailPage() {
 
       <div className="flex-1 min-h-0 flex">
         <div className="w-80 flex-shrink-0 border-r border-border overflow-y-auto p-4 space-y-6">
-          <TimelinePanel stages={(workflow as unknown as Record<string, unknown>).wfStages as any[] || []} />
+          <TimelinePanel stages={((workflow as unknown as Record<string, unknown>).wfStages || []) as Array<{ id: string; name: string; status: string; position: number; tasks: Array<{ id: string; name: string; status: string; steps: Array<{ id: string; name: string; executor: string; adapterType: string; status: string; startedAt: string | null; completedAt: string | null; output: Record<string, unknown> | null; errorMessage: string | null }> }> }>} />
 
           <DataEditor
             workflowId={workflow.id}

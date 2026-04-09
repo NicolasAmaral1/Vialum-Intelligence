@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
-import { formatDistanceToNow, format } from 'date-fns';
+import { format } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 
 interface Step {
@@ -12,7 +12,7 @@ interface Step {
   status: string;
   startedAt: string | null;
   completedAt: string | null;
-  output: unknown;
+  output: Record<string, unknown> | null;
   errorMessage: string | null;
 }
 
@@ -102,7 +102,7 @@ function StepEntry({ step }: { step: Step }) {
     pending: 'bg-muted-foreground/30',
   };
 
-  const hasOutput = step.output && Object.keys(step.output as Record<string, unknown>).length > 0;
+  const hasOutput = step.output && typeof step.output === 'object' && Object.keys(step.output).length > 0;
 
   return (
     <div className="relative">
@@ -170,9 +170,9 @@ function StepEntry({ step }: { step: Step }) {
         )}
       </div>
 
-      {expanded && hasOutput && (
+      {expanded && hasOutput && step.output && (
         <div className="ml-7 mt-1 mb-2 p-2 rounded bg-muted/30 border border-border/50">
-          <OutputPreview output={step.output as Record<string, unknown>} />
+          <OutputPreview output={step.output} />
         </div>
       )}
     </div>
