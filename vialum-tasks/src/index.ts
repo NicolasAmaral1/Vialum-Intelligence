@@ -9,6 +9,7 @@ import { stopAllSquadSessions } from './adapters/squad/squad.adapter.js';
 import { registerAdapter } from './adapters/adapter.registry.js';
 import { SquadAdapter } from './adapters/squad/squad.adapter.js';
 import { recoverStaleSteps } from './engine/execution-engine.js';
+import { startScheduledJobWorker, stopScheduledJobWorker } from './workers/scheduled-job.worker.js';
 import { definitionRoutes } from './modules/definitions/definitions.routes.js';
 import { workflowRoutes } from './modules/workflows/workflows.routes.js';
 import { approvalRoutes } from './modules/approvals/approvals.routes.js';
@@ -74,6 +75,9 @@ async function start() {
   const httpServer = fastify.server;
   await initSocketIO(httpServer);
 
+  // Start scheduled job worker (timeouts, follow-ups)
+  startScheduledJobWorker();
+
   await fastify.listen({ port: env.PORT, host: '0.0.0.0' });
   fastify.log.info(`Vialum Tasks running on port ${env.PORT}`);
 }
@@ -86,6 +90,8 @@ async function shutdown(signal: string) {
   await stopAllSessions();
   // Stop v2 squad sessions
   await stopAllSquadSessions();
+  // Stop scheduled job worker
+  stopScheduledJobWorker();
 
   await fastify.close();
 
