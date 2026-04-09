@@ -181,16 +181,26 @@ function StepEntry({ step }: { step: Step }) {
 
 function OutputPreview({ output }: { output: Record<string, unknown> }) {
   return (
-    <div className="space-y-1">
+    <div className="space-y-1.5">
       {Object.entries(output).map(([key, value]) => {
-        const strVal = typeof value === 'string' ? value : JSON.stringify(value);
-        const isLong = strVal.length > 200;
+        const strVal = typeof value === 'string' ? value : JSON.stringify(value, null, 2);
+        const isLong = strVal.length > 300;
+        const isArray = Array.isArray(value);
+
+        if (isArray) {
+          return (
+            <div key={key} className="text-[10px]">
+              <span className="text-muted-foreground font-medium">{key}: </span>
+              <span className="text-foreground/60">{(value as unknown[]).length} items</span>
+            </div>
+          );
+        }
 
         return (
           <div key={key} className="text-[10px]">
             <span className="text-muted-foreground font-medium">{key}: </span>
             <span className="text-foreground/80">
-              {isLong ? strVal.slice(0, 200) + '...' : strVal}
+              {isLong ? strVal.slice(0, 300) + '...' : strVal}
             </span>
           </div>
         );

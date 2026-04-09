@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { api, type InboxItem } from '@/lib/api';
 import { cn } from '@/lib/utils';
+import { MarkdownView } from '@/components/ui/markdown-view';
 
 interface Props {
   item: InboxItem;
@@ -72,14 +73,58 @@ export function InboxItemDetail({ item, stepOutputs, onCompleted }: Props) {
       )}
 
       {inputData && Object.keys(inputData).length > 0 && (
-        <div className="p-3 rounded-md bg-muted/50 space-y-1">
+        <div className="p-3 rounded-md bg-muted/50 space-y-2">
           <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground mb-2">Resultado da IA</p>
-          {Object.entries(inputData).map(([key, value]) => (
-            <div key={key} className="flex gap-2 text-xs">
-              <span className="text-muted-foreground font-medium">{key}:</span>
-              <span className="text-foreground">{typeof value === 'object' ? JSON.stringify(value) : String(value)}</span>
-            </div>
-          ))}
+          {Object.entries(inputData).map(([key, value]) => {
+            const strVal = typeof value === 'string' ? value : JSON.stringify(value, null, 2);
+            const isMarkdown = typeof value === 'string' && (value.includes('# ') || value.includes('**') || value.includes('\n---'));
+            const isLongJson = typeof value === 'object' && JSON.stringify(value).length > 200;
+            const isArray = Array.isArray(value);
+
+            if (isMarkdown) {
+              return (
+                <div key={key}>
+                  <p className="text-[10px] text-muted-foreground font-medium mb-1">{key}:</p>
+                  <div className="max-h-64 overflow-y-auto rounded border border-border/30 p-2 bg-background/50">
+                    <MarkdownView content={strVal} />
+                  </div>
+                </div>
+              );
+            }
+
+            if (isArray) {
+              return (
+                <div key={key}>
+                  <p className="text-[10px] text-muted-foreground font-medium mb-1">{key}:</p>
+                  <div className="space-y-0.5">
+                    {(value as unknown[]).map((item, i) => (
+                      <div key={i} className="text-xs text-foreground/80 pl-2 border-l border-border/30 py-0.5">
+                        {typeof item === 'object' ? JSON.stringify(item) : String(item)}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            }
+
+            if (isLongJson) {
+              return (
+                <div key={key}>
+                  <p className="text-[10px] text-muted-foreground font-medium mb-1">{key}:</p>
+                  <pre className="text-[10px] text-foreground/70 bg-background/50 rounded p-2 overflow-x-auto max-h-32 overflow-y-auto border border-border/30">
+                    {JSON.stringify(value, null, 2)}
+                  </pre>
+                </div>
+              );
+            }
+
+            return (
+              <div key={key} className="flex gap-2 text-xs">
+                <span className="text-muted-foreground font-medium flex-shrink-0">{key}:</span>
+                <span className="text-foreground">{strVal}</span>
+              </div>
+            );
+          })}
         </div>
       )}
 
