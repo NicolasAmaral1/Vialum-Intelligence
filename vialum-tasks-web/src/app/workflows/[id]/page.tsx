@@ -5,6 +5,7 @@ import { useWorkflowDetail, transcriptToLine, type TranscriptEntry } from '@/sto
 import { api, type InboxItem } from '@/lib/api';
 import { getSocket, connectSocket } from '@/lib/socket';
 import { ProgressPanel } from '@/components/workflow/progress-panel';
+import { TimelinePanel } from '@/components/workflow/timeline-panel';
 import { TerminalPanel } from '@/components/workflow/terminal-panel';
 import { DataEditor } from '@/components/workflow/data-editor';
 import { FilesPanel } from '@/components/workflow/files-panel';
@@ -135,8 +136,8 @@ export default function WorkflowDetailPage() {
       </header>
 
       <div className="flex-1 min-h-0 flex">
-        <div className="w-72 flex-shrink-0 border-r border-border overflow-y-auto p-4 space-y-6">
-          <ProgressPanel workflow={workflow} />
+        <div className="w-80 flex-shrink-0 border-r border-border overflow-y-auto p-4 space-y-6">
+          <TimelinePanel stages={(workflow as unknown as Record<string, unknown>).wfStages as any[] || []} />
 
           <DataEditor
             workflowId={workflow.id}
