@@ -15,6 +15,7 @@ export function TerminalPanel({ workflowId, commands = [] }: Props) {
   const { terminalLines, addTerminalLine } = useWorkflowDetail();
   const [input, setInput] = useState('');
   const [sending, setSending] = useState(false);
+  const [expanded, setExpanded] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   // Auto-scroll to bottom on new lines
@@ -65,14 +66,15 @@ export function TerminalPanel({ workflowId, commands = [] }: Props) {
     }
   };
 
-  return (
-    <div className="flex flex-col h-full">
-      <h3 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">Terminal</h3>
-
+  const terminalContent = (
+    <>
       {/* Output */}
       <div
         ref={scrollRef}
-        className="flex-1 min-h-0 overflow-y-auto rounded-lg bg-[hsl(220,16%,10%)] border border-border p-3 space-y-1.5 font-mono text-xs"
+        className={cn(
+          'overflow-y-auto rounded-lg bg-[hsl(220,16%,10%)] border border-border p-3 space-y-1.5 font-mono text-xs',
+          expanded ? 'flex-1 min-h-0' : 'flex-1 min-h-0'
+        )}
       >
         {terminalLines.length === 0 && (
           <p className="text-muted-foreground/40 italic">Nenhum evento ainda...</p>
@@ -116,6 +118,40 @@ export function TerminalPanel({ workflowId, commands = [] }: Props) {
           Enviar
         </button>
       </div>
+    </>
+  );
+
+  if (expanded) {
+    return (
+      <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm flex flex-col p-6">
+        <div className="flex items-center justify-between mb-3">
+          <h3 className="text-sm font-semibold text-foreground">Terminal</h3>
+          <button
+            onClick={() => setExpanded(false)}
+            className="px-3 py-1.5 text-xs font-medium rounded-md border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+          >
+            Fechar
+          </button>
+        </div>
+        <div className="flex-1 min-h-0 flex flex-col">
+          {terminalContent}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="flex flex-col h-full">
+      <div className="flex items-center justify-between mb-2">
+        <h3 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Terminal</h3>
+        <button
+          onClick={() => setExpanded(true)}
+          className="px-2 py-1 text-[10px] font-medium rounded border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+        >
+          Expandir
+        </button>
+      </div>
+      {terminalContent}
     </div>
   );
 }
