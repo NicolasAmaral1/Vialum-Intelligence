@@ -43,6 +43,9 @@ export interface StepDefinition {
   /** How the work is done */
   adapterType: 'squad' | 'sdk' | 'langchain' | 'script' | 'human' | 'wait';
 
+  /** Adapter-specific configuration (squadRef, scriptPath, etc.) */
+  adapterConfig?: Record<string, unknown>;
+
   /** Role that sees this in the inbox (for executor: human) */
   assigneeRole?: string;
 

@@ -15,11 +15,15 @@ services:
       - SWITCH_SERVICE_URL=http://vialum-switch:3004
       - WEBHOOK_SECRET=${WEBHOOK_SECRET}
       - WORKSPACE_PATH=/home/vialum/genesis
+      - SHARED_SQUADS_PATH=/workspaces/shared/squads
+      - TENANTS_WORKSPACE_PATH=/workspaces/tenants
       - REDIS_URL=${REDIS_URL:-}
     volumes:
       - /root/.claude:/root/.claude:ro
       - /root/.claude.json:/root/.claude.json:ro
       - /root/genesis:/home/vialum/genesis:ro
+      - /root/genesis/squads:/workspaces/shared/squads:ro
+      - /root/vialum-workspaces:/workspaces/tenants:rw
       - task-outputs:/app/outputs
     labels:
       - "traefik.enable=true"

@@ -1,5 +1,7 @@
 import { spawn, ChildProcess } from 'child_process';
 import { randomUUID } from 'crypto';
+import { mkdirSync, existsSync, symlinkSync } from 'fs';
+import { join } from 'path';
 import { getPrisma } from '../../config/database.js';
 import { env } from '../../config/env.js';
 import { createHooksSettingsFile, removeHooksSettingsFile } from '../../session/hooks-config.js';
@@ -35,7 +37,10 @@ export class SquadAdapter implements SessionAwareAdapter {
   async startSession(ctx: SessionStartContext): Promise<SessionHandle> {
     const prisma = getPrisma();
 
-    // Create session record in DB
+    // Resolve workspace: squadRef → isolated case directory with symlinks
+    const cwd = resolveWorkspace(ctx);
+
+    // Create session record in DB (store cwd for later executeStep calls)
     const session = await prisma.taskSession.create({
       data: {
         accountId: ctx.accountId,
@@ -44,10 +49,11 @@ export class SquadAdapter implements SessionAwareAdapter {
         adapterType: this.type,
         status: 'active',
         nodeId: getNodeId(),
+        sessionData: { cwd },
       },
     });
 
-    console.log(`[squad] Session started: ${session.id} for workflow ${ctx.workflowId}`);
+    console.log(`[squad] Session started: ${session.id} for workflow ${ctx.workflowId} (cwd: ${cwd})`);
 
     return {
       sessionId: session.id,
@@ -353,6 +359,57 @@ function spawnClaude(args: string[], cwd: string, accountId: string): ChildProce
 
 function getNodeId(): string {
   return process.env.HOSTNAME || process.env.NODE_ID || 'local';
+}
+
+/**
+ * Resolve workspace for a squad session.
+ *
+ * If adapterConfig.squadRef is set:
+ *   1. Creates case directory: /workspaces/tenants/{accountId}/cases/{workflowId}/
+ *   2. Symlinks squad files (CLAUDE.md, agents/, tasks/, scripts/, resources/, .synapse/)
+ *   3. Returns case directory as cwd
+ *
+ * If no squadRef: returns default WORKSPACE_PATH.
+ */
+function resolveWorkspace(ctx: SessionStartContext): string {
+  const config = ctx.adapterConfig ?? {};
+  const squadRef = config.squadRef as string | undefined;
+
+  if (!squadRef) {
+    return ctx.cwd || env.WORKSPACE_PATH;
+  }
+
+  const sharedSquadsBase = process.env.SHARED_SQUADS_PATH || '/workspaces/shared/squads';
+  const tenantsBase = process.env.TENANTS_WORKSPACE_PATH || '/workspaces/tenants';
+
+  const squadPath = join(sharedSquadsBase, squadRef);
+  const casePath = join(tenantsBase, ctx.accountId, 'cases', ctx.workflowId);
+
+  // Create case directory
+  mkdirSync(casePath, { recursive: true });
+
+  // Symlink squad contents into case directory
+  const dirsToLink = ['agents', 'tasks', 'scripts', 'resources', '.synapse', 'workflows'];
+  const filesToLink = ['CLAUDE.md', 'squad.yaml'];
+
+  for (const dir of dirsToLink) {
+    const src = join(squadPath, dir);
+    const dest = join(casePath, dir);
+    if (existsSync(src) && !existsSync(dest)) {
+      try { symlinkSync(src, dest); } catch {}
+    }
+  }
+
+  for (const file of filesToLink) {
+    const src = join(squadPath, file);
+    const dest = join(casePath, file);
+    if (existsSync(src) && !existsSync(dest)) {
+      try { symlinkSync(src, dest); } catch {}
+    }
+  }
+
+  console.log(`[squad] Workspace resolved: squadRef=${squadRef} → ${casePath}`);
+  return casePath;
 }
 
 function tryParseJson(text: string): Record<string, unknown> | null {

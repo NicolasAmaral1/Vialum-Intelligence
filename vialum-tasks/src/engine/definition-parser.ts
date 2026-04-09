@@ -129,6 +129,7 @@ function parseStep(raw: Record<string, unknown>, index: number, taskId: string):
     onFailure: raw.onFailure as string | undefined,
     followUp: raw.followUp as StepDefinition['followUp'] | undefined,
     maxRetries: raw.maxRetries as number | undefined,
+    adapterConfig: raw.adapterConfig as Record<string, unknown> | undefined,
   };
 }
 

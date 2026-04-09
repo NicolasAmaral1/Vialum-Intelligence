@@ -244,6 +244,9 @@ model WorkflowStep {
   // { intervals: number[], message?: string, escalateTo?: string, businessHours?: {...} }
   followUp          Json?     @map("follow_up")
 
+  // Adapter-specific config (squadRef, scriptPath, runtime, etc.)
+  adapterConfig     Json?     @map("adapter_config")
+
   output            Json?
   errorMessage      String?   @map("error_message") @db.Text
   retryCount        Int       @default(0) @map("retry_count")
