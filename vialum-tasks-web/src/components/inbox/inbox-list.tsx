@@ -45,8 +45,10 @@ export function InboxList() {
   const activeWorkflows = workflows.filter((w) =>
     ['running', 'hitl', 'paused', 'idle'].includes(w.status) && !w.completedAt
   );
+  const failedWorkflows = workflows.filter((w) => w.status === 'failed' && !w.completedAt);
   const hasPending = pendingItems.length > 0;
   const hasActive = activeWorkflows.length > 0;
+  const hasFailed = failedWorkflows.length > 0;
 
   if (loading && !items.length && !workflows.length) {
     return (
@@ -104,7 +106,25 @@ export function InboxList() {
         </section>
       )}
 
-      {!hasPending && !hasActive && (
+      {hasFailed && (
+        <section>
+          <h2 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3 flex items-center gap-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-danger" />
+            Com erro ({failedWorkflows.length})
+          </h2>
+          <div className="space-y-0.5">
+            {failedWorkflows.map((w) => (
+              <WorkflowItem
+                key={w.id}
+                workflow={w}
+                onClick={() => router.push(`/workflows/${w.id}`)}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {!hasPending && !hasActive && !hasFailed && (
         <div className="flex flex-col items-center justify-center h-64 text-center">
           <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
             <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>

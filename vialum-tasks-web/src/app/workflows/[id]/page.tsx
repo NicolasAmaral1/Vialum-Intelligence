@@ -70,6 +70,41 @@ export default function WorkflowDetailPage() {
       }
     });
 
+    socket.on('step:failed', (data: { workflowId: string; stepId: string; error: string }) => {
+      if (data.workflowId === id) {
+        addTerminalLine({
+          id: `fail-${Date.now()}`,
+          type: 'error',
+          content: `Step falhou: ${data.error}`,
+          timestamp: new Date().toISOString(),
+        });
+        fetch(id); // refresh workflow state
+      }
+    });
+
+    socket.on('step:started', (data: { workflowId: string; stepId: string; name: string; executor: string }) => {
+      if (data.workflowId === id) {
+        addTerminalLine({
+          id: `start-${Date.now()}`,
+          type: 'system',
+          content: `Step iniciado: ${data.name} (${data.executor})`,
+          timestamp: new Date().toISOString(),
+        });
+      }
+    });
+
+    socket.on('step:completed', (data: { workflowId: string; stepId: string }) => {
+      if (data.workflowId === id) {
+        addTerminalLine({
+          id: `done-${Date.now()}`,
+          type: 'system',
+          content: 'Step concluido',
+          timestamp: new Date().toISOString(),
+        });
+        fetch(id); // refresh
+      }
+    });
+
     return () => {
       socket?.emit('workflow:unsubscribe', id);
       socket?.off('workflow:event');
@@ -77,6 +112,9 @@ export default function WorkflowDetailPage() {
       socket?.off('inbox:item_created');
       socket?.off('inbox:item_completed');
       socket?.off('step:transcript');
+      socket?.off('step:failed');
+      socket?.off('step:started');
+      socket?.off('step:completed');
     };
   }, [id]);
 

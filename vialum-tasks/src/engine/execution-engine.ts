@@ -302,6 +302,26 @@ async function runAiStep(workflowId: string, step: StepRow, bus: ContextBus): Pr
     const payload = { workflowId, stepId: step.id, entry };
     broadcastToWorkflow(workflowId, 'step:transcript', payload);
     broadcastToAccount(step.accountId, 'step:transcript', payload);
+
+    // Persist significant entries as WorkflowEvent for debug/audit
+    const significantKinds = ['message', 'tool_call', 'error', 'cost', 'init'];
+    if (significantKinds.includes(entry.kind)) {
+      const eventTypeMap: Record<string, string> = {
+        message: 'assistant.message',
+        tool_call: 'tool.call',
+        error: 'session.error',
+        cost: 'session.cost',
+        init: 'session.start',
+      };
+      prisma.workflowEvent.create({
+        data: {
+          workflowId,
+          eventType: eventTypeMap[entry.kind] || entry.kind,
+          toolName: 'name' in entry ? (entry as Record<string, unknown>).name as string : null,
+          payload: entry as Record<string, unknown>,
+        },
+      }).catch(() => {}); // fire-and-forget, don't block execution
+    }
   };
 
   const execution = await prisma.stepExecution.create({
