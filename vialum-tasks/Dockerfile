@@ -21,6 +21,7 @@ RUN npx tsc
 # Runtime
 FROM node:20-alpine
 RUN apk add --no-cache python3 py3-pip bash git
+RUN pip install --break-system-packages reportlab python-docx requests
 RUN npm install -g @anthropic-ai/claude-code
 
 # Create non-root user for Claude CLI

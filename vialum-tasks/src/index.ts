@@ -8,6 +8,7 @@ import { stopAllSessions } from './session/session-manager.js';
 import { stopAllSquadSessions } from './adapters/squad/squad.adapter.js';
 import { registerAdapter } from './adapters/adapter.registry.js';
 import { SquadAdapter } from './adapters/squad/squad.adapter.js';
+import { ScriptAdapter } from './adapters/script/script.adapter.js';
 import { recoverStaleSteps } from './engine/execution-engine.js';
 import { startScheduledJobWorker, stopScheduledJobWorker } from './workers/scheduled-job.worker.js';
 import { definitionRoutes } from './modules/definitions/definitions.routes.js';
@@ -22,6 +23,7 @@ const fastify = Fastify({ logger: true });
 
 // ═══ Register adapters ═══
 registerAdapter(new SquadAdapter());
+registerAdapter(new ScriptAdapter());
 
 async function recoverStaleWorkflows() {
   const prisma = getPrisma();

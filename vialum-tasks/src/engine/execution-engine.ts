@@ -521,10 +521,54 @@ async function runHumanStep(workflowId: string, step: StepRow, bus: ContextBus):
 // ─── System Step ────────────────────────────────────────────
 
 async function runSystemStep(workflowId: string, step: StepRow, bus: ContextBus): Promise<void> {
-  // TODO S7: implement script adapter with function registry
-  // For now, complete with empty output
-  console.log(`[engine] System step ${step.id} — script adapter not yet implemented`);
-  await completeStep(workflowId, step, bus, {});
+  const prisma = getPrisma();
+  const adapter = getAdapter(step.adapterType);
+
+  const input = bus.resolveInput(step.inputSchema as Record<string, unknown> | null);
+
+  const onLog: LogCallback = (entry: TranscriptEntry) => {
+    const payload = { workflowId, stepId: step.id, entry };
+    broadcastToWorkflow(workflowId, 'step:transcript', payload);
+    broadcastToAccount(step.accountId, 'step:transcript', payload);
+  };
+
+  const execution = await prisma.stepExecution.create({
+    data: {
+      accountId: step.accountId,
+      workflowId,
+      stepId: step.id,
+      adapterType: step.adapterType,
+      inputContext: input as JsonInput,
+    },
+  });
+
+  const startTime = Date.now();
+  const result = await adapter.execute({
+    executionId: execution.id, workflowId, stepId: step.id,
+    accountId: step.accountId,
+    adapterConfig: ((step as unknown as Record<string, unknown>).adapterConfig as Record<string, unknown>) ?? {},
+    input, prompt: '',
+    outputSchema: step.outputSchema as Record<string, unknown> | undefined,
+    onLog, abortSignal: new AbortController().signal,
+  });
+
+  const durationMs = Date.now() - startTime;
+
+  await prisma.stepExecution.update({
+    where: { id: execution.id },
+    data: {
+      status: result.success ? 'completed' : 'failed',
+      outputContext: (result.output ?? {}) as JsonInput,
+      errorMessage: result.error, durationMs,
+      completedAt: new Date(),
+    },
+  });
+
+  if (result.success) {
+    await completeStep(workflowId, step, bus, result.output);
+  } else {
+    await handleStepFailure(workflowId, step, bus, result.error ?? 'Script failed');
+  }
 }
 
 // ─── Client Step ────────────────────────────────────────────
