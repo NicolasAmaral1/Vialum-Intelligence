@@ -468,11 +468,14 @@ app.post('/api/users', requireAuth, requireAdmin, (req, res) => {
 
 app.post('/api/laudos', requireAuth, async (req, res) => {
   try {
-    const { nomeMarca, nomeCliente, atividade, indicacao } = req.body;
+    const { nomeMarca, nomeCliente, atividade, indicacao, prioridade } = req.body;
 
     if (!nomeMarca || !nomeCliente || !atividade) {
       return res.status(400).json({ error: 'Marca, Cliente e Atividade são obrigatórios.' });
     }
+
+    const PRIORITY_MAP = { urgente: 1, alta: 2, media: 3, baixa: 4 };
+    const clickupPriority = PRIORITY_MAP[prioridade] || null;
 
     if (!CLICKUP_API_TOKEN) {
       return res.status(500).json({ error: 'CLICKUP_API_TOKEN não configurado.' });
@@ -491,6 +494,7 @@ app.post('/api/laudos', requireAuth, async (req, res) => {
         name: String(nomeMarca).trim(),
         description,
         status: 'para fazer',
+        ...(clickupPriority && { priority: clickupPriority }),
       },
       {
         headers: {

@@ -56,6 +56,20 @@
           <input type="text" id="indicacao" name="indicacao" placeholder="Ex: vendedor, indicação, campanha">
         </div>
 
+        <div class="form-group hidden" id="prioridadeGroup">
+          <label for="prioridade">
+            Prioridade
+            <button type="button" class="help-btn" title="Define a bandeirinha de prioridade no ClickUp. Só admins veem este campo.">?</button>
+          </label>
+          <select id="prioridade" name="prioridade">
+            <option value="">Normal (sem bandeira)</option>
+            <option value="urgente">Urgente</option>
+            <option value="alta">Alta</option>
+            <option value="media">Média</option>
+            <option value="baixa">Baixa</option>
+          </select>
+        </div>
+
         <button type="submit" class="btn-primary" id="submitBtn">
           <span class="text">Enviar Pedido para IA</span>
           <div class="loader"></div>
@@ -85,6 +99,7 @@
       if (data.user.role === 'admin') {
         document.getElementById('adminLink').classList.remove('hidden');
         document.getElementById('confirmLink').classList.remove('hidden');
+        document.getElementById('prioridadeGroup').classList.remove('hidden');
       }
 
       return data.user;
@@ -111,6 +126,7 @@
         nomeCliente: document.getElementById('nomeCliente').value,
         atividade: document.getElementById('atividade').value,
         indicacao: document.getElementById('indicacao').value,
+        prioridade: document.getElementById('prioridade').value || undefined,
       };
 
       try {

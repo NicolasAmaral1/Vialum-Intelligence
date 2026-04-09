@@ -1,0 +1,19 @@
+{
+  "guia_adjacencia": {
+    "marca": "RUN BABY RUN",
+    "atividade": "Eventos e comunidade wellness, vestuário esportivo, assessoria esportiva, suplementação",
+    "aprovadas": [41, 25, 5, 35, 28],
+    "adjacentes": [44, 3, 9, 10, 29, 30, 32, 43],
+    "sem_afinidade": [1, 2, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 31, 33, 34, 36, 37, 38, 39, 40, 42, 45],
+    "justificativa_adjacentes": {
+      "44": "Saúde/bem-estar — serviços de saúde, massagem, fisioterapia complementam assessoria esportiva e wellness",
+      "3": "Cosméticos/higiene pessoal — mesmo canal e público (cuidado pessoal esportivo, protetores solares)",
+      "9": "Apps/plataformas digitais — canal digital de comunidade esportiva, apps de treino",
+      "10": "Equipamentos médicos/ortopédicos — complementar a assessoria esportiva (órteses, monitores)",
+      "29": "Alimentos proteicos/dietéticos — afinidade com suplementação e nutrição esportiva",
+      "30": "Alimentos naturais/energéticos — barras energéticas, alimentos para atletas",
+      "32": "Bebidas funcionais/isotônicas — hidratação esportiva, bebidas energéticas",
+      "43": "Alimentação/restaurantes — nutrição esportiva, alimentação saudável no contexto wellness"
+    }
+  }
+}

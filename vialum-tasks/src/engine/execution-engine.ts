@@ -347,14 +347,14 @@ async function runAiStep(workflowId: string, step: StepRow, bus: ContextBus): Pr
     if (!handle) {
       handle = await (adapter as SessionAwareAdapter).startSession({
         workflowId, taskId: step.taskId,
-        accountId: step.accountId, adapterConfig: (step.adapterConfig as Record<string, unknown>) ?? {}, cwd: '',
+        accountId: step.accountId, adapterConfig: ((step as Record<string, unknown>).adapterConfig as Record<string, unknown>) ?? {}, cwd: '',
       });
       sessionHandles.set(sKey, handle);
     } else if (!handle.pid && handle.adapterSessionId) {
       // Session paused with valid adapterSessionId — resume
       handle = await (adapter as SessionAwareAdapter).resumeSession(handle, {
         workflowId, taskId: step.taskId,
-        accountId: step.accountId, adapterConfig: (step.adapterConfig as Record<string, unknown>) ?? {}, cwd: '',
+        accountId: step.accountId, adapterConfig: ((step as Record<string, unknown>).adapterConfig as Record<string, unknown>) ?? {}, cwd: '',
       });
       sessionHandles.set(sKey, handle);
     } else if (!handle.pid) {
@@ -362,7 +362,7 @@ async function runAiStep(workflowId: string, step: StepRow, bus: ContextBus): Pr
       sessionHandles.delete(sKey);
       handle = await (adapter as SessionAwareAdapter).startSession({
         workflowId, taskId: step.taskId,
-        accountId: step.accountId, adapterConfig: (step.adapterConfig as Record<string, unknown>) ?? {}, cwd: '',
+        accountId: step.accountId, adapterConfig: ((step as Record<string, unknown>).adapterConfig as Record<string, unknown>) ?? {}, cwd: '',
       });
       sessionHandles.set(sKey, handle);
     }
@@ -379,7 +379,7 @@ async function runAiStep(workflowId: string, step: StepRow, bus: ContextBus): Pr
     const controller = new AbortController();
     result = await adapter.execute({
       executionId: execution.id, workflowId, stepId: step.id,
-      accountId: step.accountId, adapterConfig: (step.adapterConfig as Record<string, unknown>) ?? {}, input, prompt,
+      accountId: step.accountId, adapterConfig: ((step as Record<string, unknown>).adapterConfig as Record<string, unknown>) ?? {}, input, prompt,
       outputSchema: step.outputSchema as Record<string, unknown> | undefined,
       onLog, abortSignal: controller.signal,
     });
@@ -675,7 +675,7 @@ export async function onCheckpointCompleted(
 
   handle = await (adapter as SessionAwareAdapter).resumeSession(handle, {
     workflowId: workflow.id, taskId: step.taskId,
-    accountId: step.accountId, adapterConfig: (step.adapterConfig as Record<string, unknown>) ?? {}, cwd: '',
+    accountId: step.accountId, adapterConfig: ((step as Record<string, unknown>).adapterConfig as Record<string, unknown>) ?? {}, cwd: '',
   });
   sessionHandles.set(sKey, handle);
 

@@ -582,6 +582,34 @@ textarea {
     accent-color: var(--green);
 }
 
+/* ─── Help Button (?) ─── */
+.help-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border: 1px solid var(--border-subtle);
+    background: var(--surface-input);
+    color: #A0A0A0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    cursor: help;
+    margin-left: 0.35rem;
+    vertical-align: middle;
+    transition: var(--transition);
+    padding: 0;
+    font-family: inherit;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.help-btn:hover {
+    border-color: var(--border-green);
+    color: var(--green);
+}
+
 /* ─── Field Hint ─── */
 .field-hint {
     display: block;
