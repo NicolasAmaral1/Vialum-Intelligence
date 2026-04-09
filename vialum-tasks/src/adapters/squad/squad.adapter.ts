@@ -422,9 +422,25 @@ function tryParseJson(text: string): Record<string, unknown> | null {
   }
   try {
     return JSON.parse(text);
-  } catch {
-    return null;
+  } catch {}
+
+  // Try to find _checkpoint JSON embedded anywhere in the text
+  const checkpointMatch = text.match(/\{[^{}]*"_checkpoint"\s*:\s*true[^{}]*\}/);
+  if (checkpointMatch) {
+    try {
+      return JSON.parse(checkpointMatch[0]);
+    } catch {}
   }
+
+  // Try to find any JSON object in the text
+  const anyJsonMatch = text.match(/\{[\s\S]*?\n\}/);
+  if (anyJsonMatch) {
+    try {
+      return JSON.parse(anyJsonMatch[0]);
+    } catch {}
+  }
+
+  return null;
 }
 
 // ─── Shutdown helper ────────────────────────────────────────────────
