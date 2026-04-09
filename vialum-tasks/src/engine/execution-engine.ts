@@ -318,7 +318,7 @@ async function runAiStep(workflowId: string, step: StepRow, bus: ContextBus): Pr
           workflowId,
           eventType: eventTypeMap[entry.kind] || entry.kind,
           toolName: 'name' in entry ? (entry as Record<string, unknown>).name as string : null,
-          payload: entry as Record<string, unknown>,
+          payload: entry as JsonInput,
         },
       }).catch(() => {}); // fire-and-forget, don't block execution
     }
