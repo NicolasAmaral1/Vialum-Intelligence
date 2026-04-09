@@ -147,19 +147,15 @@ export async function inboxRoutes(fastify: FastifyInstance) {
       }
     }
 
-    // Route to correct engine handler
-    try {
-      if (item.type === 'checkpoint') {
-        await onCheckpointCompleted(id, outputData, userId);
-      } else {
-        await onInboxCompleted(id, outputData, userId);
-      }
-    } catch (err) {
-      return reply.status(500).send({
-        error: `Engine error: ${(err as Error).message}`,
-        code: 'ENGINE_ERROR',
-      });
-    }
+    // Route to correct engine handler — fire in background so response is immediate
+    const engineFn = item.type === 'checkpoint'
+      ? () => onCheckpointCompleted(id, outputData, userId)
+      : () => onInboxCompleted(id, outputData, userId);
+
+    // Fire and don't await — engine runs async, UI gets instant response
+    engineFn().catch((err) => {
+      console.error(`[inbox] Engine error after completing ${id}:`, (err as Error).message);
+    });
 
     const updated = await prisma.inboxItem.findUnique({ where: { id } });
     return { data: updated };
