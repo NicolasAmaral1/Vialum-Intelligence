@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import { useWorkflowDetail } from '@/stores/workflow';
+import { useWorkflowDetail, transcriptToLine, type TranscriptEntry } from '@/stores/workflow';
 import { api, type InboxItem } from '@/lib/api';
 import { getSocket, connectSocket } from '@/lib/socket';
 import { ProgressPanel } from '@/components/workflow/progress-panel';
@@ -15,7 +15,7 @@ import type { WorkflowEvent } from '@/lib/api';
 export default function WorkflowDetailPage() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
-  const { workflow, events, loading, error, fetch, setWorkflow, addEvent } = useWorkflowDetail();
+  const { workflow, events, loading, error, fetch, setWorkflow, addEvent, addTerminalLine } = useWorkflowDetail();
   const [inboxItems, setInboxItems] = useState<InboxItem[]>([]);
 
   useEffect(() => {
@@ -62,12 +62,20 @@ export default function WorkflowDetailPage() {
       setInboxItems((prev) => prev.filter((i) => i.id !== data.id));
     });
 
+    socket.on('step:transcript', (data: { workflowId: string; stepId: string; entry: TranscriptEntry }) => {
+      if (data.workflowId === id) {
+        const line = transcriptToLine(data.entry, data.stepId);
+        if (line) addTerminalLine(line);
+      }
+    });
+
     return () => {
       socket?.emit('workflow:unsubscribe', id);
       socket?.off('workflow:event');
       socket?.off('workflow:updated');
       socket?.off('inbox:item_created');
       socket?.off('inbox:item_completed');
+      socket?.off('step:transcript');
     };
   }, [id]);
 

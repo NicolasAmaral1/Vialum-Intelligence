@@ -18,10 +18,51 @@ interface WorkflowDetailState {
 
 export interface TerminalLine {
   id: string;
-  type: 'assistant' | 'tool' | 'result' | 'error' | 'system' | 'user';
+  type: 'assistant' | 'tool' | 'result' | 'error' | 'system' | 'user' | 'thinking' | 'cost';
   content: string;
   toolName?: string;
   timestamp: string;
+}
+
+export interface TranscriptEntry {
+  kind: 'init' | 'thinking' | 'message' | 'tool_call' | 'tool_result' | 'cost' | 'error' | 'status';
+  text?: string;
+  message?: string;
+  name?: string;
+  input?: string;
+  content?: string;
+  truncated?: boolean;
+  inputTokens?: number;
+  outputTokens?: number;
+  costUsd?: number;
+  sessionId?: string;
+  model?: string;
+  ts: string;
+}
+
+export function transcriptToLine(entry: TranscriptEntry, stepId?: string): TerminalLine | null {
+  const id = `tr-${stepId || ''}-${entry.ts}-${Math.random().toString(36).slice(2, 6)}`;
+
+  switch (entry.kind) {
+    case 'thinking':
+      return { id, type: 'thinking', content: entry.text || '', timestamp: entry.ts };
+    case 'message':
+      return { id, type: 'assistant', content: entry.text || '', timestamp: entry.ts };
+    case 'tool_call':
+      return { id, type: 'tool', content: `${entry.name}(${truncate(entry.input || '', 200)})`, toolName: entry.name, timestamp: entry.ts };
+    case 'tool_result':
+      return { id, type: 'result', content: truncate(entry.content || 'OK', 300), toolName: entry.name, timestamp: entry.ts };
+    case 'cost':
+      return { id, type: 'cost', content: `Tokens: ${entry.inputTokens?.toLocaleString()}↑ ${entry.outputTokens?.toLocaleString()}↓ | Custo: $${entry.costUsd?.toFixed(4)}`, timestamp: entry.ts };
+    case 'error':
+      return { id, type: 'error', content: entry.message || 'Erro', timestamp: entry.ts };
+    case 'status':
+      return { id, type: 'system', content: entry.text || '', timestamp: entry.ts };
+    case 'init':
+      return { id, type: 'system', content: `Sessao iniciada${entry.model ? ` (${entry.model})` : ''}`, timestamp: entry.ts };
+    default:
+      return null;
+  }
 }
 
 export const useWorkflowDetail = create<WorkflowDetailState>((set, get) => ({

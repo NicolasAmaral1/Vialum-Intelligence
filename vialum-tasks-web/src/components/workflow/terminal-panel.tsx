@@ -128,6 +128,8 @@ function TerminalLineRow({ line }: { line: TerminalLine }) {
     error: 'text-danger',
     system: 'text-primary/70',
     user: 'text-[hsl(var(--warning))]',
+    thinking: 'text-muted-foreground/50 italic',
+    cost: 'text-primary/50',
   };
 
   const prefixMap: Record<string, string> = {
@@ -137,6 +139,8 @@ function TerminalLineRow({ line }: { line: TerminalLine }) {
     error: '❌',
     system: '⚙️',
     user: '👤',
+    thinking: '💭',
+    cost: '💰',
   };
 
   return (
