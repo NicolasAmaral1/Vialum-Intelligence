@@ -8,15 +8,18 @@
     "start": "next start -p 3006"
   },
   "dependencies": {
+    "@blocknote/core": "^0.48.0",
+    "@blocknote/mantine": "^0.48.0",
+    "@blocknote/react": "^0.48.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.400.0",
     "next": "^14.2.0",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "socket.io-client": "^4.8.1",
-    "zustand": "^5.0.0",
-    "lucide-react": "^0.400.0",
-    "date-fns": "^3.6.0",
-    "clsx": "^2.1.1",
-    "tailwind-merge": "^2.5.0"
+    "tailwind-merge": "^2.5.0",
+    "zustand": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.5",

@@ -3,6 +3,12 @@ import { useState } from 'react';
 import { api, type InboxItem } from '@/lib/api';
 import { cn } from '@/lib/utils';
 import { MarkdownView } from '@/components/ui/markdown-view';
+import dynamic from 'next/dynamic';
+
+const ArtifactEditor = dynamic(
+  () => import('@/components/ui/artifact-editor').then((m) => m.ArtifactEditor),
+  { ssr: false, loading: () => <div className="h-[300px] bg-muted/30 animate-pulse rounded" /> }
+);
 
 interface Props {
   item: InboxItem;
@@ -85,19 +91,53 @@ export function InboxItemDetail({ item, stepOutputs, onCompleted }: Props) {
               return (
                 <div key={key}>
                   <p className="text-[10px] text-muted-foreground font-medium mb-1">{key}:</p>
-                  <div className="max-h-64 overflow-y-auto rounded border border-border/30 p-2 bg-background/50">
-                    <MarkdownView content={strVal} />
-                  </div>
+                  <ArtifactEditor
+                    initialContent={strVal}
+                    editable={false}
+                    className="max-h-96 overflow-y-auto"
+                  />
                 </div>
               );
             }
 
             if (isArray) {
+              const items = value as unknown[];
+              // Check if array items have nome/justificativa (naming pattern)
+              const isNamingList = items.length > 0 && typeof items[0] === 'object' && items[0] !== null && 'nome' in (items[0] as Record<string, unknown>);
+
+              if (isNamingList) {
+                // Render as formatted naming list with markdown
+                const md = (items as Array<Record<string, unknown>>)
+                  .map((item, i) => {
+                    const nome = item.nome || '';
+                    const just = item.justificativa || '';
+                    const scores = item.scores as Record<string, number> | undefined;
+                    let line = `### ${i + 1}. ${nome}\n${just}`;
+                    if (scores) {
+                      const total = Object.values(scores).reduce((a, b) => a + b, 0);
+                      line += `\n**Score: ${total}/30** — ` + Object.entries(scores).map(([k, v]) => `${k}: ${v}`).join(', ');
+                    }
+                    return line;
+                  })
+                  .join('\n\n');
+
+                return (
+                  <div key={key}>
+                    <p className="text-[10px] text-muted-foreground font-medium mb-1">{key} ({items.length}):</p>
+                    <ArtifactEditor
+                      initialContent={md}
+                      editable={false}
+                      className="max-h-96 overflow-y-auto"
+                    />
+                  </div>
+                );
+              }
+
               return (
                 <div key={key}>
                   <p className="text-[10px] text-muted-foreground font-medium mb-1">{key}:</p>
                   <div className="space-y-0.5">
-                    {(value as unknown[]).map((item, i) => (
+                    {items.map((item, i) => (
                       <div key={i} className="text-xs text-foreground/80 pl-2 border-l border-border/30 py-0.5">
                         {typeof item === 'object' ? JSON.stringify(item) : String(item)}
                       </div>
