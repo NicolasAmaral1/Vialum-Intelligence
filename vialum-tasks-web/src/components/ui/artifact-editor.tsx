@@ -68,19 +68,29 @@ export function ArtifactEditor({ initialContent, editable = true, onChange, clas
     onChange?.(text);
   };
 
-  return (
-    <div className={cn('rounded-lg border border-border overflow-hidden', className)}>
+  const [expanded, setExpanded] = useState(false);
+
+  const editorContent = (
+    <>
       {/* Toolbar */}
       <div className="flex items-center justify-between px-3 py-1.5 bg-muted/30 border-b border-border">
         <span className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
           {rawMode ? 'Markdown' : 'Visual'}
         </span>
-        <button
-          onClick={handleRawToggle}
-          className="px-2 py-0.5 text-[10px] font-medium rounded border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
-        >
-          {rawMode ? 'Visual' : 'Codigo'}
-        </button>
+        <div className="flex gap-1.5">
+          <button
+            onClick={handleRawToggle}
+            className="px-2 py-0.5 text-[10px] font-medium rounded border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+          >
+            {rawMode ? 'Visual' : 'Codigo'}
+          </button>
+          <button
+            onClick={() => setExpanded(!expanded)}
+            className="px-2 py-0.5 text-[10px] font-medium rounded border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+          >
+            {expanded ? 'Fechar' : 'Expandir'}
+          </button>
+        </div>
       </div>
 
       {/* Editor */}
@@ -89,10 +99,10 @@ export function ArtifactEditor({ initialContent, editable = true, onChange, clas
           value={rawText}
           onChange={(e) => handleRawChange(e.target.value)}
           readOnly={!editable}
-          className="w-full min-h-[300px] p-4 bg-background text-foreground text-xs font-mono resize-y focus:outline-none"
+          className={cn('w-full p-4 bg-background text-foreground text-xs font-mono resize-y focus:outline-none', expanded ? 'min-h-[80vh]' : 'min-h-[300px]')}
         />
       ) : (
-        <div className="min-h-[300px] bg-background" data-theming-css-variables-demo>
+        <div className={cn('bg-background', expanded ? 'min-h-[80vh]' : 'min-h-[300px]')} data-theming-css-variables-demo>
           <BlockNoteView
             editor={editor}
             editable={editable}
@@ -101,6 +111,22 @@ export function ArtifactEditor({ initialContent, editable = true, onChange, clas
           />
         </div>
       )}
+    </>
+  );
+
+  if (expanded) {
+    return (
+      <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm flex flex-col">
+        <div className="flex-1 min-h-0 overflow-y-auto rounded-lg border border-border m-4">
+          {editorContent}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className={cn('rounded-lg border border-border overflow-hidden', className)}>
+      {editorContent}
     </div>
   );
 }
