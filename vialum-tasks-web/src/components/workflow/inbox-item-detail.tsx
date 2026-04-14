@@ -23,6 +23,7 @@ interface SchemaProperty {
 }
 
 export function InboxItemDetail({ item, stepOutputs, onCompleted }: Props) {
+  const [editedArtifacts, setEditedArtifacts] = useState<Record<string, string>>({});
   const schema = item.outputSchema as {
     type?: string;
     required?: string[];
@@ -49,7 +50,12 @@ export function InboxItemDetail({ item, stepOutputs, onCompleted }: Props) {
     setSubmitting(true);
     setError(null);
     try {
-      await api.completeInboxItem(item.id, formData);
+      const outputData = { ...formData };
+      // Include edited artifacts in output
+      if (Object.keys(editedArtifacts).length > 0) {
+        (outputData as Record<string, unknown>).editedArtifacts = editedArtifacts;
+      }
+      await api.completeInboxItem(item.id, outputData);
       onCompleted();
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Erro ao completar');
@@ -93,7 +99,8 @@ export function InboxItemDetail({ item, stepOutputs, onCompleted }: Props) {
                   <p className="text-[10px] text-muted-foreground font-medium mb-1">{key}:</p>
                   <ArtifactEditor
                     initialContent={strVal}
-                    editable={false}
+                    editable={true}
+                    onChange={(md) => setEditedArtifacts((prev) => ({ ...prev, [key]: md }))}
                     className="max-h-96 overflow-y-auto"
                   />
                 </div>
@@ -106,7 +113,6 @@ export function InboxItemDetail({ item, stepOutputs, onCompleted }: Props) {
               const isNamingList = items.length > 0 && typeof items[0] === 'object' && items[0] !== null && 'nome' in (items[0] as Record<string, unknown>);
 
               if (isNamingList) {
-                // Render as formatted naming list with markdown
                 const md = (items as Array<Record<string, unknown>>)
                   .map((item, i) => {
                     const nome = item.nome || '';
@@ -126,7 +132,8 @@ export function InboxItemDetail({ item, stepOutputs, onCompleted }: Props) {
                     <p className="text-[10px] text-muted-foreground font-medium mb-1">{key} ({items.length}):</p>
                     <ArtifactEditor
                       initialContent={md}
-                      editable={false}
+                      editable={true}
+                      onChange={(edited) => setEditedArtifacts((prev) => ({ ...prev, [key]: edited }))}
                       className="max-h-96 overflow-y-auto"
                     />
                   </div>
