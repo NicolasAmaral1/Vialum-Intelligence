@@ -99,10 +99,10 @@ export function ArtifactEditor({ initialContent, editable = true, onChange, clas
           value={rawText}
           onChange={(e) => handleRawChange(e.target.value)}
           readOnly={!editable}
-          className={cn('w-full p-4 bg-background text-foreground text-xs font-mono resize-y focus:outline-none', expanded ? 'min-h-[80vh]' : 'min-h-[300px]')}
+          className={cn('w-full p-4 bg-background text-foreground text-xs font-mono resize-y focus:outline-none', expanded ? 'flex-1 min-h-0' : 'min-h-[150px]')}
         />
       ) : (
-        <div className={cn('bg-background', expanded ? 'min-h-[80vh]' : 'min-h-[300px]')} data-theming-css-variables-demo>
+        <div className={cn('bg-background', expanded ? 'flex-1 min-h-0 overflow-y-auto' : 'min-h-[150px]')} data-theming-css-variables-demo>
           <BlockNoteView
             editor={editor}
             editable={editable}
@@ -116,8 +116,8 @@ export function ArtifactEditor({ initialContent, editable = true, onChange, clas
 
   if (expanded) {
     return (
-      <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm flex flex-col">
-        <div className="flex-1 min-h-0 overflow-y-auto rounded-lg border border-border m-4">
+      <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm flex items-center justify-center p-8">
+        <div className="w-full max-w-3xl h-full max-h-[85vh] overflow-y-auto rounded-lg border border-border bg-background shadow-2xl flex flex-col">
           {editorContent}
         </div>
       </div>
@@ -126,7 +126,9 @@ export function ArtifactEditor({ initialContent, editable = true, onChange, clas
 
   return (
     <div className={cn('rounded-lg border border-border overflow-hidden', className)}>
-      {editorContent}
+      <div className="max-h-48 overflow-y-auto">
+        {editorContent}
+      </div>
     </div>
   );
 }
