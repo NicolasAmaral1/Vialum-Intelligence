@@ -960,6 +960,19 @@ async function completeContainer(workflowId: string, currentStep: StepRow, bus: 
     workflowId, stageId: currentTask.stageId, status: 'completed',
   });
 
+  // Sync with Hub: update external task status + add comment
+  const workflow = await prisma.workflow.findUnique({ where: { id: workflowId } });
+  if (workflow?.externalTaskId) {
+    const { updateTaskStatus, addComment } = await import('../clients/hub.client.js');
+    const stageName = currentStage.name;
+
+    updateTaskStatus(workflow.accountId, workflow.externalTaskId, stageName)
+      .catch((err) => console.warn(`[engine] Hub status sync failed:`, (err as Error).message));
+
+    addComment(workflow.accountId, workflow.externalTaskId, `Stage "${stageName}" concluído`)
+      .catch((err) => console.warn(`[engine] Hub comment sync failed:`, (err as Error).message));
+  }
+
   // Next stage
   const nextStage = await prisma.workflowStage.findFirst({
     where: { workflowId, position: { gt: currentStage.position }, status: 'pending' },
@@ -973,6 +986,13 @@ async function completeContainer(workflowId: string, currentStep: StepRow, bus: 
       data: { stage: nextStage.definitionStageId, currentStageId: nextStage.id },
     });
     broadcastToWorkflow(workflowId, 'workflow:stage_changed', { workflowId, stageId: nextStage.id, status: 'active' });
+
+    // Sync with Hub: update to new stage
+    if (workflow?.externalTaskId) {
+      const { updateTaskStatus } = await import('../clients/hub.client.js');
+      updateTaskStatus(workflow.accountId, workflow.externalTaskId, nextStage.name)
+        .catch((err) => console.warn(`[engine] Hub stage sync failed:`, (err as Error).message));
+    }
 
     const firstTask = await prisma.workflowTask.findFirst({
       where: { stageId: nextStage.id, status: 'pending' },
