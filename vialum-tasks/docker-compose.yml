@@ -18,6 +18,8 @@ services:
       - SHARED_SQUADS_PATH=/workspaces/shared/squads
       - TENANTS_WORKSPACE_PATH=/workspaces/tenants
       - REDIS_URL=${REDIS_URL:-}
+      - CHAT_API_KEY=vialum_sk_KH5YaGm5OnEp77wHI69rsf5jP5KG1QHKAesPoef0cozW6iwKiRCjlz6TrCIxHj_h
+      - CHAT_INBOX_ID=59e5dc48-a983-422f-80c4-f6ba3ce71e32
     volumes:
       - /root/.claude:/root/.claude:ro
       - /root/.claude.json:/root/.claude.json:ro
