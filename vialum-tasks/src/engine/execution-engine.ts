@@ -961,15 +961,15 @@ async function completeContainer(workflowId: string, currentStep: StepRow, bus: 
   });
 
   // Sync with Hub: update external task status + add comment
-  const workflow = await prisma.workflow.findUnique({ where: { id: workflowId } });
-  if (workflow?.externalTaskId) {
-    const { updateTaskStatus, addComment } = await import('../clients/hub.client.js');
+  const wfForHub = await prisma.workflow.findUnique({ where: { id: workflowId } });
+  if (wfForHub?.externalTaskId) {
+    const hubClient = await import('../clients/hub.client.js');
     const stageName = currentStage.name;
 
-    updateTaskStatus(workflow.accountId, workflow.externalTaskId, stageName)
+    hubClient.updateTaskStatus(wfForHub.accountId, wfForHub.externalTaskId, stageName)
       .catch((err) => console.warn(`[engine] Hub status sync failed:`, (err as Error).message));
 
-    addComment(workflow.accountId, workflow.externalTaskId, `Stage "${stageName}" concluído`)
+    hubClient.addComment(wfForHub.accountId, wfForHub.externalTaskId, `Stage "${stageName}" concluído`)
       .catch((err) => console.warn(`[engine] Hub comment sync failed:`, (err as Error).message));
   }
 
@@ -988,9 +988,9 @@ async function completeContainer(workflowId: string, currentStep: StepRow, bus: 
     broadcastToWorkflow(workflowId, 'workflow:stage_changed', { workflowId, stageId: nextStage.id, status: 'active' });
 
     // Sync with Hub: update to new stage
-    if (workflow?.externalTaskId) {
-      const { updateTaskStatus } = await import('../clients/hub.client.js');
-      updateTaskStatus(workflow.accountId, workflow.externalTaskId, nextStage.name)
+    if (wfForHub?.externalTaskId) {
+      const hubClient2 = await import('../clients/hub.client.js');
+      hubClient2.updateTaskStatus(wfForHub.accountId, wfForHub.externalTaskId, nextStage.name)
         .catch((err) => console.warn(`[engine] Hub stage sync failed:`, (err as Error).message));
     }
 
@@ -1009,7 +1009,7 @@ async function completeContainer(workflowId: string, currentStep: StepRow, bus: 
   }
 
   // ALL DONE
-  const workflow = await prisma.workflow.findUnique({ where: { id: workflowId } });
+  const wfFinal = await prisma.workflow.findUnique({ where: { id: workflowId } });
   await prisma.workflow.update({
     where: { id: workflowId },
     data: { status: 'completed', completedAt: new Date() },
