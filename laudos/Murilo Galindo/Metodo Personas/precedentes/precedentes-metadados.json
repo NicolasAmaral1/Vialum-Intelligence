@@ -1,0 +1,10 @@
+{
+  "fase": "3B.1",
+  "total_solicitados": 2,
+  "total_coletados": 1,
+  "total_falhas": 1,
+  "falhas": [
+    "909721572"
+  ],
+  "duracao_segundos": 93.2
+}

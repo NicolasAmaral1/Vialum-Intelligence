@@ -1,0 +1,14 @@
+{
+  "fase": "3B.1",
+  "total_solicitados": 8,
+  "total_coletados": 3,
+  "total_falhas": 5,
+  "falhas": [
+    "301260023209",
+    "850140238992",
+    "850240090685",
+    "850220535042",
+    "850200155212"
+  ],
+  "duracao_segundos": 42.7
+}

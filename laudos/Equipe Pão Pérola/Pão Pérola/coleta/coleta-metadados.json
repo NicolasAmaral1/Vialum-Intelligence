@@ -1,0 +1,35 @@
+{
+  "marca": "PEROLA",
+  "classes": [
+    30,
+    43
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "similaridade_minima": 20,
+  "max_paginas": 10,
+  "por_classe": {
+    "30": {
+      "encontradas": 225
+    },
+    "43": {
+      "encontradas": 75
+    }
+  },
+  "busca_geral": {},
+  "total_coletadas": 300,
+  "total_unicas": 300,
+  "buckets": {
+    "A": 75,
+    "B": 58,
+    "C": 167
+  },
+  "sucesso": true,
+  "erro": null,
+  "inicio": "2026-04-23T22:36:03.959368+00:00",
+  "fim": "2026-04-23T22:36:39.277250+00:00",
+  "duracao_segundos": 35.3,
+  "cross_class": {
+    "alertas": 0,
+    "executada": false
+  }
+}

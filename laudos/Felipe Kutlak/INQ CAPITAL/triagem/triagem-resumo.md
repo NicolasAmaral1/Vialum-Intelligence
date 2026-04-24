@@ -1,0 +1,335 @@
+# Triagem Heurística — INQ CAPITAL
+
+## Decomposição da marca-alvo
+
+- **INQ** → DISTINTIVO (fonética: `inq`, esqueleto: `nq`)
+- **CAPITAL** → DESCRITIVO (fonética: `capital`, esqueleto: `cptl`)
+
+## Resultado
+
+| Tier | Qtd | Destino |
+|------|-----|---------|
+| T1 — Colidência direta | 5 | Cotejo |
+| T2 — Fonética forte | 241 | Cotejo |
+| T3 — Composição suspeita | 42 | Cotejo |
+| T4 — Só descritivo | 992 | Mapa de desgaste |
+| T5 — Irrelevante | 237 | Descartada |
+| **Total** | **1517** | |
+
+## T1 — Colidência direta (5 marcas)
+
+- **INQ Integração Neuroquântica** (cl.41) — Registro de marca em vigor — `923681868`
+- **INQ. HOME** (cl.36) — Aguardando exame de mérito — `940194376`
+- **INQ. PAMPULHA** (cl.36) — Aguardando exame de mérito — `940193795`
+- **InQ.Ifba Portal da Inovação & Qualidade** (cl.41) — Registro de marca em vigor — `912154225`
+- **M.INQ MENTES INQUIETAS** (cl.41) — Registro de marca em vigor — `908760493`
+
+## T2 — Fonética forte (241 marcas)
+
+- **INT CAPITAL** (cl.35) — Aguardando exame de mérito — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INT CAPITAL** (cl.36) — Aguardando exame de mérito — INT≈INQ (FONETICO_FORTE, 0.75)
+- **ENQ** (cl.41) — Registro de marca em vigor — ENQ≈INQ (FONETICO_FORTE, 0.85)
+- **NIQ** (cl.9) — Registro de marca em vigor (Madri) — NIQ≈INQ (FONETICO_FORTE, 0.85)
+- **NIQ** (cl.9) — Registro de marca em vigor (Madri) — NIQ≈INQ (FONETICO_FORTE, 0.85)
+- **NIQ** (cl.36) — Registro de marca em vigor — NIQ≈INQ (FONETICO_FORTE, 0.85)
+- **NIQ FULL VIEW** (cl.9) — Registro de marca em vigor (Madri) — NIQ≈INQ (FONETICO_FORTE, 0.85)
+- **NIQ TURBO TELECOM** (cl.42) — Registro de marca em vigor — NIQ≈INQ (FONETICO_FORTE, 0.85)
+- **ONQ** (cl.41) — Registro de marca em vigor — ONQ≈INQ (FONETICO_FORTE, 0.85)
+- **UNQ** (cl.41) — Aguardando exame de mérito — UNQ≈INQ (FONETICO_FORTE, 0.85)
+- **UNQ Academia** (cl.41) — Aguardando exame de mérito — UNQ≈INQ (FONETICO_FORTE, 0.85)
+- **UNQ Beira Lago** (cl.41) — Aguardando exame de mérito — UNQ≈INQ (FONETICO_FORTE, 0.85)
+- **UNQ Gym Club** (cl.41) — Registro de marca em vigor — UNQ≈INQ (FONETICO_FORTE, 0.85)
+- **UNQ Imóveis** (cl.36) — Registro de marca em vigor — UNQ≈INQ (FONETICO_FORTE, 0.85)
+- **UNQ UNIQUE** (cl.41) — Registro de marca em vigor — UNQ≈INQ (FONETICO_FORTE, 0.85), UNIQUE≈INQ (FONETICO_FRACO, 0.55)
+- **4 IND** (cl.42) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75)
+- **ALL INK DESIGN CO.** (cl.42) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **AMANDA MARIA ARQ INT** (cl.42) — Aguardando exame de mérito — ARQ≈INQ (FONETICO_FRACO, 0.55), INT≈INQ (FONETICO_FORTE, 0.75)
+- **ARPOADOR INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **ASSIST ASSISTÊNCIA INT AOS SERVIDORES E TRABALHADORES** (cl.41) — Registro de marca em vigor — INT≈INQ (FONETICO_FORTE, 0.75)
+- **ASSOCIACAO BRAS.DA IND.DE TORREF. E MOAGEM DE CAFE ABIC** (cl.41) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75)
+- **ASTON INK** (cl.42) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **AZIONE ARQ & INT** (cl.42) — Registro de marca em vigor — ARQ≈INQ (FONETICO_FRACO, 0.55), INT≈INQ (FONETICO_FORTE, 0.75)
+- **Angel Ink** (cl.42) — Aguardando exame de mérito — Ink≈INQ (FONETICO_FORTE, 0.75)
+- **Antyetico Ink** (cl.41) — Registro de marca em vigor — Ink≈INQ (FONETICO_FORTE, 0.75)
+- **BABY INN** (cl.41) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **BYTE INK GRÁFICA RÁPIDA** (cl.42) — Aguardando exame de mérito — INK≈INQ (FONETICO_FORTE, 0.75)
+- **Br.ino** (cl.41) — Registro de marca em vigor — ino≈INQ (FONETICO_FORTE, 0.75)
+- **C INT** (cl.42) — Registro de marca em vigor — INT≈INQ (FONETICO_FORTE, 0.75)
+- **CILLE INK** (cl.42) — Aguardando exame de mérito — INK≈INQ (FONETICO_FORTE, 0.75)
+- **CLARION INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **CO:CREATE INK** (cl.35) — Registro de marca em vigor (Madri) — INK≈INQ (FONETICO_FORTE, 0.75)
+- **COMFORT INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **COMFORT INN** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **COMFORT INN** (cl.38) — Registro — INN≈INQ (FONETICO_FORTE, 0.75)
+- **CONTINENTAL INN FOZ** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **COUNTRY INN & SUITES BY CARLSON** (cl.38) — Registro de marca cancelado de ofício — INN≈INQ (FONETICO_FORTE, 0.75)
+- **CURSO GONE ink** (cl.41) — Registro de marca em vigor — ink≈INQ (FONETICO_FORTE, 0.75)
+- **Creative Arq Int** (cl.42) — Registro de marca em vigor — Arq≈INQ (FONETICO_FRACO, 0.55), Int≈INQ (FONETICO_FORTE, 0.75)
+- **Cyber Int** (cl.42) — Aguardando exame de mérito — Int≈INQ (FONETICO_FORTE, 0.75)
+- **DAYS INN** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **DOMIRA ARQ + INT** (cl.42) — Aguardando prazo de apresentação de oposição — ARQ≈INQ (FONETICO_FRACO, 0.55), INT≈INQ (FONETICO_FORTE, 0.75)
+- **E INK** (cl.9) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **ES INK FESTIVAL** (cl.41) — Aguardando exame de mérito — INK≈INQ (FONETICO_FORTE, 0.75)
+- **EXECUTIVE INN HOTEL** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **Escritório de Projetos do INT** (cl.42) — Registro de marca em vigor — INT≈INQ (FONETICO_FORTE, 0.75)
+- **Espaço INX** (cl.36) — Registro de marca em vigor — INX≈INQ (FONETICO_FORTE, 0.75)
+- **Estilo Inn** (cl.36) — Registro de marca em vigor — Inn≈INQ (FONETICO_FORTE, 0.75)
+- **F INV FUNDAMENTA INVESTIMENTOS** (cl.36) — Registro de marca em vigor — INV≈INQ (FONETICO_FORTE, 0.75)
+- **FAIRFIELD INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **FAIRFIELD INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **FERRADURA INN** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **FERRADURA INN EXCLUSIVE** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **FORTRESS INV** (cl.36) — Registro de marca em vigor — INV≈INQ (FONETICO_FORTE, 0.75)
+- **Float inn** (cl.42) — Registro de marca em vigor — inn≈INQ (FONETICO_FORTE, 0.75)
+- **GARDEN INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **GARDEN INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **GEEK INK** (cl.41) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **Guia.ind.br** (cl.41) — None — ind≈INQ (FONETICO_FORTE, 0.75)
+- **H HOLIDAY INN CLUB VACATIONS** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HAMPTON INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HAMPTON INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HILTON GARDEN INN** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HILTON GARDEN INN** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOLIDAY INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOLIDAY INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOLIDAY INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOLIDAY INN** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOLIDAY INN CLUB** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOLIDAY INN CLUB VACATIONS** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOLIDAY INN EXPRESS** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOLIDAY INN EXPRESS** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOTEL CUIABÁ INN** (cl.41) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **HOTEL NACIONAL INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **Hub de Ino Livelo** (cl.42) — Aguardando exame de mérito — Ino≈INQ (FONETICO_FORTE, 0.75)
+- **Hub de Ino Livelo** (cl.36) — Aguardando exame de mérito — Ino≈INQ (FONETICO_FORTE, 0.75)
+- **I.IND. IMOBILIÁRIA INDAIAL** (cl.36) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75)
+- **IMÓVEIS NORDESTE RURAIS INR** (cl.36) — Registro de marca em vigor — INR≈INQ (FONETICO_FORTE, 0.75)
+- **IN1** (cl.42) — Registro de marca em vigor — IN1≈INQ (FONETICO_FORTE, 0.75)
+- **IN2 Instituto Integrado de Ciência e Tecnologia** (cl.42) — Registro de marca em vigor — IN2≈INQ (FONETICO_FORTE, 0.75)
+- **IN2 Instituto Integrado de Ciência e Tecnologia** (cl.41) — Registro de marca em vigor — IN2≈INQ (FONETICO_FORTE, 0.75)
+- **IN3 EMPREENDIMENTOS IMOBILIÁRIOS** (cl.36) — Aguardando exame de mérito — IN3≈INQ (FONETICO_FORTE, 0.75)
+- **IN4 arquitetura interiores paisagismo gerenciamento** (cl.42) — Aguardando exame de mérito — IN4≈INQ (FONETICO_FORTE, 0.75)
+- **IN7 IMOBILIÁRIA** (cl.36) — Registro de marca em vigor — IN7≈INQ (FONETICO_FORTE, 0.75)
+- **IN8** (cl.42) — Registro de marca em vigor — IN8≈INQ (FONETICO_FORTE, 0.75)
+- **INA** (cl.8) — Registro de marca em vigor — INA≈INQ (FONETICO_FORTE, 0.75)
+- **INA** (cl.7) — Registro de marca em vigor — INA≈INQ (FONETICO_FORTE, 0.75)
+- **INA** (cl.7) — Registro de marca em vigor — INA≈INQ (FONETICO_FORTE, 0.75)
+- **INA** (cl.7) — Registro de marca em vigor — INA≈INQ (FONETICO_FORTE, 0.75)
+- **INA - Inteligência NADA Artificial** (cl.41) — Aguardando exame de mérito — INA≈INQ (FONETICO_FORTE, 0.75), NADA≈INQ (FONETICO_FRACO, 0.55)
+- **INA INSTITUTO DE NEUROCIÊNCIAS APLICADAS** (cl.42) — Registro de marca em vigor — INA≈INQ (FONETICO_FORTE, 0.75)
+- **INA INSTITUTO DE NUTRIÇÃO E ALIMENTAÇÃO** (cl.41) — Registro de marca em vigor — INA≈INQ (FONETICO_FORTE, 0.75)
+- **INA MUSIC** (cl.41) — Aguardando prazo de apresentação de oposição — INA≈INQ (FONETICO_FORTE, 0.75)
+- **INA POETA** (cl.41) — Registro de marca em vigor — INA≈INQ (FONETICO_FORTE, 0.75)
+- **INA SYSTEMS** (cl.42) — Registro de marca em vigor — INA≈INQ (FONETICO_FORTE, 0.75)
+- **INB - INSTITUTO NICOLAS BUENO** (cl.42) — Registro de marca em vigor — INB≈INQ (FONETICO_FORTE, 0.75)
+- **INB IMÓVEIS NA BRAVA** (cl.36) — Aguardando exame de mérito — INB≈INQ (FONETICO_FORTE, 0.75)
+- **INB INSTITUTO NORTE BRASIL** (cl.41) — Registro de marca em vigor — INB≈INQ (FONETICO_FORTE, 0.75)
+- **IND COR DE IND** (cl.41) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75), IND≈INQ (FONETICO_FORTE, 0.75)
+- **IND Instituto Novos Destinos** (cl.41) — Aguardando exame de mérito — IND≈INQ (FONETICO_FORTE, 0.75)
+- **IND. HITER** (cl.35) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75)
+- **IND. HITER** (cl.7) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75)
+- **IND. I. A. BRASIL INDUSTRIA ITALIANA ARTEFERRO** (cl.42) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75)
+- **INE GOA** (cl.41) — Registro de marca em vigor — INE≈INQ (FONETICO_FORTE, 0.75)
+- **INE NEGÓCIOS EXPONENCIAIS** (cl.42) — Registro de marca em vigor — INE≈INQ (FONETICO_FORTE, 0.75)
+- **INF** (cl.41) — Registro de marca em vigor — INF≈INQ (FONETICO_FORTE, 0.75)
+- **INF Inglês Funcional Teacher Júlio Coelho** (cl.41) — Aguardando exame de mérito — INF≈INQ (FONETICO_FORTE, 0.75)
+- **INF inova farma** (cl.42) — Registro de marca em vigor — INF≈INQ (FONETICO_FORTE, 0.75), inova≈INQ (FONETICO_FRACO, 0.55)
+- **ING** (cl.36) — Registro de marca em vigor — ING≈INQ (FONETICO_FORTE, 0.75)
+- **ING** (cl.36) — Registro de marca em vigor — ING≈INQ (FONETICO_FORTE, 0.75)
+- **ING** (cl.36) — Registro de marca em vigor — ING≈INQ (FONETICO_FORTE, 0.75)
+- **INI - INTERNATIONAL NEUROSCIENCE INSTITUTE** (cl.42) — Registro de marca em vigor — INI≈INQ (FONETICO_FORTE, 0.75)
+- **INI - Instituto de Ciências Integradas** (cl.41) — Registro de marca em vigor — INI≈INQ (FONETICO_FORTE, 0.75)
+- **INI - Inteligência de Negócios de Impressão** (cl.42) — Aguardando prazo de apresentação de oposição — INI≈INQ (FONETICO_FORTE, 0.75)
+- **INI International Network of Insurance** (cl.36) — Registro de marca em vigor — INI≈INQ (FONETICO_FORTE, 0.75)
+- **INK** (cl.42) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **INK** (cl.9) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **INK** (cl.41) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **INK** (cl.36) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **INK & BEAUTY** (cl.41) — Aguardando exame de conformidade de oposições — INK≈INQ (FONETICO_FORTE, 0.75)
+- **INK BUSINESS** (cl.41) — Aguardando exame de mérito — INK≈INQ (FONETICO_FORTE, 0.75)
+- **INK CIRCLE** (cl.41) — Aguardando exame de mérito — INK≈INQ (FONETICO_FORTE, 0.75)
+- **INK SUMMIT** (cl.41) — Aguardando exame de mérito — INK≈INQ (FONETICO_FORTE, 0.75)
+- **INK WEBTOONS** (cl.42) — Aguardando exame de mérito — INK≈INQ (FONETICO_FORTE, 0.75)
+- **INL** (cl.42) — Registro de marca em vigor — INL≈INQ (FONETICO_FORTE, 0.75)
+- **INM Editora** (cl.41) — Registro de marca em vigor — INM≈INQ (FONETICO_FORTE, 0.75)
+- **INM MEXCOTERAPIA** (cl.42) — Registro de marca em vigor — INM≈INQ (FONETICO_FORTE, 0.75)
+- **INN 7 GESTÃO TRANSPARENTE DA SAÚDE** (cl.42) — Aguardando exame de mérito — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INN E GROWTH MOVIMENT FOR BUSINESS** (cl.42) — Aguardando exame de mérito — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INN LODGE** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INN OF THE MILLENNIUM** (cl.41) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INN VENTORES 111** (cl.42) — Aguardando exame de mérito — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INN VENTORES AUTÊNTICOS IA** (cl.42) — Aguardando exame de mérito — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INN VENTORES BR** (cl.42) — Aguardando exame de mérito — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INN VENTORES DE GROWTH** (cl.42) — Aguardando exame de mérito — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INN-GROWTH 111** (cl.42) — Aguardando exame de mérito — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INN-GROWTHSE SISTEMA DE EXPANSÃO** (cl.42) — Aguardando exame de mérito — INN≈INQ (FONETICO_FORTE, 0.75)
+- **INO** (cl.41) — Aguardando exame de mérito — INO≈INQ (FONETICO_FORTE, 0.75)
+- **INO INSTITUTO NOVA ORDEM** (cl.41) — Aguardando exame de mérito — INO≈INQ (FONETICO_FORTE, 0.75), NOVA≈INQ (FONETICO_FRACO, 0.55)
+- **INP ESTRUTURAS METÁLICAS** (cl.42) — Registro de marca em vigor — INP≈INQ (FONETICO_FORTE, 0.75)
+- **INP INSTITUTO NACIONAL DO PLASTICO** (cl.41) — Registro de marca em vigor — INP≈INQ (FONETICO_FORTE, 0.75)
+- **INP MÓDULOS** (cl.42) — Registro de marca em vigor — INP≈INQ (FONETICO_FORTE, 0.75)
+- **INP Práticas Inclusivas** (cl.41) — Aguardando exame de mérito — INP≈INQ (FONETICO_FORTE, 0.75)
+- **INS** (cl.36) — Registro de marca em vigor — INS≈INQ (FONETICO_FORTE, 0.75)
+- **INS - INDUÇÃO NEURO-SINÁPTICA** (cl.41) — Aguardando exame de mérito — INS≈INQ (FONETICO_FORTE, 0.75), NEURO≈INQ (FONETICO_FRACO, 0.55)
+- **INS INSURAMA** (cl.36) — Registro de marca em vigor — INS≈INQ (FONETICO_FORTE, 0.75)
+- **INS Invinsurance Corretora de Seguros** (cl.36) — Registro de marca em vigor — INS≈INQ (FONETICO_FORTE, 0.75)
+- **INS PIRA ECO RUN** (cl.41) — Registro de marca em vigor — INS≈INQ (FONETICO_FORTE, 0.75)
+- **INS.P INSTITUTO PROFISSÕES** (cl.41) — Registro de marca em vigor — INS≈INQ (FONETICO_FORTE, 0.75)
+- **INSTITUTO INW** (cl.41) — Registro de marca em vigor — INW≈INQ (FONETICO_FORTE, 0.75)
+- **INT** (cl.42) — Registro de marca em vigor — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INT INSTITUTO ENSINO E PESQUISA** (cl.41) — Registro de marca em vigor — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INT INSTITUTO NACIONAL TÉCNICO** (cl.41) — Aguardando prazo de apresentação de oposição — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INT INSTITUTO NEUROTHERAPY** (cl.41) — Registro de marca em vigor — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INT INTECH BENEFICIOS** (cl.42) — Aguardando exame de mérito — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INT INTECH BENEFICIOS** (cl.36) — Para liberar para exame de mérito (pedido de registro sem oposição) — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INT Instituto Jéssica Mósk** (cl.41) — Aguardando exame de mérito — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INT-ON** (cl.42) — Registro de marca em vigor — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INT. AL BY INTEGRATION CONSULTING** (cl.42) — Aguardando exame de mérito — INT≈INQ (FONETICO_FORTE, 0.75)
+- **INV** (cl.41) — Registro de marca em vigor — INV≈INQ (FONETICO_FORTE, 0.75)
+- **INV** (cl.36) — Registro de marca em vigor — INV≈INQ (FONETICO_FORTE, 0.75)
+- **INV ADORAI** (cl.41) — Aguardando exame de mérito — INV≈INQ (FONETICO_FORTE, 0.75)
+- **INV INSPEÇÕES E END's** (cl.42) — Registro de marca em vigor — INV≈INQ (FONETICO_FORTE, 0.75)
+- **INV Saúde Corretora de Seguros** (cl.36) — Aguardando exame de mérito — INV≈INQ (FONETICO_FORTE, 0.75)
+- **INX** (cl.1) — Registro de marca em vigor — INX≈INQ (FONETICO_FORTE, 0.75)
+- **INX DIGITAL** (cl.37) — Registro de marca em vigor — INX≈INQ (FONETICO_FORTE, 0.75)
+- **INY INSTITUTO YI DÀ LUÓ** (cl.41) — Registro de marca em vigor — INY≈INQ (FONETICO_FORTE, 0.75)
+- **INÁ Arquitetura** (cl.42) — Registro de marca em vigor — INÁ≈INQ (FONETICO_FORTE, 0.75)
+- **IPANEMA INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **InW Business** (cl.36) — Registro de marca em vigor — InW≈INQ (FONETICO_FORTE, 0.75)
+- **Ink & Sound Hub** (cl.41) — Aguardando exame de mérito — Ink≈INQ (FONETICO_FORTE, 0.75)
+- **Ink Academia de Artes** (cl.41) — Aguardando exame de mérito — Ink≈INQ (FONETICO_FORTE, 0.75)
+- **Ink Seed editora** (cl.41) — Registro de marca em vigor — Ink≈INQ (FONETICO_FORTE, 0.75)
+- **Inn Box Arquitetura** (cl.42) — Registro de marca em vigor — Inn≈INQ (FONETICO_FORTE, 0.75)
+- **Inn Poesia** (cl.41) — Registro de marca em vigor — Inn≈INQ (FONETICO_FORTE, 0.75)
+- **JESUS Igreja nacional da unicidade INU** (cl.41) — Aguardando exame de mérito — INU≈INQ (FONETICO_FORTE, 0.75)
+- **Juta Arq + Int** (cl.42) — Registro de marca em vigor — Arq≈INQ (FONETICO_FRACO, 0.55), Int≈INQ (FONETICO_FORTE, 0.75)
+- **LA QUINTA INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **LARA LINHARES ARQ&INT** (cl.42) — Registro de marca em vigor — ARQ≈INQ (FONETICO_FRACO, 0.55), INT≈INQ (FONETICO_FORTE, 0.75)
+- **LASER INK** (cl.9) — Registro — INK≈INQ (FONETICO_FORTE, 0.75)
+- **LEARN INN** (cl.41) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **LOPÃO VIGILANCIA E SEGURANÇA IND E COMERCIAL LTDA** (cl.45) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75)
+- **LYNA arq&int** (cl.42) — Aguardando fim de sobrestamento — arq≈INQ (FONETICO_FRACO, 0.55), int≈INQ (FONETICO_FORTE, 0.75)
+- **LYNA arq&int** (cl.42) — Aguardando fim de sobrestamento — arq≈INQ (FONETICO_FRACO, 0.55), int≈INQ (FONETICO_FORTE, 0.75)
+- **Learning Ink** (cl.41) — Aguardando exame de mérito — Ink≈INQ (FONETICO_FORTE, 0.75)
+- **MAC INN TECNOLOGIA EM AUTOMAÇÃO** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **MARRIOTT RESIDENCE INN** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **MARRIOTT RESIDENCE INN** (cl.41) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **MICROTEL INN & SUITES** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **MISTER INS** (cl.41) — Registro de marca em vigor — INS≈INQ (FONETICO_FORTE, 0.75)
+- **MISTER INS MUSIC** (cl.41) — Registro de marca em vigor — INS≈INQ (FONETICO_FORTE, 0.75)
+- **MOOCA INK** (cl.41) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **MOV INN** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **MP MECCAPLAST IND. E COM. DE PLÁSTICOS LTDA.** (cl.20) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75)
+- **MPP INK - METALIZAÇÃO PASSO A PASSO** (cl.41) — Aguardando exame de mérito — INK≈INQ (FONETICO_FORTE, 0.75)
+- **Mr. Ins** (cl.41) — Registro de marca em vigor — Ins≈INQ (FONETICO_FORTE, 0.75)
+- **My-Ind** (cl.42) — Registro de marca em vigor — Ind≈INQ (FONETICO_FORTE, 0.75)
+- **OBS.ind** (cl.42) — Aguardando exame de mérito — ind≈INQ (FONETICO_FORTE, 0.75)
+- **ONNO Ind** (cl.42) — Registro de marca em vigor — ONNO≈INQ (FONETICO_FRACO, 0.55), Ind≈INQ (FONETICO_FORTE, 0.75)
+- **PARK INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **PLAZA INN** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **PLAZA INN** (cl.36) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **PLAZA INN EXECUTIVE** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **Ponto Ini** (cl.42) — Aguardando exame de mérito — Ini≈INQ (FONETICO_FORTE, 0.75)
+- **QUALITY INN** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **RANCHO INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **RANCHO INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **RIO INK** (cl.41) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **RIO INK** (cl.41) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **Remove Ink ? Seminário de Remoção de Pigmentos e Reparação da Pele** (cl.41) — Registro de marca em vigor — Ink≈INQ (FONETICO_FORTE, 0.75)
+- **Rosengarten e Monticelle ARQ INT** (cl.42) — Registro de marca em vigor — ARQ≈INQ (FONETICO_FRACO, 0.55), INT≈INQ (FONETICO_FORTE, 0.75)
+- **SEVEN INK STUDIO** (cl.42) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **SHERATON MOTOR INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **SHIBA INU** (cl.42) — Aguardando exame de mérito — INU≈INQ (FONETICO_FORTE, 0.75)
+- **SHIBA INU** (cl.41) — Aguardando exame de mérito — INU≈INQ (FONETICO_FORTE, 0.75)
+- **SHIBA INU** (cl.36) — Aguardando exame de mérito — INU≈INQ (FONETICO_FORTE, 0.75)
+- **SINDINAM SINDICATO NACIONAL DA IND DE AGUAS MINERAIS** (cl.42) — Registro de marca em vigor — IND≈INQ (FONETICO_FORTE, 0.75)
+- **SINPESP-SINDICATO DA IND. DO PAPELÃO, NO ESTADO DE SP** (cl.41) — Registro — IND≈INQ (FONETICO_FORTE, 0.75)
+- **SISTEMA INP** (cl.9) — Registro de marca em vigor — INP≈INQ (FONETICO_FORTE, 0.75)
+- **SISTEMA INP SISTEMA NACIONAL DE IMPLANTES E PRÓTESES** (cl.9) — Registro — INP≈INQ (FONETICO_FORTE, 0.75)
+- **SLEEP INN** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **SLEEP INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **SÃO PAULO INK** (cl.41) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **THE INK BLACK HEART** (cl.42) — Registro de marca em vigor — INK≈INQ (FONETICO_FORTE, 0.75)
+- **TOP IND** (cl.42) — Aguardando exame de mérito — IND≈INQ (FONETICO_FORTE, 0.75)
+- **TOP INN HOTEL** (cl.41) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **TRAVEL INN HOTEL** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **Tribes Ink** (cl.42) — Registro de marca em vigor — Ink≈INQ (FONETICO_FORTE, 0.75)
+- **VILA INN** (cl.43) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **WINGATE INN** (cl.42) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **WM HOTEL NACIONAL INN** (cl.38) — Registro de marca em vigor — INN≈INQ (FONETICO_FORTE, 0.75)
+- **iN2** (cl.42) — Registro de marca em vigor — iN2≈INQ (FONETICO_FORTE, 0.75)
+- **iNB Tecnologia** (cl.42) — Registro de marca em vigor — iNB≈INQ (FONETICO_FORTE, 0.75)
+- **iNS Integrity System** (cl.42) — Registro de marca em vigor — iNS≈INQ (FONETICO_FORTE, 0.75)
+- **in2** (cl.42) — Registro de marca em vigor — in2≈INQ (FONETICO_FORTE, 0.75)
+- **ing** (cl.41) — Registro de marca em vigor — ing≈INQ (FONETICO_FORTE, 0.75)
+- **ing.grid** (cl.38) — Registro de marca em vigor (Madri) — ing≈INQ (FONETICO_FORTE, 0.75)
+- **ink Distrimix Brasil** (cl.42) — Aguardando cumprimento de exigência de mérito — ink≈INQ (FONETICO_FORTE, 0.75)
+- **ink Distrimix Brasil** (cl.41) — Registro de marca em vigor — ink≈INQ (FONETICO_FORTE, 0.75)
+- **ins;de.lab** (cl.41) — Aguardando exame de mérito — ins≈INQ (FONETICO_FORTE, 0.75)
+- **log-ing** (cl.41) — Registro de marca em vigor — ing≈INQ (FONETICO_FORTE, 0.75)
+
+## T3 — Composição suspeita (42 marcas)
+
+- **CAPITAL IQ** (cl.35) — Registro de marca em vigor
+- **CAPITAL IQ** (cl.42) — Registro de marca em vigor
+- **CAPITAL IQ** (cl.9) — Registro de marca em vigor
+- **IMOBILIÁRIA NOVA CAPITAL** (cl.35) — Registro de marca em vigor
+- **INDIE CAPITAL** (cl.35) — Registro de marca em vigor
+- **NOVA MILANO CAPITAL** (cl.35) — Aguardando exame de mérito
+- **NOVA SERRANA CAPITAL NACIONAL DO CALÇADO ESPORTIVO** (cl.42) — Registro de marca em vigor
+- **NOVACAP CIA URBANIZADORA DA NOVA CAPITAL DO BRASIL** (cl.42) — Registro de marca em vigor
+- **NOVO CIRCUITO DE VAQUEJADA CAPITAL DO FORRÓ CARUARU - PE** (cl.41) — Aguardando exame de mérito
+- **Nova Capital Roleplay** (cl.42) — Registro de marca em vigor
+- **Nova Capital Roleplay** (cl.41) — Registro de marca em vigor
+- **Nova Fribrugo RJ Capital da Lingerie** (cl.41) — Registro de marca em vigor
+- **Nova Friburgo - RJ Capital da Lingerie** (cl.35) — Registro de marca em vigor
+- **Nova Friburgo RJ Capital da Lingerie** (cl.42) — Registro de marca em vigor
+- **O3 ONE3 CAPITAL** (cl.42) — Aguardando exame de mérito
+- **PROJETO CAPITAL GOSPEL ANTI DROGAS** (cl.41) — Registro
+- **PROJETO CAPITAL GOSPEL ANTI DROGAS** (cl.38) — Registro
+- **XQ CAPITAL Otimizando Lucros** (cl.35) — Registro de marca em vigor
+- **nano capital** (cl.42) — Registro de marca em vigor
+- **NANO INC.** (cl.36) — Aguardando prazo de apresentação de oposição
+- **NEW INC.** (cl.36) — Registro de marca em vigor
+- **NOVA SP INC. INCORPORADORA** (cl.42) — Aguardando exame de mérito
+- **NOVA SP INC. INCORPORADORA** (cl.36) — Registro de marca em vigor
+- **Nexa Inc** (cl.36) — Aguardando fim de sobrestamento
+- **UND.LAB.INC.** (cl.42) — Registro de marca em vigor
+- **UNIC, inc** (cl.42) — Registro de marca em vigor
+- **CONGRESSO FNQ DE EXCELÊNCIA EM GESTÃO** (cl.41) — Registro de marca em vigor
+- **DNQ DEDO NA QUINA** (cl.42) — Aguardando exame de mérito
+- **FNQ** (cl.41) — Registro de marca em vigor
+- **ICQ BRASIL INSTITUTO DE CERTIFICAÇÃO QUALIDADE BRASIL** (cl.42) — Registro de marca em vigor
+- **ICQ pro** (cl.42) — Aguardando exame de mérito
+- **IEQ** (cl.41) — Registro de marca em vigor
+- **IGQ INSTITUTO GESTÃO DA QUALIDADE** (cl.42) — Registro de marca em vigor
+- **IHQ** (cl.41) — Registro de marca em vigor
+- **IIQ ID** (cl.42) — Registro de marca em vigor
+- **INSTITUTO BRASILEIRO PARA A QUALIDADE - IBQ** (cl.41) — Registro de marca em vigor
+- **IPQ** (cl.9) — Registro de marca em vigor
+- **IPQ TECNOLOGIA** (cl.42) — Registro de marca em vigor
+- **ISQ BRASIL** (cl.42) — Registro de marca em vigor
+- **ITQ** (cl.41) — Registro de marca em vigor
+- **TankGuard - Powered by ISQ** (cl.42) — Aguardando exame de mérito
+- **i2Q** (cl.35) — Registro de marca em vigor (Madri)
+
+## T4 — Só descritivo (992 marcas) — resumo por classe
+
+- Classe 11: 2 marcas
+- Classe 16: 1 marcas
+- Classe 25: 2 marcas
+- Classe 28: 2 marcas
+- Classe 3: 2 marcas
+- Classe 30: 2 marcas
+- Classe 32: 1 marcas
+- Classe 35: 505 marcas
+- Classe 36: 2 marcas
+- Classe 37: 3 marcas
+- Classe 38: 5 marcas
+- Classe 40: 3 marcas
+- Classe 41: 338 marcas
+- Classe 42: 109 marcas
+- Classe 43: 2 marcas
+- Classe 45: 1 marcas
+- Classe 7: 1 marcas
+- Classe 9: 11 marcas

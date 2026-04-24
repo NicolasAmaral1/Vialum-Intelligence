@@ -1,0 +1,554 @@
+{
+  "marca_analisada": "Metodo Personas",
+  "tipo_marca": "EVOCATIVO",
+  "atividade_cliente": "Curso Online, Eventos",
+  "classes_requeridas": [9, 35, 38, 41, 42],
+  "data_cotejo": "2026-04-10",
+  "analista": "@cotejador",
+  "fase": "Fase 5 - Cotejo Individual",
+  "vereditos": [
+    {
+      "ordem": 1,
+      "processo": "923174044",
+      "marca_oponente": "Personas",
+      "classe": 42,
+      "situacao": "Registro de marca em vigor",
+      "titular": "1859 SERVICOS FINANCEIROS LTDA.",
+      "apresentacao": "Mista",
+      "cotejo": {
+        "1_sinais": {
+          "fonetica": {
+            "nivel": "ALTA",
+            "analise": "METODO PERSONAS vs. Personas. O elemento METODO e generico e descartado pelo INPI. O elemento distintivo remanescente e PERSONAS, identico ao sinal oponente. Reproducao fonetica integral: /per.so.nas/ vs /per.so.nas/. Coincidencia total de silabas, tonicidade e cadencia."
+          },
+          "grafica": {
+            "nivel": "ALTA",
+            "analise": "PERSONAS aparece integralmente dentro de METODO PERSONAS. A marca oponente e mista (possui elemento figurativo), o que diferencia visualmente. Porem, o INPI avalia o elemento nominativo isoladamente quando este e o nucleo distintivo. Graficamente, PERSONAS = PERSONAS."
+          },
+          "ideologica": {
+            "nivel": "ALTA",
+            "analise": "Ambas evocam o mesmo conceito: 'personas' no sentido de arquetipos, perfis de usuario ou personalidades. O campo semantico e identico. Nao ha elemento adicional em 'Personas' que desloque o sentido. METODO apenas qualifica o modo, sem alterar a carga ideologica de PERSONAS."
+          },
+          "classificacao_global_sinais": "ALTA"
+        },
+        "2_afinidade_mercadologica": {
+          "canal_distribuicao": "MEDIA - Ambos podem operar via plataformas digitais, mas software (cl.42) e cursos (atividade do cliente) tem canais parcialmente sobrepostos (SaaS educacional vs. plataformas de curso online).",
+          "publico_consumidor": "MEDIA - Software generico atinge publico amplo; cursos online tambem. Ha sobreposicao no segmento de profissionais que consomem ferramentas e formacao.",
+          "ambiente_comercial": "MEDIA - Ambos circulam em ambiente digital. Software pode ser vendido junto a cursos (upsell de ferramenta + treinamento).",
+          "complementaridade": "MEDIA - Cursos podem complementar software (treinamento para uso de ferramenta). Relacao indireta mas existente.",
+          "competitividade": "BAIXA - Software generico nao compete diretamente com cursos online/eventos.",
+          "condicoes_uso": "BAIXA - Software e licenciado/assinado; cursos sao adquiridos pontualmente ou por assinatura educacional.",
+          "natureza_servico": "MEDIA - Ambos sao servicos tecnologicos/intelectuais, mas de naturezas distintas (desenvolvimento vs. educacao).",
+          "funcionalidade": "BAIXA - Software serve para processamento/automacao; cursos servem para capacitacao.",
+          "classificacao_global_afinidade": "MEDIA"
+        },
+        "3_especificacoes": {
+          "spec_oponente": "Servicos cientificos e tecnologicos, pesquisa e desenho relacionados a estes; servicos de analise industrial e pesquisa; concepcao, projeto e desenvolvimento de hardware e software de computador; servicos juridicos.",
+          "spec_cliente": "Curso Online, Eventos (atividade pretendida pelo requerente, sem deposito ainda na cl.42)",
+          "sobreposicao": "BAIXA DIRETA - A spec da oponente foca em desenvolvimento de software e servicos cientificos/juridicos. Cursos online e eventos nao estao listados. Porem, o INPI pode considerar 'servicos tecnologicos' como abrangente o suficiente para alcanzar plataformas educacionais digitais. A afinidade e indireta.",
+          "nota": "Na classe 42, o risco nao decorre tanto da sobreposicao de specs, mas da reproducao integral do sinal PERSONAS. O INPI pode aplicar art. 124 XIX independentemente de sobreposicao perfeita de specs, bastando que os servicos sejam 'afins'."
+        },
+        "4_isonomia": {
+          "precedentes_aplicaveis": "Personas (923174044) foi CONCEDIDA na cl.42 (enquanto foi INDEFERIDA na cl.35). Isso indica que o INPI aceitou o termo nesta classe. Porem, essa mesma concessao cria o bloqueador: METODO PERSONAS reproduz Personas com acrescimo de METODO (generico).",
+          "classificacao": "DESFAVORAVEL_COM_NUANCE",
+          "analise": "A isonomia opera nos dois sentidos: (a) se Personas foi registrada, o radical persona- e registravel na cl.42 -- favoravel; (b) porem, Personas ja registrada bloqueia METODO PERSONAS por art. 124 XIX -- desfavoravel. Resultado liquido: DESFAVORAVEL."
+        },
+        "5_desgaste": {
+          "radical_personas_cl42": "INCONCLUSIVO - Apenas 1 titular (Personas, 923174044) com o radical persona- em vigor na classe 42. Base insuficiente para determinar desgaste. Nao ha coexistencia multipla.",
+          "radical_metodo_cl42": "PARCIAL - 15+ titulares com METODO em vigor na classe 42. Confirma que METODO e generico e descartavel na analise.",
+          "impacto": "O desgaste de METODO favorece o requerente (METODO nao sera obstáculo). A ausencia de desgaste de PERSONAS na cl.42 desfavorece (o INPI nao tem precedente de coexistencia para flexibilizar)."
+        },
+        "6_atenuantes_agravantes": {
+          "atenuantes": [
+            "Marca oponente e mista (elemento figurativo pode diferenciar visualmente)",
+            "Specs da oponente focam em software/servicos tecnologicos, nao em educacao",
+            "METODO como prefixo acrescenta extensao ao conjunto, embora seja generico",
+            "Atividades distintas dentro da mesma classe (software vs. cursos)"
+          ],
+          "agravantes": [
+            "Reproducao integral do elemento distintivo PERSONAS",
+            "METODO e generico e sera descartado pelo INPI na analise",
+            "Oponente esta em vigor e ativa",
+            "Precedente de Personas indeferida na cl.35 demonstra que INPI trata o radical com rigor"
+          ]
+        },
+        "7_veredito": {
+          "classificacao": "COLIDENCIA POSSIVEL",
+          "probabilidade_indeferimento": "50-65%",
+          "justificativa": "Reproducao integral do sinal PERSONAS com acrescimo de elemento generico (METODO). O INPI seguira o padrao consolidado: descartar METODO e avaliar PERSONAS contra Personas registrada. A afinidade mercadologica e media (software vs. cursos na mesma classe 42), e a especificacao da oponente nao cobre educacao diretamente. Isso atenua o risco de COLIDENCIA PROVAVEL para POSSIVEL. A diferenca de atividade dentro da cl.42 e o principal fator de atenuacao."
+        }
+      }
+    },
+    {
+      "ordem": 2,
+      "processo": "915852039",
+      "marca_oponente": "PERSONA",
+      "classe": 35,
+      "situacao": "Registro de marca em vigor",
+      "titular": "Nao identificado na fonte-bruta (referenciado como bloqueador no indeferimento de Personas 923173943)",
+      "apresentacao": "Nao coletada",
+      "cotejo": {
+        "1_sinais": {
+          "fonetica": {
+            "nivel": "ALTA",
+            "analise": "METODO PERSONAS vs. PERSONA. Descartando METODO (generico): PERSONAS vs. PERSONA. Diferenca apenas no 'S' final (plural vs singular). /per.so.nas/ vs /per.so.na/. O INPI ja decidiu que esta diferenca e insuficiente para afastar colidencia (precedente 923173943: Personas indeferida por PERSONA)."
+          },
+          "grafica": {
+            "nivel": "ALTA",
+            "analise": "PERSONA contem 7 letras; PERSONAS contem 8 letras. Diferenca de uma unica letra (S final). Visualmente quase identicos. O INPI ja tratou como imitacao no indeferimento de Personas."
+          },
+          "ideologica": {
+            "nivel": "ALTA",
+            "analise": "PERSONA e PERSONAS compartilham identico campo semantico: persona como arquetipo, perfil, individualidade. O plural nao altera o conceito. Ambas evocam a mesma ideia no contexto de gestao, consultoria ou desenvolvimento humano."
+          },
+          "classificacao_global_sinais": "ALTA"
+        },
+        "2_afinidade_mercadologica": {
+          "canal_distribuicao": "MEDIA - Classe 35 abrange propaganda e gestao de negocios. Cursos online e eventos podem ser promovidos via servicos de cl.35 (marketing, consultoria).",
+          "publico_consumidor": "MEDIA - Sobreposicao parcial: empresas e profissionais que contratam servicos de gestao (cl.35) tambem consomem cursos e eventos.",
+          "ambiente_comercial": "MEDIA - Ambiente digital compartilhado.",
+          "complementaridade": "MEDIA - Servicos de gestao/consultoria frequentemente complementam formacao (cursos).",
+          "competitividade": "BAIXA - Nao sao diretamente competitivos.",
+          "condicoes_uso": "BAIXA - Modos de contratacao distintos.",
+          "natureza_servico": "MEDIA - Ambos sao servicos intelectuais/profissionais.",
+          "funcionalidade": "BAIXA - Gestao de negocios vs. educacao.",
+          "classificacao_global_afinidade": "MEDIA"
+        },
+        "3_especificacoes": {
+          "spec_oponente": "Nao coletada na fonte-bruta.json. A marca PERSONA (915852039) nao foi raspada individualmente. Consta apenas como bloqueador citado no indeferimento de Personas (923173943). Pela classe 35 e pelo contexto do indeferimento, a especificacao provavelmente abrange servicos de propaganda, gestao de negocios e/ou administracao de negocios.",
+          "spec_cliente": "Curso Online, Eventos (atividade pretendida pelo requerente)",
+          "sobreposicao": "INDETERMINADA - Sem spec exata da oponente. Porem, o INPI ja considerou PERSONA como bloqueador de Personas na cl.35, o que indica que o examinador entendeu haver afinidade mercadologica suficiente entre as specs.",
+          "nota": "A ausencia de spec nao reduz o risco -- o precedente direto (indeferimento de Personas por PERSONA) e mais relevante que a analise teorica de specs."
+        },
+        "4_isonomia": {
+          "precedentes_aplicaveis": "PRECEDENTE DIRETO E CRITICO: Personas (923173943) foi INDEFERIDA na cl.35 em 12/04/2022 (RPI 2675) por art. 124 XIX, citando expressamente PERSONA (915852039) como bloqueador. Adicionalmente, METODO PERSONALITY (900367202) foi indeferida E mantida em recurso (2a instancia, 2017) na cl.35 por colidencia com PERSONALITE (hoje extinta). O padrao e consolidado.",
+          "classificacao": "DESFAVORAVEL",
+          "analise": "A isonomia opera CONTRA o requerente. Personas ja foi indeferida por este exato bloqueador nesta exata classe. METODO PERSONALITY foi mantida indeferida em 2a instancia. Invocar isonomia seria argumentar a favor do proprio indeferimento. Taxa de reversao em recurso: 0%."
+        },
+        "5_desgaste": {
+          "radical_personas_cl35": "DESFAVORAVEL - PERSONA registrada em vigor bloqueou Personas. 3 marcas PERSONAS mortas/extintas (CLUSTER PERSONAS, PERSONAS NOTADEZ, INSTITUTHO DY CRESCERE PERSONAS). O INPI protege o radical persona- nesta classe. Nao ha desgaste.",
+          "radical_metodo_cl35": "PARCIAL - 25+ titulares com METODO em vigor na cl.35, 80+ indeferidas. METODO e generico.",
+          "impacto": "O desgaste de METODO e irrelevante (sera descartado). A ausencia de desgaste de PERSONAS/PERSONA na cl.35 e critica: o titular de PERSONA tem posicao exclusiva e protegida."
+        },
+        "6_atenuantes_agravantes": {
+          "atenuantes": [
+            "Atividade do cliente (cursos/eventos) difere de gestao/propaganda (cl.35 generica)",
+            "METODO como prefixo acrescenta extensao formal ao sinal"
+          ],
+          "agravantes": [
+            "Precedente DIRETO: Personas ja indeferida por este bloqueador (2022)",
+            "Precedente ESTRUTURAL: METODO PERSONALITY mantida indeferida em 2a instancia (2017)",
+            "PERSONA em vigor e ativa -- nao ha perspectiva de extincao",
+            "METODO sera descartado como generico, restando PERSONAS vs PERSONA",
+            "Diferenca singular/plural ja foi considerada insuficiente pelo INPI",
+            "Taxa de reversao em recurso: 0% para marcas METODO + complemento"
+          ]
+        },
+        "7_veredito": {
+          "classificacao": "COLIDENCIA PROVAVEL",
+          "probabilidade_indeferimento": "85-95%",
+          "justificativa": "Bloqueador primario com precedente direto e irrefutavel. Personas ja foi indeferida em 12/04/2022 por este mesmo processo (915852039) nesta mesma classe 35. O INPI descartara METODO como generico e avaliara PERSONAS vs PERSONA, concluindo por imitacao (art. 124 XIX). METODO PERSONALITY mantida indeferida em 2a instancia confirma o padrao. Nao ha argumento viavel de distincao. Classe 35 e a mais critica de todas."
+        }
+      }
+    },
+    {
+      "ordem": 3,
+      "processo": "913066540",
+      "marca_oponente": "Persona RH CONSULTORIA EM DESENVOLVIMENTO HUMANO",
+      "classe": 35,
+      "situacao": "Registro de marca em vigor",
+      "titular": "Nao identificado na fonte-bruta (referenciado como bloqueador secundario no indeferimento de Personas 923173943)",
+      "apresentacao": "Nao coletada",
+      "cotejo": {
+        "1_sinais": {
+          "fonetica": {
+            "nivel": "ALTA",
+            "analise": "METODO PERSONAS vs. Persona RH CONSULTORIA EM DESENVOLVIMENTO HUMANO. Elementos descartaveis: METODO (generico), RH (sigla descritiva), CONSULTORIA EM DESENVOLVIMENTO HUMANO (descritivo da atividade). Nucleos distintivos remanescentes: PERSONAS vs. PERSONA. Identica analise fonetica ao caso anterior: /per.so.nas/ vs /per.so.na/. Diferenca apenas no S final."
+          },
+          "grafica": {
+            "nivel": "MEDIA",
+            "analise": "A marca oponente e extensa (Persona RH CONSULTORIA EM DESENVOLVIMENTO HUMANO), o que diferencia visualmente do conjunto METODO PERSONAS. Porem, o INPI avalia o nucleo distintivo isoladamente. PERSONA vs PERSONAS permanece com alta similaridade grafica."
+          },
+          "ideologica": {
+            "nivel": "ALTA",
+            "analise": "Ambas remetem ao conceito de persona/personas no contexto de desenvolvimento humano e gestao de pessoas. O campo semantico e altamente sobreposto. A oponente inclusive atua em 'desenvolvimento humano', que tem afinidade com cursos e eventos de desenvolvimento pessoal/profissional."
+          },
+          "classificacao_global_sinais": "ALTA"
+        },
+        "2_afinidade_mercadologica": {
+          "canal_distribuicao": "ALTA - Consultoria em desenvolvimento humano e cursos online/eventos compartilham canais digitais e presenciais.",
+          "publico_consumidor": "ALTA - Publico identico: profissionais e empresas buscando desenvolvimento de pessoas/equipes.",
+          "ambiente_comercial": "ALTA - Mesmo ambiente: desenvolvimento profissional, RH, gestao de pessoas.",
+          "complementaridade": "ALTA - Consultoria RH e cursos/eventos sao servicos complementares frequentes.",
+          "competitividade": "ALTA - Cursos de desenvolvimento humano competem diretamente com consultoria de desenvolvimento humano.",
+          "condicoes_uso": "MEDIA - Consultoria e contratada por projeto; cursos podem ser avulsos ou assinatura.",
+          "natureza_servico": "ALTA - Ambos sao servicos intelectuais de desenvolvimento humano.",
+          "funcionalidade": "ALTA - Ambos visam capacitacao e desenvolvimento de pessoas.",
+          "classificacao_global_afinidade": "ALTA"
+        },
+        "3_especificacoes": {
+          "spec_oponente": "Nao coletada na fonte-bruta.json. A marca Persona RH CONSULTORIA EM DESENVOLVIMENTO HUMANO (913066540) nao foi raspada individualmente. Consta como bloqueador co-citado no indeferimento de Personas (923173943). Pela denominacao, os servicos abrangem consultoria em desenvolvimento humano e recursos humanos na classe 35.",
+          "spec_cliente": "Curso Online, Eventos (atividade pretendida pelo requerente)",
+          "sobreposicao": "ALTA PROVAVEL - Consultoria em desenvolvimento humano tem afinidade direta com cursos e eventos de formacao/desenvolvimento. O INPI ja considerou afinidade suficiente para barrar Personas.",
+          "nota": "A especializacao em 'desenvolvimento humano' da oponente agrava o cenario, pois cursos online de metodo/metodologia frequentemente atuam neste mesmo segmento."
+        },
+        "4_isonomia": {
+          "precedentes_aplicaveis": "Co-citada no indeferimento de Personas (923173943) em 12/04/2022. O INPI considerou que tanto PERSONA (915852039) quanto Persona RH (913066540) eram bloqueadores de Personas na cl.35.",
+          "classificacao": "DESFAVORAVEL",
+          "analise": "A isonomia e identica ao caso PERSONA (915852039): opera contra o requerente. Persona RH foi expressamente citada como fundamento do indeferimento."
+        },
+        "5_desgaste": {
+          "radical_personas_cl35": "DESFAVORAVEL - Identico ao caso anterior. PERSONA e Persona RH coexistem entre si na cl.35, mas ambas bloqueiam novas entradas com o radical persona-.",
+          "radical_metodo_cl35": "PARCIAL - 25+ titulares com METODO na cl.35.",
+          "impacto": "Sem desgaste do radical persona-. O INPI protege as incumbentes."
+        },
+        "6_atenuantes_agravantes": {
+          "atenuantes": [
+            "Marca oponente e longa e descritiva, o que pode diluir o impacto visual",
+            "Elemento RH e descritivo e irrelevante para a analise"
+          ],
+          "agravantes": [
+            "Co-citada no indeferimento direto de Personas (2022)",
+            "Afinidade mercadologica ALTA: consultoria em desenvolvimento humano vs. cursos/eventos",
+            "Nucleo distintivo identico: PERSONA vs PERSONAS",
+            "METODO sera descartado como generico",
+            "Segmento de atuacao altamente sobreposto com a atividade do cliente"
+          ]
+        },
+        "7_veredito": {
+          "classificacao": "COLIDENCIA PROVAVEL",
+          "probabilidade_indeferimento": "80-90%",
+          "justificativa": "Bloqueador secundario mas igualmente citado no indeferimento de Personas na cl.35. A afinidade mercadologica e ainda mais forte que com PERSONA pura, pois Persona RH atua em desenvolvimento humano -- segmento com alta sobreposicao com cursos e eventos. O INPI descartara METODO e comparara PERSONAS vs PERSONA, aplicando art. 124 XIX. Precedente direto e consolidado."
+        }
+      }
+    },
+    {
+      "ordem": 4,
+      "processo": "916516636",
+      "marca_oponente": "PERSONALIZA CURSOS",
+      "classe": 41,
+      "situacao": "Registro de marca em vigor",
+      "titular": "Nao identificado na fonte-bruta (referenciado como bloqueador no indeferimento de METODO PERSONALIZE 917697936)",
+      "apresentacao": "Nao coletada",
+      "cotejo": {
+        "1_sinais": {
+          "fonetica": {
+            "nivel": "MEDIA",
+            "analise": "METODO PERSONAS vs. PERSONALIZA CURSOS. Descartando METODO (generico) e CURSOS (descritivo na cl.41): PERSONAS vs. PERSONALIZA. Radicais compartilhados: persona-. Porem, sufixos distintos: -s (plural) vs. -liza (verbo). /per.so.nas/ vs. /per.so.na.li.za/. Extensao diferente (3 silabas vs 5 silabas). Cadencia e tonicidade distintas. Similaridade fonetica moderada -- compartilham inicio mas divergem significativamente na extensao."
+          },
+          "grafica": {
+            "nivel": "MEDIA",
+            "analise": "PERSONAS (8 letras) vs PERSONALIZA (12 letras). Compartilham as primeiras 7 letras (PERSONA). A extensao -LIZA diferencia graficamente. Visualmente distinguiveis, embora o radical comum PERSONA- crie associacao."
+          },
+          "ideologica": {
+            "nivel": "MEDIA",
+            "analise": "PERSONAS evoca arquetipos/perfis de pessoas. PERSONALIZA evoca o ato de personalizar/customizar. Campos semanticos correlatos (ambos derivam de 'persona') mas com significados distintos: substantivo vs. verbo. O INPI, porem, ja tratou esses derivados como colidentes (METODO PERSONALIZE vs PERSONALIZA CURSOS)."
+          },
+          "classificacao_global_sinais": "MEDIA"
+        },
+        "2_afinidade_mercadologica": {
+          "canal_distribuicao": "ALTA - PERSONALIZA CURSOS e cursos online compartilham o mesmo canal de distribuicao (plataformas educacionais).",
+          "publico_consumidor": "ALTA - Publico identico: pessoas que buscam cursos e formacao.",
+          "ambiente_comercial": "ALTA - Mesmo ambiente: mercado educacional.",
+          "complementaridade": "ALTA - Cursos personalizados e metodo de cursos sao complementares ou substitutos.",
+          "competitividade": "ALTA - Competicao direta: ambos oferecem formacao/cursos.",
+          "condicoes_uso": "ALTA - Mesmo modelo de contratacao: cursos avulsos ou plataforma educacional.",
+          "natureza_servico": "ALTA - Ambos sao servicos educacionais.",
+          "funcionalidade": "ALTA - Ambos visam capacitacao via cursos.",
+          "classificacao_global_afinidade": "ALTA"
+        },
+        "3_especificacoes": {
+          "spec_oponente": "Nao coletada na fonte-bruta.json. A marca PERSONALIZA CURSOS (916516636) nao foi raspada individualmente. Consta como bloqueador citado no indeferimento de METODO PERSONALIZE (917697936). Pela denominacao e classe 41 (Educacao; entretenimento; atividades desportivas e culturais), os servicos provavelmente abrangem oferta de cursos e treinamentos.",
+          "spec_cliente": "Curso Online, Eventos (atividade pretendida pelo requerente)",
+          "sobreposicao": "ALTA PROVAVEL - A propria denominacao 'PERSONALIZA CURSOS' indica servicos de cursos na cl.41, diretamente sobreposta com a atividade do cliente (Curso Online).",
+          "nota": "A sobreposicao de atividade e a mais direta de todos os casos analisados. O cliente pretende oferecer cursos; a oponente tambem."
+        },
+        "4_isonomia": {
+          "precedentes_aplicaveis": "METODO PERSONALIZE (917697936) foi INDEFERIDA na cl.41 em 14/01/2020 (RPI 2558) por art. 124 XIX, citando PERSONALIZA CURSOS (916516636) e PERSONALIZE COMUNICACAO (910292639). METODO ILUMINADO (920831540) mantido indeferido em 2a instancia (2022) confirma o padrao de METODO + complemento.",
+          "classificacao": "DESFAVORAVEL",
+          "analise": "O INPI ja tratou PERSONALIZE como colidindo com PERSONALIZA na cl.41. A questao e se o INPI estendera esse raciocinio a PERSONAS vs. PERSONALIZA. Os radicais sao identicos (persona-), mas os sufixos sao mais distintos (-s vs. -liza) do que no caso PERSONALIZE vs PERSONALIZA (-ize vs -iza). Isso abre margem minima de distincao, mas o padrao geral e desfavoravel."
+        },
+        "5_desgaste": {
+          "radical_personas_cl41": "DESFAVORAVEL - Nenhuma marca PERSONAS/PERSONA em vigor na cl.41. PERSONALIZA CURSOS bloqueou METODO PERSONALIZE. O INPI trata derivados de persona- como colidentes entre si nesta classe.",
+          "radical_metodo_cl41": "PARCIAL - 25+ titulares com METODO na cl.41, 150+ indeferidas. METODO e generico.",
+          "impacto": "METODO sera descartado. A ausencia de coexistencia de derivados persona- na cl.41 nao favorece o requerente."
+        },
+        "6_atenuantes_agravantes": {
+          "atenuantes": [
+            "PERSONAS e PERSONALIZA tem sufixos significativamente diferentes (-s vs -liza)",
+            "Significados distintos: personas (substantivo, arquetipos) vs personaliza (verbo, customizar)",
+            "5 silabas vs 3 silabas -- extensao fonetica diferente",
+            "O precedente METODO PERSONALIZE e um caso de PERSONALIZE vs PERSONALIZA (quase identicos), nao de PERSONAS vs PERSONALIZA"
+          ],
+          "agravantes": [
+            "Radical identico: persona-",
+            "METODO sera descartado na analise",
+            "Afinidade mercadologica ALTA: cursos vs cursos",
+            "INPI ja demonstrou postura de tratar derivados de persona- como colidentes na cl.41",
+            "Precedente METODO ILUMINADO mantido em 2a instancia confirma padrao de indeferimento",
+            "PERSONALIZA CURSOS opera exatamente no segmento do cliente (cursos)"
+          ]
+        },
+        "7_veredito": {
+          "classificacao": "COLIDENCIA POSSIVEL",
+          "probabilidade_indeferimento": "55-70%",
+          "justificativa": "O radical persona- e identico, e o INPI ja tratou derivados desse radical como colidentes na cl.41 (PERSONALIZE vs PERSONALIZA). Porem, PERSONAS e PERSONALIZA sao mais distintos entre si do que PERSONALIZE e PERSONALIZA: diferenca de sufixo mais acentuada, significados distintos (substantivo vs verbo), e extensao fonetica diferente. A afinidade mercadologica e ALTA (cursos vs cursos), o que eleva o risco. O veredito e POSSIVEL (nao PROVAVEL) porque ha argumentacao viavel de que PERSONAS nao e derivacao direta de PERSONALIZA, diferentemente do caso PERSONALIZE."
+        }
+      }
+    },
+    {
+      "ordem": 5,
+      "processo": "910292639",
+      "marca_oponente": "PERSONALIZE COMUNICACAO",
+      "classe": 41,
+      "situacao": "Registro de marca em vigor",
+      "titular": "Nao identificado na fonte-bruta (referenciado como bloqueador no indeferimento de METODO PERSONALIZE 917697936)",
+      "apresentacao": "Nao coletada",
+      "cotejo": {
+        "1_sinais": {
+          "fonetica": {
+            "nivel": "MEDIA",
+            "analise": "METODO PERSONAS vs. PERSONALIZE COMUNICACAO. Descartando METODO (generico) e COMUNICACAO (descritivo): PERSONAS vs. PERSONALIZE. /per.so.nas/ vs /per.so.na.li.ze/. Radical identico (persona-), sufixos distintos (-s vs -lize). 3 silabas vs 5 silabas. Tonicidade diferente (PERSONAS: paroxitona; PERSONALIZE: oxitona). Similaridade moderada."
+          },
+          "grafica": {
+            "nivel": "MEDIA",
+            "analise": "PERSONAS (8 letras) vs PERSONALIZE (12 letras). Primeiras 7 letras identicas. Extensao -LIZE diferencia. Menos semelhantes graficamente que PERSONA vs PERSONAS."
+          },
+          "ideologica": {
+            "nivel": "MEDIA",
+            "analise": "PERSONAS (arquetipos/perfis) vs PERSONALIZE (ato de personalizar). Campos semanticos correlatos mas significados distintos. A adicao de COMUNICACAO desloca o campo para servicos de comunicacao corporativa."
+          },
+          "classificacao_global_sinais": "MEDIA"
+        },
+        "2_afinidade_mercadologica": {
+          "canal_distribuicao": "MEDIA - Comunicacao empresarial e cursos/eventos podem compartilhar canais, mas nao necessariamente.",
+          "publico_consumidor": "MEDIA - Sobreposicao parcial: profissionais de comunicacao podem consumir cursos.",
+          "ambiente_comercial": "MEDIA - Ambientes parcialmente sobrepostos.",
+          "complementaridade": "MEDIA - Cursos podem abordar comunicacao, mas nao e a unica vertente.",
+          "competitividade": "BAIXA - Servicos de comunicacao empresarial nao competem diretamente com cursos genericos.",
+          "condicoes_uso": "BAIXA - Modos de contratacao distintos.",
+          "natureza_servico": "MEDIA - Ambos sao servicos na cl.41 mas com focos diferentes.",
+          "funcionalidade": "BAIXA - Comunicacao empresarial vs. educacao.",
+          "classificacao_global_afinidade": "MEDIA"
+        },
+        "3_especificacoes": {
+          "spec_oponente": "Nao coletada na fonte-bruta.json. A marca PERSONALIZE COMUNICACAO (910292639) nao foi raspada individualmente. Consta como bloqueador co-citado no indeferimento de METODO PERSONALIZE (917697936). Pela denominacao e classe 41, os servicos provavelmente abrangem comunicacao e treinamentos relacionados.",
+          "spec_cliente": "Curso Online, Eventos (atividade pretendida pelo requerente)",
+          "sobreposicao": "MEDIA - Comunicacao e cursos/eventos sao atividades distintas dentro da cl.41, mas o INPI pode considerar afinidade por estarem na mesma classe.",
+          "nota": "Menor sobreposicao direta que PERSONALIZA CURSOS (que tem 'cursos' no nome)."
+        },
+        "4_isonomia": {
+          "precedentes_aplicaveis": "Co-citada no indeferimento de METODO PERSONALIZE (917697936) em 14/01/2020 na cl.41.",
+          "classificacao": "DESFAVORAVEL",
+          "analise": "Mesmo padrao do caso anterior. PERSONALIZE COMUNICACAO foi citada como bloqueador de METODO PERSONALIZE. O INPI pode estender o raciocinio a METODO PERSONAS, embora a distincao fonetica PERSONAS vs PERSONALIZE seja maior."
+        },
+        "5_desgaste": {
+          "radical_personas_cl41": "DESFAVORAVEL - Identico ao caso PERSONALIZA CURSOS.",
+          "radical_metodo_cl41": "PARCIAL - 25+ titulares com METODO na cl.41.",
+          "impacto": "Sem desgaste do radical persona- na cl.41."
+        },
+        "6_atenuantes_agravantes": {
+          "atenuantes": [
+            "PERSONAS e PERSONALIZE sao foneticamente mais distintos que PERSONALIZE vs PERSONALIZA",
+            "Significados diferentes: substantivo (personas) vs verbo (personalize)",
+            "COMUNICACAO desloca a marca oponente para segmento especifico",
+            "Afinidade mercadologica mais tenue que com PERSONALIZA CURSOS"
+          ],
+          "agravantes": [
+            "Radical identico: persona-",
+            "METODO sera descartado",
+            "INPI ja tratou PERSONALIZE como colidindo com PERSONALIZA -- pode estender a PERSONAS",
+            "Mesma classe 41"
+          ]
+        },
+        "7_veredito": {
+          "classificacao": "COLIDENCIA POSSIVEL",
+          "probabilidade_indeferimento": "45-60%",
+          "justificativa": "Bloqueador indireto com risco moderado. O radical persona- e compartilhado, e o INPI demonstrou tratar derivados como colidentes na cl.41. Porem, PERSONAS e foneticamente e semanticamente mais distinto de PERSONALIZE do que PERSONALIZA o e. A afinidade mercadologica e MEDIA (comunicacao vs cursos). O risco e real mas nao tao elevado quanto PERSONALIZA CURSOS, que atua diretamente no segmento de cursos."
+        }
+      }
+    },
+    {
+      "ordem": 6,
+      "processo": "930137604",
+      "marca_oponente": "InHaus DONDE LAS PERSONAS SE ENCUENTRAN",
+      "classe": 35,
+      "situacao": "Aguardando exame de merito",
+      "titular": "GIMENA UHRICH",
+      "apresentacao": "Mista",
+      "cotejo": {
+        "1_sinais": {
+          "fonetica": {
+            "nivel": "BAIXA",
+            "analise": "METODO PERSONAS vs. InHaus DONDE LAS PERSONAS SE ENCUENTRAN. A marca oponente e uma frase extensa em espanhol. O elemento PERSONAS aparece em ambas, mas no oponente esta diluido em uma expressao longa (7 palavras). O nucleo distintivo da oponente e INHAUS, nao PERSONAS. /me.to.do per.so.nas/ vs /in.haus don.de las per.so.nas se en.kuen.tran/. Conjuntos foneticamente muito distintos."
+          },
+          "grafica": {
+            "nivel": "BAIXA",
+            "analise": "Visualmente muito diferentes. InHaus tem grafia estilizada. A extensao da marca oponente (7 palavras) impede confusao visual com METODO PERSONAS (2 palavras). PERSONAS e um elemento secundario na composicao da oponente."
+          },
+          "ideologica": {
+            "nivel": "BAIXA",
+            "analise": "InHaus evoca espaco/casa (alemaao 'in Haus'). DONDE LAS PERSONAS SE ENCUENTRAN e slogan descritivo em espanhol. METODO PERSONAS evoca metodologia baseada em personas/arquetipos. Campos semanticos distintos: espaco de encontro vs. metodologia de perfis."
+          },
+          "classificacao_global_sinais": "BAIXA"
+        },
+        "2_afinidade_mercadologica": {
+          "canal_distribuicao": "MEDIA - Ambos na cl.35. A oponente atua em recursos humanos, recrutamento e agencias de emprego.",
+          "publico_consumidor": "MEDIA - Sobreposicao parcial: profissionais de RH.",
+          "ambiente_comercial": "MEDIA - Gestao de pessoas e cursos podem coexistir.",
+          "complementaridade": "BAIXA - Agenciamento de mao-de-obra nao complementa cursos online diretamente.",
+          "competitividade": "BAIXA - Recrutamento de pessoal nao compete com cursos.",
+          "condicoes_uso": "BAIXA - Servicos completamente distintos.",
+          "natureza_servico": "BAIXA - Agencia de emprego vs. curso online.",
+          "funcionalidade": "BAIXA - Recrutamento vs. educacao.",
+          "classificacao_global_afinidade": "BAIXA"
+        },
+        "3_especificacoes": {
+          "spec_oponente": "Agenciamento de mao-de-obra;Assessoria, consultoria e informacao em compilacao de informacoes em bancos de dados de computador;Assessoria, consultoria e informacao em servicos de recursos humanos para empresas;Assessoria, consultoria e informacao empresarial;Assessoria, consultoria e informacao sobre testes psicologicos para selecao de pessoal;Assessoria, consultoria e informacoes sobre administracao de pessoal;Consultoria em gestao de pessoal;Recrutamento de pessoal;Servicos de agencias de emprego;Testes psicologicos, para selecao de pessoal;Testes, exames e provas psicotecnicos para selecao de pessoal [recrutamento de pessoal]",
+          "spec_cliente": "Curso Online, Eventos (atividade pretendida pelo requerente)",
+          "sobreposicao": "BAIXA - A spec da oponente foca em recrutamento, selecao, agenciamento e testes psicologicos. Nao ha sobreposicao com cursos online ou eventos. Sao atividades distintas dentro da cl.35.",
+          "nota": "A unica tangencia seria 'assessoria e consultoria empresarial', que e generica, mas nao abrange educacao."
+        },
+        "4_isonomia": {
+          "precedentes_aplicaveis": "Nenhum precedente direto envolvendo InHaus. A marca esta aguardando exame de merito -- ainda nao houve decisao. Nao gera isonomia.",
+          "classificacao": "NAO_APLICAVEL",
+          "analise": "Marca em analise, sem decisao. Nao contribui para isonomia favoravel nem desfavoravel."
+        },
+        "5_desgaste": {
+          "radical_personas_cl35": "N/A para este cotejo especifico. PERSONAS aparece como elemento secundario na marca oponente, nao como nucleo.",
+          "impacto": "Irrelevante para analise de desgaste."
+        },
+        "6_atenuantes_agravantes": {
+          "atenuantes": [
+            "Marca oponente e uma frase longa em espanhol -- conjunto visual completamente distinto",
+            "Nucleo distintivo da oponente e INHAUS, nao PERSONAS",
+            "PERSONAS e elemento secundario/descritivo na composicao da oponente",
+            "Specs sem sobreposicao com atividade do cliente",
+            "Marca aguardando exame -- pode ser indeferida"
+          ],
+          "agravantes": [
+            "Compartilham o termo PERSONAS",
+            "Mesma classe 35"
+          ]
+        },
+        "7_veredito": {
+          "classificacao": "SEM COLIDENCIA",
+          "probabilidade_indeferimento": "5-10%",
+          "justificativa": "Marca completamente distinta em todos os criterios de cotejo. O elemento PERSONAS e secundario na composicao da oponente (InHaus e o nucleo). A frase em espanhol, a apresentacao mista, as specs focadas em recrutamento/RH, e a ausencia de sobreposicao mercadologica tornam a colidencia irrelevante. Adicionalmente, a marca esta aguardando exame e pode nem ser concedida. Nao representa risco para METODO PERSONAS."
+        }
+      }
+    },
+    {
+      "ordem": 7,
+      "processo": "910988013",
+      "marca_oponente": "P3 Persona3 Cintas Modeladoras",
+      "classe": 35,
+      "situacao": "Registro de marca em vigor",
+      "titular": "Persona 3 Cintas Modeladoras Ltda - ME",
+      "apresentacao": "Mista",
+      "cotejo": {
+        "1_sinais": {
+          "fonetica": {
+            "nivel": "BAIXA",
+            "analise": "METODO PERSONAS vs. P3 Persona3 Cintas Modeladoras. Elementos descartaveis: METODO (generico), P3 (codigo), CINTAS MODELADORAS (descritivo do produto). Nucleos: PERSONAS vs. PERSONA3. /per.so.nas/ vs /per.so.na tres/. O numeral '3' integrado a PERSONA altera a cadencia e cria sinal distinto. Alem disso, o conjunto P3 PERSONA3 e uma unidade marcaria diferente de PERSONAS."
+          },
+          "grafica": {
+            "nivel": "BAIXA",
+            "analise": "P3 Persona3 Cintas Modeladoras tem composicao visual completamente distinta: logo mista, numerais, descritivo de produto. Nao ha risco de confusao visual com METODO PERSONAS."
+          },
+          "ideologica": {
+            "nivel": "BAIXA",
+            "analise": "Persona3 no contexto de cintas modeladoras evoca identidade pessoal no segmento de moda/saude. METODO PERSONAS evoca metodologia de arquetipos/perfis. Campos semanticos sem sobreposicao: vestuario ortopedico vs. educacao/eventos."
+          },
+          "classificacao_global_sinais": "BAIXA"
+        },
+        "2_afinidade_mercadologica": {
+          "canal_distribuicao": "NULA - Cintas modeladoras sao vendidas em lojas fisicas/e-commerce de vestuario. Cursos online sao vendidos em plataformas educacionais.",
+          "publico_consumidor": "NULA - Publicos completamente distintos.",
+          "ambiente_comercial": "NULA - Moda/ortopedia vs. educacao.",
+          "complementaridade": "NULA - Nenhuma relacao de complementaridade.",
+          "competitividade": "NULA - Zero competicao.",
+          "condicoes_uso": "NULA - Produto fisico vs. servico digital.",
+          "natureza_servico": "NULA - Comercio de vestuario vs. educacao.",
+          "funcionalidade": "NULA - Funcoes completamente distintas.",
+          "classificacao_global_afinidade": "NULA"
+        },
+        "3_especificacoes": {
+          "spec_oponente": "Comercio (atraves de qualquer meio) de artigos do vestuario - [Informacao em]; Comercio (atraves de qualquer meio) de artigos do vestuario - [Consultoria em]; Comercio (atraves de qualquer meio) de artigos do vestuario - [Assessoria em]; Comercio (atraves de qualquer meio) de artigos do vestuario; Comercio (atraves de qualquer meio) de artigos ortopedicos - [Informacao em]; Comercio (atraves de qualquer meio) de artigos ortopedicos - [Consultoria em]; Comercio (atraves de qualquer meio) de artigos ortopedicos - [Assessoria em]; Comercio (atraves de qualquer meio) de artigos ortopedicos",
+          "spec_cliente": "Curso Online, Eventos (atividade pretendida pelo requerente)",
+          "sobreposicao": "NULA - Comercio de vestuario e artigos ortopedicos nao tem nenhuma sobreposicao com cursos online e eventos. Atividades completamente distintas.",
+          "nota": "Apesar de ambas estarem na classe 35, as especificacoes sao de segmentos completamente diferentes."
+        },
+        "4_isonomia": {
+          "precedentes_aplicaveis": "P3 Persona3 foi CONCEDIDA na cl.35 apesar de PERSONA (915852039) estar em vigor na mesma classe. Isso e potencialmente favoravel ao requerente: demonstra que o INPI nao bloqueia automaticamente todo derivado de persona- por PERSONA.",
+          "classificacao": "POTENCIALMENTE_FAVORAVEL",
+          "analise": "A concessao de P3 Persona3 Cintas Modeladoras na cl.35, coexistindo com PERSONA (915852039), pode ser invocada como isonomia favoravel. Porem, ha distincoes importantes: (a) P3 Persona3 tem elementos adicionais fortes (P3, Cintas Modeladoras) que diferenciam; (b) as specs sao de segmentos completamente distintos (vestuario vs gestao); (c) a apresentacao mista acrescenta elemento figurativo. METODO PERSONAS nao tem esses atenuantes (METODO e generico, nao descritivo de segmento distinto)."
+        },
+        "5_desgaste": {
+          "radical_personas_cl35": "A coexistencia de Persona3 com PERSONA e Persona RH indica algum grau de tolerancia do INPI quando o contexto de mercado e completamente distinto.",
+          "impacto": "Favoravel como argumento de desgaste parcial, mas a aplicabilidade e limitada pela diferenca de segmento."
+        },
+        "6_atenuantes_agravantes": {
+          "atenuantes": [
+            "Marca completamente de outro segmento (cintas modeladoras)",
+            "Specs sem nenhuma sobreposicao",
+            "Conjunto marcario distinto (P3 + numeral + descritivo)",
+            "Afinidade mercadologica NULA"
+          ],
+          "agravantes": [
+            "Compartilham o radical persona- na mesma classe 35",
+            "Persona3 foi concedida -- isso pode indicar desgaste mas nao cria bloqueio"
+          ]
+        },
+        "7_veredito": {
+          "classificacao": "SEM COLIDENCIA",
+          "probabilidade_indeferimento": "0-5%",
+          "justificativa": "Marca de segmento completamente distinto (cintas modeladoras vs cursos online). Afinidade mercadologica NULA, specs sem sobreposicao, conjunto marcario visual e foneticamente distinto. P3 Persona3 Cintas Modeladoras nao representa nenhum risco de bloqueio para METODO PERSONAS. Pelo contrario, sua concessao na cl.35 (coexistindo com PERSONA) pode ser invocada como argumento de isonomia favoravel, embora com ressalvas sobre as diferencas de contexto."
+        }
+      }
+    }
+  ],
+  "resumo": {
+    "total_marcas_cotejadas": 7,
+    "vereditos_por_classificacao": {
+      "COLIDENCIA_PROVAVEL": 2,
+      "COLIDENCIA_POSSIVEL": 3,
+      "COLIDENCIA_REMOTA": 0,
+      "SEM_COLIDENCIA": 2
+    },
+    "detalhamento": [
+      {
+        "classificacao": "COLIDENCIA PROVAVEL",
+        "marcas": [
+          "PERSONA (915852039) - cl.35 - probabilidade 85-95%",
+          "Persona RH CONSULTORIA EM DESENVOLVIMENTO HUMANO (913066540) - cl.35 - probabilidade 80-90%"
+        ],
+        "comentario": "Ambas na cl.35, com precedente direto de Personas indeferida por estes mesmos bloqueadores. Risco critico e praticamente certo de indeferimento na cl.35."
+      },
+      {
+        "classificacao": "COLIDENCIA POSSIVEL",
+        "marcas": [
+          "Personas (923174044) - cl.42 - probabilidade 50-65%",
+          "PERSONALIZA CURSOS (916516636) - cl.41 - probabilidade 55-70%",
+          "PERSONALIZE COMUNICACAO (910292639) - cl.41 - probabilidade 45-60%"
+        ],
+        "comentario": "Na cl.42, Personas registrada reproduz o nucleo de METODO PERSONAS, mas specs divergem (software vs cursos). Na cl.41, os derivados persona- (PERSONALIZA, PERSONALIZE) compartilham radical mas tem sufixos distintos de PERSONAS -- o INPI pode ou nao estender o raciocinio de METODO PERSONALIZE."
+      },
+      {
+        "classificacao": "SEM COLIDENCIA",
+        "marcas": [
+          "InHaus DONDE LAS PERSONAS SE ENCUENTRAN (930137604) - cl.35 - probabilidade 5-10%",
+          "P3 Persona3 Cintas Modeladoras (910988013) - cl.35 - probabilidade 0-5%"
+        ],
+        "comentario": "Marcas com conjuntos marcarios completamente distintos, nucleos distintivos diferentes de PERSONAS, e/ou segmentos de mercado sem sobreposicao. Nao representam risco."
+      }
+    ],
+    "panorama_por_classe": {
+      "classe_9": "SEM BLOQUEADORES IDENTIFICADOS - campo livre",
+      "classe_35": "RISCO CRITICO - PERSONA (915852039) e Persona RH (913066540) em vigor, precedente direto de indeferimento. Probabilidade de indeferimento 85-95%.",
+      "classe_38": "SEM BLOQUEADORES IDENTIFICADOS - campo livre",
+      "classe_41": "RISCO MODERADO-ALTO - PERSONALIZA CURSOS (916516636) e PERSONALIZE COMUNICACAO (910292639) em vigor. Radical persona- compartilhado. Afinidade mercadologica alta com PERSONALIZA CURSOS. Probabilidade de indeferimento 45-70%.",
+      "classe_42": "RISCO MODERADO - Personas (923174044) registrada em vigor. Reproducao integral do nucleo, mas specs divergentes (software vs cursos). Probabilidade de indeferimento 50-65%."
+    }
+  }
+}

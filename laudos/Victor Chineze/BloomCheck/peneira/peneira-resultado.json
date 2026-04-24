@@ -1,0 +1,311 @@
+{
+  "marca_analisada": "BloomCheck",
+  "atividade": "SaaS Médico",
+  "classes_aprovadas": [
+    9,
+    35,
+    38,
+    42,
+    44
+  ],
+  "metodologia": "Grafo de relações + traversal + desgaste + peso de decisão",
+  "data_peneira": "2026-04-10T04:29:52.074749+00:00",
+  "vivas": {
+    "nivel_1_candidatas": [],
+    "nivel_2_zona_atencao": [
+      {
+        "numero_processo": "930709616",
+        "nome_marca": "BLOOMCHIC",
+        "classe": 35,
+        "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+        "categoria_decisao": "em_analise",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 2,
+        "nivel": 2,
+        "justificativa": "BLOOMCHIC~BLOOMCHECK (fonética 0.69); classe 35 (aprovada)"
+      },
+      {
+        "numero_processo": "939314002",
+        "nome_marca": "BloomBTech",
+        "classe": 35,
+        "situacao": "Aguardando exame de mérito",
+        "categoria_decisao": "em_analise",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 2,
+        "nivel": 2,
+        "justificativa": "BLOOMBTECH~BLOOMCHECK (fonética 0.61); classe 35 (aprovada)"
+      },
+      {
+        "numero_processo": "937075892",
+        "nome_marca": "BloomCare",
+        "classe": 35,
+        "situacao": "Aguardando exame de mérito",
+        "categoria_decisao": "em_analise",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 2,
+        "nivel": 2,
+        "justificativa": "BLOOMCARE~BLOOMCHECK (fonética 0.6); classe 35 (aprovada)"
+      }
+    ],
+    "nivel_3_descartadas": [
+      {
+        "numero_processo": "938522302",
+        "nome_marca": "CHEMBLOCK",
+        "classe": 35,
+        "situacao": "Aguardando exame de mérito",
+        "categoria_decisao": "em_analise",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 35 (aprovada)"
+      },
+      {
+        "numero_processo": "938522108",
+        "nome_marca": "CHEMBLOCK",
+        "classe": 35,
+        "situacao": "Aguardando exame de mérito",
+        "categoria_decisao": "em_analise",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 35 (aprovada)"
+      },
+      {
+        "numero_processo": "908335989",
+        "nome_marca": "MOTOCHECK-UP",
+        "classe": 35,
+        "situacao": "Registro de marca em vigor",
+        "categoria_decisao": "em_vigor",
+        "conta_como_precedente": true,
+        "peso_decisao": 1,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 35 (aprovada)"
+      },
+      {
+        "numero_processo": "930615778",
+        "nome_marca": "CHECKMOTOS",
+        "classe": 35,
+        "situacao": "Registro de marca em vigor",
+        "categoria_decisao": "em_vigor",
+        "conta_como_precedente": true,
+        "peso_decisao": 1,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 35 (aprovada)"
+      },
+      {
+        "numero_processo": "824542282",
+        "nome_marca": "BIOCHECK UP POLICLÍNICA DO CANELA",
+        "classe": 44,
+        "situacao": "Registro de marca em vigor",
+        "categoria_decisao": "em_vigor",
+        "conta_como_precedente": true,
+        "peso_decisao": 1,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 44 (aprovada)"
+      },
+      {
+        "numero_processo": "936464992",
+        "nome_marca": "BIOCHECK Laboratorios",
+        "classe": 42,
+        "situacao": "Aguardando exame de mérito",
+        "categoria_decisao": "em_analise",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 42 (aprovada)"
+      },
+      {
+        "numero_processo": "939843854",
+        "nome_marca": "BIOCHECK PRO",
+        "classe": 42,
+        "situacao": "Aguardando exame de mérito",
+        "categoria_decisao": "em_analise",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 42 (aprovada)"
+      },
+      {
+        "numero_processo": "931873673",
+        "nome_marca": "BiomeCheck",
+        "classe": 44,
+        "situacao": "Registro de marca em vigor",
+        "categoria_decisao": "em_vigor",
+        "conta_como_precedente": true,
+        "peso_decisao": 1,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 44 (aprovada)"
+      }
+    ]
+  },
+  "precedentes": {
+    "nivel_1_candidatas": [],
+    "nivel_2_zona_atencao": [
+      {
+        "numero_processo": "912484276",
+        "nome_marca": "CHECKMOTOR",
+        "classe": 42,
+        "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+        "categoria_decisao": "indeferido_recurso_mantido",
+        "conta_como_precedente": true,
+        "peso_decisao": 4,
+        "score_grafo": 2,
+        "nivel": 2,
+        "justificativa": "classe 42 (aprovada); decisão peso 4 (indeferido_recurso_mantido)"
+      }
+    ],
+    "nivel_3_descartadas": [
+      {
+        "numero_processo": "823662799",
+        "nome_marca": "HELI TOOLCHECK",
+        "classe": 9,
+        "situacao": "Arquivado",
+        "categoria_decisao": "arquivada",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 9 (aprovada) Sem decisão de mérito."
+      },
+      {
+        "numero_processo": "825039606",
+        "nome_marca": "VIBROCHECK",
+        "classe": 9,
+        "situacao": "Arquivado",
+        "categoria_decisao": "arquivada",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 9 (aprovada) Sem decisão de mérito."
+      },
+      {
+        "numero_processo": "828090700",
+        "nome_marca": "BIOCHECK",
+        "classe": 9,
+        "situacao": "Registro de marca extinto",
+        "categoria_decisao": "extinta",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 9 (aprovada) Sem decisão de mérito."
+      },
+      {
+        "numero_processo": "901064602",
+        "nome_marca": "checkmotor",
+        "classe": 42,
+        "situacao": "Arquivado",
+        "categoria_decisao": "arquivada",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 42 (aprovada) Sem decisão de mérito."
+      },
+      {
+        "numero_processo": "904579026",
+        "nome_marca": "BIOCHECK UP CONFIANCE",
+        "classe": 44,
+        "situacao": "Pedido definitivamente arquivado",
+        "categoria_decisao": "arquivada",
+        "conta_como_precedente": false,
+        "peso_decisao": 0,
+        "score_grafo": 1,
+        "nivel": 3,
+        "justificativa": "classe 44 (aprovada) Sem decisão de mérito."
+      }
+    ]
+  },
+  "listas_para_proximas_fases": {
+    "processos_para_specs": [
+      "930709616",
+      "939314002",
+      "937075892"
+    ],
+    "processos_para_precedentes": [
+      "912484276"
+    ]
+  },
+  "estatisticas": {
+    "total_analisadas": 17,
+    "grafo_nos": 47,
+    "grafo_arestas": 52,
+    "vivas_nivel_1": 0,
+    "vivas_nivel_2": 3,
+    "vivas_nivel_3": 8,
+    "precedentes_nivel_1": 0,
+    "precedentes_nivel_2": 1,
+    "precedentes_nivel_3": 5,
+    "total_para_specs": 3,
+    "total_para_precedentes": 1
+  },
+  "metricas_elementos": {
+    "BLOOMCHECK": {
+      "grau_total": 4,
+      "por_classe": {
+        "35": {
+          "em_vigor": 0,
+          "indeferidas": 0,
+          "recurso_mantido": 0,
+          "total_julgadas": 0,
+          "taxa_indeferimento": 0,
+          "densidade": "BAIXA",
+          "desgaste_score": 0.0,
+          "desgaste_nivel": "ZERO"
+        },
+        "38": {
+          "em_vigor": 0,
+          "indeferidas": 0,
+          "recurso_mantido": 0,
+          "total_julgadas": 0,
+          "taxa_indeferimento": 0,
+          "densidade": "BAIXA",
+          "desgaste_score": 0.0,
+          "desgaste_nivel": "ZERO"
+        },
+        "9": {
+          "em_vigor": 0,
+          "indeferidas": 0,
+          "recurso_mantido": 0,
+          "total_julgadas": 0,
+          "taxa_indeferimento": 0,
+          "densidade": "BAIXA",
+          "desgaste_score": 0.0,
+          "desgaste_nivel": "ZERO"
+        },
+        "42": {
+          "em_vigor": 0,
+          "indeferidas": 0,
+          "recurso_mantido": 0,
+          "total_julgadas": 0,
+          "taxa_indeferimento": 0,
+          "densidade": "BAIXA",
+          "desgaste_score": 0.0,
+          "desgaste_nivel": "ZERO"
+        },
+        "44": {
+          "em_vigor": 0,
+          "indeferidas": 0,
+          "recurso_mantido": 0,
+          "total_julgadas": 0,
+          "taxa_indeferimento": 0,
+          "densidade": "BAIXA",
+          "desgaste_score": 0.0,
+          "desgaste_nivel": "ZERO"
+        }
+      }
+    }
+  }
+}

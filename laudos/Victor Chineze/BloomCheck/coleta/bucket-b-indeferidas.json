@@ -1,0 +1,24 @@
+[
+  {
+    "numero_processo": "930709616",
+    "nome_marca": "BLOOMCHIC",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "BLOOMCHIC LIMITED",
+    "classe": 35,
+    "similaridade_pct": 80,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-04-10T04:24:35.827193+00:00"
+  },
+  {
+    "numero_processo": "912484276",
+    "nome_marca": "CHECKMOTOR",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "Checkmotor Vistoria de Veículos Ltda ''me''",
+    "classe": 42,
+    "similaridade_pct": 70,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "B",
+    "coletado_em": "2026-04-10T04:24:35.827215+00:00"
+  }
+]

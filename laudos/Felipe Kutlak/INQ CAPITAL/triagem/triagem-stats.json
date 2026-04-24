@@ -1,0 +1,27 @@
+{
+  "marca_alvo": "INQ CAPITAL",
+  "elementos": {
+    "INQ": "DISTINTIVO",
+    "CAPITAL": "DESCRITIVO"
+  },
+  "classes_analisadas": [
+    36,
+    35,
+    42,
+    9,
+    41
+  ],
+  "total_analisadas": 1517,
+  "por_tier": {
+    "T1": 5,
+    "T2": 241,
+    "T3": 42,
+    "T4": 992,
+    "T5": 237
+  },
+  "decisao": {
+    "cotejo": 288,
+    "desgaste": 992,
+    "descartadas": 237
+  }
+}

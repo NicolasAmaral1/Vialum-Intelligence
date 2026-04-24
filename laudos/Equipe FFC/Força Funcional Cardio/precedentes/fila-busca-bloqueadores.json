@@ -1,0 +1,44 @@
+[
+  {
+    "processo": "902883208",
+    "nome": "BOA FORMA",
+    "buscado_porque": "Anterioridade recorrente — bloqueou múltiplas marcas com elemento FORMA no segmento fitness",
+    "nivel_cadeia": 1
+  },
+  {
+    "processo": "820738751",
+    "nome": "BOA FORMA",
+    "buscado_porque": "Anterioridade recorrente em classes 41/44",
+    "nivel_cadeia": 1
+  },
+  {
+    "processo": "813301203",
+    "nome": "INVICTUS",
+    "buscado_porque": "Bloqueou 911560955 (INVICTUS CENTRO DE TREINAMENTO FUNCIONAL FORÇA E CARDIORRESPIRATÓRIO)",
+    "nivel_cadeia": 1
+  },
+  {
+    "processo": "824763165",
+    "nome": "ELETRO FORÇA",
+    "buscado_porque": "Elemento FORÇA compartilhado — anterioridade em classe de equipamentos",
+    "nivel_cadeia": 1
+  },
+  {
+    "processo": "923308911",
+    "nome": "FS FORZA SUPLEMENTOS",
+    "buscado_porque": "Elemento FORZA/FORÇA compartilhado no segmento esportivo",
+    "nivel_cadeia": 1
+  },
+  {
+    "processo": "916108341",
+    "nome": "FORJA",
+    "buscado_porque": "Similaridade fonética com FORÇA — pode configurar colidência",
+    "nivel_cadeia": 1
+  },
+  {
+    "processo": "913503207",
+    "nome": "BELA FORMA",
+    "buscado_porque": "Elemento FORMA no segmento fitness — anterioridade relevante",
+    "nivel_cadeia": 1
+  }
+]

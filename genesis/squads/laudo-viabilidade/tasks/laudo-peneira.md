@@ -121,17 +121,49 @@ Para cada marca, avaliar rapidamente (sem score numérico):
 Se QUALQUER dimensão for "SIM" → no mínimo nível 2.
 Se DUAS ou mais dimensões forem "SIM" + classe relevante → nível 1.
 
-### Regra 3: Guia de adjacência (descarte automático por classe)
+### Regra 3: Mapa de elementos (peso contextual dos radicais)
 
-Antes de a IA analisar, aplicar o **guia de adjacência** gerado pela Mira na Fase P
+Antes de classificar, a peneira DEVE consultar `coleta/mapa-elementos.json`, gerado
+na Fase 1.5 (Análise de Cenário). O mapa classifica cada elemento nominal da marca como:
+
+- **DISTINTIVO no contexto da atividade:** Elemento que diferencia a marca no segmento.
+  Pode ser genérico em outros segmentos, mas é raro/único no ramo do cliente.
+  → Marca que compartilha esse elemento = **nível 2 mínimo**, independente do nome
+  parecer infantil, comercial ou de outro segmento.
+- **GENÉRICO:** Elemento descritivo da atividade. Coexistência livre no INPI.
+  → Marca que compartilha APENAS esse elemento = **nível 3** para vivas, **nível 2**
+  para precedentes indeferidos (revela padrão INPI).
+
+**Critério para definir DISTINTIVO vs GENÉRICO:**
+1. Densidade bruta: quantas marcas com esse elemento em vigor na classe?
+2. **Cruzamento com contexto da atividade:** dessas, quantas são do MESMO ramo?
+3. Peso da decisão: só conta em vigor (passou exame) + indeferidas. Aguardando exame NÃO CONTA.
+   - Indeferimento mantido em recurso → peso MÁXIMO
+   - Decisão em recurso → peso ALTO
+   - Indeferido simples → peso MÉDIO
+   - Em vigor → peso NORMAL
+   - Aguardando exame / sobrestado / em análise → NÃO CONTA (não é precedente)
+   - Arquivada por desistência → NÃO CONTA (não é decisão de mérito)
+
+**Exemplo:** "BABY" tem 112 marcas em vigor na cl.41 (parece genérico), mas ZERO são
+de corrida/esporte adulto — todas são de entretenimento infantil. No contexto de corrida,
+BABY é DISTINTIVO. Já "RUN" tem 167 em vigor na cl.41, a maioria de corrida → GENÉRICO.
+
+O mapa é gerado por caso na Fase 1.5. Ver: `resources/know-how/analise-cenario.md`.
+
+### Regra 3b: Guia de adjacência (descarte automático por classe)
+
+Aplicar o **guia de adjacência** gerado pela Mira na Fase P
 (salvo em `coleta/guia-adjacencia.json`). O guia classifica cada classe NCL em 3 grupos:
 
 - **Aprovadas + Adjacentes:** IA analisa normalmente (decide nível 1, 2 ou 3)
 - **Sem afinidade:** descarte AUTOMÁTICO (nível 3) SEM gastar IA
 
-**Exceção:** Se o nome da marca em classe sem afinidade for IDÊNTICO ou QUASE IDÊNTICO
+**Exceção 1:** Se o nome da marca em classe sem afinidade for IDÊNTICO ou QUASE IDÊNTICO
 à nossa marca (fonética ALTA + gráfica ALTA), sobe para nível 2.
-Ex: "PLENYA" na classe 12 (veículos) → nível 2 pelo nome, apesar da classe.
+
+**Exceção 2:** Se o nome compartilha um elemento DISTINTIVO (conforme mapa-elementos.json),
+sobe para nível 2 mesmo em classe sem afinidade.
 
 O guia é gerado por caso (cada atividade tem classes adjacentes diferentes).
 Ver: `resources/know-how/guia-adjacencia-classes.md` para referência.

@@ -1,0 +1,1361 @@
+[
+  {
+    "numero_processo": "814248799",
+    "nome_marca": "MÉTODO DIRETO CORTE & COSTURA FRAGA",
+    "situacao": "Extinto",
+    "titular": "ANNA FRAGA RODRIGUES",
+    "classe": 16,
+    "similaridade_pct": 50,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "903108909",
+    "nome_marca": "MÉTODO DE TECLADO POR LOURENÇO FILHO",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "LOURENÇO GOMES DE SOUZA FILHO",
+    "classe": 9,
+    "similaridade_pct": 50,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "819680095",
+    "nome_marca": "METODO QUALIFY DE ENSINO",
+    "situacao": "Arquivado",
+    "titular": "QUALIFY INFORMATICA LTDA",
+    "classe": 16,
+    "similaridade_pct": 50,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "903086778",
+    "nome_marca": "MÉTODO DE VIOLÃO POR LOURENÇO FILHO",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "LOURENÇO GOMES DE SOUZA FILHO",
+    "classe": 9,
+    "similaridade_pct": 50,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "819322849",
+    "nome_marca": "MÉTODO TELECOMUNICAÇÕES",
+    "situacao": "Registro de marca extinto",
+    "titular": "METODO TELECOMUNICAÇÕES E COMÉRCIO LTDA",
+    "classe": 9,
+    "similaridade_pct": 50,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "819744093",
+    "nome_marca": "MAIS MÉTODO DE APRENDIZAGEM INTEGRADA INTEGRAL",
+    "situacao": "Registro de marca extinto",
+    "titular": "FRANQUIA EDUCACIONAL CAMPINEIRA LTDA",
+    "classe": 16,
+    "similaridade_pct": 50,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "814231632",
+    "nome_marca": "MÉTODO",
+    "situacao": "Extinto",
+    "titular": "METODO EDUCACAO E ENSINO SOCIEDADE LTDA",
+    "classe": 16,
+    "similaridade_pct": 50,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "813509467",
+    "nome_marca": "MÉTODO",
+    "situacao": "Extinto",
+    "titular": "PIETRO GARLAN COMERCIAL LTDA",
+    "classe": 25,
+    "similaridade_pct": 50,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "830843205",
+    "nome_marca": "MÉTODO APOSTILAS",
+    "situacao": "Registro de marca extinto",
+    "titular": "EDITORA FORENSE LTDA.",
+    "classe": 9,
+    "similaridade_pct": 50,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "903986167",
+    "nome_marca": "UFC PERSONAL TRAINER THE ULTIMATE FITNESS SYSTEM",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ZUFFA, LLC",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "901580708",
+    "nome_marca": "PERSONAL VISION LENTES PROGRESSIVAS",
+    "situacao": "Arquivado",
+    "titular": "COPESP-COOPERATIVA DE ÓPTICAS DO ESTADO DE SÃO PAULO",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "831161353",
+    "nome_marca": "PCD PERSONAL COMMUNICATIONS DEVICES",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "PERSONAL COMMUNICATIONS DEVICES, LLC",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "830411291",
+    "nome_marca": "PERSONAL PBS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ALTAIR ENGINEERING INC",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "828595550",
+    "nome_marca": "CLARO PERSONAL MOBILE",
+    "situacao": "Registro de marca extinto",
+    "titular": "CLARO S.A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "830517014",
+    "nome_marca": "PERSONAL SPACE",
+    "situacao": "Arquivado",
+    "titular": "SONY CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "904154394",
+    "nome_marca": "PERSONAL ÓTICA",
+    "situacao": "Registro de marca extinto",
+    "titular": "R2 IRMÃOS COMÉRCIO DE PRODUTOS OTICOS LTDA - ME",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "830756370",
+    "nome_marca": "CLARO PERSONAL",
+    "situacao": "Registro de marca extinto",
+    "titular": "CLARO S.A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "900315130",
+    "nome_marca": "THE COMPUTER IS PERSONAL AGAIN",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "HEWLETT-PACKARD DEVELOPMENT COMPANY, L.P.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "828823936",
+    "nome_marca": "PROVIDENT PERSONAL CREDIT",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INTERNATIONAL PERSONAL FINANCE PLC",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "821441221",
+    "nome_marca": "PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "PERSONAL INDÚSTRIA E COMÉRCIO LTDA- ME",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "828015333",
+    "nome_marca": "PERSONAL COUNTER",
+    "situacao": "Registro de marca extinto",
+    "titular": "F.C. BUENO EMPREENDIMENTOS LTDA.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "827811012",
+    "nome_marca": "VISION PERSONAL COMPUTER",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "GOMES & COSTA LTDA",
+    "classe": 35,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "827438311",
+    "nome_marca": "PERSONAL COLORLENTES ESTÍMULOS QUÂNTICOS",
+    "situacao": "Arquivado",
+    "titular": "OTICA FOTO PRISMA LTDA ME.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "820592323",
+    "nome_marca": "PERSONAL NUMBER",
+    "situacao": "Registro de marca extinto",
+    "titular": "ERICSSON TELECOMUNICACOES S.A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "826299342",
+    "nome_marca": "PERSONAL THEATER",
+    "situacao": "Arquivado",
+    "titular": "SAMSUNG ELECTRONICS CO., LTD.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "830175172",
+    "nome_marca": "PERSONAL TRAINER WALKING",
+    "situacao": "Registro de marca extinto",
+    "titular": "NINTENDO OF AMERICA INC.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "825151635",
+    "nome_marca": "PERSONAL POCKET CHEF",
+    "situacao": "Registro de marca extinto",
+    "titular": "RAONI PINHEIRO SAADE ME",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "900379901",
+    "nome_marca": "PTB PERSONAL TRAINING BUSINESS",
+    "situacao": "Registro de marca extinto",
+    "titular": "PERSONAL FITNESS TRAINING E AVALIAÇÕES LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817702326",
+    "nome_marca": "PERSONAL COMPUTER COMPANY BRASIL",
+    "situacao": "Extinto",
+    "titular": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "831189673",
+    "nome_marca": "UFC PERSONAL TRAINER",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ZUFFA, LLC",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "831162503",
+    "nome_marca": "PCD PERSONAL COMMUNICATIONS DEVICES",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "PERSONAL COMMUNICATIONS DEVICES, LLC",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "829903755",
+    "nome_marca": "Personal Compact",
+    "situacao": "Arquivado",
+    "titular": "GROUPE PRESIDENT MEDICAL S.A.S.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "822483971",
+    "nome_marca": "CLARO PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "TELET S/A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "822329433",
+    "nome_marca": "PERSONAL PISCINAS",
+    "situacao": "Arquivado",
+    "titular": "MASTER VALE PISCINAS LTDA",
+    "classe": 19,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817702261",
+    "nome_marca": "PERSONAL COMPUTER COMPANY BRASIL",
+    "situacao": "Extinto",
+    "titular": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "classe": 16,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "822060914",
+    "nome_marca": "TOQUE PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "EMPRESA BRASILEIRA DE MÓVEIS E UTILIDADES LTDA",
+    "classe": 19,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "821674870",
+    "nome_marca": "PERSONAL",
+    "situacao": "Registro de marca extinto",
+    "titular": "GEO-GRÁFICA E EDITORA LTDA",
+    "classe": 16,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "822048566",
+    "nome_marca": "TOQUE PERSONAL",
+    "situacao": "Registro de marca extinto",
+    "titular": "MASTERCASA MÓVEIS E DECORAÇÕES LTDA",
+    "classe": 20,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "822048558",
+    "nome_marca": "TOQUE PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "EMPRESA BRASILEIRA DE MÓVEIS E UTILIDADES LTDA",
+    "classe": 19,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "821962914",
+    "nome_marca": "VERY PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "RCP CHAMBÓ RUIZ - ME",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "821536893",
+    "nome_marca": "PERSONAL PARTS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PERSONAL PARTS INDÚSTRIA E COMÉRCIO DE ACESSÓRIOS AUTOMOTIVOS LTDA - EPP.",
+    "classe": 12,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "821682075",
+    "nome_marca": "PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "BOSE CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816744882",
+    "nome_marca": "PA PERSONAL ARABELLI",
+    "situacao": "Arquivado",
+    "titular": "PERSONAL ARABELLI CALCADOS LTDA",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "821218166",
+    "nome_marca": "PERSONAL BAG",
+    "situacao": "Arquivado",
+    "titular": "L A DO CARMO DA SILVA ME",
+    "classe": 20,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "821090100",
+    "nome_marca": "PERSONAL TRAINER",
+    "situacao": "Registro de marca extinto",
+    "titular": "BRS COMÉRCIO E INDÚSTRIA DE MATERIAL ESPORTIVO S.A.",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "821220179",
+    "nome_marca": "PERSONAL CAT",
+    "situacao": "Arquivado",
+    "titular": "CORNEL SIRBU",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "820993301",
+    "nome_marca": "PERSONAL COLORS",
+    "situacao": "Extinto",
+    "titular": "IGB ELETRÔNICA S.A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "820918369",
+    "nome_marca": "TARJETA PERSONAL TELEFONICA",
+    "situacao": "Arquivado",
+    "titular": "TELEFONICA, S.A",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "820699179",
+    "nome_marca": "PERSONAL OFFICE",
+    "situacao": "Arquivado",
+    "titular": "CYBERTECH EQUIPAMENT LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "820676160",
+    "nome_marca": "PERSONAL OFFICE",
+    "situacao": "Arquivado",
+    "titular": "CYBERTECH EQUIPAMENT LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "815335121",
+    "nome_marca": "PERSONAL EARTH STATION",
+    "situacao": "Extinto",
+    "titular": "HUGHES NETWORK SYSTEMS, INC.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "820728918",
+    "nome_marca": "PERSONAL LAB",
+    "situacao": "Arquivado",
+    "titular": "BIOCHEM IMMUNOSYSTEMS ITALIA S.P.A",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "820518689",
+    "nome_marca": "SHARP PERSONAL THEATER",
+    "situacao": "Arquivado",
+    "titular": "SHARP DO BRASIL S/A IND DE EQUIPAMENTOS ELETRONICOS",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "820311170",
+    "nome_marca": "PERSONAL MARKETING",
+    "situacao": "Arquivado",
+    "titular": "PERSONAL MARKETING S/A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "826166768",
+    "nome_marca": "PERSONAL DO BRASIL EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PERSONAL DO BRASIL EQUIP. DE PROTECAO INDIVIDUAL LTDA EPP",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "814002757",
+    "nome_marca": "PERSONAL-TENS",
+    "situacao": "Extinto",
+    "titular": "BIOTRON COMERCIO E REPRESENTACOES LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "813919592",
+    "nome_marca": "PERSONAL TAVARES",
+    "situacao": "Arquivado",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 28,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "819538078",
+    "nome_marca": "NOBILIS PERSONAL COMPUTER",
+    "situacao": "Arquivado",
+    "titular": "NOBILIS INFORMÁTICA LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "822710293",
+    "nome_marca": "CAR PERSONAL COMPUTER",
+    "situacao": "Arquivado",
+    "titular": "ORIENTRADE REPRESENTAÇÃO, IMPORT. EXP COMÉRCIO E ASSTÊNCIA TÉCNICA LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "811556018",
+    "nome_marca": "PERSONAL",
+    "situacao": "Extinto",
+    "titular": "PROLOGICA IND E COM DE MICROCOMPUTADORES LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "818700432",
+    "nome_marca": "PERSONAL SERIES",
+    "situacao": "Extinto",
+    "titular": "ANGELSTECH GESTÃO EMPRESARIAL LTDA.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "829875859",
+    "nome_marca": "S-911 PERSONAL LOCATOR",
+    "situacao": "Arquivado",
+    "titular": "LAIPAC TECHNOLOGY INC.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "831189681",
+    "nome_marca": "UFC PERSONAL TRAINER ULTIMATE FITNESS SYSTEM",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ZUFFA, LLC",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "830175156",
+    "nome_marca": "PERSONAL TRAINER COOKING",
+    "situacao": "Registro de marca extinto",
+    "titular": "NINTENDO OF AMERICA INC.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "823053504",
+    "nome_marca": "ÓTICAS WANDERLEY PERSONAL ÓPTICAL FOTOLEY",
+    "situacao": "Arquivado",
+    "titular": "JULIANA DE ALMEIDA TEIXEIRA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "811454460",
+    "nome_marca": "PERSONAL TOUCH",
+    "situacao": "Extinto",
+    "titular": "SOUZA CRUZ S/A.",
+    "classe": 28,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "818553022",
+    "nome_marca": "PERSONAL CARD",
+    "situacao": "Arquivado",
+    "titular": "MULTLINE EXPORT COMERCIAL IMPORTADORA E EXPORTACAO LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "823003850",
+    "nome_marca": "E-M@XI PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "TIM NORDESTE S/A",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "818010010",
+    "nome_marca": "PERSONAL GUARD",
+    "situacao": "Extinto",
+    "titular": "CASIO KEISANKI KABUSHIKI KAISHA (CASIO COMPUTER CO., LTD.)",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817935851",
+    "nome_marca": "PET FAX - O PERSONAL FAX",
+    "situacao": "Arquivado",
+    "titular": "COMPO DO BRASIL PARTICIPAÇÕES E EMPREENDIMENTOS SC LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817887415",
+    "nome_marca": "PERSONAL DESIGNER",
+    "situacao": "Extinto",
+    "titular": "COMPUTERVISION CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817780424",
+    "nome_marca": "PERSONAL PROFILE",
+    "situacao": "Registro de marca extinto",
+    "titular": "INSCAPE PUBLISHING, INC.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817726071",
+    "nome_marca": "PERSONAL II",
+    "situacao": "Extinto",
+    "titular": "NEC DO BRASIL S/A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "800306252",
+    "nome_marca": "PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "PERSONAL ATELIER DE ESTOFADOS LTDA",
+    "classe": 20,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "822060906",
+    "nome_marca": "TOQUE PERSONAL",
+    "situacao": "Registro de marca extinto",
+    "titular": "EMPRESA BRASILEIRA DE MÓVEIS E UTILIDADES LTDA",
+    "classe": 20,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817641971",
+    "nome_marca": "THINK PERSONAL TECHNOLOGIES",
+    "situacao": "Extinto",
+    "titular": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "classe": 16,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817641963",
+    "nome_marca": "THINK PERSONAL TECHNOLOGIES",
+    "situacao": "Extinto",
+    "titular": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817492437",
+    "nome_marca": "A PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "A PERSONAL ATAC E VAREJO DE PECAS E ACES P/ AUTOS LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817272780",
+    "nome_marca": "PERSONAL CAR",
+    "situacao": "Arquivado",
+    "titular": "PERSONAL CAR COMERCIO DE ACESSORIOS LTDA ME",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817270094",
+    "nome_marca": "PERSONAL COMPUTER LAND",
+    "situacao": "Arquivado",
+    "titular": "PC LAND SUPRIMENTOS PARA INFORMATICA LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817199403",
+    "nome_marca": "PERSONAL ALARM",
+    "situacao": "Arquivado",
+    "titular": "SAFETRONIC INDUSTRIA E COMERCIO LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "817061576",
+    "nome_marca": "PERSONAL DO BRASIL",
+    "situacao": "Arquivado",
+    "titular": "PERSONAL DO BRASIL EQUIPS DE PROTECAO INDIVIDUAL LTDA",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816910855",
+    "nome_marca": "PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "PERSONAL MÓVEIS E DECORACÕES LTDA",
+    "classe": 20,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816860254",
+    "nome_marca": "REDFAX PERSONAL ORGANIZER",
+    "situacao": "Registro de marca em vigor",
+    "titular": "REDFAX INDUSTRIA E COMERCIO LTDA.",
+    "classe": 16,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816844887",
+    "nome_marca": "ATLAS PERSONAL CARD",
+    "situacao": "Extinto",
+    "titular": "ELEVADORES ATLAS SCHINDLER S.A.",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816844879",
+    "nome_marca": "ATLAS PERSONAL CARD",
+    "situacao": "Extinto",
+    "titular": "ELEVADORES ATLAS SCHINDLER S.A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816828431",
+    "nome_marca": "JET SCOOTER PERSONAL WATERCRAFT",
+    "situacao": "Arquivado",
+    "titular": "HATRA ENGENHARIA MECANICA LTDA",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816751595",
+    "nome_marca": "PERSONAL PAPER",
+    "situacao": "Registro de marca extinto",
+    "titular": "PUBLIMARKETING COMÉRCIO DE PAPELARIA E PRESENTES LTDA",
+    "classe": 16,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "811454444",
+    "nome_marca": "PERSONAL TOUCH",
+    "situacao": "Extinto",
+    "titular": "SOUZA CRUZ S/A.",
+    "classe": 16,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816667730",
+    "nome_marca": "PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "NARDI ITALIA SPA",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816661723",
+    "nome_marca": "PERSONAL TRAINER",
+    "situacao": "Extinto",
+    "titular": "CASIO KEISANKI KABUSHIKI KAISHA (CASIO COMPUTER CO., LTD.)",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816613958",
+    "nome_marca": "A PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "A PERSONAL ATAC E VAREJO DE PECAS E ACES P/ AUTOS LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816613940",
+    "nome_marca": "A PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "A PERSONAL ATAC E VAREJO DE PECAS E ACES P/ AUTOS LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816397864",
+    "nome_marca": "PERSONAL MONITOR",
+    "situacao": "Extinto",
+    "titular": "PHILIPS DO BRASIL LTDA.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816340226",
+    "nome_marca": "PERSONAL CAP",
+    "situacao": "Arquivado",
+    "titular": "ARISTIDES GIORGI FILHO",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816268894",
+    "nome_marca": "PERSONAL PRESS",
+    "situacao": "Extinto",
+    "titular": "ADOBE SYSTEMS INCORPORATED",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816267154",
+    "nome_marca": "PERSONAL PLANNER",
+    "situacao": "Extinto",
+    "titular": "CASIO KEISANKI KABUSHIKI KAISHA (CASIO COMPUTER CO., LTD.)",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "816206228",
+    "nome_marca": "PERSONIS'S",
+    "situacao": "Arquivado",
+    "titular": "PERSONI'S COMERCIO E REPRESENTACOES LTDA",
+    "classe": 16,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "815967268",
+    "nome_marca": "PERSONAL SYSTEM/3",
+    "situacao": "Arquivado",
+    "titular": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "815940904",
+    "nome_marca": "JET SCOOTER PERSONAL WATERCRAFT",
+    "situacao": "Arquivado",
+    "titular": "HATRA ENGENHARIA MECANICA LTDA",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "815846398",
+    "nome_marca": "A PERSONAL",
+    "situacao": "Extinto",
+    "titular": "A PERSONAL ATAC E VAREJO DE PECAS E ACES P/ AUTOS LTDA",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "815768249",
+    "nome_marca": "PERSONAL PLAC",
+    "situacao": "Arquivado",
+    "titular": "LIANTEX IND E COM DE ARTEFATOS DE BORRACHA LTDA",
+    "classe": 19,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "815757620",
+    "nome_marca": "PERSONAL SYSTEM/1",
+    "situacao": "Extinto",
+    "titular": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "815498560",
+    "nome_marca": "PERSONAL SECURITY",
+    "situacao": "Extinto",
+    "titular": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "811454410",
+    "nome_marca": "PERSONAL TOUCH",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SOUZA CRUZ LTDA",
+    "classe": 12,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "815103824",
+    "nome_marca": "A PERSONAL",
+    "situacao": "Extinto",
+    "titular": "A PERSONAL ATAC E VAREJO DE PECAS E ACES P/ AUTOS LTDA",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "814815766",
+    "nome_marca": "D DABI ATLANTE PERSONAL",
+    "situacao": "Registro de marca extinto",
+    "titular": "ALLIAGE S/A INDÚSTRIAS MÉDICO ODONTOLÓGICA",
+    "classe": 10,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "814719570",
+    "nome_marca": "PERSONAL PRIORITES",
+    "situacao": "Arquivado",
+    "titular": "SUSA S/A",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "814562523",
+    "nome_marca": "PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "DABI ATLANTE INDÚSTRIAS MÉDICO ODONTOLÓGICAS LTDA.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "814540210",
+    "nome_marca": "PERSONAL TOUCH",
+    "situacao": "Arquivado",
+    "titular": "SOUZA CRUZ S/A.",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "814413650",
+    "nome_marca": "PERSONAL VIEW.",
+    "situacao": "Extinto",
+    "titular": "PHILIPS DO BRASIL LTDA.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "814284345",
+    "nome_marca": "REDFAX PERSONAL ORGANIZER",
+    "situacao": "Arquivado",
+    "titular": "REDFAX INDUSTRIA E COMERCIO LTDA.",
+    "classe": 16,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "819061808",
+    "nome_marca": "PERSONAL VISION",
+    "situacao": "Arquivado",
+    "titular": "SHARP DO BRASIL S/A IND DE EQUIPAMENTOS ELETRONICOS",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "823620239",
+    "nome_marca": "PERSONAL DESK SERIES",
+    "situacao": "Arquivado",
+    "titular": "NET CELL COMÉRCIO E IMPORTAÇÃO LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "830175164",
+    "nome_marca": "PERSONAL TRAINER MATH",
+    "situacao": "Registro de marca extinto",
+    "titular": "NINTENDO OF AMERICA INC.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "840330715",
+    "nome_marca": "HUE PERSONAL WIRELESS LIGHTING",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SIGNIFY HOLDING B.V.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813985730",
+    "nome_marca": "PERSONAL",
+    "situacao": "Extinto",
+    "titular": "NEC DO BRASIL S/A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919452",
+    "nome_marca": "PERSONAL TAVARES",
+    "situacao": "Arquivado",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 28,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919380",
+    "nome_marca": "PERSONAL TAVARES",
+    "situacao": "Arquivado",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 28,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919371",
+    "nome_marca": "PERSONAL TAVARES",
+    "situacao": "Extinto",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "819147613",
+    "nome_marca": "LINHA PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "MADECENTER MOVEIS LTDA",
+    "classe": 20,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "819205370",
+    "nome_marca": "PERSONAL PAIR",
+    "situacao": "Arquivado",
+    "titular": "LEVI STRAUSS & CO.",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "824418140",
+    "nome_marca": "PERSONAL COMMUNICATOR",
+    "situacao": "Arquivado",
+    "titular": "LEADERSHIP COMÉRCIO E IMPORTAÇÃO LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919231",
+    "nome_marca": "PERSONAL TAVARES",
+    "situacao": "Extinto",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919223",
+    "nome_marca": "PERSONAL TAVARES",
+    "situacao": "Extinto",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919207",
+    "nome_marca": "PERSONAL",
+    "situacao": "Extinto",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919193",
+    "nome_marca": "PERSONAL TAVARES",
+    "situacao": "Extinto",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813874807",
+    "nome_marca": "PERSONAL FAX",
+    "situacao": "Arquivado",
+    "titular": "CENTRAL DE FAC-SIMILE COMERCIO E INDUSTRIA LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "819073890",
+    "nome_marca": "AGENDA PERSONAL",
+    "situacao": "Arquivado",
+    "titular": "SÃO DOMINGOS S/A INDÚSTRIA GRÁFICA.",
+    "classe": 16,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813597749",
+    "nome_marca": "PERSONAL SYSTEM/2",
+    "situacao": "Arquivado",
+    "titular": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919274",
+    "nome_marca": "PERSONAL TAVARES",
+    "situacao": "Arquivado",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919290",
+    "nome_marca": "PERSONAL",
+    "situacao": "Extinto",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 28,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813167876",
+    "nome_marca": "PERSONAL MICROSOFT",
+    "situacao": "Arquivado",
+    "titular": "HAMILSON JORGE",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "818974680",
+    "nome_marca": "PERSONAL PAIR",
+    "situacao": "Extinto",
+    "titular": "LEVI STRAUSS & CO.",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "812611659",
+    "nome_marca": "PERSONAL TOUCH",
+    "situacao": "Extinto",
+    "titular": "SOUZA CRUZ S/A.",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "811833445",
+    "nome_marca": "PERSONAL COMPUTER AT",
+    "situacao": "Arquivado",
+    "titular": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "740228706",
+    "nome_marca": "PERSONAL",
+    "situacao": "Extinto",
+    "titular": "PERSONAL S.P.A",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "818012137",
+    "nome_marca": "DIGITAL PERSONAL COMMUNICATOR",
+    "situacao": "Arquivado",
+    "titular": "MOTOROLA SOLUTIONS, INC.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "740500716",
+    "nome_marca": "PERSONAL",
+    "situacao": "Registro de marca em vigor",
+    "titular": "NARDI-PERSONAL S.P.A.",
+    "classe": 7,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919312",
+    "nome_marca": "PERSONAL",
+    "situacao": "Extinto",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813919347",
+    "nome_marca": "PERSONAL TAVARES",
+    "situacao": "Extinto",
+    "titular": "TAVARES EMPRESA DE ROUPAS LTDA.",
+    "classe": 25,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "819370290",
+    "nome_marca": "PERSONAL CASH",
+    "situacao": "Arquivado",
+    "titular": "WINDOOR SISTEMAS LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "824940130",
+    "nome_marca": "SMART PERSONAL MANAGER",
+    "situacao": "Registro de marca extinto",
+    "titular": "TECNOLOGIA DE GERÊNCIA COMERCIAL S/A.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "813805465",
+    "nome_marca": "ASM ASSESSORIA SISTEMAS E METODOS",
+    "situacao": "Arquivado",
+    "titular": "SISTEMAS BLUMENAU LTDA",
+    "classe": 9,
+    "similaridade_pct": 42,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "820169692",
+    "nome_marca": "PERSONALE COZINHAS E MOVEIS",
+    "situacao": "Registro de marca extinto",
+    "titular": "PERSONALE COZINHAS E MOVEIS LTDA - EPP",
+    "classe": 20,
+    "similaridade_pct": 38,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "829518878",
+    "nome_marca": "PERSONATA",
+    "situacao": "Registro de marca extinto",
+    "titular": "ANYX SOLUÇÕES EM INFORMÁTICA LTDA",
+    "classe": 9,
+    "similaridade_pct": 38,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "818892528",
+    "nome_marca": "PERSONALL",
+    "situacao": "Arquivado",
+    "titular": "LOZOBER MAGAZINE LTDA",
+    "classe": 25,
+    "similaridade_pct": 38,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "811169731",
+    "nome_marca": "PERSONAGGI",
+    "situacao": "Arquivado",
+    "titular": "PERSONAGGI MODAS LTDA",
+    "classe": 25,
+    "similaridade_pct": 35,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "812672909",
+    "nome_marca": "PERSONAGGI",
+    "situacao": "Arquivado",
+    "titular": "OLIVEIRA'S INDUSTRIA E COMERCIO DE ROUPAS LTDA",
+    "classe": 25,
+    "similaridade_pct": 35,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "817662987",
+    "nome_marca": "PERSONAGGI",
+    "situacao": "Arquivado",
+    "titular": "PINTINHO MODA INFANTIL LTDA",
+    "classe": 25,
+    "similaridade_pct": 35,
+    "fonte": "classe-9-pagina-2"
+  },
+  {
+    "numero_processo": "826577547",
+    "nome_marca": "RM METODUS",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "TOTVS S/A",
+    "classe": 9,
+    "similaridade_pct": 35,
+    "fonte": "classe-9-pagina-2"
+  }
+]

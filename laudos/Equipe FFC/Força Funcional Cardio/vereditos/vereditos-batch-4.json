@@ -1,0 +1,357 @@
+[
+  {
+    "numero_processo": "939469391",
+    "nome_marca": "VAI DE CARDIO",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "médio",
+    "nota": "Elemento CARDIO compartilhado, classe 41, spec fitness. Em exame - monitorar."
+  },
+  {
+    "numero_processo": "939862468",
+    "nome_marca": "FORJA DOS REINOS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-médio"
+  },
+  {
+    "numero_processo": "938971492",
+    "nome_marca": "Força e Honra Bom Combate",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-médio"
+  },
+  {
+    "numero_processo": "938193929",
+    "nome_marca": "Cardio pra Definir",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-médio"
+  },
+  {
+    "numero_processo": "939087910",
+    "nome_marca": "FORÇA MOTRIZ EMPREENDEDORISMO",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-médio"
+  },
+  {
+    "numero_processo": "933921110",
+    "nome_marca": "FORÇA E HONRA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-médio"
+  },
+  {
+    "numero_processo": "939507692",
+    "nome_marca": "FORÇA BRUTA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-médio"
+  },
+  {
+    "numero_processo": "937346446",
+    "nome_marca": "FOLK FISIOTERAPIA E PILATES FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940315572",
+    "nome_marca": "FORJA DOS REINOS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "916173119",
+    "nome_marca": "FITSOLO STUDIO DE TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "914905287",
+    "nome_marca": "PIERRE CARDIN",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939163314",
+    "nome_marca": "Nobre Urso Força com Estilo",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "929468732",
+    "nome_marca": "MITREINE FUNCIONAL - CROSSTRAINING - HIIT",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932784364",
+    "nome_marca": "UNIVERSO CROSSFUT Treinamento Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942898060",
+    "nome_marca": "Saga Adestramento Obediência Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935453237",
+    "nome_marca": "TMF TREINAMENTO E TERAPIA MIOFASCIAL FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936654368",
+    "nome_marca": "Nutricerrado Comportamento Alimentar e Nutrição Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "917610466",
+    "nome_marca": "PURA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "911621873",
+    "nome_marca": "FLEXI FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938899554",
+    "nome_marca": "Forma Lex Educação Jurídica para o futuro",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934037370",
+    "nome_marca": "bingresfit Studio Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937345679",
+    "nome_marca": "FOLK FISIOTERAPIA E PILATES FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941032140",
+    "nome_marca": "Força e Honra Bom Combate",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934578290",
+    "nome_marca": "Cardio pra Definir",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933841833",
+    "nome_marca": "EQUIPE VILHENA JIU - JITSU SINCE 1999 - MMA - MINIMO DE FORÇA - MAXIMO DE EFICIENCIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "911072349",
+    "nome_marca": "FUNCIONAL CENTER CLÍNICA DE FISIOTERAPIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934827133",
+    "nome_marca": "FUNCIONAL Ô LÁ EM CASA - SAÚDE E PERFORMANCE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "927622289",
+    "nome_marca": "Forma Feminina",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935487735",
+    "nome_marca": "BASE JMF JIU JITSU ? MUAY THAI ? FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934597359",
+    "nome_marca": "IRF IMERSÃO EM REABILITAÇÃO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939233665",
+    "nome_marca": "ESTILO E FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942510160",
+    "nome_marca": "A FORÇA DO BEM",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938670301",
+    "nome_marca": "FORÇA MOTRIZ EMPREENDORISMO COM MARCELO KRAUSE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "913893013",
+    "nome_marca": "SUPLEMENTOS FORÇA TOTAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "910212910",
+    "nome_marca": "FORÇA E HONRA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933182210",
+    "nome_marca": "89 FORÇA JOVEM ATLETICANA 89",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941801829",
+    "nome_marca": "CORPORIS TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "928112292",
+    "nome_marca": "Linda Forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "923741380",
+    "nome_marca": "Dr. Murilo B. Corsi Ortopedia Funcional dos Maxilares",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "913845990",
+    "nome_marca": "ELOFISIO DERMATO FUNCIONAL E ESTÉTICA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "906481333",
+    "nome_marca": "EM FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940136406",
+    "nome_marca": "Coreplus Pilates Funcional Adaptada",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "929769813",
+    "nome_marca": "Clínica Minha Forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941583392",
+    "nome_marca": "MÉTODO FORJA DE PROPÓSITO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "840063520",
+    "nome_marca": "PIERRE CARDIN",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939002507",
+    "nome_marca": "Acqua Pró Treinamento Funcional e Aquático",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935782800",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942981456",
+    "nome_marca": "NUTRIÇÃO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939186659",
+    "nome_marca": "CARDIO GP",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940120690",
+    "nome_marca": "Studio i Vida Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "930215540",
+    "nome_marca": "Pra Funcionar Melhor",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "912760974",
+    "nome_marca": "CENTRO DE EQUILIBRIO - Estúdio de Pilates e Treinamento Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937642452",
+    "nome_marca": "elara medicina funcional integrativa",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "918527520",
+    "nome_marca": "FORÇA E HONRA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "921144776",
+    "nome_marca": "FORMA SAUDÁVEL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "931927072",
+    "nome_marca": "FORÇA BRUTA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939310546",
+    "nome_marca": "SUPREMA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942085701",
+    "nome_marca": "MOOV?ART STUDIO DE ARTE, DANÇA E TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "914478869",
+    "nome_marca": "CLÍNICA PELE & FORMA ESTÉTICA AVANÇADA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  }
+]

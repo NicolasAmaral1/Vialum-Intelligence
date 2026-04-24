@@ -1015,7 +1015,7 @@ async function completeContainer(workflowId: string, currentStep: StepRow, bus: 
     data: { status: 'completed', completedAt: new Date() },
   });
   broadcastToWorkflow(workflowId, 'workflow:updated', { workflowId, status: 'completed' });
-  broadcastToAccount(workflow!.accountId, 'workflow:updated', { workflowId, status: 'completed' });
+  broadcastToAccount(wfFinal!.accountId, 'workflow:updated', { workflowId, status: 'completed' });
   console.log(`[engine] Workflow completed: ${workflowId}`);
 }
 

@@ -1,0 +1,320 @@
+[
+  {
+    "numero_processo": "935329579",
+    "nome_marca": "Me Falta Cardio",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "929695208",
+    "nome_marca": "CT TREINAMENTO FUNCIONAL LTDA",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "939469308",
+    "nome_marca": "VAI DE CARDIO",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "941482804",
+    "nome_marca": "Pilatium PILATES E FUNCIONAL",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "937443689",
+    "nome_marca": "Academia Circuito de Força",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "940907119",
+    "nome_marca": "CARDIO X",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "932763634",
+    "nome_marca": "CLÍNICA RAFAEL RASO - PILATES - FUNCIONAL - FISIOTERAPIA",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "932645275",
+    "nome_marca": "Força Sistêmica",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "916111180",
+    "nome_marca": "SARFI SERVIÇO DE APOIO EM REABILITAÇÃO FUNCIONAL INTEGRADA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "931125669",
+    "nome_marca": "UMANI INSTITUTO DE RECUPERAÇÃO COGNITIVA E FUNCIONAL",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "923245030",
+    "nome_marca": "FUNCIONAL STUDIO VIP",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "936488417",
+    "nome_marca": "SOULMIKE ESTILO FORÇA E RESISTÊNCIA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "923139532",
+    "nome_marca": "QUALIDADE ENVELHECIMENTO FUNCIONAL E FISIOTERAPIA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "915903180",
+    "nome_marca": "FORÇA PANTANEIRA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942804678",
+    "nome_marca": "Desafiando Limites Força Identidade Autonomia",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "920689817",
+    "nome_marca": "GOAL! FUTEBOL FUNCIONAL",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "933960395",
+    "nome_marca": "TERAPIA MANUAL FUNCIONAL André Carvalho",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942991966",
+    "nome_marca": "AE GREEN Treinamento de força coletivo",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "940745402",
+    "nome_marca": "CINE FORMA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "941840980",
+    "nome_marca": "AURAMUV FUNCIONAL E PILATES",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "937304115",
+    "nome_marca": "1M3F - MOTIVAÇÃO FORÇA FOCO FÉ",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "939293455",
+    "nome_marca": "FORÇA VITAL",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942118898",
+    "nome_marca": "PREVENTIVA FISIOTERAPIA E TREINAMENTO FUNCIONAL",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "935035591",
+    "nome_marca": "FORÇA FITNESS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "940799693",
+    "nome_marca": "Arkeus Saúde Estética Funcional Integrativa",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "923308911",
+    "nome_marca": "FS FORZA SUPLEMENTOS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "926577700",
+    "nome_marca": "HAIF Harmonização Abdominal Íntima Funcional",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "938063650",
+    "nome_marca": "Minha Clínica Pilates Fisioterapia Quiropraxia Funcional",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942852680",
+    "nome_marca": "QUE A FORÇA ESTEJA COM VOCE",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "933304340",
+    "nome_marca": "PERFECT MOVE STUDIO DE TREINAMENTO FUNCIONAL",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "936570113",
+    "nome_marca": "Circuito de Força e Paz Ferramenta de Reconexão e Autocura",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942853750",
+    "nome_marca": "MULHER EM FORMA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942177258",
+    "nome_marca": "ONCOTRAINING FORÇA, MOVIMENTO & SUPERAÇÃO",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "938649914",
+    "nome_marca": "A FORJA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "938140574",
+    "nome_marca": "Mais Ação Pilates e Treino Funcional",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942205715",
+    "nome_marca": "CT LEGACY SUA FORÇA, SEU LEGADO",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "941635554",
+    "nome_marca": "FORJA STUDIO FITNESS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "938043676",
+    "nome_marca": "STUDIO FUNCIONAL SAÚDE A MIL",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "939792524",
+    "nome_marca": "ESPAÇO Y FORÇA, HONRA , DISCIPLINA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "939533758",
+    "nome_marca": "Mulher Funcional",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "936359188",
+    "nome_marca": "GARRA 7 FUNCIONAL & PERFORMANCE",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "941035859",
+    "nome_marca": "MULHERES POR INTEIRO CURA, FORÇA E INTEGRIDADE",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "931659248",
+    "nome_marca": "BOA FORMA ACADEMIA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "924805390",
+    "nome_marca": "Fisio Flex Terapias e Pilates Funcional",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942757971",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "912761652",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939494558",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "921279736",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "902883208",
+    "nome_marca": "BOA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "922232881",
+    "nome_marca": "Forma.com Cintas e Modeladores",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936946890",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935794760",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937049824",
+    "nome_marca": "Harmonização Capilar Funcional - HCF",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  }
+]

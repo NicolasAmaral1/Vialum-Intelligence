@@ -1,0 +1,2772 @@
+[
+  {
+    "numero_processo": "908890427",
+    "nome_marca": "AFAMAR CAPITAL HUMANO",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ADALBERTO SANTOS FILHO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "934698830",
+    "nome_marca": "LKC CAPITAL MERGERS & ACQUISITIONS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "LKC CONSULTORIA LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "932005918",
+    "nome_marca": "Ryze Capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "RYZE CAPITAL LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933227094",
+    "nome_marca": "VELOX CAPITAL HOLDING",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "VELOX CAPITAL HOLDING LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "920655726",
+    "nome_marca": "Papelaria Capital",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "PAPELARIA CAPITAL COMERCIO DE PAPEIS E SERVICOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "929087658",
+    "nome_marca": "HMC ITJ CAPITAL ADVISORS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "HMC ITAJUBÁ CAPITAL ADVISORS CONSULTORIA FINANCEIRA LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "918436257",
+    "nome_marca": "PRIMO CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CRER INTERMEDIAÇÃO FINANCEIRA LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "912904879",
+    "nome_marca": "PROSPERA CAPITAL ASSESSORIA EMPRESARIAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "rafael valente felitte - asessoria empresarial - me",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "828969639",
+    "nome_marca": "CAPITAL PEÇAS ELÉTRICAS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "CAPITAL AUTOPEÇAS LTDA EPP",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "907608752",
+    "nome_marca": "Urca Capital Partners",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "Urca Capital Partners Gestão, Consultoria, Projetos e Participações Ltda.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933226268",
+    "nome_marca": "I2 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "I2 CAPITAL LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "905675495",
+    "nome_marca": "Capital Holding",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "CAPITAL HOLDING LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933113617",
+    "nome_marca": "ASTRA CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "ASTRA CAPITAL ASSESSORIA DE INVESTIMENTOS LTDA. ME.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "932336710",
+    "nome_marca": "Sette Capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SETTE CAPITAL LTDA EPP",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "929318838",
+    "nome_marca": "Capital da Amazônia Azul",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "WWI BRASIL",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916009181",
+    "nome_marca": "SABIÁ CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SABIÁ CAPITAL ANÁLISE DE CRÉDITOS LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "929960750",
+    "nome_marca": "G GRAN CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "GRAN CAPITAL PARTNERS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "914731580",
+    "nome_marca": "CAPITAL DOS BONS NEGÓCIOS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ASSOCIAÇÃO DO COMERCIO E INDUSTRIA DE POUSO ALEGRE",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "821996878",
+    "nome_marca": "ÁGUA MINERAL NATURAL LINDÓIA CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SOCORRO INDÚSTRIA DE BEBIDAS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923423524",
+    "nome_marca": "TRIÂNGULO CAPITAL INVESTIMENTOS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CUSTODIO & ZANIN INVESTIMENTOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "934026530",
+    "nome_marca": "Rivo Capital",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "LECCA S.A SECURITIZADORA DE CREDITOS FINANCEIROS",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "830972323",
+    "nome_marca": "CAPITAL PNEUS PNEUS E ACESSÓRIOS",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "AUTO CAPITAL PNEUS E ACESSÓRIOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "934429120",
+    "nome_marca": "EXA CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "EXA CAPITAL ASSET LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923917594",
+    "nome_marca": "PS CAPITAL Inteligência Fiscal e Tributária para o Brasil",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "PSCAPITAL CONSULTORIA EMPRESARIAL EIRELI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "906460590",
+    "nome_marca": "INNVEST CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "INNVEST CAPITAL GESTÃO DE INVESTIMENTOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "921754531",
+    "nome_marca": "LET'S GROWTH CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "FERNANDO LUIS DE CASTRO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "932201415",
+    "nome_marca": "UPMONEY CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "UP CAPITAL EMPRESA SIMPLES DE CREDITO LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "921019122",
+    "nome_marca": "Campo Capital P2P",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAMPO CAPITAL P2P TECNOLOGIA E INVESTIMENTOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "931863449",
+    "nome_marca": "COLIBRI CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "COLIBRI CAPITAL LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "918699568",
+    "nome_marca": "Lead Capital Partners",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "LEAD CAPITAL PARTNERS - CONSULTORIA DE NEGOCIOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "930623959",
+    "nome_marca": "VITAL CAPITAL ACADEMY BUSINESS DIGITAL SINCE 1990",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "LUCIANO VITAL BARBOSA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "917108434",
+    "nome_marca": "CAPITAL REALTY",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL REALTY INFRA-ESTRUTURA LOGISTICA LTDA .",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "930488849",
+    "nome_marca": "VIBE CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "VIBRATIONAL CAPITAL FRAMEWORK PBC",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916902587",
+    "nome_marca": "CAPITAL VERDE",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL VERDE LTDA ME",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916426831",
+    "nome_marca": "LOGOS CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": null,
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "930861019",
+    "nome_marca": "ONE CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CARLA TATIANA DEMETRIO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "918302757",
+    "nome_marca": "Aiyra Capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "AIYRA CAPITAL GESTÃO IMOBILIÁRIA LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "929699840",
+    "nome_marca": "CAPITAL OUTLET",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "R EMPREENDIMENTOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "929384687",
+    "nome_marca": "DOMUS CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "DOMUS CAPITAL LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "920330193",
+    "nome_marca": "R I C A RETORNO INVESTIMENTOS CAPITAL APLICAÇÃO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "RICA INVESTIMENTOS AGENTE AUTONOMO DE INVESTIMENTOS EIRELI ME",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "935879633",
+    "nome_marca": "CAPITAL FARMA",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "CAPITAL FARMA DROGARIA LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "912027606",
+    "nome_marca": "CAPITAL ALIMENTOS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CAPITAL DISTRIBUIDORA DE CARNES LTDA-EPP",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "935732535",
+    "nome_marca": "Icon Capital",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "ICON CAPITAL LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "909432945",
+    "nome_marca": "Triaxis Capital",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "E, H & R INVESTIMENTOS LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "935229809",
+    "nome_marca": "TAJ CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "TAJ CAPITAL SOLUÇÕES FINANCEIRAS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "821996894",
+    "nome_marca": "ÁGUA MINERAL NATURAL LINDÓIA CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SOCORRO INDÚSTRIA DE BEBIDAS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923512829",
+    "nome_marca": "ASTER CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "ASTER INVESTIMENTOS S.A",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923626115",
+    "nome_marca": "CAPITAL BEEF BOX",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL BEEF BOX",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "927230704",
+    "nome_marca": "AVIN CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "AVIN CORP SERVIÇOS E CORRETORA DE SEGUROS LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923997067",
+    "nome_marca": "CAPITAL INVEST-FINANCIAMENTOS E CONSÓRCIOS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "LUIS FELIPE DE MACEDO SOARES OSELIERO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "905021819",
+    "nome_marca": "CAPITAL DYNAMICS",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL DYNAMICS HOLDING AG",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "934691835",
+    "nome_marca": "EXPOFEST - Capital Mundial das Etnias",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "UNIÃO DAS ETNIAS DE IJUÍ",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "904270475",
+    "nome_marca": "Triade Capital Humano",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "LMK SERVIÇOS ADMINISTRATIVOS LTDA ME",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "934225567",
+    "nome_marca": "VGI CAPITAL CONTABILIDADE E CONSULTORIA",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "VGI CAPITAL CONTABILIDADE E CONSULTORIA LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933663994",
+    "nome_marca": "Yalla Capital",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "LEONARDO SCHECHTMANN TONELLO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925544922",
+    "nome_marca": "FIORD CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "FIORD CAPITAL EIRELI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "934125309",
+    "nome_marca": "Alkes Capital",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "PAX PARTNERS ADMINISTRACAO DE CARTEIRAS LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "830916016",
+    "nome_marca": "CAPITAL DYNAMICS",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL DYNAMICS (S) PRIVATE LIMITED",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925094366",
+    "nome_marca": "CAPITAL MÍDIAS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "VR ESPAÇOS PUBLICITÁRIOS EIRELI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "903326710",
+    "nome_marca": "DE BERNT ENTSCHEV HUMAN CAPITAL SINCE 1986",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "DE BERNT ENTSCHEV HUMAN CAPITAL LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933646801",
+    "nome_marca": "SOLUÇÃO CAPITAL Franchising",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SOLUCAO CAPITAL FRANQUIAS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "903824370",
+    "nome_marca": "MB GRUPO MB CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "MARCIO ANDRE MARQUES BELLESI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "826885861",
+    "nome_marca": "CAPITAL EMOCIONAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": null,
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "904789390",
+    "nome_marca": "capital nacional",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "TRADITION COMÉRCIO VAREJISTA DO VESTUÁRIO LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "831164808",
+    "nome_marca": "CAPITAL CONTABILIDADE",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "CAPITAL - SERVIÇOS CONTABEIS LTDA - ME",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "906020557",
+    "nome_marca": "CAPITAL MÁQUINAS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "WELDER SOARES DE OLIVEIRA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "906972418",
+    "nome_marca": "STS Gaea Capital",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "STS GAEA CAPITAL E ASSESSORIA LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "501736413",
+    "nome_marca": "GLP CAPITAL PARTNERS",
+    "situacao": "Para deferir Designação Recebida (sem interposição de recurso contra o deferimento parcial)",
+    "titular": "GLP INVESTMENT MANAGEMENT PTE. LTD.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "922242488",
+    "nome_marca": "D7 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "D7 CAPITAL HOLDING LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "922276862",
+    "nome_marca": "X CAPITAL FRANQUEADORA",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "RENATO ALVARENGA CARDOSO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "932606482",
+    "nome_marca": "Arm/CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ARM CAPITAL LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "921222823",
+    "nome_marca": "MALCON CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "MALCON CAPITAL - CONSULTORIA, ADMINISTRAÇÃO E PARTICIPAÇÕES LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "913008109",
+    "nome_marca": "CUIABÁ CAPITAL DO AGRO",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "SINDICATO RURAL DE CUIABA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "914235109",
+    "nome_marca": "ASTRO CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": null,
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "913967327",
+    "nome_marca": "RIZA CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": null,
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "931483590",
+    "nome_marca": "Sima Capital Partners",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "STEFANO CELANO DE ALMEIDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "918584914",
+    "nome_marca": "SEREZ CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "SEREZ CAPITAL PRESTAÇÃO DE SERVIÇOS DE CONSULTORIA LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "931072000",
+    "nome_marca": "DS2 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "DS SECURITIZADORA S.A.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "918186790",
+    "nome_marca": "SEBRAE CAPITAL DIGITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SERVIÇO DE APOIO ÀS MICRO E PEQUENAS EMPRESAS DO DISTRITO FEDERAL",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "917748352",
+    "nome_marca": "PROSPERA CAPITAL ASSESSORIA EMPRESARIAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "RAFAEL VALENTE FELITTE - ASESSORIA EMPRESARIAL - ME",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "917108639",
+    "nome_marca": "SRM CAPITAL EM MOVIMENTO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "TRUSTHUB SOLUÇÕES DIGITAIS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916949311",
+    "nome_marca": "CAPITAL DE PRÊMIOS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CIDADE DA SORTE ADMINISTRAÇÕES ORGANIZAÇÕES E EVENTOS EIRELI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "930665090",
+    "nome_marca": "FUTURUM CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "FTRM Group S.A.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "930420667",
+    "nome_marca": "BCN Capital",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "BRAULIO CLEMENTE NETO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916277801",
+    "nome_marca": "AKRON CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "GOLDBELL EMPREENDIMENTOS E PARTICIPAÇÕES EIRELI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "931112982",
+    "nome_marca": "TECHBUSINESS CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "EDUARDO MEDEIROS FERREIRA CARVALHO DE ACIOLI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "931433878",
+    "nome_marca": "CAPITAL PROPRIO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "WALMIR VIDAL JUNIOR",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "929327128",
+    "nome_marca": "Capital Comercial",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ERIC RODRIGUES DA SILVA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "929303776",
+    "nome_marca": "CAPITAL VEÍCULOS",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "CAPITAL VEICULOS 1 LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "929081021",
+    "nome_marca": "EXT CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "EXT CAPITAL LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "931863538",
+    "nome_marca": "COLIBRI CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "COLIBRI CAPITAL LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "912579080",
+    "nome_marca": "cuiabá é agro - a capital do agronegocio",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "RANDALA VIEIRA LOPES - ME",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "935732403",
+    "nome_marca": "CIRÚRGICA CAPITAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "CIRURGICA CAPITAL INDUSTRIA E COMERCIO DE PRODUTOS HOSPITALARES LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "911183434",
+    "nome_marca": "VERTI Capital",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "VERTI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "928075150",
+    "nome_marca": "Giro Capital ASSESSORIA de Credito",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "TIAGO CAZAROTTO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "928140032",
+    "nome_marca": "INTERCOMPANY Capital Estrangeiro Consultoria Assessoria Administrativa e Treinamento",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "INTERCOMPANY CAPITAL ESTRANGEIRO CONSULTORIA ASSESSORIA ADMINISTRATIVA E TREINAMENTO EIRELI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "921990499",
+    "nome_marca": "Capital das Piraibas Bandeirantes Rio Araguaia",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "BRUNO ALMEIDA RAMOS",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "935479333",
+    "nome_marca": "CAPITAL CONTÁBIL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "WILBERT THOMAZ TAVARES OLIVEIRA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923222928",
+    "nome_marca": "CAPITAL AGRÍCOLA",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CAPITAL AGRICOLA CONSULTORIA DE INVESTIMENTO EIRELI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923729330",
+    "nome_marca": "CAPITAL AÇAÍ",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "JG ALMEIDA CAPITAL ACAI",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "907113583",
+    "nome_marca": "MASTER CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "Master Capital negócios e Participações Ltda",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "935035842",
+    "nome_marca": "VALOR CAPITAL SOCIAL",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "CONTAVILLE - PRESTAR SOLUCOES CONTABEIS LTDA - ME",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923991999",
+    "nome_marca": "cy.capital",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": null,
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "501662252",
+    "nome_marca": "CAPITAL POOL COMPANY",
+    "situacao": "Designação indeferida (mantida em grau de recurso)",
+    "titular": "TSX Inc.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925072630",
+    "nome_marca": "ALUMNI VENTURE CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ALUMNI ADMINISTRAÇÃO E PARTICIPAÇÕES LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926510177",
+    "nome_marca": "Corporate venture capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "GROWTH PARTNERS INVESTIMENTOS E PARTICIPACOES LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "904603580",
+    "nome_marca": "ROSA,NAIBERT PROJETOS & CONSULTORIA CONHECIMENTO É CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "NAIBERT - CONSULTORIA EMPRESARIAL LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "904535231",
+    "nome_marca": "Capital Surf",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "CAPITAL SURF COMÉRCIO DE ARTIGOS DE VESTUÁRIO E ACESSÓRIOS LTDA - ME",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926403389",
+    "nome_marca": "OMNI CAPITAL HUMANO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "RODRIGO LENTINO MACHADO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926350765",
+    "nome_marca": "PROTEÇÃO DO CAPITAL CRIATIVO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CARITA GOMES BARBOSA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "903276127",
+    "nome_marca": "Brasil Capital Management",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "JOSÉ EDUARDO DA ROCHA VELHO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925117323",
+    "nome_marca": "R4 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "R4 CAPITAL INTERMEDIAÇÃO, LOCAÇÃO E AGENCIAMENTO DE NEGÓCIOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933984812",
+    "nome_marca": "REAL ESTATE CAPITAL INVESTMENT",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "REAL ESTATE CAPITAL INVESTMENT LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "901240010",
+    "nome_marca": "CAPITAL Contabilidade",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ORGANIZACAO CAPITAL REPRESENTACOES LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "829955747",
+    "nome_marca": "F&A CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "OLIVEIRA E SILVA MATERIAIS PARA CONSTRUÇÃO LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933989490",
+    "nome_marca": "CAPITAL RURAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CAPITAL RURAL PROJETOS E CONSULTORIA LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925636738",
+    "nome_marca": "ELEVEN CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "MAURILIO FERREIRA MATOS FILHO",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925511366",
+    "nome_marca": "RC REALIZE CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "REALIZE CAPITAL ASSESSORIA EM DIREITOS CREDITÓRIOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "924942207",
+    "nome_marca": "FORS CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "PERFORMA INVESTIMENTOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "903102099",
+    "nome_marca": "CAPITAL MODA MASCULINA",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "WILSON MEIRELES COELHO - ME",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "900200804",
+    "nome_marca": "BELO HORIZONTE CAPITAL DA OFTALMOLOGIA BRASILEIRA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "EMPRESA MUNICIPAL DE TURISMO DE BELO HORIZONTE SA BELOTUR",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926361015",
+    "nome_marca": "SUPER CRED CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SUPERCRED CAPITAL S/A",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "924439084",
+    "nome_marca": "BW Capital",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "BLUE INVESTIMENTO E PARTICIPACOES LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "904009157",
+    "nome_marca": "MOORE CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "MOORE ESTRATÉGIA & VALOR LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925070017",
+    "nome_marca": "ALUMNI VENTURE CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ALUMNI ADMINISTRAÇÃO E PARTICIPAÇÕES LTDA.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923860088",
+    "nome_marca": "OCTO CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "FORTE & LEONE CONSULTORIA EMPRESARIAL SS LTDA -EPP",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "840132603",
+    "nome_marca": "BCP CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "BANCO DE CRÉDITO DEL PERÚ",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "840132735",
+    "nome_marca": "BCP CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "BANCO DE CRÉDITO DEL PERÚ",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "904831868",
+    "nome_marca": "RIO CAPITAL DA ENERGIA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "NOVAS/B COMUNICAÇÃO LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "905115376",
+    "nome_marca": "CAPITAL LASER",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "CAPITAL LASER INFORMATICA LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "905448227",
+    "nome_marca": "W7 BRAZIL CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "W7BZ HOLDING S.A.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923647007",
+    "nome_marca": "Paradigma Capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "PARADIGMA CAPITAL CONSULTORIA E INVESTIMENTOS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "840371608",
+    "nome_marca": "GRP CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "GRP CAPITAL SECURITIZADORA S.A.",
+    "classe": 36,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "927188678",
+    "nome_marca": "CAPITAL GÁS",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITALGÁS COMÉRCIO DE GÁS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933273169",
+    "nome_marca": "Rosario capital Soluções financeiras jurídicas",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "ROSARIO CAPITAL LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923269592",
+    "nome_marca": "SOMAR CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "GUSTAVO MARQUES OLIVEIRA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "821895729",
+    "nome_marca": "LINDOIA CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SOCORRO INDÚSTRIA DE BEBIDAS LTDA",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-35-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "911627146",
+    "nome_marca": "FUTURA VENTURE CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "FUTURA VENTURE CAPITAL PARTICIPAÇÕES LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "900820667",
+    "nome_marca": "CAPITAL ENGENHARIA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL ENGENHARIA LIMITADA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "917108930",
+    "nome_marca": "SRM CAPITAL EM MOVIMENTO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "TRUSTHUB SOLUÇÕES DIGITAIS LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925636959",
+    "nome_marca": "ELEVEN CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "MAURILIO FERREIRA MATOS FILHO",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "920890830",
+    "nome_marca": "Riko Capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "RIKO CAPITAL SOLUÇÕES DIGITAIS E TREINAMENTOS LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "910325952",
+    "nome_marca": "CAPITAL MIX",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "CAPITAL MIX CONSTRUÇÃO E EQUIPAMENTOS LTDA.",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "912651245",
+    "nome_marca": "C3I Capital Intelectual - Instituto Interdisciplinar de Pesquisa e Desenvolvimento",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "Instituto C3I-P&D - Capital Intelectual - Instituto Interdisciplinar de Pesquisa e Desenvolvimento",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "921699239",
+    "nome_marca": "SOLLUS CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SOLLUS CAPITAL PARTICIPAÇÕES LTDA.",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "931113067",
+    "nome_marca": "TECHBUSINESS CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "EDUARDO MEDEIROS FERREIRA CARVALHO DE ACIOLI",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "924032111",
+    "nome_marca": "APPIAN CAPITAL BRAZIL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ATLANTIC NICKEL MINERACAO LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "930172442",
+    "nome_marca": "CAPITAL TECNOLOGIA",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CAPITAL TECNOLOGIA E SISTEMAS LTDA EPP",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925117676",
+    "nome_marca": "R4 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "R4 CAPITAL INTERMEDIAÇÃO, LOCAÇÃO E AGENCIAMENTO DE NEGÓCIOS LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "906435986",
+    "nome_marca": "CAPITAL HUMANO",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL HUMANO OBRAS E SERVIÇOS LTDA.",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "501594128",
+    "nome_marca": "WORKING CAPITAL. WORKING FOR EVERYONE.",
+    "situacao": "Aguardando apresentação ou exame de recurso contra o indeferimento de Designação Recebida",
+    "titular": "POLLEN, INC.",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "826583121",
+    "nome_marca": "CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "CAPITAL LOCAÇÃO DE EQUIPAMENTOS DE INFORMATICA LTDA.EPP",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933226438",
+    "nome_marca": "I2 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "I2 CAPITAL LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "501735861",
+    "nome_marca": "GLP Capital Partners",
+    "situacao": "Para deferir Designação Recebida (sem interposição de recurso contra o deferimento parcial)",
+    "titular": "GLP INVESTMENT MANAGEMENT PTE. LTD.",
+    "classe": 35,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "919972489",
+    "nome_marca": "Quantico Capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SAMUEL VILARINHO SCAREL",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916642780",
+    "nome_marca": "ATOS CAPITAL SERVIÇOS FINANCEIROS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ATOS CAPITAL LTDA - ME",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "919881017",
+    "nome_marca": "CAPITAL VISTORIA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL VISTORIA LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "827210752",
+    "nome_marca": "CAPITAL CONSULTORIA EMPRESARIAL TRIBUTARIA",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "CAPITAL CONSULTORIA EMPRESARIAL TRIBUTÁRIA S/C",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916353850",
+    "nome_marca": "S4 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "S4 CAPITAL 2 LIMITED",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "824511824",
+    "nome_marca": "THE CAPITAL GRILLE",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "RARE HOSPITALITY MANAGEMENT, INC.",
+    "classe": 43,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "928467520",
+    "nome_marca": "GreenGo Capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "GREENGO CAPITAL CONSULTORIA DIGITAL E TREINAMENTOS LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "924032090",
+    "nome_marca": "APPIAN CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ATLANTIC NICKEL MINERACAO LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "927820382",
+    "nome_marca": "PRIMO CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CRER INTERMEDIAÇÃO FINANCEIRA LTDA",
+    "classe": 42,
+    "similaridade_pct": 50,
+    "fonte": "classe-42-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916608921",
+    "nome_marca": "IN9",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "DAVID FERNANDO PEREIRA",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "919114148",
+    "nome_marca": "ROBOTICS AND CNC INNOVATION AND TRAINING CENTER INC.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ROBOTICS AND CNC INNOVATION CENTER SOCIEDAD ANÓNIMA",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "825205646",
+    "nome_marca": "GRILL INN",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ONE HOUSE RESTAURANTE LTDA",
+    "classe": 43,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "825279437",
+    "nome_marca": "CAPITÃO HOTELARIA E ALIMENTAÇÃO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "HOTEL DO CAPITÃO HOSPEDAGEM E TURISMO LTDA - EPP",
+    "classe": 43,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "825926670",
+    "nome_marca": "ALPHA TECH, INC.",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ALPHA TECH, INC",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "827006373",
+    "nome_marca": "CONFIDENCE-INN",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CONFIDENCE-INN EMPREENDIMENTOS HOTELEIROS LTDA",
+    "classe": 43,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923639446",
+    "nome_marca": "mud. arq + int",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "LARISSA NEITZEL FERREIRA",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "828923655",
+    "nome_marca": "BUSINESS TO WORLD INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "B2W - COMPANHIA DIGITAL",
+    "classe": 43,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "830353895",
+    "nome_marca": "WHITE MARTINS PRAXAIR INC",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "WHITE MARTINS GASES INDUSTRIAIS LTDA.",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "840031378",
+    "nome_marca": "SAFETY SYRINGES, INC.",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "SAFETY SYRINGES, INC.",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "840253362",
+    "nome_marca": "PTI GROUP INC",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "OIL STATES INTERNATIONAL, INC.",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "927124025",
+    "nome_marca": "Noctua Inc.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "NOCTUA INC DESENVOLVIMENTO DE SOFTWARE E SOLUCOES LTDA",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "927542951",
+    "nome_marca": "Digital Bulk Ink",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "WELLES EMILIO GONCALVES 11571336656",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "913367737",
+    "nome_marca": "TAG Inc.",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "TAG INC. SERVICOS DIGITAIS LTDA - ME",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "915816253",
+    "nome_marca": "STARK INC.",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "JOEL SILVA TEOBALDO",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916446638",
+    "nome_marca": "Bl.ink",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "MARCO PAPA FRAGALI",
+    "classe": 42,
+    "similaridade_pct": 49,
+    "fonte": "classe-42-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "903610884",
+    "nome_marca": "IN2 TECNOLOGIA I 2",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "MISTRALTECH SOLUÇÕES EMPRESARIAIS LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "820200816",
+    "nome_marca": "GENCOR INDUSTRIES INC.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "GENCOR INDUSTRIES, INC.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "823422712",
+    "nome_marca": "FREQUENCY MARKETING INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ALLIANCE DATA SYSTEMS CORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "902977547",
+    "nome_marca": "MASTER-INK",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "MASTER INK - INDÚSTRIA, COMÉRCIO E SERVIÇOS LTDA -EPP.",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "829054324",
+    "nome_marca": "SATELLITE INT",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "SATELITE COMPUTER INCORPORATION",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "825025222",
+    "nome_marca": "WORLD INK",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "STARPRINT DO BRASIL LTDA",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "900635746",
+    "nome_marca": "DATAPRO, INC FINANCIAL INFORMATION SYSTEMS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "DATAPRO INC",
+    "classe": 9,
+    "similaridade_pct": 49,
+    "fonte": "classe-9-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926838385",
+    "nome_marca": "CAPITAL RELACIONAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CAPITAL RELACIONAL, GESTÃO E APRENDIZAGEM LTDA.",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926249495",
+    "nome_marca": "CARUARU, A CAPITAL DO FORRÓ",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "JORGE DE ALTINHO A. ASSUNCAO PRODUCOES ARTISTICAS",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926801627",
+    "nome_marca": "CAPITAL MUNDIAL DO CHURRASCO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "PATRICIA KOETZ JASKULSKI",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "905882261",
+    "nome_marca": "PINTO BANDEIRA CAPITAL BRASILEIRA DO PÊSSEGO",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "MUNICÍPIO DE PINTO BANDEIRA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "921871252",
+    "nome_marca": "CAPITAL ABERTO",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "TRADERS CLUB LTDA.",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "919938957",
+    "nome_marca": "ZURIQUE CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "DANIEL BASTOS DE CASTRO",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "931241863",
+    "nome_marca": "INSTITUTO CAPITAL HUMANO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "MARESSA GERES CUTAIT",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916353826",
+    "nome_marca": "S4 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "S4 CAPITAL 2 LIMITED",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "930074238",
+    "nome_marca": "Capital de Imagem",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "GISLAINE WESTPHAL RIBEIRO 32185328840",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "904169987",
+    "nome_marca": "FESTA ESTADUAL DO BOI NO ROLETE - UNIÃO DO OESTE - SC - CAPITAL CATARINENSE DO BOI NO ROLETE - RECANTO JM",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "JOÃO LARIO DA SILVA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-1",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923044981",
+    "nome_marca": "ZENIT CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ZENIT AGENTES AUTONOMOS DE INVESTIMENTOS LTDA.",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "919415717",
+    "nome_marca": "CAPITAL DE PRÊMIOS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "MC PARTICIPAÇÕES SOCIETÁRIAS LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "932067743",
+    "nome_marca": "RÁDIO CAPITAL BELO HORIZONTE",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "LIBERDADE EMPRESA DE RADIODIFUSÃO LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "933342101",
+    "nome_marca": "AURUM CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "AURUM CAPITAL LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "921628420",
+    "nome_marca": "N.CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "NRAG PARTICIPAÇÕES SOCIEDADE LIMITADA UNIPESSOAL",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "907611460",
+    "nome_marca": "CAPITAL HUMANO",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "SUCCESS TOOLS PRODUTOS E SERVIÇOS DIFERENCIADOS LIMITADA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "828483469",
+    "nome_marca": "INSTITUTO CAPITAL HUMANO",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL HUMANO TECNOLOGIA E TREINAMENTO LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926249584",
+    "nome_marca": "A CAPITAL DO FORRÓ",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "JORGE DE ALTINHO A. ASSUNCAO PRODUCOES ARTISTICAS",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926004980",
+    "nome_marca": "Venture Capital Latam Summit",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "EQI INVESTIMENTOS CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925912727",
+    "nome_marca": "CAPITAL FUTSAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "DANIEL PAULO PEREIRA FUTEBOL - ME",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-2",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "934983070",
+    "nome_marca": "BTC - BEACH TENNIS CAPITAL TEAM",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "GUTA RIBEIRO BEACH TENNIS LTDA ME",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "924664886",
+    "nome_marca": "BRASÍLIA ILUMINADA - CAPITAL DA ESPERANÇA",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "INSTITUTO DE DESENVOLVIMENTO HUMANO, EMPREENDEDORISMO, INOVAÇÃO E ASSISTÊNCIA SOCIAL - IDHEIAS",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "900200880",
+    "nome_marca": "BELO HORIZONTE CAPITAL DA OFTALMOLOGIA BRASILEIRA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "EMPRESA MUNICIPAL DE TURISMO DE BELO HORIZONTE SA BELOTUR",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "934691940",
+    "nome_marca": "EXPOFEST - Capital Mundial das Etnias",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "UNIÃO DAS ETNIAS DE IJUÍ",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "906084601",
+    "nome_marca": "95,7 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "RÁDIO CAPITAL DO SOM LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "909281220",
+    "nome_marca": "M.inq",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "Marina Fava Auriemo Al Makul",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "922205132",
+    "nome_marca": "CONHECIMENTO GERA CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "NAIBERT - CONSULTORIA EMPRESARIAL LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "914403281",
+    "nome_marca": "C RÁDIO CAPITAL O MUNDO OUVE A RÁDIO CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "RÁDIO NOVO MUNDO LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "917386221",
+    "nome_marca": "DJ CAPITAL SHARK",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "JAIR DA SILVA PINTER JUNIOR",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "919508006",
+    "nome_marca": "POTENZA CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "POTENZA CAPITAL TREINAMENTO PROFISSIONAL E GERENCIAL LTDA-ME",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916398684",
+    "nome_marca": "CAPITAL MERCADO & NEGÓCIOS",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAPITAL EMPRESA JORNALÍSTICA - EIRELI - (CAPITAL MERCADO & NEGÓCIOS)",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "930707761",
+    "nome_marca": "Capital Femeal",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "PAULA CHRISTINA PEÇANHA SANCHES",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-3",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "912178140",
+    "nome_marca": "CAPITAL @ ONLINE PORQUE CONHECIMENTO É O SEU MAIOR CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "FERRARI CONSULTORIA E EVENTOS LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "501808849",
+    "nome_marca": "aces ACES EUROPE ACES AMERICA CAPITAL CIUDAD COMUNIDAD REGIÓN ESTADO MUNICIPIO AMERICANA AMERICANA DEL SUR DEL DEPORTE",
+    "situacao": "Aguardando apresentação ou exame de recurso contra o indeferimento de Designação Recebida",
+    "titular": "FEDERATION DES ASSOCIATIONS DES CAPITALES ET VILLES EUROPEENNES DU SPORT",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "904205690",
+    "nome_marca": "BSB CAPITAL 2 RODAS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "MARCOS PIMENTA CONSULTARIA TRIBUTÁRIA S/S",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "924491396",
+    "nome_marca": "CAPITAL DE PRÊMIOS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "MC PARTICIPACOES SOCIETARIAS LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926511572",
+    "nome_marca": "M4 Capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "M4 CAPITAL LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926171690",
+    "nome_marca": "CAPITAL FEMEAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "PAULA CHRISTINA PEÇANHA SANCHES",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "902369458",
+    "nome_marca": "Brasília Moto Capital",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "IMPACTO ORGANIZAÇÃO DE EVENTOS LTDA - EPP",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-4",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925936596",
+    "nome_marca": "S4 CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "S4 CAPITAL 2 LIMITED",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926005936",
+    "nome_marca": "VC Venture Capital Latam Summit",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "EQI INVESTIMENTOS CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "924719575",
+    "nome_marca": "CAPITAL DE PRÊMIOS DF",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "MC PARTICIPACOES SOCIETARIAS LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "935830359",
+    "nome_marca": "CAPITAL BET",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "CML PARTICIPACOES SOCIETARIAS LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "826885853",
+    "nome_marca": "CAPITAL EMOCIONAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": null,
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "826867693",
+    "nome_marca": "ENCONTRO EMPRESÁRIOS CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ACADEMIA PAULISTA ANCHIETA LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923676953",
+    "nome_marca": "Beach Tennis Capital",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "GUTA RIBEIRO BEACH TENNIS LTDA ME",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923140174",
+    "nome_marca": "MUSEU CAPITAL DO ROCK",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "TÁTA CAVALCANTI PRODUÇÕES CULTURAIS LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "911409661",
+    "nome_marca": "SÃO PAULO CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "Mandíbula",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-5",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "914403559",
+    "nome_marca": "C RÁDIO CAPITAL O MUNDO OUVE A CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "RÁDIO NOVO MUNDO LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "918888859",
+    "nome_marca": "NAVI CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "WESLEY BALDUINO TEIXEIRA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "918535450",
+    "nome_marca": "HC CONSULTING CAPITAL HUMANO",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "JP TREINAMENTO E DESENVOLVIMENTO DE CAPITAL HUMANO LTDA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "918186854",
+    "nome_marca": "SEBRAE CAPITAL DIGITAL",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SERVIÇO DE APOIO ÀS MICRO E PEQUENAS EMPRESAS DO DISTRITO FEDERAL",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "917814088",
+    "nome_marca": "FOCUS CAPITAL",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CARLOS RENATO DUARTE",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "917672569",
+    "nome_marca": "Toro Capital",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "GUSTAVO CÉSAR DE SOUZA",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "916024350",
+    "nome_marca": "LTS Capital",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": null,
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-6",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "914351753",
+    "nome_marca": "CAPITAL ROOTS MUSIC FESTIVAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "MARRAKECH BAR E TABACARIA EIRELI ME",
+    "classe": 41,
+    "similaridade_pct": 50,
+    "fonte": "classe-41-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "920690645",
+    "nome_marca": "INC.",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "AGÊNCIA LEVELS SERVIÇOS DE PUBLICIDADE E EVENTOS LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-7",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "921911130",
+    "nome_marca": "AGILE.INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "EMPIRIC MANAGEMENT LTDA.",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "921809646",
+    "nome_marca": "INK HILLS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ELOÍSA SCHERER DORNELLES",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "922873984",
+    "nome_marca": "Capitão Hunter",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "JOÃO PAULO MANOEL",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923720545",
+    "nome_marca": "OSCAR INN",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "BRASILIANO HOTELARIA E SERVIÇOS LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "923919350",
+    "nome_marca": "INV INSTITUTO NACIONAL DO VAREJO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "INSTITUTO NACIONAL DO VAREJO",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "924244089",
+    "nome_marca": "INSTITUTO DE EDUCAÇÃO NOVO TEMPO VCA INT",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "INSTITUTO DE EDUCACAO NOVO TEMPO LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "924279648",
+    "nome_marca": "Ly Loyal Music Inc.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "SIMONE CRISTINA CARDOSO PRODUCOES ARTISTICAS ME",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "828923590",
+    "nome_marca": "B2W INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "B2W - COMPANHIA DIGITAL",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "829174575",
+    "nome_marca": "CAPITÃO QUATI",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "HABITASUL TURISMO S A",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "829513515",
+    "nome_marca": "WELL CONTROL TRAINING A DIVISION OF WILD WELL CONTROL, INC.",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "WILD WELL CONTROL INC",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925170976",
+    "nome_marca": "INV +",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "BLOCOS CURSOS FINANCEIROS LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925239801",
+    "nome_marca": "Aurora Inc.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "JOELITON JUNIOR DE OLIVEIRA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-8",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "935065130",
+    "nome_marca": "UNQ UNIQUE",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "LEONARDO BARBOSA RIBEIRO",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925287849",
+    "nome_marca": "Galáxia Inc",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "GALAXIA INC PRODUÇÕES LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "925432741",
+    "nome_marca": "INC OMOD ANDO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ALEXANDRE PEREIRA SANTOS",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "830517820",
+    "nome_marca": "INT CURSOS E TREINAMENTOS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ALFA 3 COMUNICAÇÕES PUBLICIDADE E MIDIA LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "900826002",
+    "nome_marca": "BANDA CAPITAO GANCHO",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "VALMARIO LOPES LESSA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "830594574",
+    "nome_marca": "LAUREATE EDUCATION INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "LAUREATE EDUCATION, INC.",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926175955",
+    "nome_marca": "INC EDUCAÇÃO PROFISSIONAL",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "INSTITUTO DE NEUROLOGIA DE CURITIBA S/C LTDA.",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "828923663",
+    "nome_marca": "BUSINESS TO WORLD INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "B2W - COMPANHIA DIGITAL",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "904094715",
+    "nome_marca": "TRÍADE INV MIN. É DE DEUS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "IGREJA DE NOVA VIDA - MINISTÉRIO É DE DEUS",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "831182539",
+    "nome_marca": "INA FITNESS",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "INAIARA MELLO ROUX LEITE",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "926735764",
+    "nome_marca": "VIRTUAL INC",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "B P S SANTOS PRODUCOES - ME",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-9",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "907669751",
+    "nome_marca": "INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "Instituto De Neorologia De Curitiba S/C Ltda.",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "908328818",
+    "nome_marca": "ZAMBON.INC",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ZAMBON.INC ASSESSORIA DE IMAGEM LTDA EPP",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "927930315",
+    "nome_marca": "Viscari Inc.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "VISCARI INC PRODUTOS E SERVICOS DIGITAIS LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "927995034",
+    "nome_marca": "O2 INC.",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "O2 INC GESTAO EMPRESARIAL LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "909809224",
+    "nome_marca": "ITQ 4 PROCURA APRESENTAR-TE A DEUS APROVADO",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "IGREJA DO EVANGELHO QUADRANGULAR",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "910165530",
+    "nome_marca": "Inc. Produções",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "VICTOR JOSE SILVA DOS SANTOS 01646004698",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "928252280",
+    "nome_marca": "INV INVESTIMENTOS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "MERCADO IN FOCO LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "910609233",
+    "nome_marca": "BOUNCE INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "Bounce IP Pty Ltd.",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "910755841",
+    "nome_marca": "COMITÉ INC.",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "COMITÊ NEGÓCIOS MUSICAIS LTDA. - EPP",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "911907203",
+    "nome_marca": "BANDA CAPITÃO GANCHO",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "J C Furquim Movimento Artistico",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  },
+  {
+    "numero_processo": "929178424",
+    "nome_marca": "LEGACY INC.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "GO DO IT ESPORTS AGENCIA E PRODUCOES LTDA",
+    "classe": 41,
+    "similaridade_pct": 49,
+    "fonte": "classe-41-pagina-10",
+    "bucket": "B"
+  }
+]

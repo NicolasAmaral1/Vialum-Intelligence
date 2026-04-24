@@ -1,3 +1,52 @@
 {
-  "language": "portuguese"
+  "language": "portuguese",
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Agent",
+      "Bash(python3:*)",
+      "Bash(pip3:*)",
+      "Bash(ssh:*)",
+      "Bash(scp:*)",
+      "Bash(curl:*)",
+      "Bash(open:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(cat:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(tail:*)",
+      "Bash(head:*)",
+      "Bash(kill:*)",
+      "Bash(pgrep:*)",
+      "Bash(pkill:*)",
+      "Bash(sleep:*)",
+      "Bash(tor:*)",
+      "Bash(cd:*)",
+      "Bash(echo:*)",
+      "Bash(which:*)",
+      "Bash(brew:*)",
+      "Bash(nohup:*)",
+      "WebSearch",
+      "WebFetch"
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(rm -r:*)",
+      "Bash(git push:*)",
+      "Bash(git push --force:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git checkout .:*)",
+      "Bash(git clean:*)",
+      "Bash(drop table:*)",
+      "Bash(DROP TABLE:*)",
+      "Bash(truncate:*)",
+      "Bash(> /dev/null:*)"
+    ]
+  }
 }

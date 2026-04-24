@@ -1,0 +1,118 @@
+{
+  "marca_analisada": "Método Personas",
+  "radical_principal": ["metod-", "persona-"],
+  "data_analise": "2026-04-10T06:30:00Z",
+  "clusters": [
+    {
+      "radical": "metod-",
+      "classe": 41,
+      "marcas_vivas_em_vigor": "30+ marcas MÉTODO em vigor (Método Graça Camargo, Método Mentica, Método Corretor que Fatura, Método Escola Preparada, Método Copy Comportamental, Método Staging com Alma, Método Gestalt, Método Sentido Holos, etc.)",
+      "titulares_distintos_vivos": 25,
+      "marcas_indeferidas": "150+ marcas MÉTODO indeferidas na cl.41 (MÉTODO INDEPENDÊNCIA DIGITAL, MÉTODO NOVO DIGITAL, MÉTODO ILUMINADO mantido recurso, BASEADO NO METODO PILATES mantido recurso, MÉTODO PERSONALIZE, etc.)",
+      "desgaste": "PARCIAL",
+      "justificativa": "25+ titulares distintos coexistem com MÉTODO em vigor na classe 41, o que comprova que o INPI aceita o termo como qualificador genérico quando o complemento é distintivo. Porém, 150+ indeferimentos demonstram que o INPI barra quando: (a) o complemento é descritivo (art. 124 VI), ou (b) o complemento colide com marca existente (art. 124 XIX). Alto volume de indeferimentos + alto volume de registros = o filtro é no COMPLEMENTO, não no MÉTODO.",
+      "impacto_metodo_personas": "O elemento MÉTODO não será obstáculo por si só — o INPI o trata como genérico. O risco recai sobre PERSONAS: se existir marca PERSONA ou PERSONAS registrada na classe 41, MÉTODO PERSONAS pode ser barrado por art. 124 XIX."
+    },
+    {
+      "radical": "metod-",
+      "classe": 35,
+      "titulares_distintos_vivos": 25,
+      "marcas_indeferidas": "80+ indeferidas",
+      "desgaste": "PARCIAL",
+      "justificativa": "Padrão idêntico à classe 41: MÉTODO é genérico, INPI filtra pelo complemento. MÉTODO PERSONALITY (900367202) indeferido mantido em recurso por colidência com PERSONALITÉ — precedente diretamente aplicável.",
+      "impacto_metodo_personas": "PERSONA (915852039) registrada na cl.35 em vigor bloqueou 'Personas' (923173943). MÉTODO PERSONAS enfrentará o mesmo bloqueio na cl.35."
+    },
+    {
+      "radical": "metod-",
+      "classe": 42,
+      "titulares_distintos_vivos": 15,
+      "marcas_indeferidas": "12 indeferidas",
+      "desgaste": "PARCIAL",
+      "justificativa": "15+ titulares com MÉTODO em vigor na classe 42 (MÉTODO ATIVAMENTE, MAPEE MÉTODO, MÉTODO, etc.). 12 indeferidas. Densidade menor que cl.41.",
+      "impacto_metodo_personas": "'Personas' (923174044) está registrada na cl.42 em vigor. MÉTODO PERSONAS terá que conviver com 'Personas' nesta classe — risco de colidência possível."
+    },
+    {
+      "radical": "metod-",
+      "classe": 9,
+      "titulares_distintos_vivos": 0,
+      "marcas_indeferidas": 1,
+      "desgaste": "INCONCLUSIVO",
+      "justificativa": "Nenhuma marca MÉTODO em vigor na classe 9. Apenas marcas aguardando exame. 1 indeferida (MÉTODO BARRE FIT). Base insuficiente.",
+      "impacto_metodo_personas": "Campo livre. Nenhuma marca PERSONAS ou PERSONA na classe 9."
+    },
+    {
+      "radical": "metod-",
+      "classe": 38,
+      "titulares_distintos_vivos": 10,
+      "marcas_indeferidas": 4,
+      "desgaste": "PARCIAL",
+      "justificativa": "10+ titulares com MÉTODO na cl.38 em vigor. 4 indeferidas. Densidade moderada.",
+      "impacto_metodo_personas": "Nenhuma marca PERSONAS ou PERSONA na classe 38. Campo livre para o elemento distintivo."
+    },
+    {
+      "radical": "persona-",
+      "classe": 42,
+      "marcas_vivas_em_vigor": ["Personas (923174044) — 1859 SERVIÇOS FINANCEIROS LTDA"],
+      "titulares_distintos_vivos": 1,
+      "marcas_indeferidas": [],
+      "desgaste": "INCONCLUSIVO",
+      "justificativa": "Apenas 1 titular com 'Personas' em vigor na classe 42. Base insuficiente para determinar desgaste. Marca registrada e ativa — oponente potencial.",
+      "impacto_metodo_personas": "Marca 'Personas' em vigor na cl.42 é o principal obstáculo. MÉTODO PERSONAS contém 'Personas' integralmente. Risco de colidência por art. 124 XIX."
+    },
+    {
+      "radical": "persona-",
+      "classe": 35,
+      "marcas_vivas_em_vigor": ["PERSONA (915852039) — titular não identificado"],
+      "titulares_distintos_vivos": 1,
+      "marcas_indeferidas": ["Personas (923173943) — indeferida por colidência com PERSONA"],
+      "marcas_extintas": ["CLUSTER PERSONAS — extinta", "PERSONAS NOTADEZ — arquivada", "INSTITUTHO DY CRESCERE PERSONAS — arquivada"],
+      "desgaste": "DESFAVORÁVEL",
+      "justificativa": "PERSONA registrada em vigor bloqueou 'Personas'. 3 marcas PERSONAS mortas/extintas. O INPI protege o radical persona- nesta classe — não há desgaste. O titular de PERSONA tem posição exclusiva.",
+      "impacto_metodo_personas": "CRÍTICO. PERSONA (915852039) em vigor na cl.35 é o bloqueador mais provável de MÉTODO PERSONAS. Precedente direto: 'Personas' já foi indeferida por este motivo."
+    },
+    {
+      "radical": "persona-",
+      "classe": 41,
+      "marcas_vivas_em_vigor": [],
+      "titulares_distintos_vivos": 0,
+      "marcas_indeferidas": ["MÉTODO PERSONALIZE (917697936) — indeferida por PERSONALIZA CURSOS e PERSONALIZE COMUNICAÇÃO"],
+      "desgaste": "DESFAVORÁVEL",
+      "justificativa": "Nenhuma marca PERSONAS/PERSONA em vigor na classe 41. Porém PERSONALIZA CURSOS (916516636) está em vigor e bloqueou MÉTODO PERSONALIZE. O INPI trata derivados de persona- como colidentes entre si nesta classe.",
+      "impacto_metodo_personas": "ALTO RISCO. PERSONALIZA CURSOS (916516636) em vigor na cl.41 pode bloquear MÉTODO PERSONAS por art. 124 XIX, seguindo o mesmo padrão de MÉTODO PERSONALIZE."
+    },
+    {
+      "radical": "persona-",
+      "classe": 9,
+      "titulares_distintos_vivos": 0,
+      "marcas_indeferidas": [],
+      "desgaste": "INCONCLUSIVO",
+      "justificativa": "Nenhuma marca PERSONAS/PERSONA na classe 9. Campo livre.",
+      "impacto_metodo_personas": "Sem obstáculo."
+    },
+    {
+      "radical": "persona-",
+      "classe": 38,
+      "titulares_distintos_vivos": 0,
+      "marcas_indeferidas": [],
+      "desgaste": "INCONCLUSIVO",
+      "justificativa": "Nenhuma marca PERSONAS/PERSONA na classe 38. Campo livre.",
+      "impacto_metodo_personas": "Sem obstáculo."
+    }
+  ],
+  "resumo_desgaste": {
+    "MÉTODO": {
+      "9": "INCONCLUSIVO — sem presença em vigor",
+      "35": "PARCIAL — 25+ titulares em vigor, 80+ indeferidas",
+      "38": "PARCIAL — 10+ titulares em vigor, 4 indeferidas",
+      "41": "PARCIAL — 25+ titulares em vigor, 150+ indeferidas",
+      "42": "PARCIAL — 15+ titulares em vigor, 12 indeferidas"
+    },
+    "PERSONAS": {
+      "9": "INCONCLUSIVO — campo livre",
+      "35": "DESFAVORÁVEL — PERSONA em vigor bloqueou Personas",
+      "38": "INCONCLUSIVO — campo livre",
+      "41": "DESFAVORÁVEL — PERSONALIZA CURSOS bloqueou MÉTODO PERSONALIZE",
+      "42": "INCONCLUSIVO — Personas em vigor, 1 titular, sem desgaste"
+    }
+  }
+}

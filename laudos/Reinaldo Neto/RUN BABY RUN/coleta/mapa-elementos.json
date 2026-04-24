@@ -1,0 +1,124 @@
+{
+  "marca": "RUN BABY RUN",
+  "atividade": "Eventos e comunidade wellness, vestuário esportivo, assessoria esportiva, suplementação",
+  "data_analise": "2026-04-09T21:19:08.738464+00:00",
+  "metodologia": "Análise de densidade + cruzamento com contexto da atividade. Só decisões de mérito contam (em vigor + indeferidas). Aguardando exame não conta.",
+  "elementos": {
+    "RUN": {
+      "tipo": "GENÉRICO",
+      "motivo": "Descritivo da atividade (corrida). 167 marcas em vigor na cl.41 com RUN. INPI permite coexistência livre.",
+      "por_classe": {
+        "41": {
+          "em_vigor": 167,
+          "indeferidas_total": 74,
+          "indeferidas_recurso_mantido": 36,
+          "total_julgadas": 241,
+          "taxa_indeferimento": 0.31,
+          "densidade": "ALTA",
+          "conclusao": "GENÉRICO — alta coexistência, INPI permite livremente"
+        },
+        "35": {
+          "em_vigor": 14,
+          "indeferidas_total": 2,
+          "indeferidas_recurso_mantido": 2,
+          "total_julgadas": 16,
+          "taxa_indeferimento": 0.12,
+          "densidade": "MÉDIA",
+          "conclusao": "INCONCLUSIVO — volume baixo"
+        },
+        "25": {
+          "em_vigor": 2,
+          "total_julgadas": 2,
+          "densidade": "BAIXA",
+          "conclusao": "Baixa presença"
+        },
+        "5": {
+          "em_vigor": 0,
+          "indeferidas_total": 1,
+          "indeferidas_recurso_mantido": 1,
+          "total_julgadas": 1,
+          "densidade": "BAIXA",
+          "conclusao": "Baixa presença"
+        },
+        "28": {
+          "em_vigor": 3,
+          "total_julgadas": 4,
+          "densidade": "BAIXA",
+          "conclusao": "Baixa presença"
+        }
+      }
+    },
+    "BABY": {
+      "tipo": "DISTINTIVO NO CONTEXTO DA ATIVIDADE",
+      "motivo": "BABY tem densidade ALTA geral (produtos infantis), mas é PRATICAMENTE INEXISTENTE no segmento de corrida/esporte adulto. Apenas 3 marcas com BABY+esporte em vigor na cl.41, todas de esporte infantil. 0 indeferidas de corrida com BABY. No contexto de RUN BABY RUN (corrida adulta), BABY é o elemento que diferencia a marca de todas as outras X RUN.",
+      "analise_cruzada": {
+        "baby_vigor_cl41_total": 111,
+        "baby_vigor_cl41_contexto_esportivo": 3,
+        "baby_vigor_cl41_contexto_infantil": 17,
+        "baby_vigor_cl41_outros": 91,
+        "baby_indeferidas_cl41_contexto_esportivo": 0,
+        "nota": "As 3 marcas esportivas com BABY são de esporte INFANTIL (Baby Sports, Baby Gym), não corrida adulta."
+      },
+      "por_classe": {
+        "41": {
+          "em_vigor_total": 112,
+          "em_vigor_contexto_corrida": 0,
+          "indeferidas_total": 56,
+          "indeferidas_recurso_mantido": 33,
+          "total_julgadas": 168,
+          "densidade_geral": "ALTA",
+          "densidade_no_contexto_corrida": "ZERO",
+          "conclusao": "DISTINTIVO no contexto corrida — nenhuma marca de corrida adulta usa BABY"
+        },
+        "35": {
+          "em_vigor": 201,
+          "indeferidas_total": 145,
+          "indeferidas_recurso_mantido": 57,
+          "total_julgadas": 346,
+          "taxa_indeferimento": 0.42,
+          "densidade": "ALTA",
+          "conclusao": "INCONCLUSIVO — alto volume mas taxa de indeferimento de 42%. BABY RUN está em vigor aqui."
+        },
+        "25": {
+          "em_vigor": 22,
+          "indeferidas_total": 4,
+          "indeferidas_recurso_mantido": 4,
+          "total_julgadas": 26,
+          "densidade": "ALTA",
+          "conclusao": "Genérico geral, mas distintivo se em contexto esportivo"
+        },
+        "28": {
+          "em_vigor": 249,
+          "indeferidas_total": 77,
+          "indeferidas_recurso_mantido": 34,
+          "total_julgadas": 326,
+          "densidade": "ALTA",
+          "conclusao": "Genérico (brinquedos). Distintivo se em contexto esportivo."
+        },
+        "5": {
+          "em_vigor": 38,
+          "indeferidas_total": 5,
+          "indeferidas_recurso_mantido": 5,
+          "total_julgadas": 43,
+          "densidade": "ALTA",
+          "conclusao": "Genérico (produtos infantis). Distintivo se em suplementação esportiva."
+        }
+      }
+    }
+  },
+  "regras_para_peneira": {
+    "elementos_distintivos_no_contexto": [
+      "BABY"
+    ],
+    "elementos_genericos": [
+      "RUN"
+    ],
+    "regras": [
+      "Marca com BABY em classe aprovada/adjacente = nível 2 MÍNIMO (BABY é distintivo no contexto corrida)",
+      "Marca com apenas RUN em classe 41 = nível 3 para vivas, nível 2 para precedentes indeferidos",
+      "Marca com RUN + BABY = nível 1 (compartilha ambos elementos)",
+      "Peso: indeferimento mantido em recurso > indeferido simples > em vigor",
+      "Marcas em análise/aguardando NÃO contam como precedente"
+    ]
+  }
+}

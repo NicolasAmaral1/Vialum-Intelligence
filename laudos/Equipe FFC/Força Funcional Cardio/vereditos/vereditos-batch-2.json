@@ -1,0 +1,327 @@
+[
+  {
+    "numero_processo": "910096066",
+    "nome_marca": "NÚCLEO DA FORÇA TREINAMENTO FÍSICO FUNCIONAL",
+    "veredito": "COLIDÊNCIA PROVÁVEL",
+    "risco": "alto",
+    "nota": "FORÇA + FUNCIONAL simultâneos, academia, serviços 100% sobrepostos cl.41"
+  },
+  {
+    "numero_processo": "928046370",
+    "nome_marca": "ARMAZÉM DA FORÇA",
+    "veredito": "COLIDÊNCIA PROVÁVEL",
+    "risco": "alto",
+    "nota": "FORÇA em contexto esportivo, serviços sobrepostos cl.41"
+  },
+  {
+    "numero_processo": "933076932",
+    "nome_marca": "CARDIO BEACH",
+    "veredito": "COLIDÊNCIA PROVÁVEL",
+    "risco": "alto",
+    "nota": "CARDIO inicial cl.41, serviços 100% sobrepostos fitness/cardio"
+  },
+  {
+    "numero_processo": "935911499",
+    "nome_marca": "Método MFP Mobilidade.Força.Performance",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "937359106",
+    "nome_marca": "ARENA FUNCIONAL TRAINER",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "940758288",
+    "nome_marca": "METABOLIC FIT FUNCIONAL",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "830834591",
+    "nome_marca": "CARDIO-TRAMP",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "925587842",
+    "nome_marca": "INSTITUTO CARDIO ESPORTE HEALTH IN MOTION",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "936595604",
+    "nome_marca": "SPRO FITNESS Pilates e Treino Funcional",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "923312986",
+    "nome_marca": "FS FORZA SUPLEMENTOS",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "936620501",
+    "nome_marca": "ACADEMIA CIRCUITO FUNCIONAL",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "928755509",
+    "nome_marca": "FUNCIONAL LINK",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "941051102",
+    "nome_marca": "Funcional Fut",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "921448805",
+    "nome_marca": "FORÇA 1970",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "937723207",
+    "nome_marca": "Vida e Força",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "941094464",
+    "nome_marca": "Forja Ecom",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "912035099",
+    "nome_marca": "FORÇA CÓSMICA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "914206737",
+    "nome_marca": "Projeto Força BR Jogo de Tabuleiro",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "937373109",
+    "nome_marca": "FORÇA E HONRA 10 EQUIPAMENTOS TÁTICOS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "940831163",
+    "nome_marca": "Método F.H.I.Funcional Hormonal Integrativo .",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "941924858",
+    "nome_marca": "FORÇA DAS FÁBRICAS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "937527645",
+    "nome_marca": "Corre Lindas Nossa Força é Coletiva",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942510186",
+    "nome_marca": "A FORÇA DO BEM",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "940373084",
+    "nome_marca": "Tradução",
+    "veredito": "INDETERMINADO",
+    "risco": "monitorar",
+    "nota": "Sigiloso, spec idêntica"
+  },
+  {
+    "numero_processo": "942815190",
+    "nome_marca": "Tradução",
+    "veredito": "INDETERMINADO",
+    "risco": "monitorar",
+    "nota": "Sigiloso, fase de oposição"
+  },
+  {
+    "numero_processo": "942680855",
+    "nome_marca": "Tradução",
+    "veredito": "INDETERMINADO",
+    "risco": "monitorar",
+    "nota": "Sigiloso"
+  },
+  {
+    "numero_processo": "939612720",
+    "nome_marca": "Tradução",
+    "veredito": "INDETERMINADO",
+    "risco": "monitorar",
+    "nota": "Sigiloso, spec idêntica"
+  },
+  {
+    "numero_processo": "934493642",
+    "nome_marca": "Dra. And Yara Medicina Funcional Integrativa",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936872608",
+    "nome_marca": "BOA FORMA BRAGANÇA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935311688",
+    "nome_marca": "PATRULHA AÉREA CIVIL - FORÇA AUXILIAR DE RESGATE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933707428",
+    "nome_marca": "FORMA & ESTILO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938793152",
+    "nome_marca": "Mãe em forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "920581455",
+    "nome_marca": "FORMA SAUDÁVEL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932449530",
+    "nome_marca": "MULHERES FORÇA DA R'EXISTÊNCIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937683108",
+    "nome_marca": "Biomecânica Funcional Integrada",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "929617355",
+    "nome_marca": "SIMETRIA FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932808212",
+    "nome_marca": "LIBRE ODONTOLOGIA ESTÉTICA E FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942437713",
+    "nome_marca": "CBNFE - COLÉGIO BRASILEIRO DE NUTROLOGIA FUNCIONAL E ESTÉTICA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "926985710",
+    "nome_marca": "SFI SAÚDE FUNCIONAL INTEGRATIVA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938835491",
+    "nome_marca": "Escola Forja",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939916894",
+    "nome_marca": "TAKADÚ O PODER DO ATACADO, A FORÇA DO VAREJO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932198112",
+    "nome_marca": "Mentoria Força de Vendas",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936043571",
+    "nome_marca": "Forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936489669",
+    "nome_marca": "Brigadista Aprendiz Determinação Força Honra",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "907070639",
+    "nome_marca": "TRILHA DA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933529929",
+    "nome_marca": "PELVIE FISIOTERAPIA PÉLVICA FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "931759960",
+    "nome_marca": "Studio Feminino Forma Fitness",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942638158",
+    "nome_marca": "FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940552450",
+    "nome_marca": "TUA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942854721",
+    "nome_marca": "MA DI TAU - A força que veste com elegância",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940330318",
+    "nome_marca": "FORJA DE LÍDERES",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "916924050",
+    "nome_marca": "ÚNICA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934010765",
+    "nome_marca": "Método Forma Plena",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  }
+]

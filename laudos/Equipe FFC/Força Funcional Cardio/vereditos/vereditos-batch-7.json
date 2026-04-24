@@ -1,0 +1,324 @@
+[
+  {
+    "numero_processo": "819891258",
+    "nome_marca": "CARDIO",
+    "veredito": "COLIDÊNCIA PROVÁVEL",
+    "risco": "alto",
+    "nota": "CARDIO isolado registrado cl.28 por iFIT Inc. — marca integralmente contida em FFC"
+  },
+  {
+    "numero_processo": "940907062",
+    "nome_marca": "CARDIO X",
+    "veredito": "COLIDÊNCIA PROVÁVEL",
+    "risco": "alto",
+    "nota": "CARDIO + X cl.41, sobreposição total de specs (academia, personal, ed.física)"
+  },
+  {
+    "numero_processo": "501643481",
+    "nome_marca": "CARDIO BUNNY",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado",
+    "nota": "CARDIO inicial cl.25, marca internacional (Madri), titular polonês"
+  },
+  {
+    "numero_processo": "940879786",
+    "nome_marca": "SIXXIS CARDIO",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado",
+    "nota": "CARDIO segundo elemento cl.28"
+  },
+  {
+    "numero_processo": "920445900",
+    "nome_marca": "LF LEALDADE E FORÇA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "920701728",
+    "nome_marca": "FORÇA JOVEM",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "921051093",
+    "nome_marca": "FORÇA JOVEM",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942027710",
+    "nome_marca": "FORÇA LIVRE",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "938043633",
+    "nome_marca": "STUDIO FUNCIONAL SAÚDE A MIL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "923828842",
+    "nome_marca": "Em Forma de A Mar",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935395415",
+    "nome_marca": "medsport CLÍNICA DE MEDICINA ESPORTIVA E FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941231763",
+    "nome_marca": "na Força do Amor by Laila Cavalcanti",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938043560",
+    "nome_marca": "STUDIO FUNCIONAL SAÚDE A MIL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938168371",
+    "nome_marca": "Aceleradora Forja",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934201030",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "927626233",
+    "nome_marca": "LIRA ESTÉTICA FUNCIONAL & HOME SPA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941448088",
+    "nome_marca": "MOVVA VISTA SUA FORÇA MODA FITNESS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "929256107",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "911670360",
+    "nome_marca": "EU ACREDITO NA FORÇA DO BEM",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "930126939",
+    "nome_marca": "Batú Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937965812",
+    "nome_marca": "Crescer FUNcional Espaço Multidisciplinar",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "912322217",
+    "nome_marca": "#FORÇACHAPE - FORÇA CHAPE - ASSOCIAÇÃO CHAPECOENSE DE FUTEBOL - ACF 1973 - CHAPECÓ - SC",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "929502558",
+    "nome_marca": "FORMA IDEAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "931660793",
+    "nome_marca": "BOA FORMA ACADEMIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936958642",
+    "nome_marca": "FORJA DOS FORTES",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942397886",
+    "nome_marca": "Enta em Forma A MELHOR FASE COMEÇA NO ENTA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937698520",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "927607026",
+    "nome_marca": "STUDIO FUNCIONAL EXTREME J.A",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940573440",
+    "nome_marca": "Uma nova força",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941636640",
+    "nome_marca": "OSMIXSHOP UMA NOVA FORMA DE COMPRAR",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "923244417",
+    "nome_marca": "FUNCIONAL STUDIO VIP",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939731339",
+    "nome_marca": "PRIMA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "914905023",
+    "nome_marca": "PIERRE CARDIN",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941045358",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933861656",
+    "nome_marca": "EXPERIMENTE UMA NOVA FORMA DE APRENDER",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "900156554",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941835979",
+    "nome_marca": "EKOSFIT FORÇA PARA O CORPO ALEGRIA PARA A ALMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "911590285",
+    "nome_marca": "bpm4 Centro de Treinamento Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "925375896",
+    "nome_marca": "Ideia-Força Comunicação Estratégica",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942329970",
+    "nome_marca": "CT SENA TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934008078",
+    "nome_marca": "USE FORÇA DO SOL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935852018",
+    "nome_marca": "SO FORMA EVENTOS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942854209",
+    "nome_marca": "MULHER EM FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939345552",
+    "nome_marca": "MÉTODO FORÇA ETERNA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "928732517",
+    "nome_marca": "MED FORMA ESPECIALISTAS EM CINTAS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941036030",
+    "nome_marca": "MULHERES POR INTEIRO CURA, FORÇA E INTEFRIDADE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941088944",
+    "nome_marca": "LRV ACADEMIA BOA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940581418",
+    "nome_marca": "Faz a Fina Sua forma Inteligente de Consumir Moda",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "902082264",
+    "nome_marca": "FORMA BÁSICA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942540107",
+    "nome_marca": "SP ARENA ÉSSIPÊ ESPORTES DE AREIA E TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937155616",
+    "nome_marca": "A FORÇA DO ESPORTE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937344540",
+    "nome_marca": "FOLK FISIOTERAPIA E PILATES FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932763480",
+    "nome_marca": "CLÍNICA RAFAEL RASO - PILATES - FUNCIONAL - FISIOTERAPIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  }
+]

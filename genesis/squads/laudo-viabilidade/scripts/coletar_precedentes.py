@@ -17,11 +17,11 @@ Grava:
   - Enriquece fonte-bruta.json com despachos e specs
 
 Uso:
-    python coletar_precedentes.py \\
-        --input "peneira/peneira-resultado.json" \\
-        --campo "precedentes_nivel_1,precedentes_nivel_2" \\
-        --pasta "laudos/Equipe Plenya/Plenya" \\
-        --workers 8
+    python coletar_precedentes.py \
+        --input "peneira/lista-precedentes.json" \
+        --campo "processos" \
+        --pasta "laudos/Equipe FFC/Força Funcional Cardio" \
+        --workers 40 --tor
 """
 
 import asyncio
@@ -36,7 +36,11 @@ from typing import List, Dict, Optional
 
 # Reutiliza a mecânica de busca do coletar_specs
 from coletar_specs import (
-    coletar_fichas_paralelo,
+    coletar_fichas_adaptivo,
+    coletar_fichas_legado,
+    TorManager,
+    TOR_SOCKS_PORT,
+    TOR_DATA_DIR,
     log,
     agora_iso,
 )
@@ -47,6 +51,8 @@ async def executar_coleta_precedentes(
     pasta: Path,
     headless: bool = True,
     num_workers: int = 8,
+    use_tor: bool = False,
+    cpu_limit: int = 70,
 ) -> Dict:
     """
     Busca fichas completas (com despachos) de marcas indeferidas/mortas.
@@ -60,10 +66,33 @@ async def executar_coleta_precedentes(
 
     log(f"{'=' * 60}")
     log(f"FASE 3B.1 — COLETA DE PRECEDENTES (fichas + despachos)")
-    log(f"Protocolos: {len(processos)} | Workers: {num_workers}")
+    log(f"Protocolos: {len(processos)} | Workers: {num_workers} | Tor: {use_tor}")
     log(f"{'=' * 60}\n")
 
-    resultados = await coletar_fichas_paralelo(processos, num_workers, headless)
+    tor = None
+    if use_tor:
+        tor = TorManager(base_port=TOR_SOCKS_PORT, num_ports=min(num_workers, 20), data_dir=TOR_DATA_DIR)
+        if not tor.start():
+            log("Tor falhou. Caindo pro modo legado (sem Tor, max 6 workers).")
+            use_tor = False
+            num_workers = min(num_workers, 6)
+
+    try:
+        if use_tor and tor:
+            resultados = await coletar_fichas_adaptivo(
+                protocolos=processos,
+                max_workers=num_workers,
+                tor=tor,
+                headless=headless,
+                cpu_limit=cpu_limit,
+            )
+        else:
+            resultados = await coletar_fichas_legado(
+                processos, min(num_workers, 6), headless
+            )
+    finally:
+        if tor:
+            tor.stop()
 
     # Salvar fichas
     fichas_lista = []
@@ -122,7 +151,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="Fase 3B.1 — Coleta de fichas de precedentes (indeferidas + mortas)",
     )
-    parser.add_argument("--input", help="Caminho do peneira-resultado.json")
+    parser.add_argument("--input", help="Caminho do peneira-resultado.json ou lista-precedentes.json")
     parser.add_argument(
         "--campo",
         default="precedentes_nivel_1,precedentes_nivel_2",
@@ -131,6 +160,7 @@ def main():
     parser.add_argument("--processos", help="Lista direta de processos")
     parser.add_argument("--pasta", required=True)
     parser.add_argument("--workers", type=int, default=8)
+    parser.add_argument("--tor", action="store_true", help="Usar Tor para IPs rotativos")
     parser.add_argument("--visible", action="store_true")
 
     args = parser.parse_args()
@@ -159,6 +189,7 @@ def main():
             pasta=Path(args.pasta),
             headless=not args.visible,
             num_workers=args.workers,
+            use_tor=args.tor,
         )
     )
 

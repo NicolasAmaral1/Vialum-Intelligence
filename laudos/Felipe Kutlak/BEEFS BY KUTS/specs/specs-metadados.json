@@ -1,0 +1,12 @@
+{
+  "fase": "3A",
+  "modo": "legado",
+  "total_solicitados": 6,
+  "total_coletados": 6,
+  "total_falhas": 0,
+  "falhas": [],
+  "workers": 6,
+  "cpu_limit": 70,
+  "duracao_segundos": 48.5,
+  "inicio": "2026-04-15T16:27:14.808370+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "guia_adjacencia": {
+    "marca": "INQ CAPITAL",
+    "atividade": "Assessoria de investimentos, consórcios, alavancagem patrimonial, administradora de bens",
+    "aprovadas": [36, 35, 42, 9, 41],
+    "adjacentes": [38, 45, 16],
+    "sem_afinidade": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 37, 39, 40, 43, 44],
+    "justificativa_adjacentes": {
+      "38": "Telecomunicações — canais digitais de comunicação financeira, plataformas de streaming para educação financeira",
+      "45": "Serviços jurídicos e compliance — consultoria regulatória, serviços de conformidade para o mercado financeiro",
+      "16": "Publicações impressas — relatórios financeiros, guias de investimento, material educativo"
+    }
+  }
+}

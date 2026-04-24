@@ -1,0 +1,112 @@
+[
+  {
+    "numero_processo": "938522302",
+    "nome_marca": "CHEMBLOCK",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "KALIPSO EQUIPAMENTOS INDIVIDUAIS DE PROTEÇÃO LTDA",
+    "classe": 35,
+    "similaridade_pct": 80,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827196+00:00"
+  },
+  {
+    "numero_processo": "938522108",
+    "nome_marca": "CHEMBLOCK",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "KALIPSO EQUIPAMENTOS INDIVIDUAIS DE PROTEÇÃO LTDA",
+    "classe": 35,
+    "similaridade_pct": 80,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827198+00:00"
+  },
+  {
+    "numero_processo": "908335989",
+    "nome_marca": "MOTOCHECK-UP",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Associação Brasileira dos Fabricantes de Motocicletas, Ciclomotores, Motonetas, Bicicletas e Similares Abraciclo",
+    "classe": 35,
+    "similaridade_pct": 75,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827200+00:00"
+  },
+  {
+    "numero_processo": "939314002",
+    "nome_marca": "BloomBTech",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ASSOCIAÇÃO WYLINKA",
+    "classe": 35,
+    "similaridade_pct": 75,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827201+00:00"
+  },
+  {
+    "numero_processo": "930615778",
+    "nome_marca": "CHECKMOTOS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CHECK MOTOS LTDA - ME",
+    "classe": 35,
+    "similaridade_pct": 70,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827203+00:00"
+  },
+  {
+    "numero_processo": "937075892",
+    "nome_marca": "BloomCare",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "NAYARA NUNES DE ALCANTARA",
+    "classe": 35,
+    "similaridade_pct": 70,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827205+00:00"
+  },
+  {
+    "numero_processo": "824542282",
+    "nome_marca": "BIOCHECK UP POLICLÍNICA DO CANELA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "POLICLÍNICA DO CANELA S/C LTDA",
+    "classe": 44,
+    "similaridade_pct": 70,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827212+00:00"
+  },
+  {
+    "numero_processo": "936464992",
+    "nome_marca": "BIOCHECK Laboratorios",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "FRANCISCO CRISTIANO ALVERS",
+    "classe": 42,
+    "similaridade_pct": 70,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827217+00:00"
+  },
+  {
+    "numero_processo": "939843854",
+    "nome_marca": "BIOCHECK PRO",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "RICARDO MOITA DA SILVA",
+    "classe": 42,
+    "similaridade_pct": 70,
+    "fonte": "classe-42-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827218+00:00"
+  },
+  {
+    "numero_processo": "931873673",
+    "nome_marca": "BiomeCheck",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ANDRÉ RIBEIRO VIRTOS",
+    "classe": 44,
+    "similaridade_pct": 75,
+    "fonte": "classe-44-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-10T04:24:35.827219+00:00"
+  }
+]

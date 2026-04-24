@@ -1,0 +1,323 @@
+[
+  {
+    "numero_processo": "942931483",
+    "nome_marca": "BF NA FORJA",
+    "veredito": "COLIDÊNCIA PROVÁVEL",
+    "risco": "alto",
+    "nota": "FORJA~FORÇA fonética + spec idêntica cl.41 (personal, ed.física, treino alta intensidade)"
+  },
+  {
+    "numero_processo": "939341794",
+    "nome_marca": "Força Paralela Jiu-Jitsu",
+    "veredito": "COLIDÊNCIA PROVÁVEL",
+    "risco": "alto",
+    "nota": "FORÇA inicial + FORÇA+[modalidade] espelha FORÇA+FUNCIONAL, cl.41"
+  },
+  {
+    "numero_processo": "932299776",
+    "nome_marca": "Força Pura",
+    "veredito": "COLIDÊNCIA PROVÁVEL",
+    "risco": "alto",
+    "nota": "FORÇA+adjetivo, titular é CT Força Pura, cl.35 em vigor"
+  },
+  {
+    "numero_processo": "935335765",
+    "nome_marca": "Tradução (academia/personal)",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "940924129",
+    "nome_marca": "FORZA SPORT",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "927622017",
+    "nome_marca": "Forma Feminina",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "939935007",
+    "nome_marca": "FORÇA DE MULHER",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "941173470",
+    "nome_marca": "Family 8 Pilates e Funcional",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "918925029",
+    "nome_marca": "R-Cardio Equipamentos Fitness",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "930373413",
+    "nome_marca": "Liven Saúde Funcional e Integrativa",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "933121202",
+    "nome_marca": "Alpha Estúdio Funcional",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "942368975",
+    "nome_marca": "CF NEVES CENTRO DE FUNCIONAL MINOTAURO",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "939653095",
+    "nome_marca": "CARCARÁ VIDA FUNCIONAL",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "939569264",
+    "nome_marca": "Forja (academia)",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "940906945",
+    "nome_marca": "CARDIO X",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "920248616",
+    "nome_marca": "CP CARDIO + POWER TRAINING",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "941963985",
+    "nome_marca": "O Despertar da Força",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "939647168",
+    "nome_marca": "BIO PILATES E FUNCIONAL",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "917437632",
+    "nome_marca": "CROSS CARDIO CULTURE",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "940120950",
+    "nome_marca": "Studio i Vida Funcional",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "942288718",
+    "nome_marca": "Tradução (academia/personal)",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "940704013",
+    "nome_marca": "COMANDO.FIT PILATES E TREINAMENTO FUNCIONAL",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "932234178",
+    "nome_marca": "Boa Forma by Taís Lima",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "919940790",
+    "nome_marca": "UFJC Unidos Força Jovem do Ceará",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942899482",
+    "nome_marca": "Podcast Força e Fé com Regina Luz",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "918878594",
+    "nome_marca": "FORÇA NO FUE",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942818423",
+    "nome_marca": "FORÇA DE MÃE PODCAST",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "941090477",
+    "nome_marca": "Forja ecom",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "933771010",
+    "nome_marca": "PILATES EM FORMA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942655907",
+    "nome_marca": "ACELERA MAIS VAREJO BY FORÇA DAS FÁBRICAS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "939867982",
+    "nome_marca": "ABRAGIN - Academia Brasileira de Ginecologia Hormonal, Funcional e Estética",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "924711639",
+    "nome_marca": "C3 BRUNO LOPES FORÇA REGULARIDADE EQUILÍBRIO",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "911836802",
+    "nome_marca": "FORJA SUPLEMENTOS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "935308784",
+    "nome_marca": "FORMA E SAÚDE 20",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "930063180",
+    "nome_marca": "SOS Cardio - Dra. Andrezza Mendes",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "924572434",
+    "nome_marca": "CURA - Nutrição e Alimentação Funcional",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "901147451",
+    "nome_marca": "NOSSA FORMA SUPLEMENTAÇÃO ACESSÓRIOS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "920380786",
+    "nome_marca": "YTF YOGATERAPIA FUNCIONAL",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "939259079",
+    "nome_marca": "FORJA URBANA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "941093514",
+    "nome_marca": "Forja Ecom",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "913912220",
+    "nome_marca": "FORZA MOTORSPORT",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "929769791",
+    "nome_marca": "Clínica Minha Forma",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "913473685",
+    "nome_marca": "Tradução",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "940363178",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941636755",
+    "nome_marca": "OSMIXSHOP UMA NOVA FORMA DE COMPRAR",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939298996",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941697010",
+    "nome_marca": "PÉS EM FORMA PODOLOGIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940416620",
+    "nome_marca": "L&I corpo em forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "943000874",
+    "nome_marca": "FIT-MOVE-BODY Corpo em Forma e movimento",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "908104340",
+    "nome_marca": "CARDIF",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936167840",
+    "nome_marca": "CENTRO DE TREINAMENTO DO Cão Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "929252594",
+    "nome_marca": "CÍNTIA DE ANDRADE FISIOTERAPIA DERMATO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942922654",
+    "nome_marca": "Brave Form Coragem tem forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "numero_processo": "920248608",
+    "nome_marca": "CP CARDIO + POWER TRAINING",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado",
+    "nota": "CARDIO + POWER/TRAINING, marca em vigor, titular de treinamento"
+  },
+  {
+    "numero_processo": "930414748",
+    "nome_marca": "FERRO E FORÇA EQUIPAMENTOS FITNESS",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado",
+    "nota": "FORÇA + FITNESS, marca em vigor, alta sobreposição"
+  },
+  {
+    "numero_processo": "933420323",
+    "nome_marca": "Cardio & Saúde",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-moderado"
+  },
+  {
+    "numero_processo": "938649914",
+    "nome_marca": "A FORJA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-moderado"
+  },
+  {
+    "numero_processo": "941427609",
+    "nome_marca": "FORÇA LIVRE",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-moderado"
+  },
+  {
+    "numero_processo": "942638212",
+    "nome_marca": "FORMA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-moderado"
+  },
+  {
+    "numero_processo": "942462742",
+    "nome_marca": "CARDIO & SAÚDE",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo-moderado"
+  },
+  {
+    "numero_processo": "909788189",
+    "nome_marca": "TRILHA DA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935311521",
+    "nome_marca": "PATRULHA AÉREA CIVIL - FORÇA AUXILIAR DE RESGATE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932184987",
+    "nome_marca": "FORÇA DAS FÁBRICAS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942671767",
+    "nome_marca": "BE BIAH ETHOS VISTA SUA FORÇA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937182818",
+    "nome_marca": "NEUPAR NEW FORZA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941583317",
+    "nome_marca": "GRUPO FORJA DE PROPÓSITO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932234305",
+    "nome_marca": "Boa Forma by Taís Lima",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942656113",
+    "nome_marca": "ACELERA MAIS VAREJO BY FORÇA DAS FÁBRICAS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936319844",
+    "nome_marca": "PODER DA MÚSICA FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935869352",
+    "nome_marca": "BELLA FORMA ESTÉTICA AVANÇADA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "914290479",
+    "nome_marca": "FA FORÇA AÉREA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942510127",
+    "nome_marca": "A FORÇA DO BEM",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "930567110",
+    "nome_marca": "FORÇA GAROTA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934008248",
+    "nome_marca": "USE FORÇA DO SOL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933271050",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933419392",
+    "nome_marca": "FORMA COLAB FORMATURAS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "821919768",
+    "nome_marca": "BOA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941408574",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "903603667",
+    "nome_marca": "BOA FORMA MODELADORES",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "918621577",
+    "nome_marca": "PÉS EM FORMA PODOLOGIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938970755",
+    "nome_marca": "Força Empreendedora",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939792869",
+    "nome_marca": "ESPAÇO Y FORÇA, HONRA, DISCIPLINA.",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "931421705",
+    "nome_marca": "Harmonização Capilar Funcional - HCF",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940678160",
+    "nome_marca": "Forja Empresarial",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939792974",
+    "nome_marca": "ESPAÇO Y FORÇA, HONRA, DISCIPLINA.",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "820738751",
+    "nome_marca": "BOA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941083365",
+    "nome_marca": "CÃO FUNCIONAL ESPECIALIZADO EM CÃES DE TRABALHO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939506670",
+    "nome_marca": "NEUPAR NEW FORZA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938670565",
+    "nome_marca": "FORÇA MOTRIZ EMPREENDORISMO COM MARCELO KRAUSE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "914635662",
+    "nome_marca": "FORMA CONHECER",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939394774",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932233430",
+    "nome_marca": "Academia de Culinária Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "913912115",
+    "nome_marca": "FORZA MOTORSPORT",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935869301",
+    "nome_marca": "BELLA FORMA ESTÉTICA AVANÇADA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "922232172",
+    "nome_marca": "Forma.com Cintas e Modeladores",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "918527503",
+    "nome_marca": "FORÇA E HONRA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942935063",
+    "nome_marca": "HYV A força de quem persevera",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  }
+]

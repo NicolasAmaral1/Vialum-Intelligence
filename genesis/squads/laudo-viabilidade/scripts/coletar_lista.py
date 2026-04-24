@@ -283,6 +283,7 @@ async def buscar_classe(
     classe: Optional[int],
     headless: bool = True,
     worker_id: int = 1,
+    tor_port: Optional[int] = None,
 ) -> List[Dict]:
     """
     Abre um browser independente e executa busca por similaridade
@@ -305,128 +306,221 @@ async def buscar_classe(
     label = f"classe {classe}" if classe else "geral (todas)"
     marcas_acumuladas: List[Dict] = []
 
+    MAX_RETRIES = 3
+
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=headless)
-        context = await browser.new_context(
-            viewport={"width": 1280, "height": 900},
-            user_agent=(
-                f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                f"AppleWebKit/537.36 Chrome/{120 + worker_id}.0.0.0"
-            ),
-        )
-        page = await context.new_page()
-        page.set_default_timeout(90000)
+        launch_args = {"headless": headless}
+        if tor_port:
+            launch_args["proxy"] = {"server": f"socks5://127.0.0.1:{tor_port}"}
 
-        try:
-            # Login anônimo
-            log(f"  [W{worker_id}] Login para {label}...")
-            for tentativa in range(4):
-                try:
-                    await page.goto(
-                        "https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login",
-                        wait_until="networkidle",
-                    )
-                    break
-                except Exception as e:
-                    if tentativa < 3 and "net::" in str(e):
-                        wait = 30 * (tentativa + 1)
-                        log(f"  [W{worker_id}] Conexão recusada. Aguardando {wait}s...")
-                        await asyncio.sleep(wait)
-                    else:
-                        raise
-
-            await asyncio.sleep(DELAY_POS_LOGIN)
-            log(f"  [W{worker_id}] Login OK — buscando {label}")
-
-            # Ir pro formulário avançado
-            await page.goto(
-                "https://busca.inpi.gov.br/pePI/jsp/marcas/Pesquisa_classe_avancada.jsp",
-                wait_until="networkidle",
-            )
-            await asyncio.sleep(2)
-
-            # Preencher formulário
-            await page.locator('input[name="precisao"][value="sim"]').click()
-            await page.locator('input[name="marca"]').fill(nome_marca)
-            if classe:
-                await page.locator('input[name="classeInter"]').fill(str(classe))
-            await page.locator('select[name="registerPerPage"]').select_option("100")
-
-            # Submeter
+        for attempt in range(MAX_RETRIES):
+            browser = None
             try:
-                await page.evaluate("() => document.querySelector('input[name=\"botao\"]').click()")
-            except Exception:
-                pass  # navegação iniciou
+                browser = await p.chromium.launch(**launch_args)
+                context = await browser.new_context(
+                    viewport={"width": 1280, "height": 900},
+                    user_agent=(
+                        f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        f"AppleWebKit/537.36 Chrome/{120 + worker_id}.0.0.0"
+                    ),
+                )
+                page = await context.new_page()
+                page.set_default_timeout(90000)
 
-            # Aguardar resultado (polling)
-            page_text = ""
-            for _ in range(int(TIMEOUT_BUSCA_S / DELAY_POS_SUBMIT)):
-                await asyncio.sleep(DELAY_POS_SUBMIT)
+                # ─── LOGIN ───
+                log(f"  [W{worker_id}] Login para {label}..." + (f" (tentativa {attempt+1})" if attempt else ""))
+                for tentativa in range(4):
+                    try:
+                        await page.goto(
+                            "https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login",
+                            wait_until="networkidle",
+                        )
+                        break
+                    except Exception as e:
+                        if tentativa < 3 and "net::" in str(e):
+                            wait = 30 * (tentativa + 1)
+                            log(f"  [W{worker_id}] Conexão recusada. Aguardando {wait}s...")
+                            await asyncio.sleep(wait)
+                        else:
+                            raise
+
+                await asyncio.sleep(DELAY_POS_LOGIN)
+                log(f"  [W{worker_id}] Login OK — buscando {label}")
+
+                # ─── FORMULÁRIO ───
+                await page.goto(
+                    "https://busca.inpi.gov.br/pePI/jsp/marcas/Pesquisa_classe_avancada.jsp",
+                    wait_until="networkidle",
+                )
+                await asyncio.sleep(2)
+
+                # precisao=sim = FUZZY (nao = Booleana)
+                await page.locator('input[name="precisao"][value="sim"]').click()
+                # Remover acentos — INPI fuzzy não encontra marcas se buscar com acento
+                import unicodedata
+                nome_busca = ''.join(
+                    c for c in unicodedata.normalize('NFKD', nome_marca)
+                    if not unicodedata.combining(c)
+                )
+                await page.locator('input[name="marca"]').fill(nome_busca)
+                if classe:
+                    await page.locator('input[name="classeInter"]').fill(str(classe))
+                await page.locator('select[name="registerPerPage"]').select_option("100")
+
+                # ─── SUBMIT + POLLING ROBUSTO ───
                 try:
-                    page_text = await page.evaluate("() => document.body.innerText")
-                    if any(kw in page_text.lower() for kw in ["processos", "nenhum", "resultado"]):
-                        break
+                    await page.locator('input[name="botao"]').click()
                 except Exception:
-                    continue
+                    pass
 
-            # Sem resultados?
-            if "nenhum" in page_text.lower() or "0 processos" in page_text.lower():
-                log(f"  [W{worker_id}] {label}: 0 resultados — campo livre")
+                page_text = ""
+                got_result = False
+                for poll in range(20):  # até 100s (20 * 5s)
+                    await asyncio.sleep(5)
+                    try:
+                        page_text = await page.evaluate("() => document.body.innerText")
+                    except Exception:
+                        continue  # página ainda navegando
+
+                    lower = page_text.lower()
+
+                    # Resultado encontrado
+                    if "foram encontrados" in lower or ("processos" in lower and "página" in lower):
+                        got_result = True
+                        break
+
+                    # Confirmação de vazio
+                    if "nenhum" in lower and "resultado" in lower:
+                        got_result = True
+                        break
+
+                    # INPI retornou erro HTTP (502/504/etc)
+                    if "gateway" in lower or "502" in lower or "504" in lower or "bad gateway" in lower:
+                        raise Exception("INPI_HTTP_ERROR")
+
+                    # Sessão expirada / deslogou
+                    if "cadastre-se" in lower or ("login" in lower and "senha" in lower):
+                        raise Exception("SESSION_EXPIRED")
+
+                    # Erro do INPI
+                    if "erro" in lower and ("sistema" in lower or "tente novamente" in lower):
+                        raise Exception("INPI_ERROR")
+
+                if not got_result:
+                    raise Exception("TIMEOUT")
+
+                # Sem resultados?
+                lower = page_text.lower()
+                if ("nenhum" in lower and "resultado" in lower) or "0 processos" in lower:
+                    log(f"  [W{worker_id}] {label}: 0 resultados — campo livre")
+                    await browser.close()
+                    return []
+
+                # Se chegou aqui, temos resultados — extrair ANTES de sair do retry
+
+                # Extrair total e páginas
+                total = 0
+                total_paginas = 1
+                m_total = re.search(r"(\d+)\s*processos?", page_text)
+                if m_total:
+                    total = int(m_total.group(1))
+                m_pag = re.search(r"[Pp]ágina\s+\d+\s+de\s+(\d+)", page_text)
+                if m_pag:
+                    total_paginas = int(m_pag.group(1))
+
+                log(f"  [W{worker_id}] {label}: {total} processos em {total_paginas} página(s)")
+
+                # Processar página 1
+                fonte = f"classe-{classe}-pagina-1" if classe else "geral-pagina-1"
+                marcas_pag, menor_pct = extrair_marcas_pagina(page_text, classe, fonte)
+                marcas_acumuladas.extend(marcas_pag)
+                log(f"  [W{worker_id}]   Página 1: {len(marcas_pag)} marcas (menor %: {menor_pct})")
+
+                # Checar critério de parada
+                if menor_pct < SIMILARIDADE_MIN:
+                    log(f"  [W{worker_id}]   Parou: menor % ({menor_pct}) < {SIMILARIDADE_MIN}%")
+                else:
+                    # Navegar páginas seguintes
+                    for pag in range(2, min(total_paginas + 1, MAX_PAGINAS_POR_CLASSE + 1)):
+                        await asyncio.sleep(DELAY_ENTRE_PAGINAS)
+                        url = (
+                            f"https://busca.inpi.gov.br/pePI/servlet/MarcasServletController"
+                            f"?Action=nextPageMarca&page={pag}"
+                        )
+
+                        texto_pag = ""
+                        for pag_retry in range(3):
+                            try:
+                                await page.goto(url, wait_until="networkidle")
+                                await asyncio.sleep(2)
+                                texto_pag = await page.evaluate("() => document.body.innerText")
+                                pag_lower = texto_pag.lower()
+                                if "cadastre-se" in pag_lower or ("login" in pag_lower and "senha" in pag_lower):
+                                    raise Exception("SESSION_EXPIRED_PAG")
+                                break
+                            except Exception as pag_err:
+                                if pag_retry < 2:
+                                    log(f"  [W{worker_id}]   Página {pag}: erro ({pag_err}) — retry")
+                                    try:
+                                        await page.goto(
+                                            "https://busca.inpi.gov.br/pePI/servlet/LoginController?action=login",
+                                            wait_until="networkidle",
+                                        )
+                                        await asyncio.sleep(DELAY_POS_LOGIN)
+                                    except Exception:
+                                        pass
+                                else:
+                                    log(f"  [W{worker_id}]   Página {pag}: falha após 3 tentativas")
+                                    texto_pag = ""
+
+                        if not texto_pag:
+                            break
+
+                        fonte_pag = f"classe-{classe}-pagina-{pag}" if classe else f"geral-pagina-{pag}"
+                        marcas_pag, menor_pct = extrair_marcas_pagina(texto_pag, classe, fonte_pag)
+                        marcas_acumuladas.extend(marcas_pag)
+                        log(f"  [W{worker_id}]   Página {pag}/{total_paginas}: {len(marcas_pag)} marcas (menor %: {menor_pct})")
+
+                        if menor_pct < SIMILARIDADE_MIN:
+                            log(f"  [W{worker_id}]   Parou na página {pag}: menor % ({menor_pct}) < {SIMILARIDADE_MIN}%")
+                            break
+
+                        if pag >= MAX_PAGINAS_POR_CLASSE:
+                            log(f"  [W{worker_id}]   Parou: atingiu cap de {MAX_PAGINAS_POR_CLASSE} páginas")
+                            break
+
                 await browser.close()
-                return []
+                break  # Sair do retry loop
 
-            # Extrair total e páginas
-            total = 0
-            total_paginas = 1
-            m = re.search(r"(\d+)\s*processos?", page_text)
-            if m:
-                total = int(m.group(1))
-            m = re.search(r"[Pp]ágina\s+\d+\s+de\s+(\d+)", page_text)
-            if m:
-                total_paginas = int(m.group(1))
+            except Exception as e:
+                err = str(e)
+                # Salvar evidência do erro (screenshot + HTML)
+                if browser:
+                    try:
+                        debug_dir = Path("debug")
+                        debug_dir.mkdir(exist_ok=True)
+                        ts = time.strftime("%H%M%S")
+                        prefix = f"debug/w{worker_id}-{ts}-attempt{attempt+1}"
+                        await page.screenshot(path=f"{prefix}.png")
+                        html = await page.evaluate("() => document.body.innerText")
+                        Path(f"{prefix}.txt").write_text(html[:5000], encoding="utf-8")
+                        log(f"  [W{worker_id}] Debug salvo: {prefix}.png + .txt")
+                    except Exception:
+                        pass
+                    try:
+                        await browser.close()
+                    except Exception:
+                        pass
+                if attempt < MAX_RETRIES - 1:
+                    wait = 10 * (attempt + 1)
+                    log(f"  [W{worker_id}] {label}: {err} — retry {attempt+2}/{MAX_RETRIES} em {wait}s")
+                    await asyncio.sleep(wait)
+                    continue
+                else:
+                    log(f"  [W{worker_id}] {label}: FALHA após {MAX_RETRIES} tentativas ({err})")
+                    return []
 
-            log(f"  [W{worker_id}] {label}: {total} processos em {total_paginas} página(s)")
-
-            # Processar página 1
-            fonte = f"classe-{classe}-pagina-1" if classe else "geral-pagina-1"
-            marcas_pag, menor_pct = extrair_marcas_pagina(page_text, classe, fonte)
-            marcas_acumuladas.extend(marcas_pag)
-            log(f"  [W{worker_id}]   Página 1: {len(marcas_pag)} marcas (menor %: {menor_pct})")
-
-            # Checar critério de parada
-            if menor_pct < SIMILARIDADE_MIN:
-                log(f"  [W{worker_id}]   Parou: menor % ({menor_pct}) < {SIMILARIDADE_MIN}%")
-            else:
-                # Navegar páginas seguintes
-                for pag in range(2, min(total_paginas + 1, MAX_PAGINAS_POR_CLASSE + 1)):
-                    await asyncio.sleep(DELAY_ENTRE_PAGINAS)
-                    url = (
-                        f"https://busca.inpi.gov.br/pePI/servlet/MarcasServletController"
-                        f"?Action=nextPageMarca&page={pag}"
-                    )
-                    await page.goto(url, wait_until="networkidle")
-                    await asyncio.sleep(2)
-
-                    texto_pag = await page.evaluate("() => document.body.innerText")
-                    fonte_pag = f"classe-{classe}-pagina-{pag}" if classe else f"geral-pagina-{pag}"
-                    marcas_pag, menor_pct = extrair_marcas_pagina(texto_pag, classe, fonte_pag)
-                    marcas_acumuladas.extend(marcas_pag)
-                    log(f"  [W{worker_id}]   Página {pag}/{total_paginas}: {len(marcas_pag)} marcas (menor %: {menor_pct})")
-
-                    # Critério de parada
-                    if menor_pct < SIMILARIDADE_MIN:
-                        log(f"  [W{worker_id}]   Parou na página {pag}: menor % ({menor_pct}) < {SIMILARIDADE_MIN}%")
-                        break
-
-                    if pag >= MAX_PAGINAS_POR_CLASSE:
-                        log(f"  [W{worker_id}]   Parou: atingiu cap de {MAX_PAGINAS_POR_CLASSE} páginas")
-                        break
-
-        except Exception as e:
-            log(f"  [W{worker_id}] ERRO em {label}: {e}")
-
-        finally:
-            await browser.close()
+            # (código de extração movido pra dentro do try block acima)
 
     log(f"  [W{worker_id}] {label}: {len(marcas_acumuladas)} marcas coletadas")
     return marcas_acumuladas
@@ -442,6 +536,8 @@ async def executar_coleta(
     pasta: Path,
     headless: bool = True,
     num_workers: int = 4,
+    tor_base_port: Optional[int] = None,
+    cross_class: bool = False,
 ) -> Dict:
     """
     Pipeline completo da Fase 1:
@@ -491,7 +587,7 @@ async def executar_coleta(
 
     async def buscar_com_semaforo(cls: int, wid: int):
         async with semaforo:
-            marcas = await buscar_classe(nome_marca, cls, headless, wid)
+            marcas = await buscar_classe(nome_marca, cls, headless, wid, tor_port=tor_base_port)
             resultados_por_classe[cls] = marcas
 
     tasks = []
@@ -524,32 +620,51 @@ async def executar_coleta(
 
     log(f"\nTotal por classe (deduplicadas): {len(todas_marcas)}")
 
-    # ─── ETAPA 2: Busca geral (sem classe) ───
+    # ─── ETAPA 2: Busca cross-class (nome exato, todas as classes) ───
 
-    log(f"\n{'=' * 60}")
-    log(f"BUSCA GERAL (sem classe)")
-    log(f"{'=' * 60}\n")
+    cross_class_alertas = []
+    if cross_class:
+        log(f"\n{'=' * 60}")
+        log(f"BUSCA CROSS-CLASS (nome exato, sem filtro de classe)")
+        log(f"{'=' * 60}\n")
 
-    marcas_geral = await buscar_classe(nome_marca, None, headless, len(classes) + 1)
+        # Busca booleana (precisao=nao) sem classe — pega nome exato em qualquer classe
+        marcas_cross = await buscar_classe(nome_marca, None, headless, len(classes) + 1, tor_port=tor_base_port)
 
-    # Salvar geral
-    geral_path = coleta_dir / "geral-lista.json"
-    with open(geral_path, "w", encoding="utf-8") as f:
-        json.dump(marcas_geral, f, ensure_ascii=False, indent=2)
+        # Filtrar: só marcas em classes FORA do perímetro (aprovadas + adjacentes não contam)
+        for m in marcas_cross:
+            mc = m.get("classe")
+            if mc and mc not in classes:
+                # Verificar se nome é idêntico ou quase idêntico
+                from difflib import SequenceMatcher
+                ratio = SequenceMatcher(None, nome_marca.upper(), m.get("nome_marca", "").upper()).ratio()
+                if ratio >= 0.85:
+                    cross_class_alertas.append({
+                        "numero_processo": m.get("numero_processo"),
+                        "nome_marca": m.get("nome_marca"),
+                        "classe": mc,
+                        "situacao": m.get("situacao"),
+                        "titular": m.get("titular"),
+                        "similaridade_nome": round(ratio, 2),
+                    })
 
-    # Acumular novas
-    novas_geral = 0
-    for m in marcas_geral:
-        if m["numero_processo"] not in processos_vistos:
-            processos_vistos.add(m["numero_processo"])
-            todas_marcas.append(m)
-            novas_geral += 1
+        # Salvar alertas
+        cross_path = coleta_dir / "cross-class-alerta.json"
+        with open(cross_path, "w", encoding="utf-8") as f:
+            json.dump(cross_class_alertas, f, ensure_ascii=False, indent=2)
 
-    resultado["busca_geral"] = {
-        "encontradas": len(marcas_geral),
-        "novas_unicas": novas_geral,
-    }
-    log(f"\nBusca geral: {len(marcas_geral)} encontradas, {novas_geral} novas")
+        if cross_class_alertas:
+            log(f"  ⚠ {len(cross_class_alertas)} marcas idênticas fora do perímetro:")
+            for a in cross_class_alertas[:5]:
+                log(f"    {a['nome_marca']} — cl.{a['classe']} — {a['situacao']}")
+        else:
+            log(f"  Nenhuma marca idêntica fora do perímetro")
+
+        resultado["cross_class"] = {
+            "alertas": len(cross_class_alertas),
+        }
+    else:
+        resultado["cross_class"] = {"alertas": 0, "executada": False}
 
     # ─── ETAPA 3: Separação em buckets ───
 
@@ -585,7 +700,7 @@ async def executar_coleta(
 
     resultado["total_coletadas"] = sum(
         len(resultados_por_classe.get(cls, [])) for cls in classes
-    ) + len(marcas_geral)
+    )
     resultado["total_unicas"] = len(todas_marcas)
     resultado["buckets"] = {
         "A": len(bucket_a),
@@ -693,6 +808,14 @@ def main():
         help="Mostrar browsers (não headless)",
     )
     parser.add_argument(
+        "--tor", action="store_true",
+        help="Usar Tor para IPs rotativos (requer Tor rodando, portas a partir de 9050)",
+    )
+    parser.add_argument(
+        "--tor-base-port", type=int, default=9050,
+        help="Porta base do Tor SOCKS (default: 9050). Cada worker usa base+N.",
+    )
+    parser.add_argument(
         "--similaridade-min", type=int, default=SIMILARIDADE_MIN,
         help=f"Percentual mínimo de similaridade para continuar paginando (default: {SIMILARIDADE_MIN})",
     )
@@ -700,9 +823,20 @@ def main():
         "--max-paginas", type=int, default=MAX_PAGINAS_POR_CLASSE,
         help=f"Máximo de páginas por classe (default: {MAX_PAGINAS_POR_CLASSE})",
     )
+    parser.add_argument(
+        "--cross-class", action="store_true",
+        help="Busca exata do nome em todas as 45 classes (detecta marcas idênticas fora do perímetro)",
+    )
+    parser.add_argument(
+        "--sem-geral", action="store_true",
+        help="Pular busca geral (sem classe) — usar --cross-class no lugar",
+    )
 
     args = parser.parse_args()
     classes = [int(c.strip()) for c in args.classes.split(",")]
+
+    if args.tor:
+        log(f"Tor ativo: proxy socks5://127.0.0.1:{args.tor_base_port}")
 
     resultado = asyncio.run(
         executar_coleta(
@@ -711,6 +845,8 @@ def main():
             pasta=Path(args.pasta),
             headless=not args.visible,
             num_workers=args.workers,
+            tor_base_port=args.tor_base_port if args.tor else None,
+            cross_class=args.cross_class,
         )
     )
 

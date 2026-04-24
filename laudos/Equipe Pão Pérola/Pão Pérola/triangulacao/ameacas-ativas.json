@@ -1,0 +1,22 @@
+[
+  {
+    "processo": "933306318",
+    "nome_marca": "PEROLA NEGRA GASTRO PUB",
+    "classe": 43,
+    "situacao": "Aguardando exame de mérito",
+    "titular": "53.544.380 ROBERTO GAVIÃO SOBCZAK",
+    "bucket": "A",
+    "relevancia": 15,
+    "motivo_relevancia": [
+      "classe core",
+      "viva"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": "850240090685",
+      "motivo_literal": "",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null
+    }
+  }
+]

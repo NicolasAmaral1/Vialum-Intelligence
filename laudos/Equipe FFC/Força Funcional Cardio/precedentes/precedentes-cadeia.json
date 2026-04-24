@@ -1,0 +1,96 @@
+{
+  "marca_analisada": "Força Funcional Cardio",
+  "data_analise": "2026-04-10T04:15:00Z",
+  "total_fichas_analisadas": 323,
+  "resumo_classificacao": {
+    "indeferido_mantido": 65,
+    "extinto_sem_indeferimento": 90,
+    "nao_classificavel": 168,
+    "total": 323
+  },
+  "distribuicao_artigos": {
+    "art_124_XIX_colidencia": 196,
+    "art_124_VI_descritivo": 51,
+    "art_124_VII_propaganda": 44,
+    "outros_mistos": 32
+  },
+  "insights_chave": [
+    {
+      "elemento": "FUNCIONAL",
+      "risco": "ALTO",
+      "fundamento": "Indeferível por Art. 124, VI (descritivo/genérico) — confirmado em múltiplos precedentes (904042855 FUNCIONAL, 907602916 FUNCIONAL PARA TODOS, 904048039 GESTÃO DE PROGRAMAS DE SAÚDE FUNCIONAL)"
+    },
+    {
+      "elemento": "CARDIO",
+      "risco": "MÉDIO",
+      "fundamento": "Não há precedentes mostrando CARDIO como indeferível per se; indeferimentos por colidência com marcas anteriores específicas"
+    },
+    {
+      "elemento": "FORÇA",
+      "risco": "MÉDIO-ALTO",
+      "fundamento": "Indeferível por Art. 124, VII quando usado como slogan/expressão de propaganda"
+    },
+    {
+      "elemento": "COMBINAÇÃO",
+      "risco": "REFERÊNCIA",
+      "fundamento": "911560955 INVICTUS CENTRO DE TREINAMENTO FUNCIONAL, FORÇA E CARDIORRESPIRATÓRIO — indeferida pelo elemento INVICTUS (colisão), não pelos descritivos"
+    }
+  ],
+  "bloqueadores_relevantes": [
+    {
+      "processo": "902883208",
+      "nome": "BOA FORMA",
+      "motivo": "Anterioridade recorrente em classes fitness"
+    },
+    {
+      "processo": "820738751",
+      "nome": "BOA FORMA",
+      "motivo": "Anterioridade recorrente"
+    },
+    {
+      "processo": "822738864",
+      "nome": "BOA FORMA",
+      "motivo": "Anterioridade recorrente"
+    },
+    {
+      "processo": "903948150",
+      "nome": "BOA FORMA",
+      "motivo": "Anterioridade recorrente"
+    },
+    {
+      "processo": "813301203",
+      "nome": "INVICTUS",
+      "motivo": "Bloqueou marca com elementos similares"
+    },
+    {
+      "processo": "824763165",
+      "nome": "ELETRO FORÇA",
+      "motivo": "Elemento FORÇA compartilhado"
+    },
+    {
+      "processo": "905291778",
+      "nome": "BT LIVE",
+      "motivo": "Série BT no segmento fitness"
+    },
+    {
+      "processo": "907992579",
+      "nome": "BT Fit",
+      "motivo": "Série BT no segmento fitness"
+    },
+    {
+      "processo": "923308911",
+      "nome": "FS FORZA SUPLEMENTOS",
+      "motivo": "Elemento FORZA/FORÇA compartilhado"
+    },
+    {
+      "processo": "916108341",
+      "nome": "FORJA",
+      "motivo": "Similaridade fonética com FORÇA"
+    },
+    {
+      "processo": "913503207",
+      "nome": "BELA FORMA",
+      "motivo": "Elemento FORMA no segmento fitness"
+    }
+  ]
+}

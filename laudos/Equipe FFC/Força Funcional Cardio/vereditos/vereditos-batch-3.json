@@ -1,0 +1,321 @@
+[
+  {
+    "numero_processo": "942887654",
+    "nome_marca": "DNA FORCE FITNESS A FORÇA ESTÁ NO SEU DNA",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado-alto",
+    "nota": "Dupla referência FORÇA/FORCE, serviços idênticos cl.41"
+  },
+  {
+    "numero_processo": "938193929",
+    "nome_marca": "AERO CARDIO",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "939862468",
+    "nome_marca": "A FORJA HOMENS DE VERDADE",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "938971492",
+    "nome_marca": "Força Empreendedora",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "917437705",
+    "nome_marca": "CROSS CARDIO CULTURE",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "939087910",
+    "nome_marca": "Máxima Força",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "933921110",
+    "nome_marca": "FORÇA FOCO E FÉ",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "939507692",
+    "nome_marca": "NEUPAR NEW FORZA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "927930412",
+    "nome_marca": "NFI NUTRIÇÃO FUNCIONAL INTEGRATIVA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "917554272",
+    "nome_marca": "ACADEMIA MENTE EM FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937147494",
+    "nome_marca": "DD 2D CENTRO AQUÁTICO E TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "923101713",
+    "nome_marca": "Pelvie Fisioterapia Pélvica Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935811532",
+    "nome_marca": "Projeto Cardio Na rua Dr Michel Platiny",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "931276195",
+    "nome_marca": "CORPO EM FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "501601392",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "922649014",
+    "nome_marca": "Dra. Pelvic PELVIC Fisioterapia Pélvica Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935340939",
+    "nome_marca": "CARDIO RECUP POR MÁRCIA FREITAS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "916442691",
+    "nome_marca": "Forma De mãe",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937345997",
+    "nome_marca": "FOLK FISIOTERAPIA E PILATES FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938932241",
+    "nome_marca": "Med.IQ Prime Cardio",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939774895",
+    "nome_marca": "CARDIO SELECT",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938310585",
+    "nome_marca": "PIUÍ FUNCIONAL KIDS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939717000",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "917055993",
+    "nome_marca": "LA LUDMILA ALBUQUERQUE NUTRIÇÃO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "926671928",
+    "nome_marca": "TLM TEAM MINEIRO LUCAS MINEIRO BRASIL SÃO PAULO EST.22 MUAT THAI - BOXE - JIU JITSU - MMA - WRESTILING - TREINO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "922844828",
+    "nome_marca": "CLÍNICA NUTRI & FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937965782",
+    "nome_marca": "Crescer FUNcional Espaço Multidisciplinar",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "930377702",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "918878357",
+    "nome_marca": "FORÇA NO FUE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "928206580",
+    "nome_marca": "ACADEMIA PERFEITA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940253631",
+    "nome_marca": "CARDIO CAZAMIGA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942330056",
+    "nome_marca": "CT SENA TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941481514",
+    "nome_marca": "Time Campeão - Um gerente de ouro forma um time campeão.",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "916577082",
+    "nome_marca": "SAÚDE EM FORMA CLÍNICA DE FISIOTERAPIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935805460",
+    "nome_marca": "REABILITA CARDIO CORAÇÃO SAUDÁVEL, VIDA EM ALTA PERFORMANCE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940902583",
+    "nome_marca": "PLENA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "910603758",
+    "nome_marca": "STUDIO CROSS TREINAMENTO FUNCIONAL PERSONALIZADO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940260441",
+    "nome_marca": "ONE FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940202310",
+    "nome_marca": "?BYARLLE?- ?BYARLLE FUTEBOL CLUBE? MASCULINO - FEMININO, S B, PUREZA FORÇA- 2025 \"Quem decidi se chegarei ao sucesso ou me entregarei ao fracasso sou eu mesmo!\"",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936098864",
+    "nome_marca": "TRATO CENTRO DE REABILITAÇÃO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "916902374",
+    "nome_marca": "Mood.se Nutrição e Medicina Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937538000",
+    "nome_marca": "Funcional Total",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940861887",
+    "nome_marca": "LUK FORÇA QUE VESTE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939134187",
+    "nome_marca": "Josi Alves Treinamento Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932646069",
+    "nome_marca": "Xtreme Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "926985663",
+    "nome_marca": "MFI MEDICINA FUNCIONAL INTEGRATIVA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937435210",
+    "nome_marca": "GOSTOSAS NÃO PULAM CARDIO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "914634216",
+    "nome_marca": "PATRULHA FORÇA E DEFESA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936319852",
+    "nome_marca": "PODER DA MÚSICA FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "926195565",
+    "nome_marca": "VANESSA GUIMARÃES CARDIO HUMANIZAÇÃO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "931351235",
+    "nome_marca": "MNIF MÉTODO MENTORIA NUTRIÇÃO INTEGRATIVA FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "924837047",
+    "nome_marca": "CENTRO FUNCIONAL TEAM SANDRÃO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940553589",
+    "nome_marca": "Método CoreDR Pilates Funcional Personalizado",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  }
+]

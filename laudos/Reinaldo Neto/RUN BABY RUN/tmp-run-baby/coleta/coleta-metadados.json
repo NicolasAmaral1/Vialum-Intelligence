@@ -1,0 +1,46 @@
+{
+  "marca": "RUN BABY",
+  "classes": [
+    41,
+    25,
+    5,
+    35,
+    28
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "similaridade_minima": 20,
+  "max_paginas": 10,
+  "por_classe": {
+    "41": {
+      "encontradas": 0
+    },
+    "25": {
+      "encontradas": 0
+    },
+    "5": {
+      "encontradas": 0
+    },
+    "35": {
+      "encontradas": 0
+    },
+    "28": {
+      "encontradas": 0
+    }
+  },
+  "busca_geral": {
+    "encontradas": 0,
+    "novas_unicas": 0
+  },
+  "total_coletadas": 0,
+  "total_unicas": 0,
+  "buckets": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+  },
+  "sucesso": true,
+  "erro": null,
+  "inicio": "2026-04-09T19:51:25.068522+00:00",
+  "fim": "2026-04-09T20:13:00.906180+00:00",
+  "duracao_segundos": 1295.8
+}

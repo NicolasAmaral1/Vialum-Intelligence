@@ -1,0 +1,46 @@
+{
+  "marca": "Metodo Personas",
+  "classes": [
+    9,
+    35,
+    38,
+    41,
+    42
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "similaridade_minima": 20,
+  "max_paginas": 10,
+  "por_classe": {
+    "9": {
+      "encontradas": 151
+    },
+    "35": {
+      "encontradas": 999
+    },
+    "38": {
+      "encontradas": 104
+    },
+    "41": {
+      "encontradas": 1000
+    },
+    "42": {
+      "encontradas": 484
+    }
+  },
+  "busca_geral": {
+    "encontradas": 1000,
+    "novas_unicas": 622
+  },
+  "total_coletadas": 3738,
+  "total_unicas": 3130,
+  "buckets": {
+    "A": 1870,
+    "B": 307,
+    "C": 953
+  },
+  "sucesso": true,
+  "erro": null,
+  "inicio": "2026-04-10T04:55:36.835862+00:00",
+  "fim": "2026-04-10T05:01:07.378945+00:00",
+  "duracao_segundos": 330.5
+}

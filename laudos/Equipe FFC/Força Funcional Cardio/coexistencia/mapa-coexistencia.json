@@ -1,0 +1,140 @@
+{
+  "marca_analisada": "Força Funcional Cardio",
+  "elementos": [
+    "FORÇA",
+    "FUNCIONAL",
+    "CARDIO"
+  ],
+  "data_analise": "2026-04-10T04:45:00Z",
+  "total_clusters": 15,
+  "desgaste_por_elemento_classe": {
+    "FORÇA": {
+      "41": {
+        "parecer": "PARCIAL",
+        "titulares_vivos": 2,
+        "indeferimentos_mantidos": 2,
+        "risco": "MODERADO"
+      },
+      "44": {
+        "parecer": "INCONCLUSIVO",
+        "titulares_vivos": 1,
+        "indeferimentos_mantidos": 0,
+        "risco": "BAIXO",
+        "nota": "nicho veterinário"
+      },
+      "28": {
+        "parecer": "PARCIAL",
+        "titulares_vivos": 2,
+        "indeferimentos_mantidos": 1,
+        "risco": "MODERADO",
+        "nota": "inclui FF Força Funcional"
+      },
+      "25": {
+        "parecer": "DESFAVORÁVEL",
+        "titulares_vivos": 0,
+        "indeferimentos_mantidos": 2,
+        "risco": "ALTO"
+      },
+      "35": {
+        "parecer": "FAVORÁVEL",
+        "titulares_vivos": 8,
+        "indeferimentos_mantidos": 0,
+        "risco": "BAIXO"
+      }
+    },
+    "FUNCIONAL": {
+      "41": {
+        "parecer": "DESFAVORÁVEL",
+        "titulares_vivos": 1,
+        "indeferimentos_mantidos": 3,
+        "risco": "ALTO"
+      },
+      "44": {
+        "parecer": "FAVORÁVEL",
+        "titulares_vivos": 8,
+        "indeferimentos_mantidos": 0,
+        "risco": "BAIXO"
+      },
+      "28": {
+        "parecer": "INCONCLUSIVO",
+        "titulares_vivos": 1,
+        "indeferimentos_mantidos": 0,
+        "risco": "MODERADO-BAIXO"
+      },
+      "25": {
+        "parecer": "INCONCLUSIVO",
+        "titulares_vivos": 0,
+        "indeferimentos_mantidos": 0,
+        "risco": "MODERADO"
+      },
+      "35": {
+        "parecer": "FAVORÁVEL",
+        "titulares_vivos": 4,
+        "indeferimentos_mantidos": 0,
+        "risco": "BAIXO"
+      }
+    },
+    "CARDIO": {
+      "41": {
+        "parecer": "PARCIAL",
+        "titulares_vivos": 2,
+        "indeferimentos_mantidos": 1,
+        "risco": "MODERADO",
+        "nota": "educação médica"
+      },
+      "44": {
+        "parecer": "FAVORÁVEL",
+        "titulares_vivos": 7,
+        "indeferimentos_mantidos": 0,
+        "risco": "BAIXO"
+      },
+      "28": {
+        "parecer": "INCONCLUSIVO",
+        "titulares_vivos": 0,
+        "indeferimentos_mantidos": 0,
+        "risco": "INDETERMINADO"
+      },
+      "25": {
+        "parecer": "INCONCLUSIVO",
+        "titulares_vivos": 0,
+        "indeferimentos_mantidos": 0,
+        "risco": "MODERADO"
+      },
+      "35": {
+        "parecer": "PARCIAL",
+        "titulares_vivos": 2,
+        "indeferimentos_mantidos": 0,
+        "risco": "BAIXO-MODERADO"
+      }
+    }
+  },
+  "sintese_por_classe": {
+    "41": {
+      "risco": "ALTO",
+      "nota": "Todos os 3 elementos tratados como descritivos/genéricos para academia. FUNCIONAL mais vulnerável (Art. 124 VI, 3 indeferimentos). FORÇA com resistência por Art. 124 VII. CARDIO descritor de modalidade aeróbica."
+    },
+    "44": {
+      "risco": "BAIXO",
+      "nota": "FUNCIONAL (8 titulares) e CARDIO (7 titulares) com excelente coexistência em serviços de saúde. Classe mais favorável."
+    },
+    "28": {
+      "risco": "MODERADO",
+      "nota": "FF FORÇA FUNCIONAL em vigor — precedente positivo. Indeferimentos por colidência, não descrição."
+    },
+    "25": {
+      "risco": "ALTO",
+      "nota": "FORÇA e FUNCIONAL sistematicamente recusados como descritores de vestuário fitness. Zero titulares em vigor."
+    },
+    "35": {
+      "risco": "BAIXO",
+      "nota": "FORÇA (8 titulares) e FUNCIONAL (4 titulares) com bom histórico em contexto comercial/empresarial."
+    }
+  },
+  "precedente_chave": {
+    "processo": "911560955",
+    "nome": "INVICTUS CENTRO DE TREINAMENTO FUNCIONAL, FORÇA E CARDIORRESPIRATÓRIO",
+    "classe": 41,
+    "situacao": "Indeferida por colidência com INVICTUS (813301203)",
+    "relevancia": "NÃO indeferida pelos elementos FORÇA, FUNCIONAL ou CARDIORRESPIRATÓRIO — confirma que o conjunto é registrável se elemento central for suficientemente distintivo"
+  }
+}

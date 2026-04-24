@@ -1,0 +1,29 @@
+[
+  {
+    "numero_processo": "931873673",
+    "nome_marca": "BiomeCheck",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ANDRÉ RIBEIRO VIRTOS",
+    "classe": 44,
+    "similaridade_pct": 75,
+    "fonte": "classe-44-pagina-1"
+  },
+  {
+    "numero_processo": "824542282",
+    "nome_marca": "BIOCHECK UP POLICLÍNICA DO CANELA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "POLICLÍNICA DO CANELA S/C LTDA",
+    "classe": 44,
+    "similaridade_pct": 70,
+    "fonte": "classe-44-pagina-1"
+  },
+  {
+    "numero_processo": "904579026",
+    "nome_marca": "BIOCHECK UP CONFIANCE",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "LABORATÓRIO DE ANÁLISES CLÍNICAS ZERBINI S/C LTDA",
+    "classe": 44,
+    "similaridade_pct": 70,
+    "fonte": "classe-44-pagina-1"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "guia_adjacencia": {
+    "aprovadas": [41, 44, 28, 25, 35],
+    "adjacentes": [5, 9, 10, 43, 29, 30, 32, 42],
+    "sem_afinidade": [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 31, 33, 34, 36, 37, 38, 39, 40, 45],
+    "justificativa_adjacentes": {
+      "5": "Suplementos alimentares e preparações farmacêuticas — complementar a atividade esportiva e saúde",
+      "9": "Apps e plataformas digitais — canal digital de treino e assessoria esportiva",
+      "10": "Equipamentos médicos e ortopédicos — complementar a fisioterapia e reabilitação esportiva",
+      "43": "Alimentação e restaurantes — nutrição esportiva e refeições funcionais",
+      "29": "Alimentos dietéticos e proteicos — nutrição esportiva",
+      "30": "Alimentos naturais e energéticos — suplementação e nutrição",
+      "32": "Bebidas funcionais e isotônicas — hidratação e performance esportiva",
+      "42": "Design e desenvolvimento de software — plataformas de treino e apps de assessoria"
+    }
+  }
+}

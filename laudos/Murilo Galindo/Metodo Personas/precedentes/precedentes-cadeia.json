@@ -1,0 +1,122 @@
+{
+  "marca_analisada": "Método Personas",
+  "data_analise": "2026-04-10T04:45:00Z",
+  "total_fichas_analisadas": 5,
+  "cadeias": [
+    {
+      "processo": "923173943",
+      "nome_marca": "Personas",
+      "classe": 35,
+      "situacao_original": "Pedido de registro de marca indeferido",
+      "titular": "pessoa física",
+      "motivo_indeferimento": "art. 124, XIX — colidência com marca anterior",
+      "motivo_detalhado": "Indeferido por colidência com Persona RH (913066540) e PERSONA (915852039)",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processos": ["913066540", "915852039"],
+        "nomes": ["Persona RH CONSULTORIA EM DESENVOLVIMENTO HUMANO", "PERSONA"],
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": null
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "relevancia_para_caso": "CRÍTICA — termo idêntico ao elemento distintivo de MÉTODO PERSONAS. Se 'Personas' isolado foi barrado por 'PERSONA', 'MÉTODO PERSONAS' pode enfrentar o mesmo bloqueio."
+    },
+    {
+      "processo": "900367202",
+      "nome_marca": "MÉTODO PERSONALITY",
+      "classe": 35,
+      "situacao_original": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "titular": "pessoa física",
+      "motivo_indeferimento": "art. 124, XIX — colidência com PERSONALITÉ RECURSOS HUMANOS (827724810)",
+      "motivo_detalhado": "Indeferido por colidência fonética PERSONALITY vs PERSONALITÉ. Recurso não provido em 2017.",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processos": ["827724810"],
+        "nomes": ["PERSONALITÉ RECURSOS HUMANOS"],
+        "identificado": true
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "negado",
+        "data_recurso": "2013-10",
+        "data_decisao_recurso": "2017-10",
+        "instancia": "2ª instância"
+      },
+      "resultado_final": "indeferido_mantido",
+      "relevancia_para_caso": "ALTA — estrutura 'MÉTODO + derivado de PERSONA' análoga. INPI tratou MÉTODO como genérico e avaliou colidência pelo elemento PERSONALITY."
+    },
+    {
+      "processo": "821336525",
+      "nome_marca": "BASEADO NO METODO PILATES",
+      "classe": 41,
+      "situacao_original": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "titular": "pessoa física",
+      "motivo_indeferimento": "art. 124, VI — caráter descritivo/genérico, sem suficiente forma distintiva",
+      "motivo_detalhado": "INPI considerou a expressão descritiva da atividade (método Pilates é descrição, não marca).",
+      "artigo_lpi": "124, VI",
+      "bloqueador": {
+        "processos": [],
+        "nomes": [],
+        "identificado": false
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "negado",
+        "data_recurso": "2018-12",
+        "data_decisao_recurso": "2021-01",
+        "instancia": "2ª instância"
+      },
+      "resultado_final": "indeferido_mantido",
+      "relevancia_para_caso": "MÉDIA — fundamento diferente (descritivo, não colidência). Relevante para risco de genericidade de MÉTODO + termo técnico."
+    },
+    {
+      "processo": "917697936",
+      "nome_marca": "MÉTODO PERSONALIZE",
+      "classe": 41,
+      "situacao_original": "Pedido de registro de marca indeferido",
+      "titular": "pessoa física",
+      "motivo_indeferimento": "art. 124, XIX — colidência com PERSONALIZE COMUNICAÇÃO (910292639) e PERSONALIZA CURSOS (916516636)",
+      "motivo_detalhado": "INPI barrou MÉTODO PERSONALIZE por colidência com marcas contendo radical PERSONALIZ- na mesma classe.",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processos": ["910292639", "916516636"],
+        "nomes": ["PERSONALIZE COMUNICAÇÃO", "PERSONALIZA CURSOS"],
+        "identificado": true
+      },
+      "recurso": {
+        "houve": false,
+        "resultado": null
+      },
+      "resultado_final": "indeferido_sem_recurso",
+      "relevancia_para_caso": "ALTA — estrutura MÉTODO + derivado de PERSONA na classe 41. Padrão decisório direto."
+    },
+    {
+      "processo": "920831540",
+      "nome_marca": "MÉTODO ILUMINADO",
+      "classe": 41,
+      "situacao_original": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "titular": "pessoa física",
+      "motivo_indeferimento": "art. 124, XIX — colidência com ILUMINADO (918888719)",
+      "motivo_detalhado": "INPI tratou MÉTODO como genérico e avaliou colidência pelo elemento ILUMINADO. Mantido em 2ª instância (2022).",
+      "artigo_lpi": "124, XIX",
+      "bloqueador": {
+        "processos": ["918888719"],
+        "nomes": ["ILUMINADO"],
+        "identificado": true
+      },
+      "recurso": {
+        "houve": true,
+        "resultado": "negado",
+        "data_recurso": "2021-08",
+        "data_decisao_recurso": "2022-07",
+        "instancia": "2ª instância"
+      },
+      "resultado_final": "indeferido_mantido",
+      "relevancia_para_caso": "ALTA — confirma padrão: INPI trata MÉTODO como prefixo genérico e avalia colidência pelo substantivo que o acompanha."
+    }
+  ],
+  "padrao_decisorio": "O INPI trata MÉTODO como elemento genérico não distintivo. A avaliação de colidência recai sobre o substantivo posterior (PERSONALITY, PERSONALIZE, ILUMINADO, PILATES). Para MÉTODO PERSONAS, o INPI avaliará colidência de PERSONAS contra marcas registradas com PERSONA/PERSONAS."
+}

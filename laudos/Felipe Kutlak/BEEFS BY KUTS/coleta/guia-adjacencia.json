@@ -1,0 +1,18 @@
+{
+  "guia_adjacencia": {
+    "marca": "BEEFS BY KUTS",
+    "atividade": "Casa de carnes, restaurante, churrascaria",
+    "aprovadas": [29, 43, 35, 30, 31],
+    "adjacentes": [21, 32, 33, 39, 40, 11],
+    "sem_afinidade": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 34, 36, 37, 38, 41, 42, 44, 45],
+    "justificativa_adjacentes": {
+      "21": "Utensílios de cozinha — facas, grelhas, tábuas de corte — complementar à atividade de casa de carnes",
+      "32": "Cervejas e refrigerantes — consumo habitual conjunto com churrasco e refeições de carnes",
+      "33": "Vinhos e destilados — harmonização com carnes é prática corrente no segmento",
+      "39": "Serviços de transporte/entrega — delivery é canal essencial para restaurantes",
+      "40": "Processamento de alimentos — comum que casas de carnes processem cortes especiais",
+      "11": "Aparelhos de cocção — churrasqueiras, fornos, grills — complementar ao segmento"
+    },
+    "data_geracao": "2026-04-15"
+  }
+}

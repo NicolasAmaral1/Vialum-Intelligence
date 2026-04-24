@@ -1,0 +1,323 @@
+[
+  {
+    "numero_processo": "941462927",
+    "nome_marca": "FORZA FITNESS",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado",
+    "nota": "FORZA variante gráfica de FORÇA, classe 28 coincidente (equipamentos ginástica)"
+  },
+  {
+    "numero_processo": "932287883",
+    "nome_marca": "CARDIO IS HARDIO",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "906253160",
+    "nome_marca": "FORÇA RAÇA E FÉ!",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "941886123",
+    "nome_marca": "CARDIO ESSENCIAL",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "920397018",
+    "nome_marca": "FORÇA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "930567072",
+    "nome_marca": "FORÇA GAROTA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "932299580",
+    "nome_marca": "Força Pura",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo",
+    "nota": "Isonomia fortíssima: FORÇA em academia/personal cl.41, registro em vigor"
+  },
+  {
+    "numero_processo": "921052120",
+    "nome_marca": "FORÇA JOVEM",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "935397205",
+    "nome_marca": "Personal Cardio",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo",
+    "nota": "CARDIO cl.41, academia/personal, registro em vigor — desgaste significativo"
+  },
+  {
+    "numero_processo": "933437811",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938793047",
+    "nome_marca": "Mãe em forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932361153",
+    "nome_marca": "Bio Pilates e Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940860023",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936744405",
+    "nome_marca": "PF POSTURA FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "928112152",
+    "nome_marca": "Linda Forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934978662",
+    "nome_marca": "ALL BLACK ITAPEMA FUNCIONAL E MUAY THAI",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "936569964",
+    "nome_marca": "Escola EFP Encontrando Força e Paz - Reconexão e Autocura",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940900475",
+    "nome_marca": "FORMA INTERCÂMBIOS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941566854",
+    "nome_marca": "A FORJA MENTORIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937807516",
+    "nome_marca": "TREINAMENTO FÍSICO FUNCIONAL ESTAÇÃO FITNESS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "919494870",
+    "nome_marca": "Ciência Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "930772890",
+    "nome_marca": "SPORTS CARDIO clínica cardiológica e medicina do esporte",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942462742",
+    "nome_marca": "CARDIO & SAÚDE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937864315",
+    "nome_marca": "FORJA DE CAMPEÕES",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942501845",
+    "nome_marca": "CARCARÁ VIDA FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942675185",
+    "nome_marca": "No Seu Lugar De Força",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "821919636",
+    "nome_marca": "BOA FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939506807",
+    "nome_marca": "NEUPAR NEW FORZA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937630578",
+    "nome_marca": "STUDIO FP FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "922148554",
+    "nome_marca": "Cintas Forma Modeladores",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "923828591",
+    "nome_marca": "Em Forma de A Mar",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "931329752",
+    "nome_marca": "SAÚDE E FORMA ACADEMIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940677830",
+    "nome_marca": "Forja Empresarial",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "925426660",
+    "nome_marca": "VITY TREINO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "909667985",
+    "nome_marca": "Dá uma Força",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "929769830",
+    "nome_marca": "Clínica Minha Forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933904800",
+    "nome_marca": "FORMA DO CORPO MODA FITNESS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "926952935",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "913463140",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937424617",
+    "nome_marca": "ONCONUTRI FUNCIONAL NUTRIÇÃO E SAÚDE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934173257",
+    "nome_marca": "ICNV - Instituto Cardio Neuro Vascular",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "931593425",
+    "nome_marca": "ACADEMIA BOA FORMA Seu corpo sua imagem",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940456893",
+    "nome_marca": "DRA. ROSEANE CALDEIRA FISIOTERAPEUTA CARDIO PULMONAR E DO SONO RESPIRE BEM, DURMA MELHOR",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "827262310",
+    "nome_marca": "SWAT FORÇA DE ELITE",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "911702130",
+    "nome_marca": "SAÚDE E FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "917042581",
+    "nome_marca": "MODA & FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935869344",
+    "nome_marca": "BELLA FORMA ESTÉTICA AVANÇADA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "929933710",
+    "nome_marca": "CENTRO FUNCIONAL JUDAH",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "910719489",
+    "nome_marca": "Portal da Forma",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933841930",
+    "nome_marca": "EQUIPE VILHENA JIU - JITSU SINCE 1999 - MMA - MINIMO DE FORÇA - MAXIMO DE EFICIENCIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "923937404",
+    "nome_marca": "Clínica ENDO & FORMA Endocrinologia e Nutrição",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932803393",
+    "nome_marca": "LIBRE ODONTOLOGIA ESTÉTICA E FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939507498",
+    "nome_marca": "NEUPAR NEW FORZA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  }
+]

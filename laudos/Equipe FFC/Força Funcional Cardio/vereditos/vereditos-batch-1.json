@@ -1,0 +1,321 @@
+[
+  {
+    "numero_processo": "923063412",
+    "nome_marca": "FF Força Funcional",
+    "veredito": "COLIDÊNCIA PROVÁVEL",
+    "risco": "alto",
+    "nota": "FORÇA FUNCIONAL na íntegra, mesma ordem, classe 28"
+  },
+  {
+    "numero_processo": "942892178",
+    "nome_marca": "PROGRAMA FORÇA INTELIGENTE PARA CORREDORES",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "917305132",
+    "nome_marca": "Fisio Força",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "939087960",
+    "nome_marca": "Máxima Força",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "935217193",
+    "nome_marca": "CARDIO 086",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "942492544",
+    "nome_marca": "CARDIO TREINO",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "938173898",
+    "nome_marca": "HELLOOCH FUNCIONAL FITNESS",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "940405229",
+    "nome_marca": "COM & Cardio",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "920150829",
+    "nome_marca": "FORÇA E MOVIMENTO TREINAMENTO FÍSICO INTEGRADO",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "936479655",
+    "nome_marca": "Tradução (Bruna Diniz de Souza)",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "927804158",
+    "nome_marca": "SAFE CARDIO",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "940490137",
+    "nome_marca": "REAB CARDIO",
+    "veredito": "COLIDÊNCIA POSSÍVEL",
+    "risco": "moderado"
+  },
+  {
+    "numero_processo": "935518851",
+    "nome_marca": "Papo de Cardio",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "942059379",
+    "nome_marca": "FORÇA SÊNIOR FISIOTERAPIA DOMICILIAR",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "930414829",
+    "nome_marca": "FERRO E FORÇA EQUIPAMENTOS FITNESS",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "936578688",
+    "nome_marca": "RE.FORCE Cursos Táticos Especiais",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "920444172",
+    "nome_marca": "LF LEALDADE E FORÇA",
+    "veredito": "COLIDÊNCIA REMOTA",
+    "risco": "baixo"
+  },
+  {
+    "numero_processo": "936670029",
+    "nome_marca": "ATIVO TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "902978799",
+    "nome_marca": "FISICO & FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937234524",
+    "nome_marca": "PIERRE CARDIN EVOLUTION",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "913794635",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "937233617",
+    "nome_marca": "QTRATA FISIOTERAPIA FISIO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933961448",
+    "nome_marca": "O Seu Lugar de Força na Vida",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934397252",
+    "nome_marca": "CASA NUTRIME NUTRIÇÃO CLÍNICA E FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941045269",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933028024",
+    "nome_marca": "A.T.F. AMAZE TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941463540",
+    "nome_marca": "UNIÃO FUNCIONAL KIDS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939422662",
+    "nome_marca": "UM FORJA ACADEMIA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942934075",
+    "nome_marca": "HYV A força de quem persevera",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938237705",
+    "nome_marca": "Academia Boa Forma Porto Fit",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "929386760",
+    "nome_marca": "MULHER EM FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "934494100",
+    "nome_marca": "Dra. And Yara Medicina Funcional Integrativa",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "939666120",
+    "nome_marca": "FUNCIONAL DO PABLO",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "935394052",
+    "nome_marca": "Método CDF - Campo de Força",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941405249",
+    "nome_marca": "ELEV FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "922148210",
+    "nome_marca": "Cintas Forma Modeladores",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942831705",
+    "nome_marca": "GL Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933691637",
+    "nome_marca": "Pelvih Fisioterapia Pélvica Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "933610947",
+    "nome_marca": "Funcional ritmos",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "916794547",
+    "nome_marca": "STILL PET FORÇA ANIMAL PRODUCTS FOR ANIMALS",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "942638310",
+    "nome_marca": "FORMA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938420305",
+    "nome_marca": "ESTUDIO UP TREINAMENTO FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "932233767",
+    "nome_marca": "CCF CERTIFICAÇÃO EM CULINÁRIA FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941399605",
+    "nome_marca": "BURN 360 Studio Funcional",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "907183182",
+    "nome_marca": "Mega Forma Suplementos e Artigos Esportivos",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "904477665",
+    "nome_marca": "FUNCIONAL BRASIL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "940138778",
+    "nome_marca": "FORJA NAÇÕES",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "916108341",
+    "nome_marca": "FORJA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "912502452",
+    "nome_marca": "A FORÇA DO QUERER",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "919422160",
+    "nome_marca": "FELIPE CAPUTO COZINHA FUNCIONAL E MEDITERRÂNEA",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "921044780",
+    "nome_marca": "Nebula Forja de Jogos",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "941465349",
+    "nome_marca": "MÉTODO FERTILIDADE FUNCIONAL",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  },
+  {
+    "numero_processo": "938615181",
+    "nome_marca": "Tradução",
+    "veredito": "SEM COLIDÊNCIA",
+    "risco": "nulo"
+  }
+]

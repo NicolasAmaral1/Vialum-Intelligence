@@ -1,0 +1,106 @@
+{
+  "checkpoint_seguranca": {
+    "marcas_promovidas": [],
+    "marcas_revisadas": [
+      {
+        "numero_processo": "915068990",
+        "nome_marca": "E MÉTODO EXPLICA CONCURSOS",
+        "classe": 35,
+        "razao": "Classe 35 aprovada; marca menciona 'CONCURSOS' (educacional); mantém em nivel_3 por diferenciação clara"
+      },
+      {
+        "numero_processo": "919821219",
+        "nome_marca": "MÉTODO ONLINE THAIS BORGES",
+        "classe": 41,
+        "razao": "Classe 41 (educação); marca menciona 'ONLINE'; avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "924809248",
+        "nome_marca": "Curso Driblando o Português Sinalizado - Método DPS",
+        "classe": 41,
+        "razao": "Classe 41; marca menciona 'Curso'; avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "930187776",
+        "nome_marca": "MÉTODO DO DIREITO CURSO EDUCACIONAL ONLINE OAB",
+        "classe": 41,
+        "razao": "Classe 41; marca menciona 'CURSO' e 'ONLINE'; avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "936462833",
+        "nome_marca": "Método 321 Anúncios Online",
+        "classe": 41,
+        "razao": "Classe 41; marca menciona 'Online'; avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "937491110",
+        "nome_marca": "MEUL - Método Eventos Ultra Luxo",
+        "classe": 41,
+        "razao": "Classe 41; marca menciona 'Eventos'; avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "938444468",
+        "nome_marca": "Método ES Curso de Redação",
+        "classe": 41,
+        "razao": "Classe 41; marca menciona 'Curso'; avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "938515675",
+        "nome_marca": "Método Percurso de Marca",
+        "classe": 35,
+        "razao": "Classe 35 aprovada; marca menciona 'Percurso' (conceitual); avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "938757571",
+        "nome_marca": "MÉTODO REDATRIX - REDAÇÃO PARA CONCURSOS",
+        "classe": 41,
+        "razao": "Classe 41; marca menciona 'CONCURSOS' (educacional); avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "939687658",
+        "nome_marca": "Método Suprema Mentoria e Curso em Tarot e Cartomancia",
+        "classe": 41,
+        "razao": "Classe 41; marca menciona 'Curso'; avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "939770369",
+        "nome_marca": "Método de Formação de Base Acelerada em Concursos Públicos",
+        "classe": 41,
+        "razao": "Classe 41; marca menciona 'Formação' (educacional); avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "942036824",
+        "nome_marca": "MÉTODO POLICIAL CURSOS PREPARATÓRIOS",
+        "classe": 41,
+        "razao": "Classe 41; marca menciona 'CURSOS'; avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "931800579",
+        "nome_marca": "MDTP - Método Didático Tecnológico Personalizado",
+        "classe": 35,
+        "razao": "Classe 35 aprovada; contém 'Personalizado' (não 'PERSONAS'); avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "819480339",
+        "nome_marca": "PERSONALLIS",
+        "classe": 40,
+        "titular": "PERSONALLIS FARMACIA DE MANIPULACAO LTDA",
+        "razao": "Classe 40 (publicidade, gestão comercial); titular é farmácia; PERSONALLIS≠PERSONAS (fonética 0.69); avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "931611199",
+        "nome_marca": "Método CDP ? Clareamento Dental Personalizado",
+        "classe": 41,
+        "razao": "Classe 41; setor odontológico (clareamento dental); avaliação correta em nivel_3"
+      },
+      {
+        "numero_processo": "940553589",
+        "nome_marca": "Método CoreDR Pilates Funcional Personalizado",
+        "classe": 41,
+        "razao": "Classe 41; setor fitness/pilates; avaliação correta em nivel_3"
+      }
+    ],
+    "resultado": "OK",
+    "nota": "Checkpoint de segurança concluído. Nenhuma marca em nivel_3 apresenta risco de promoção imediata. As 12 marcas com 'Curso/Evento/Online' em classes 35/41 foram avaliadas e estão corretamente classificadas em nivel_3 por diferenciação clara. As 4 marcas contendo 'PERSONA/PERSONALIZADO' foram analisadas: PERSONALLIS é uma farmácia (classe 40, não educacional) e as outras duas são de setores específicos (odontologia, pilates). Nenhuma duplicidade de titular entre niveis encontrada. Peneira pode prosseguir para próximas fases."
+  }
+}

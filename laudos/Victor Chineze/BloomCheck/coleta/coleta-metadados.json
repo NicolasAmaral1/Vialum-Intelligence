@@ -1,0 +1,46 @@
+{
+  "marca": "BloomCheck",
+  "classes": [
+    9,
+    35,
+    38,
+    42,
+    44
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "similaridade_minima": 20,
+  "max_paginas": 10,
+  "por_classe": {
+    "9": {
+      "encontradas": 3
+    },
+    "35": {
+      "encontradas": 7
+    },
+    "38": {
+      "encontradas": 0
+    },
+    "42": {
+      "encontradas": 5
+    },
+    "44": {
+      "encontradas": 3
+    }
+  },
+  "busca_geral": {
+    "encontradas": 0,
+    "novas_unicas": 0
+  },
+  "total_coletadas": 18,
+  "total_unicas": 17,
+  "buckets": {
+    "A": 10,
+    "B": 2,
+    "C": 5
+  },
+  "sucesso": true,
+  "erro": null,
+  "inicio": "2026-04-10T04:23:39.511094+00:00",
+  "fim": "2026-04-10T04:24:35.831038+00:00",
+  "duracao_segundos": 56.3
+}

@@ -1,0 +1,44 @@
+{
+  "filtro_pos_spec": {
+    "relevantes": [],
+    "irrelevantes": [
+      {
+        "processo": "828505640",
+        "nome": "PERSONAGENS DA VEZ",
+        "classe": 38,
+        "motivo": "Classe 38 (Telecomunicações) não está entre as classes aprovadas (9,35,38,41,42) relevantes para educação/treinamento/eventos. Especificação: 'RADIODIFUSÃO; TELECOMUNICAÇÃO (INFORMAÇÃO SOBRE -) E TELEDIFUSÃO' não toca nenhum campo semântico da atividade do cliente (educação, ensino, curso, treinamento, coaching, eventos, seminários, conferências). Camada 1: NCL code mismatch - classe existe nas aprovadas mas conteúdo semântico é telecomunicações, não educação."
+      }
+    ],
+    "ambiguos_promovidos": [],
+    "metadata": {
+      "total_marcas_analisadas": 1,
+      "total_com_specs": 1,
+      "total_sem_specs": 25,
+      "data_analise": "2026-04-10",
+      "cliente_atividade": "Curso Online, Eventos",
+      "classes_aprovadas": [
+        9,
+        35,
+        38,
+        41,
+        42
+      ],
+      "campos_semanticos_cliente": [
+        "educação",
+        "ensino",
+        "curso",
+        "treinamento",
+        "coaching",
+        "eventos",
+        "seminários",
+        "conferências",
+        "marketing",
+        "personas",
+        "consultoria",
+        "SaaS",
+        "plataforma digital",
+        "streaming"
+      ]
+    }
+  }
+}

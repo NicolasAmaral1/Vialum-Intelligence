@@ -1,0 +1,3404 @@
+[
+  {
+    "numero_processo": "940194376",
+    "nome_marca": "INQ. HOME",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "VETTORE DESENVOLVIMENTO IMOBILIARIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 100,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "940193795",
+    "nome_marca": "INQ. PAMPULHA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "VETTORE DESENVOLVIMENTO IMOBILIARIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 100,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "942651804",
+    "nome_marca": "NANO INC.",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "SIMONE CARVALHO SANTOS",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "942597702",
+    "nome_marca": "EMEC.INC",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "Emec Incorporações Ltda",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "942461690",
+    "nome_marca": "Acervo Inc.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ACERVO INCORPORACAO E PARTICIPACOES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "942481925",
+    "nome_marca": "EPX INC",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "FABIO LEAL CABRAL",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "941949621",
+    "nome_marca": "INT CAPITAL",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "INT CAPITAL ADVISORY LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "941928705",
+    "nome_marca": "CONECTA.INC",
+    "situacao": "Aguardando manifestação sobre oposição",
+    "titular": "CONECTA INTELIGENCIA FINANCEIRA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "941751619",
+    "nome_marca": "INC CAPITAL",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "INC CAPITAL FAMILY OFFICE LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "941686400",
+    "nome_marca": "INB IMÓVEIS NA BRAVA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "IMOVEIS NA BRAVA NEGOCIOS IMOBILIARIOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "941374394",
+    "nome_marca": "VERTIA INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "BC PARTICIPACOES E INVESTIMENTOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "941310620",
+    "nome_marca": "UP INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "UP INCORPORADORA E CONSTRUTORA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "942067096",
+    "nome_marca": "PIER INC.",
+    "situacao": "Aguardando manifestação sobre oposição",
+    "titular": "HSH INCORPORAÇÕES IMOBILIÁRIA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939178613",
+    "nome_marca": "JAGUAR MINING INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "MINERAÇÃO SERRAS DO OESTE LIMITADA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "937935930",
+    "nome_marca": "ALL_INC GRUPO ALLGAYER",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ALLGAYER ENGENHARIA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "940101890",
+    "nome_marca": "RITZY INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "WONDERVIEW INCORPORACAO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "940006766",
+    "nome_marca": "Tech. Inc",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "CASÉ MELO DESENVOLVIMENTO IMOBILIÁRIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939968401",
+    "nome_marca": "Hub de Ino Livelo",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ELO PARTICIPAÇÕES LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939980312",
+    "nome_marca": "EDK inc.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "EDK CONSTRUTORA & INCORPORADORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939848201",
+    "nome_marca": "SHIBA INU",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "MAURICIO TRENTIN",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939746956",
+    "nome_marca": "USE.INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "BDF EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939607093",
+    "nome_marca": "ORLA INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ORLA CONSTRUTORA E INCORPORADORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939565919",
+    "nome_marca": "ZOE INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "RODRIGO PAMPILLON GONZALEZ PACHECO MEIRELLES PINTO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939151820",
+    "nome_marca": "-",
+    "situacao": "Pedido considerado inexistente",
+    "titular": "MARCELO TITO DOS REIS SOARES",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939353210",
+    "nome_marca": "WE inc",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "CEC-ENGENHARIA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939048418",
+    "nome_marca": "-",
+    "situacao": "Pedido considerado inexistente",
+    "titular": "SEVEN INC DESENVOLVIMENTO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939218070",
+    "nome_marca": "ESPACIAL INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ESPACIAL DESENVOLVIMENTO IMOBILIARIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "940333384",
+    "nome_marca": "R DIMER INC. & CONSTRUTORA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "R DIMER EMPREENDIMENTOS IMOBILIÁRIOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939191083",
+    "nome_marca": "ALLURE . CONSTRUTORA E INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ALLURE PARTICIPAÇÕES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939135388",
+    "nome_marca": "BARTOLO INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "BARTOLO INCORPORAÇÕES LIMITADA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "932939341",
+    "nome_marca": "LEGADO INC Viva o futuro.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "JN PARTICIPAÇÕES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939215730",
+    "nome_marca": "LEGADO \\ INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "MY BROKER INCORPORACOES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "932606210",
+    "nome_marca": "B BACH INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "BACH PARTICIPACOES IMOBILIARIAS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "938002732",
+    "nome_marca": "OLIVA INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "TRIO EMPREENDIMENTOS LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "937475416",
+    "nome_marca": "JAGUAR MINING INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "MINERAÇÃO SERRAS DO OESTE LIMITADA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "937143391",
+    "nome_marca": "DIAGONAL INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "DIAGONAL EMPREENDIMENTOS E ENGENHARIA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "937019674",
+    "nome_marca": "VSA INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "VSA INC EMPREENDIMENTOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "936927330",
+    "nome_marca": "INT INTECH BENEFICIOS",
+    "situacao": "Para liberar para exame de mérito (pedido de registro sem oposição)",
+    "titular": "INTECH GESTÃO DE BENEFICIOS LTDA -ME",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "936926244",
+    "nome_marca": "Atmos Inc",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "M. ALMEIDA SERVICOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "936680938",
+    "nome_marca": "Brasil Urbanismo & INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "BRASIL PARTICIPAÇÕES & INC LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "936715472",
+    "nome_marca": "QG BY YOU,INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "YOU INC INCORPORADORA E PARTICIPAÇÕES S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "936625406",
+    "nome_marca": "DRAFT INC.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "DRAFT INCORPORAÇÃO E EMPREENDIMENTOS LITDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "936623039",
+    "nome_marca": "Éter inc.",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "ÉTER INCORPORAÇÕES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "936009632",
+    "nome_marca": "Nomad Inc",
+    "situacao": "Aguardando cumprimento de exigência de mérito",
+    "titular": "DEIVID ALAN MACEDO HONORIO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "935869590",
+    "nome_marca": "IMÓVEIS NORDESTE RURAIS INR",
+    "situacao": "Registro de marca em vigor",
+    "titular": "J F DE LIMA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "935792260",
+    "nome_marca": "SPACE INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SPACE INCORPORADORA IMOBILIARIA S/A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "935721983",
+    "nome_marca": "NOVA SP INC. INCORPORADORA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "NOVA SP INC. LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "935608940",
+    "nome_marca": "INC PARTNERS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "RSV DESENVOLVIMENTOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "935505598",
+    "nome_marca": "InW Business",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INW BUSINESS INTERMEDIAÇÃO E CONSULTORIA LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "935340114",
+    "nome_marca": "Fonte Inc",
+    "situacao": "Registro de marca em vigor",
+    "titular": "FONTE SECURITIZADORA S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "501769889",
+    "nome_marca": "CROCS inc",
+    "situacao": "Registro de marca em vigor (Madri)",
+    "titular": "Crocs, Inc.",
+    "classe": 35,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "934868166",
+    "nome_marca": "Morada Realty Inc.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ARTHUR VALADÃO XAVIER DE ALMEIDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "934734216",
+    "nome_marca": "HILTON GARDEN INN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "HILTON WORLDWIDE MANAGE LIMITED",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "934729220",
+    "nome_marca": "HILTON GARDEN INN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "HILTON WORLDWIDE MANAGE LIMITED",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "934647569",
+    "nome_marca": "KARAUÊ .INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "KARAUE INCORPORADORA LTDA - DEMAIS",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "934535175",
+    "nome_marca": "PG INC - INCORPORADORA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PG INC.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "934367957",
+    "nome_marca": "Nexa Inc",
+    "situacao": "Aguardando fim de sobrestamento",
+    "titular": "NEXA FINANCE LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "934403180",
+    "nome_marca": "Quartett inc.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "QUARTETT PARTICIPACOES E INCORPORACOES IMOBILIARIAS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "939182947",
+    "nome_marca": "INV Saúde Corretora de Seguros",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "INOVE SAÚDE CORRETORA DE SEGUROS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "933797060",
+    "nome_marca": "OC INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "O.C INCORPORAÇÃO E CONSTRUÇÃO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "933523408",
+    "nome_marca": "MK4 INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "THIAGO RODRIGUES DAMATO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "933428340",
+    "nome_marca": "CK Investimentos Inc.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "THIAGO DE FRANÇA MATOS",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "933500009",
+    "nome_marca": "ALEX INV NEGÓCIOS IMOBILIÁRIOS",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "ALEXANDRO BARBOSA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "933178638",
+    "nome_marca": "INC INOVARE ONLINE",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "INOVARE ONLINE SERVIÇOS IMOBILIÁRIOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "933153899",
+    "nome_marca": "Q1 INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Q1 INC DESENVOLVIMENTO IMOBILIARIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "921891300",
+    "nome_marca": "click ink",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ALPHA HOLDING S.A. DE C.V.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "932698212",
+    "nome_marca": "Q1 INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Q1 INC DESENVOLVIMENTO IMOBILIARIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "932543804",
+    "nome_marca": "BM8 INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "BM8 INCORPORAÇÃO E ADMINISTRAÇÃO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "932661335",
+    "nome_marca": "INS CRED Empréstimo Consignado",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "GIOVANNA AMORIM ROVANI",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "919621449",
+    "nome_marca": "INS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "EASYNVEST - TÍTULO CORRETORA DE VALORES S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "932480390",
+    "nome_marca": "47 INC.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "HAUS 47 INCORPORADORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "932426999",
+    "nome_marca": "FARES INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "FARES INC LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "932298281",
+    "nome_marca": "Desenvolvimento e Educação Financeira Fortuna.inc",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "JONATHAN FURTUOZO DHELOMME",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931976499",
+    "nome_marca": "CN INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CENTER NORTE S/A CONSTRUCAO EMPREEND ADM E PARTICIPAÇÃO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931983070",
+    "nome_marca": "CCN INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CENTER NORTE S/A CONSTRUCAO EMPREEND ADM E PARTICIPAÇÃO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931983010",
+    "nome_marca": "NORTE INC",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "CENTER NORTE S/A CONSTRUCAO EMPREEND ADM E PARTICIPAÇÃO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931977380",
+    "nome_marca": "CENTER NORTE INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CENTER NORTE S/A CONSTRUCAO EMPREEND ADM E PARTICIPAÇÃO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931718899",
+    "nome_marca": "INX IMÓVEIS",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "INX BRASIL IMÓVEIS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931754020",
+    "nome_marca": "GPE Inc",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "GPE INCORPORAÇÃO E EMPREENDIMENTOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931722888",
+    "nome_marca": "IN3 EMPREENDIMENTOS IMOBILIÁRIOS",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "SPE - IN3CB187 EMPREENDIMENTOS IMOBILIARIOS LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931495121",
+    "nome_marca": "CRIANDO ATIVOS INC",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "CRIANDO ATIVOS INCORPORAÇÕES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931414130",
+    "nome_marca": "íntegra.inc",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "PLINIO PIROVANI CASTRO FERRAZ",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "931239494",
+    "nome_marca": "HOM,INC",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "You inc Incorporadora e Participações S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930702166",
+    "nome_marca": "ATLANTIC INC",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "ATLANTIC INC S/A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930735056",
+    "nome_marca": "NOOR INC",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "NOOR INCORPORADORA LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930540476",
+    "nome_marca": "MONTANA INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "MONTANA DESENVOLVIMENTO DE NEGÓCIOS IMOBILIÁRIOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930539788",
+    "nome_marca": "MONTANA INC",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "MONTANA DESENVOLVIMENTO DE NEGÓCIOS IMOBILIÁRIOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930452461",
+    "nome_marca": "azo inc",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "titular": "AZO INC NEGOCIOS IMOBILIARIOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930359798",
+    "nome_marca": "SPAZO INC",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "SPAZO INC INCORPORADORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930272706",
+    "nome_marca": "LAF INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "LAF CONSTRUTORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "501707416",
+    "nome_marca": "TURKISH AIRLINES INC.",
+    "situacao": "Aguardando apresentação ou exame de recurso contra o deferimento parcial de Designação Recebida",
+    "titular": "TÜRK HAVA YOLLARI ANONIM ORTAKLIGI",
+    "classe": 12,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930194225",
+    "nome_marca": "NASCIMENTO E CAMARGO CONSTRUTORA E INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CAMARGO DO NASCIMENTO CONSTRUTORA E INCORPORADORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930159560",
+    "nome_marca": "INVITE INC.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "INVITE EMPREENDIMENTOS SA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "930174003",
+    "nome_marca": "INC.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "RAPHAEL GUARANA MENEZES",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "929795059",
+    "nome_marca": "QUATTRO INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "QUATTRO INC INCORPORADORA E PARTICIPACOES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "929506073",
+    "nome_marca": "INX IMÓVEIS",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "INX IMOVEIS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "929321154",
+    "nome_marca": "INC Empreendimentos",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "INTER CONSTRUTORA E INCORPORADORA LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "929311035",
+    "nome_marca": "Instituto Nacional de Investidores INI",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "LUCIANO DE BARROS PAES",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "929358678",
+    "nome_marca": "IN7 IMOBILIÁRIA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SHALOM IMOVEIS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "929245873",
+    "nome_marca": "INC DESENVOLVIMENTO IMOBILIÁRIO",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INC DESENVOLVIMENTO IMOBILIARIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-1"
+  },
+  {
+    "numero_processo": "929009363",
+    "nome_marca": "Prime INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "LFCBORGES INCORPORAÇÕES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "928941680",
+    "nome_marca": "UNQ Imóveis",
+    "situacao": "Registro de marca em vigor",
+    "titular": "UNQ IMOBILIARIA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "928194868",
+    "nome_marca": "Planta Inc. Consultoria Imobiliária",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "PLANTA CONSULTORIA IMOBILIÁRIA S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "928095525",
+    "nome_marca": "investor$Inc",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "LOPES & TELES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "927979004",
+    "nome_marca": "JUQUE INN",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ECOIMOVEIS CONSULTORIA IMOBILIARIA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "927918374",
+    "nome_marca": "AMAZONIA VERDE IND. COM. IMP. & EXP .LTDA",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "AMAZONIA VERDE COMERCIO ATACADISTA DE MADEIRA LTDA ME",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "927856611",
+    "nome_marca": "A inc.",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "VICTOR HERTEL",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "927384116",
+    "nome_marca": "SOMA INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "LOTEAR DESENVOLVIMENTO URBANO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "927110369",
+    "nome_marca": "HORIZONT INC",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "FABIAN ALVES BASTOS",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "927063620",
+    "nome_marca": "GET.INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "GET INC PARTICIPAÇÕES E EMPREENDIMENTOS IMOBILIÁRIOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "926828916",
+    "nome_marca": "Everest INC",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "EVEREST GROUP PARTICIPACOES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "926525786",
+    "nome_marca": "3W INS.",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "3W INSURANCE SOCIEDADE DE CORRETAGEM DE SEGUROS LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "926587730",
+    "nome_marca": "AZU INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "DELIMA INTERMEDIACAO E CONSULTORIA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "926519247",
+    "nome_marca": "INS Invinsurance Corretora de Seguros",
+    "situacao": "Registro de marca em vigor",
+    "titular": "EMMANUEL DIAS DE LIMA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "926490656",
+    "nome_marca": "Espaço INX",
+    "situacao": "Registro de marca em vigor",
+    "titular": "RAQUEL VALERIA DE OLIVEIRA ENGEL",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "926344234",
+    "nome_marca": "ONE INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ONE INCORPORADORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "925995894",
+    "nome_marca": "Bluehouse Inc",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "BLUEHOUSE INCORPORAÇÕES",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "925892548",
+    "nome_marca": "LOCUS INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "LOCUS INC DESENVOLVIMENTO IMOBILIARIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "925491489",
+    "nome_marca": "inv+ bradesco",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "BANCO BRADESCO S/A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "925475831",
+    "nome_marca": "CAI CRIANDO ATIVOS INC.",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "CRIANDO ATIVOS INCORPORAÇÕES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "925491586",
+    "nome_marca": "inv+",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "BANCO BRADESCO S/A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "933976828",
+    "nome_marca": "CENTER NORTE INC CIDADE CENTER NORTE",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CENTER NORTE S/A CONSTRUCAO EMPREEND ADM E PARTICIPAÇÃO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "924212110",
+    "nome_marca": "Ã UMÃ INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "JORGE CALIL CURY FILHO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "924037148",
+    "nome_marca": "Pratica INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PRT CONSTRUTORA E INCORPORADORA LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "924042630",
+    "nome_marca": "YOU,INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "You inc Incorporadora e Participações S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "923825509",
+    "nome_marca": "ARBOR.INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ARBOR DESENVOLVIMENTO IMOBILIARIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "923819924",
+    "nome_marca": "ÉTICA INC.",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ÉTICA INCORPORADORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "923696270",
+    "nome_marca": "Giant Inc.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "VISIA EMPREENDIMENTOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "923146890",
+    "nome_marca": "INV",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INV PUBLICACOES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "923125310",
+    "nome_marca": "INS INSURAMA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INSURANCE GROUP S.L.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "923089683",
+    "nome_marca": "Share Inc",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SHARE SERVIÇOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "923054600",
+    "nome_marca": "4 MOVE INC.",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ERBMAX EMPREENDIMENTOS E PARTICIPAÇÕES EIRELI",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "923089713",
+    "nome_marca": "Stu Inc",
+    "situacao": "Registro de marca em vigor",
+    "titular": "FABRICIO MITRE",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "922566402",
+    "nome_marca": "DOTZ INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CBSM - COMPANHIA BRASILEIRA DE SERVIÇOS DE MARKETING S.A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "922187878",
+    "nome_marca": "FUTURO INC",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "JOÃO GABRIEL CHAGAS BOGADO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "922222630",
+    "nome_marca": "PRIME INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "LUIZ FERNANDO DE CASTRO BORGES",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "818830522",
+    "nome_marca": "BFB PERSONNALITE DI 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "921360517",
+    "nome_marca": "AAM . INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "AAM INCORPORADORA DE IMOVEIS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "921320710",
+    "nome_marca": "INN LODGE",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ALHAMBRA ARQUEO PAISAGEM EIRELI",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "921247222",
+    "nome_marca": "HOUSE INC",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "STR INCORPORACOES E PARTICIPACOES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "920296858",
+    "nome_marca": "EZ INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "EZ TEC EMPREENDIMENTOS E PARTICIPAÇÕES S/A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "920121446",
+    "nome_marca": "I.IND. IMOBILIÁRIA INDAIAL",
+    "situacao": "Registro de marca em vigor",
+    "titular": "JAMES LISIESKI",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "919983022",
+    "nome_marca": "Estilo Inn",
+    "situacao": "Registro de marca em vigor",
+    "titular": "MURILO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "919941303",
+    "nome_marca": "DIMAS INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "DIMAS CONSTRUCOES LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "818830352",
+    "nome_marca": "BFB IMMEDIAT FUNDO DE APLIC EM QUOTAS DE FUND DE INV",
+    "situacao": "Registro de marca extinto",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "919507760",
+    "nome_marca": "XPEED SCHOOL BY XP INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "XP INVESTIMENTOS S/A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "919328849",
+    "nome_marca": "Baloo Inc.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BEATRIZ IARA M. SCHOUERI",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "918514436",
+    "nome_marca": "ONE INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ONE INCORPORADORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "918309263",
+    "nome_marca": "XP INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "XP INVESTIMENTOS S/A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "918337194",
+    "nome_marca": "ING DO YOUR THING",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ING GROEP N.V.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "917964560",
+    "nome_marca": "INC PRO",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BOM NEGÓCIO ATIVIDADES DE INTERNET LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "917514890",
+    "nome_marca": "XP INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "XP INVESTIMENTOS S/A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "917293118",
+    "nome_marca": "ING DREAM PLAN DO",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "ING GROEP N.V.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "917004159",
+    "nome_marca": "BYYOU, INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "You inc Incorporadora e Participações S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "917004116",
+    "nome_marca": "BYYOU, INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "You inc Incorporadora e Participações S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "917026560",
+    "nome_marca": "MOV INN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "MOV INN ADMINISTRAÇÃO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "916320464",
+    "nome_marca": "my INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "MHY EMPREENDIMENTOS E NEGOCIOS IMOBILIARIOS EIRELI",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "915836190",
+    "nome_marca": "VIDA INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "VIDA INC. INCORPORADORA E CONSTRUTORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "914881574",
+    "nome_marca": "Build Inc Incorporadora",
+    "situacao": "Registro de marca em vigor",
+    "titular": "OLGERBEA PARTICIPAÇÕES IMOBILIÁRIAS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "914525581",
+    "nome_marca": "BAIT INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ROARK 154 EMPREENDIMENTOS E PARTICIPAÇÕES LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "913676985",
+    "nome_marca": "campus inc",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ALL COWORKING LOCADORA DE EQUIPAMENTOS LTDA. - ME",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "913023973",
+    "nome_marca": "NIQ",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CASHTAG MEIOS DE PAGAMENTO S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "912460571",
+    "nome_marca": "House Of Ink",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "Guilherme Brenner Bello",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "912152176",
+    "nome_marca": "FOCAL INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "FOCAL INCORPORADORA E DESENVOLVIMENTO IMOBILIÁRIO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "910862559",
+    "nome_marca": "Alfabela Inc",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ALFABELA EMPREENDIMENTOS E PARTICIPACOES IMOBILIARIAS LTDA - ME",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "910099480",
+    "nome_marca": "CGTI COLUMBIA GRAIN TRADING INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "COLUMBIA GRAIN TRADING INC.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "908473494",
+    "nome_marca": "INVESTOR$INC Assessoria Imobiliária Internacional",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "L. C. F. TELES - ME",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "908239653",
+    "nome_marca": "INI In Novo Imóveis",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "Ivo de Almeida",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "907800947",
+    "nome_marca": "INI International Network of Insurance",
+    "situacao": "Registro de marca em vigor",
+    "titular": "International Network of Insurance, vereniging zonder winstoogmerk",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "907704239",
+    "nome_marca": "CRISTO DEUS INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CARLOS EDUARDO PERES",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "907659250",
+    "nome_marca": "NEW INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CRV CARVALHO CONSTRUTORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "907495095",
+    "nome_marca": "POSTAL INC",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "Postal Inc Pesquisa de Mercado Ltda",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "906977606",
+    "nome_marca": "FERREIRA LEITE INC",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "FERREIRA LEITE INCORPORAÇÕES LTDA-ME",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "906923433",
+    "nome_marca": "Adventist Risk Management, Inc",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ARM SUL AMERICANA CONSULTORIA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "906923360",
+    "nome_marca": "Adventist Risk Management, Inc",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ARM SUL AMERICANA CONSULTORIA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "906851700",
+    "nome_marca": "INC.REALTY",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INC.REALTY DESENVOLVIMENTO IMOBILIARIO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "906624452",
+    "nome_marca": "RED4 inC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "RED4 INCORPORAÇÕES LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "840252544",
+    "nome_marca": "HOLIDAY INN EXPRESS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SIX CONTINENTS HOTELS, INC",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "840252528",
+    "nome_marca": "HOLIDAY INN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SIX CONTINENTS HOTELS, INC",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "905651197",
+    "nome_marca": "HAFIL INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "HAFIL EMPREENDIMENTOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "905517962",
+    "nome_marca": "a s ALVES & SILVEIRA INC.",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ALVES & SILVEIRA COMERCIO E INCORPORACOES IMOBILIARIAS LTDA - EPP",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "904858650",
+    "nome_marca": "Cardieri Inc.",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "CARDIERI INCORPORAÇÕES E CONSTRUÇÕES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "904477991",
+    "nome_marca": "TLL BRASIL INC.",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "TORRES PRIME INCORPORADORA DE IMOVEIS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "840000111",
+    "nome_marca": "INP IMOBILIÁRIA NOVO PADRÃO",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "NOVO PADRÃO IMOBILIARIA LTDA ME",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "903542544",
+    "nome_marca": "F INV FUNDAMENTA INVESTIMENTOS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "FUNDAMENTA ADMINISTRAÇÃO DE CARTEIRAS DE VALORES MOBILIÁRIOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "902955020",
+    "nome_marca": "MINT INC.",
+    "situacao": "Registro de marca extinto",
+    "titular": "VINCORP - INCORPORAÇÕES E PARTICIPAÇÕES LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "830722998",
+    "nome_marca": "ARC ADVANCED REPRODUCTIVE CARE, INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Advanced Reproductive Care, Inc.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "902847260",
+    "nome_marca": "YOU,INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "You inc Incorporadora e Participações S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "830473025",
+    "nome_marca": "INX INVEST",
+    "situacao": "Arquivado",
+    "titular": "LUIZ ANTONIO DE REGO MONTEIRO",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "830410821",
+    "nome_marca": "Twist Inn Hotels",
+    "situacao": "Registro de marca extinto",
+    "titular": "SLEEPHOTELS, S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "830356568",
+    "nome_marca": "NKSJ Holdings, Inc.",
+    "situacao": "Registro de marca extinto",
+    "titular": "SOMPO JAPAN NIPPONKOA INSURANCE INC.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "901623458",
+    "nome_marca": "InI - Imóveis no Itaim",
+    "situacao": "Registro de marca extinto",
+    "titular": "EDSON NOGUEIRA DA ROCHA JUNIOR",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "901739936",
+    "nome_marca": "YOU, INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "KARY EMPREENDIMENTOS E PARTICIPAÇÕES LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "829926070",
+    "nome_marca": "H HOLIDAY INN CLUB VACATIONS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SIX CONTINENTS HOTELS, INC",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "829923233",
+    "nome_marca": "HOLIDAY INN CLUB",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SIX CONTINENTS HOTELS, INC",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "829920633",
+    "nome_marca": "HOLIDAY INN CLUB VACATIONS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SIX CONTINENTS HOTELS, INC",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "901127132",
+    "nome_marca": "CAENGE INC",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "FABIO AURÉLIO BRANCO GONÇALVES",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "829849661",
+    "nome_marca": "INK",
+    "situacao": "Registro de marca em vigor",
+    "titular": "GISELA MAURO E SILVA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "829801316",
+    "nome_marca": "TIME CARD PROCESSAMENTO DE COBRANÇAS E INF CADASTRAIS",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "MARCOS ALMEIDA MACHADO - ME",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "829653856",
+    "nome_marca": "J JET INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "JET, INC.",
+    "classe": 11,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-2"
+  },
+  {
+    "numero_processo": "900731028",
+    "nome_marca": "INI INSTITUTO NACIONAL DE INVESTIDORES",
+    "situacao": "Registro de marca extinto",
+    "titular": "INSTITUTO NACIONAL DE INVESTIDORES - INI",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "900560096",
+    "nome_marca": "FERRADURA INN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "JANDRÉ EMPREENDIMENTOS E PARTICIPAÇÕES.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "900560100",
+    "nome_marca": "FERRADURA INN EXCLUSIVE",
+    "situacao": "Registro de marca em vigor",
+    "titular": "JANDRÉ EMPREENDIMENTOS E PARTICIPAÇÕES.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "829086951",
+    "nome_marca": "FORTRESS INV",
+    "situacao": "Registro de marca em vigor",
+    "titular": "FORTRESS INVESTMENT GROUP, LLC",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "828956022",
+    "nome_marca": "B2W INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Americanas S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "828923698",
+    "nome_marca": "BUSINESS TO WORLD INC",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "B2W - COMPANHIA DIGITAL",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "828302898",
+    "nome_marca": "WEEK INN",
+    "situacao": "Arquivado",
+    "titular": "TIME SHARING DO BRASIL EMPR IMOB E TURISTICOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "827405294",
+    "nome_marca": "R $ RECUPERE SERVIÇOS DE COBRANÇA E INF.CADASTRAIS",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "RECUPERE SERVIÇOS DE COBRANÇA E INFORMAÇÕES CADASTRAIS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "827383533",
+    "nome_marca": "GLOBOL CARD INC. CONNECTING COMMERCE",
+    "situacao": "Arquivado",
+    "titular": "GLOBOL VCARD DO BRASIL TURISMO LTDA",
+    "classe": 35,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "826915230",
+    "nome_marca": "TOPCLUB PROGRAMA IPQ DE RELACIONAMENTO",
+    "situacao": "Registro de marca extinto",
+    "titular": "IPIRANGA PETROQUIMICA S.A.",
+    "classe": 35,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "826403182",
+    "nome_marca": "ATLANTIC INN",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ATLANTIC - CONSTRUÇÕES E EMPREENDIMENTOS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "826325858",
+    "nome_marca": "GENERAL REALTY INC",
+    "situacao": "Registro de marca extinto",
+    "titular": "HADDOCK PARTICIPAÇÕES & EMPREENDIMENTOS IMOBIÁRIOS LTDA - EPP",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "825787700",
+    "nome_marca": "INSTITUTO DE NORMAS MERCANTIS - INM",
+    "situacao": "Registro de marca extinto",
+    "titular": "INSTITUTO DE NORMAS MERCANTIS - INM",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "825225701",
+    "nome_marca": "INI INSTITUTO NACIONAL DE INVESTIDORES",
+    "situacao": "Arquivado",
+    "titular": "INSTITUTO NACIONAL DE INVESTIDORES - INI",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "825138981",
+    "nome_marca": "RURAL INTERNATIONAL INC - BAHAMAS",
+    "situacao": "Arquivado",
+    "titular": "BANCO RURAL S.A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "825138949",
+    "nome_marca": "RURAL SECURITIES INC - MIAMI",
+    "situacao": "Arquivado",
+    "titular": "BANCO RURAL S.A",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "825024757",
+    "nome_marca": "A.G. EDWARDS & SONS, INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "WELLS FARGO CLEARING SERVICES, LLC",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "824873025",
+    "nome_marca": "ING",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Ing Groep N.V.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "823781143",
+    "nome_marca": "INSURANCE OF JAPAN INC.",
+    "situacao": "Registro de marca extinto",
+    "titular": "SOMPO JAPAN NIPPONKOA INSURANCE INC.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "823781135",
+    "nome_marca": "SOMPO JAPAN INSURANCE INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "SOMPO JAPAN INSURANCE INC.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "821954814",
+    "nome_marca": "DECISION CONSULTANTS INC",
+    "situacao": "Arquivado",
+    "titular": "ADVANCED SYSTEM SOLUTIONS LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "822266695",
+    "nome_marca": "XL CAPITAL ASSURANCE INC.",
+    "situacao": "Registro de marca extinto",
+    "titular": "X.L. AMERICA, INC",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "822165627",
+    "nome_marca": "ICQ",
+    "situacao": "Registro de marca extinto",
+    "titular": "ICQ LLC",
+    "classe": 42,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "822165520",
+    "nome_marca": "ICQ",
+    "situacao": "Registro de marca extinto",
+    "titular": "ICQ LLC",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "822105020",
+    "nome_marca": "MAGICALLY, INC.",
+    "situacao": "Arquivado",
+    "titular": "MAGICALLY, INC",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "822121280",
+    "nome_marca": "IBR IND. BRASILEIRA DE RODAS",
+    "situacao": "Arquivado",
+    "titular": "IBR INDÚSTRIA BRASILEIRA DE RODAS LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "821513664",
+    "nome_marca": "ISI EMERGING MARKETS INTERNET SECURITIES INC",
+    "situacao": "Registro de marca extinto",
+    "titular": "INTERNET SECURITIES DO BRASIL LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "821515071",
+    "nome_marca": "WATTEREDEE UNIFLEX INC",
+    "situacao": "Arquivado",
+    "titular": "POLYURETHANE COM IMP E EXP DE MANG E CONEX LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "821450220",
+    "nome_marca": "UOL INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "UNIVERSO ONLINE S/A",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "821362895",
+    "nome_marca": "EFAISLO EXP FEIRA AGRO E IND DE SÃO LOURENÇO D'OESTE",
+    "situacao": "Arquivado",
+    "titular": "PREFEITURA MUNICIPAL DE SÃO LOURENÇO D'OESTE",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "821118250",
+    "nome_marca": "BLU INK",
+    "situacao": "Arquivado",
+    "titular": "NEW KO-BRAS ASSESSORIA ADUANEIRA LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "821036017",
+    "nome_marca": "RONTAN DECATUR ELETRONICS, INC",
+    "situacao": "Arquivado",
+    "titular": "RONTAN ELETRO METALURGICA LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "821122665",
+    "nome_marca": "AQUA ALLIANCE INC.",
+    "situacao": "Arquivado",
+    "titular": "AQUA ALLIANCE INC.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "821049275",
+    "nome_marca": "LOJA DA BORRACHA LOBOR IND",
+    "situacao": "Arquivado",
+    "titular": "LOJA DA BORRACHA INDÚSTRIA E COMÉRCIO LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820890014",
+    "nome_marca": "F BANESPA DE INV FIN DI 60 MISTO TRADIC (MIX DI 60-TRA)",
+    "situacao": "Arquivado",
+    "titular": "BANCO DO ESTADO DE SÃO PAULO S.A. - BANESPA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820875791",
+    "nome_marca": "SIPC - RURAL SERV DE INF E PROT AO CRÉD RURAL",
+    "situacao": "Arquivado",
+    "titular": "OSMAR ANTONIO DA SILVA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820874019",
+    "nome_marca": "F BANESPA INV FINAN DI-60 MISTO MODERNO (MIX DI-60 MOD)",
+    "situacao": "Extinto",
+    "titular": "BANCO DO ESTADO DE SÃO PAULO S.A. - BANESPA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820874000",
+    "nome_marca": "F BANESPA INV FIN DI-60 MISTO AVANÇADO (MIX DI-60 AVA)",
+    "situacao": "Extinto",
+    "titular": "BANCO DO ESTADO DE SÃO PAULO S.A. - BANESPA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820696625",
+    "nome_marca": "F BANESPA APL COT F INV F R F DI 30 VIP (FBQ DI 30 VIP)",
+    "situacao": "Arquivado",
+    "titular": "BANCO DO ESTADO DE SÃO PAULO S.A. - BANESPA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820696617",
+    "nome_marca": "F BANESPA APL COT F INV FIN RE FI 30 PLUS (FBQ 30 PLUS)",
+    "situacao": "Arquivado",
+    "titular": "BANCO DO ESTADO DE SÃO PAULO S.A. - BANESPA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820696609",
+    "nome_marca": "F BANESPA APL COT F INV FINAN RE FI 30 TOP (FBQ 30 TOP)",
+    "situacao": "Arquivado",
+    "titular": "BANCO DO ESTADO DE SÃO PAULO S.A. - BANESPA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820696595",
+    "nome_marca": "F BANESPA APL COT F INV FINAN RE FI 30 VIP (FBQ 30 VIP)",
+    "situacao": "Extinto",
+    "titular": "BANCO DO ESTADO DE SÃO PAULO S.A. - BANESPA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820688274",
+    "nome_marca": "FRANÇA 98 LBV BR. PENTA. EU TB. FIZ UM GOL P/INF.BRAS",
+    "situacao": "Arquivado",
+    "titular": "LEGIÃO DA BOA VONTADE",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820663301",
+    "nome_marca": "ING TULIP",
+    "situacao": "Arquivado",
+    "titular": "BANCO FINANCEIRO SUDAMERICANO-BAFISUD",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820663280",
+    "nome_marca": "ING TULIPA",
+    "situacao": "Arquivado",
+    "titular": "BANCO FINANCEIRO SUDAMERICANO-BAFISUD",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820395374",
+    "nome_marca": "SPORTS ONE INC GOLD SERIES",
+    "situacao": "Arquivado",
+    "titular": "CARLOS ROBERTO PEREIRA DE ALENCASTRO GUIMARAES ME",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820403695",
+    "nome_marca": "COMINSUL CÂMARA DE COM E DE INT DO MERCOSUL E DA AM LT",
+    "situacao": "Arquivado",
+    "titular": "COMINSUL CAMARA DE COM E INTEGR DO MERCOSUL E DA AM LT",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820318060",
+    "nome_marca": "DPA IND. E COM. DE PAPEIS",
+    "situacao": "Arquivado",
+    "titular": "DPA INDUSTRIA E COMERCIO DE PAPEIS LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "924397268",
+    "nome_marca": "LOGIS.INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "CONSTRUCRESPI CONSTRUÇÕES E ADMINISTRAÇÃO LTDA.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820203106",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Extinto",
+    "titular": "ING GROEP N.V",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820203092",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Extinto",
+    "titular": "ING GROEP N.V",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820203084",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Arquivado",
+    "titular": "ING GROEP N.V",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820203076",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Extinto",
+    "titular": "ING GROEP N.V",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820203068",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Extinto",
+    "titular": "ING GROEP N.V",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820203050",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Arquivado",
+    "titular": "ING GROEP N.V",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820203041",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Arquivado",
+    "titular": "ING GROEP N.V",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820203033",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Extinto",
+    "titular": "ING GROEP N.V",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820116505",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Extinto",
+    "titular": "ING GROEP N.V",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820116491",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Extinto",
+    "titular": "ING GROEP N.V",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820116483",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Arquivado",
+    "titular": "ING GROEP N.V",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820112739",
+    "nome_marca": "VITAL SAUDE REDE INT. DE SANTAS CASAS E HOSPITAIS",
+    "situacao": "Arquivado",
+    "titular": "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819955035",
+    "nome_marca": "INA",
+    "situacao": "Extinto",
+    "titular": "INA CORPORATION",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820064092",
+    "nome_marca": "MIDIA EXPERTISE YOUNG & RUBICAM INC.",
+    "situacao": "Arquivado",
+    "titular": "YOUNG & RUBICAM BRASIL PROPAGANDA LTDA.",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819900680",
+    "nome_marca": "THE BEST INN",
+    "situacao": "Arquivado",
+    "titular": "ARRECIFES HOTEIS E TURISMO S/A",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820043532",
+    "nome_marca": "MIDIA EXPERTISI-INC. Y&R",
+    "situacao": "Arquivado",
+    "titular": "YOUNG & RUBICAM BRASIL PROPAGANDA LTDA.",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819762083",
+    "nome_marca": "SIPIDESP - SIND IND PINTURAS E DECORAÇÕES DO EST DE SP",
+    "situacao": "Arquivado",
+    "titular": "SIND IND PINTURAS E DECORACOES DO ESTADO DE SAO PAULO",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819812234",
+    "nome_marca": "MAXSON YOUNG ASSOCIATES, INC.",
+    "situacao": "Arquivado",
+    "titular": "MAXSON YOUNG ASSOCIATES, INC",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819865664",
+    "nome_marca": "INA",
+    "situacao": "Registro de marca extinto",
+    "titular": "INA CORPORATION",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819654744",
+    "nome_marca": "RÁDIO INN",
+    "situacao": "Arquivado",
+    "titular": "DIET VIDEO MUSIC LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819653942",
+    "nome_marca": "R RYDER RYDER SISTEM, INC. TRUCK & CAR RENTAL",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "RYDER SERVIÇOS E LOCAÇAO DE VEICULOS LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819637009",
+    "nome_marca": "WORLD TELECOMMUNICATIONS SERVICES, INC",
+    "situacao": "Arquivado",
+    "titular": "WORLD ACCESS COMMUNICATIONS DO BRASIL LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819598216",
+    "nome_marca": "IND.",
+    "situacao": "Extinto",
+    "titular": "MODULO INFORMATICA INDUSTRIAL IMP E EXPORTACAO LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819501808",
+    "nome_marca": "CO-INS",
+    "situacao": "Arquivado",
+    "titular": "COTECNA SERVICOS LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819449296",
+    "nome_marca": "LASER INK",
+    "situacao": "Extinto",
+    "titular": "LUCANE INDUSTRIA E COMERCIO LTDA.",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819430587",
+    "nome_marca": "CHOPP INN CHOPPERIA & RESTAURANTE",
+    "situacao": "Arquivado",
+    "titular": "ADMIRA RIO BAR E RESTAURANTE LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "819114219",
+    "nome_marca": "ASTECA RIO CARGA INT'L LTDA",
+    "situacao": "Arquivado",
+    "titular": "ASTECA - RIO CARGA INTERNACIONAL LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818864753",
+    "nome_marca": "ABINT ASSOCIAÇÃO BRASILEIRA DAS IND. DE NÃO-TECID",
+    "situacao": "Registro de marca extinto",
+    "titular": "ASSOCIACAO BRASILEIRA DAS INDUSTRIAS DE NAO-TECIDOS",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830549",
+    "nome_marca": "PRIVBANK BFB RF 60 FUND DE APLIC EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830530",
+    "nome_marca": "PRIVBANK BFB RF 60 FUND DE APLIC EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830514",
+    "nome_marca": "BFB SOCIETE PLUS RF 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830506",
+    "nome_marca": "BFB SOCIETE PLUS RF 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830492",
+    "nome_marca": "BFB SOCIETE PLUS DI 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830484",
+    "nome_marca": "BFB SOCIETE DI 60 FUND DE APL EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830476",
+    "nome_marca": "BFB SOCIETE DI 60 FUND DE APL EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830468",
+    "nome_marca": "PRIVBANK BFB DERIV 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Registro de marca extinto",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830450",
+    "nome_marca": "BFB PERSON PLUS RF 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830441",
+    "nome_marca": "BFB PERSONNALITE DI 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830433",
+    "nome_marca": "BFB PERSON DI 30 FUND DE APLIC EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830417",
+    "nome_marca": "BFB SOCIETE RF 60 FUND DE APL EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830409",
+    "nome_marca": "BFB SOCIETE RF 60 FUND DE APL EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830395",
+    "nome_marca": "BFB PERSON PLUS RF 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830387",
+    "nome_marca": "PRIVBANK BFB DERIV 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Registro de marca extinto",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830379",
+    "nome_marca": "ITAÚ UNIBANCO HOLDING S.A.",
+    "situacao": "BFB CURTO PRAZO AUT FUND DE APLIC EM QT DE FUND DE INV",
+    "titular": null,
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830360",
+    "nome_marca": "ITAÚ UNIBANCO HOLDING S.A.",
+    "situacao": "BFB CURTO PRAZO AUT FUND DE APLIC EM QT DE FUND DE INV",
+    "titular": null,
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "820203114",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Extinto",
+    "titular": "ING GROEP N.V",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830344",
+    "nome_marca": "BFB IMMEDIAT FUNDO DE APLIC EM QUOTAS DE FUND DE INV",
+    "situacao": "Registro de marca extinto",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830336",
+    "nome_marca": "BFB SOCIETE DI 30 FUND DE APL EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830328",
+    "nome_marca": "BFB SOCIETE DI 30 FUND DE APL EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830298",
+    "nome_marca": "BFB PERSON DI 30 FUND DE APLIC EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830280",
+    "nome_marca": "BFB PERSON RF 60 FUND DE APLIC EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-3"
+  },
+  {
+    "numero_processo": "818830271",
+    "nome_marca": "BFB PERSON RF 60 FUND DE APLIC EM QUOTAS DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818830263",
+    "nome_marca": "BFB PERSON PLUS DI 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818830255",
+    "nome_marca": "BFB PERSON PLUS DI 60 FUND DE APL EM QT DE FUND DE INV",
+    "situacao": "Arquivado",
+    "titular": "ITAÚ UNIBANCO HOLDING S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818824026",
+    "nome_marca": "ADRESS-INN",
+    "situacao": "Extinto",
+    "titular": "ADRESS - ADMINIST REPRESENT DE SISTEMAS DE SAUDE LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818816929",
+    "nome_marca": "MICRON COMPUTER INC",
+    "situacao": "Arquivado",
+    "titular": "BONDWELL COMPUTADORES E SERVIÇOS LTDA.",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818759720",
+    "nome_marca": "ASSOCIAÇÃO BRAS DOS MAGISTRADOS DA INF E DA JUV ABRAMINJ",
+    "situacao": "Arquivado",
+    "titular": "ASSOCIACAO BRAS DOS MAGISTRADOS DA INF E DA JUV ABRAMIN",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818759712",
+    "nome_marca": "ASSOC BRAS DE MAGISTRADOS E PROM DE JUSTIÇA DA INF E JU",
+    "situacao": "Arquivado",
+    "titular": "ASSOCIACAO BRAS DOS MAGISTRADOS DA INF E DA JUV ABRAMIN",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818533803",
+    "nome_marca": "FERRADURA INN HOSPEDAGEM",
+    "situacao": "Arquivado",
+    "titular": "JANDRÉ EMPREENDIMENTOS E PARTICIPAÇÕES.",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818533790",
+    "nome_marca": "FERRADURA INN EXCLUSIVE",
+    "situacao": "Arquivado",
+    "titular": "JANDRÉ EMPREENDIMENTOS E PARTICIPAÇÕES.",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818475595",
+    "nome_marca": "VITASANA INC.",
+    "situacao": "Arquivado",
+    "titular": "VITASANA INC. COMERCIO IMPORTACAO E EXPORTACAO LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818395451",
+    "nome_marca": "INC",
+    "situacao": "Registro de marca extinto",
+    "titular": "INC IMOBILIARIA E CONSTRUTORA LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818219637",
+    "nome_marca": "IN2",
+    "situacao": "Arquivado",
+    "titular": "MOTOROLA SOLUTIONS, INC.",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818091711",
+    "nome_marca": "INP INSTITUTO NACIONAL DO PLASTICO",
+    "situacao": "Registro de marca em vigor",
+    "titular": "INSTITUTO NACIONAL DO PLÁSTICO",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818089580",
+    "nome_marca": "INTER DATE INC.",
+    "situacao": "Arquivado",
+    "titular": "I S C IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818089571",
+    "nome_marca": "INTER DATE INC.",
+    "situacao": "Arquivado",
+    "titular": "I S C IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818075210",
+    "nome_marca": "PADDINGTON PAPER & SUPPLIES INC",
+    "situacao": "Extinto",
+    "titular": "PADDINGTON PAPER & SUPPLIES, INC.",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "818061650",
+    "nome_marca": "THE LOOK OF THE YEAR INC.",
+    "situacao": "Extinto",
+    "titular": "GROUPE ELITE SA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "817956921",
+    "nome_marca": "RANKING REVENDA CONSTRUCAO DE CONCEITO E IMAGEM DA IND.",
+    "situacao": "Arquivado",
+    "titular": "CLASSE A EDITORA TECNICA LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "817737111",
+    "nome_marca": "SINPESP-SINDICATO DA IND. DO PAPELÃO, NO ESTADO DE SP",
+    "situacao": "Registro",
+    "titular": "SINDICATO DA INDUSTRIA DO PAPELAO, NO ESTADO DE SP",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "817736140",
+    "nome_marca": "FLEX-A-SEAL INC.",
+    "situacao": "Registro de marca em vigor",
+    "titular": "FLEX-A-SEAL DO BRASIL LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "817675418",
+    "nome_marca": "BOAVISTA FUNDO MÚTUO DE INV. EM AÇÕES CARTEIRA LIVRE",
+    "situacao": "Arquivado",
+    "titular": "BANCO BOAVISTA INTERATLÂNTICO S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "817362525",
+    "nome_marca": "DDI DOCTOR'S DATA INC",
+    "situacao": "Arquivado",
+    "titular": "DOCTORS DATA INC",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "817177388",
+    "nome_marca": "DECOR INN",
+    "situacao": "Arquivado",
+    "titular": "DECOR INN INDUSTRIA E COMERCIO LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "817126171",
+    "nome_marca": "REFRIEXPO-EXPOSIÇÃO INTERNACIONAL DE REFRIGERAÇÃO IND",
+    "situacao": "Extinto",
+    "titular": "ASSOCIACAO BRAS DA IND DE MAQS E EQUIPAMENTOS - ABIMAQ",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "817124004",
+    "nome_marca": "ING QUALITY",
+    "situacao": "Arquivado",
+    "titular": "BANCO FINANCEIRO SUDAMERICANO-BAFISUD",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "816911460",
+    "nome_marca": "HOLIDAY INN CONFERENCE NETWORK",
+    "situacao": "Arquivado",
+    "titular": "BASS INTERNATIONAL HOLDINGS N.V",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "816880174",
+    "nome_marca": "ASSIST ASSISTÊNCIA INT AOS SERVIDORES E TRABALHADORES",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ASSIST ASSOCIAÇÃO DOS SERVIDORES MUNICIPAIS, ESTADUAIS E FEDERAIS DO RJ",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "816718784",
+    "nome_marca": "ASSOCIACAO BRAS.DA IND.DE TORREF. E MOAGEM DE CAFE ABIC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ASSOCIACAO BRASILEIRA DA INDUSTRIA DE CAFE ABIC",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "816690146",
+    "nome_marca": "CHEMATICS INC",
+    "situacao": "Arquivado",
+    "titular": "PANAIR INTERNATIONAL IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "816656827",
+    "nome_marca": "ING",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Ing Groep N.V.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "816656819",
+    "nome_marca": "ING",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Ing Groep N.V.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "816567743",
+    "nome_marca": "TELENET FE INT D PRO E SERV D TEL COMUN D DADOS E REDES",
+    "situacao": "Arquivado",
+    "titular": "ELIANE ALENCAR BUSLIK EL KHOURI",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "816338000",
+    "nome_marca": "REFRIEXPO-EXPOSIÇÃO INTERNACIONAL DE REFRIGERAÇÃO IND",
+    "situacao": "Extinto",
+    "titular": "ASSOCIACAO BRAS DA IND DE MAQS E EQUIPAMENTOS - ABIMAQ",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "816315981",
+    "nome_marca": "INC",
+    "situacao": "Extinto",
+    "titular": "M L ZULZKE-& ASS INTERACAO EMPRESA E CONSUMIDOR SC LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "815713800",
+    "nome_marca": "LIQ. DE INV.SAIA DA TOCA IGUATEMI ONDE A VIDA ACONTECE",
+    "situacao": "Arquivado",
+    "titular": "SHOPPING CENTERS REUNIDOS DO BRASIL LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "815713746",
+    "nome_marca": "SAIA DA TOCA LIQ. DE INV. IGUATEMI ONDE A VIDA ACONTECE",
+    "situacao": "Arquivado",
+    "titular": "SHOPPING CENTERS REUNIDOS DO BRASIL LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "815702094",
+    "nome_marca": "WORLD INN",
+    "situacao": "Arquivado",
+    "titular": "WORLD INN TRAVEL SERVICE S/C LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "815536860",
+    "nome_marca": "CONSOLIDATED COMMUNICATION INC",
+    "situacao": "Extinto",
+    "titular": "CHIESA & CIA LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "815264038",
+    "nome_marca": "FACIG FEIRA DE AMOSTRA DO COM IND GUARÁ",
+    "situacao": "Extinto",
+    "titular": "ASSOCIACAO COMERCIAL DO GUARA",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "815237170",
+    "nome_marca": "INV - INDICE NIELSEN VAREJISTA",
+    "situacao": "Extinto",
+    "titular": "CZT/ACN TRADEMARKS, L.L.C",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814835252",
+    "nome_marca": "IND. HITER",
+    "situacao": "Registro de marca em vigor",
+    "titular": "HITER CONTROLS ENGENHARIA LTDA.",
+    "classe": 35,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814822762",
+    "nome_marca": "SERV QUAL SINDIREPA R IND REP VEIC A MARCA DA SUA CONF.",
+    "situacao": "Arquivado",
+    "titular": "SIND DA IND DA REP DE VEIC E ACESS DO ESTADO DE S PAULO",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814619819",
+    "nome_marca": "C CE CEA CEAG FAIMCE F DO ART E DA IND DOS MUN DO CEAR'",
+    "situacao": "Extinto",
+    "titular": "SERVIÇO DE APOIO AS MIC E PEQ EMP DO EST DO CE SEBRAE",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814619797",
+    "nome_marca": "C CE CEA CEAG FENAIVA F DE NEG ART E IND DO V DO ACARA'",
+    "situacao": "Extinto",
+    "titular": "SERVIÇO DE APOIO AS MIC E PEQ EMP DO EST DO CE SEBRAE",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814535917",
+    "nome_marca": "SÃO PAULO INC",
+    "situacao": "Arquivado",
+    "titular": "C. DICKENS INFORMACAO E COMUNICACAO LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814522815",
+    "nome_marca": "INA",
+    "situacao": "Arquivado",
+    "titular": "NAI IMPORTACAO E EXPORTACAO LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814431801",
+    "nome_marca": "PLAZA INN",
+    "situacao": "Registro de marca extinto",
+    "titular": "UNIAO DE HOTEIS ADMINISTRACAO E COMERCIO LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814260128",
+    "nome_marca": "IND. METALÚRGICA CORRADINI",
+    "situacao": "Extinto",
+    "titular": "ELMA COMÉRCIO DE PEÇAS AUTOMOTIVAS LTDA EPP",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814226051",
+    "nome_marca": "PRO INT",
+    "situacao": "Extinto",
+    "titular": "PRO INT REPRESENTACOES COMERCIO LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814184960",
+    "nome_marca": "SIPCE SERV INF E PROT AO CRED DAS ENTS EDUCACIONAIS",
+    "situacao": "Arquivado",
+    "titular": "IBENE INST BRAS DE ESTUDOS DE NORMAS EDUCACIONAIS",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "814136923",
+    "nome_marca": "COURTESY INN HOTELS & RESORTS",
+    "situacao": "Extinto",
+    "titular": "PROMO-HOTEIS TURISMO E LAZER LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "813748933",
+    "nome_marca": "BARRA INN",
+    "situacao": "Extinto",
+    "titular": "CONSTRUTORA SANTA ISABEL S/A",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "813586062",
+    "nome_marca": "SMOKERS-INN",
+    "situacao": "Extinto",
+    "titular": "CASA ANGLO BRASILEIRA S/A",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "813517060",
+    "nome_marca": "THE RED LION INN",
+    "situacao": "Arquivado",
+    "titular": "XYZ - PARTICIPACOES E ADMINISTRACAO S/C LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "813513413",
+    "nome_marca": "PLAZA INN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "TNM ADMINISTRAÇÃO HOTELEIRA LTDA - EPP",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "812872053",
+    "nome_marca": "BARRABELLA INN",
+    "situacao": "Extinto",
+    "titular": "CONSTRUTORA SANTA ISABEL S/A",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "812766601",
+    "nome_marca": "FACIARJ FEDERAÇÃO DAS ASSOC. COM. IND. AGRO PASTORIS",
+    "situacao": "Extinto",
+    "titular": "FEDER DAS ASS COM IND E AGROPASTORIS DO EST RIO JANEIRO",
+    "classe": 41,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "812759982",
+    "nome_marca": "REV DE FOR INF E ATUALIZAÇÃO EM CIR GERAL-CIRURGIA HOJ",
+    "situacao": "Extinto",
+    "titular": "ECN EDITORA CIENTIFICA NACIONAL LTDA",
+    "classe": 38,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "812259157",
+    "nome_marca": "INA",
+    "situacao": "Extinto",
+    "titular": "REFINARIA PIEDADE SOCIEDADE ANONIMA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "812229290",
+    "nome_marca": "LEBLON INN RESIDENCE SERVICE",
+    "situacao": "Arquivado",
+    "titular": "GAFISA PARTICIPACOES S/A",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "811489140",
+    "nome_marca": "CO-INS",
+    "situacao": "Extinto",
+    "titular": "COTECNA SERVICOS LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "810985780",
+    "nome_marca": "WEEK INN",
+    "situacao": "Extinto",
+    "titular": "TIME SHARING DO BRASIL EMPR IMOB E TURISTICOS LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "810838966",
+    "nome_marca": "AGRO INN",
+    "situacao": "Extinto",
+    "titular": "AGRO-INN COM REPRESENTACOES DE ADUBOS E SEMENTES LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "810659557",
+    "nome_marca": "WEMBLEY INN",
+    "situacao": "Extinto",
+    "titular": "WEMBLEY ADMINISTRADORA SOCIEDADE COMERCIAL LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "800059417",
+    "nome_marca": "INA",
+    "situacao": "Extinto",
+    "titular": "INA-INSTITUTO NACIONAL DE AVALIACOES LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "790342839",
+    "nome_marca": "RODOVALHO INC",
+    "situacao": "Extinto",
+    "titular": "RODOVALHO INC DO BRASIL LTDA",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "780037499",
+    "nome_marca": "INA",
+    "situacao": "Extinto",
+    "titular": "CIGNA CORPORATION",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "006084273",
+    "nome_marca": "INA",
+    "situacao": "Extinto",
+    "titular": "CIGNA CORPORATION",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "006084265",
+    "nome_marca": "INA",
+    "situacao": "Extinto",
+    "titular": "CIGNA CORPORATION",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "820203122",
+    "nome_marca": "ING BARINGS",
+    "situacao": "Extinto",
+    "titular": "ING GROEP N.V",
+    "classe": 40,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "925359319",
+    "nome_marca": "RDB INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "RAHRA DO BRASIL LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "933975422",
+    "nome_marca": "DT. INC",
+    "situacao": "Registro de marca em vigor",
+    "titular": "DT INCORPORADORA LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "939173239",
+    "nome_marca": "Morá Inc",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "HENRIQUE TEIXEIRA DE GERONI",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "940634562",
+    "nome_marca": "-",
+    "situacao": "Pedido considerado inexistente",
+    "titular": "VIRTA INCORPORAÇÕES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "942218507",
+    "nome_marca": "VIRTA Inc",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "VIRTA INCORPORAÇÕES LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "942671392",
+    "nome_marca": "FÁCIL INC.",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "ECOCIL INCORPORAÇÕES S.A.",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "942764668",
+    "nome_marca": "YVAZ inc",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "YVAZ INCORPORACOES E URBANISMO LTDA",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  },
+  {
+    "numero_processo": "942650700",
+    "nome_marca": "Essencial Inc",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "titular": "GUILHERME BONFIM GOMES",
+    "classe": 36,
+    "similaridade_pct": 99,
+    "fonte": "classe-36-pagina-4"
+  }
+]

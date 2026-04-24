@@ -1,0 +1,308 @@
+# Triagem Heurística — Pão Pérola Panificadora e Confeitaria
+
+## Decomposição da marca-alvo
+
+- **PEROLA** → DISTINTIVO (fonética: `perola`, esqueleto: `prl`)
+- **PAO** → DESCRITIVO (fonética: `pao`, esqueleto: `p`)
+- **PANIFICADORA** → DESCRITIVO (fonética: `panificadora`, esqueleto: `pnfcdr`)
+- **CONFEITARIA** → DESCRITIVO (fonética: `confeitaria`, esqueleto: `cnftr`)
+
+## Resultado
+
+| Tier | Qtd | Destino |
+|------|-----|---------|
+| T1 — Colidência direta | 220 | Cotejo |
+| T2 — Fonética forte | 55 | Cotejo |
+| T3 — Composição suspeita | 5 | Cotejo |
+| T4 — Só descritivo | 0 | Mapa de desgaste |
+| T5 — Irrelevante | 1 | Descartada |
+| **Total** | **281** | |
+
+## T1 — Colidência direta (220 marcas)
+
+- **A PÉROLA** (cl.27) — Registro de marca em vigor — `811427439`
+- **A PÉROLA** (cl.27) — Registro de marca em vigor — `813024064`
+- **A PÉROLA DOS TAPETES** (cl.35) — Registro de marca em vigor — `905698193`
+- **A PÉROLA DOS TAPETES** (cl.35) — Registro de marca em vigor — `905698568`
+- **ADEGA PEROLA** (cl.43) — Registro de marca em vigor — `818337567`
+- **APIS PÉROLA** (cl.30) — Aguardando exame de mérito — `938670921`
+- **ARENA PÉROLA DO TAPAJÓS** (cl.35) — Registro de marca em vigor — `934169837`
+- **ARROZ FAZENDA PÉROLA** (cl.30) — Registro de marca em vigor — `921186657`
+- **ARROZ PEROLA MARANHENSE** (cl.35) — Registro de marca em vigor — `921925107`
+- **ARROZ PÉROLA BRANCA** (cl.30) — Registro de marca em vigor — `909404674`
+- **ARROZ PÉROLA NORTE** (cl.35) — Registro de marca em vigor — `927945886`
+- **ARROZ PÉROLA TOCANTINS** (cl.30) — Aguardando exame de mérito — `930993977`
+- **ATACAREJO BELA PÉROLA** (cl.35) — Registro de marca em vigor — `930799429`
+- **Acarajé da Nega Pérola** (cl.43) — Registro de marca em vigor — `930091540`
+- **AÇAÍ PÉROLA NEGRA DA AMAZÔNIA** (cl.30) — Registro de marca em vigor — `925122696`
+- **AÇUCAR PÉROLA** (cl.35) — Registro de marca nulo — `824861957`
+- **AÇÚCAR PÉROLA** (cl.30) — Registro de marca em vigor — `828268487`
+- **Açaí Pérola Do Pará** (cl.29) — Registro de marca em vigor — `932011179`
+- **Buffet Pérola del Mare** (cl.43) — Registro de marca em vigor — `901266035`
+- **Buffet Pérola del Mare** (cl.35) — Registro de marca em vigor — `901389064`
+- **CAFÉ PÉROLA DO NORTE** (cl.30) — Registro de marca em vigor — `904068919`
+- **CAFÉ PÉROLA MINEIRA** (cl.43) — Aguardando exame de mérito — `938031902`
+- **CAFÉ PÉROLA NEGRA** (cl.30) — Aguardando exame de mérito — `936256087`
+- **CARVÃO VEGETAL PÉROLA NEGRA** (cl.35) — Registro de marca em vigor — `905856864`
+- **CASA PEROLA** (cl.35) — Registro de marca em vigor — `922713618`
+- **CASA PÉROLA** (cl.35) — Aguardando exame de mérito — `933816995`
+- **CERVEJA PÉROLA 1887 2017** (cl.32) — Registro de marca em vigor — `913393665`
+- **CHOCOLATE PÉROLA NEGRA** (cl.30) — Registro de marca em vigor — `904185826`
+- **Chocolate Pérola da Amazonia** (cl.30) — Aguardando exame de mérito — `941046346`
+- **Chocolate Pérola da Amazonia** (cl.35) — Aguardando exame de mérito — `941046397`
+- **Click Pérola** (cl.35) — Registro de marca em vigor — `918029430`
+- **DI PÉROLA** (cl.35) — Registro de marca em vigor — `827696515`
+- **DOCE PÉROLA CONFEITARIA** (cl.30) — Aguardando fim de sobrestamento — `931736064`
+- **DONA PÉROLA** (cl.43) — Registro de marca em vigor — `929538552`
+- **DROGARIA PÉROLA** (cl.35) — Registro de marca em vigor — `823735877`
+- **Doce Pérola** (cl.30) — Aguardando exame de mérito — `930651260`
+- **ENXOVAIS PÉROLA** (cl.35) — Aguardando fim de sobrestamento — `930264240`
+- **ERVA-MATE CHIMARRÃO PÉROLA DO SUL** (cl.30) — Registro de marca em vigor — `915803585`
+- **ESPAÇO PÉROLA** (cl.35) — Registro de marca em vigor — `926267027`
+- **Encantos Di Pérola Ateliê** (cl.35) — Registro de marca em vigor — `922367981`
+- **FEIJÃO PÉROLA BRANCA** (cl.30) — Registro de marca em vigor — `820179302`
+- **FEIJÃO PÉROLA EXTRA** (cl.35) — Aguardando exame de mérito — `937198404`
+- **FRUTARIA PÉROLA** (cl.35) — Registro de marca em vigor — `917519299`
+- **GRANJA PÉROLA DA AMAZÔNIA** (cl.29) — Registro de marca em vigor — `912646462`
+- **Grão Pérola** (cl.35) — Aguardando exame de mérito — `930738128`
+- **HOTEL PÉROLA PALMITAL PR** (cl.43) — Registro de marca em vigor — `923750231`
+- **HP HOTEL PÉROLA** (cl.35) — Registro de marca em vigor — `923979930`
+- **J A PÉROLA RESTAURANT** (cl.43) — Registro de marca em vigor — `935068260`
+- **JOALHERIA E ÓTICA PÉROLA** (cl.14) — Registro de marca em vigor — `815277032`
+- **LATICÍNIOS PÉROLA 25 Anos** (cl.29) — Aguardando exame de mérito — `935347798`
+- **LATICÍNIOS PÉROLA DA SERRA** (cl.29) — Registro de marca em vigor — `921891466`
+- **LAÇOS DI PÉROLA ACESSÓRIOS INFANTIL E ADULTA** (cl.35) — Registro de marca em vigor — `932829198`
+- **MARITUBA ? PARÁ ? BRASIL - AÇAÍ PÉROLA DA AMAZÔNIA** (cl.43) — Aguardando prazo de apresentação de oposição — `942861884`
+- **MISS PÉROLA** (cl.35) — Registro de marca em vigor — `915102099`
+- **MIX PÉROLA ALIMENTOS** (cl.30) — Registro de marca em vigor — `911698272`
+- **MIX PÉROLA ALIMENTOS** (cl.35) — Registro de marca em vigor — `911698000`
+- **Mar de Pérola Acessórios** (cl.35) — Aguardando exame de mérito — `937042013`
+- **NPC NATH PÉROLA COSMÉTICOS** (cl.35) — Aguardando exame de mérito — `942514696`
+- **O MUNDO DA PÉROLA** (cl.43) — Aguardando cumprimento de exigência de mérito — `936443472`
+- **O MUNDO DA PÉROLA** (cl.35) — Aguardando cumprimento de exigência de mérito — `936443448`
+- **O PEROLA KIDS** (cl.43) — Registro de marca em vigor — `935271015`
+- **ORGÂNICOS PÉROLA DA TERRA** (cl.30) — Registro de marca em vigor — `906126215`
+- **ORGÂNICOS PÉROLA DA TERRA** (cl.32) — Registro de marca em vigor — `906126231`
+- **ORGÂNICOS PÉROLA DA TERRA** (cl.35) — Registro de marca em vigor — `906126193`
+- **Ogânicos Pérola da Terra** (cl.30) — Aguardando exame de mérito — `939777967`
+- **Ogânicos Pérola da Terra** (cl.29) — Aguardando exame de mérito — `939778017`
+- **Ogânicos Pérola da Terra A gente ama o que faz** (cl.35) — Aguardando exame de mérito — `939778092`
+- **P PÉROLA IMÓVEIS** (cl.35) — Registro de marca em vigor — `923821457`
+- **PANIFICADORA PÉROLA** (cl.43) — Registro de marca em vigor — `840614152`
+- **PAPELARIA PEROLA** (cl.35) — Registro de marca em vigor — `923103031`
+- **PEROLA** (cl.32) — Registro de marca em vigor — `006924603`
+- **PEROLA** (cl.3) — Registro de marca em vigor — `780402162`
+- **PEROLA** (cl.38) — Registro de marca em vigor — `006594557`
+- **PEROLA** (cl.3) — Registro de marca em vigor — `007057415`
+- **PEROLA AZUL** (cl.41) — Registro de marca em vigor — `816275351`
+- **PEROLA DA CHINA** (cl.32) — Registro de marca em vigor — `811843629`
+- **PEROLA DA CHINA** (cl.29) — None — `811843580`
+- **PEROLA DA CHINA** (cl.10) — Registro — `811843599`
+- **PEROLA DE PONTA NEGRA PRAIA HOTEL** (cl.43) — Registro de marca nulo — `906815495`
+- **PEROLA DO NORTE POLPAS** (cl.29) — Registro de marca em vigor — `926246100`
+- **PEROLA MEGA HAIR** (cl.35) — Aguardando exame de mérito — `938293230`
+- **PEROLA NEGRA BIJOUX** (cl.35) — Aguardando exame de mérito — `938657615`
+- **PEROLA NEGRA GASTRO PUB** (cl.43) — Aguardando exame de mérito — `933306318`
+- **PEROLA NEGRA PRESENTES** (cl.35) — Registro de marca em vigor — `840324723`
+- **PEROLA ROSA** (cl.35) — Registro de marca em vigor — `910198365`
+- **PEROLA SOLAR** (cl.35) — Aguardando exame de mérito — `937285145`
+- **PEROLA TERMINAIS DE GRANÉIS** (cl.35) — Registro de marca em vigor — `900226650`
+- **PERÓLA CLASS** (cl.35) — Aguardando exame de mérito — `937758124`
+- **PK PÉROLA KIDS** (cl.35) — Registro de marca em vigor — `929771656`
+- **POUSADA PÉROLA DO PORTO** (cl.43) — Registro de marca em vigor — `829058460`
+- **POUSADA PÉROLA DO RIO** (cl.43) — Registro de marca em vigor — `931753643`
+- **PRODUTOS PÉROLA CRISTAL** (cl.35) — Aguardando exame de mérito — `931012341`
+- **Perola Arretada** (cl.35) — Aguardando exame de mérito — `936660325`
+- **Perola Helena Shoes** (cl.35) — Aguardando exame de mérito — `941169359`
+- **Por Pérola** (cl.35) — Aguardando exame de mérito — `936990538`
+- **Pousada Pérola Dourada** (cl.43) — Registro de marca em vigor — `925695068`
+- **Pousada Pérola de Ubatuba** (cl.43) — Registro de marca em vigor — `915229889`
+- **PÃO PÉROLA** (cl.30) — Registro de marca nulo — `827404190`
+- **PÉROLA** (cl.33) — Registro de marca em vigor — `817207139`
+- **PÉROLA** (cl.32) — Registro de marca em vigor — `006924611`
+- **PÉROLA** (cl.32) — Registro de marca em vigor — `904647218`
+- **PÉROLA** (cl.35) — Para liberar para exame de mérito (pedido de registro com oposição) — `933830203`
+- **PÉROLA** (cl.35) — Aguardando fim de sobrestamento — `930920554`
+- **PÉROLA** (cl.35) — Registro de marca em vigor — `824129083`
+- **PÉROLA** (cl.35) — Aguardando exame de mérito — `935373756`
+- **PÉROLA** (cl.35) — Registro de marca em vigor — `824449070`
+- **PÉROLA** (cl.7) — Registro de marca em vigor — `822363410`
+- **PÉROLA** (cl.29) — Registro de marca em vigor — `935627456`
+- **PÉROLA BEAUTY** (cl.35) — Aguardando exame de mérito — `932037879`
+- **PÉROLA BRANCA MODA FEMININA** (cl.35) — Aguardando exame de mérito — `939939401`
+- **PÉROLA BÚZIOS** (cl.43) — Registro de marca em vigor — `829509631`
+- **PÉROLA COMUNICAÇÃO** (cl.35) — Aguardando exame de mérito — `937919888`
+- **PÉROLA CONTÁBIL** (cl.35) — Registro de marca em vigor — `901428183`
+- **PÉROLA COSMÉTICOS** (cl.35) — Registro de marca em vigor — `926638742`
+- **PÉROLA DA CHINA** (cl.29) — Registro de marca em vigor — `811682773`
+- **PÉROLA DA CHINA** (cl.40) — Registro de marca em vigor — `812316088`
+- **PÉROLA DA CIDADE** (cl.43) — Aguardando prazo de apresentação de oposição — `942838882`
+- **PÉROLA DA CIDADE** (cl.35) — Aguardando prazo de apresentação de oposição — `942838530`
+- **PÉROLA DA CONSTRUÇÃO** (cl.35) — Aguardando exame de mérito — `942478274`
+- **PÉROLA DE AGUDOS** (cl.32) — Registro de marca em vigor — `826225160`
+- **PÉROLA DE ALTER** (cl.43) — Aguardando exame de mérito — `938005499`
+- **PÉROLA DE MINAS** (cl.32) — Registro de marca em vigor — `901072508`
+- **PÉROLA DE MINAS** (cl.35) — Registro de marca em vigor — `923885846`
+- **PÉROLA DE MINAS** (cl.29) — Registro de marca em vigor — `913865621`
+- **PÉROLA DE SABEDORIA** (cl.41) — Registro de marca em vigor — `815425481`
+- **PÉROLA DELL VALLE** (cl.35) — Registro de marca em vigor — `923637508`
+- **PÉROLA DO ATLÂNTICO** (cl.35) — Registro de marca em vigor — `826419216`
+- **PÉROLA DO ATLÂNTICO IMÓVEIS** (cl.35) — Aguardando prazo de apresentação de oposição — `942645430`
+- **PÉROLA DO CAMPO** (cl.32) — Registro de marca em vigor — `906998255`
+- **PÉROLA DO CERRADO** (cl.35) — Registro de marca em vigor — `920969720`
+- **PÉROLA DO CERRADO** (cl.35) — Aguardando exame de mérito — `941312097`
+- **PÉROLA DO CERRADO SESSION IPA** (cl.32) — Registro de marca em vigor — `915815710`
+- **PÉROLA DO GUAPORÉ** (cl.30) — Aguardando manifestação sobre oposição — `941999092`
+- **PÉROLA DO MAR** (cl.29) — Registro de marca em vigor — `826125727`
+- **PÉROLA DO NORDESTE** (cl.32) — Registro de marca em vigor — `904432122`
+- **PÉROLA DO SUL** (cl.35) — Registro de marca em vigor — `924443871`
+- **PÉROLA DO TAPAJÓS Bar-Drinkeria-Restaurante-Sunset** (cl.43) — Registro de marca em vigor — `932542069`
+- **PÉROLA DO VALE** (cl.35) — Registro de marca em vigor — `933315163`
+- **PÉROLA DO VALE** (cl.29) — Registro de marca em vigor — `904573028`
+- **PÉROLA DOCES FINOS** (cl.43) — Registro de marca em vigor — `905457579`
+- **PÉROLA Decor** (cl.35) — Aguardando exame de mérito — `937520861`
+- **PÉROLA EMBALAGENS** (cl.35) — Aguardando exame de mérito — `939729830`
+- **PÉROLA EYEWEAR** (cl.35) — Aguardando exame de mérito — `935977023`
+- **PÉROLA EYEWEAR** (cl.35) — Aguardando exame de mérito — `939387212`
+- **PÉROLA FASHION** (cl.35) — Registro de marca em vigor — `929883470`
+- **PÉROLA FENO** (cl.35) — Registro de marca em vigor — `933601271`
+- **PÉROLA FONTOURA** (cl.35) — Registro de marca em vigor — `925540463`
+- **PÉROLA FÁCIL** (cl.35) — Registro de marca em vigor — `916944689`
+- **PÉROLA GRUPO** (cl.35) — Aguardando exame de mérito — `931010608`
+- **PÉROLA GRUPO BACURAU** (cl.32) — Aguardando exame de mérito — `930269292`
+- **PÉROLA GÁS** (cl.35) — Registro de marca em vigor — `926319957`
+- **PÉROLA IMPORTADORA E DISTRIBUIDORA HOSPITALAR** (cl.35) — Aguardando exame de mérito — `938793101`
+- **PÉROLA IMPORTS** (cl.35) — Registro de marca em vigor — `931829232`
+- **PÉROLA IMÓVEIS** (cl.36) — Registro de marca em vigor — `823957403`
+- **PÉROLA JÓIAS** (cl.35) — Aguardando exame de mérito — `933568304`
+- **PÉROLA KIDS** (cl.35) — Aguardando fim de sobrestamento — `935748792`
+- **PÉROLA LOVE** (cl.35) — Registro de marca em vigor — `917825322`
+- **PÉROLA MINEIRA** (cl.35) — Registro de marca em vigor — `829808760`
+- **PÉROLA MINEIRA "A QUALIDADE FAZ A DIFERENÇA"** (cl.30) — Aguardando exame de mérito — `938031775`
+- **PÉROLA NAIL STORE** (cl.35) — Aguardando exame de mérito — `936266279`
+- **PÉROLA NEGRA** (cl.35) — Registro de marca em vigor — `913348112`
+- **PÉROLA NEGRA** (cl.35) — Registro de marca em vigor — `918544319`
+- **PÉROLA NEGRA** (cl.29) — Registro de marca em vigor — `901663786`
+- **PÉROLA NEGRALI** (cl.32) — Registro de marca em vigor — `918812275`
+- **PÉROLA NOIVAS** (cl.35) — Registro de marca em vigor — `829025138`
+- **PÉROLA PARK SHOPPING ATACADISTA** (cl.35) — Registro de marca em vigor — `909671060`
+- **PÉROLA RESTAURANTE HOTEL** (cl.43) — Registro de marca em vigor — `905637623`
+- **PÉROLA ROSA PERFUMARIA** (cl.35) — Registro de marca em vigor — `935576460`
+- **PÉROLA ROSA ÓTICAS.** (cl.35) — Registro de marca em vigor — `934843821`
+- **PÉROLA ROSAPINK** (cl.35) — Registro de marca em vigor — `925625760`
+- **PÉROLA Rainha das pratas** (cl.35) — Aguardando exame de mérito — `936396580`
+- **PÉROLA Rara** (cl.35) — Aguardando exame de mérito — `940351420`
+- **PÉROLA SANT** (cl.35) — Aguardando exame de mérito — `939322790`
+- **PÉROLA SEDUÇÕES** (cl.35) — Registro de marca em vigor — `924072512`
+- **PÉROLA STORE** (cl.35) — Aguardando exame de mérito — `937504165`
+- **PÉROLA STYLE** (cl.35) — Registro de marca em vigor — `914465210`
+- **PÉROLA TINTAS** (cl.35) — Registro de marca em vigor — `912085185`
+- **PÉROLA URBANA** (cl.35) — Aguardando exame de mérito — `936503327`
+- **PÉROLA VERDE** (cl.30) — Registro de marca em vigor — `911011480`
+- **PÉROLA VIAGENS & TURISMO** (cl.35) — Registro de marca em vigor — `928103943`
+- **PÉROLA VISION** (cl.35) — Aguardando exame de mérito — `937143235`
+- **Pérola** (cl.35) — Aguardando exame de mérito — `936830646`
+- **Pérola Barranco Bakery** (cl.30) — Registro de marca em vigor — `917280725`
+- **Pérola Buffet** (cl.43) — Aguardando exame de mérito — `937900192`
+- **Pérola Desde 1967** (cl.35) — Aguardando exame de mérito — `936830794`
+- **Pérola Deusa** (cl.35) — Registro de marca em vigor — `930092406`
+- **Pérola Doce - Loja de bolo** (cl.30) — Aguardando prazo de apresentação de oposição — `943094330`
+- **Pérola EXPRESS** (cl.35) — Aguardando exame de mérito — `936210079`
+- **Pérola Fit** (cl.35) — Registro de marca em vigor — `921092156`
+- **Pérola Lojass** (cl.35) — Registro de marca em vigor — `927220130`
+- **Pérola Negra Russian Imperial Stout** (cl.32) — Aguardando exame de mérito — `933670877`
+- **Pérola OURO PRETO** (cl.35) — Registro de marca em vigor — `913793574`
+- **Pérola Rara Artesanatos** (cl.35) — Registro de marca em vigor — `917904567`
+- **Pérola Savassi** (cl.35) — Registro de marca em vigor — `934386463`
+- **Pérola Sorvetes** (cl.30) — Aguardando exame de mérito — `936755741`
+- **Pérola Vision** (cl.35) — Registro de marca em vigor — `906102979`
+- **Pérola White** (cl.35) — Aguardando exame de mérito — `938858483`
+- **Pérola açaí** (cl.30) — Aguardando exame de mérito — `942404262`
+- **Pérola brechó** (cl.35) — Aguardando exame de mérito — `937042790`
+- **Pérola da Mantiqueira QUEIJOS CANASTRA & CIA** (cl.35) — Aguardando exame de mérito — `940911906`
+- **Pérola da Serra** (cl.29) — Registro de marca em vigor — `920775411`
+- **Pérola de Cametá** (cl.32) — Aguardando exame de mérito — `936762195`
+- **Pérola Única** (cl.35) — Aguardando exame de mérito — `941363309`
+- **Queijo Pérola da Mantiqueira** (cl.29) — Registro de marca em vigor — `919807895`
+- **SONHOS DE PÉROLA CALÇADOS FEMININOS** (cl.35) — Registro de marca em vigor — `925445096`
+- **SUPERMERCADO PÉROLA** (cl.35) — Registro de marca em vigor — `840681550`
+- **SUPERMERCADO PÉROLA SP** (cl.35) — Registro de marca em vigor — `828224889`
+- **SUPERMERCADOS PÉROLA** (cl.35) — Aguardando exame de mérito — `937695106`
+- **Safra Pérola** (cl.30) — Registro de marca em vigor — `913507075`
+- **TABACARIA PÉROLA** (cl.35) — Registro de marca em vigor — `922836531`
+- **TECIDOS PÉROLA S&L** (cl.35) — Registro de marca em vigor — `926318314`
+- **TSI Pérola Negra** (cl.35) — Registro de marca em vigor — `929201965`
+- **VILA PÉROLA NEGRA** (cl.43) — Registro de marca em vigor — `911038019`
+- **VP PÉROLA VERDE HOTEL** (cl.43) — Registro de marca em vigor — `916721574`
+- **Vidraçaria Pérola** (cl.35) — Aguardando fim de sobrestamento — `930399790`
+- **p PÉROLA COMUNICAÇÃO** (cl.35) — Registro de marca em vigor — `918206200`
+- **perola de minas** (cl.29) — Registro de marca em vigor — `907996264`
+- **ÁGUA PÉROLA** (cl.32) — Aguardando exame de mérito — `940588722`
+- **Água Pérola da Amazônia Adicionada de Sais** (cl.32) — Aguardando exame de mérito — `941109321`
+- **Água Pérola da Amazônia Adicionada de Sais** (cl.35) — Aguardando exame de mérito — `941109585`
+
+## T2 — Fonética forte (55 marcas)
+
+- **CONFEITARIA BEROLA** (cl.30) — Registro de marca em vigor — BEROLA≈PEROLA (FONETICO_FORTE, 0.8)
+- **DOLCE PAROLA** (cl.43) — Registro de marca em vigor — PAROLA≈PEROLA (FONETICO_FORTE, 0.85)
+- **DON PEROLI PIZZARIA & PASTELARIA** (cl.43) — Registro de marca em vigor — PEROLI≈PEROLA (FONETICO_FORTE, 0.85)
+- **LA PAROLA PIZZERIA** (cl.30) — Registro de marca em vigor — PAROLA≈PEROLA (FONETICO_FORTE, 0.85)
+- **PAROLA** (cl.32) — Registro de marca em vigor — PAROLA≈PEROLA (FONETICO_FORTE, 0.85)
+- **PAROLA** (cl.35) — Registro de marca em vigor — PAROLA≈PEROLA (FONETICO_FORTE, 0.85)
+- **PEROLI** (cl.35) — Aguardando exame de mérito — PEROLI≈PEROLA (FONETICO_FORTE, 0.85)
+- **PEROLI CONSULTORIA DE NEGÓCIOS** (cl.35) — Registro de marca em vigor — PEROLI≈PEROLA (FONETICO_FORTE, 0.85)
+- **Parola Advisory** (cl.35) — Aguardando prazo de apresentação de oposição — Parola≈PEROLA (FONETICO_FORTE, 0.85)
+- **Perole & Spritz Dok Drinks** (cl.32) — Aguardando manifestação sobre oposição — Perole≈PEROLA (FONETICO_FORTE, 0.85)
+- **AGROPECUÁRIA PEROBA ROSA** (cl.35) — Registro de marca em vigor — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **ARTE DIVINA ARTESANATO EM PÉROLAS** (cl.35) — Registro de marca em vigor — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **BEROLA** (cl.38) — Registro de marca em vigor — BEROLA≈PEROLA (FONETICO_FORTE, 0.8)
+- **CAFÉ PEROBA SABOR E TRADIÇÃO DESDE 1990** (cl.30) — Aguardando exame de mérito — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **CAFÉ PEROBA SABOR E TRADIÇÃO DESDE 1990** (cl.35) — Aguardando exame de mérito — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **CASA PERLLA** (cl.35) — Aguardando prazo de apresentação de oposição — PERLLA≈PEROLA (FONETICO_FORTE, 0.8)
+- **Dolores Elegância em Pérolas** (cl.35) — Aguardando exame de mérito — Pérolas≈PEROLA (FONETICO_FORTE, 0.8)
+- **GEROLA DESDE 1959** (cl.43) — Registro de marca em vigor — GEROLA≈PEROLA (FONETICO_FORTE, 0.8)
+- **GP GERANDO PÉROLAS** (cl.35) — Registro de marca em vigor — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **MILHO VERDE PEROBA** (cl.35) — Aguardando exame de mérito — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **MUNDO DAS PEROLAS** (cl.35) — Registro de marca em vigor — PEROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROBA** (cl.35) — Registro de marca em vigor — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROBA** (cl.3) — Registro de marca em vigor — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROBA** (cl.35) — Registro de marca em vigor — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROBA DO CAMPO** (cl.3) — Registro de marca em vigor — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROBA ROSA** (cl.3) — Registro de marca em vigor — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROBA ROSA POUSADA FAZENDA** (cl.43) — Aguardando exame de mérito — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROLAS DO SABOR RESTAURANTE** (cl.43) — Registro de marca em vigor — PEROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROLAT** (cl.29) — Registro de marca em vigor — PEROLAT≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROSA** (cl.35) — Registro de marca em vigor — PEROSA≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROSA** (cl.29) — Registro de marca em vigor — PEROSA≈PEROLA (FONETICO_FORTE, 0.8)
+- **PEROZA RESTAURANTE** (cl.43) — Registro de marca em vigor — PEROZA≈PEROLA (FONETICO_FORTE, 0.8)
+- **PODER DAS PÉROLAS** (cl.35) — Registro de marca em vigor — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **Peroba frutas e legumes** (cl.35) — Aguardando exame de mérito — Peroba≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS COMÉRCIO** (cl.35) — Aguardando exame de mérito — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DE MAIORCA** (cl.14) — Registro de marca nulo — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DE QUEIJO** (cl.35) — Aguardando exame de mérito — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DE QUEIJO** (cl.29) — Aguardando exame de mérito — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DO CACAU** (cl.30) — Registro de marca em vigor — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DO CAMPO** (cl.29) — Aguardando exame de mérito — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DO CERRADO PRODUZIDO DE LEITE DE JERSEY** (cl.30) — Aguardando exame de mérito — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DO CERRADO PRODUZIDO DE LEITE DE JERSEY** (cl.29) — Aguardando manifestação sobre oposição — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DO MAR** (cl.35) — Registro de marca em vigor — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DO TUPANA PRODUTOS ARTESANAIS** (cl.35) — Aguardando exame de mérito — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS DO TUPANA PRODUTOS ARTESANAIS** (cl.29) — Aguardando exame de mérito — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS MAKE** (cl.35) — Registro de marca em vigor — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS NEGRAS VIVA RIO** (cl.35) — Registro de marca em vigor — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **PÉROLAS PIPOCA GOURMET** (cl.30) — Registro de marca em vigor — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **Pérolas Doce** (cl.35) — Registro de marca em vigor — Pérolas≈PEROLA (FONETICO_FORTE, 0.8)
+- **Pérolas do Reino** (cl.35) — Aguardando exame de mérito — Pérolas≈PEROLA (FONETICO_FORTE, 0.8)
+- **Pérolas que Encantam - O brilho especial que celebra seu sonho!** (cl.35) — Aguardando exame de mérito — Pérolas≈PEROLA (FONETICO_FORTE, 0.8), brilho≈PEROLA (FONETICO_FRACO, 0.55)
+- **REVELANDO PÉROLAS** (cl.35) — Registro de marca em vigor — PÉROLAS≈PEROLA (FONETICO_FORTE, 0.8)
+- **TMG PEROBA-ROSA** (cl.35) — Registro de marca em vigor — PEROBA≈PEROLA (FONETICO_FORTE, 0.8)
+- **Vem Perolar** (cl.35) — Registro de marca em vigor — Perolar≈PEROLA (FONETICO_FORTE, 0.8)
+- **VÉROLA** (cl.35) — Registro de marca em vigor — VÉROLA≈PEROLA (FONETICO_FORTE, 0.8)
+
+## T3 — Composição suspeita (5 marcas)
+
+- **ARTE PEROLADA** (cl.35) — Registro de marca em vigor
+- **BÍBLIA PEROLADA** (cl.35) — Registro de marca em vigor
+- **Bíblia Perolada** (cl.35) — Aguardando exame de mérito
+- **Kipérola Semijóias** (cl.35) — Registro de marca em vigor
+- **Universo Perolado** (cl.35) — Aguardando exame de mérito

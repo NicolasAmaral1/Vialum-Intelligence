@@ -1,0 +1,30 @@
+{
+  "marca": "Força Funcional Cardio",
+  "classes": [
+    35
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "similaridade_minima": 20,
+  "max_paginas": 10,
+  "por_classe": {
+    "35": {
+      "encontradas": 999
+    }
+  },
+  "busca_geral": {
+    "encontradas": 600,
+    "novas_unicas": 506
+  },
+  "total_coletadas": 1599,
+  "total_unicas": 1505,
+  "buckets": {
+    "A": 995,
+    "B": 176,
+    "C": 334
+  },
+  "sucesso": true,
+  "erro": null,
+  "inicio": "2026-04-10T01:24:48.914717+00:00",
+  "fim": "2026-04-10T01:32:27.470441+00:00",
+  "duracao_segundos": 458.6
+}

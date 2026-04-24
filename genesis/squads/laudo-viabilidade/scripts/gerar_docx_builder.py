@@ -331,10 +331,11 @@ def create_docx(dados, output_path):
     add_main_title("4. ANÁLISE DE COLIDÊNCIAS E VIABILIDADE")
     add_content_block(dados['secoes']['Colidências'])
 
-    # Sign
+    # Sign — keep_with_previous para não isolar em página separada
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    p.paragraph_format.space_before = Pt(36)
+    p.paragraph_format.space_before = Pt(18)
+    p.paragraph_format.keep_with_previous = True
     data_ext = data_por_extenso(dados['data_analise'])
     sign_text = f"É o parecer.\n{data_ext}.\nEquipe Genesis"
     run = p.add_run(sign_text)

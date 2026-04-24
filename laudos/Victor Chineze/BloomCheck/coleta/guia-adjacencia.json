@@ -1,0 +1,14 @@
+{
+  "guia_adjacencia": {
+    "aprovadas": [42, 44, 9, 35, 38],
+    "adjacentes": [5, 10, 41, 45, 36],
+    "sem_afinidade": [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 37, 39, 40, 43],
+    "justificativa_adjacentes": {
+      "5": "Farmácia — complementar a serviços médicos e SaaS de saúde",
+      "10": "Equipamentos médicos — complementar, frequentemente integrado via software",
+      "41": "Educação/treinamento — plataformas de capacitação médica integradas",
+      "45": "Serviços pessoais — gestão de dados sensíveis, compliance LGPD em saúde",
+      "36": "Fintech — gestão financeira de consultórios, faturamento TISS/TUSS"
+    }
+  }
+}

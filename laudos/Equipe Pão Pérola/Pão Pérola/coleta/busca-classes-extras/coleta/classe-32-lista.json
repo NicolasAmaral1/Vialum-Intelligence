@@ -1,0 +1,623 @@
+[
+  {
+    "numero_processo": "940588722",
+    "nome_marca": "ÁGUA PÉROLA",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "THAIS DO SOCORRO DA COSTA CAVALEIRO",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "933670877",
+    "nome_marca": "Pérola Negra Russian Imperial Stout",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "IGNORUS CERVEJARIA LTDA ME",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "900111852",
+    "nome_marca": "PÉROLA DO CANAAN",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "SOCAN PRODUTOS ALIMENTICIOS LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "924006021",
+    "nome_marca": "PÉROLA NEGRA CHOPP",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "DANILO RODRIGUES DE OLIVEIRA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "917874820",
+    "nome_marca": "Pérola da Mantiqueira",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "ADRIANO MARTINS MILANI",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "904647218",
+    "nome_marca": "PÉROLA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "AMBEV S.A.",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "915815710",
+    "nome_marca": "PÉROLA DO CERRADO SESSION IPA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "MARCELO NAVES DE CARVALHO",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "816626367",
+    "nome_marca": "CERVEJA PÉROLA EXTRA",
+    "situacao": "Registro de marca extinto",
+    "titular": "COMPANHIA BRASILEIRA DE BEBIDAS",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "913393665",
+    "nome_marca": "CERVEJA PÉROLA 1887 2017",
+    "situacao": "Registro de marca em vigor",
+    "titular": "AMBEV S.A.",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "910812667",
+    "nome_marca": "CERVEJA ARTESANAL PÉROLA DA SERRA",
+    "situacao": "Pedido de registro de marca indeferido",
+    "titular": "Jonathan Stoppa Gomes",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "908626070",
+    "nome_marca": "ÁGUA ADICIONADA DE SAIS PÉROLA DE ATIBAIA",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "CBM COMPANHIA BRASILEIRA DE MAQUINAS LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "918812275",
+    "nome_marca": "PÉROLA NEGRALI",
+    "situacao": "Registro de marca em vigor",
+    "titular": "ADENOR FIGUEIREDO VIEIRA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "906998255",
+    "nome_marca": "PÉROLA DO CAMPO",
+    "situacao": "Registro de marca em vigor",
+    "titular": "Célia Mazzocco",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "906126231",
+    "nome_marca": "ORGÂNICOS PÉROLA DA TERRA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "PRODUTOS ORGANICOS PEROLA DA TERRA LTDA - ME",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "819827703",
+    "nome_marca": "LEITE PEROLA",
+    "situacao": "Arquivado",
+    "titular": "LATICINIO PRIMAVERA LTDA",
+    "classe": 31,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "917519094",
+    "nome_marca": "SUCO PÉROLA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "KAREN D. S. COSTA.",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "901941042",
+    "nome_marca": "PÉROLA ANTARCTICA",
+    "situacao": "Registro de marca extinto",
+    "titular": "AMBEV S.A.",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "901072508",
+    "nome_marca": "PÉROLA DE MINAS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "BAVIERA AGUAS MINERAIS DE ALFENAS EIRELI",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "006156843",
+    "nome_marca": "PEROLA",
+    "situacao": "Extinto",
+    "titular": "SANTISTA ALIMENTOS S/A",
+    "classe": 31,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "930269292",
+    "nome_marca": "PÉROLA GRUPO BACURAU",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "R. FERREIRA DE MORAIS FILHO",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "826225160",
+    "nome_marca": "PÉROLA DE AGUDOS",
+    "situacao": "Registro de marca em vigor",
+    "titular": "O.S. PARTICIPAÇÕES E EMPREENDIMENTOS LTDA.",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "823871266",
+    "nome_marca": "PÉROLA DA MANTIQUEIRA",
+    "situacao": "Arquivado",
+    "titular": "PÉROLA DA MANTIQUEIRA MINERAÇÃO LTDA - ME",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "812316118",
+    "nome_marca": "PÉROLA DA CHINA",
+    "situacao": "Arquivado",
+    "titular": "PRODUTOS PEROLA DA CHINA LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "821946633",
+    "nome_marca": "PÉROLA",
+    "situacao": "Arquivado",
+    "titular": "PASTIFICIO CAXIENSE SA INDUSTRIA E COMERCIO",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "821860992",
+    "nome_marca": "PÉROLA DO SUL",
+    "situacao": "Arquivado",
+    "titular": "NABUCOS & REIS LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "821609297",
+    "nome_marca": "LACTICÍNIOS PÉROLA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "LACTICÍNIOS PÉROLA INDÚSTRIA E COMÉRCIO LTDA ME",
+    "classe": 31,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "908149034",
+    "nome_marca": "PÉROLA NEGRALI",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "ADENOR FIGUEIREDO VIEIRA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "003580903",
+    "nome_marca": "PEROLA",
+    "situacao": "Extinto",
+    "titular": "INDÚSTRIA DE BEBIDAS ANTARCTICA POLAR S/A",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "941109321",
+    "nome_marca": "Água Pérola da Amazônia Adicionada de Sais",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "PÉROLA INDUSTRIA E COMÉRCIO DE ÁGUA LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "820550728",
+    "nome_marca": "ORQUÍDEA PEROLA",
+    "situacao": "Arquivado",
+    "titular": "ORQUÍDEA PEROLA PÃES E DOCES LTDA",
+    "classe": 31,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "820550710",
+    "nome_marca": "ORQUÍDEA PEROLA",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "ORQUÍDEA PEROLA PÃES E DOCES LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "820286761",
+    "nome_marca": "ÁGUA PÉROLA",
+    "situacao": "Extinto",
+    "titular": "INDÚSTRIA DE BEBIDAS ANTARCTICA POLAR S/A",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "819989428",
+    "nome_marca": "ADEGA PÉROLA",
+    "situacao": "Arquivado",
+    "titular": "CAFE E BAR PEROLA DO ATLANTICO LTDA",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "002513382",
+    "nome_marca": "PEROLA GAUCHA",
+    "situacao": "Extinto",
+    "titular": "COOPERATIVA VINÍCOLA NOVA ALIANÇA LTDA",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "819222151",
+    "nome_marca": "CERVEJA ESCURA PÉROLA NEGRA",
+    "situacao": "Extinto",
+    "titular": "INDÚSTRIA DE BEBIDAS ANTARCTICA POLAR S/A",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "819221295",
+    "nome_marca": "CERVEJA PÉROLA CHOPP",
+    "situacao": "Extinto",
+    "titular": "INDÚSTRIA DE BEBIDAS ANTARCTICA POLAR S/A",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "904432122",
+    "nome_marca": "PÉROLA DO NORDESTE",
+    "situacao": "Registro de marca em vigor",
+    "titular": "FERRARI FERREIRA INDUSTRIA DE ALIMENTOS LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "818791837",
+    "nome_marca": "PEROLA",
+    "situacao": "Arquivado",
+    "titular": "PANIFICADORA PEROLA DO GUARUJA LTDA ME",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "818734728",
+    "nome_marca": "PÉROLA DA CHINA",
+    "situacao": "Registro de marca extinto",
+    "titular": "KIAM ALIMENTOS LTDA",
+    "classe": 29,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "817250778",
+    "nome_marca": "PEROLA JOÃO & MARIA",
+    "situacao": "Arquivado",
+    "titular": "PASTIFICIO CAXIENSE SA INDUSTRIA E COMERCIO",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "816986266",
+    "nome_marca": "PEROLA",
+    "situacao": "Arquivado",
+    "titular": "PASTIFICIO CAXIENSE SA INDUSTRIA E COMERCIO",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "810898853",
+    "nome_marca": "PÉROLA",
+    "situacao": "Extinto",
+    "titular": "SANTISTA ALIMENTOS S/A.",
+    "classe": 29,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "815944756",
+    "nome_marca": "PEROLA",
+    "situacao": "Arquivado",
+    "titular": "INTERCONTINENTAL COMÉRCIO DE ALIMENTOS LTDA.",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "815338732",
+    "nome_marca": "PÉROLA FINA",
+    "situacao": "Arquivado",
+    "titular": "GOIAS REFRIGERANTES S/A",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "826315933",
+    "nome_marca": "PÉROLA",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "REFRIGERANTES COROA LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "814881033",
+    "nome_marca": "PÉROLA GAÚCHA",
+    "situacao": "Extinto",
+    "titular": "COOPERATIVA VINÍCOLA NOVA ALIANÇA LTDA",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "814343236",
+    "nome_marca": "PÉROLA",
+    "situacao": "Arquivado",
+    "titular": "PRODUTOS ALIMENTICIOS PEROLA LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "812532554",
+    "nome_marca": "PEROLA",
+    "situacao": "Arquivado",
+    "titular": "LACTOPEROLA LATICINIO PEROLA LTDA",
+    "classe": 31,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "812316126",
+    "nome_marca": "PÉROLA",
+    "situacao": "Arquivado",
+    "titular": "PRODUTOS PEROLA DA CHINA LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "810557541",
+    "nome_marca": "PÉROLA",
+    "situacao": "Extinto",
+    "titular": "INDÚSTRIA DE BEBIDAS ANTARCTICA POLAR S/A",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "822088533",
+    "nome_marca": "PÉROLA",
+    "situacao": "Arquivado",
+    "titular": "LUZINEIDE & LEITE LTDA",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "811987078",
+    "nome_marca": "PEROLA",
+    "situacao": "Arquivado",
+    "titular": "FILGUEIRAS & CIA LTDA",
+    "classe": 31,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "811695212",
+    "nome_marca": "PÉROLA",
+    "situacao": "Extinto",
+    "titular": "SANTISTA ALIMENTOS S/A.",
+    "classe": 29,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "810556260",
+    "nome_marca": "PÉROLA PRETA",
+    "situacao": "Extinto",
+    "titular": "INDÚSTRIA DE BEBIDAS ANTARCTICA POLAR S/A",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "800172752",
+    "nome_marca": "PEROLA",
+    "situacao": "Extinto",
+    "titular": "INDÚSTRIA DE BEBIDAS ANTARCTICA POLAR S/A",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "730050041",
+    "nome_marca": "PÉROLA NEGRA",
+    "situacao": "Registro de marca extinto",
+    "titular": "AMBEV S.A.",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "800176669",
+    "nome_marca": "PEROLA NEGRA",
+    "situacao": "Extinto",
+    "titular": "INDÚSTRIA DE BEBIDAS ANTARCTICA POLAR S/A",
+    "classe": 33,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "821336231",
+    "nome_marca": "GELO PEROLA",
+    "situacao": "Arquivado",
+    "titular": "INDÚSTRIA E COMÉRCIO DE GELO RIO PRETO LTDA ME",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "936762195",
+    "nome_marca": "Pérola de Cametá",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "COOPERATIVA AGROINDUSTRIAL DOS EXTRATIVISTAS, AGRICULTORES FAMILIARES,PEQUENOS PRODUTORESRURAIS, RIBEIRINHOS, QUILOMBOLAS E POVOS TRADICIONAIS",
+    "classe": 32,
+    "similaridade_pct": 100,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "811404323",
+    "nome_marca": "PEROBA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "I.B. INDÚSTRIA E COMÉRCIO DE BEBIDAS LTDA.",
+    "classe": 35,
+    "similaridade_pct": 99,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "913662020",
+    "nome_marca": "PAROLA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "MARCO CESAR BOCHENEK CARON",
+    "classe": 32,
+    "similaridade_pct": 99,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "814975674",
+    "nome_marca": "BRANCA DO PEROCA",
+    "situacao": "Arquivado",
+    "titular": "PARATY COLONIAL DISTRIBUIDORA DE BEBIDAS LTDA",
+    "classe": 35,
+    "similaridade_pct": 99,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "820968897",
+    "nome_marca": "PERLLA",
+    "situacao": "Arquivado",
+    "titular": "GERMANI ALIMENTOS LTDA.",
+    "classe": 32,
+    "similaridade_pct": 99,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "941527409",
+    "nome_marca": "Perole & Spritz Dok Drinks",
+    "situacao": "Aguardando manifestação sobre oposição",
+    "titular": "DOKTOR BRÄU CERVEJAS ESPECIAIS LTDA",
+    "classe": 32,
+    "similaridade_pct": 99,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "907279589",
+    "nome_marca": "PÉROLAS DE FRUTAS",
+    "situacao": "Pedido definitivamente arquivado",
+    "titular": "4SUCESSO COMÉRCIO, SERVIÇOS, IMPORTAÇÃO E EXPORTAÇÃO EIRELI",
+    "classe": 32,
+    "similaridade_pct": 85,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "812026730",
+    "nome_marca": "SUPÉROLA",
+    "situacao": "Arquivado",
+    "titular": "SUPEROLA MERCADO LTDA",
+    "classe": 31,
+    "similaridade_pct": 75,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "818963158",
+    "nome_marca": "GUARANÁ SUPÉROLA",
+    "situacao": "Arquivado",
+    "titular": "ALLSTON BREW DO BRASIL - INDUSTRIA E COMERCIO DE BEBIDAS LTDA",
+    "classe": 35,
+    "similaridade_pct": 75,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "820906611",
+    "nome_marca": "SUPÉROLA SUPERMERCADO",
+    "situacao": "Arquivado",
+    "titular": "SUPEROLA MERCADO LTDA",
+    "classe": 35,
+    "similaridade_pct": 75,
+    "fonte": "classe-32-pagina-1"
+  },
+  {
+    "numero_processo": "820906646",
+    "nome_marca": "SUPÉROLA SUPERMERCADO",
+    "situacao": "Arquivado",
+    "titular": "SUPEROLA MERCADO LTDA",
+    "classe": 29,
+    "similaridade_pct": 75,
+    "fonte": "classe-32-pagina-1"
+  }
+]

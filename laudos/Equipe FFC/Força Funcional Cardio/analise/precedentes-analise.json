@@ -1,0 +1,71 @@
+{
+  "marca_analisada": "Força Funcional Cardio",
+  "atividade": "Academia, Assessoria Esportiva",
+  "classes": [41, 44, 28, 25, 35],
+  "elementos": ["FORÇA", "FUNCIONAL", "CARDIO"],
+  "data_analise": "2026-04-10T04:30:00Z",
+
+  "desgaste_juridico": {
+    "FUNCIONAL": {
+      "status": "NAO_PROTEGIDO",
+      "fundamento": "Art. 124, VI — descritivo/genérico. Confirmado sistematicamente pelo INPI em múltiplos processos.",
+      "precedentes_negativos": ["904042855", "907602916", "904048039", "928909620", "910414246", "933253524"],
+      "conclusao": "INPI NÃO protege FUNCIONAL isoladamente. Termo é descritivo no segmento fitness."
+    },
+    "FORÇA": {
+      "status": "PARCIAL",
+      "fundamento": "Aceito com diferenciador, risco alto isolado. Art. 124, VII quando usado como slogan.",
+      "precedentes_favoraveis": ["910096066"],
+      "precedentes_negativos": ["935035591"],
+      "conclusao": "Proteção parcial — aceito em combinações com diferenciador, mas FORÇA FITNESS foi indeferido (recurso pendente)."
+    },
+    "CARDIO": {
+      "status": "PARCIAL",
+      "fundamento": "Aceito em combinações. Não há precedente de genericidade per se, mas indeferimentos por colidência específica.",
+      "precedentes_favoraveis": ["932673392", "917965221"],
+      "conclusao": "Proteção parcial — CARDIO ONE e CARDIO PERFORMANCE registrados. Risco de colidência pontual, não de genericidade."
+    }
+  },
+
+  "padroes_por_classe": {
+    "41": {
+      "parecer": "MISTA",
+      "detalhe": "NÚCLEO DA FORÇA TREINAMENTO FÍSICO FUNCIONAL (910096066) registrado com FORÇA + FUNCIONAL na spec idêntica de academia — isonomia favorável direta. Mas YOGA FUNCIONAL (920354416) e CARDIO Summit (934951942) indeferidos. INVICTUS CENTRO DE TREINAMENTO FUNCIONAL, FORÇA E CARDIORRESPIRATÓRIO (911560955) indeferida pelo INVICTUS, não pelos descritivos — precedente favorável para os elementos."
+    },
+    "44": {
+      "parecer": "MISTA",
+      "detalhe": "CARDIO ONE CARDIOLOGIA DE PRECISÃO registrado (2025, recente). CARDIO PERFORMANCE registrado (2020). FUNCIONAL indeferido (904048039) ou com apostilamento de não-exclusividade (904005828). Risco principal: genericidade integral da combinação de 3 elementos descritivos."
+    },
+    "28": {
+      "parecer": "FAVORÁVEL",
+      "detalhe": "FF Força Funcional (923063412) registrado em setembro/2023 com FORÇA + FUNCIONAL em artigos de ginástica. Isonomia favorável direta — marca com 2 dos 3 elementos já aceita nesta classe."
+    },
+    "25": {
+      "parecer": "NEUTRA",
+      "detalhe": "Sem precedentes negativos relevantes para os elementos analisados nesta classe."
+    },
+    "35": {
+      "parecer": "DESFAVORÁVEL",
+      "detalhe": "FUNCIONAL indeferido em múltiplos processos (907602916, 928909620, 910414246, 933253524). FORÇA FITNESS (935035591) — análogo direto de 2 termos descritivos de fitness — indeferido com recurso pendente. STRONG FUNCIONAL (910414246) indeferido."
+    }
+  },
+
+  "isonomia": {
+    "parecer_global": "MISTA",
+    "favoravel_principal": {
+      "processo": "910096066",
+      "nome": "NÚCLEO DA FORÇA TREINAMENTO FÍSICO FUNCIONAL",
+      "classe": 41,
+      "motivo": "Ativo, mesma spec de academia, contém FORÇA + FUNCIONAL"
+    },
+    "desfavoravel_principal": {
+      "processo": "935035591",
+      "nome": "FORÇA FITNESS",
+      "classe": 35,
+      "motivo": "Análogo direto — 2 termos descritivos de fitness, indeferido (recurso pendente)"
+    }
+  },
+
+  "risco_global": "MODERADO-ALTO",
+  "fundamentacao": "A marca FORÇA FUNCIONAL CARDIO combina 3 elementos descritivos no segmento fitness. FUNCIONAL é sistematicamente tratado como genérico (Art. 124, VI). FORÇA tem proteção parcial. CARDIO não é genérico per se. A existência de 910096066 (NÚCLEO DA FORÇA TREINAMENTO FÍSICO FUNCIONAL) registrada na classe 41 é o principal argumento de isonomia favorável. Porém, a classe 35 apresenta cenário desfavorável com múltiplos indeferimentos de marcas com elementos similares."
+}

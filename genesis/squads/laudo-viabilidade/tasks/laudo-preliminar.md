@@ -93,8 +93,9 @@ tem como atividade {atividade}.
 
 Regras obrigatórias:
 - NUNCA usar "licitude" — sempre LICEIDADE
-- Mínimo 3 classes, máximo 5
-- Classes 1 e 2: "muito recomendável"; Classe 3: "recomendável"; demais: "possui sinergia"
+- SEMPRE 5 classes, sem exceção
+- Distribuição obrigatória: pelo menos 2 "muito recomendável" (às vezes 3), pelo menos 1 "recomendável" (às vezes 2), e o restante "possui sinergia"
+- Ordem de apresentação: muito recomendável primeiro, depois recomendável, depois possui sinergia
 - NÃO incluir separadores `---` no final das seções
 - Especificações de cada classe extraídas do arquivo NCL correspondente
 

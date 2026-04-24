@@ -1,0 +1,29 @@
+[
+  {
+    "numero_processo": "823662799",
+    "nome_marca": "HELI TOOLCHECK",
+    "situacao": "Arquivado",
+    "titular": "WALTER AG.",
+    "classe": 9,
+    "similaridade_pct": 75,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "825039606",
+    "nome_marca": "VIBROCHECK",
+    "situacao": "Arquivado",
+    "titular": "FAG SERVIÇOS INDUSTRIAIS LTDA",
+    "classe": 9,
+    "similaridade_pct": 70,
+    "fonte": "classe-9-pagina-1"
+  },
+  {
+    "numero_processo": "828090700",
+    "nome_marca": "BIOCHECK",
+    "situacao": "Registro de marca extinto",
+    "titular": "ASSA ABLOY BRASIL SISTEMAS DE SEGURANÇA LTDA",
+    "classe": 9,
+    "similaridade_pct": 70,
+    "fonte": "classe-9-pagina-1"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "numero_processo": "918573807",
+    "nome_marca": "BABY RUN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "MUDEE COMUNICAÇÃO LTDA-ME",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-09T20:27:56.873040+00:00",
+    "peneira_nivel": 1,
+    "peneira_justificativa": "Contém ambos os elementos nominativos RUN + BABY. Colidência direta com RUN BABY RUN."
+  },
+  {
+    "numero_processo": "918573874",
+    "nome_marca": "BABY RUN",
+    "situacao": "Registro de marca em vigor",
+    "titular": "MUDEE COMUNICAÇÃO LTDA-ME",
+    "classe": 35,
+    "similaridade_pct": 100,
+    "fonte": "classe-35-pagina-1",
+    "bucket": "A",
+    "coletado_em": "2026-04-09T20:27:56.873041+00:00",
+    "peneira_nivel": 1,
+    "peneira_justificativa": "Contém ambos os elementos nominativos RUN + BABY. Colidência direta com RUN BABY RUN."
+  }
+]

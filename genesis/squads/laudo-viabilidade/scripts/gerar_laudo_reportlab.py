@@ -154,8 +154,8 @@ def parsear_plano(caminho_md):
     req = extrair_secao(c, r'## ANÁLISE DOS REQUISITOS \(VERACIDADE, LICEIDADE E DISTINTIVIDADE\)\n*(.*?)\n*(?=## LAUDO DESCRITIVO POR CLASSE|$)', flags=re.DOTALL)
     dados['secoes']['Requisitos'] = req
     
-    # 3. Colidências e Estratégia (Tudo da Parte 2)
-    colid = extrair_secao(c, r'## PARTE 2: ANÁLISE DE COLIDÊNCIAS E ANTERIORIDADES\n*(.*)', flags=re.DOTALL)
+    # 3. Colidências e Estratégia (Tudo da Parte 2 — aceita variações do título)
+    colid = extrair_secao(c, r'## PARTE 2: ANÁLISE DE COLIDÊNCIAS[^\n]*\n*(.*)', flags=re.DOTALL)
     dados['secoes']['Colidências'] = colid
     
     return dados
@@ -286,8 +286,8 @@ def create_report(dados, output_path):
     add_h1("4. ANÁLISE DE COLIDÊNCIAS E VIABILIDADE")
     add_blocks(dados['secoes']['Colidências'])
 
-    # Sign
-    story.append(Spacer(1, 1.5*cm))
+    # Sign — colada ao conteúdo (sem spacer grande que empurra pra página isolada)
+    story.append(Spacer(1, 0.5*cm))
     data_ext = data_por_extenso(dados['data_analise'])
     sign_text = f"É o parecer.<br/>{data_ext}.<br/>Equipe Genesis"
     story.append(Paragraph(sign_text, style_Sign))

@@ -1,0 +1,46 @@
+{
+  "marca": "BABY RUN",
+  "classes": [
+    41,
+    25,
+    5,
+    35,
+    28
+  ],
+  "metodo": "Pesquisa Avançada — análise por similaridade",
+  "similaridade_minima": 20,
+  "max_paginas": 10,
+  "por_classe": {
+    "41": {
+      "encontradas": 900
+    },
+    "25": {
+      "encontradas": 0
+    },
+    "5": {
+      "encontradas": 989
+    },
+    "35": {
+      "encontradas": 1000
+    },
+    "28": {
+      "encontradas": 1000
+    }
+  },
+  "busca_geral": {
+    "encontradas": 0,
+    "novas_unicas": 0
+  },
+  "total_coletadas": 3889,
+  "total_unicas": 3669,
+  "buckets": {
+    "A": 1340,
+    "B": 414,
+    "C": 1915
+  },
+  "sucesso": true,
+  "erro": null,
+  "inicio": "2026-04-09T20:19:27.096484+00:00",
+  "fim": "2026-04-09T20:27:56.934467+00:00",
+  "duracao_segundos": 509.8
+}

@@ -1,0 +1,12 @@
+{
+  "fase": "3A",
+  "modo": "tor",
+  "total_solicitados": 6,
+  "total_coletados": 6,
+  "total_falhas": 0,
+  "falhas": [],
+  "workers": 40,
+  "cpu_limit": 70,
+  "duracao_segundos": 34.7,
+  "inicio": "2026-04-10T06:27:58.345941+00:00"
+}

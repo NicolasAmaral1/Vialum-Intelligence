@@ -1,0 +1,103 @@
+{
+  "marca_alvo": "Pão Pérola Panificadora e Confeitaria",
+  "elementos": {
+    "PEROLA": "DISTINTIVO",
+    "PAO": "DESCRITIVO",
+    "PANIFICADORA": "DESCRITIVO",
+    "CONFEITARIA": "DESCRITIVO"
+  },
+  "classes_analisadas": [
+    30,
+    43,
+    35,
+    29,
+    32
+  ],
+  "total_analisadas": 281,
+  "total_indeferidas": 162,
+  "por_tier": {
+    "T1": 220,
+    "T2": 55,
+    "T3": 5,
+    "T4": 0,
+    "T5": 1
+  },
+  "decisao": {
+    "cotejo": 280,
+    "desgaste": 0,
+    "descartadas": 1
+  },
+  "flags": [
+    {
+      "tipo": "CAMPO_SATURADO",
+      "elemento": "PEROLA",
+      "classe": 30,
+      "contagem": 29,
+      "consequencia": "Piso NEUTRA na calibragem"
+    },
+    {
+      "tipo": "CAMPO_SATURADO",
+      "elemento": "PEROLA",
+      "classe": 43,
+      "contagem": 27,
+      "consequencia": "Piso NEUTRA na calibragem"
+    },
+    {
+      "tipo": "CAMPO_SATURADO",
+      "elemento": "PEROLA",
+      "classe": 35,
+      "contagem": 143,
+      "consequencia": "Piso NEUTRA na calibragem"
+    },
+    {
+      "tipo": "CAMPO_SATURADO",
+      "elemento": "PEROLA",
+      "classe": 29,
+      "contagem": 21,
+      "consequencia": "Piso NEUTRA na calibragem"
+    },
+    {
+      "tipo": "CAMPO_SATURADO",
+      "elemento": "PEROLA",
+      "classe": 32,
+      "contagem": 17,
+      "consequencia": "Piso NEUTRA na calibragem"
+    },
+    {
+      "tipo": "HISTORICO_REJEICAO",
+      "elemento": "PEROLA",
+      "classe": 30,
+      "contagem": 45,
+      "consequencia": "Piso NEUTRA na calibragem"
+    },
+    {
+      "tipo": "HISTORICO_REJEICAO",
+      "elemento": "PEROLA",
+      "classe": 43,
+      "contagem": 8,
+      "consequencia": "Piso NEUTRA na calibragem"
+    },
+    {
+      "tipo": "HISTORICO_REJEICAO",
+      "elemento": "PEROLA",
+      "classe": 35,
+      "contagem": 85,
+      "consequencia": "Piso NEUTRA na calibragem"
+    },
+    {
+      "tipo": "HISTORICO_REJEICAO",
+      "elemento": "PEROLA",
+      "classe": 29,
+      "contagem": 10,
+      "consequencia": "Piso NEUTRA na calibragem"
+    },
+    {
+      "tipo": "HISTORICO_REJEICAO",
+      "elemento": "PEROLA",
+      "classe": 32,
+      "contagem": 7,
+      "consequencia": "Piso NEUTRA na calibragem"
+    }
+  ],
+  "piso_postura": "NEUTRA"
+}

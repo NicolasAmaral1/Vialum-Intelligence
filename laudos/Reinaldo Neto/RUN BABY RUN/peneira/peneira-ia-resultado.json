@@ -1,0 +1,5782 @@
+[
+  {
+    "numero_processo": "818060921",
+    "nome_marca": "BABY FUN",
+    "classe": 40,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 99,
+    "nivel": 2,
+    "justificativa": "Similaridade 99% no INPI. Verificar fonética/gráfica."
+  },
+  {
+    "numero_processo": "941682692",
+    "nome_marca": "ROCK and RUN wear",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "911800026",
+    "nome_marca": "FINANCIAL RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "940084147",
+    "nome_marca": "RUN SCARE GAMES",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910027820",
+    "nome_marca": "Pro-Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Pro-\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "927048990",
+    "nome_marca": "LIVE! RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "830699040",
+    "nome_marca": "RUN FOR WIN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "941511383",
+    "nome_marca": "FLIX RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"FLIX\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "929634950",
+    "nome_marca": "Rotary Run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "941676838",
+    "nome_marca": "SBC RUN FEST",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "926227793",
+    "nome_marca": "LET'S ROLLER & RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "936175680",
+    "nome_marca": "R RUN BRASIL",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939596431",
+    "nome_marca": "FLOWER'S RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "934926182",
+    "nome_marca": "BIÔ ACTIVEWEAR RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941150046",
+    "nome_marca": "MARCIO PIERRI RUN ASSESSORIA ESPORTIVA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "938877216",
+    "nome_marca": "Soul+Run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "932706657",
+    "nome_marca": "MIKE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"MIKE\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "931321573",
+    "nome_marca": "CIRCUITO MUSIC RUN ZENITE",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "933191200",
+    "nome_marca": "MEGA FINISHER South America Run Series",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "901711705",
+    "nome_marca": "RUN UP",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"UP\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "929891554",
+    "nome_marca": "JOMPS RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"JOMPS\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "940080133",
+    "nome_marca": "Run & Bass",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "911021957",
+    "nome_marca": "Escape Trail Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936996889",
+    "nome_marca": "The Bull Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942177037",
+    "nome_marca": "CARNEIRO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "908913494",
+    "nome_marca": "BEER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"BEER\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "907458793",
+    "nome_marca": "XTREME RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "942069501",
+    "nome_marca": "PEIXE BEACH RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "904511502",
+    "nome_marca": "FUTEBOL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942466616",
+    "nome_marca": "GUAXI RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"GUAXI\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "942990234",
+    "nome_marca": "SOL RUN BY MOOVEX SPORTZ",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "902330047",
+    "nome_marca": "Circuito W RUN Corrida e Fitness",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "829317015",
+    "nome_marca": "MUSIC RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"MUSIC\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "827001169",
+    "nome_marca": "MARCELO AFFONSO RUN CLUB",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "915857693",
+    "nome_marca": "#ellasnãoparam Bike Swim Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "938650599",
+    "nome_marca": "HIIT E RUN FESTIVAL",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "932891926",
+    "nome_marca": "Speed Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando fim de sobrestamento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Speed\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "940622726",
+    "nome_marca": "IH RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"IH\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "934314608",
+    "nome_marca": "MEGA FINISHER - South America Run Series",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937839809",
+    "nome_marca": "CONECTA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937776971",
+    "nome_marca": "Navega Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937546135",
+    "nome_marca": "TRAIL RUN DO DESCOBRIMENTO",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "940085003",
+    "nome_marca": "XSTEAM RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "911661042",
+    "nome_marca": "Survival Run & Fun - Apocalipse Zombie",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "937216372",
+    "nome_marca": "RAINBOW RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941520633",
+    "nome_marca": "OURO KIDS RUN CORRIDA INFANTIL",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910790787",
+    "nome_marca": "CAPRI RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"CAPRI\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "941697924",
+    "nome_marca": "Corrida Run Challenge",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "908320256",
+    "nome_marca": "SUBWAY SUNSET RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "936867884",
+    "nome_marca": "UDI NIGHT MUSIC RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909511080",
+    "nome_marca": "RIO ECO RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "908765304",
+    "nome_marca": "SMART RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"SMART\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "936373350",
+    "nome_marca": "UPPER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Para liberar para exame de mérito (pedido de registro sem oposição)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"UPPER\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "939764385",
+    "nome_marca": "BLUE RUN SALVADOR",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910009490",
+    "nome_marca": "UPPER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"UPPER\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "936097183",
+    "nome_marca": "RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "907011918",
+    "nome_marca": "HALOWEEN NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941473546",
+    "nome_marca": "RUN MORE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"MORE\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "906182581",
+    "nome_marca": "BRUNCH run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "840295413",
+    "nome_marca": "RUN FANTASY",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939613123",
+    "nome_marca": "Pulse Trail Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "912189428",
+    "nome_marca": "LADIES Club Run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "941426726",
+    "nome_marca": "AFRODITE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941983030",
+    "nome_marca": "Night Run da Virada",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "912959550",
+    "nome_marca": "UP! NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "913033448",
+    "nome_marca": "PINK RUN SOLIDÁRIA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "903271133",
+    "nome_marca": "DRINK & RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939201240",
+    "nome_marca": "NÓS CAPOTA + NÃO BRECA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "902112082",
+    "nome_marca": "SUPER RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Arquivado). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "914431986",
+    "nome_marca": "BILLION RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "920589723",
+    "nome_marca": "ML MIX RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939037068",
+    "nome_marca": "NETSHOES RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941856275",
+    "nome_marca": "RUN EXPERIENCE BELO HORIZONTE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "930615000",
+    "nome_marca": "CIRCUITO AIRPORT & RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "940786125",
+    "nome_marca": "PARANÁ RUN EDIÇÃO PONTE DE GUARATUBA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "933126034",
+    "nome_marca": "WINNER RUN GRUPO DE CORRIDA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "916811972",
+    "nome_marca": "CARNA RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "938550896",
+    "nome_marca": "Tech Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Tech\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "938417347",
+    "nome_marca": "Run & Pasta",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "933243570",
+    "nome_marca": "RUN TICKETS",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "933249349",
+    "nome_marca": "Magníficas Run Corrida Só Para Mulheres",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941950018",
+    "nome_marca": "PARTNER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "940450682",
+    "nome_marca": "WS RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"WS\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "938059947",
+    "nome_marca": "Feira Night Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "933668880",
+    "nome_marca": "LIVE! RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "829552359",
+    "nome_marca": "TRACK & FIELD DIAMOND RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "921487886",
+    "nome_marca": "BALNEÁRIO CAMBORIÚ NIGHT RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "938036815",
+    "nome_marca": "VERÃO CARIOCA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "940429691",
+    "nome_marca": "Flow Run Club",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939301083",
+    "nome_marca": "Help Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Help\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "913627038",
+    "nome_marca": "HINODE RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "913799696",
+    "nome_marca": "ROCK N' RUN BEER",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "937708216",
+    "nome_marca": "Bible Street Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "912862718",
+    "nome_marca": "LET´S RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "929340736",
+    "nome_marca": "LET'S RUN ASSESSORIA ESPORTIVA",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "903832577",
+    "nome_marca": "SUNSET RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "929075897",
+    "nome_marca": "Blue Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Blue\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "912550309",
+    "nome_marca": "PUMPER´S TRAIL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939408996",
+    "nome_marca": "ROCK3T RUN SERIES",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937338346",
+    "nome_marca": "BIRA RUN ASSESSORIA ESPORTIVA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937213217",
+    "nome_marca": "FORCE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"FORCE\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "928084582",
+    "nome_marca": "the run building yourself",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "924296631",
+    "nome_marca": "BELÉM NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939996936",
+    "nome_marca": "MEIA MARATONA CORRIDA DE REVEZAMENTO BOOST RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941723372",
+    "nome_marca": "ALTAMATA ADVENTURE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910262616",
+    "nome_marca": "BORN TO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936872233",
+    "nome_marca": "DROGARIA RECIFE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "926197932",
+    "nome_marca": "VEG RUN BRASIL",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936867566",
+    "nome_marca": "SUNSET MUSIC RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936058021",
+    "nome_marca": "LR TEAM LET´S RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939779170",
+    "nome_marca": "DON'T STOP RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936420383",
+    "nome_marca": "15K RUN SERIES",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "926591959",
+    "nome_marca": "Ativ Run Assessoria Esportiva",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "926412434",
+    "nome_marca": "LIVE RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "936650761",
+    "nome_marca": "CLIMATE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939843897",
+    "nome_marca": "RIO RUN EXPERIENCE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909276978",
+    "nome_marca": "RUN FOR HEALTH",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939844680",
+    "nome_marca": "RIO RUN FEST",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941686450",
+    "nome_marca": "NIGHT RUN TERESÓPOLIS",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936055294",
+    "nome_marca": "Redepharma Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "907320910",
+    "nome_marca": "NEON RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "927337525",
+    "nome_marca": "INS PIRA ECO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936978910",
+    "nome_marca": "JVM Trail Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "907063837",
+    "nome_marca": "TRACK & FIELD RUN SERIES",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "935794760",
+    "nome_marca": "grupo Start Run e funcional",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "935744509",
+    "nome_marca": "RUN RATS RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"RATS\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "939654997",
+    "nome_marca": "ELETRO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937104191",
+    "nome_marca": "POA NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "911425349",
+    "nome_marca": "Fórmula Run",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "937232394",
+    "nome_marca": "GOOD RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"GOOD\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "912677589",
+    "nome_marca": "DOG RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"DOG\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "912003510",
+    "nome_marca": "FUSION RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "923345809",
+    "nome_marca": "FAST RUN BR",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "937502243",
+    "nome_marca": "The Simple Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "935020012",
+    "nome_marca": "Missionária Night Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "912996951",
+    "nome_marca": "SP DOG RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939349000",
+    "nome_marca": "Breeze Run Club",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "922278636",
+    "nome_marca": "TROFÉU REI DA MONTANHA INTERNACIONAL CICLISMO, MOUNTAIN BIKE, MARATONA RÚSTICA E TRAIL RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "934751927",
+    "nome_marca": "HOLI RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"HOLI\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "903103311",
+    "nome_marca": "CONESCAP RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "913636541",
+    "nome_marca": "THE HARDEST RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "914212095",
+    "nome_marca": "BEAUTY RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "921318375",
+    "nome_marca": "PERFECT RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "901866130",
+    "nome_marca": "Run & Music",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Arquivado). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "920005306",
+    "nome_marca": "DOG LOVERS RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "938965689",
+    "nome_marca": "COMEX RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"COMEX\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "930582837",
+    "nome_marca": "TOGETHER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "938394509",
+    "nome_marca": "RUN CAPADÓCIA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "919724795",
+    "nome_marca": "The Run United People SABUDEGA RUNNERS",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "919543561",
+    "nome_marca": "ROCK & RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "915945878",
+    "nome_marca": "MUSIC RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "919156800",
+    "nome_marca": "Desafio das Serras Trail Run MTB",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "918974402",
+    "nome_marca": "Pet Run",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "940875403",
+    "nome_marca": "FLASH RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"FLASH\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "918589150",
+    "nome_marca": "ABIC COFFEE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "940470934",
+    "nome_marca": "Palmeiras Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "938507338",
+    "nome_marca": "Run & Play",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "917700465",
+    "nome_marca": "RAINBOW RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "938417231",
+    "nome_marca": "Run & Pizza",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "917054148",
+    "nome_marca": "CITY RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "918648718",
+    "nome_marca": "Run For Diversity VIVA A DIVERSIDADE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "931503167",
+    "nome_marca": "SPFC Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"SPFC\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "938585681",
+    "nome_marca": "POA PLAST RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "916239470",
+    "nome_marca": "run GEEK run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"GEEK\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "915164809",
+    "nome_marca": "Guarapuava Games PR Crossfit Mtb Trail Run 2017",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "827832869",
+    "nome_marca": "ROCK'N RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "914963023",
+    "nome_marca": "TIMÃO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"TIMÃO\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "920001181",
+    "nome_marca": "GIRL POWER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "920001203",
+    "nome_marca": "SUGAR SUGAR RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "829422048",
+    "nome_marca": "I STYLE RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "914962698",
+    "nome_marca": "TIMÃO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"TIMÃO\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "829721800",
+    "nome_marca": "RUN TO THE BEAT",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "940583488",
+    "nome_marca": "Feed Your Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "930020669",
+    "nome_marca": "JANA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"JANA\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "914233181",
+    "nome_marca": "St. Patrick's Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "934626774",
+    "nome_marca": "Los pé de cana run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "902673858",
+    "nome_marca": "Recife Night Run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "934615195",
+    "nome_marca": "TR TREK RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937829625",
+    "nome_marca": "SUN DAY RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937768960",
+    "nome_marca": "FOCO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"FOCO\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "913353990",
+    "nome_marca": "TITAN EXTREME RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "942960114",
+    "nome_marca": "AZTECA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "929507347",
+    "nome_marca": "RUN SPORTS",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "912997311",
+    "nome_marca": "SP PINK RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "903946700",
+    "nome_marca": "RUN TO JESUS",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937107352",
+    "nome_marca": "MED RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"MED\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "929075919",
+    "nome_marca": "Blue Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Blue\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "904017133",
+    "nome_marca": "RUN+ ASSESSORIA ESPORTIVA",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "937402389",
+    "nome_marca": "Vikings Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941436012",
+    "nome_marca": "VIRADA FEST RUN correu, virou festa",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942719492",
+    "nome_marca": "RUN CORRA COM SEU MÉDICO",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "923345744",
+    "nome_marca": "FAST RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "941640230",
+    "nome_marca": "Girls Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Girls\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "904619281",
+    "nome_marca": "Self.run assessoria esportiva",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911777393",
+    "nome_marca": "PINK FOR LIFE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "923983112",
+    "nome_marca": "Action Run!",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "937150711",
+    "nome_marca": "SUMMER NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "935310720",
+    "nome_marca": "NATURALS RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937104655",
+    "nome_marca": "POA LADIES RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937103810",
+    "nome_marca": "POA DAY RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "924491370",
+    "nome_marca": "LET´S RUN - CLUBE DE CORRIDA & CAMINHADA",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "910903093",
+    "nome_marca": "Let's Run Assessoria Esportiva",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "927610205",
+    "nome_marca": "REDEPHARMA RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "906301238",
+    "nome_marca": "WTR WORLD TRAIL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "927584328",
+    "nome_marca": "PERFECT RUN EQUIPE DE CORRIDA BY EDUARDO SCHÜTZ",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "927529050",
+    "nome_marca": "15K Run Series",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "942266528",
+    "nome_marca": "LEVIN RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"LEVIN\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "910299510",
+    "nome_marca": "ELECTRIC RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "935729577",
+    "nome_marca": "START RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939945983",
+    "nome_marca": "RUN MORE BAIXA' PACE''",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939833948",
+    "nome_marca": "RIO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"RIO\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "911808507",
+    "nome_marca": "RUN CITIES",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936919787",
+    "nome_marca": "FREEDOM TO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "926832557",
+    "nome_marca": "run up assessoria de corrida",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "926712152",
+    "nome_marca": "Circuito Adventure Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936792531",
+    "nome_marca": "PACK RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"PACK\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "926474847",
+    "nome_marca": "RUN 2 GO!",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"2 GO!\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "909271151",
+    "nome_marca": "Equipe Run Pileque",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "942657500",
+    "nome_marca": "GIRLS WHO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939787733",
+    "nome_marca": "VIVA SÃO ROQUE RUN!",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936567325",
+    "nome_marca": "RUN MULHER",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942034597",
+    "nome_marca": "SUNSET HOUSE & RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936384573",
+    "nome_marca": "Saquá Run & Fun",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Para liberar para exame de mérito (pedido de registro sem oposição)",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909261423",
+    "nome_marca": "DIVAS RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "909267774",
+    "nome_marca": "SHINE RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "936373636",
+    "nome_marca": "UPPER RUN CONSULTORIA ESPORTIVA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Para liberar para exame de mérito (pedido de registro sem oposição)",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936247886",
+    "nome_marca": "GCR RUN Meia Maratona de Governador Celso Ramos/SC",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "840846550",
+    "nome_marca": "KTR KAILASH TRAIL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "936119594",
+    "nome_marca": "Let's Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Let's\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "939706644",
+    "nome_marca": "YOU CAN RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "906357160",
+    "nome_marca": "INTERCLUBES RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909943621",
+    "nome_marca": "THINK GLOBAL, RUN LOCAL",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "942036840",
+    "nome_marca": "AERO NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942362888",
+    "nome_marca": "Rhapsody.run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910036187",
+    "nome_marca": "PARKING RUN 5K",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910463654",
+    "nome_marca": "LOVE RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "924605405",
+    "nome_marca": "Forrest RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910606684",
+    "nome_marca": "CASA PERINI VINO RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "910602905",
+    "nome_marca": "GOLDEN RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "911075500",
+    "nome_marca": "RUN FITNESS CLUB",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "906623901",
+    "nome_marca": "Run & life",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "935605029",
+    "nome_marca": "PEGASUS RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911020519",
+    "nome_marca": "Power Night Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "935647902",
+    "nome_marca": "PARADISÍAC TRAIL RUN EXPERIÊNCIA ÚNICA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "905309227",
+    "nome_marca": "RUN WITH US",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911270663",
+    "nome_marca": "LET´S RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939581078",
+    "nome_marca": "VIBE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"VIBE\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "937232599",
+    "nome_marca": "GOOD RUN GOOD BOM",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "923862617",
+    "nome_marca": "PRIME RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "913853046",
+    "nome_marca": "ARICANDUVA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "904709795",
+    "nome_marca": "NIGHT run SUA CORRIDA NO 220V.",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "935382640",
+    "nome_marca": "Build & Run",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "912043296",
+    "nome_marca": "TORRES TRAIL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "912036486",
+    "nome_marca": "RUNWAY RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "935165843",
+    "nome_marca": "RUN A RACE",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "912213000",
+    "nome_marca": "RUN FM",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"FM\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "935204865",
+    "nome_marca": "THE MATCH RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "903992175",
+    "nome_marca": "PRUDENTE NIGHT RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "912607343",
+    "nome_marca": "SMILE RUN CORRA FELIZ COM UM SORRISO SAUDÁVEL",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "913377244",
+    "nome_marca": "GUARULHOS RUN KIDS",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "903706636",
+    "nome_marca": "FLORIPA RUN CHALLENGE",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "501681400",
+    "nome_marca": "TIME TO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor (Madri)",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "934791287",
+    "nome_marca": "PLAST RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"PLAST\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "902930834",
+    "nome_marca": "RECIFE NIGHT RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "929603478",
+    "nome_marca": "ECO RUN TRAIL",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "913419710",
+    "nome_marca": "RUN&BURN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"&BURN\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "923220313",
+    "nome_marca": "TRICOLOR RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "913708682",
+    "nome_marca": "MONSTER RUN 5K E 10K",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941088278",
+    "nome_marca": "Giro Leve Run Club",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "913754064",
+    "nome_marca": "ACAD RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "913764396",
+    "nome_marca": "MEDICI TRAIL RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "900608706",
+    "nome_marca": "DESIGN RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Arquivado). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "902264630",
+    "nome_marca": "Beach Run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "914098365",
+    "nome_marca": "HIT AND RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "934520259",
+    "nome_marca": "FITZA ECO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942013115",
+    "nome_marca": "X PRO RUN SERIES",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "907493424",
+    "nome_marca": "TRACK & FIELD RUN SERIES",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "934440298",
+    "nome_marca": "RUN SEJA FIT",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "921170335",
+    "nome_marca": "ZUMBI RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "920339042",
+    "nome_marca": "Run de Janeiro CORRIDA E CAMINHADA",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "920589596",
+    "nome_marca": "ML MIX RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "829478744",
+    "nome_marca": "VIVO RIO RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "829422056",
+    "nome_marca": "IGUATEMI STYLE RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "828430020",
+    "nome_marca": "GO RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Arquivado). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "829156313",
+    "nome_marca": "CIRCUITO ECO RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "932070396",
+    "nome_marca": "CIRCUITO PET RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939131412",
+    "nome_marca": "MFC RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"MFC\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "933910711",
+    "nome_marca": "Letts Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando fim de sobrestamento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Letts\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "940587114",
+    "nome_marca": "Spoon Feed Your Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "827883137",
+    "nome_marca": "KIDS RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "941042944",
+    "nome_marca": "POJUCA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "920005470",
+    "nome_marca": "DIVAS RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "919980988",
+    "nome_marca": "ENERGY TRIBE RUN HEALTH & FITNESS",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "937951617",
+    "nome_marca": "Bier Night Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "900136774",
+    "nome_marca": "RUN & WALK",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "812781465",
+    "nome_marca": "RUN INFORMATICA",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "942798511",
+    "nome_marca": "PACE ROSA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "828615845",
+    "nome_marca": "VELOMAX RUN CLUB",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Arquivado). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "814377165",
+    "nome_marca": "RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Arquivado). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "940780585",
+    "nome_marca": "Tardezinha Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "827746091",
+    "nome_marca": "FASHION RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "916005232",
+    "nome_marca": "LIFE RUN SPORT E EVENTOS",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "919169287",
+    "nome_marca": "DIVERSITY RUN CELEBRATION",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "817504265",
+    "nome_marca": "RUN FOR LIFE",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "941944506",
+    "nome_marca": "MARACATU ATÔMICO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "933118805",
+    "nome_marca": "ALL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"ALL\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "918735130",
+    "nome_marca": "RUN AP",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"AP\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "933070420",
+    "nome_marca": "Flow Run",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "938774280",
+    "nome_marca": "Smile Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Smile\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "918453763",
+    "nome_marca": "HERÓIS RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "918471850",
+    "nome_marca": "TOP RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "917273788",
+    "nome_marca": "FAMILY RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "918281970",
+    "nome_marca": "BEACH RUN BRASIL",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "932195504",
+    "nome_marca": "CIRCUITO PINK RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "938780360",
+    "nome_marca": "EASY UPPER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Para liberar para exame de mérito (pedido de registro sem oposição)",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "917911814",
+    "nome_marca": "EASY RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "932466877",
+    "nome_marca": "SOUTH RUN Etapa Ilha",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Verificando o pagamento da concessão (encerrado o prazo extraordinário)",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "932597793",
+    "nome_marca": "SANTOS City. RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "918112060",
+    "nome_marca": "TTRA TRIP TRAIL RUN ADVENTURE",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "917568354",
+    "nome_marca": "ZOO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"ZOO\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "938381687",
+    "nome_marca": "ELAS NO ASFALTO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "943009863",
+    "nome_marca": "XC RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"XC\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "938417398",
+    "nome_marca": "Run & Wine",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942382927",
+    "nome_marca": "Porto blue run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "917512944",
+    "nome_marca": "RUN FOR BEER",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "931372364",
+    "nome_marca": "TIROLES TRAIL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "919032621",
+    "nome_marca": "Planet Run",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "938442171",
+    "nome_marca": "BOTAFOGO RUN NIGHT BFC",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "817374736",
+    "nome_marca": "RUN FOR LIFE",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "915979713",
+    "nome_marca": "RUN. EDGE",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "915979896",
+    "nome_marca": "RUN. E",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \". E\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "930666763",
+    "nome_marca": "VIVA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"VIVA\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "826629024",
+    "nome_marca": "CORPORATE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "933590849",
+    "nome_marca": "CL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"CL\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "942776720",
+    "nome_marca": "HULK RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"HULK\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "827434200",
+    "nome_marca": "ROCK´N RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "938441922",
+    "nome_marca": "BOTAFOGO RUN bfc",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941862151",
+    "nome_marca": "RUN EXPERIENCE SÃO PAULO",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "919578977",
+    "nome_marca": "BRASIL KANGOO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "915251230",
+    "nome_marca": "BEACH RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "919894704",
+    "nome_marca": "FLW RUN CLUB",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "900484896",
+    "nome_marca": "Rock´n Run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "919980937",
+    "nome_marca": "ENERGY TRIBE RUN HEALTH & FITNESS",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "829239049",
+    "nome_marca": "FAMILY RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "829317023",
+    "nome_marca": "MUSIC NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "829422064",
+    "nome_marca": "I FUN RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "829422072",
+    "nome_marca": "IGUATEMI FUN RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939154978",
+    "nome_marca": "HOME RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"HOME\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "941938379",
+    "nome_marca": "YOU BETTER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "933950250",
+    "nome_marca": "Zodiac Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939481766",
+    "nome_marca": "CÃO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"CÃO\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "920738168",
+    "nome_marca": "EASY UPPER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "920944817",
+    "nome_marca": "CRASH BANDICOOT ON THE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "930138678",
+    "nome_marca": "rock the run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939107660",
+    "nome_marca": "Endorfina Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "914362488",
+    "nome_marca": "BALNEÁRIO NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "921317883",
+    "nome_marca": "PERFECT RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "914286668",
+    "nome_marca": "DPN RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"DPN\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "934523371",
+    "nome_marca": "RUN PLACE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"PLACE\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "929888626",
+    "nome_marca": "ITAPE-RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "902043030",
+    "nome_marca": "MPB RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Arquivado). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "937953210",
+    "nome_marca": "RIVER RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"RIVER\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "902053680",
+    "nome_marca": "W RUN corrida para mulheres",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "921597754",
+    "nome_marca": "CRASH ON THE RUN!",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "913974722",
+    "nome_marca": "VALE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"VALE\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "830678859",
+    "nome_marca": "FAMILY RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "830679057",
+    "nome_marca": "1º PET RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "940327457",
+    "nome_marca": "COOP RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"COOP\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "903020610",
+    "nome_marca": "RUN E FUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"E FUN\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "942782364",
+    "nome_marca": "APAS RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"APAS\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "913559172",
+    "nome_marca": "RUN KIDS RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "913436232",
+    "nome_marca": "S2 RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"S2\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "903159627",
+    "nome_marca": "SUPER KIDS RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941981134",
+    "nome_marca": "GEREMIA SUNSET RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "929384814",
+    "nome_marca": "TRACK & FIELD RUN SERIES",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941867048",
+    "nome_marca": "RUN BEER",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando manifestação sobre oposição",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"BEER\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "929336780",
+    "nome_marca": "ABDA URBAN RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "903853698",
+    "nome_marca": "IGUASSU NIGHT RUN CORRIDA DE RUA NOTURNA",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "929224698",
+    "nome_marca": "Run Time Assessoria de Corrida",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "935020764",
+    "nome_marca": "CÃO SILVESTRE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "903968185",
+    "nome_marca": "RUN TOWARD SUSTAINABILITY",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "830977570",
+    "nome_marca": "BRASIL RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "929075935",
+    "nome_marca": "Blue Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Blue\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "939481677",
+    "nome_marca": "SHOPPING RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "940138417",
+    "nome_marca": "The Simple Run Club",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "912494409",
+    "nome_marca": "THE RUN RUNNING IN RACE TRACKS",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "904295869",
+    "nome_marca": "RUN 4 THE PLANET A CORRIDA DO PLANETA",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Registro de marca extinto). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "940218097",
+    "nome_marca": "AGE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"AGE\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "905696638",
+    "nome_marca": "NIGHT RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "501677573",
+    "nome_marca": "TIME TO RUN OR PUSH",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor (Madri)",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "928626261",
+    "nome_marca": "WE RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "904507661",
+    "nome_marca": "FUTEBOL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "928507653",
+    "nome_marca": "[ joinville ] run santa catarina brasil",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "935398155",
+    "nome_marca": "Beat.co RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "928436080",
+    "nome_marca": "VESTA OUR ROOTS RUN DEEPER",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939439891",
+    "nome_marca": "JP RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"JP\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "928334791",
+    "nome_marca": "CRO RUN Corrida da Odonto pela Saúde",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "928310515",
+    "nome_marca": "NIGHT MUSIC RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911624821",
+    "nome_marca": "ALPHA NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "905160657",
+    "nome_marca": "FIT RUN assessoria.com",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "928070883",
+    "nome_marca": "HALLOWEEN KIDS RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911451463",
+    "nome_marca": "Track Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"Track\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "911294023",
+    "nome_marca": "RUN AS ONE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "905468600",
+    "nome_marca": "FLORIPA RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911276378",
+    "nome_marca": "JESUS RUN RUN FOR HIM",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911249966",
+    "nome_marca": "PINK Run SOLIDÀRIA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca nulo",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942229487",
+    "nome_marca": "4:40 run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"4:40\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "840314973",
+    "nome_marca": "THE COLOR RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "940122456",
+    "nome_marca": "ONY RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"ONY\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "905569598",
+    "nome_marca": "Funcional Run Circuito de Rua",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "910998167",
+    "nome_marca": "HALLOWEEN RUN BRASIL.COM",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "906645271",
+    "nome_marca": "42K TURTLE RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "927974789",
+    "nome_marca": "WECLIX RUN SERIES",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910970491",
+    "nome_marca": "EQUIPE ARROZ DE FESTA RUN!",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939971470",
+    "nome_marca": "SOUBIO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "906067260",
+    "nome_marca": "Night Run Twist",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "924296810",
+    "nome_marca": "BELEM SUNSET RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca nulo",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "924307412",
+    "nome_marca": "JUST MOVE LIVE GO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "906177570",
+    "nome_marca": "Night run",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "910664188",
+    "nome_marca": "ELECTRIC RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "927612852",
+    "nome_marca": "VS VIOLA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "906385989",
+    "nome_marca": "BRAZIL RUN SERIES 2013 BY HT SPORTS",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "924991933",
+    "nome_marca": "Jurerê Night Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910387443",
+    "nome_marca": "AIRPORT RUN RUNNING EXPERIENCE",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "906928710",
+    "nome_marca": "Vivendo a Vida - best run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "910255008",
+    "nome_marca": "6K SERTANEJO RUN FEST",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "906921660",
+    "nome_marca": "MAKE UP RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "906979935",
+    "nome_marca": "RUN Corrida de Rua Bancorbrás",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "936996307",
+    "nome_marca": "Agro Power Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "907275400",
+    "nome_marca": "RUN FOR 2",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"FOR 2\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "933279981",
+    "nome_marca": "GUAPORÉ NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909911932",
+    "nome_marca": "CIRCUITO FLASHBACK NIGHT RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "907595413",
+    "nome_marca": "SPARKLING NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "941553710",
+    "nome_marca": "SALVATION RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939889331",
+    "nome_marca": "AMERICAN RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "908180608",
+    "nome_marca": "BRASIL RUN SERIES HT",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "936891955",
+    "nome_marca": "Autismo Sertão Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909546657",
+    "nome_marca": "PRIME RUN correr está na nossa natureza",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "936418800",
+    "nome_marca": "SÃO JOAQUIM RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909473200",
+    "nome_marca": "RUN COYOTE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909426899",
+    "nome_marca": "ARENA NIGHT RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "908628250",
+    "nome_marca": "Fast run assessoria esportiva",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "908698224",
+    "nome_marca": "DIVAS RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "942930479",
+    "nome_marca": "VT RUN Aperte o play e venha correr com a gente!",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "926030647",
+    "nome_marca": "Coletivo Run Desde 2020",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "926290100",
+    "nome_marca": "FANTASMA NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939790696",
+    "nome_marca": "A.M Club RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "908698810",
+    "nome_marca": "Smart Run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "908933118",
+    "nome_marca": "HORTO ECO RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "936512270",
+    "nome_marca": "movn run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"movn\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "939838052",
+    "nome_marca": "MOVIMENTTURE MVNTT C. STYLE CULTURE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909245290",
+    "nome_marca": "RUN SIMPLE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "909277273",
+    "nome_marca": "4K RUN FOR HEALTH",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "908935870",
+    "nome_marca": "LOVE RUN BRASIL",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "925839213",
+    "nome_marca": "RUN PEPPERS MC BRASIL",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942850408",
+    "nome_marca": "PRIDE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"PRIDE\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "908519001",
+    "nome_marca": "FAST RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "501627255",
+    "nome_marca": "RUN LE HAIR SHOW",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor (Madri)",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "908161611",
+    "nome_marca": "Zombie Run Brazil",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939858886",
+    "nome_marca": "NETO RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"NETO\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "936848324",
+    "nome_marca": "The Run United People SABUDEGA RUNNERS",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "908340311",
+    "nome_marca": "HOPI HARI RUN TO FUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911768963",
+    "nome_marca": "EASY RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "907347436",
+    "nome_marca": "speedo run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando fim de sobrestamento",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910138931",
+    "nome_marca": "RUN & DATE",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "907347576",
+    "nome_marca": "speedo run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando fim de sobrestamento",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "925205893",
+    "nome_marca": "INFINITY RUN STREET RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910085625",
+    "nome_marca": "CORRIDA DO ROSA RUN FOR FUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca nulo",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "906401356",
+    "nome_marca": "Run´n´Roll",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "924797100",
+    "nome_marca": "NIKITI RUN CLUB CONEXÃO ATITUDE",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "906954258",
+    "nome_marca": "MORENO NIGHT RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "906866421",
+    "nome_marca": "XC RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"XC\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "935792546",
+    "nome_marca": "UBATUBA PACE RUN UPR",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação e exame de recurso contra o indeferimento",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Aguardando apresentação e exam). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "943004071",
+    "nome_marca": "AGENDA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910701857",
+    "nome_marca": "Live Music 5K Night Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "906574269",
+    "nome_marca": "PERSONAL RUN BY ALESSANDRO ROCHA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "939595966",
+    "nome_marca": "SOLLU'S RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "910602891",
+    "nome_marca": "GOLDEN RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "927584654",
+    "nome_marca": "PERFECT RUN EQUIPE DE CORRIDA BY EDUARDO SCHÜTZ",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "924616237",
+    "nome_marca": "FLOWER´S RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "906303419",
+    "nome_marca": "I-RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"I-\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "840504225",
+    "nome_marca": "DISNEY MAGIC RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942394364",
+    "nome_marca": "Porto blue run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "942037359",
+    "nome_marca": "The World Run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "924335041",
+    "nome_marca": "100K TRAIL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "911092153",
+    "nome_marca": "SANTOS DOG RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "924220740",
+    "nome_marca": "AUTHENTIC RUN ASSESSORIA ESPORTIVA",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "905931424",
+    "nome_marca": "SAMBA RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "501565647",
+    "nome_marca": "BIG RUN STUDIOS",
+    "classe": 9,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor (Madri)",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "RUN em classe adjacente 9 mas sem similaridade com BABY."
+  },
+  {
+    "numero_processo": "940157705",
+    "nome_marca": "AIA RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"AIA\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "923965653",
+    "nome_marca": "SUNRISE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "923906207",
+    "nome_marca": "VIDA SAUDÁVEL RUN GRANJEIRO CE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "928084418",
+    "nome_marca": "the run",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"the\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "911704264",
+    "nome_marca": "BATEL RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911431330",
+    "nome_marca": "SURVIVAL RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "939561867",
+    "nome_marca": "MOVIMENTTURE C. STYLE CULTURE RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "911686371",
+    "nome_marca": "BODY RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "923884483",
+    "nome_marca": "CAICÒ TRAIL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "826935621",
+    "nome_marca": "THE BEST-RUN BUSINESSES RUN SAP",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "923571469",
+    "nome_marca": "come for the biggest wild run AMAZON JUNGLE Savage Run Tapauá-SRT Em breve coming soon Corrida selvagem com obstáculos Leandro Elvas Pinheiro - UEA",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "942283937",
+    "nome_marca": "GLOW RUN - Corra, Brilhe e Proteja sua Pele",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "911943951",
+    "nome_marca": "MUSIC RUN",
+    "classe": 41,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido de registro de marca in). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "911925708",
+    "nome_marca": "RUN THE BRIDGE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "907458572",
+    "nome_marca": "GOLF RUN",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "904511707",
+    "nome_marca": "FUTEBOL RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "912132213",
+    "nome_marca": "II Desafio Street & Beach Run",
+    "classe": 41,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente: RUN na classe 41 (Pedido definitivamente arquiva). Revela padrão INPI para combinações com RUN."
+  },
+  {
+    "numero_processo": "935231951",
+    "nome_marca": "RUN A RACE",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Elemento RUN genérico na classe 41. Elemento distintivo totalmente diferente de BABY."
+  },
+  {
+    "numero_processo": "912088273",
+    "nome_marca": "SEVEN RUN",
+    "classe": 41,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "RUN + elemento curto \"SEVEN\" na classe 41. Possível confusão de conjunto."
+  },
+  {
+    "numero_processo": "819099716",
+    "nome_marca": "BABY FUN",
+    "classe": 3,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 99,
+    "nivel": 2,
+    "justificativa": "Similaridade 99% no INPI. Verificar fonética/gráfica."
+  },
+  {
+    "numero_processo": "817520236",
+    "nome_marca": "SUN BABY",
+    "classe": 3,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 99,
+    "nivel": 2,
+    "justificativa": "Similaridade 99% no INPI. Verificar fonética/gráfica."
+  },
+  {
+    "numero_processo": "903141086",
+    "nome_marca": "BCAA RUN FLUID",
+    "classe": 5,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 5. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "817882952",
+    "nome_marca": "WALKN'RUN",
+    "classe": 25,
+    "bucket": "A",
+    "situacao": "Registro",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 25 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "815173059",
+    "nome_marca": "SUN BABY RIO",
+    "classe": 40,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 99,
+    "nivel": 2,
+    "justificativa": "Similaridade 99% no INPI. Verificar fonética/gráfica."
+  },
+  {
+    "numero_processo": "941575730",
+    "nome_marca": "SUN BABY",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 99,
+    "nivel": 2,
+    "justificativa": "Similaridade 99% no INPI. Verificar fonética/gráfica."
+  },
+  {
+    "numero_processo": "815172982",
+    "nome_marca": "SUN BABY RIO",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 99,
+    "nivel": 2,
+    "justificativa": "Similaridade 99% no INPI. Verificar fonética/gráfica."
+  },
+  {
+    "numero_processo": "816892164",
+    "nome_marca": "OUT RUN",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "840019653",
+    "nome_marca": "RUN SHOP",
+    "classe": 35,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 35. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "941925838",
+    "nome_marca": "GOOD RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "928739538",
+    "nome_marca": "ADAPT RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "818024453",
+    "nome_marca": "RUN ON",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "819283304",
+    "nome_marca": "RUN-WALK",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "913754242",
+    "nome_marca": "RUN&BURN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "942266641",
+    "nome_marca": "LEVIN RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "939779986",
+    "nome_marca": "DON'T STOP RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "501773550",
+    "nome_marca": "EMS RUN",
+    "classe": 5,
+    "bucket": "B",
+    "situacao": "Aguardando apresentação ou exame de recurso contra o deferimento parcial de Designação Recebida",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 5. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "828436975",
+    "nome_marca": "TUNE YOUR RUN",
+    "classe": 35,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 35. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "935310908",
+    "nome_marca": "NATURALS RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "935341692",
+    "nome_marca": "AFTER RUN CLUB",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando cumprimento de exigência de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "914049984",
+    "nome_marca": "BRASIL RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "912325151",
+    "nome_marca": "RUN",
+    "classe": 35,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 35. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "911339264",
+    "nome_marca": "Run Festival",
+    "classe": 35,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 35. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "817882863",
+    "nome_marca": "WALKN'RUN",
+    "classe": 25,
+    "bucket": "A",
+    "situacao": "Registro",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 25 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "925843768",
+    "nome_marca": "Run for Overcoming",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "933538383",
+    "nome_marca": "Run Marketing",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "933118996",
+    "nome_marca": "ALL RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "941536548",
+    "nome_marca": "PACE RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "918349117",
+    "nome_marca": "Run By Run Fitness Clothes",
+    "classe": 35,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 35. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "501835623",
+    "nome_marca": "Right to Run",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando processamento da concessão do registro de marca em designação",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "917700350",
+    "nome_marca": "RAINBOW RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "940934515",
+    "nome_marca": "PURPLE RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "913156973",
+    "nome_marca": "SMART RUN",
+    "classe": 35,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 35. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "942782194",
+    "nome_marca": "APAS RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando prazo de apresentação de oposição",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "938915185",
+    "nome_marca": "RUN FESTIVAL",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "815266642",
+    "nome_marca": "CAN RUN",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "926474367",
+    "nome_marca": "RUN 2 GO!",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "817386190",
+    "nome_marca": "RUN FOR LIFE",
+    "classe": 25,
+    "bucket": "A",
+    "situacao": null,
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 25 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "938348485",
+    "nome_marca": "ROCK and RUN wear",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "937839400",
+    "nome_marca": "CONECTA RUN",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "934546193",
+    "nome_marca": "Grand Plaza Run",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "936676175",
+    "nome_marca": "Yes run",
+    "classe": 35,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 35 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "821928333",
+    "nome_marca": "WALK'N RUN",
+    "classe": 25,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 25 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "907319653",
+    "nome_marca": "BABY FUN",
+    "classe": 28,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 99,
+    "nivel": 2,
+    "justificativa": "Similaridade 99% no INPI. Verificar fonética/gráfica."
+  },
+  {
+    "numero_processo": "929287525",
+    "nome_marca": "play&fun baby",
+    "classe": 28,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 99,
+    "nivel": 2,
+    "justificativa": "Similaridade 99% no INPI. Verificar fonética/gráfica."
+  },
+  {
+    "numero_processo": "935643869",
+    "nome_marca": "QUICK RUN CAR QR",
+    "classe": 28,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 28 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "820408034",
+    "nome_marca": "RUN TIME ERROR",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "501594093",
+    "nome_marca": "Run me. Return me.",
+    "classe": 25,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor (Madri)",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 25 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "823249360",
+    "nome_marca": "RUN WAY",
+    "classe": 28,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "814820883",
+    "nome_marca": "LADY RUN",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "941553701",
+    "nome_marca": "SALVATION RUN",
+    "classe": 28,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 28 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "900407646",
+    "nome_marca": "RUN REUNION",
+    "classe": 28,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "940067684",
+    "nome_marca": "Bacon Run!",
+    "classe": 28,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 28 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "911459448",
+    "nome_marca": "RESISTANCE ON THE RUN",
+    "classe": 28,
+    "bucket": "B",
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "501741397",
+    "nome_marca": "HOI RUN",
+    "classe": 9,
+    "bucket": "A",
+    "situacao": "Aguardando fim de sobrestamento de Designação Recebida",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "RUN em classe adjacente 9 mas sem similaridade com BABY."
+  },
+  {
+    "numero_processo": "923286713",
+    "nome_marca": "SKY RUN CONCEPT",
+    "classe": 28,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 28 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "814123996",
+    "nome_marca": "OUT RUN",
+    "classe": 28,
+    "bucket": "C",
+    "situacao": "Extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "828670706",
+    "nome_marca": "SPEEDY RUN",
+    "classe": 28,
+    "bucket": "C",
+    "situacao": "Pedido definitivamente arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "918178401",
+    "nome_marca": "SKY RUN CONCEPT",
+    "classe": 28,
+    "bucket": "A",
+    "situacao": "Registro de marca em vigor",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 28 mas elemento distintivo diferente de BABY."
+  },
+  {
+    "numero_processo": "816384240",
+    "nome_marca": "CROSS BALL TOP RUN",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "818587482",
+    "nome_marca": "ATHLETIC EVERY TIME READY TO RUN",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "821928341",
+    "nome_marca": "WALK & RUN",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "822229986",
+    "nome_marca": "RUN AWAY",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "902501283",
+    "nome_marca": "RUN KING",
+    "classe": 28,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "830529012",
+    "nome_marca": "OX.>RUN",
+    "classe": 28,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "830434127",
+    "nome_marca": "OXER RUN",
+    "classe": 28,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "814866360",
+    "nome_marca": "OUT RUN",
+    "classe": 28,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "815135246",
+    "nome_marca": "FIT-RUN",
+    "classe": 25,
+    "bucket": "C",
+    "situacao": "Arquivado",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 25. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "821644980",
+    "nome_marca": "CHICKEN RUN",
+    "classe": 28,
+    "bucket": "C",
+    "situacao": "Registro de marca extinto",
+    "similaridade_pct": 50,
+    "nivel": 2,
+    "justificativa": "Precedente com RUN na classe 28. Revela tratamento INPI."
+  },
+  {
+    "numero_processo": "942263863",
+    "nome_marca": "a esportiva WE RUN",
+    "classe": 28,
+    "bucket": "A",
+    "situacao": "Aguardando exame de mérito",
+    "similaridade_pct": 50,
+    "nivel": 3,
+    "justificativa": "Contém RUN na classe 28 mas elemento distintivo diferente de BABY."
+  }
+]

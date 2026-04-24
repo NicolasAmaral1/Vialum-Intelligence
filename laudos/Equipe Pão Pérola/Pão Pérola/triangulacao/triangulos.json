@@ -1,0 +1,351 @@
+[
+  {
+    "processo": "919245315",
+    "nome_marca": "CAFÉ PEROLA",
+    "classe": 30,
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAFÉ OURO RICO LTDA - ME",
+    "bucket": "B",
+    "relevancia": 21,
+    "motivo_relevancia": [
+      "classe core",
+      "indeferida (precedente)",
+      "mantida em recurso"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": "817207139",
+      "motivo_literal": "Art. 124 da LPI: Processo 730000486 (PEROLA), Processo 810557533 (PÉROLA), Processo 817207139 (PÉROLA), Processo 828268487 (AÇÚCAR PÉROLA) e Processo 817219838 (PÉROLA).",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null
+    },
+    "tipo_triangulo": "PARCIAL",
+    "spec_precedente": "Café;Café em grão;Café em pó;Café não torrado;Café solúvel;Extrato de café",
+    "sobreposicao_precedente": "PARCIAL",
+    "score_precedente": 0.029,
+    "spec_bloqueador": "",
+    "sobreposicao_bloqueador": "NENHUM",
+    "score_bloqueador": 0.0,
+    "bloqueador": {
+      "bloqueador_processo": "817207139",
+      "motivo_literal": "Art. 124 da LPI: Processo 730000486 (PEROLA), Processo 810557533 (PÉROLA), Processo 817207139 (PÉROLA), Processo 828268487 (AÇÚCAR PÉROLA) e Processo 817219838 (PÉROLA).",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null,
+      "nome_marca_bloqueador": "PÉROLA",
+      "classe_bloqueador": null,
+      "situacao_bloqueador": "Registro de marca em vigor"
+    },
+    "motivo": "Precedente sobrepõe mas bloqueador fora do segmento (NENHUM)",
+    "motivo_literal": "Art. 124 da LPI: Processo 730000486 (PEROLA), Processo 810557533 (PÉROLA), Processo 817207139 (PÉROLA), Processo 828268487 (AÇÚCAR PÉROLA) e Processo 817219838 (PÉROLA).",
+    "artigo": null
+  },
+  {
+    "processo": "910781427",
+    "nome_marca": "CAFÉ PEROLA NEGRA",
+    "classe": 30,
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "CAFÉ OURO RICO LTDA - ME",
+    "bucket": "B",
+    "relevancia": 21,
+    "motivo_relevancia": [
+      "classe core",
+      "indeferida (precedente)",
+      "mantida em recurso"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": "730050041",
+      "motivo_literal": "Art. 124 da LPI: Processo 730050041 (PÉROLA NEGRA).",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null
+    },
+    "tipo_triangulo": "PARCIAL",
+    "spec_precedente": "Bebidas à base de café; Café; Café não torrado; Café em grão; Café em pó; Café solúvel; Extrato de café; Sucedâneos de café",
+    "sobreposicao_precedente": "PARCIAL",
+    "score_precedente": 0.029,
+    "spec_bloqueador": "",
+    "sobreposicao_bloqueador": "NENHUM",
+    "score_bloqueador": 0.0,
+    "bloqueador": {
+      "bloqueador_processo": "730050041",
+      "motivo_literal": "Art. 124 da LPI: Processo 730050041 (PÉROLA NEGRA).",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null,
+      "nome_marca_bloqueador": "PÉROLA NEGRA",
+      "classe_bloqueador": null,
+      "situacao_bloqueador": "Registro de marca extinto"
+    },
+    "motivo": "Precedente sobrepõe mas bloqueador fora do segmento (NENHUM)",
+    "motivo_literal": "Art. 124 da LPI: Processo 730050041 (PÉROLA NEGRA).",
+    "artigo": null
+  },
+  {
+    "processo": "906815495",
+    "nome_marca": "PEROLA DE PONTA NEGRA PRAIA HOTEL",
+    "classe": 43,
+    "situacao": "Registro de marca nulo",
+    "titular": "FUTURA ADMINISTRAÇÃO IMOBILIÁRIA & TURÍSTICA LTDA",
+    "bucket": "A",
+    "relevancia": 21,
+    "motivo_relevancia": [
+      "classe core",
+      "viva",
+      "marca nula"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": "850200155212",
+      "motivo_literal": "ART. 124 INCISO XIX LPI REG.",
+      "artigo": "art. 124, XIX",
+      "tem_oposicao": true,
+      "opositor": null
+    },
+    "tipo_triangulo": "PARCIAL",
+    "spec_precedente": "Acomodações temporárias (Aluguel de -); Acomodações temporárias (Reservas de -); Agências de acomodações [hotéis, pensões]; Aluguel de acomodações temporárias; Auto-serviço (Restaurantes de -); Bar (Serviços de -); Bufê (Serviço de -); Cafés [bares]; Casas para turistas [alojamento]; Hotéis; Motéis; Pensões [alojamento]; Reservas de acomodações temporárias; Reservas em hotéis; Reservas em pensões [alojamento]; Restaurantes; Albergue; SPA [serviço de hospedagem e fornecimento de refeições]",
+    "sobreposicao_precedente": "TOTAL",
+    "score_precedente": 0.086,
+    "spec_bloqueador": "",
+    "sobreposicao_bloqueador": "NENHUM",
+    "score_bloqueador": 0.0,
+    "bloqueador": {
+      "bloqueador_processo": "850200155212",
+      "motivo_literal": "ART. 124 INCISO XIX LPI REG.",
+      "artigo": "art. 124, XIX",
+      "tem_oposicao": true,
+      "opositor": null,
+      "nome_marca_bloqueador": null,
+      "classe_bloqueador": null,
+      "situacao_bloqueador": null
+    },
+    "motivo": "Precedente sobrepõe mas bloqueador fora do segmento (NENHUM)",
+    "motivo_literal": "ART. 124 INCISO XIX LPI REG.",
+    "artigo": "art. 124, XIX"
+  },
+  {
+    "processo": "903306956",
+    "nome_marca": "PEROLA GOIANO",
+    "classe": 30,
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "FELIPE ELEUTERIO ALVARES VAZ",
+    "bucket": "B",
+    "relevancia": 18,
+    "motivo_relevancia": [
+      "classe core",
+      "indeferida (precedente)"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": "006924603",
+      "motivo_literal": "Art. 124 da LPI: Processo 006924603 (PEROLA), Processo 730000486 (PEROLA), Processo 819008273 (PÉROLA), Processo 006924611 (PÉROLA), Processo 810557533 (PÉROLA), Processo 817207139 (PÉROLA), Processo 828268487 (AÇÚCAR PÉROLA), Processo 817219838 (PÉROLA) e Processo 002493080 (PEROLA).",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null
+    },
+    "tipo_triangulo": "PARCIAL",
+    "spec_precedente": "Sal de cozinha; Café; Milho torrado; Milho para pipoca; Farinhas para uso alimentar; Fubá; Arroz; Pimenta; Milho moído; Polvilho; Açúcar.",
+    "sobreposicao_precedente": "TOTAL",
+    "score_precedente": 0.086,
+    "spec_bloqueador": "",
+    "sobreposicao_bloqueador": "NENHUM",
+    "score_bloqueador": 0.0,
+    "bloqueador": {
+      "bloqueador_processo": "006924603",
+      "motivo_literal": "Art. 124 da LPI: Processo 006924603 (PEROLA), Processo 730000486 (PEROLA), Processo 819008273 (PÉROLA), Processo 006924611 (PÉROLA), Processo 810557533 (PÉROLA), Processo 817207139 (PÉROLA), Processo 828268487 (AÇÚCAR PÉROLA), Processo 817219838 (PÉROLA) e Processo 002493080 (PEROLA).",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null,
+      "nome_marca_bloqueador": "PEROLA",
+      "classe_bloqueador": null,
+      "situacao_bloqueador": "Registro de marca em vigor"
+    },
+    "motivo": "Precedente sobrepõe mas bloqueador fora do segmento (NENHUM)",
+    "motivo_literal": "Art. 124 da LPI: Processo 006924603 (PEROLA), Processo 730000486 (PEROLA), Processo 819008273 (PÉROLA), Processo 006924611 (PÉROLA), Processo 810557533 (PÉROLA), Processo 817207139 (PÉROLA), Processo 828268487 (AÇÚCAR PÉROLA), Processo 817219838 (PÉROLA) e Processo 002493080 (PEROLA).",
+    "artigo": null
+  },
+  {
+    "processo": "827675844",
+    "nome_marca": "ORQUIDEA PEROLA",
+    "classe": 30,
+    "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+    "titular": "NOVA PEROLA PAES E DOCES LTDA EPP",
+    "bucket": "B",
+    "relevancia": 18,
+    "motivo_relevancia": [
+      "classe core",
+      "indeferida (precedente)"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": "006924603",
+      "motivo_literal": "Art. 124 da LPI: Processo 006924603 (PEROLA), Processo 730000486 (PEROLA), Processo 810998440 (ORQUÍDEA), Processo 819008273 (PÉROLA), Processo 820598828 (ORQUIDEA), Processo 824011333 (ORQUÍDEA), Processo 006924611 (PÉROLA), Processo 810557533 (PÉROLA), Processo 817207139 (PÉROLA), Processo 8172198",
+      "artigo": null,
+      "tem_oposicao": false,
+      "opositor": null
+    },
+    "tipo_triangulo": "PARCIAL",
+    "spec_precedente": "Café, chá, cacau, açúcar, arroz, tapioca, sagu, sucedâneos de café; farinhas e preparações feitas de cereais, pão, massas e confeitos, sorvetes; mel, xarope de melaço; lêvedo, fermento em pó; sal, mostarda; vinagre, molhos (condimentos); especiarias; gelo.",
+    "sobreposicao_precedente": "TOTAL",
+    "score_precedente": 0.171,
+    "spec_bloqueador": "",
+    "sobreposicao_bloqueador": "NENHUM",
+    "score_bloqueador": 0.0,
+    "bloqueador": {
+      "bloqueador_processo": "006924603",
+      "motivo_literal": "Art. 124 da LPI: Processo 006924603 (PEROLA), Processo 730000486 (PEROLA), Processo 810998440 (ORQUÍDEA), Processo 819008273 (PÉROLA), Processo 820598828 (ORQUIDEA), Processo 824011333 (ORQUÍDEA), Processo 006924611 (PÉROLA), Processo 810557533 (PÉROLA), Processo 817207139 (PÉROLA), Processo 8172198",
+      "artigo": null,
+      "tem_oposicao": false,
+      "opositor": null,
+      "nome_marca_bloqueador": "PEROLA",
+      "classe_bloqueador": null,
+      "situacao_bloqueador": "Registro de marca em vigor"
+    },
+    "motivo": "Precedente sobrepõe mas bloqueador fora do segmento (NENHUM)",
+    "motivo_literal": "Art. 124 da LPI: Processo 006924603 (PEROLA), Processo 730000486 (PEROLA), Processo 810998440 (ORQUÍDEA), Processo 819008273 (PÉROLA), Processo 820598828 (ORQUIDEA), Processo 824011333 (ORQUÍDEA), Processo 006924611 (PÉROLA), Processo 810557533 (PÉROLA), Processo 817207139 (PÉROLA), Processo 8172198",
+    "artigo": null
+  },
+  {
+    "processo": "935271015",
+    "nome_marca": "O PEROLA KIDS",
+    "classe": 43,
+    "situacao": "Registro de marca em vigor",
+    "titular": "TAMIRIS CRISTALDO SONSECA DOS REIS",
+    "bucket": "A",
+    "relevancia": 17,
+    "motivo_relevancia": [
+      "classe core",
+      "viva",
+      "em vigor"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": "301260023209",
+      "motivo_literal": "",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null
+    },
+    "tipo_triangulo": "PARCIAL",
+    "spec_precedente": "Assessoria, consultoria e informação técnica em serviço de alimentação;Colônia de férias [alojamento];Serviço de bufê;Espaço kids",
+    "sobreposicao_precedente": "TOTAL",
+    "score_precedente": 0.086,
+    "spec_bloqueador": "",
+    "sobreposicao_bloqueador": "NENHUM",
+    "score_bloqueador": 0.0,
+    "bloqueador": {
+      "bloqueador_processo": "301260023209",
+      "motivo_literal": "",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null,
+      "nome_marca_bloqueador": null,
+      "classe_bloqueador": null,
+      "situacao_bloqueador": null
+    },
+    "motivo": "Precedente sobrepõe mas bloqueador fora do segmento (NENHUM)",
+    "motivo_literal": "",
+    "artigo": null
+  },
+  {
+    "processo": "912003413",
+    "nome_marca": "PEROLAS DO SABOR RESTAURANTE",
+    "classe": 43,
+    "situacao": "Registro de marca em vigor",
+    "titular": "PÉROLAS DO SABOR RESTAURANTE LTDA - ME",
+    "bucket": "A",
+    "relevancia": 17,
+    "motivo_relevancia": [
+      "classe core",
+      "viva",
+      "em vigor"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": "850220535042",
+      "motivo_literal": "",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null
+    },
+    "tipo_triangulo": "PARCIAL",
+    "spec_precedente": "Churrascaria [restaurante]; Serviços de restaurantes",
+    "sobreposicao_precedente": "PARCIAL",
+    "score_precedente": 0.029,
+    "spec_bloqueador": "",
+    "sobreposicao_bloqueador": "NENHUM",
+    "score_bloqueador": 0.0,
+    "bloqueador": {
+      "bloqueador_processo": "850220535042",
+      "motivo_literal": "",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null,
+      "nome_marca_bloqueador": null,
+      "classe_bloqueador": null,
+      "situacao_bloqueador": null
+    },
+    "motivo": "Precedente sobrepõe mas bloqueador fora do segmento (NENHUM)",
+    "motivo_literal": "",
+    "artigo": null
+  },
+  {
+    "processo": "818337567",
+    "nome_marca": "ADEGA PEROLA",
+    "classe": 43,
+    "situacao": "Registro de marca em vigor",
+    "titular": "CAFE E BAR PEROLA DO ATLANTICO LTDA",
+    "bucket": "A",
+    "relevancia": 17,
+    "motivo_relevancia": [
+      "classe core",
+      "viva",
+      "em vigor"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": "850140238992",
+      "motivo_literal": "",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null
+    },
+    "tipo_triangulo": "FRUSTRADO",
+    "spec_precedente": "Serviços de fornecimento de comida e bebida; acomodações temporárias.",
+    "sobreposicao_precedente": "NENHUM",
+    "score_precedente": 0.0,
+    "motivo": "Spec do precedente sem sobreposição com atividade (NENHUM)",
+    "bloqueador": {
+      "bloqueador_processo": "850140238992",
+      "motivo_literal": "",
+      "artigo": null,
+      "tem_oposicao": true,
+      "opositor": null
+    }
+  },
+  {
+    "processo": "604725558",
+    "nome_marca": "MATE PEROLA",
+    "classe": 30,
+    "situacao": "Extinto",
+    "titular": "PRODUTOS PEROLA DA CHINA LTDA",
+    "bucket": "C",
+    "relevancia": 10,
+    "motivo_relevancia": [
+      "classe core"
+    ],
+    "bloqueador_info": {
+      "bloqueador_processo": null,
+      "motivo_literal": "",
+      "artigo": null,
+      "tem_oposicao": false,
+      "opositor": null
+    },
+    "tipo_triangulo": "FRUSTRADO",
+    "spec_precedente": "",
+    "sobreposicao_precedente": "NENHUM",
+    "score_precedente": 0.0,
+    "motivo": "Spec do precedente sem sobreposição com atividade (NENHUM)",
+    "bloqueador": {
+      "bloqueador_processo": null,
+      "motivo_literal": "",
+      "artigo": null,
+      "tem_oposicao": false,
+      "opositor": null
+    }
+  }
+]

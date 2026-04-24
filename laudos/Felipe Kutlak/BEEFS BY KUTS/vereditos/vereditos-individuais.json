@@ -1,0 +1,355 @@
+{
+  "marca_analisada": "BEEFS BY KUTS",
+  "atividade": "Casa de carnes, restaurante, churrascaria",
+  "classes_aprovadas": [29, 43, 35, 30, 31],
+  "tipo_marca": "EVOCATIVA (com tendência descritiva)",
+  "data_analise": "2026-04-15T13:30:00Z",
+  "total_marcas_cotejadas": 6,
+  "nota_metodologica": "Coleta manual pelo operador + specs automatizadas. Universo reduzido por curadoria humana: apenas marcas com 'beef/beefs/beers' relevantes na classe 43.",
+
+  "inteligencia_previa": {
+    "tratamento_BY_INPI": "A partícula 'BY' é classificada como elemento negligenciável (Manual de Marcas, seção 5.9.1) — componente nominativo desprovido de capacidade distintiva autônoma, que orbita o núcleo formado pelos elementos principais. Preposições em inglês ('by', 'of', 'for') não são fixadas pelo público-alvo em situação real de consumo. Consequência: no cotejo, o INPI compara os elementos distintivos (BEEFS + KUTS), tratando 'BY' como conector transparente.",
+    "desgaste_BEEF": "O elemento 'BEEF' é genérico/descritivo para a atividade de casa de carnes, restaurante e churrascaria. Alta densidade de marcas com 'BEEF' na classe 43 (múltiplos titulares distintos em vigor). O desgaste do termo favorece o cliente: quanto mais usado, menor a proteção exclusiva de terceiros sobre ele.",
+    "elemento_distintivo": "KUTS — estilização de 'cuts' com K, praticamente virgem no INPI (apenas 1 resultado arquivado: SUPERCUTS). Este é o elemento que confere capacidade distintiva ao conjunto."
+  },
+
+  "vereditos": [
+    {
+      "numero_processo": "919638872",
+      "nome_marca": "BEEF BY FRISA",
+      "classe": 43,
+      "situacao": "Registro de marca em vigor",
+      "titular": "FRISA FRIGORIFICO RIO DOCE S A",
+      "apresentacao": "Mista",
+      "especificacao_completa": "Aconselhamento relativo a receitas culinárias;Assessoria, consultoria e informação em culinária;Assessoria, consultoria e informação relativa à produção de alimento;Assessoria, consultoria e informação técnica em serviço de alimentação;Informações e aconselhamento em matéria de preparação de refeições;Serviços de personal chef",
+      "nivel_peneira": 1,
+
+      "cotejo": {
+        "fonetica": {
+          "grau": "MÉDIA",
+          "justificativa": "Compartilham o radical 'BEEF/BEEFS' e a partícula 'BY' na mesma posição. Porém, a terminação é completamente distinta: 'KUTS' (monossílabo, oclusiva /k/ + fricativa /ts/) vs 'FRISA' (dissílabo, fricativa /f/ + vibrante /r/). A cadência rítmica diverge: 3 tempos (BEEFS-BY-KUTS) vs 3 tempos (BEEF-BY-FRI-SA), mas com sílaba final totalmente distinta. O consumidor retém o sufixo como diferenciador."
+        },
+        "grafica": {
+          "grau": "MÉDIA",
+          "justificativa": "Estrutura visual compartilhada: '[BEEF(S)] BY [X]'. As 7 primeiras letras/espaços são quase idênticas. Porém, o elemento final (KUTS vs FRISA) é graficamente distinto em comprimento, letras e sonoridade visual. Em forma mista, os logotipos seriam completamente diferentes."
+        },
+        "ideologica": {
+          "grau": "ALTA",
+          "justificativa": "Ambas evocam a mesma ideia nuclear: carne bovina associada a uma autoria/origem ('beef by [alguém/algo]'). O campo semântico é idêntico: negócio de carnes com assinatura. A construção 'BY [X]' transmite autoria/personalização em ambos os casos."
+        }
+      },
+
+      "afinidade_mercadologica": {
+        "grau": "INDIRETA",
+        "criterios": {
+          "natureza": "Categoria contígua mas não idêntica: BEEF BY FRISA oferece consultoria/assessoria culinária e personal chef; BEEFS BY KUTS pretende operar casa de carnes, restaurante e churrascaria. São serviços de alimentação, mas em nichos funcionais distintos.",
+          "complementariedade": "Serviços de consultoria culinária podem ser complementares a um restaurante, mas não são substitutos diretos.",
+          "origem_habitual": "É incomum que o mesmo estabelecimento ofereça simultaneamente serviços de personal chef/consultoria culinária E operação de churrascaria/casa de carnes. São modelos de negócio distintos.",
+          "concorrencia": "Não são permutáveis: consumidor que busca churrascaria não contrata personal chef como alternativa."
+        }
+      },
+
+      "especificacoes_vs_atividade": {
+        "spec_candidata": "Aconselhamento relativo a receitas culinárias;Assessoria, consultoria e informação em culinária;Assessoria, consultoria e informação relativa à produção de alimento;Assessoria, consultoria e informação técnica em serviço de alimentação;Informações e aconselhamento em matéria de preparação de refeições;Serviços de personal chef",
+        "atividade_cliente": "Casa de carnes, restaurante, churrascaria",
+        "sobreposicao": "INDIRETA",
+        "analise": "A spec de BEEF BY FRISA é inteiramente voltada para consultoria e assessoria culinária, sem incluir operação de restaurante, churrascaria ou comércio de carnes. A sobreposição existe apenas no universo amplo de 'alimentação', não na atividade específica. Nenhum item da spec se confunde diretamente com 'serviços de restaurantes' ou 'churrascaria'."
+      },
+
+      "isonomia": {
+        "aplicavel": false,
+        "direcao": "NEUTRA",
+        "referencia": "Não há precedente direto de indeferimento de marca com estrutura 'BEEF BY [X]' por colidência com outra 'BEEF BY [Y]'. BEEF BY FRISA foi deferida e está em vigor, o que indica que o INPI aceita a construção."
+      },
+
+      "desgaste": {
+        "cluster": "BEEF classe 43",
+        "grau": "FAVORÁVEL",
+        "titulares_distintos": 3,
+        "nota": "Pelo menos 3 titulares distintos operam com 'BEEF' em marcas vigentes na classe 43 (BEEF BY FRISA, BABY BEEF BH, GOURMET BEERS JOHNY BE GOOD). O elemento 'BEEF' é descritivo do segmento e coexiste livremente."
+      },
+
+      "fatores_atenuantes": [
+        "Elemento 'BEEF' altamente desgastado na classe 43 — descritivo do segmento, coexistência livre",
+        "Elemento distintivo completamente diferente: KUTS vs FRISA — sons, letras e comprimento distintos",
+        "Specs sem sobreposição direta: consultoria culinária ≠ restaurante/churrascaria",
+        "Partícula 'BY' é elemento negligenciável (Manual 5.9.1) — não gera confusão por si só",
+        "BEEF BY FRISA é marca mista com logotipo próprio de frigorífico; BEEFS BY KUTS terá identidade visual distinta",
+        "Próprio deferimento de BEEF BY FRISA prova que INPI aceita coexistência de 'BEEF BY [X]' no mercado"
+      ],
+      "fatores_agravantes": [
+        "Estrutura sintática idêntica: '[BEEF] BY [ELEMENTO]' — mesmo padrão de construção",
+        "Campo semântico (ideológico) idêntico: ambas remetem a carne bovina com assinatura de autoria",
+        "Ambas na classe 43 — mesmo escopo de proteção"
+      ],
+
+      "veredito": "COLIDÊNCIA REMOTA",
+      "risco": "baixo",
+      "fundamentacao": "Art. 124, XIX LPI — análise de imitação parcial. Embora a estrutura sintática seja compartilhada ('[BEEF] BY [X]'), os elementos distintivos são completamente diferentes (KUTS vs FRISA). O radical 'BEEF' é descritivo do segmento (casa de carnes/restaurante de carnes) e apresenta alto desgaste na classe 43, não podendo ser apropriado com exclusividade por nenhum titular. A partícula 'BY' é elemento negligenciável conforme Manual de Marcas 5.9.1. A sobreposição de specs é indireta (consultoria vs operação de restaurante). Aplicando o Princípio da Especialidade: a similaridade gráfica/fonética parcial (estrutura 'BEEF BY') é compensada pela diferença dos elementos distintivos e pelo nicho funcional distinto das especificações.",
+      "estrategia": "1) Argumentar desgaste de 'BEEF' como termo genérico no segmento alimentar, invocando Tese da Distintividade Mitigada. 2) Enfatizar que os elementos distintivos (KUTS vs FRISA) são fonética e graficamente inconciliáveis. 3) Demonstrar que as specs são de nichos funcionais distintos dentro da classe 43. 4) Citar o próprio deferimento de BEEF BY FRISA como precedente de que a construção 'BEEF BY [X]' coexiste no mercado."
+    },
+
+    {
+      "numero_processo": "921077882",
+      "nome_marca": "BABY BEEF BH",
+      "classe": 43,
+      "situacao": "Registro de marca em vigor",
+      "titular": "B&B FOOD RESTAURANTES EIRELI",
+      "apresentacao": "Mista",
+      "especificacao_completa": "Churrascaria [restaurante];Serviço de bufê;Serviços de bar;Serviços de lanchonetes;Serviços de restaurantes;Serviços de restaurantes de auto-serviço",
+      "nivel_peneira": 1,
+
+      "cotejo": {
+        "fonetica": {
+          "grau": "BAIXA",
+          "justificativa": "A única sílaba compartilhada é 'BEEF' (em posição diferente: BEEFS é o início, BEEF é o meio). 'BABY' não tem correspondente em 'BEEFS BY KUTS'. 'BH' (sigla) não se assemelha a 'KUTS'. A cadência é distinta: 'BEI-BI BÍIF BÊ-A-GÁ' vs 'BÍIFS BAI KÂTS'. O público retém 'BABY BEEF' como expressão composta, não confundível com 'BEEFS BY KUTS'."
+        },
+        "grafica": {
+          "grau": "BAIXA",
+          "justificativa": "Compartilham apenas as letras B-E-E-F em posição distinta dentro da marca. A presença de 'BABY' no início e 'BH' no final cria uma estrutura visual completamente diferente de 'BEEFS BY KUTS'. Em forma mista, confusão visual é improvável."
+        },
+        "ideologica": {
+          "grau": "MÉDIA",
+          "justificativa": "Ambas evocam o universo de carne bovina. 'BABY BEEF' é uma referência a um corte específico de carne (baby beef/filé de lombo), enquanto 'BEEFS BY KUTS' evoca cortes de carne de forma geral com assinatura. O campo semântico se conecta (carnes), mas os conceitos específicos divergem: corte individual vs marca autoral de carnes."
+        }
+      },
+
+      "afinidade_mercadologica": {
+        "grau": "DIRETA",
+        "criterios": {
+          "natureza": "Mesma categoria essencial: serviços de restaurante e churrascaria",
+          "finalidade": "Mesmo propósito: servir refeições ao consumidor, com foco em carnes",
+          "concorrencia": "Plenamente permutáveis: consumidor pode escolher entre BABY BEEF BH e BEEFS BY KUTS para a mesma ocasião",
+          "origem_habitual": "Absolutamente habitual que o mesmo estabelecimento ofereça churrascaria, restaurante, bufê e bar"
+        }
+      },
+
+      "especificacoes_vs_atividade": {
+        "spec_candidata": "Churrascaria [restaurante];Serviço de bufê;Serviços de bar;Serviços de lanchonetes;Serviços de restaurantes;Serviços de restaurantes de auto-serviço",
+        "atividade_cliente": "Casa de carnes, restaurante, churrascaria",
+        "sobreposicao": "DIRETA",
+        "analise": "A spec de BABY BEEF BH inclui 'Churrascaria [restaurante]' e 'Serviços de restaurantes', que são exatamente as atividades pretendidas pelo cliente. Sobreposição nuclear em 2 dos 6 itens da spec."
+      },
+
+      "isonomia": {
+        "aplicavel": true,
+        "direcao": "FAVORÁVEL",
+        "referencia": "BABY BEEF RAJA BH (913306649) foi indeferida na mesma classe 43 com specs similares (churrascaria, restaurante). O indeferimento provavelmente ocorreu por colidência com BABY BEEF BH — ou seja, o INPI protege a combinação 'BABY BEEF', não o radical 'BEEF' isolado. Isso favorece BEEFS BY KUTS, cuja construção é totalmente diferente de 'BABY BEEF'.",
+        "aplicacao": "O par BABY BEEF BH (deferida) vs BABY BEEF RAJA BH (indeferida) demonstra que o INPI barra reprodução com acréscimo ('BABY BEEF' + 'RAJA BH'), mas não impede marcas que simplesmente compartilham o elemento genérico 'BEEF'. 'BEEFS BY KUTS' não reproduz 'BABY BEEF' — são construções distintas."
+      },
+
+      "desgaste": {
+        "cluster": "BEEF classe 43",
+        "grau": "FAVORÁVEL",
+        "titulares_distintos": 3,
+        "nota": "O elemento 'BEEF' é genérico no segmento de alimentação de carnes. Sua presença em múltiplas marcas de titulares distintos (BABY BEEF BH, BEEF BY FRISA, entre outras) confirma que não é apropriável com exclusividade."
+      },
+
+      "fatores_atenuantes": [
+        "Similaridade fonética e gráfica BAIXA — construções completamente diferentes",
+        "Elemento compartilhado ('BEEF') é genérico/descritivo do segmento — alto desgaste",
+        "'BABY BEEF' é expressão composta com significado próprio (corte de carne), distinta de 'BEEFS BY KUTS'",
+        "Precedente BABY BEEF RAJA BH demonstra que INPI protege a combinação 'BABY BEEF', não 'BEEF' isolado",
+        "Marca mista — logotipos completamente distintos eliminam confusão visual"
+      ],
+      "fatores_agravantes": [
+        "Sobreposição DIRETA de especificações: churrascaria e restaurante em ambas",
+        "Ambas na classe 43 com foco em carnes"
+      ],
+
+      "veredito": "SEM COLIDÊNCIA",
+      "risco": "muito baixo",
+      "fundamentacao": "A despeito da sobreposição direta de especificações (churrascaria/restaurante), a similaridade fonética e gráfica é BAIXA. A similaridade ideológica é MÉDIA, atenuada pelo desgaste do elemento 'BEEF'. Aplicando o Princípio da Especialidade (Manual 5.11): 'quanto menor a semelhança entre os sinais, maior deverá ser a afinidade mercadológica para caracterizar risco de confusão'. Aqui, a afinidade é alta, mas a semelhança entre os sinais é baixa, resultando em ausência de risco de confusão. As construções 'BABY BEEF BH' e 'BEEFS BY KUTS' não são confundíveis pelo consumidor médio em nenhuma dimensão.",
+      "estrategia": "Se houver questionamento: invocar desgaste do radical 'BEEF' (genérico para o segmento) e demonstrar que as construções são fonética e graficamente inconciliáveis. Citar que 'BABY BEEF' é locução consagrada (corte de carne) sem relação com 'BEEFS BY KUTS'."
+    },
+
+    {
+      "numero_processo": "926915070",
+      "nome_marca": "GOURMET BEERS JOHNY BE GOOD BAR BURGERS",
+      "classe": 43,
+      "situacao": "Registro de marca em vigor",
+      "titular": "JOHNY BE GOOD BAR EIRELI",
+      "apresentacao": "Mista",
+      "especificacao_completa": "Serviços de fornecimento de comida e bebida; acomodações temporárias.",
+      "nivel_peneira": 2,
+
+      "cotejo": {
+        "fonetica": {
+          "grau": "NULA",
+          "justificativa": "Nenhuma sílaba coincidente em posição relevante. 'BEERS' (cervejas) ≠ 'BEEFS' (carnes): a fricativa /z/ vs a labiodental /fs/ cria distinção fonética clara. O conjunto 'GOURMET BEERS JOHNY BE GOOD BAR BURGERS' é uma marca longa de 7 palavras sem qualquer cadência semelhante a 'BEEFS BY KUTS' (3 palavras)."
+        },
+        "grafica": {
+          "grau": "NULA",
+          "justificativa": "Comprimento radicalmente diferente (40+ caracteres vs 13). A única semelhança gráfica é a sequência B-E-E em posição distinta. Estrutura visual incomparável."
+        },
+        "ideologica": {
+          "grau": "BAIXA",
+          "justificativa": "'GOURMET BEERS' evoca cervejas artesanais/gourmet. 'BEEFS BY KUTS' evoca cortes de carne. São segmentos gastronômicos distintos (bebidas vs carnes), embora possam coexistir no mesmo espaço (bar com burgers). A conexão semântica é tangencial."
+        }
+      },
+
+      "afinidade_mercadologica": {
+        "grau": "INDIRETA",
+        "criterios": {
+          "natureza": "Mesma classe 43 mas segmentos distintos: bar de cervejas/burgers vs casa de carnes/churrascaria",
+          "concorrencia": "Não são diretamente permutáveis: consumidor que busca churrascaria não busca bar de cervejas como alternativa equivalente"
+        }
+      },
+
+      "especificacoes_vs_atividade": {
+        "spec_candidata": "Serviços de fornecimento de comida e bebida; acomodações temporárias.",
+        "atividade_cliente": "Casa de carnes, restaurante, churrascaria",
+        "sobreposicao": "INDIRETA",
+        "analise": "A spec é genérica ('fornecimento de comida e bebida') e tecnicamente abrange restaurantes, mas sem especificar churrascaria ou casa de carnes. A amplitude da spec cria sobreposição formal mas não funcional — o nicho real (bar de cervejas) é distinto."
+      },
+
+      "isonomia": {
+        "aplicavel": false,
+        "direcao": "NEUTRA",
+        "referencia": "Sem precedente aplicável."
+      },
+
+      "desgaste": {
+        "cluster": "BEER/BEERS classe 43",
+        "grau": "INCONCLUSIVO",
+        "titulares_distintos": null,
+        "nota": "O radical BEER/BEERS pertence a cluster distinto de BEEF/BEEFS. Não há contaminação entre os clusters."
+      },
+
+      "fatores_atenuantes": [
+        "Similaridade fonética e gráfica NULA — marcas completamente distintas",
+        "'BEERS' (cervejas) ≠ 'BEEFS' (carnes) — segmentos semânticos diferentes",
+        "Marca extremamente longa (7 palavras) vs marca curta (3 palavras)",
+        "Logotipos completamente distintos (ambas mistas)"
+      ],
+      "fatores_agravantes": [],
+
+      "veredito": "SEM COLIDÊNCIA",
+      "risco": "nulo",
+      "fundamentacao": "Ausência total de similaridade fonética, gráfica e ideológica. A semelhança ortográfica superficial entre 'BEERS' e 'BEEFS' não é suficiente para criar risco de confusão: são palavras com significados distintos (cervejas vs carnes), sons distintos (/bɪɹz/ vs /biːfs/) e contextos de uso distintos. Não há fundamento para oposição ou exigência.",
+      "estrategia": "N/A — sem risco."
+    },
+
+    {
+      "numero_processo": "916065740",
+      "nome_marca": "KOB Knowledge of Beef by Olivier",
+      "classe": 43,
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "titular": "HONRA BRASIL - CONSULTORIA EM GASTRONOMIA LTDA.",
+      "apresentacao": "Mista",
+      "especificacao_completa": "Serviços de fornecimento de comida e bebida; acomodações temporárias.",
+      "nivel_peneira": 1,
+      "tipo_analise": "PRECEDENTE",
+
+      "cotejo": {
+        "fonetica": {
+          "grau": "BAIXA",
+          "justificativa": "'KOB Knowledge of Beef by Olivier' é marca longa (6 palavras) com elemento principal 'KOB' (sigla). 'BEEFS BY KUTS' compartilha 'BEEF' e 'BY' em posição distinta. A cadência e extensão são incomparáveis."
+        },
+        "grafica": {
+          "grau": "BAIXA",
+          "justificativa": "Extensão radicalmente diferente. O elemento 'Beef by' aparece embutido no meio da marca, enquanto em 'BEEFS BY KUTS' é o início. 'KOB' como sigla de abertura cria identidade gráfica distinta."
+        },
+        "ideologica": {
+          "grau": "ALTA",
+          "justificativa": "Ambas evocam expertise/conhecimento em carne bovina. 'Knowledge of Beef' = conhecimento de carne. 'BEEFS BY KUTS' = carnes por cortes. Campo semântico muito próximo: gastronomia carnívora autoral."
+        }
+      },
+
+      "analise_como_precedente": {
+        "relevancia": "ALTA",
+        "motivo_indeferimento": "Indeferido e mantido em grau de recurso. A spec genérica ('fornecimento de comida e bebida') e a presença do elemento 'Beef' sugerem indeferimento por colidência com marca anterior contendo 'BEEF' na classe 43, possivelmente por reprodução parcial ou imitação ideológica.",
+        "implicacao_para_cliente": "FAVORÁVEL — O indeferimento de 'KOB Knowledge of Beef by Olivier' NÃO representa risco para 'BEEFS BY KUTS'. Ao contrário: como essa marca foi indeferida e está arquivada, não constitui anterioridade bloqueante. A existência dessa marca indeferida no registro do INPI reforça que o campo semântico de 'beef' é disputado, mas não impede novos registros com construções distintas (prova: BEEF BY FRISA foi deferida).",
+        "padrao_INPI": "O INPI indeferiu 'KOB Knowledge of Beef by Olivier' mas deferiu 'BEEF BY FRISA' — ambas com 'Beef by' na construção. Isso sugere que o indeferimento de KOB pode ter sido por outro motivo (reprodução de marca anterior do titular Olivier, conflito com 'KOB' como sigla, etc.) e não pelo elemento 'Beef by' em si."
+      },
+
+      "veredito": "SEM COLIDÊNCIA (precedente favorável)",
+      "risco": "nulo",
+      "fundamentacao": "Marca indeferida e arquivada — não constitui anterioridade. Como precedente, o caso é favorável: demonstra que o INPI examina marcas com 'Beef' na classe 43 caso a caso, tendo deferido 'BEEF BY FRISA' e indeferido 'KOB Knowledge of Beef by Olivier'. A construção 'BEEFS BY KUTS' é suficientemente distinta de ambas."
+    },
+
+    {
+      "numero_processo": "924525851",
+      "nome_marca": "EMPÓRIO EUREKA CRAFT BEERS BY EUREKA BREWERY SUPPLIES",
+      "classe": 43,
+      "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+      "titular": "EUREKA GLOBAL TRADING LTDA",
+      "apresentacao": "Mista",
+      "especificacao_completa": "Serviços de fornecimento de comida e bebida; acomodações temporárias.",
+      "nivel_peneira": 2,
+      "tipo_analise": "PRECEDENTE",
+
+      "cotejo": {
+        "fonetica": {
+          "grau": "NULA",
+          "justificativa": "Marca de 8 palavras sem qualquer cadência similar a 'BEEFS BY KUTS'. 'BEERS' ≠ 'BEEFS'. A construção é completamente distinta."
+        },
+        "grafica": {
+          "grau": "NULA",
+          "justificativa": "50+ caracteres vs 13. Nenhuma semelhança visual."
+        },
+        "ideologica": {
+          "grau": "NULA",
+          "justificativa": "'CRAFT BEERS' (cervejas artesanais) ≠ 'BEEFS' (carnes). 'BREWERY SUPPLIES' (insumos cervejeiros) ≠ 'KUTS' (cortes). Campos semânticos completamente distintos: cervejaria artesanal vs casa de carnes."
+        }
+      },
+
+      "analise_como_precedente": {
+        "relevancia": "BAIXA",
+        "motivo_indeferimento": "Provavelmente indeferida por conflito com marca 'EUREKA' anterior, não pelo elemento 'BEERS BY'. Irrelevante como precedente para 'BEEFS BY KUTS'.",
+        "implicacao_para_cliente": "NEUTRA — não agrega nem prejudica."
+      },
+
+      "veredito": "SEM COLIDÊNCIA (precedente irrelevante)",
+      "risco": "nulo",
+      "fundamentacao": "Marca de segmento distinto (cervejaria vs carnes), indeferida provavelmente por conflito com 'EUREKA', não com 'BEEFS'. Sem relevância para a análise."
+    },
+
+    {
+      "numero_processo": "913306649",
+      "nome_marca": "BABY BEEF RAJA BH",
+      "classe": 43,
+      "situacao": "Pedido de registro de marca indeferido (sem interposição de recurso)",
+      "titular": "WAGNER PEDRO DOS SANTOS",
+      "apresentacao": "Mista",
+      "especificacao_completa": "Serviços de cantinas; Serviços de lanchonetes; Serviços de restaurantes; Serviços de restaurantes de auto-serviço; Assessoria, consultoria e informações sobre restaurante; Churrascaria [restaurante]",
+      "nivel_peneira": 1,
+      "tipo_analise": "PRECEDENTE",
+
+      "cotejo": {
+        "fonetica": {
+          "grau": "BAIXA",
+          "justificativa": "'BABY BEEF RAJA BH' vs 'BEEFS BY KUTS' — cadência e estrutura fonética completamente distintas. Compartilham apenas o fonema /biːf/."
+        },
+        "grafica": {
+          "grau": "BAIXA",
+          "justificativa": "Compartilham apenas B-E-E-F em posição distinta. 'BABY', 'RAJA', 'BH' não têm correspondente gráfico."
+        },
+        "ideologica": {
+          "grau": "MÉDIA",
+          "justificativa": "Ambas remetem ao universo de carnes. 'BABY BEEF' é corte específico; 'BEEFS BY KUTS' é conceito de marca autoral de carnes."
+        }
+      },
+
+      "analise_como_precedente": {
+        "relevancia": "ALTA",
+        "motivo_indeferimento": "Indeferida sem recurso. Provável colidência com 'BABY BEEF BH' (921077882) — reprodução com acréscimo ('BABY BEEF' + 'RAJA BH'). O titular não recorreu, sugerindo que reconheceu a colidência.",
+        "implicacao_para_cliente": "FAVORÁVEL — Demonstra que o INPI indeferiu 'BABY BEEF RAJA BH' por reprodução da expressão 'BABY BEEF', não pelo elemento 'BEEF' isolado. Isso confirma que 'BEEF' sozinho não gera proteção exclusiva: o que foi protegido é a combinação 'BABY BEEF'. 'BEEFS BY KUTS' não reproduz 'BABY BEEF' — é construção completamente distinta.",
+        "padrao_INPI": "O par BABY BEEF BH (deferida) vs BABY BEEF RAJA BH (indeferida) estabelece que o INPI protege combinações específicas com 'BEEF', mas não o elemento 'BEEF' isoladamente. Precedente que favorece qualquer marca que use 'BEEF' em construção original e distinta."
+      },
+
+      "veredito": "SEM COLIDÊNCIA (precedente favorável)",
+      "risco": "nulo",
+      "fundamentacao": "Marca indeferida — não constitui anterioridade bloqueante. Como precedente, é altamente favorável: demonstra que o INPI barra reproduções com acréscimo ('BABY BEEF' + algo) mas não impede construções originais contendo o genérico 'BEEF'. 'BEEFS BY KUTS' é construção original, sem reproduzir qualquer combinação existente."
+    }
+  ],
+
+  "resumo": {
+    "colidencia_provavel": 0,
+    "colidencia_possivel": 0,
+    "colidencia_remota": 1,
+    "sem_colidencia": 5
+  },
+
+  "conclusao_geral": "O cenário marcário da classe 43 é FAVORÁVEL para o registro de 'BEEFS BY KUTS'. A única marca que apresenta algum grau de sobreposição estrutural é 'BEEF BY FRISA' (919638872), classificada como COLIDÊNCIA REMOTA devido: (i) ao desgaste do elemento 'BEEF' no segmento, (ii) à diferença total dos elementos distintivos (KUTS vs FRISA), e (iii) à ausência de sobreposição direta de especificações. Os precedentes são favoráveis: o INPI demonstra proteger combinações específicas (ex: 'BABY BEEF'), não o radical 'BEEF' isolado. Recomendação: prosseguir com o registro, preferencialmente na forma MISTA (com logotipo), para reforçar a capacidade distintiva perante o examinador."
+}

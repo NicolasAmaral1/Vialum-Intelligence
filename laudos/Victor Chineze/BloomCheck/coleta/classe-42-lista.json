@@ -1,0 +1,47 @@
+[
+  {
+    "numero_processo": "824542282",
+    "nome_marca": "BIOCHECK UP POLICLÍNICA DO CANELA",
+    "situacao": "Registro de marca em vigor",
+    "titular": "POLICLÍNICA DO CANELA S/C LTDA",
+    "classe": 44,
+    "similaridade_pct": 70,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "901064602",
+    "nome_marca": "checkmotor",
+    "situacao": "Arquivado",
+    "titular": "ALEXANDRE DA SILVEIRA FERRARI",
+    "classe": 42,
+    "similaridade_pct": 70,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "912484276",
+    "nome_marca": "CHECKMOTOR",
+    "situacao": "Pedido de registro de marca indeferido (mantido em grau de recurso)",
+    "titular": "Checkmotor Vistoria de Veículos Ltda ''me''",
+    "classe": 42,
+    "similaridade_pct": 70,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "936464992",
+    "nome_marca": "BIOCHECK Laboratorios",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "FRANCISCO CRISTIANO ALVERS",
+    "classe": 42,
+    "similaridade_pct": 70,
+    "fonte": "classe-42-pagina-1"
+  },
+  {
+    "numero_processo": "939843854",
+    "nome_marca": "BIOCHECK PRO",
+    "situacao": "Aguardando exame de mérito",
+    "titular": "RICARDO MOITA DA SILVA",
+    "classe": 42,
+    "similaridade_pct": 70,
+    "fonte": "classe-42-pagina-1"
+  }
+]

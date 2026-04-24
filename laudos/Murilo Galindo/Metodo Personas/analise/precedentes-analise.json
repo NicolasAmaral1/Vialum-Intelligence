@@ -1,0 +1,218 @@
+{
+  "marca_analisada": "Método Personas",
+  "atividade": "Curso Online, Eventos",
+  "classes_requeridas": [9, 35, 38, 41, 42],
+  "fase": "Fase 4 — Isonomia e Precedentes",
+  "data_analise": "2026-04-10",
+  "analista": "@analista-decisoes",
+  "analise_por_classe": {
+    "classe_9": {
+      "resumo": "CAMPO LIVRE — sem precedentes relevantes nem bloqueadores",
+      "precedentes_aplicaveis": [],
+      "bloqueadores_ativos": [],
+      "perguntas": {
+        "quando": "Sem decisões relevantes identificadas para o radical persona- na classe 9. Nenhum precedente temporal a ponderar.",
+        "o_que": "Não há indeferimentos nem concessões de marcas PERSONA/PERSONAS na classe 9. Nenhum fundamento (art. 124 XIX ou VI) foi aplicado.",
+        "quem": "Nenhuma decisão de 1ª ou 2ª instância identificada.",
+        "padrao": "INCONCLUSIVO. Ausência total de dados impede identificação de padrão. O campo está livre para o radical persona-.",
+        "isonomia": "NÃO APLICÁVEL. Sem precedentes para invocar isonomia, seja favorável ou desfavorável. A ausência de bloqueadores é o fator determinante — não é necessário argumento de isonomia."
+      },
+      "nivel_risco": "BAIXO",
+      "isonomia_classificacao": "NAO_APLICAVEL",
+      "justificativa_isonomia": "Classe sem histórico de conflitos com o radical persona-. Nenhuma marca PERSONA ou PERSONAS ativa. O elemento MÉTODO é genérico mas irrelevante aqui por falta de oponentes. Registro viável sem argumento de isonomia."
+    },
+    "classe_35": {
+      "resumo": "ALTO RISCO — precedente direto de indeferimento de 'Personas' por colidência com 'PERSONA'",
+      "precedentes_aplicaveis": [
+        {
+          "processo": "923173943",
+          "marca": "Personas",
+          "classe": 35,
+          "decisao": "INDEFERIDO",
+          "fundamento": "art. 124, XIX",
+          "data_decisao": "2022-04-12",
+          "instancia": "1ª instância",
+          "recurso": false,
+          "bloqueadores_citados": ["913066540 (Persona RH)", "915852039 (PERSONA)"],
+          "relevancia": "CRITICA — marca idêntica ao elemento distintivo de MÉTODO PERSONAS"
+        },
+        {
+          "processo": "900367202",
+          "marca": "MÉTODO PERSONALITY",
+          "classe": 35,
+          "decisao": "INDEFERIDO_MANTIDO_RECURSO",
+          "fundamento": "art. 124, XIX",
+          "data_decisao_1a": "2013-10",
+          "data_decisao_2a": "2017-10",
+          "instancia": "2ª instância (recurso negado)",
+          "recurso": true,
+          "resultado_recurso": "negado",
+          "bloqueadores_citados": ["827724810 (PERSONALITÉ RECURSOS HUMANOS — hoje EXTINTA)"],
+          "relevancia": "ALTA — estrutura MÉTODO + derivado de PERSONA, mesmo padrão"
+        }
+      ],
+      "bloqueadores_ativos": [
+        {
+          "processo": "915852039",
+          "nome": "PERSONA",
+          "situacao": "em vigor",
+          "classe": 35,
+          "impacto": "Bloqueador primário. Já citado como fundamento do indeferimento de 'Personas' (923173943)."
+        },
+        {
+          "processo": "913066540",
+          "nome": "Persona RH CONSULTORIA EM DESENVOLVIMENTO HUMANO",
+          "situacao": "em vigor",
+          "classe": 35,
+          "impacto": "Bloqueador secundário. Co-citado no indeferimento de 'Personas'."
+        }
+      ],
+      "perguntas": {
+        "quando": "Decisão mais recente: 12/04/2022 (indeferimento de 'Personas', RPI 2675). Decisão de 2ª instância: 10/2017 (MÉTODO PERSONALITY mantido). Ambas recentes o suficiente para serem vinculantes ao padrão atual do INPI. A decisão de 2022 tem peso máximo por recência.",
+        "o_que": "Duas decisões por art. 124, XIX (colidência). Em ambos os casos, o INPI desconsiderou MÉTODO como elemento distintivo e avaliou apenas o substantivo (PERSONALITY, Personas). O indeferimento de 'Personas' é especialmente grave: o INPI considerou PERSONAS reprodução/imitação de PERSONA, mesmo com diferença de número (singular vs plural).",
+        "quem": "'Personas' (923173943): 1ª instância, sem recurso interposto. MÉTODO PERSONALITY (900367202): 1ª instância + 2ª instância (recurso negado). A confirmação em 2ª instância de MÉTODO PERSONALITY reforça que o padrão é consolidado.",
+        "padrao": "PADRÃO CLARO E CONSOLIDADO: (1) MÉTODO é genérico e descartado na análise. (2) Derivados do radical persona- são tratados como colidentes entre si. (3) PERSONA em vigor bloqueia PERSONAS. (4) A 2ª instância confirmou este entendimento em caso análogo.",
+        "isonomia": "DESFAVORÁVEL. Os precedentes são contra o requerente. 'Personas' já foi indeferida nesta exata classe por estes exatos bloqueadores. Invocar isonomia seria argumentar a favor do próprio indeferimento. A eventual extinção de PERSONA (915852039) seria a única via, mas a marca está EM VIGOR."
+      },
+      "nivel_risco": "CRITICO",
+      "isonomia_classificacao": "DESFAVORAVEL",
+      "justificativa_isonomia": "A isonomia opera CONTRA o requerente nesta classe. O precedente direto (Personas indeferida em 2022) e o precedente estrutural (MÉTODO PERSONALITY mantido em 2ª instância em 2017) formam jurisprudência administrativa sólida. O INPI aplicará o mesmo raciocínio a MÉTODO PERSONAS: descartará MÉTODO como genérico, avaliará PERSONAS contra PERSONA (915852039), e indeferirá por art. 124, XIX. O bloqueador PERSONALITÉ (827724810) que barrou MÉTODO PERSONALITY está extinto, mas PERSONA (915852039) está EM VIGOR — situação pior que o precedente."
+    },
+    "classe_38": {
+      "resumo": "CAMPO LIVRE — sem bloqueadores PERSONA na classe, risco baixo",
+      "precedentes_aplicaveis": [],
+      "bloqueadores_ativos": [],
+      "perguntas": {
+        "quando": "Sem decisões relevantes envolvendo o radical persona- na classe 38.",
+        "o_que": "Nenhum indeferimento nem concessão de PERSONA/PERSONAS na classe 38. O elemento MÉTODO tem desgaste PARCIAL (10+ titulares em vigor, 4 indeferidas), o que é favorável — MÉTODO é aceito como qualificador genérico.",
+        "quem": "Nenhuma decisão de 1ª ou 2ª instância relevante para o radical persona- nesta classe.",
+        "padrao": "INCONCLUSIVO para persona-. Porém o padrão geral do INPI (MÉTODO genérico + avaliação do complemento) se aplica. Na ausência de marca PERSONA/PERSONAS oponente, o complemento PERSONAS é livre.",
+        "isonomia": "NÃO APLICÁVEL. Sem precedentes de conflito. A ausência de bloqueadores torna o argumento de isonomia desnecessário. Registro viável."
+      },
+      "nivel_risco": "BAIXO",
+      "isonomia_classificacao": "NAO_APLICAVEL",
+      "justificativa_isonomia": "Classe sem marcas PERSONA/PERSONAS ativas. MÉTODO tem presença moderada (10+ titulares em vigor). Nenhum argumento de isonomia é necessário — o caminho está livre."
+    },
+    "classe_41": {
+      "resumo": "ALTO RISCO — precedente de MÉTODO PERSONALIZE indeferido + MÉTODO ILUMINADO mantido em recurso confirmam padrão",
+      "precedentes_aplicaveis": [
+        {
+          "processo": "917697936",
+          "marca": "MÉTODO PERSONALIZE",
+          "classe": 41,
+          "decisao": "INDEFERIDO",
+          "fundamento": "art. 124, XIX",
+          "data_decisao": "2020-01-14",
+          "instancia": "1ª instância",
+          "recurso": false,
+          "bloqueadores_citados": ["910292639 (PERSONALIZE COMUNICAÇÃO)", "916516636 (PERSONALIZA CURSOS)"],
+          "relevancia": "ALTA — estrutura MÉTODO + derivado de PERSONA na mesma classe 41"
+        },
+        {
+          "processo": "920831540",
+          "marca": "MÉTODO ILUMINADO",
+          "classe": 41,
+          "decisao": "INDEFERIDO_MANTIDO_RECURSO",
+          "fundamento": "art. 124, XIX",
+          "data_decisao_1a": "2021-08",
+          "data_decisao_2a": "2022-07",
+          "instancia": "2ª instância (recurso negado)",
+          "recurso": true,
+          "resultado_recurso": "negado",
+          "bloqueadores_citados": ["918888719 (ILUMINADO)"],
+          "relevancia": "ALTA — confirma que INPI trata MÉTODO como genérico na cl.41 e barra por colidência do complemento"
+        },
+        {
+          "processo": "821336525",
+          "marca": "BASEADO NO METODO PILATES",
+          "classe": 41,
+          "decisao": "INDEFERIDO_MANTIDO_RECURSO",
+          "fundamento": "art. 124, VI",
+          "data_decisao_1a": "2018-12",
+          "data_decisao_2a": "2021-01",
+          "instancia": "2ª instância (recurso negado)",
+          "recurso": true,
+          "resultado_recurso": "negado",
+          "bloqueadores_citados": [],
+          "relevancia": "MEDIA — fundamento diferente (descritivo), mas reforça tratamento de MÉTODO como genérico"
+        }
+      ],
+      "bloqueadores_ativos": [
+        {
+          "processo": "916516636",
+          "nome": "PERSONALIZA CURSOS",
+          "situacao": "em vigor",
+          "classe": 41,
+          "impacto": "Bloqueador indireto. O INPI já considerou PERSONALIZE e PERSONALIZA como colidentes. PERSONAS compartilha o radical persona- mas com sufixo diferente. Risco moderado-alto de o INPI estender o mesmo raciocínio."
+        },
+        {
+          "processo": "910292639",
+          "nome": "PERSONALIZE COMUNICAÇÃO",
+          "situacao": "em vigor",
+          "classe": 41,
+          "impacto": "Bloqueador indireto. Co-citado no indeferimento de MÉTODO PERSONALIZE. Mesmo radical persona-."
+        }
+      ],
+      "perguntas": {
+        "quando": "Decisões: MÉTODO PERSONALIZE indeferido em 14/01/2020 (RPI 2558). MÉTODO ILUMINADO mantido em 2ª instância em 07/2022. BASEADO NO METODO PILATES mantido em 01/2021. Todas recentes (2020-2022), formando padrão consistente e atual.",
+        "o_que": "Três decisões convergentes na classe 41: duas por art. 124, XIX (colidência) e uma por art. 124, VI (descritivo). O padrão é inequívoco: MÉTODO é descartado como genérico, e o complemento é avaliado isoladamente contra marcas existentes. MÉTODO PERSONALIZE foi barrado por PERSONALIZA CURSOS e PERSONALIZE COMUNICAÇÃO — o INPI tratou derivados do radical como colidentes.",
+        "quem": "MÉTODO PERSONALIZE: 1ª instância apenas. MÉTODO ILUMINADO: 2ª instância (recurso negado). BASEADO NO METODO PILATES: 2ª instância (recurso negado). Duas confirmações em 2ª instância consolidam o padrão.",
+        "padrao": "PADRÃO CONSOLIDADO EM 2ª INSTÂNCIA: (1) MÉTODO é genérico e descartado. (2) O complemento é avaliado contra marcas existentes. (3) Derivados do radical persona- são tratados como colidentes. (4) Não há nenhum caso de reversão em recurso na classe 41 para marcas MÉTODO.",
+        "isonomia": "DESFAVORÁVEL. O precedente MÉTODO PERSONALIZE (indeferido por PERSONALIZA CURSOS na cl.41) é estruturalmente idêntico ao caso MÉTODO PERSONAS. A isonomia exige que o INPI trate MÉTODO PERSONAS da mesma forma — indeferindo. A diferença é que PERSONAS não é derivação direta de PERSONALIZA (persona- vs personaliza-), o que abre margem MÍNIMA para distinção semântica, mas o precedente é predominantemente contra."
+      },
+      "nivel_risco": "ALTO",
+      "isonomia_classificacao": "DESFAVORAVEL",
+      "justificativa_isonomia": "O precedente MÉTODO PERSONALIZE indeferido por colidência com PERSONALIZA CURSOS e PERSONALIZE COMUNICAÇÃO na mesma classe 41 é diretamente aplicável. O INPI tratou derivados de persona- (PERSONALIZE/PERSONALIZA) como colidentes entre si. PERSONAS compartilha o mesmo radical. A diferença semântica (PERSONAS = plural de persona vs PERSONALIZA = verbo) oferece margem mínima de argumentação, mas o padrão decisório é predominantemente desfavorável. MÉTODO ILUMINADO mantido em 2ª instância (2022) confirma que recursos nesta configuração são sistematicamente negados."
+    },
+    "classe_42": {
+      "resumo": "RISCO MODERADO — 'Personas' (923174044) está REGISTRADA em vigor nesta classe",
+      "precedentes_aplicaveis": [
+        {
+          "processo": "923174044",
+          "marca": "Personas",
+          "classe": 42,
+          "decisao": "REGISTRADA_EM_VIGOR",
+          "fundamento": "concessão regular",
+          "instancia": "1ª instância",
+          "relevancia": "ALTA — marca 'Personas' em vigor na cl.42. MÉTODO PERSONAS contém 'Personas' integralmente."
+        }
+      ],
+      "bloqueadores_ativos": [
+        {
+          "processo": "923174044",
+          "nome": "Personas",
+          "situacao": "Registro de marca em vigor",
+          "classe": 42,
+          "titular": "1859 SERVIÇOS FINANCEIROS LTDA.",
+          "impacto": "Bloqueador potencial. O mesmo titular (1859 SERVIÇOS FINANCEIROS) teve 'Personas' indeferida na cl.35 mas registrada na cl.42. MÉTODO PERSONAS contém 'Personas' integralmente — risco de colidência por art. 124, XIX."
+        }
+      ],
+      "perguntas": {
+        "quando": "O registro de 'Personas' (923174044) na cl.42 está em vigor. Não há data de indeferimento — houve concessão. Dado recente (depósito 2021, concessão posterior).",
+        "o_que": "'Personas' foi CONCEDIDA na cl.42 (enquanto foi INDEFERIDA na cl.35 pelo mesmo titular). Isso indica que na cl.42 não havia bloqueador PERSONA/PERSONAS ativo no momento do exame. Para MÉTODO PERSONAS, a existência de 'Personas' registrada na cl.42 é ela própria o bloqueador: MÉTODO PERSONAS reproduz 'Personas' integralmente com acréscimo de MÉTODO (genérico).",
+        "quem": "Concessão em 1ª instância.",
+        "padrao": "MISTO. A concessão de 'Personas' na cl.42 mostra que o INPI aceitou o termo nesta classe. Porém, essa mesma concessão cria o bloqueador para MÉTODO PERSONAS: o INPI aplicará art. 124, XIX considerando que MÉTODO PERSONAS reproduz 'Personas' com acréscimo genérico.",
+        "isonomia": "DESFAVORÁVEL COM NUANCE. A isonomia opera nos dois sentidos: (a) se 'Personas' foi registrada, PERSONAS como elemento é registrável na cl.42 — argumento favorável ao requerente; (b) porém, 'Personas' já registrada bloqueia MÉTODO PERSONAS por art. 124, XIX — argumento desfavorável. O resultado líquido é DESFAVORÁVEL porque a marca oponente existe e está ativa."
+      },
+      "nivel_risco": "MODERADO_A_ALTO",
+      "isonomia_classificacao": "DESFAVORAVEL_COM_NUANCE",
+      "justificativa_isonomia": "A concessão de 'Personas' na cl.42 demonstra que o radical persona- não é irregistrável per se nesta classe. Porém, essa mesma marca registrada se torna o bloqueador de MÉTODO PERSONAS. O INPI seguirá o padrão: MÉTODO genérico + PERSONAS = reprodução de 'Personas' registrada. A única via seria argumentar coexistência (atividades diferentes dentro da cl.42), mas a especificação de serviços pode se sobrepor."
+    }
+  },
+  "padrao_geral_identificado": {
+    "descricao": "O INPI trata MÉTODO como elemento genérico não distintivo em todas as classes analisadas. A avaliação de registrabilidade recai integralmente sobre o substantivo que acompanha MÉTODO. Para derivados do radical persona-, o INPI aplica sistematicamente art. 124, XIX quando existe marca oponente com o mesmo radical.",
+    "confirmacoes_2a_instancia": [
+      "MÉTODO PERSONALITY (900367202) — recurso negado em 2017",
+      "MÉTODO ILUMINADO (920831540) — recurso negado em 2022",
+      "BASEADO NO METODO PILATES (821336525) — recurso negado em 2021"
+    ],
+    "taxa_reversao_recurso": "0% (zero reversões em 3 recursos analisados)",
+    "implicacao": "Recursos contra indeferimento de marcas MÉTODO + complemento têm probabilidade muito baixa de sucesso na 2ª instância."
+  },
+  "sintese_isonomia": {
+    "classificacao_geral": "PREDOMINANTEMENTE DESFAVORAVEL",
+    "classes_favoraveis": [9, 38],
+    "classes_desfavoraveis": [35, 41, 42],
+    "resumo": "A isonomia decisória do INPI opera CONTRA 'Método Personas' nas classes principais (35, 41, 42). Precedentes diretos e estruturais demonstram padrão consolidado de indeferimento para marcas MÉTODO + derivado de persona-. Nas classes 9 e 38, a ausência de bloqueadores torna a isonomia irrelevante — o registro é viável pela via direta. O padrão mais grave é na classe 35, onde 'Personas' já foi indeferida pelos mesmos bloqueadores que afetarão 'Método Personas'."
+  }
+}
