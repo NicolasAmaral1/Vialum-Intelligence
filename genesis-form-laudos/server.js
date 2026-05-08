@@ -45,6 +45,14 @@ const BOOTSTRAP_USERS = [
     mustChangePassword: true,
     passwordHash: 'scrypt$aa0cfdcbb03a361a0cb398427e30f2ea$4181b951cc7b70299bdd0764be65c1e12667a1e09195941c8d2b72d78f5dd06e5f6050a8babf87bcc0e597d9eb7a769ac806ffd158820f01c8ebb912ce2af2e7',
   },
+  {
+    username: 'nicolas',
+    displayName: 'Nicolas Amaral',
+    companyName: 'Avelum',
+    role: 'admin',
+    mustChangePassword: false,
+    passwordHash: 'scrypt$d3cd4e623163f5118026597898ac1a73$cd3926704f04046ad27719987c0e7a4e7388b740ef2449962dfc97cc72a3150c136e3afab0585fe554357fc2cd4747093b84b207f3be092bf8483d4d2a83d171',
+  },
 ];
 
 app.disable('x-powered-by');
@@ -554,7 +562,7 @@ app.get('/api/laudos', requireAuth, async (req, res) => {
   }
 });
 
-// GET laudos with status "feito" — for the confirmacoes page
+// GET laudos with status "entregue" — for the confirmacoes page
 app.get('/api/laudos-concluidos', requireAuth, requireAdmin, async (req, res) => {
   try {
     if (!CLICKUP_API_TOKEN) {
@@ -562,7 +570,7 @@ app.get('/api/laudos-concluidos', requireAuth, requireAdmin, async (req, res) =>
     }
 
     const response = await axios.get(
-      `https://api.clickup.com/api/v2/list/${LIST_ID}/task?statuses[]=feito&include_closed=false`,
+      `https://api.clickup.com/api/v2/list/${LIST_ID}/task?statuses[]=entregue&include_closed=false`,
       { headers: { Authorization: CLICKUP_API_TOKEN } }
     );
 
@@ -596,6 +604,7 @@ app.post('/api/protocolo', requireAuth, requireAdmin, async (req, res) => {
       classes,
       formaPagamento,
       tipoMarca,
+      urgencia,
       notaAdicional,
       laudoTaskId,
     } = req.body;
@@ -615,6 +624,7 @@ app.post('/api/protocolo', requireAuth, requireAdmin, async (req, res) => {
       `**Forma de Pagamento:** ${formaPagamento}`,
       `**Classes:** ${String(classes).trim()}`,
       `**Tipo de Marca:** ${tipoMarca || 'NOMINATIVA'}`,
+      `**Urgência:** ${urgencia || 'NORMAL'}`,
       notaAdicional ? `**Nota:** ${String(notaAdicional).trim()}` : null,
       laudoTaskId ? `**Laudo vinculado:** https://app.clickup.com/t/${laudoTaskId}` : null,
       `**Iniciado por:** ${buildRequesterLabel(req.currentUser)}`,

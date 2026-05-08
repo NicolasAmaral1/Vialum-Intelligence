@@ -41,18 +41,17 @@
           <select id="laudoSelect" required>
             <option value="">Carregando laudos...</option>
           </select>
-          <small class="field-hint">Somente laudos com status "feito" aparecem aqui.</small>
+          <small class="field-hint">Somente laudos com status "entregue" aparecem aqui.</small>
         </div>
 
-        <div class="form-row">
-          <div class="form-group">
-            <label for="nomeMarca">Nome da Marca</label>
-            <input type="text" id="nomeMarca" name="nomeMarca" placeholder="Preenchido automaticamente" required>
-          </div>
-          <div class="form-group">
-            <label for="nomeCliente">Nome do Cliente</label>
-            <input type="text" id="nomeCliente" name="nomeCliente" placeholder="Preenchido automaticamente" required>
-          </div>
+        <div class="form-group">
+          <label for="nomeMarca">Nome da Marca</label>
+          <input type="text" id="nomeMarca" name="nomeMarca" placeholder="Preenchido automaticamente" required>
+        </div>
+
+        <div class="form-group">
+          <label for="nomeCliente">Nome do Cliente</label>
+          <input type="text" id="nomeCliente" name="nomeCliente" placeholder="Preenchido automaticamente" required>
         </div>
 
         <div class="form-row">
@@ -85,21 +84,36 @@
           </div>
         </div>
 
-        <div class="form-group">
-          <label for="tipoMarca">Tipo de Marca</label>
-          <div class="radio-group">
-            <label class="radio-label">
-              <input type="radio" name="tipoMarca" value="NOMINATIVA" checked>
-              <span>Nominativa</span>
-            </label>
-            <label class="radio-label">
-              <input type="radio" name="tipoMarca" value="MISTA">
-              <span>Mista</span>
-            </label>
-            <label class="radio-label">
-              <input type="radio" name="tipoMarca" value="FIGURATIVA">
-              <span>Figurativa</span>
-            </label>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="tipoMarca">Tipo de Marca</label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="tipoMarca" value="NOMINATIVA" checked>
+                <span>Nominativa</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="tipoMarca" value="MISTA">
+                <span>Mista</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="tipoMarca" value="FIGURATIVA">
+                <span>Figurativa</span>
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="urgencia">Urgência</label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="urgencia" value="NORMAL" checked>
+                <span>Normal</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="urgencia" value="URGENTE">
+                <span>Urgente</span>
+              </label>
+            </div>
           </div>
         </div>
 
@@ -200,6 +214,7 @@
         classes: document.getElementById('classes').value.trim(),
         formaPagamento: document.getElementById('formaPagamento').value,
         tipoMarca: document.querySelector('input[name="tipoMarca"]:checked')?.value || 'NOMINATIVA',
+        urgencia: document.querySelector('input[name="urgencia"]:checked')?.value || 'NORMAL',
         notaAdicional: document.getElementById('notaAdicional').value.trim(),
         laudoTaskId: laudoData.id || null,
       };
